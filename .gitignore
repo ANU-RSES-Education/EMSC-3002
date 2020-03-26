@@ -1,5 +1,16 @@
-# local files from examples
+# Outputs from the Examples
 
+Ico*png 
+Oct*png 
+Random.png 
+Ring.png 
+SoccerBall.png 
+Cube.png 
+
+LA_Basin_ShadedRelief.png
+LA_Region_ShadedRelief.png
+Litho*.png
+## or this: 
 /*.png
 
 
