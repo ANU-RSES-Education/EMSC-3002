@@ -26,11 +26,11 @@ jobs:
     # Updates packages / reconfig tljh then reloads just in case
     - name: Install tljh from scratch then update the packages
       env:  
-        SSHPASS: ${{ secrets.DROPLET_PASS }}
-        HUBADMIN: ${{ secrets.HUBADMIN_USER }}
+        SSHPASS:       ${{ secrets.DROPLET_PASS }}
+        HUBADMIN:      ${{ secrets.HUBADMIN_USER }}
         HUBADMIN_PASS: ${{ secrets.HUBADMIN_PASSWORD }}
       run: |
-        sshpass -e ssh -o StrictHostKeyChecking=no root@${{ secrets.DROPLET_IP }} hostname
+        sudo sshpass -e ssh -o StrictHostKeyChecking=no root@${{ secrets.DROPLET_IP }} "hostname"
         sshpass -e ssh root@${{ secrets.DROPLET_IP }} "curl https://raw.githubusercontent.com/jupyterhub/the-littlest-jupyterhub/master/bootstrap/bootstrap.py | sudo python3 -  --admin lmoresi --admin $HUBADMIN:$HUBADMIN_PASS" 
         sshpass -e ssh root@${{ secrets.DROPLET_IP }} "sudo tljh-config reload hub"
 
