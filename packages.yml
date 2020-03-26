@@ -4,7 +4,12 @@ channels:
     - underworldcode
 dependencies:
     - stripy
+    - litho1pt0
     - quagmire
-    - nb_conda_kernels
-    
+    - cartopy
+    - obspy
+    - pandas
+    - pip 
+
+
 

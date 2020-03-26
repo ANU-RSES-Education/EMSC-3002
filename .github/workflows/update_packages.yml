@@ -1,10 +1,9 @@
-name: Initialise
+
+name: Update packages
 
 on:
-  push:
-    branches: [ testing ]
-  pull_request:
-    branches: [ testing ]
+  push
+
 
 # A workflow run is made up of one or more jobs that can run sequentially or in parallel
 jobs:
