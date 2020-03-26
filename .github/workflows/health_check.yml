@@ -2,7 +2,8 @@ name: Health check
 
 on:
   schedule: 
-    - cron:  '*/15 * * * *'  # Every 15 minutes
+    - cron:  '*/30 * * * *'  # Every 30 minutes
+
   push:
     branches: [ testing ]
 
@@ -22,5 +23,13 @@ jobs:
       run: |
         curl http://${{ secrets.DROPLET_IP }}/hub/api
 
+       # Updates packages / reconfig tljh then reloads just in case
+    - name: Reload hub if the health check failed
+      if: failure()
+      env:  
+        SSHPASS: ${{ secrets.DROPLET_PASS }}
+      run: |
+        sshpass -e ssh -o StrictHostKeyChecking=no root@${{ secrets.DROPLET_IP }} hostname
+        sshpass -e ssh root@${{ secrets.DROPLET_IP }} "sudo tljh-config reload hub"
         
       
