@@ -24,7 +24,7 @@ jobs:
       
 
     # Updates packages / reconfig tljh then reloads just in case
-    - name: Install conda packages from packages.yml file
+    - name: Install tljh from scratch then update the packages
       env:  
         SSHPASS: ${{ secrets.DROPLET_PASS }}
         HUBADMIN: ${{ secrets.HUBADMIN_USER }}
@@ -33,3 +33,6 @@ jobs:
         sshpass -e ssh -o StrictHostKeyChecking=no root@${{ secrets.DROPLET_IP }} hostname
         sshpass -e ssh root@${{ secrets.DROPLET_IP }} "curl https://raw.githubusercontent.com/jupyterhub/the-littlest-jupyterhub/master/bootstrap/bootstrap.py | sudo python3 -  --admin lmoresi --admin $HUBADMIN:$HUBADMIN_PASS" 
         sshpass -e ssh root@${{ secrets.DROPLET_IP }} "sudo tljh-config reload hub"
+
+        sshpass -e scp packages.yml root@${{ secrets.DROPLET_IP }}:packages.yml
+        sshpass -e ssh root@${{ secrets.DROPLET_IP }} 'sudo -E /opt/tljh/user/bin/conda env update --file packages.yml'
