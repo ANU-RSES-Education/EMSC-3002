@@ -30,9 +30,9 @@ jobs:
         HUBADMIN:      ${{ secrets.HUBADMIN_USER }}
         HUBADMIN_PASS: ${{ secrets.HUBADMIN_PASSWORD }}
       run: |
-        sudo sshpass -e ssh -o StrictHostKeyChecking=no root@${{ secrets.DROPLET_IP }} "hostname"
-        sshpass -e ssh root@${{ secrets.DROPLET_IP }} "curl https://raw.githubusercontent.com/jupyterhub/the-littlest-jupyterhub/master/bootstrap/bootstrap.py | sudo python3 -  --admin lmoresi --admin $HUBADMIN:$HUBADMIN_PASS" 
-        sshpass -e ssh root@${{ secrets.DROPLET_IP }} "sudo tljh-config reload hub"
+        sudo -E sshpass -e ssh -o StrictHostKeyChecking=no root@${{ secrets.DROPLET_IP }} "hostname"
+        sudo -E sshpass -e ssh root@${{ secrets.DROPLET_IP }} "curl https://raw.githubusercontent.com/jupyterhub/the-littlest-jupyterhub/master/bootstrap/bootstrap.py | sudo python3 -  --admin lmoresi --admin $HUBADMIN:$HUBADMIN_PASS" 
+        sudo -E sshpass -e ssh root@${{ secrets.DROPLET_IP }} "sudo tljh-config reload hub"
 
-        sshpass -e scp packages.yml root@${{ secrets.DROPLET_IP }}:packages.yml
-        sshpass -e ssh root@${{ secrets.DROPLET_IP }} 'sudo -E /opt/tljh/user/bin/conda env update --file packages.yml'
+        sudo -E sshpass -e scp packages.yml root@${{ secrets.DROPLET_IP }}:packages.yml
+        sudo -E sshpass -e ssh root@${{ secrets.DROPLET_IP }} 'sudo -E /opt/tljh/user/bin/conda env update -n base --file packages.yml'
