@@ -31,7 +31,7 @@ jobs:
         HUBADMIN_PASS: ${{ secrets.HUBADMIN_PASSWORD }}
       run: |
         sudo -E sshpass -e ssh -o StrictHostKeyChecking=no root@${{ secrets.DROPLET_IP }} "hostname"
-        sudo -E sshpass -e ssh root@${{ secrets.DROPLET_IP }} "curl https://raw.githubusercontent.com/jupyterhub/the-littlest-jupyterhub/master/bootstrap/bootstrap.py | sudo python3 -  --admin lmoresi --admin $HUBADMIN:$HUBADMIN_PASS" 
+        sudo -E sshpass -e ssh root@${{ secrets.DROPLET_IP }} "curl https://raw.githubusercontent.com/jupyterhub/the-littlest-jupyterhub/master/bootstrap/bootstrap.py | sudo python3 -  --admin $HUBADMIN:$HUBADMIN_PASS" 
         sudo -E sshpass -e ssh root@${{ secrets.DROPLET_IP }} "sudo tljh-config reload hub"
 
         sudo -E sshpass -e scp packages.yml root@${{ secrets.DROPLET_IP }}:packages.yml
