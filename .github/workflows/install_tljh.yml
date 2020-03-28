@@ -27,8 +27,8 @@ jobs:
     - name: Install tljh from scratch then update the packages
       env:  
         SSHPASS:       ${{ secrets.DROPLET_PASS }} 
-        HUBADMIN:      ${ ${{ secrets.HUBADMIN_USER }} := "rses_hubadmin" }
-        HUBADMIN_PASS: ${ ${{ secrets.HUBADMIN_PASSWORD }} := "t4$%^&*****hdhjbviugrvbjfeuvgyhjbufewovgci" }
+        HUBADMIN:      ${${{ secrets.HUBADMIN_USER }}:-"rses_hubadmin" }
+        HUBADMIN_PASS: ${${{ secrets.HUBADMIN_PASSWORD }}:-"t4747465hdhjbviug789876rvbjfeuvgyhjbufewovgci" }
         REMOTE_SH:     "sudo -E sshpass -e ssh -o StrictHostKeyChecking=no root@${{ secrets.DROPLET_IP }}"
       run: |
         $REMOTE_SH "hostname"
