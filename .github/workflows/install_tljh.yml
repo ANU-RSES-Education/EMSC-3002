@@ -26,21 +26,22 @@ jobs:
     # Updates packages / reconfig tljh then reloads just in case
     - name: Install tljh from scratch then update the packages
       env:  
-        SSHPASS:       ${{ secrets.DROPLET_PASS }}
-        HUBADMIN:      ${{ secrets.HUBADMIN_USER }}
-        HUBADMIN_PASS: ${{ secrets.HUBADMIN_PASSWORD }}
+        SSHPASS:       ${{ secrets.DROPLET_PASS }} 
+        HUBADMIN:      ${ ${{ secrets.HUBADMIN_USER }} := "rses_hubadmin" }
+        HUBADMIN_PASS: ${ ${{ secrets.HUBADMIN_PASSWORD }} := "t4$%^&*****hdhjbviugrvbjfeuvgyhjbufewovgci" }
+        REMOTE_SH:     "sudo -E sshpass -e ssh -o StrictHostKeyChecking=no root@${{ secrets.DROPLET_IP }}"
       run: |
-        sudo -E sshpass -e ssh -o StrictHostKeyChecking=no root@${{ secrets.DROPLET_IP }} "hostname"
-        sudo -E sshpass -e ssh root@${{ secrets.DROPLET_IP }} "curl https://raw.githubusercontent.com/jupyterhub/the-littlest-jupyterhub/master/bootstrap/bootstrap.py | sudo python3 -  --admin $HUBADMIN:$HUBADMIN_PASS" 
-        sudo -E sshpass -e ssh root@${{ secrets.DROPLET_IP }} "sudo tljh-config reload hub"
+        $REMOTE_SH "hostname"
+        $REMOTE_SH "curl https://raw.githubusercontent.com/jupyterhub/the-littlest-jupyterhub/master/bootstrap/bootstrap.py | sudo python3 -  --admin $HUBADMIN:$HUBADMIN_PASS" 
+        $REMOTE_SH "sudo tljh-config reload hub"
 
         sudo -E sshpass -e scp packages.yml root@${{ secrets.DROPLET_IP }}:packages.yml
-        sudo -E sshpass -e ssh root@${{ secrets.DROPLET_IP }} 'sudo -E /opt/tljh/user/bin/conda env update -n base --file packages.yml'
+        $REMOTE_SH 'sudo -E /opt/tljh/user/bin/conda env update -n base --file packages.yml'
 
         # Notebook extensions are handled like this 
-        sudo -E sshpass -e ssh root@${{ secrets.DROPLET_IP }} 'sudo -E /opt/tljh/user/bin/pip install jupyter_contrib_nbextensions'
-        sudo -E sshpass -e ssh root@${{ secrets.DROPLET_IP }} 'sudo -E /opt/tljh/user/bin/jupyter contrib nbextension install --sys-prefix'
-        sudo -E sshpass -e ssh root@${{ secrets.DROPLET_IP }} 'sudo -E /opt/tljh/user/bin/jupyter nbextension enable freeze/main'
+        $REMOTE_SH 'sudo -E /opt/tljh/user/bin/pip install jupyter_contrib_nbextensions'
+        $REMOTE_SH 'sudo -E /opt/tljh/user/bin/jupyter contrib nbextension install --sys-prefix'
+        $REMOTE_SH 'sudo -E /opt/tljh/user/bin/jupyter nbextension enable freeze/main'
 
 
         
