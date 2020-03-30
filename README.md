@@ -33,9 +33,7 @@ The full set of instructions is given in the [Documentation](Documentation) fold
 
 ## Try out the Nbgitpuller
 
-To make a "binder-like" link to a repository on a droplet that you have set up, you can do this:
-
-[https://jupyterhub.github.io/nbgitpuller/link.html](https://jupyterhub.github.io/nbgitpuller/link.html)
+To make a "binder-like" link to a repository on a droplet that you have set up, you can read the [nbgitpuller documentation](https://jupyterhub.github.io/nbgitpuller/link.html) or fill out a form here:
 
 [![https://img.shields.io/badge/<LABEL>-<MESSAGE>-<COLOR>](https://img.shields.io/badge/Admin-LinkMaker-Red)](https://jupyterhub.github.io/nbgitpuller/link.html?hub=http://128.199.153.60&repo=https://github.com/ANU-RSES-Education/droplet-template)
 
@@ -47,15 +45,15 @@ You can launch this example particular example to try it out by clicking on this
     
 If the hub has a signup page it can be reached here:
     
-[![https://img.shields.io/badge/<LABEL>-<MESSAGE>-<COLOR>](https://img.shields.io/badge/User-Signup-Blue)](http://128.199.153.60/hub/signup)
+[![Signup](https://img.shields.io/badge/User-Signup-Blue)](http://128.199.153.60/hub/signup)
 
 And the corresponding page for an admin user to authorise the users after they sign-up is
     
-[![https://img.shields.io/badge/<LABEL>-<MESSAGE>-<COLOR>](https://img.shields.io/badge/Admin-Authorize-Red)](http://128.199.153.60/hub/authorize)
+[![Authorize](https://img.shields.io/badge/Admin-Authorize-Red)](http://128.199.153.60/hub/authorize)
    
 Admin users also have access to the hub control panel to shut down wayward servers and add / remove users. 
     
-[![https://img.shields.io/badge/<LABEL>-<MESSAGE>-<COLOR>](https://img.shields.io/badge/Admin-Control Panel-Red)](http://128.199.153.60/hub/authorize)
+[![ControlPanel](https://img.shields.io/badge/Admin-HubControlPanel-Red)](http://128.199.153.60/hub/admin)
     
     
 
