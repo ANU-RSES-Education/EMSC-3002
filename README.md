@@ -45,7 +45,7 @@ You can launch this example particular example to try it out by clicking on this
     
 If the hub has a signup page it can be reached here:
     
-[![Signup](https://img.shields.io/badge/User-Signup-Blue)](http://128.199.153.60/hub/signup)
+[![Signup](https://img.shields.io/badge/User-Signup-blue)](http://128.199.153.60/hub/signup)
 
 And the corresponding page for an admin user to authorise the users after they sign-up is
     
