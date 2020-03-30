@@ -39,10 +39,24 @@ To make a "binder-like" link to a repository on a droplet that you have set up, 
 
 [![https://img.shields.io/badge/<LABEL>-<MESSAGE>-<COLOR>](https://img.shields.io/badge/Admin-LinkMaker-Red)](https://jupyterhub.github.io/nbgitpuller/link.html?hub=http://128.199.153.60&repo=https://github.com/ANU-RSES-Education/droplet-template)
 
-
-
 You can launch this example particular example to try it out by clicking on this link. Your work is persistent. 
 
 [![https://img.shields.io/badge/<LABEL>-<MESSAGE>-<COLOR>](https://img.shields.io/badge/Launch-Demo-blue)](http://128.199.153.60/hub/user-redirect/git-pull?repo=https%3A%2F%2Fgithub.com%2FANU-RSES-Education%2Fdroplet-template&urlpath=tree%2Fdroplet-template%2FStartHere.ipynb&branch=master)
+    
+## Administration tasks
+    
+If the hub has a signup page it can be reached here:
+    
+[![https://img.shields.io/badge/<LABEL>-<MESSAGE>-<COLOR>](https://img.shields.io/badge/User-Signup-Blue)](http://128.199.153.60/hub/signup)
+
+And the corresponding page for an admin user to authorise the users after they sign-up is
+    
+[![https://img.shields.io/badge/<LABEL>-<MESSAGE>-<COLOR>](https://img.shields.io/badge/Admin-Authorize-Red)](http://128.199.153.60/hub/authorize)
+   
+Admin users also have access to the hub control panel to shut down wayward servers and add / remove users. 
+    
+[![https://img.shields.io/badge/<LABEL>-<MESSAGE>-<COLOR>](https://img.shields.io/badge/Admin-Control Panel-Red)](http://128.199.153.60/hub/authorize)
+    
+    
 
 
