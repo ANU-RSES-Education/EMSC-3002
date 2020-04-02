@@ -39,8 +39,9 @@ jobs:
         $REMOTE_SH 'sudo -E /opt/tljh/user/bin/conda env update -n base --file packages.yml'
 
         # Update/Install apt-get packages
-        sudo -E sshpass -e scp apt_get_packages.txt root@${{ secrets.DROPLET_IP }}:apt_get_packages.txt
-        $REMOTE_SH 'sudo -E sed '/^[[:blank:]]*#/d;s/#.*//' apt_get_packages.txt > apt_get_packages_no_comment.txt'
-        $REMOTE_SH 'sudo -E xargs apt-get install < apt_get_packages_no_comment.txt'
+
+        sed '/^[[:blank:]]*#/d;s/#.*//' apt_get_packages.txt > apt_get_packages_no_comment.txt
+        sudo -E sshpass -e scp apt_get_packages_no_comment.txt root@${{ secrets.DROPLET_IP }}:apt_get_packages.txt
+        $REMOTE_SH 'sudo -E xargs apt-get install < apt_get_packages.txt'
  
         $REMOTE_SH "sudo tljh-config reload hub"
