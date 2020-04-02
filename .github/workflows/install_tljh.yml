@@ -39,9 +39,18 @@ jobs:
 
         $REMOTE_SH "sudo tljh-config reload hub"
 
-        # Update/Install packages 
-        sudo -E sshpass -e scp packages.yml root@${{ secrets.DROPLET_IP }}:packages.yml
-        $REMOTE_SH 'sudo -E /opt/tljh/user/bin/conda env update -n base --file packages.yml'
+        # Update/Install apt-get packages
+        sudo -E sshpass -e scp apt_get_packages.txt root@${{ secrets.DROPLET_IP }}:apt_get_packages.txt
+        $REMOTE_SH 'sudo -E sed '/^[[:blank:]]*#/d;s/#.*//' apt_get_packages.txt > apt_get_packages_no_comment.txt'
+        $REMOTE_SH 'sudo -E xargs apt-get install < apt_get_packages_no_comment.txt'
+ 
+        # Update/Install python packages 
+        sudo -E sshpass -e scp conda_packages.yml root@${{ secrets.DROPLET_IP }}:conda_packages.yml
+        $REMOTE_SH 'sudo -E /opt/tljh/user/bin/conda env update -n base --file conda_packages.yml'
+        
+        # This is the lavavu install (note, lavavu introduces the list of apt-get dependencies)
+        # $REMOTE_SH 'sudo apt-get install libgl1-mesa-dev libglu1-mesa-dev freeglut3-dev mesa-common-dev libglu1-mesa-dev libx11-dev xvfb'
+        $REMOTE_SH 'sudo -E pip install lavavu xvfbwrapper"
 
         # Notebook extensions are handled like this 
         $REMOTE_SH 'sudo -E /opt/tljh/user/bin/pip install jupyter_contrib_nbextensions'
