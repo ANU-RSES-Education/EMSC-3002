@@ -38,6 +38,16 @@ jobs:
         $REMOTE_SH "sudo tljh-config set auth.type nativeauthenticator.NativeAuthenticator"
         $REMOTE_SH "sudo tljh-config reload hub"
 
+        # And this changes the default to use jupyterlab
+        $REMOTE_SH "sudo tljh-config set user_environment.default_app jupyterlab"
+
+        # Idle timeout 
+        $REMOTE_SH "sudo tljh-config set services.cull.timeout 1800"
+
+        # Activate all the above changes by reloading the hub 
+        $REMOTE_SH "sudo tljh-config reload hub"
+
+
         # Update/Install apt-get packages
         sed '/^[[:blank:]]*#/d;s/#.*//' apt_get_packages.txt > apt_get_packages_no_comment.txt
         sudo -E sshpass -e scp apt_get_packages_no_comment.txt root@${{ secrets.DROPLET_IP }}:apt_get_packages.txt
@@ -61,8 +71,6 @@ jobs:
         $REMOTE_SH "sudo tljh-config set https.letsencrypt.email diablo@underworldcode.org"
         $REMOTE_SH "sudo tljh-config add-item https.letsencrypt.domains ${{ secrets.DROPLET_IP }}"
         $REMOTE_SH "sudo tljh-config reload proxy"
-
-        # jupytext 
 
 
 
