@@ -10,8 +10,6 @@ dependencies:
     - obspy
     - pandas
     - pip 
-    - jupyterlab>=2 
-    - jupytext
     - libiconv  # Not sure why this is not a dependency of lxml (conda bug)
 
 
