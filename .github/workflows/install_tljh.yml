@@ -62,6 +62,8 @@ jobs:
         $REMOTE_SH "sudo tljh-config add-item https.letsencrypt.domains ${{ secrets.DROPLET_IP }}"
         $REMOTE_SH "sudo tljh-config reload proxy"
 
+        # jupytext 
+        
 
 
         
