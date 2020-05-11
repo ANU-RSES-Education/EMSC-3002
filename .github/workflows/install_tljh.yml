@@ -42,7 +42,7 @@ jobs:
         # Update/Install apt-get packages
         sed '/^[[:blank:]]*#/d;s/#.*//' apt_get_packages.txt > apt_get_packages_no_comment.txt
         sudo -E sshpass -e scp apt_get_packages_no_comment.txt root@${{ secrets.DROPLET_IP }}:apt_get_packages.txt
-        $REMOTE_SH 'sudo -E xargs apt-get install < apt_get_packages.txt'
+        $REMOTE_SH 'sudo -E xargs apt-get -y install < apt_get_packages.txt'
   
         # Update/Install python packages 
         sudo -E sshpass -e scp conda_packages.yml root@${{ secrets.DROPLET_IP }}:conda_packages.yml
