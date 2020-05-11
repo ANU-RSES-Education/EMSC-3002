@@ -56,6 +56,14 @@ jobs:
         $REMOTE_SH 'sudo -E /opt/tljh/user/bin/pip install jupyter_contrib_nbextensions'
         $REMOTE_SH 'sudo -E /opt/tljh/user/bin/jupyter contrib nbextension install --sys-prefix'
         $REMOTE_SH 'sudo -E /opt/tljh/user/bin/jupyter nbextension enable freeze/main'
+        
+        # And this is how to enable https via letsencrypt (see tljh docs for details)
+
+        $REMOTE_SH 'sudo tljh-config set https.enabled true'
+        $REMOTE_SH 'sudo tljh-config set https.letsencrypt.email diablo@underworldcode.org'
+        $REMOTE_SH "sudo tljh-config add-item https.letsencrypt.domains ${{ secrets.DROPLET_IP }}"
+        $REMOTE_SH "sudo tljh-config reload proxy"
+
 
 
         
