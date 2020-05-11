@@ -36,7 +36,6 @@ jobs:
         
         # This is optional if you want to use a different authenticator
         $REMOTE_SH "sudo tljh-config set auth.type nativeauthenticator.NativeAuthenticator"
-
         $REMOTE_SH "sudo tljh-config reload hub"
 
         # Update/Install apt-get packages
@@ -50,7 +49,7 @@ jobs:
         
         # This is the lavavu install (note, lavavu introduces the list of apt-get dependencies)
         # $REMOTE_SH 'sudo apt-get install libgl1-mesa-dev libglu1-mesa-dev freeglut3-dev mesa-common-dev libglu1-mesa-dev libx11-dev xvfb'
-        $REMOTE_SH 'sudo -E pip install lavavu xvfbwrapper"
+        $REMOTE_SH "sudo -E pip install lavavu xvfbwrapper"
 
         # Notebook extensions are handled like this 
         $REMOTE_SH 'sudo -E /opt/tljh/user/bin/pip install jupyter_contrib_nbextensions'
