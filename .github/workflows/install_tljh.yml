@@ -32,7 +32,7 @@ jobs:
         REMOTE_SH:     "sudo -E sshpass -e ssh -o StrictHostKeyChecking=no root@${{ secrets.DROPLET_IP }}"
       run: |
         $REMOTE_SH "hostname"
-        $REMOTE_SH "curl https://raw.githubusercontent.com/jupyterhub/the-littlest-jupyterhub/master/bootstrap/bootstrap.py | sudo python3 -  --admin $HUBADMIN:$HUBADMIN_PASS" 
+        $REMOTE_SH "curl https://raw.githubusercontent.com/underworld-geodynamics-cloud/the-littlest-jupyterhub/master/bootstrap/bootstrap.py | sudo python3 -  --admin $HUBADMIN:$HUBADMIN_PASS" 
         
         # This is optional if you want to use a different authenticator
         $REMOTE_SH "sudo tljh-config set auth.type nativeauthenticator.NativeAuthenticator"
@@ -51,10 +51,10 @@ jobs:
         # $REMOTE_SH 'sudo apt-get install libgl1-mesa-dev libglu1-mesa-dev freeglut3-dev mesa-common-dev libglu1-mesa-dev libx11-dev xvfb'
         $REMOTE_SH "sudo -E /opt/tljh/user/bin/pip install lavavu xvfbwrapper"
 
-        # Notebook extensions are handled like this 
-        $REMOTE_SH 'sudo -E /opt/tljh/user/bin/pip install jupyter_contrib_nbextensions'
-        $REMOTE_SH 'sudo -E /opt/tljh/user/bin/jupyter contrib nbextension install --sys-prefix'
-        $REMOTE_SH 'sudo -E /opt/tljh/user/bin/jupyter nbextension enable freeze/main'
+        # # Notebook extensions are handled like this (mostly this does not work well with current versions of notebook)
+        # $REMOTE_SH 'sudo -E /opt/tljh/user/bin/pip install jupyter_contrib_nbextensions'
+        # $REMOTE_SH 'sudo -E /opt/tljh/user/bin/jupyter contrib nbextension install --sys-prefix'
+        # $REMOTE_SH 'sudo -E /opt/tljh/user/bin/jupyter nbextension enable freeze/main'
         
         # And this is how to enable https via letsencrypt (see tljh docs for details)
         $REMOTE_SH "sudo tljh-config set https.enabled true"
@@ -63,7 +63,7 @@ jobs:
         $REMOTE_SH "sudo tljh-config reload proxy"
 
         # jupytext 
-        
+
 
 
         
