@@ -24,6 +24,8 @@ is autoatically monitored:
 The full set of instructions is given in the [Documentation](Documentation) folder. The steps are:
 
   - Create a suitable server ([instructions are for a Digital Ocean droplet](Documentation/DigitalOcean.md))
+     - NOTE - the installation that is used here does not build in the smallest D.O droplet size of 1Gb no matter how
+              many times we messed with the configuration options so please use a minimum 2Gb size ... 
   - Make a clone of this template repository (See [Github.md](Documentation/Github.md))
   - Update the cloned repository with information about the server that you have set up:
      - Update the SECRETS in the settings for the new repository to include these:
