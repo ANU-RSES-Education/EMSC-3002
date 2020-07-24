@@ -25,8 +25,17 @@ The full set of instructions is given in the [Documentation](Documentation) fold
 
   - Create a suitable server ([instructions are for a Digital Ocean droplet](Documentation/DigitalOcean.md))
   - Make a clone of this template repository (See [Github.md](Documentation/Github.md))
-  - Update the cloned repository with information about the server that you have set up
-  - Commit the updates on Github to trigger the build / rebuild of the content of the server
+  - Update the cloned repository with information about the server that you have set up:
+     - Update the SECRETS in the settings for the new repository to include these:
+        - DROPLET_IP :: either the numerical IP or the hostname if available (must be hostname for https to be enabled)
+        - DROPLET_PASS ::  root password for the droplet (needed for installation of tljh)
+        - HUBADMIN_USER :: the admin user when you first log into jupyter hub (to add more users)
+        - HUBADMIN_PASS :: corresponding password 
+     - In the /github/workflows directory there is an installer file that can change some of the tljh defaults
+     - Update the ubuntu packages and conda / pip packages in the 
+  - Commit the updates on Github to trigger the build / rebuild of the content of the server.
+       Note that you may trigger failing builds if you do all your editing on github the first time around -but that can be ignored.
+  - Update any details in the SERVER_ID file if you need to trigger a new build at any time
   - Create links for `nbgitpuller` for users of the server and test them (See [nbgitpuller.md](Documentation/nbgitpuller.md )) 
   - Add your users to the `jupyterhub` ([ManagingUsers.md](Documentation/ManagingUsers.md))
 
