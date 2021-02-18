@@ -1,7 +1,7 @@
-name: required_environment
+name: base
 channels: 
     - conda-forge
-    - underworldcode
+    - geo-down-under
 dependencies:
     - stripy
     - litho1pt0
@@ -9,9 +9,9 @@ dependencies:
     - cartopy
     - obspy
     - pandas
-    - pip 
-    - libiconv  # Not sure why this is not a dependency of lxml (conda bug)
-    - jupytext
+    # - pip 
+    # - libiconv  # Not sure why this is not a dependency of lxml (conda bug)
+    # - jupytext
     
     
 
