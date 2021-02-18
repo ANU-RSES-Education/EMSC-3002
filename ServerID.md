@@ -17,4 +17,6 @@ Rebuilt droplet / test the installer workflow
   - Note: rebuilding the droplet resets the root password to a temporary value
   - Note: remove old ssh key as well using `ssh-keygen -R [hostname-or-IP]`
   - Switching to ubuntu 19 for testing purposes
+  - 2021.02.16 - upgrading to ubuntu 20 and scratching all content
+  - 
   
