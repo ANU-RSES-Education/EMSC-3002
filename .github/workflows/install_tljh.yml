@@ -32,13 +32,11 @@ jobs:
         REMOTE_SH:     "sudo -E sshpass -e ssh -o StrictHostKeyChecking=no root@${{ secrets.DROPLET_IP }}"
       
       run: |
-        
-        $REMOTE_SH 'sudo -E apt-get -y install nodejs npm'
-
-      
+                
         $REMOTE_SH "hostname"
+
+        $REMOTE_SH 'sudo -E apt-get -y install nodejs npm'
         $REMOTE_SH "curl -L https://tljh.jupyter.org/bootstrap.py | sudo python3 -  --admin $HUBADMIN:$HUBADMIN_PASS" 
-        # $REMOTE_SH "curl -L https://raw.githubusercontent.com/underworld-geodynamics-cloud/the-littlest-jupyterhub/master/bootstrap/bootstrap.py | sudo python3 -  --admin $HUBADMIN:$HUBADMIN_PASS" 
          
         # This is optional if you want to use a different authenticator (1st use authenticator is default - add users, then let them choose a password)
         # $REMOTE_SH "sudo tljh-config set auth.type nativeauthenticator.NativeAuthenticator"
@@ -61,7 +59,7 @@ jobs:
   
         # Update/Install python packages 
         sudo -E sshpass -e scp conda_packages.yml root@${{ secrets.DROPLET_IP }}:conda_packages.yml
-        $REMOTE_SH 'sudo -E /opt/tljh/user/bin/conda update -n base -c defaults conda'
+        # $REMOTE_SH 'sudo -E /opt/tljh/user/bin/conda update -n base -c defaults conda'
         $REMOTE_SH 'sudo -E /opt/tljh/user/bin/conda env update --file conda_packages.yml'
         
         # This is the lavavu install (note, lavavu introduces the list of apt-get dependencies)
