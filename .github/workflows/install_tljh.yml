@@ -33,7 +33,7 @@ jobs:
       
       run: |
         $REMOTE_SH "hostname"
-        $REMOTE_SH "curl https://raw.githubusercontent.com/underworld-geodynamics-cloud/the-littlest-jupyterhub/master/bootstrap/bootstrap.py | sudo python3 -  --admin $HUBADMIN:$HUBADMIN_PASS" 
+        $REMOTE_SH "curl https://tljh.jupyter.org/bootstrap.py | sudo python3 -  --admin $HUBADMIN:$HUBADMIN_PASS" 
         
         # This is optional if you want to use a different authenticator (1st use authenticator is default - add users, then let them choose a password)
         # $REMOTE_SH "sudo tljh-config set auth.type nativeauthenticator.NativeAuthenticator"
