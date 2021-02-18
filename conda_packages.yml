@@ -11,6 +11,9 @@ dependencies:
     - pandas
     - pip 
     - libiconv  # Not sure why this is not a dependency of lxml (conda bug)
+    - jupytext
+    
+    
 
 
 
