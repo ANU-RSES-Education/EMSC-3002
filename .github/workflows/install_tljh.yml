@@ -32,9 +32,7 @@ jobs:
         REMOTE_SH:     "sudo -E sshpass -e ssh -o StrictHostKeyChecking=no root@${{ secrets.DROPLET_IP }}"
       
       run: |
-                
         $REMOTE_SH "hostname"
-
         $REMOTE_SH 'sudo -E apt-get -y install nodejs npm'
         $REMOTE_SH "curl -L https://tljh.jupyter.org/bootstrap.py | sudo python3 -  --admin $HUBADMIN:$HUBADMIN_PASS" 
          
