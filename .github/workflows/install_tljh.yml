@@ -56,7 +56,7 @@ jobs:
   
         # Update/Install python packages 
         sudo -E sshpass -e scp conda_packages.yml root@${{ secrets.DROPLET_IP }}:conda_packages.yml
-        $REMOTE_SH 'sudo -E /opt/tljh/user/bin/conda env update -n base --file conda_packages.yml'
+        $REMOTE_SH 'sudo -E /opt/tljh/user/bin/conda env update --file conda_packages.yml'
         
         # This is the lavavu install (note, lavavu introduces the list of apt-get dependencies)
         # $REMOTE_SH 'sudo apt-get install libgl1-mesa-dev libglu1-mesa-dev freeglut3-dev mesa-common-dev libglu1-mesa-dev libx11-dev xvfb'
