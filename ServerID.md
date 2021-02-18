@@ -18,5 +18,5 @@ Rebuilt droplet / test the installer workflow
   - Note: remove old ssh key as well using `ssh-keygen -R [hostname-or-IP]`
   - Switching to ubuntu 19 for testing purposes
   - 2021.02.16 - upgrading to ubuntu 20 and scratching all content
-  - 
+  - 2021.02.16 - pick only the useful dependencies
   
