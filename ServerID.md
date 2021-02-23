@@ -8,7 +8,7 @@ There will be errors if the github secrets have not been set up
 
  - **IP Address:** http://128.199.153.60
  - **Hostname:** https://test.rses.underworldcloud.org 
- - **Release ID:** 0.1.0
+ - **Release ID:** 1.0.0
  - **Droplet Name:** ubuntu-rses-earth-sci-dev
  
  ## Comments
@@ -19,5 +19,5 @@ Rebuilt droplet / test the installer workflow
   - Switching to ubuntu 19 for testing purposes
   - 2021.02.16 - upgrading to ubuntu 20 and scratching all content
   - 2021.02.16 - pick only the useful dependencies
-  - 2021.02.17 - upgrade to jl 3.0 after installation
+  
   
