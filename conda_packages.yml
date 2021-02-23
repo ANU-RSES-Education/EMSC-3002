@@ -1,19 +1,18 @@
 name: base
 channels: 
     - conda-forge
-    - geo-down-under
+    - geo-down-under    
 dependencies:
     - stripy
     - litho1pt0
-    - quagmire
-    - cartopy
+    - proj=7.*.        # errors with cartopy when 6.2.* is used
+    - cartopy=0.17.*
     - obspy
     - pandas
-    # - pip 
-    # - libiconv  # Not sure why this is not a dependency of lxml (conda bug)
-    # - jupytext
-    
-    
-
+    - pip 
+    - libiconv
+    - pip:
+      - lavavu<1.7
+      
 
 
