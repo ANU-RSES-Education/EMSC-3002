@@ -33,7 +33,6 @@ jobs:
       
       run: |
         $REMOTE_SH "hostname"
-        $REMOTE_SH 'sudo -E apt-get -y install nodejs npm'
         $REMOTE_SH "curl -L https://tljh.jupyter.org/bootstrap.py | sudo python3 -  --admin $HUBADMIN:$HUBADMIN_PASS" 
          
         # This is optional if you want to use a different authenticator (1st use authenticator is default - add users, then let them choose a password)
