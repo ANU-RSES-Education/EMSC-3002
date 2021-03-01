@@ -42,6 +42,14 @@ The full set of instructions is given in the [Documentation](Documentation) fold
   - Add your users to the `jupyterhub` ([ManagingUsers.md](Documentation/ManagingUsers.md))
 
 
+
+## Using Jupyterbook
+
+
+
+
+
+
 ## Try out the Nbgitpuller
 
 To make a "binder-like" link to a repository on a droplet that you have set up, you can read the [nbgitpuller documentation](https://jupyterhub.github.io/nbgitpuller/link.html) or fill out a form here:
