@@ -44,7 +44,7 @@ jobs:
 
 
     - name: Miniconda 
-      uses: conda-incubator/setup-miniconda@v1
+      uses: conda-incubator/setup-miniconda@v2
       with:
           miniconda-version: "latest"
           environment-file: conda_packages.yml
