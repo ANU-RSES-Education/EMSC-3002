@@ -29,7 +29,7 @@ jobs:
     #   with:
     #     python-version: 3.7
 
-    - name: Cache conda
+    - name: Cache book files
       uses: actions/cache@v1
       env:
         # Increase this value to reset cache if etc/example-environment.yml has not changed
@@ -37,9 +37,9 @@ jobs:
       with:
         path: |
           ~/conda_pkgs_dir
-          /usr/share/miniconda3/envs/jupyter-book
-          ~/.cache/pip
-          ~/GeodynamicsJupyterBook/GeodynamicsJupyterBook/_build
+          # /usr/share/miniconda3/envs/jupyter-book
+          # ~/.cache/pip
+          ~/Jupyterbook/_build
         key: ${{ runner.os }}-conda-${{ env.CACHE_NUMBER }}-${{ hashFiles('conda_packages.yml') }}
 
 
