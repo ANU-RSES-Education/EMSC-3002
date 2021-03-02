@@ -37,8 +37,8 @@ jobs:
       with:
         path: |
           ~/conda_pkgs_dir
-          # /usr/share/miniconda3/envs/jupyter
-          # ~/.cache/pip
+          /usr/share/miniconda3/envs/jupyter
+          ~/.cache/pip
           ~/Jupyterbook/_build
         key: ${{ runner.os }}-conda-${{ env.CACHE_NUMBER }}-${{ hashFiles('conda_packages.yml') }}
 
