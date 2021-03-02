@@ -50,7 +50,7 @@ jobs:
           mamba-version: "*"
           channels: conda-forge,defaults
           channel-priority: true
-          activate-environment: jupyter-book 
+          activate-environment: base
           environment-file: conda_packages.yml
 
           # miniconda-version: "latest"
