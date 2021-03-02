@@ -37,19 +37,18 @@ jobs:
       with:
         path: |
           ~/conda_pkgs_dir
-          # /usr/share/miniconda3/envs/jupyter-book
+          # /usr/share/miniconda3/envs/jupyter
           # ~/.cache/pip
           ~/Jupyterbook/_build
         key: ${{ runner.os }}-conda-${{ env.CACHE_NUMBER }}-${{ hashFiles('conda_packages.yml') }}
 
 
-    - name: Miniconda 
+    - name: Miniconda / Miniforge
       uses: conda-incubator/setup-miniconda@v2
       with:
           miniforge-version: latest
-          # miniconda-version: "latest"
           environment-file: conda_packages.yml
-          # activate-environment: jupyter-book 
+          activate-environment: jupyter
           python-version: 3.8
           use-only-tar-bz2: true # IMPORTANT: This needs to be set for caching to work properly!
 
