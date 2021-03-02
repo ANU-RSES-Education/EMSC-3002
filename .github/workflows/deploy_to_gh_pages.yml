@@ -46,7 +46,7 @@ jobs:
     - name: Miniconda / Miniforge
       uses: conda-incubator/setup-miniconda@v2
       with:
-          miniforge-version: latest
+          miniconda-version: latest
           environment-file: conda_packages.yml
           activate-environment: jupyter
           python-version: 3.8
