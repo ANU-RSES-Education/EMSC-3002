@@ -2,9 +2,14 @@
  
 Notebooks/*.png
 
+# Jupyter Book build relics
+
+Jupyterbook/_build
+
 # IDE files
 
 /.vscode
+/.vscode/settings.json
 
 # Byte-compiled / optimized / DLL files
 __pycache__/
