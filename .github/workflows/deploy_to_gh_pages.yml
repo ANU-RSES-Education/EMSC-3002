@@ -46,19 +46,12 @@ jobs:
     - name: Miniconda 
       uses: conda-incubator/setup-miniconda@v2
       with:
-          python-version: 3.8
-          mamba-version: "*"
-          channels: conda-forge,defaults
-          channel-priority: true
-          # activate-environment: base
-          auto-activate-base: true
-          environment-file: conda_packages.yml
-
+          miniforge-version: latest
           # miniconda-version: "latest"
-          # environment-file: conda_packages.yml
+          environment-file: conda_packages.yml
           # activate-environment: jupyter-book 
-          # python-version: 3.7
-          # use-only-tar-bz2: true # IMPORTANT: This needs to be set for caching to work properly!
+          python-version: 3.8
+          use-only-tar-bz2: true # IMPORTANT: This needs to be set for caching to work properly!
 
 
     # Would be helpful to cache some of the installation
