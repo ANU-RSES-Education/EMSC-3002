@@ -51,6 +51,8 @@ the Notebooks directory.
 There is some additional configuration to make this work smoothly and you can read what needs to be done 
 in [Jupyterbook/README.md](Jupyterbook/README.md)
 
+For this example, you can see the [online version](https://underworld-geodynamics-cloud.github.io/self-managing-jupyterhub/FrontPage.html) which is automatically built by github using this repository.
+
 ## Try out the Nbgitpuller
 
 To make a "binder-like" link to a repository on a droplet that you have set up, you can read the [nbgitpuller documentation](https://jupyterhub.github.io/nbgitpuller/link.html) or fill out a form here:
