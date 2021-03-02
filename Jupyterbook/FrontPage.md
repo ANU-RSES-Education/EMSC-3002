@@ -1,6 +1,6 @@
 # Jupyterbook example
 
-```{figure} Diagrams/AuWorldEQ.jpg
+```{figure} Figures/AuWorldEQ.jpg
 ---
 width: 150mm
 name: mundus-subterraneus
