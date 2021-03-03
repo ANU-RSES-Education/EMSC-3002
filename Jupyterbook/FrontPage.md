@@ -1,6 +1,6 @@
 # Jupyterbook example
 
-```{figure} Diagrams/AuWorldEQ.jpg
+```{figure} Figures/AuWorldEQ.jpg
 ---
 width: 150mm
 name: mundus-subterraneus
@@ -11,3 +11,4 @@ Recent earthquakes coloured by depth with a map of the global landmasses project
 ## Welcome to the template
 
 This is the landing page for the example jupyterbook
+
