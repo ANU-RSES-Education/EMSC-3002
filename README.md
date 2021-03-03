@@ -45,10 +45,13 @@ The full set of instructions is given in the [Documentation](Documentation) fold
 
 ## Using Jupyterbook
 
+This repository also contains the information for building a jupyterbook using the notebooks that are in
+the Notebooks directory.
 
+There is some additional configuration to make this work smoothly and you can read what needs to be done 
+in [Jupyterbook/README.md](Jupyterbook/README.md)
 
-
-
+For this example, you can see the [online version](https://underworld-geodynamics-cloud.github.io/self-managing-jupyterhub/FrontPage.html) which is automatically built by github using this repository.
 
 ## Try out the Nbgitpuller
 
