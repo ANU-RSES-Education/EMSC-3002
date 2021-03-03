@@ -13,6 +13,9 @@ dependencies:
     - libiconv
     - pip:
       - lavavu<1.7
+      - xvfbwrapper 
+
+      
       
 
 
