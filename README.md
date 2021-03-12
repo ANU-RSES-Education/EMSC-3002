@@ -26,7 +26,8 @@ The full set of instructions is given in the [Documentation](Documentation) fold
   - Create a suitable server ([instructions are for a Digital Ocean droplet](Documentation/DigitalOcean.md))
      - NOTE - the installation that is used here does not build in the smallest D.O droplet size of 1Gb no matter how
               many times we messed with the configuration options so please use a minimum 2Gb size ... 
-  - Make a clone of this template repository (See [Github.md](Documentation/Github.md))
+  - Make a clone of this template repository (See [Github.md](Documentation/Github.md)) and, when asked, be sure to include all branches from the template. 
+
   - Update the cloned repository with information about the server that you have set up:
      - Update the SECRETS in the settings for the new repository to include these:
         - DROPLET_IP :: either the numerical IP or the hostname if available (must be hostname for https to be enabled)
@@ -37,10 +38,10 @@ The full set of instructions is given in the [Documentation](Documentation) fold
      - Update the ubuntu packages and conda / pip packages in the 
   - Commit the updates on Github to trigger the build / rebuild of the content of the server.
        Note that you may trigger failing builds if you do all your editing on github the first time around -but that can be ignored.
-  - Update any details in the SERVER_ID file if you need to trigger a new build at any time
+  - Update any details in the SERVER_ID file if you need to trigger a new build at any time (you can treat this 
+  as a change-log for the server component of the resository )
   - Create links for `nbgitpuller` for users of the server and test them (See [nbgitpuller.md](Documentation/nbgitpuller.md )) 
   - Add your users to the `jupyterhub` ([ManagingUsers.md](Documentation/ManagingUsers.md))
-
 
 
 ## Using Jupyterbook
