@@ -66,14 +66,14 @@ jobs:
 
         # Conda cache will not catch the pip installations (need to do this separately)
         pip install jupyter-book
-
+        npm install -g reveal-md
 
     # Build the book
     - name: Build the book
       shell: bash -l {0}
       run: |
         cd Jupyterbook 
-        jupyter-book build .
+        source build_book.sh
 
     # Push the book's HTML to github-pages
     - name: GitHub Pages action

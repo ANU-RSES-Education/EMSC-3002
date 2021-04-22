@@ -2,7 +2,7 @@
 
 ```{figure} Figures/AuWorldEQ.jpg
 ---
-width: 150mm
+width: 50mm
 name: mundus-subterraneus
 ---
 Recent earthquakes coloured by depth with a map of the global landmasses projected to 670km depth.

@@ -2,7 +2,7 @@
 title: Jupyterbook with built in Jupyterhub
 author: Louis Moresi 
 logo: Figures/AuWorldEQ.jpg
-exclude_patterns: ["README.md", "Notes/*", "Scripts/*"]
+exclude_patterns: ["README.md", "Notes/*", "Scripts/*", "Lectures/*.reveal.md"]
 
 latex:
   latex_documents:
@@ -18,6 +18,7 @@ parse:
 sphinx:
   config:
     mathjax_path: https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js
+    html_extra_path: ['Lectures/static_slides']
 
 
 repository:
@@ -33,5 +34,5 @@ launch_buttons:
 execute:
   # exclude_patterns:
   #   - File.ipynb
-
+  execute_notebooks: 'off'
   allow_errors : true # If `False`, when a code cell raises an error the execution is stopped, otherwise all cells are always run.
