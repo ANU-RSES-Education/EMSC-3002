@@ -140,3 +140,11 @@ dmypy.json
 
 # Pyre type checker
 .pyre/
+
+# reveal-md
+
+Lectures/_static
+Lectures/static_slides
+
+
+
