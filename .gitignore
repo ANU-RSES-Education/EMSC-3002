@@ -5,6 +5,7 @@ Notebooks/*.png
 # Jupyter Book build relics
 
 Jupyterbook/_build
+Jupyterbook/static_slides
 
 # IDE files
 
@@ -147,4 +148,4 @@ Lectures/_static
 Lectures/static_slides
 
 
-
+.DS_Store
