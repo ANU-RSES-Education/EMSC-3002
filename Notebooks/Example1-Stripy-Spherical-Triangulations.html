@@ -7,7 +7,8 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Example 1 - Triangulation of arbitrary points on the sphere &#8212; Jupyterbook with built in Jupyterhub</title>
     
-  <link rel="stylesheet" href="../_static/css/index.f658d18f9b420779cfdf24aa0a7e2d77.css">
+  <link href="../_static/css/theme.css" rel="stylesheet" />
+  <link href="../_static/css/index.c5995385ac14fb8791e8eb36b4908be2.css" rel="stylesheet" />
 
     
   <link rel="stylesheet"
@@ -19,14 +20,10 @@
 
     
       
-  <link rel="stylesheet"
-    href="../_static/vendor/open-sans_all/1.44.1/index.css">
-  <link rel="stylesheet"
-    href="../_static/vendor/lato_latin-ext/1.44.1/index.css">
 
     
     <link rel="stylesheet" href="../_static/pygments.css" type="text/css" />
-    <link rel="stylesheet" href="../_static/sphinx-book-theme.e7340bb3dbd8dde6db86f25597f54a1b.css" type="text/css" />
+    <link rel="stylesheet" href="../_static/sphinx-book-theme.acff12b8f9c144ce68a297486a2fa670.css" type="text/css" />
     <link rel="stylesheet" type="text/css" href="../_static/togglebutton.css" />
     <link rel="stylesheet" type="text/css" href="../_static/copybutton.css" />
     <link rel="stylesheet" type="text/css" href="../_static/mystnb.css" />
@@ -34,7 +31,7 @@
     <link rel="stylesheet" type="text/css" href="../_static/panels-main.c949a650a448cc0ae9fd3441c0e17fb0.css" />
     <link rel="stylesheet" type="text/css" href="../_static/panels-variables.06eb56fa6e07937060861dad626602ad.css" />
     
-  <link rel="preload" as="script" href="../_static/js/index.d3f166471bb80abb5163.js">
+  <link rel="preload" as="script" href="../_static/js/index.1c5a1a01449ed65a7b51.js">
 
     <script id="documentation_options" data-url_root="../" src="../_static/documentation_options.js"></script>
     <script src="../_static/jquery.js"></script>
@@ -44,7 +41,7 @@
     <script src="../_static/clipboard.min.js"></script>
     <script src="../_static/copybutton.js"></script>
     <script >var togglebuttonSelector = '.toggle, .admonition.dropdown, .tag_hide_input div.cell_input, .tag_hide-input div.cell_input, .tag_hide_output div.cell_output, .tag_hide-output div.cell_output, .tag_hide_cell.cell, .tag_hide-cell.cell';</script>
-    <script src="../_static/sphinx-book-theme.7d483ff0a819d6edff12ce0b1ead3928.js"></script>
+    <script src="../_static/sphinx-book-theme.12a9622fbb08dcb3a2a40b2c02b83a57.js"></script>
     <script async="async" src="https://unpkg.com/thebelab@latest/lib/index.js"></script>
     <script >
         const thebe_selector = ".thebe"
@@ -55,15 +52,15 @@
     <link rel="index" title="Index" href="../genindex.html" />
     <link rel="search" title="Search" href="../search.html" />
     <link rel="next" title="Example 2 - stripy smoothing operations" href="Example2-Stripy-Smoothing.html" />
-    <link rel="prev" title="Jupyterbook example" href="../FrontPage.html" />
-
+    <link rel="prev" title="EMSC 3002 - Structural Geology and Tectonics" href="../FrontPage.html" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
     <meta name="docsearch:language" content="en" />
-
-
-
+    
   </head>
   <body data-spy="scroll" data-target="#bd-toc-nav" data-offset="80">
+    
+    <div class="container-fluid" id="banner"></div>
+
     
 
     <div class="container-xl">
@@ -72,32 +69,32 @@
 <div class="col-12 col-md-3 bd-sidebar site-navigation show" id="site-navigation">
     
         <div class="navbar-brand-box">
-<a class="navbar-brand text-wrap" href="../index.html">
-  
-  <img src="../_static/AuWorldEQ.jpg" class="logo" alt="logo">
-  
-  
-  <h1 class="site-logo" id="site-title">Jupyterbook with built in Jupyterhub</h1>
-  
-</a>
+    <a class="navbar-brand text-wrap" href="../index.html">
+      
+      <img src="../_static/AuWorldEQ.jpg" class="logo" alt="logo">
+      
+      
+      <h1 class="site-logo" id="site-title">Jupyterbook with built in Jupyterhub</h1>
+      
+    </a>
 </div><form class="bd-search d-flex align-items-center" action="../search.html" method="get">
   <i class="icon fas fa-search"></i>
   <input type="search" class="form-control" name="q" id="search-input" placeholder="Search this book..." aria-label="Search this book..." autocomplete="off" >
-</form>
-<nav class="bd-links" id="bd-docs-nav" aria-label="Main navigation">
-    <ul class="nav sidenav_l1">
+</form><nav class="bd-links" id="bd-docs-nav" aria-label="Main navigation">
+    <div class="bd-toc-item active">
+        <ul class="nav bd-sidenav">
  <li class="toctree-l1">
   <a class="reference internal" href="../FrontPage.html">
-   Jupyterbook example
+   EMSC 3002 - Structural Geology and Tectonics
   </a>
  </li>
 </ul>
-<p class="caption collapsible-parent">
+<p class="caption">
  <span class="caption-text">
   Stripy
  </span>
 </p>
-<ul class="current nav sidenav_l1">
+<ul class="current nav bd-sidenav">
  <li class="toctree-l1 current active">
   <a class="current reference internal" href="#">
    Example 1 - Triangulation of arbitrary points on the sphere
@@ -115,24 +112,24 @@
   </a>
  </li>
 </ul>
-<p class="caption collapsible-parent">
+<p class="caption">
  <span class="caption-text">
   Cartopy
  </span>
 </p>
-<ul class="nav sidenav_l1">
+<ul class="nav bd-sidenav">
  <li class="toctree-l1">
   <a class="reference internal" href="Example3-Cartopy-WorkingWithShuttleRadarTopography.html">
    Cartopy and the Shuttle Radar Topography Map data
   </a>
  </li>
 </ul>
-<p class="caption collapsible-parent">
+<p class="caption">
  <span class="caption-text">
   Litho1.0
  </span>
 </p>
-<ul class="nav sidenav_l1">
+<ul class="nav bd-sidenav">
  <li class="toctree-l1">
   <a class="reference internal" href="Example4-Litho1pt0-Layers.html">
    Introduction to the stripy wrapper for litho 1.0
@@ -140,6 +137,7 @@
  </li>
 </ul>
 
+    </div>
 </nav> <!-- To handle the deprecated key -->
 
 <div class="navbar_extra_footer">
@@ -202,12 +200,12 @@
     </div>
 </div>
 
-
             <!-- Full screen (wrap in <a> to have style consistency -->
-            <a class="full-screen-button"><button type="button" class="btn btn-secondary topbarbtn" data-toggle="tooltip"
-                    data-placement="bottom" onclick="toggleFullScreen()" aria-label="Fullscreen mode"
-                    title="Fullscreen mode"><i
-                        class="fas fa-expand"></i></button></a>
+
+<a class="full-screen-button"><button type="button" class="btn btn-secondary topbarbtn" data-toggle="tooltip"
+        data-placement="bottom" onclick="toggleFullScreen()" aria-label="Fullscreen mode"
+        title="Fullscreen mode"><i
+            class="fas fa-expand"></i></button></a>
 
             <!-- Launch buttons -->
 
@@ -233,12 +231,11 @@
         <!-- Table of contents -->
         <div class="d-none d-md-block col-md-2 bd-toc show">
             
-        <div class="tocsection onthispage pt-5 pb-3">
-            <i class="fas fa-list"></i>
-            Contents
-        </div>
-        <nav id="bd-toc-nav">
-            <ul class="nav section-nav flex-column">
+            <div class="tocsection onthispage pt-5 pb-3">
+                <i class="fas fa-list"></i> Contents
+            </div>
+            <nav id="bd-toc-nav">
+                <ul class="visible nav section-nav flex-column">
  <li class="toc-h2 nav-item toc-entry">
   <a class="reference internal nav-link" href="#notebook-contents">
    Notebook contents
@@ -278,8 +275,7 @@
  </li>
 </ul>
 
-        </nav>
-        
+            </nav>
         </div>
     </div>
 </div>
@@ -2981,43 +2977,43 @@ var defaultcolourmaps = ["diverge", "isolum", "isorainbow", "cubelaw", "cubelaw2
 
 </script>
 </div><div class="output text_html"><script type="text/javascript">
-function init(viewerid) {_wi[viewerid] = new WindowInteractor(viewerid, 140366829166032, 8080);
+function init(viewerid) {_wi[viewerid] = new WindowInteractor(viewerid, 140595674934736, 8080);
 _wi[viewerid].actions = {
-  "CDONgd9OLt" : "select; specular=---VAL---; ",
-  "0RjgrwAMAE" : "select; axis=---VAL---; ",
-  "Srtba99boI" : "<triangulation>colour=---VAL---; ",
-  "V8SuOIOcJZ" : "<triangulation>visible=---VAL---; ",
-  "4PXcCF6dDK" : "<triangles>colour=---VAL---; ",
-  "IZdLEXOFsW" : "<triangles>visible=---VAL---; ",
-  "bInF9r2q5n" : "<nodes>colour=---VAL---; ",
-  "wyFTvjNFtT" : "<nodes>visible=---VAL---; "};
+  "rs6RHxgvSj" : "select; specular=---VAL---; ",
+  "RUzJFeBetr" : "select; axis=---VAL---; ",
+  "Jwhnu8OVke" : "<triangulation>colour=---VAL---; ",
+  "oydxT2xA9p" : "<triangulation>visible=---VAL---; ",
+  "aytCG9oYdS" : "<triangles>colour=---VAL---; ",
+  "G5H1TkHF14" : "<triangles>visible=---VAL---; ",
+  "xPd6zK4ODp" : "<nodes>colour=---VAL---; ",
+  "0Za2mMEcCl" : "<nodes>visible=---VAL---; "};
 }
 </script>
 <form novalidate><div style="padding:0px; margin: 0px; position: relative;" class="lvctrl">
 </div>
 <div style="min-height: 50px; min-width: 50px; position: relative; display: inline-block; float: right;">
-<img id="imgtarget_sEy8CZmv8J" draggable=false style="margin: 0px; border: 1px solid #aaa; display: inline-block;" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAEAAAABACAQAAAAAYLlVAAAAPUlEQVR42u3OMQEAAAgDINe/iSU1xh5IQPamKgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgLtwAMBsGqBDct9xQAAAABJRU5ErkJggg==">
+<img id="imgtarget_cn9Efblo8L" draggable=false style="margin: 0px; border: 1px solid #aaa; display: inline-block;" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAEAAAABACAQAAAAAYLlVAAAAPUlEQVR42u3OMQEAAAgDINe/iSU1xh5IQPamKgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgLtwAMBsGqBDct9xQAAAABJRU5ErkJggg==">
 
            <div style="display: none; z-index: 200; position: absolute; top: 5px; right: 5px;">
-             <select onchange="_wi['sEy8CZmv8J'].box.mode = this.value;">
+             <select onchange="_wi['cn9Efblo8L'].box.mode = this.value;">
                <option>Rotate</option>
                <option>Translate</option>
                <option>Zoom</option>
              </select>
-             <input type="button" value="Reset" onclick="_wi['sEy8CZmv8J'].execute('reset');">
+             <input type="button" value="Reset" onclick="_wi['cn9Efblo8L'].execute('reset');">
            </div></div>
 <div style="padding:0px; margin: 0px; position: relative;" class="lvctrl">
 <p>Specular:</p>
-<input id="lvctrl_CDONgd9OLt_number" class="lvctrl_CDONgd9OLt" type="number"min="0" max="1" step="0.1" data-property="specular" value="0.4" onchange="this.nextElementSibling.value=this.value; _wi['sEy8CZmv8J'].do_action('CDONgd9OLt', this.value, this);" >
-<input id="lvctrl_CDONgd9OLt_range" class="lvctrl_CDONgd9OLt" type="range"min="0" max="1" step="0.1" data-property="specular" value="0.4" onchange="this.previousElementSibling.value=this.value; _wi['sEy8CZmv8J'].do_action('CDONgd9OLt', this.value, this);" >
+<input id="lvctrl_rs6RHxgvSj_number" class="lvctrl_rs6RHxgvSj" type="number"min="0" max="1" step="0.1" data-property="specular" value="0.4" onchange="this.nextElementSibling.value=this.value; _wi['cn9Efblo8L'].do_action('rs6RHxgvSj', this.value, this);" >
+<input id="lvctrl_rs6RHxgvSj_range" class="lvctrl_rs6RHxgvSj" type="range"min="0" max="1" step="0.1" data-property="specular" value="0.4" onchange="this.previousElementSibling.value=this.value; _wi['cn9Efblo8L'].do_action('rs6RHxgvSj', this.value, this);" >
 <br>
 <label>
-<input id="lvctrl_0RjgrwAMAE_checkbox" class="lvctrl_0RjgrwAMAE" type="checkbox"checked="checked" step="any" data-property="axis" value="True" onchange="; _wi['sEy8CZmv8J'].do_action('0RjgrwAMAE', this.checked ? 1 : 0, this);" >
+<input id="lvctrl_RUzJFeBetr_checkbox" class="lvctrl_RUzJFeBetr" type="checkbox"checked="checked" step="any" data-property="axis" value="True" onchange="; _wi['cn9Efblo8L'].do_action('RUzJFeBetr', this.checked ? 1 : 0, this);" >
  Axis</label><br>
 <p>Objects:</p>
 
         <div class="colourbg checkerboard" style="border: #888 1px solid; display: inline-block; width: 20px; height: 20px;">
-          <div id="lvctrl_Srtba99boI" data-target="triangulation" data-property="colour"  class="colour lvctrl_Srtba99boI" onclick="
+          <div id="lvctrl_Jwhnu8OVke" data-target="triangulation" data-property="colour"  class="colour lvctrl_Jwhnu8OVke" onclick="
             var col = new Colour(this.style.backgroundColor);
             var offset = [this.getBoundingClientRect().left, this.getBoundingClientRect().top];
             var el = this;
@@ -3025,24 +3021,24 @@ _wi[viewerid].actions = {
               var c = new Colour(0);
               c.setHSV(val);
               el.style.backgroundColor = c.html();
-              _wi['sEy8CZmv8J'].do_action('Srtba99boI', c.html(), el);
+              _wi['cn9Efblo8L'].do_action('Jwhnu8OVke', c.html(), el);
             }
             el.picker = new ColourPicker(savefn);
             el.picker.pick(col, offset[0], offset[1]);">
           </div>
         </div>
         <script>
-        var el = document.getElementById("lvctrl_Srtba99boI");
+        var el = document.getElementById("lvctrl_Jwhnu8OVke");
         //Set the initial colour
         var col = new Colour('#444444');
         el.style.backgroundColor = col.html();
         </script>
         <label>
-<input id="lvctrl_V8SuOIOcJZ_checkbox" class="lvctrl_V8SuOIOcJZ" type="checkbox"checked="checked" step="any" data-target="triangulation" data-property="visible" value="True" onchange="; _wi['sEy8CZmv8J'].do_action('V8SuOIOcJZ', this.checked ? 1 : 0, this);" >
+<input id="lvctrl_oydxT2xA9p_checkbox" class="lvctrl_oydxT2xA9p" type="checkbox"checked="checked" step="any" data-target="triangulation" data-property="visible" value="True" onchange="; _wi['cn9Efblo8L'].do_action('oydxT2xA9p', this.checked ? 1 : 0, this);" >
  triangulation</label><br>
 
         <div class="colourbg checkerboard" style="border: #888 1px solid; display: inline-block; width: 20px; height: 20px;">
-          <div id="lvctrl_4PXcCF6dDK" data-target="triangles" data-property="colour"  class="colour lvctrl_4PXcCF6dDK" onclick="
+          <div id="lvctrl_aytCG9oYdS" data-target="triangles" data-property="colour"  class="colour lvctrl_aytCG9oYdS" onclick="
             var col = new Colour(this.style.backgroundColor);
             var offset = [this.getBoundingClientRect().left, this.getBoundingClientRect().top];
             var el = this;
@@ -3050,24 +3046,24 @@ _wi[viewerid].actions = {
               var c = new Colour(0);
               c.setHSV(val);
               el.style.backgroundColor = c.html();
-              _wi['sEy8CZmv8J'].do_action('4PXcCF6dDK', c.html(), el);
+              _wi['cn9Efblo8L'].do_action('aytCG9oYdS', c.html(), el);
             }
             el.picker = new ColourPicker(savefn);
             el.picker.pick(col, offset[0], offset[1]);">
           </div>
         </div>
         <script>
-        var el = document.getElementById("lvctrl_4PXcCF6dDK");
+        var el = document.getElementById("lvctrl_aytCG9oYdS");
         //Set the initial colour
         var col = new Colour('#77ff88');
         el.style.backgroundColor = col.html();
         </script>
         <label>
-<input id="lvctrl_IZdLEXOFsW_checkbox" class="lvctrl_IZdLEXOFsW" type="checkbox"checked="checked" step="any" data-target="triangles" data-property="visible" value="True" onchange="; _wi['sEy8CZmv8J'].do_action('IZdLEXOFsW', this.checked ? 1 : 0, this);" >
+<input id="lvctrl_G5H1TkHF14_checkbox" class="lvctrl_G5H1TkHF14" type="checkbox"checked="checked" step="any" data-target="triangles" data-property="visible" value="True" onchange="; _wi['cn9Efblo8L'].do_action('G5H1TkHF14', this.checked ? 1 : 0, this);" >
  triangles</label><br>
 
         <div class="colourbg checkerboard" style="border: #888 1px solid; display: inline-block; width: 20px; height: 20px;">
-          <div id="lvctrl_bInF9r2q5n" data-target="nodes" data-property="colour"  class="colour lvctrl_bInF9r2q5n" onclick="
+          <div id="lvctrl_xPd6zK4ODp" data-target="nodes" data-property="colour"  class="colour lvctrl_xPd6zK4ODp" onclick="
             var col = new Colour(this.style.backgroundColor);
             var offset = [this.getBoundingClientRect().left, this.getBoundingClientRect().top];
             var el = this;
@@ -3075,23 +3071,23 @@ _wi[viewerid].actions = {
               var c = new Colour(0);
               c.setHSV(val);
               el.style.backgroundColor = c.html();
-              _wi['sEy8CZmv8J'].do_action('bInF9r2q5n', c.html(), el);
+              _wi['cn9Efblo8L'].do_action('xPd6zK4ODp', c.html(), el);
             }
             el.picker = new ColourPicker(savefn);
             el.picker.pick(col, offset[0], offset[1]);">
           </div>
         </div>
         <script>
-        var el = document.getElementById("lvctrl_bInF9r2q5n");
+        var el = document.getElementById("lvctrl_xPd6zK4ODp");
         //Set the initial colour
         var col = new Colour('#448080');
         el.style.backgroundColor = col.html();
         </script>
         <label>
-<input id="lvctrl_wyFTvjNFtT_checkbox" class="lvctrl_wyFTvjNFtT" type="checkbox"checked="checked" step="any" data-target="nodes" data-property="visible" value="True" onchange="; _wi['sEy8CZmv8J'].do_action('wyFTvjNFtT', this.checked ? 1 : 0, this);" >
+<input id="lvctrl_0Za2mMEcCl_checkbox" class="lvctrl_0Za2mMEcCl" type="checkbox"checked="checked" step="any" data-target="nodes" data-property="visible" value="True" onchange="; _wi['cn9Efblo8L'].do_action('0Za2mMEcCl', this.checked ? 1 : 0, this);" >
  nodes</label><br>
 </div>
-</form><!-- CREATION TIMESTAMP 20210418112551 --><script>init('sEy8CZmv8J');</script></div></div>
+</form><!-- CREATION TIMESTAMP 20210427105347 --><script>init('cn9Efblo8L');</script></div></div>
 </div>
 </div>
 <div class="section" id="plot-and-compare-the-predefined-meshes">
@@ -3195,7 +3191,7 @@ The &#39;inframe&#39; parameter of draw() was deprecated in Matplotlib 3.3 and w
         
         <div class='prev-next-bottom'>
             
-    <a class='left-prev' id="prev-link" href="../FrontPage.html" title="previous page">Jupyterbook example</a>
+    <a class='left-prev' id="prev-link" href="../FrontPage.html" title="previous page">EMSC 3002 - Structural Geology and Tectonics</a>
     <a class='right-next' id="next-link" href="Example2-Stripy-Smoothing.html" title="next page">Example 2 - <code class="docutils literal notranslate"><span class="pre">stripy</span></code> smoothing operations</a>
 
         </div>
@@ -3217,11 +3213,9 @@ The &#39;inframe&#39; parameter of draw() was deprecated in Matplotlib 3.3 and w
 
       </div>
     </div>
+  
+  <script src="../_static/js/index.1c5a1a01449ed65a7b51.js"></script>
 
-    
-  <script src="../_static/js/index.d3f166471bb80abb5163.js"></script>
-
-
-    
+  
   </body>
 </html>
