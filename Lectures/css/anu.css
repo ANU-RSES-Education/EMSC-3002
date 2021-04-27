@@ -9,21 +9,20 @@
   text-transform: none;
 }
 
-
 /* See this url: https://github.com/webpro/reveal-md/issues/121   */ 
 
 .reveal > .backgrounds > div {
-  background-image: url('../../images/anu_general.png');
+  background-image: url('../../images/css/anu_general.png');
   background-repeat: no-repeat;
   background-position: right top;
   background-attachment: fixed;
   background-size: cover;
 }
 
-/* This for a different title slide bg */
+/* This for a different title slide bg image if required */
 
 /* .reveal > .backgrounds > div:first-child {
-  background-image: url('../../images/anu_title.png');
+  background-image: url('../../images/css/anu_title.png');
   background-repeat: no-repeat;
   background-position: left top;
   background-attachment: fixed;

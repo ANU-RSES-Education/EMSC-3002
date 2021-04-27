@@ -3,6 +3,9 @@ title: Example 2
 revealOptions:
 #    transition: 'fade'
     slideNumber: true
+    width:  1000
+    height: 666
+    margin: 0.07
 ---
 
 # Slides
