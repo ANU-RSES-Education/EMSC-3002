@@ -1,17 +1,16 @@
 - file: FrontPage.md
   numbered: false
 
-- part: Stripy
+- part: Lecture Notes
   chapters:
-  - file: Notebooks/Example1-Stripy-Spherical-Triangulations.ipynb
-  - file: Notebooks/Example2-Stripy-Smoothing.ipynb
+  - file: Lectures/Index.md
+    sections: 
+    - file: Lectures/Lecture_example_1.md
+    - file: Lectures/Lecture_example_2.md
 
-
-- part: Cartopy
+- part: Notebooks
   chapters:
-  - file: Notebooks/Example3-Cartopy-WorkingWithShuttleRadarTopography.ipynb
-
-- part: Litho1.0
-  chapters:
-  - file: Notebooks/Example4-Litho1pt0-Layers.ipynb
-
+  - file: Notebooks/Index.md
+    sections:
+    - file: Notebooks/Example1.ipynb
+    - file: Notebooks/Example2.md

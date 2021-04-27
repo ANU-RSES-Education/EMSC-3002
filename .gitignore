@@ -5,6 +5,10 @@ Notebooks/*.png
 # Jupyter Book build relics
 
 Jupyterbook/_build
+<<<<<<< HEAD
+=======
+Jupyterbook/static_slides
+>>>>>>> upstream-master
 
 # IDE files
 
@@ -139,4 +143,18 @@ venv.bak/
 dmypy.json
 
 # Pyre type checker
+<<<<<<< HEAD
 .pyre/
+=======
+.pyre/
+
+# reveal-md
+
+Lectures/_static
+Lectures/static_slides
+
+
+
+.DS_Store
+
+>>>>>>> upstream-master
