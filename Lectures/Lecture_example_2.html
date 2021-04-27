@@ -259,15 +259,13 @@ slideshows directory at the <code class="docutils literal notranslate"><span cla
 <h2>Source<a class="headerlink" href="#source" title="Permalink to this headline">¶</a></h2>
 <p>This is the source code for the slide deck. It is mostly (reveal-md) markdown with 1) a <code class="docutils literal notranslate"><span class="pre">yaml</span></code> header that has reveal options in it, 2) html tags that use <code class="docutils literal notranslate"><span class="pre">reveal.js</span></code> styling. Note that it is relatively easy to make a few slides this way but more than this can become complicated.</p>
 <div class="highlight-markdown notranslate"><div class="highlight"><pre><span></span>---
-title: Example 1
-<span class="gh"># separator: &lt;!--s--&gt;</span>
-<span class="gh"># verticalSeparator: &lt;!--v--&gt;</span>
-theme: white
+title: Example 2
 revealOptions:
-<span class="gh">#    transition: &#39;fade&#39;</span>
+<span class="gh">#   transition: &#39;fade&#39;</span>
     slideNumber: true
-    width: 1600
-<span class="gu">    height: 900</span>
+    width:  1000
+    height: 666
+<span class="gu">    margin: 0.07</span>
 <span class="gu">---</span>
 
 <span class="gh"># Slides</span>
@@ -336,7 +334,7 @@ Reveal has vertical sub-stacks that you can divert through
 
 Reveal has vertical sub-stacks that you can divert through
 
-&lt;img class=&quot;r-stretch&quot; data-src=&quot;images/LithosphereThickness.png&quot;&gt;
+![<span class="nt">Earth</span>](<span class="na">images/LithosphereThickness.png</span>) &lt;!-- .element height=&quot;50%&quot; width=&quot;50%&quot; --&gt;
 
 ---
 </pre></div>
