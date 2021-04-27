@@ -28,6 +28,7 @@ Note: This is a speaker note that is not rendered !
 
 ## Slide number 3
 
+
  - one
  - two 
  - three
@@ -45,7 +46,6 @@ Note: This is a speaker note that is not rendered !
 $$ \nabla \cdot \sigma = \rho g  \mathbf{ z }   $$
 
 ---
-
 
 ## Image 
 
@@ -67,3 +67,4 @@ container sizing etc, you can use `html`
 ```html
 <img class="r-stretch" data-src="images/AuWorldEQ.png">
 ```
+
