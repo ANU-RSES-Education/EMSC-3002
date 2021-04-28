@@ -1,11 +1,19 @@
 - file: FrontPage.md
   numbered: false
 
+- part: Introduction
+  chapters:
+  - file: Introductory_Remarks.md
+    sections:
+    - file: Background_Reading.md
+    - file: Practical_Exercises.md
+    - file: Theory_Computational_Exercises.md
+
 - part: Lecture Notes
   chapters:
   - file: Lectures/Index.md
     sections: 
-    - file: Lectures/Lecture-1-Introduction.md
+    - file: Lectures/Lecture-1-Introduction
     # - file: Lectures/Lecture_example_2.md
 
 - part: Notebooks
