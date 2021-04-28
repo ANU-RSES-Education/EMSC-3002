@@ -5,8 +5,8 @@
   chapters:
   - file: Lectures/Index.md
     sections: 
-    - file: Lectures/Lecture_example_1.md
-    - file: Lectures/Lecture_example_2.md
+    - file: Lectures/Lecture-1-Introduction.md
+    # - file: Lectures/Lecture_example_2.md
 
 - part: Notebooks
   chapters:

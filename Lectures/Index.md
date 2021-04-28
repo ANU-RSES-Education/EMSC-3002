@@ -1,13 +1,9 @@
-# Lecture notes for example course
+# Lecture notes EMSC 3002
 
-Two examples of lecture notes and simple slideshows that we can embed.
+## Introduction
 
-The lecture notes are in standard `myst markdown` format like the rest of the book.
+  - [Introduction to EMSC 3002](Lecture-1-Introduction) 
 
-The slideshows are built along with the book using `reveal-md`. They are supposed to 
-be very simple, versionable (text based, not binaries) and rely on external links for
-complicated media such as large movies. 
+## Somthing
 
-[Lecture 1](Lecture_example_1) is a demonstration
-
-[Lecture 2](Lecture_example_2) has a bit of information about the `reveal-md` slides 
+  <!-- - [2](Lecture_example_2) has a bit of information about the `reveal-md` slides  -->
