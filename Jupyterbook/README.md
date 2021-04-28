@@ -5,7 +5,7 @@ from the repository Settings / Options page. If the gh-pages branch is missing, 
 
 The _config.yml file will need to be edited to reflect the location of the repository
 
-```
+```yaml
     repository:
     url         : https://github.com/underworld-geodynamics-cloud/self-managing-jupyterhub  # Online location of this book
     branch      : master  # Which branch of the repository should be used when creating links (optional)
@@ -14,7 +14,7 @@ The _config.yml file will need to be edited to reflect the location of the repos
 and, if you intend to set up and use the jupyterhub (as well as or instead of binder.org), set the 
 url of the landing point of the hub. 
 
-```
+```yaml
 launch_buttons:
   jupyterhub_url: "https://demon.underworldcloud.org"  # The URL for your JupyterHub. 
   binderhub_url:  "https://mybinder.org"  # The URL of the BinderHub (e.g., https://mybinder.org)
