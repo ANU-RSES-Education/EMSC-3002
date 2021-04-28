@@ -14,3 +14,9 @@
     sections:
     - file: Notebooks/Example1.ipynb
     - file: Notebooks/Example2.md
+
+
+- part: Bibliography
+  chapters:
+  - file: Bibliography
+
