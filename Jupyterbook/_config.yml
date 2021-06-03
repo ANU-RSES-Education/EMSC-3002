@@ -1,5 +1,5 @@
 # Book settings
-title: Jupyterbook with built in Jupyterhub
+title: EMSC 3002
 author: Louis Moresi 
 logo: Figures/AuWorldEQ.jpg
 exclude_patterns: ["README.md", "Notes/*", "Scripts/*", "Lectures/*.reveal.md"]

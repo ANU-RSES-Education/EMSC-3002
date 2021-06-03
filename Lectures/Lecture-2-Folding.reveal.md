@@ -13,7 +13,7 @@ revealOptions:
 ### Folds and Folding mechanisms
 
   - Louis Moresi (convenor)
-  - Romain Beucher (lecturer)
+  - **Romain Beucher** (lecturer)
   - Chengxin Jiang (lecturer)
   - Stephen Cox (curriculum advisor)
 
