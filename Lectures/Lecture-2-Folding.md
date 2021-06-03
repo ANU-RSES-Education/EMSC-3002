@@ -2,7 +2,7 @@
 
 This lecture introduces folds morphology, their classifications and the folding mechanisms.
 
-<iframe src="../slideshows/Lecture-2-Folding.reveal.html" title="Slideshow" width=100%, height=500, allowfullscreen></iframe>
+<iframe src="../slideshows/Lecture-2-Folding.reveal.html" title="Slideshow" width=100%, height=500 allowfullscreen></iframe>
 
 
 ## Learning outcomes
