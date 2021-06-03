@@ -1,7 +1,7 @@
 ---
 title: Introduction to EMSC 3002
 revealOptions:
-    transition: 'fade'
+#    transition: 'fade'
     slideNumber: true
     width:  1000
     height: 666
@@ -12,7 +12,7 @@ revealOptions:
 
 ### An Introduction to Structural Geology and Tectonics
 
-  - Louis Moresi (convenor)
+  - **Louis Moresi** (convenor)
   - Romain Beucher (lecturer)
   - Chengxin Jiang (lecturer)
   - Stephen Cox (curriculum advisor)
@@ -28,8 +28,17 @@ corrections._
 
 ## Resources
 
-Note: Wattle when available, Programs and Courses - images with links.
+ ![](images/EMSC3002-JB-QRcode.png) <!-- .element style="float: right" width="25%" -->
 
+<div  style="width:50%">
+
+  [Online book](https://anu-rses-education.github.io/EMSC-3002/FrontPage.html)
+with lecture materials, practicals and live computational examples.
+
+  Wattle (when available), Programs and Courses  
+
+  [Source code](https://github.com/underworld-geodynamics-cloud/self-managing-jupyterhub)
+</div> 
 ---
 
 ## Learning Outcomes
