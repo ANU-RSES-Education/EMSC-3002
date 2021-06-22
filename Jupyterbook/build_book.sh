@@ -6,4 +6,4 @@ cd Lectures
 source build_slides.sh 
 cd ..
 
-jupyter-book build . 
+~/.local/bin/jupyter-book build . 

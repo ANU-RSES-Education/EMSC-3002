@@ -354,3 +354,26 @@ The geometry of the 2nd and 3rd order of folds show where the large structures a
 ![Fold](Lecture-2-Folding-images/Figure_20_Pumpellys_rule.svg)  <!-- .element width="90%" -->>
 
 ---
+
+## Folding in Extensional Environment
+
+<div>
+
+<div style="width:30%; float:left">
+
+Listric faults lead to hanging-wall deformation - adaptation folds and drag folds.
+
+Many faults form ramp-flat systems. Incompetent layers (clays, salts) form
+the flats, whereas ramps go through competent units.
+Detachment faults are large scale flats.
+
+</div>
+
+<div style="width:70%; float:right">
+
+![Fold](Lecture-2-Folding-images/Folding_in_extensional_environment.svg) <!-- .element style="float: right" width="95%" -->
+
+</div>
+</div>
+
+---
