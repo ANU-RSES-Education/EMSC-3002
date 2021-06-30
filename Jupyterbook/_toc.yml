@@ -1,7 +1,6 @@
 format: jb-book
 root: FrontPage
 parts:
-
 - caption: Introduction
   chapters:
   - file: Introductory_Remarks.md
@@ -24,6 +23,9 @@ parts:
     - file: Notebooks/Example1.ipynb
     - file: Notebooks/Example2.md
 
+- caption: Glossary
+  chapters:
+  - file: Glossary.md
 
 - caption: Bibliography
   chapters:

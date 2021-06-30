@@ -8,7 +8,6 @@ This course is designed to develop an advanced understanding of deformation proc
 
 Upon successful completion, students will have the knowledge and skills to:
   - Recognise, map and interpret the geological structure of deformed continental regimes, from mildly deformed upper crustal regimes to complexly deformed, deeper crustal regimes.
-
   - Interpret the relative timing of formation of structures, the kinematics of deformation, and progressive deformation histories.
   - Predict the geometry and location of structures at depth or in areas of poor outcrop.
   - Apply an understanding of structural geology in the mining and resource exploration environment.
@@ -23,15 +22,15 @@ The broad themes of the course and these materials can be broken down as follows
 
   - [Introduction](Lectures/Lecture-1-Introduction)
 
-### Part 2 - Global Tectonics 
+### Part 2 - Global Tectonics & Structures
+
+  - [Plate Tectonics](Lectures/Lecture-1.1-PlateTectonics)
+
+### Part 3 - Compressional Deformation & Folding
 
   - Links to relevant lectures
 
-### Part 3 - Something else
-
-  - Links to relevant lectures
-
-#### Part 4 - Another something else
+#### Part 4 - ?
 
   - Links to relevant lectures
 

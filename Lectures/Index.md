@@ -1,9 +1,12 @@
 # Lecture notes EMSC 3002
 
+```{tableofcontents}
+```
+
 ## Introduction
 
   1. [Introduction to EMSC 3002](Lecture-1-Introduction)
-  2. [Folds and Folding Mechanisms][Lecture-2-Folding]
+  2. [Folds and Folding Mechanisms](Lecture-2-Folding)
 
 ## Something
 
