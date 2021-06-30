@@ -14,7 +14,7 @@ parts:
   - file: Lectures/Index.md
     sections: 
     - file: Lectures/Lecture-1-Introduction
-    - file: Lectures/Lecture-2-Folding.md
+    - file: Lectures/Lecture-2-Folding
 
 - caption: Notebooks
   chapters:
