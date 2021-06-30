@@ -1,7 +1,8 @@
-- file: FrontPage.md
-  numbered: false
+format: jb-book
+root: FrontPage
+parts:
 
-- part: Introduction
+- caption: Introduction
   chapters:
   - file: Introductory_Remarks.md
     sections:
@@ -9,14 +10,14 @@
     - file: Practical_Exercises.md
     - file: Theory_Computational_Exercises.md
 
-- part: Lecture Notes
+- caption: Lecture Notes
   chapters:
   - file: Lectures/Index.md
     sections: 
     - file: Lectures/Lecture-1-Introduction
     - file: Lectures/Lecture-2-Folding.md
 
-- part: Notebooks
+- caption: Notebooks
   chapters:
   - file: Notebooks/Index.md
     sections:
@@ -24,7 +25,7 @@
     - file: Notebooks/Example2.md
 
 
-- part: Bibliography
+- caption: Bibliography
   chapters:
   - file: Bibliography
 
