@@ -9,5 +9,10 @@ then
     npm install -g reveal-md 
 fi
 
+
 mkdir -p static_slides
-reveal-md  --static static_slides/slideshows --theme css/anu.css --glob '**/*.reveal.md' --static-dirs images,Lecture-2-Folding-images 
+reveal-md  --static static_slides/slideshows \
+           --theme css/anu.css --glob '**/*.reveal.md' \
+           --separator '<--o-->' \
+           --vertical-separator '<--v-->' \
+           --static-dirs movies,images,Lecture-2-Folding-images 

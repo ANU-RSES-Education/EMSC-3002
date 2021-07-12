@@ -1,4 +1,4 @@
-# Plate Tectonics
+# Global Tectonics
 
 This section of the course introduces global tectonic motions and contrasts the deformation patterns seen 
 in oceanic plates v. the continental crust. We will revise plate kinematics and the relationship between

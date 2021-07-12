@@ -1,10 +1,12 @@
 ---
-title: Introduction to EMSC 3002
+title: EMSC 3002 - Plate Tectonics 
+separator: '<--o-->'
+verticalSeparator: '<--v-->'
 revealOptions:
 #    transition: 'fade'
     slideNumber: true
-    width:  1000
-    height: 666
+    width:  1100
+    height: 750
     margin: 0.07
 ---
 
@@ -24,7 +26,7 @@ We acknowledge the contribution of the community in providing other materials an
 provide the correct attribution and citation. Please contact louis.moresi@anu.edu.au for updates and 
 corrections._
 
----
+<--o-->
 
 ## Resources
 
@@ -39,34 +41,33 @@ with lecture materials, practicals and live computational examples.
 
   [Source code](https://github.com/underworld-geodynamics-cloud/self-managing-jupyterhub)
 </div> 
----
+<--o-->
 
 ## Learning Outcomes
+
+What you will learn about global tectonics.
 
  - one
  - two 
  - three
 
----
+What you will not learn
 
-## Lecturers
-
-LM
-RB
-CJ
-
-Note: Short Bio for each of us. 
+ - Mantle convection / driving forces of plates
+ - 
 
 
----
+<--o-->
 
-## Image 
+## The Earth in Cross Section
 
-![Earth](images/LithosphereThickness.png) <!-- .element width="30%"  --> 
-![Earth](images/LithosphereThickness.png) <!-- .element width="30%"  --> 
+![EarthXsection](images/EarthXsection.svg) <!-- .element style="height:500px; float:right" -->
 
+</br>
 
----
+This image is drawn approximately to scale 
+
+<--o-->
 
 ## Image v2 
 
@@ -81,34 +82,24 @@ container sizing etc, you can use `html`
 
 That is all
 
---- 
+<--o--> 
 
----
+<--o-->
 
 
 ## New Slide
 
 With nothing much 
 
----
+<--o-->
 
 ## Image v3
 
 
 ![Earth](images/LithosphereThickness.png) <!-- .element style="float: right" width="40%" -->
 
-A great deal of text, written hastily into which 
-we would like to float an image somewhere to the right. Will
-it float ?
-
-A great deal of text, written hastily into which 
-we would like to float an image somewhere to the right. Will
-it float ?
-
-A great deal of text, written hastily into which 
-we would like to float an image somewhere to the right. Will
-it float ?
 
 
----
+
+<--o-->
 
