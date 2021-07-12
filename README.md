@@ -17,7 +17,9 @@ Your instructors for 2021 are:
 
 ## Links
 
+<!--
 ![Health check](https://github.com/ANU-RSES-Education/EMSC-3002/workflows/Health%20check/badge.svg)
+-->
 
 [![https://img.shields.io/badge/<LABEL>-<MESSAGE>-<COLOR>](https://img.shields.io/badge/EMSC3002-Course_Notes-blue)](https://ANU-RSES-Education.github.io/EMSC-3002)
 

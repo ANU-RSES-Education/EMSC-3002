@@ -1,5 +1,7 @@
 # Glossary
 
+Below are some important definitions. A useful, general glossary of geological terms is found [here](https://opengeology.org/textbook/glossary/)
+
 - **Anticline**
 - **Anticlinorium**
 - **Antiform**
@@ -60,6 +62,8 @@ maximum curvature.
 - **Median surface**
 - **Monocline**
 - **Saddle**
+- **Strain / Strain-rate**
+- **Stress**
 - **Syncline**
 - **Synclinorium**
 - **Synform**
