@@ -17,12 +17,12 @@ parts:
     - file: Lectures/Module-i-GlobalTectonics.md
     - file: Lectures/Lecture-2-Folding
 
-- caption: Notebooks
-  chapters:
-  - file: Notebooks/Index.md
-    sections:
-    - file: Notebooks/Example1.ipynb
-    - file: Notebooks/Example2.md
+# - caption: Notebooks
+#   chapters:
+#   - file: Notebooks/Index.md
+#     sections:
+#     - file: Notebooks/Example1.ipynb
+#     - file: Notebooks/Example2.md
 
 - caption: Glossary
   chapters:
