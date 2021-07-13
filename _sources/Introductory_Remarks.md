@@ -7,10 +7,11 @@ This course is designed to develop an advanced understanding of deformation proc
 ## What you will learn from this course
 
 Upon successful completion, students will have the knowledge and skills to:
+
   - Recognise, map and interpret the geological structure of deformed continental regimes, from mildly deformed upper crustal regimes to complexly deformed, deeper crustal regimes.
   - Interpret the relative timing of formation of structures, the kinematics of deformation, and progressive deformation histories.
   - Predict the geometry and location of structures at depth or in areas of poor outcrop.
-  - Apply an understanding of structural geology in the mining and resource exploration environment.
+  - Apply an understanding of structural geology in sustainable mining and basin management.
 
 <!-- Note, we will have to adjust the above to match our content without really changing anything !! -->
 
