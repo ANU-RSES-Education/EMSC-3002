@@ -371,7 +371,13 @@ Detachment faults are large scale flats.
 
 <div style="width:70%; float:right">
 
-![Fold](Lecture-2-Folding-images/Folding_in_extensional_environment.svg) <!-- .element style="float: right" width="95%" -->
+<!--
+[Fold](Lecture-2-Folding-images/Folding_in_extensional_environment.svg) 
+-->
+
+Image Placeholder
+
+<!-- .element style="float: right" width="95%" -->
 
 </div>
 </div>
