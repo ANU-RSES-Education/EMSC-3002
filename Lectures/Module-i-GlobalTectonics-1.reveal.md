@@ -65,7 +65,7 @@ We will not be covering
 
 <div style="width:30%; float:right"> 
 
-![EarthXsection](images/EarthXsection.svg) 
+![EarthXsection](images/GlobalTectonics/EarthXsection.svg) 
 
 </div>
 
@@ -89,7 +89,7 @@ This image is drawn approximately to scale
 
 <div style="width:30%; float:right"> 
 
-![EarthXsection](images/EarthXsection.svg) 
+![EarthXsection](images/GlobalTectonics/EarthXsection.svg) 
 
 </div>
 
@@ -112,7 +112,7 @@ On a global scale, movement is slow and viscous, especially in the deep mantle.
 
 ## Thickness of the Lithosphere
 
-![Litho-LAB-1](images/LABDepthMap.svg) <!-- .element style="display:block; margin-left:auto; margin-right:auto; width:60%" -->
+![Litho-LAB-1](images/GlobalTectonics/LABDepthMap.svg) <!-- .element style="display:block; margin-left:auto; margin-right:auto; width:60%" -->
 
 This map shows the lithospheric thickness coloured as though it refers to temperature (thin lithosphere is in warm colours, thick is in cool colours) which does have some physical relevance. The greyscale is topography.
 
@@ -120,7 +120,7 @@ This map shows the lithospheric thickness coloured as though it refers to temper
 
 ## Thickness of the Continental Lithosphere
 
-![Litho-LAB-2](images/LithosphereThickness.png) <!-- .element style="display:block; margin-left:auto; margin-right:auto; width:60%" -->
+![Litho-LAB-2](images/GlobalTectonics/LithosphereThickness.png) <!-- .element style="display:block; margin-left:auto; margin-right:auto; width:60%" -->
 
 A similar map that *contours* the thickest parts of the lithosphere (scale is in km) and leaves out the oceans altogether. 
 
@@ -128,7 +128,7 @@ A similar map that *contours* the thickest parts of the lithosphere (scale is in
 
 ## Relative thickness of Crust and Lithosphere
 
-![Litho-Rel-Thickness](images/LithosphereRelativeThickness.svg) <!-- .element style="display:block; margin-left:auto; margin-right:auto; width:60%" -->
+![Litho-Rel-Thickness](images/GlobalTectonics/LithosphereRelativeThickness.svg) <!-- .element style="display:block; margin-left:auto; margin-right:auto; width:60%" -->
 
 This map shows the relative thickness of the crust and the lithosphere (thick crust is dark). You can immediately see how important the mechanical structure of the lithosphere is when it comes to the response to geological stresses. *The coloured dots are earthquake hypocentres coloured by depth and mostly show where the slabs are located.*
 
@@ -137,7 +137,7 @@ This map shows the relative thickness of the crust and the lithosphere (thick cr
 ## Rock Deformation Map
 
 
-![DefMap](images/Gomez-Rivas-DeformationMap.jpg) <!-- .element style="display:block; margin-left:auto; margin-right:auto; width:50%" -->
+![DefMap](images/GlobalTectonics/Gomez-Rivas-DeformationMap.jpg) <!-- .element style="display:block; margin-left:auto; margin-right:auto; width:50%" -->
 
 Rock deformation map that shows how temperature and the magnitude of the differential stress (shear stress compared to confining pressure) influence how rocks deform.
 
