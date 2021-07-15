@@ -9,7 +9,7 @@
   1. [Global Tectonics](Lecture-1.1-PlateTectonics)
   1. [Structural Geology and Crustal Deformation](Lecture-Structural-Geology-And-Crustal-Deformation)
   1. [Fold Geometry 1](Lecture-Fold-Geometry-1)
-  1. [Fold Geometry 2](Lecture-Fold-Geometry-2)
+  1. [Folds and Folding Mechanisms](Lecture-Folds-and-Folding-Mechanisms)
   1. [Structures Associated with Folding 1](Lecture-Structures-Associated-with-Folding-1)
   1. [Structures Associated with Folding 2](Lecture-Structures-Associated-with-Folding-2)
   1. [Structures Associated with Folding 3](Lecture-Structures-Associated-with-Folding-3)

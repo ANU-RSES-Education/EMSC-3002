@@ -1,8 +1,8 @@
-# Fold Geometry 2
+# Lecture-Folds-and-Folding-Mechanisms
 
 This lecture introduces folds morphology, their classifications and the folding mechanisms.
 
-<iframe src="../slideshows/Lecture-Fold-Geometry-2.reveal.html" title="Slideshow" width=100%, height=500 allowfullscreen></iframe>
+<iframe src="../slideshows/Lecture-Folds-and-Folding-Mechanisms.reveal.html" title="Slideshow" width=100%, height=500 allowfullscreen></iframe>
 
 
 ## Learning outcomes
