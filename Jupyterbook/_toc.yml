@@ -1,7 +1,9 @@
-- file: FrontPage.md
-  numbered: false
+format: jb-book
+root: FrontPage
 
-- part: Introduction
+parts:
+
+- caption: Introduction
   chapters:
   - file: Introductory_Remarks.md
     sections:
@@ -9,7 +11,7 @@
     - file: Practical_Exercises.md
     - file: Theory_Computational_Exercises.md
 
-- part: Lecture Notes
+- caption: Lecture Notes
   chapters:
   - file: Lectures/Index.md
     sections: 
@@ -23,13 +25,6 @@
     - file: Lectures/Lecture-Structures-Associated-with-Folding-3
     - file: Lectures/Lecture-Shear_zones
     
-
-- part: Notebooks
-  chapters:
-  - file: Notebooks/Index.md
-    sections:
-    - file: Notebooks/Example1.ipynb
-    - file: Notebooks/Example2.md
 
 - caption: Glossary
   chapters:
