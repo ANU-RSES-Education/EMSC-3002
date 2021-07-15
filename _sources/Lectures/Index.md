@@ -6,13 +6,15 @@
 ## Introduction
 
   1. [Introduction to EMSC 3002](Lecture-1-Introduction)
-  2. [Global Tectonics](Lecture-1.1-PlateTectonics)
-  3. [Folds and Folding Mechanisms](Lecture-2-Folding)
+  1. [Global Tectonics](Lecture-1.1-PlateTectonics)
+  1. [Structural Geology and Crustal Deformation](Lecture-Structural-Geology-And-Crustal-Deformation)
+  1. [Fold Geometry 1](Lecture-Fold-Geometry-1)
+  1. [Folds and Folding Mechanisms](Lecture-Folds-and-Folding-Mechanisms)
+  1. [Structures Associated with Folding 1](Lecture-Structures-Associated-with-Folding-1)
+  1. [Structures Associated with Folding 2](Lecture-Structures-Associated-with-Folding-2)
+  1. [Structures Associated with Folding 3](Lecture-Structures-Associated-with-Folding-3)
+  1. [Ductile Deformation and Shear zones](Lecture-Shear_zones)
 
 ## Something
 
   <!-- - [2](Lecture_example_2) has a bit of information about the `reveal-md` slides  -->
-
-
-
-  

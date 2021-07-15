@@ -1,0 +1,197 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+
+    <title>Structural Geology and Crustal Deformation</title>
+    <link rel="shortcut icon" href="./favicon.ico"/>
+    <link rel="stylesheet" href="./dist/reveal.css" />
+    <link rel="stylesheet" href="_assets/css/anu.css" id="theme" />
+    <link rel="stylesheet" href="./css/highlight/zenburn.css" />
+
+  </head>
+  <body>
+    <div class="reveal">
+      <div class="slides"><section  data-markdown><script type="text/template">
+
+# EMSC 3002
+
+## Structural Geology and Crustal deformation
+
+  - Louis Moresi (convenor)
+  - **Romain Beucher** (lecturer)
+  - Chengxin Jiang (lecturer)
+  - Stephen Cox (curriculum advisor)
+
+Australian National University
+
+_**NB:** the course materials provided by the authors are open source under a creative commons licence. 
+We acknowledge the contribution of the community in providing other materials and we endeavour to 
+provide the correct attribution and citation. Please contact louis.moresi@anu.edu.au for updates and 
+corrections._
+
+</script></section><section  data-markdown><script type="text/template">
+
+## Resources
+
+1.
+2.
+3.
+
+</script></section><section  data-markdown><script type="text/template">
+
+## Intended learning outcomes
+
+</script></section><section  data-markdown><script type="text/template">
+
+## Structural Geology and Crustal deformation
+
+**What is it about?**
+
+Structural geology covers deformation structures formed in the Earth's crust and in the underlying mantle in response to tectonic forces, in the cool upper part where the rocks have a tendency to fracture and in the hotter lower part where the deformation tends to be ductile.
+
+Deformations structures can form almost instantaneously like during earthquakes or over millions of years like mountains.
+
+</script></section><section  data-markdown><script type="text/template">
+
+## Structural Geology and Crustal deformation
+
+**What are we interested in?**
+
+- **Geometry** of structures; i.e. description of orientations and geometric relationships between structures.
+- **Styles of Deformation**, including quantitative estimates of amount of deformation.
+- **Processes of Deformation**, brittle versus ductile mechanisms.
+
+</script></section><section  data-markdown><script type="text/template">
+
+
+## Structural Geology and Crustal deformation
+
+Structural geology studies structures at the scale of hundreds of kilometers down to micro- or atomic scales.
+
+- **Macroscopic**: regional, crustal scale observations.
+- **Mesoscopic**: outcrop observations.
+- **Microscopic**: hand specimen and smaller scale of observation.
+
+</script></section><section  data-markdown><script type="text/template">
+
+## Structural Geology and Crustal deformation
+
+**Pumpelly's Rule**:
+
+*The geometry and style of small-scale structures usually reflect the geometry and styles of larger structures*
+
+(Raphael Pumpelly, USGS, 1894)
+
+</script></section><section  data-markdown><script type="text/template">
+
+## A wide range of methods to approach structural geology
+
+- Field observations: final product of deformation.
+- Laboratory experiments: useful to observe and understand progressive deformation.
+- Numerical modeling: useful to quantify and understand the role and interactions of forces.
+
+Each method has its own limitations but by combining them, the structural geologist is able to understand
+the formation of structures and their meaning.
+
+
+</script></section><section  data-markdown><script type="text/template">
+
+## Structures produced by deformation
+
+**Where does deformation occur?**
+
+Predominantly at, or near, plate boundaries in a range of tectonic contexts:
+
+- convergent
+- divergent
+- oblique convergence / transform
+
+But also in intraplate settings.
+
+</script></section><section  data-markdown><script type="text/template">
+
+## Structures produced by deformation
+
+**Large-scale structures associated with deformation induced changes to crustal thickness**
+
+Mountain Belts: predominantly in context of crustal shortening.
+
+
+</script></section><section  data-markdown><script type="text/template">
+
+## Structures produced by deformation
+
+**Large-scale structures associated with deformation induced changes to crustal thickness**
+
+Sedimentary basins: crustal stretching.
+
+
+</script></section><section  data-markdown><script type="text/template">
+
+Structural Geology deals with structures created during rock deformation, not with primary structures
+formed by sedimentary or magmatic processes.
+
+However, being able to recognize tectonic deformation depends on our knowledge of primary structures...
+
+</script></section><section  data-markdown><script type="text/template">
+
+Deformation structures depends on the material, its texture and structure.
+
+Different materials, such as sandstones, limestones, granites respond differently to deformation and produce
+different structures.
+
+
+</script></section></div>
+    </div>
+
+    <script src="./dist/reveal.js"></script>
+
+    <script src="./plugin/markdown/markdown.js"></script>
+    <script src="./plugin/highlight/highlight.js"></script>
+    <script src="./plugin/zoom/zoom.js"></script>
+    <script src="./plugin/notes/notes.js"></script>
+    <script src="./plugin/math/math.js"></script>
+    <script>
+      function extend() {
+        var target = {};
+        for (var i = 0; i < arguments.length; i++) {
+          var source = arguments[i];
+          for (var key in source) {
+            if (source.hasOwnProperty(key)) {
+              target[key] = source[key];
+            }
+          }
+        }
+        return target;
+      }
+
+      // default options to init reveal.js
+      var defaultOptions = {
+        controls: true,
+        progress: true,
+        history: true,
+        center: true,
+        transition: 'default', // none/fade/slide/convex/concave/zoom
+        plugins: [
+          RevealMarkdown,
+          RevealHighlight,
+          RevealZoom,
+          RevealNotes,
+          RevealMath
+        ]
+      };
+
+      // options from URL query string
+      var queryOptions = Reveal().getQueryHash() || {};
+
+      var options = extend(defaultOptions, {"transition":"fade","slideNumber":true,"width":1200,"height":800,"margin":0.07}, queryOptions);
+    </script>
+
+
+    <script>
+      Reveal.initialize(options);
+    </script>
+  </body>
+</html>
