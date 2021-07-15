@@ -1,7 +1,7 @@
-format: jb-book
-root: FrontPage
-parts:
-- caption: Introduction
+- file: FrontPage.md
+  numbered: false
+
+- part: Introduction
   chapters:
   - file: Introductory_Remarks.md
     sections:
@@ -9,7 +9,7 @@ parts:
     - file: Practical_Exercises.md
     - file: Theory_Computational_Exercises.md
 
-- caption: Lecture Notes
+- part: Lecture Notes
   chapters:
   - file: Lectures/Index.md
     sections: 
@@ -17,18 +17,19 @@ parts:
     - file: Lectures/Module-i-GlobalTectonics.md
     - file: Lectures/Lecture-Structural-Geology-And-Crustal-Deformation
     - file: Lectures/Lecture-Fold-Geometry-1
-    - file: Lectures/Lecture-Fold-Geometry-2
+    - file: Lectures/Lecture-Folds-and-Folding-Mechanisms
     - file: Lectures/Lecture-Structures-Associated-with-Folding-1
     - file: Lectures/Lecture-Structures-Associated-with-Folding-2
     - file: Lectures/Lecture-Structures-Associated-with-Folding-3
     - file: Lectures/Lecture-Shear_zones
+    
 
-# - caption: Notebooks
-#   chapters:
-#   - file: Notebooks/Index.md
-#     sections:
-#     - file: Notebooks/Example1.ipynb
-#     - file: Notebooks/Example2.md
+- part: Notebooks
+  chapters:
+  - file: Notebooks/Index.md
+    sections:
+    - file: Notebooks/Example1.ipynb
+    - file: Notebooks/Example2.md
 
 - caption: Glossary
   chapters:
@@ -37,4 +38,3 @@ parts:
 - caption: Bibliography
   chapters:
   - file: Bibliography
-

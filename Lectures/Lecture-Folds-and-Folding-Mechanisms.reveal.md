@@ -1,5 +1,5 @@
 ---
-title: Fold Geometry 2
+title: Folds and Folding Mechanisms
 separator: '<--o-->'
 verticalSeparator: '<--v-->'
 revealOptions:
@@ -24,7 +24,7 @@ Australian National University
 _**NB:** the course materials provided by the authors are open source under a creative commons licence. 
 We acknowledge the contribution of the community in providing other materials and we endeavour to 
 provide the correct attribution and citation. Please contact louis.moresi@anu.edu.au for updates and 
-corrections._
+corrections.
 
 <--o-->
 
@@ -87,7 +87,7 @@ Fold wavelength depends on layer thickness and viscosity contrast.
 
 <div style="width:45%; float:right">
 
-![Fold](Figures-Fold-Geometry-2/figures/Buckling.svg) <!-- .element style="float: right" width="95%" -->
+![Fold](Figures-Folds-and-Folding-Mechanisms/figures/Buckling.svg) <!-- .element style="float: right" width="95%" -->
 
 </div>
 </div>
@@ -96,25 +96,25 @@ Fold wavelength depends on layer thickness and viscosity contrast.
 
 ## Buckling Folding Mechanisms 
 
-![Fold](Figures-Fold-Geometry-2/figures/Folding_mechanism_in_response_to_buckling.svg)
+![Fold](Figures-Folds-and-Folding-Mechanisms/figures/Folding_mechanism_in_response_to_buckling.svg)
 
 <--o-->
 
 ## Large Similar folds in Salt mine
 
-![Fold](Figures-Fold-Geometry-2/photos/Large_Similar_Fault_Salt_Mine_Carpathians_Janos_Urai.jpg) <!-- .element style="float: center" width="80%" -->
+![Fold](Figures-Folds-and-Folding-Mechanisms/photos/Large_Similar_Fault_Salt_Mine_Carpathians_Janos_Urai.jpg) <!-- .element style="float: center" width="80%" -->
 
 <--o-->
 
 ## Mechanical Contrast
 
-![Fold](Figures-Fold-Geometry-2/figures/Contrast_mechanical_behavior.svg)
+![Fold](Figures-Folds-and-Folding-Mechanisms/figures/Contrast_mechanical_behavior.svg)
 
 <--o-->
 
 ## Thickness and Fold wavelength
 
-![Fold](Figures-Fold-Geometry-2/figures/Thickness_and_Fold_wavelengths.svg) <!-- .element style="float: right" width="50%" -->
+![Fold](Figures-Folds-and-Folding-Mechanisms/figures/Thickness_and_Fold_wavelengths.svg <!-- .element style="float: right" width="50%" -->
 
 Different layer thicknesses and/or rheologies produce different wavelengths of folds.
 
@@ -124,13 +124,13 @@ The geometry of the 2nd and 3rd order of folds show where the large structures a
 
 ## Bedding / Cleavage relationships
 
-![Fold](Figures-Fold-Geometry-2/figures/Bedding_Cleavage_Relationship.svg) <!-- .element width="90%" -->
+![Fold](Figures-Folds-and-Folding-Mechanisms/figures/Bedding_Cleavage_Relationship.svg) <!-- .element width="90%" -->
 
 <--o-->
 
 ## Pumpelly's Rule
 
-![Fold](Figures-Fold-Geometry-2/figures/Pumpellys_rule.svg)  <!-- .element width="90%" -->>
+![Fold](Figures-Folds-and-Folding-Mechanisms/figures/Pumpellys_rule.svg)  <!-- .element width="90%" -->>
 
 <--o-->
 
@@ -150,7 +150,7 @@ Detachment faults are large scale flats.
 
 <div style="width:70%; float:right">
 
-![Fold](Figures-Fold-Geometry-2/figures/Folding_in_extensional_environment.svg) <!-- .element style="float: right" width="95%" -->
+![Fold](Figures-Folds-and-Folding-Mechanisms/figures/Folding_in_extensional_environment.svg) <!-- .element style="float: right" width="95%" -->
 
 </div>
 </div>
