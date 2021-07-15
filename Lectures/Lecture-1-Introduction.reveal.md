@@ -193,7 +193,7 @@ Introduces the concepts of global-scale tectonics, plate motions, the nature of 
 
 ## Course Modules
 
-![Syncline](Lecture-2-Folding-images/Synclinal_circque_de_gavarnie.jpg) <!-- .element style="width:33%; float:right; margin:30px" -->
+![Syncline](Figures-Folds-and-Folding-Mechanisms/photos/Synclinal_cirque_de_gavarnie.jpg) <!-- .element style="width:33%; float:right; margin:30px" -->
 
 ### Module ii - Structures in the Earth
 
@@ -243,7 +243,7 @@ Nelson Saarni, CC BY-SA 4.0 <https://creativecommons.org/licenses/by-sa/4.0>, vi
 
 ## Course Modules
 
-![Fold](Lecture-2-Folding-images/Sheep_Mountain_Anticline_Wyoming_bernhard_edmaier_photography.png) <!-- .element style="width:20%; float:right; margin:30px" -->
+![Fold](Figures-Fold-Geometry-1/photos/Sheep_Mountain_Anticline_Wyoming_bernhard_edmaier_photography.png) <!-- .element style="width:20%; float:right; margin:30px" -->
 
 
 ### Module v - Ductile Deformation

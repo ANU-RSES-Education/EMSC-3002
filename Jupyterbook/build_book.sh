@@ -6,7 +6,7 @@ cd Lectures
 source build_slides.sh 
 cd ..
 
-jupyter-book build . 
+~/.local/bin/jupyter-book build . 
 
 
 # This is best done by hand so it updates the slides even 
