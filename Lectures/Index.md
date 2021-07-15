@@ -1,8 +1,12 @@
 # Lecture notes EMSC 3002
 
+```{tableofcontents}
+```
+
 ## Introduction
 
   1. [Introduction to EMSC 3002](Lecture-1-Introduction)
+  1. [Global Tectonics](Lecture-1.1-PlateTectonics)
   1. [Structural Geology and Crustal Deformation](Lecture-Structural-Geology-And-Crustal-Deformation)
   1. [Fold Geometry 1](Lecture-Fold-Geometry-1)
   1. [Fold Geometry 2](Lecture-Fold-Geometry-2)
