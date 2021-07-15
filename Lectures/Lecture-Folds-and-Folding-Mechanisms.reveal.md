@@ -12,7 +12,7 @@ revealOptions:
 
 # EMSC 3002
 
-## Fold Geometry 2
+## Folds and Folding Mechanisms
 
   - Louis Moresi (convenor)
   - **Romain Beucher** (lecturer)
@@ -25,6 +25,9 @@ _**NB:** the course materials provided by the authors are open source under a cr
 We acknowledge the contribution of the community in providing other materials and we endeavour to 
 provide the correct attribution and citation. Please contact louis.moresi@anu.edu.au for updates and 
 corrections.
+
+<--o-->
+<!-- .slide: data-background="Figures-Folds-and-Folding-Mechanisms/photos/Fold_related_to_backsliding_of_Caledonian_nappes_Hardanger.jpg" -->
 
 <--o-->
 
@@ -51,8 +54,15 @@ Students will be able to:
 - Identify **folding and faulting in compressional** regimes.
 
 <--o-->
+<!-- .slide: data-background="Figures-Folds-and-Folding-Mechanisms/photos/Folds.jpg" -->
+
+<--o-->
 
 ## Different ways of forming folds
+
+<div>
+
+<div style="width:50%; float:left">
 
 1. **Buckle folds** 
     - Layer parallel shortening.
@@ -65,13 +75,45 @@ Students will be able to:
 1. **Shear folds**
     - Rare, found in shear zones.
 
+</div>
+<div style="width:50%; float:right">
+
+![Fold](Figures-Folds-and-Folding-Mechanisms/figures/Fossen_Chap11_fold_mechanisms.jpg) <!-- .element style="float: right" width="95%" -->
+
+</div>
+</div>
+
 <--o-->
 
-## Fold formed by buckling
+## Active Folding or Buckling
 
 <div>
 
-<div style="width:55%; float:left">
+<div style="width:60%; float:left">
+Buckling occurs when a competent layer in a less competent matrix is shortened parallel to the length of the layer.
+
+Buckling implies that there is:
+
+1. Layer parallel shortening
+1. Viscosity constrast
+1. Irregularities on which folds can initiate
+
+</div>
+
+<div style="width:40%; float:right">
+
+![Buckling](Figures-Folds-and-Folding-Mechanisms/photos/Buckling.jpg) <!-- .element style="float: right" width="90%" -->
+
+</div>
+</div>
+
+<--o-->
+
+## Active Folding or Buckling
+
+<div>
+
+<div style="width:40%; float:left">
 
 Layers with different viscosities
 
@@ -85,40 +127,131 @@ Fold wavelength depends on layer thickness and viscosity contrast.
 
 </div>
 
-<div style="width:45%; float:right">
+<div style="width:60%; float:right">
 
-![Fold](Figures-Folds-and-Folding-Mechanisms/figures/Buckling.svg) <!-- .element style="float: right" width="95%" -->
+![Fold](Figures-Folds-and-Folding-Mechanisms/figures/Buckling.svg) <!-- .element style="float: right" width="90%" -->
+
+</div>
+</div>
+
+
+<--o-->
+<!-- .slide: data-background="Figures-Folds-and-Folding-Mechanisms/photos/Fossen_Chapter11_Buckling.jpg" -->
+
+<--o-->
+
+## Active Folding or Buckling
+### Flexural Slip 
+
+<div>
+
+<div style="width:50%; float:left">
+
+- Requires weak coupling between layers
+- Slip occurs on bedding planes
+- Bed thickness is constant
+- No slip at hingee
+
+Slickenlines on folded weak layers and constant bed thickness reveal flexural slip
+
+![Parallel Folds](Figures-Folds-and-Folding-Mechanisms/photos/Flexural_Slip_parallel_folds.jpg) <!-- .element style="float: center" width="80%" -->
+
+</div>
+
+<div style="width:50%; float:right">
+
+![Flexural Slip](Figures-Folds-and-Folding-Mechanisms/figures/Flexural_Slip.svg) <!-- .element style="float: center" width="90%" -->
 
 </div>
 </div>
 
 <--o-->
+## Active Folding or Buckling
+### Flexural Flow
 
-## Buckling Folding Mechanisms 
+<div>
 
-![Fold](Figures-Folds-and-Folding-Mechanisms/figures/Folding_mechanism_in_response_to_buckling.svg)
+<div style="width:50%; float:left">
+
+- Requires some weak layers
+- within layer flow Beds are sheared in limbs
+- Thickening in hinge
+- No shear at hinge
+
+![Similar Folds](Figures-Folds-and-Folding-Mechanisms/photos/Flexural_Flow_similar_folds.jpg) <!-- .element style="float: center" width="95%" -->
+
+</div>
+<div style="width:50%; float:right">
+
+![Flexural Flow](Figures-Folds-and-Folding-Mechanisms/figures/Flexural_Flow.svg) <!-- .element style="float: center" width="95%" -->
+
+</div>
+</div>
 
 <--o-->
-
-## Large Similar folds in Salt mine
-
-![Fold](Figures-Folds-and-Folding-Mechanisms/photos/Large_Similar_Fault_Salt_Mine_Carpathians_Janos_Urai.jpg) <!-- .element style="float: center" width="80%" -->
+<!-- .slide: data-background="Figures-Folds-and-Folding-Mechanisms/photos/Flexural_Flow_similar_folds.jpg" -->
 
 <--o-->
-
-## Mechanical Contrast
-
-![Fold](Figures-Folds-and-Folding-Mechanisms/figures/Contrast_mechanical_behavior.svg)
+<!-- .slide: data-background="Figures-Folds-and-Folding-Mechanisms/photos/Flexural_Slip_parallel_folds.jpg" -->
 
 <--o-->
+### Contrast in behaviour of different beds
 
+![Fold](Figures-Folds-and-Folding-Mechanisms/figures/Contrast_mechanical_behavior.svg) <!-- .element width="95%" -->
+
+<--o-->
 ## Thickness and Fold wavelength
 
-![Fold](Figures-Folds-and-Folding-Mechanisms/figures/Thickness_and_Fold_wavelengths.svg <!-- .element style="float: right" width="50%" -->
+![Fold](Figures-Folds-and-Folding-Mechanisms/figures/Thickness_and_Fold_wavelengths.svg) <!-- .element style="float: right" width="50%" -->
 
 Different layer thicknesses and/or rheologies produce different wavelengths of folds.
 
 The geometry of the 2nd and 3rd order of folds show where the large structures are!
+
+<--o-->
+
+## Bending
+<div>
+
+<div style="width:70%; float:left">
+
+Examples of bending in various settings
+- (a) between boudins
+- (b) above thrust ramps
+- (c) above reactivated faults
+- (d) above shallow intrusions or salt diapirs
+
+![Bending](Figures-Folds-and-Folding-Mechanisms/figures/Monocline.jpg) <!-- .element style="float: center" width="95%" -->
+
+
+</div>
+<div style="width:30%; float:right">
+
+![Bending](Figures-Folds-and-Folding-Mechanisms/figures/Bending_Examples.jpg) <!-- .element style="float: center" width="90%" -->
+
+</div>
+</div>
+
+<--o-->
+<!-- .slide: data-background="Figures-Folds-and-Folding-Mechanisms/photos/Fossen_Passive_Folds_between_boudins.jpg" -->
+
+<--o-->
+<!-- .slide: data-background="Figures-Folds-and-Folding-Mechanisms/photos/drag_fold.jpeg" -->
+
+<--o-->
+<!-- .slide: data-background="Figures-Folds-and-Folding-Mechanisms/photos/faultbendfoldphotoredo.jpg" -->
+
+<--o-->
+
+## Kinking and Chevron Folding
+
+![Kink Folds](Figures-Folds-and-Folding-Mechanisms/figures/Kink_Folds.svg) <!-- .element width="50%" -->
+
+<--o-->
+<!-- .slide: data-background="Figures-Folds-and-Folding-Mechanisms/photos/kink_fold_Bergen.jpg" -->
+
+<--o-->
+<!-- .slide: data-background="Figures-Folds-and-Folding-Mechanisms/photos/Kink_folds_Oman_cherts.jpg" -->
 
 <--o-->
 

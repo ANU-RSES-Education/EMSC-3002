@@ -39,6 +39,9 @@ corrections._
 <!-- 1. **Ramsay, J.G. and Huber, M.I. 1987.** *Modern Structural Geology. Volume 2: Folds and Fractures.* Academic Press. -->
 
 <--o-->
+<!-- .slide: data-background="Figures-Structures-Associated-with-Folding-2/photos/cleavage.jpg" -->
+
+<--o-->
 
 ## Intended learning outcomes
 

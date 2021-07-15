@@ -1,4 +1,4 @@
-# Lecture-Folds-and-Folding-Mechanisms
+# Folds and Folding Mechanisms
 
 This lecture introduces folds morphology, their classifications and the folding mechanisms.
 
