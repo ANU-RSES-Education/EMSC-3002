@@ -14,7 +14,14 @@
   - file: Lectures/Index.md
     sections: 
     - file: Lectures/Lecture-1-Introduction
-    - file: Lectures/Lecture-2-Folding
+    - file: Lectures/Lecture-Structural-Geology-And-Crustal-Deformation
+    - file: Lectures/Lecture-Fold-Geometry-1
+    - file: Lectures/Lecture-Fold-Geometry-2
+    - file: Lectures/Lecture-Structures-Associated-with-Folding-1
+    - file: Lectures/Lecture-Structures-Associated-with-Folding-2
+    - file: Lectures/Lecture-Structures-Associated-with-Folding-3
+    - file: Lectures/Lecture-Shear_zones
+    
 
 - part: Notebooks
   chapters:
