@@ -5,11 +5,13 @@ Below are some important definitions. A useful, general glossary of geological t
 - **Anticline**
 - **Anticlinorium**
 - **Antiform**
+- **Asthenosphere**: A rheological domain that is the weaker zone that lies beneath the plates and allows them to move freely
 - **Axial Surface**
 - **Axial trace**
 - **Basin**
 - **Bending**
 - **Buckling**
+- **Craton**: a region of the Earth's crust that has experienced little or no tectonic deformation for at least a billion years. 
 - **Crest line**
 - **Culmination**
 - **Depression**
@@ -29,8 +31,7 @@ Below are some important definitions. A useful, general glossary of geological t
 - **Fold, conical**
 - **Fold, conjugate**
 - **Fold, cylindrical**
-- **Fold, domain**: part of the fold delimited by inflexion lines. Domains with negative curvature (Upward closing) are called
-antiforms, domains with positive curvature (downward closing) are synforms.
+- **Fold, domain**: part of the fold delimited by inflexion lines. Domains with negative curvature (Upward closing) are called antiforms, domains with positive curvature (downward closing) are synforms.
 - **Fold, en-echelon**
 - **Fold, eyed**
 - **Fold, facing direction of**
@@ -59,8 +60,10 @@ maximum curvature.
 - **Inflexion line surface**
 - **Interlimb angle**
 - **Inverted saddle**
+- **Lithosphere**: A rheological domain that describes the upper layer of the Earth that has the most plate-like characteristics.
 - **Median surface**
 - **Monocline**
+- **Rheology**
 - **Saddle**
 - **Strain / Strain-rate**
 - **Stress**
