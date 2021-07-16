@@ -289,3 +289,7 @@ Detachment faults are large scale flats.
 </div>
 
 <--o-->
+
+## Test
+
+![Sheath Fold](Figures-Folds-and-Folding-Mechanisms/figures/Sheath_Folds.svg) <!-- .element style="float: right" width="95%" -->
