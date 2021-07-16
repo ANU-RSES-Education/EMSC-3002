@@ -53,7 +53,7 @@ Read more on [Wikipedia](https://en.wikipedia.org/wiki/Tectonics).
 
 ## Resources
 
- ![](images/EMSC3002-JB-QRcode.png) <!-- .element style="float: right" width="25%" -->
+ ![](images/Introduction/EMSC3002-JB-QRcode.png) <!-- .element style="float: right" width="25%" -->
 
 <div  style="width:50%">
 
@@ -94,7 +94,7 @@ This course is designed to develop an advanced understanding of deformation proc
 
 ## Lecturers
 
-![LM](images/Mugshot-Moresi.jpeg)   <!-- .element style="width:20%; float:right; margin-top:150px" -->
+![LM](images/Introduction/Mugshot-Moresi.jpeg)   <!-- .element style="width:20%; float:right; margin-top:150px" -->
 
 <div style="width:75%">
 
@@ -111,7 +111,7 @@ For more information my work and some blog posts see [https://www.geo-down-under
 
 ## Lecturers
 
-![RB](images/Mugshot-Beucher.jpeg)   <!-- .element style="width:20%; float:right; margin-top:150px" -->
+![RB](images/Introduction/Mugshot-Beucher.jpeg)   <!-- .element style="width:20%; float:right; margin-top:150px" -->
 
 <div style="width:75%">
 
@@ -129,7 +129,7 @@ My current research interest includes the study of interactions between tectonic
 
 ## Lecturers
 
-![CJ](images/Mugshot-Jiang.png)   <!-- .element style="width:20%; float:right; margin-top:150px" -->
+![CJ](images/Introduction/Mugshot-Jiang.png)   <!-- .element style="width:20%; float:right; margin-top:150px" -->
 
 <div style="width:75%">
 
@@ -175,7 +175,7 @@ Three hour practicals each week. We are not able to undertake any field trips th
 
 (See wattle for updates)
 
-![Dewey](images/Dewey1972-PlateMap.png) <!-- .element style="width:33%; float:right; margin:30px" -->
+![Dewey](images/Introduction/Dewey1972-PlateMap.png) <!-- .element style="width:33%; float:right; margin:30px" -->
 
 ### Module i - Global Tectonics
 
@@ -207,7 +207,7 @@ You will be given an overview of the geometry and type of structures produced by
 
 ## Course Modules
 
-![INSAR](images/Napa-airport-discontinuity-INSAR.jpg) <!-- .element style="width:25%; float:right; margin:30px" -->
+![INSAR](images/Introduction/Napa-airport-discontinuity-INSAR.jpg) <!-- .element style="width:25%; float:right; margin:30px" -->
 
 ### Module iii - Theoretical Underpinnings
 
@@ -224,7 +224,7 @@ In order to understand geological structures in more detail, we need some backgr
 
 ## Course Modules
 
-![SAF](images/Carrizo_Plain_birds_eye_view_SAF.jpg) <!-- .element style="width:20%; float:right; margin:30px" -->
+![SAF](images/Introduction/Carrizo_Plain_birds_eye_view_SAF.jpg) <!-- .element style="width:20%; float:right; margin:30px" -->
 
 ### Module iv - Brittle Deformation
 

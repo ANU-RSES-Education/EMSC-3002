@@ -30,7 +30,7 @@ corrections._
 
 ## Resources
 
- ![](images/EMSC3002-JB-QRcode.png) <!-- .element style="float: right" width="25%" -->
+ ![](images/Introduction/EMSC3002-JB-QRcode.png) <!-- .element style="float: right" width="25%" -->
 
 <div  style="width:50%">
 
