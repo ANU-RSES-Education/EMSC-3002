@@ -6,25 +6,24 @@ parts:
 - caption: Introduction
   chapters:
   - file: Introductory_Remarks.md
-    sections:
-    - file: Background_Reading.md
-    - file: Practical_Exercises.md
-    - file: Theory_Computational_Exercises.md
+  - file: Background_Reading.md
+  - file: Practical_Exercises.md
+#   - file: Theory_Computational_Exercises.md  # Another time ... 
 
 - caption: Lecture Notes
   chapters:
-  - file: Lectures/Index.md
+  - file: Lectures/Lecture-1-Introduction
+  - file: Lectures/Module-i-GlobalTectonics.md
+    title: "Module 1 - Global Tectonics"
+  - file: Lectures/Lecture-Structural-Geology-And-Crustal-Deformation
+    title: "Module 2 - Structures in the Earth"
+  - file: Lectures/Lecture-Fold-Geometry-1
+    title: "Module 5 - Ductile Deformation"
     sections: 
-    - file: Lectures/Lecture-1-Introduction
-    - file: Lectures/Module-i-GlobalTectonics.md
-    - file: Lectures/Lecture-Structural-Geology-And-Crustal-Deformation
-    - file: Lectures/Lecture-Fold-Geometry-1
-    - file: Lectures/Lecture-Folds-and-Folding-Mechanisms
-    - file: Lectures/Lecture-Structures-Associated-with-Folding-1
-    - file: Lectures/Lecture-Structures-Associated-with-Folding-2
-    - file: Lectures/Lecture-Structures-Associated-with-Folding-3
-    - file: Lectures/Lecture-Shear_zones
-    
+      - file: Lectures/Lecture-Folds-and-Folding-Mechanisms
+      - file: Lectures/Lecture-Structures-Associated-with-Folding
+      - file: Lectures/Lecture-Shear_zones
+        
 
 - caption: Glossary
   chapters:
