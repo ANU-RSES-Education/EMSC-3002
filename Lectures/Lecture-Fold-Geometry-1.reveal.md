@@ -192,6 +192,32 @@ axis that plunges in either direction.
 </div>
 
 <--o-->
+## Anticline
+
+![Anticline](Figures-Fold-Geometry-1/figures/Anticline.jpg) <!-- .element style="float: right" width="95%" -->
+
+<--o-->
+## Syncline
+
+![Syncline](Figures-Fold-Geometry-1/figures/Syncline.jpg) <!-- .element style="float: right" width="95%" -->
+
+<--o-->
+## Dome
+
+![Anticline](Figures-Fold-Geometry-1/figures/Dome.jpg) <!-- .element style="float: right" width="95%" -->
+
+<--o-->
+
+<!-- .slide: data-background="Figures-Fold-Geometry-1/photos/Richat structure.jpg" -->
+
+<--o-->
+## Basin
+
+![Basin](Figures-Fold-Geometry-1/figures/Basin.jpg) <!-- .element style="float: right" width="95%" -->
+
+<--o-->
+
+
 
 ## Fold styles
 
@@ -215,12 +241,6 @@ axis that plunges in either direction.
 
 </div>
 </div>
-
-
-<--o-->
-
-
-<!-- .slide: data-background="Figures-Fold-Geometry-1/photos/Richat structure.jpg" -->
 
 <--o-->
 
@@ -267,3 +287,7 @@ Classification according to the hinge curvature is referred to as bluntness.
 <--o-->
 
 <!-- .slide: data-background="Figures-Fold-Geometry-1/photos/Exceptional_folds_during_the_Girls_into_Geoscience_inaugural_Irish_Fieldtrip.jpg" -->
+
+<--o-->
+
+<!-- .slide: data-background="Figures-Fold-Geometry-1/photos/Ptygmatic_folds_EGU_Blog_Iran.jpg" -->

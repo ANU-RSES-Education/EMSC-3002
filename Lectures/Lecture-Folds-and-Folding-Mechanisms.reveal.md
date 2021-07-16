@@ -261,9 +261,61 @@ Examples of bending in various settings
 
 <--o-->
 
-## Pumpelly's Rule
+## Introduction to structural analysis
+### Pumpelly's Rule
 
 ![Fold](Figures-Folds-and-Folding-Mechanisms/figures/Pumpellys_rule.svg)  <!-- .element width="90%" -->>
+
+<--o-->
+## Shorthand nomenclature
+
+<div>
+<div style="width:60%; float:left">
+
+We use the designation **$S_n$** for foliations, with the **$n$** subscript indicating relative age ($S_0$, $S_1$, $S_2$ etc.)
+
+**$S_0$** referred to the primary foliation, e.g the bedding for a sedimentary rock.
+
+As folds and foliations are often related we associate **$S_1$**, **$S_2$**, **$S_3$**... to generations of folds **$F_1$**, **$F_2$**, **$F_3$**...
+
+We can also refer to deformation phases as **$D_1$**, **$D_2$**, **$D_3$**...
+
+</div>
+<div style="width:40%; float:right">
+
+![Shorthand Nomenclature](Figures-Folds-and-Folding-Mechanisms/figures/CleavageLayeringRelationships.jpg) <!-- .element style="float: center" width="90%" -->
+
+</div>
+</div>
+
+<--o-->
+
+## Superposed folds - fold interference patterns
+
+<div>
+<div style="width:50%; float:left">
+
+Successive deformation phases (**$P_1$**, **$P_2$** etc.) can results in 
+superimposition of fold generations (**$F_1$**, **$F_2$** etc.).
+
+Folds modified by a later phase are known as **refolded folds** and the resulting pattern is known as **fold interference patterns**.
+
+</div>
+<div style="width:50%; float:right">
+
+![Interference Patterns](Figures-Folds-and-Folding-Mechanisms/figures/FossenInterferencePatterns.jpg) <!-- .element style="float: center" width="70%" -->
+
+</div>
+</div>
+
+<--o-->
+<!-- .slide: data-background="Figures-Folds-and-Folding-Mechanisms/photos/FossenInterferenceFolds.jpg" -->
+
+<--o-->
+
+## Sheath folds
+
+![Sheath Fold](Figures-Folds-and-Folding-Mechanisms/figures/Sheath_Folds.svg) <!-- .element style="float: right" width="95%" -->
 
 <--o-->
 
@@ -287,5 +339,3 @@ Detachment faults are large scale flats.
 
 </div>
 </div>
-
-<--o-->
