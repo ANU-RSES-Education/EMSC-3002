@@ -17,6 +17,10 @@ parts:
     title: "Module 1 - Global Tectonics"
   - file: Lectures/Lecture-Structural-Geology-And-Crustal-Deformation
     title: "Module 2 - Structures in the Earth"
+  - file: Lectures/Module-iii-Theory.md
+    title: "Module 3 - Theory"
+  - file: Lectures/Module-iv-BrittleDeformation.md
+    title: "Module 4 - Brittle Deformation"
   - file: Lectures/Lecture-Fold-Geometry-1
     title: "Module 5 - Ductile Deformation"
     sections: 
