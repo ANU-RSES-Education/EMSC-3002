@@ -15,6 +15,7 @@ Below are some important definitions. A useful, general glossary of geological t
 - **Crest line**
 - **Culmination**
 - **Depression**
+- **Dynamics**
 - **Dome**
 - **Elastica**
 - **Facing Direction**
@@ -60,6 +61,7 @@ maximum curvature.
 - **Inflexion line surface**
 - **Interlimb angle**
 - **Inverted saddle**
+- **Kinematics**
 - **Lithosphere**: A rheological domain that describes the upper layer of the Earth that has the most plate-like characteristics.
 - **Median surface**
 - **Monocline**
