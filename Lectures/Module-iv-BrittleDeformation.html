@@ -5,7 +5,7 @@
   <head>
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Example notebook for deployment in jupyterbook &#8212; EMSC 3002</title>
+    <title>Brittle Deformation &#8212; EMSC 3002</title>
     
   <link href="../_static/css/theme.css" rel="stylesheet" />
   <link href="../_static/css/index.c5995385ac14fb8791e8eb36b4908be2.css" rel="stylesheet" />
@@ -52,6 +52,8 @@
     <script async="async" src="../_static/sphinx-thebe.js"></script>
     <link rel="index" title="Index" href="../genindex.html" />
     <link rel="search" title="Search" href="../search.html" />
+    <link rel="next" title="Fold Geometry 1" href="Lecture-Fold-Geometry-1.html" />
+    <link rel="prev" title="Theoretical Underpinnings" href="Module-iii-Theory.html" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
     <meta name="docsearch:language" content="en" />
     
@@ -115,34 +117,34 @@
   Lecture Notes
  </span>
 </p>
-<ul class="nav bd-sidenav">
+<ul class="current nav bd-sidenav">
  <li class="toctree-l1">
-  <a class="reference internal" href="../Lectures/Lecture-1-Introduction.html">
+  <a class="reference internal" href="Lecture-1-Introduction.html">
    Introduction to EMSC 3002
   </a>
  </li>
  <li class="toctree-l1">
-  <a class="reference internal" href="../Lectures/Module-i-GlobalTectonics.html">
+  <a class="reference internal" href="Module-i-GlobalTectonics.html">
    Module 1 - Global Tectonics
   </a>
  </li>
  <li class="toctree-l1">
-  <a class="reference internal" href="../Lectures/Lecture-Structural-Geology-And-Crustal-Deformation.html">
+  <a class="reference internal" href="Lecture-Structural-Geology-And-Crustal-Deformation.html">
    Module 2 - Structures in the Earth
   </a>
  </li>
  <li class="toctree-l1">
-  <a class="reference internal" href="../Lectures/Module-iii-Theory.html">
+  <a class="reference internal" href="Module-iii-Theory.html">
    Module 3 - Theory
   </a>
  </li>
- <li class="toctree-l1">
-  <a class="reference internal" href="../Lectures/Module-iv-BrittleDeformation.html">
+ <li class="toctree-l1 current active">
+  <a class="current reference internal" href="#">
    Module 4 - Brittle Deformation
   </a>
  </li>
  <li class="toctree-l1 has-children">
-  <a class="reference internal" href="../Lectures/Lecture-Fold-Geometry-1.html">
+  <a class="reference internal" href="Lecture-Fold-Geometry-1.html">
    Module 5 - Ductile Deformation
   </a>
   <input class="toctree-checkbox" id="toctree-checkbox-1" name="toctree-checkbox-1" type="checkbox"/>
@@ -152,17 +154,17 @@
   </label>
   <ul>
    <li class="toctree-l2">
-    <a class="reference internal" href="../Lectures/Lecture-Folds-and-Folding-Mechanisms.html">
+    <a class="reference internal" href="Lecture-Folds-and-Folding-Mechanisms.html">
      Folds and Folding Mechanisms
     </a>
    </li>
    <li class="toctree-l2">
-    <a class="reference internal" href="../Lectures/Lecture-Structures-Associated-with-Folding.html">
+    <a class="reference internal" href="Lecture-Structures-Associated-with-Folding.html">
      Structures associated with folding 1
     </a>
    </li>
    <li class="toctree-l2">
-    <a class="reference internal" href="../Lectures/Lecture-Shear_zones.html">
+    <a class="reference internal" href="Lecture-Shear_zones.html">
      Shear Zones
     </a>
    </li>
@@ -233,9 +235,9 @@
         <!-- ipynb file if we had a myst markdown file -->
         
         <!-- Download raw file -->
-        <a class="dropdown-buttons" href="../_sources/Notebooks/Example1.ipynb"><button type="button"
+        <a class="dropdown-buttons" href="../_sources/Lectures/Module-iv-BrittleDeformation.md"><button type="button"
                 class="btn btn-secondary topbarbtn" title="Download source file" data-toggle="tooltip"
-                data-placement="left">.ipynb</button></a>
+                data-placement="left">.md</button></a>
         <!-- Download PDF via print -->
         <button type="button" id="download-print" class="btn btn-secondary topbarbtn" title="Print to PDF"
             onClick="window.print()" data-toggle="tooltip" data-placement="left">.pdf</button>
@@ -266,23 +268,6 @@
 
             <!-- Launch buttons -->
 
-<div class="dropdown-buttons-trigger">
-    <button id="dropdown-buttons-trigger" class="btn btn-secondary topbarbtn"
-        aria-label="Launch interactive content"><i class="fas fa-rocket"></i></button>
-    <div class="dropdown-buttons">
-        
-        <a class="binder-button" href="https://mybinder.org/v2/gh/underworld-geodynamics-cloud/self-managing-jupyterhub/master?urlpath=tree/Notebooks/Example1.ipynb"><button type="button"
-                class="btn btn-secondary topbarbtn" title="Launch Binder" data-toggle="tooltip"
-                data-placement="left"><img class="binder-button-logo"
-                    src="../_static/images/logo_binder.svg"
-                    alt="Interact on binder">Binder</button></a>
-        
-        
-        
-        
-    </div>
-</div>
-
         </div>
 
         <!-- Table of contents -->
@@ -294,8 +279,40 @@
             <nav id="bd-toc-nav">
                 <ul class="visible nav section-nav flex-column">
  <li class="toc-h2 nav-item toc-entry">
-  <a class="reference internal nav-link" href="#note">
-   Note
+  <a class="reference internal nav-link" href="#lecture-slides">
+   Lecture Slides
+  </a>
+  <ul class="nav section-nav flex-column">
+   <li class="toc-h3 nav-item toc-entry">
+    <a class="reference internal nav-link" href="#section-1">
+     Section 1
+    </a>
+   </li>
+   <li class="toc-h3 nav-item toc-entry">
+    <a class="reference internal nav-link" href="#section-2">
+     Section 2
+    </a>
+   </li>
+  </ul>
+ </li>
+ <li class="toc-h2 nav-item toc-entry">
+  <a class="reference internal nav-link" href="#links">
+   Links
+  </a>
+ </li>
+ <li class="toc-h2 nav-item toc-entry">
+  <a class="reference internal nav-link" href="#background-reading">
+   Background Reading
+  </a>
+ </li>
+ <li class="toc-h2 nav-item toc-entry">
+  <a class="reference internal nav-link" href="#things-to-watch">
+   Things to watch !
+  </a>
+ </li>
+ <li class="toc-h2 nav-item toc-entry">
+  <a class="reference internal nav-link" href="#test-your-knowledge">
+   Test your knowledge
   </a>
  </li>
 </ul>
@@ -309,54 +326,40 @@
         
               <div>
                 
-  <div class="section" id="example-notebook-for-deployment-in-jupyterbook">
-<h1>Example notebook for deployment in jupyterbook<a class="headerlink" href="#example-notebook-for-deployment-in-jupyterbook" title="Permalink to this headline">¶</a></h1>
-<p><code class="docutils literal notranslate"><span class="pre">jupyter-book</span></code> will render a notebook in a recognisable form but which can include <code class="docutils literal notranslate"><span class="pre">myst</span></code> formating. It can also execute the cells if required and embed the results in the html pages.</p>
-<p>There is an option to use <a class="reference external" href="https://mybinder.org">binder</a> to launch the notebook pages.</p>
-<p><code class="docutils literal notranslate"><span class="pre">jupytext</span></code> makes <code class="docutils literal notranslate"><span class="pre">.md</span></code> and <code class="docutils literal notranslate"><span class="pre">.ipynb</span></code> files largely equivalent but it seems to be better for those notebooks which are designed to be used in a live environment to be <code class="docutils literal notranslate"><span class="pre">.ipynb</span></code>. The reason for that is the way that most current versions of jupyter lab do not open markdown documents as notebooks by default even though they can execute them. In a classroom, this is unnecessarily complicated.</p>
-<div class="cell docutils container">
-<div class="cell_input docutils container">
-<div class="highlight-ipython3 notranslate"><div class="highlight"><pre><span></span><span class="kn">import</span> <span class="nn">math</span>
+  <div class="section" id="brittle-deformation">
+<h1>Brittle Deformation<a class="headerlink" href="#brittle-deformation" title="Permalink to this headline">¶</a></h1>
+<p>This section of the course covers the theoretical background of structural geology and tectonics that we need to go deeper in our understanding of how structures form and how to analyse their geometry.</p>
+<div class="section" id="lecture-slides">
+<h2>Lecture Slides<a class="headerlink" href="#lecture-slides" title="Permalink to this headline">¶</a></h2>
+<div class="section" id="section-1">
+<h3>Section 1<a class="headerlink" href="#section-1" title="Permalink to this headline">¶</a></h3>
+<!--
 
-<span class="n">n</span><span class="p">,</span><span class="n">d</span> <span class="o">=</span> <span class="n">math</span><span class="o">.</span><span class="n">pi</span><span class="o">.</span><span class="n">as_integer_ratio</span><span class="p">()</span>
+<iframe src="../slideshows/Module-iv-BrittleDeformation-1.reveal.html" title="Slideshow" width=100%, height=500, allowfullscreen></iframe>
 
-<span class="nb">print</span><span class="p">(</span><span class="s2">&quot;Is pi actually a rational number ? - is it </span><span class="si">{}</span><span class="s2">&quot;</span><span class="o">.</span><span class="n">format</span><span class="p">(</span><span class="n">n</span><span class="o">/</span><span class="n">d</span><span class="p">))</span>
-</pre></div>
+-->
+</div>
+<div class="section" id="section-2">
+<h3>Section 2<a class="headerlink" href="#section-2" title="Permalink to this headline">¶</a></h3>
+<!--
+
+<iframe src="../slideshows/Module-iv-BrittleDeformation-2.reveal.html" title="Slideshow" width=100%, height=500, allowfullscreen></iframe>
+
+-->
 </div>
 </div>
-<div class="cell_output docutils container">
-<div class="output stream highlight-myst-ansi notranslate"><div class="highlight"><pre><span></span>Is pi actually a rational number ? - is it 3.141592653589793
-</pre></div>
+<div class="section" id="links">
+<h2>Links<a class="headerlink" href="#links" title="Permalink to this headline">¶</a></h2>
+<p>GPlates Portal (link TBA)</p>
 </div>
+<div class="section" id="background-reading">
+<h2>Background Reading<a class="headerlink" href="#background-reading" title="Permalink to this headline">¶</a></h2>
 </div>
+<div class="section" id="things-to-watch">
+<h2>Things to watch !<a class="headerlink" href="#things-to-watch" title="Permalink to this headline">¶</a></h2>
 </div>
-<div class="section" id="note">
-<h2>Note<a class="headerlink" href="#note" title="Permalink to this headline">¶</a></h2>
-<p>This is an example of some <code class="docutils literal notranslate"><span class="pre">myst</span></code> markdown which looks odd in a notebook but fine in the rendered book. Beware !</p>
-<div class="highlight-none notranslate"><div class="highlight"><pre><span></span>```{figure} images/LA_Region_ShadedRelief.png
----
-width: 80%
-name: An exercise with `cartopy` !
----
-``` 
-</pre></div>
-</div>
-<p>Rendered here:</p>
-<div class="figure align-default" id="an-exercise-with-cartopy">
-<a class="reference internal image-reference" href="../_images/LA_Region_ShadedRelief.png"><img alt="../_images/LA_Region_ShadedRelief.png" src="../_images/LA_Region_ShadedRelief.png" style="width: 80%;" /></a>
-</div>
-<div class="cell docutils container">
-<div class="cell_input docutils container">
-<div class="highlight-ipython3 notranslate"><div class="highlight"><pre><span></span><span class="o">%</span><span class="k">ls</span>
-</pre></div>
-</div>
-</div>
-<div class="cell_output docutils container">
-<div class="output stream highlight-myst-ansi notranslate"><div class="highlight"><pre><span></span>Example1.ipynb  Example2.md     <span class=" -Color -Color-Blue">Figures</span>/        Index.md
-</pre></div>
-</div>
-</div>
-</div>
+<div class="section" id="test-your-knowledge">
+<h2>Test your knowledge<a class="headerlink" href="#test-your-knowledge" title="Permalink to this headline">¶</a></h2>
 </div>
 </div>
 
@@ -373,7 +376,7 @@ name: An exercise with `cartopy` !
         },
         kernelOptions: {
             kernelName: "python3",
-            path: "./Notebooks"
+            path: "./Lectures"
         },
         predefinedOutput: true
     }
@@ -385,6 +388,8 @@ name: An exercise with `cartopy` !
         
         <div class='prev-next-bottom'>
             
+    <a class='left-prev' id="prev-link" href="Module-iii-Theory.html" title="previous page">Theoretical Underpinnings</a>
+    <a class='right-next' id="next-link" href="Lecture-Fold-Geometry-1.html" title="next page">Fold Geometry 1</a>
 
         </div>
         
