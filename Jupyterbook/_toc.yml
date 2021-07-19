@@ -19,9 +19,9 @@ parts:
     title: "Module 2 - Structures in the Earth"
   - file: Lectures/Module-iii-Theory.md
     title: "Module 3 - Theory"
-  - file: Lectures/Module-iv-BrittleDeformation.md
-    title: "Module 4 - Brittle Deformation"
   - file: Lectures/Module-iv-BrittleDeformation
+    title: "Module 4 - Brittle Deformation"
+  - file: Lectures/Lecture-Fold-Geometry-1
     title: "Module 5 - Ductile Deformation"
     sections: 
       - file: Lectures/Lecture-Folds-and-Folding-Mechanisms
