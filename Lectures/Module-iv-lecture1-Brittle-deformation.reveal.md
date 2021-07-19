@@ -41,8 +41,9 @@ corrections._
 
 Students will be able to:
 
-- Describe and name basic elements of fold geometry
-- Use classifications to describe fold styles
+- one
+- two
+- three
 
 <--o-->
 
