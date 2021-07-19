@@ -5,7 +5,7 @@ verticalSeparator: '<--v-->'
 revealOptions:
     transition: 'fade'
     slideNumber: true
-    width:  1200
+    width:  1100
     height: 800
     margin: 0.07 # Factor of the display size that should remain empty around the content (7% typically)
 ---
