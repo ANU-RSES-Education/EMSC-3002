@@ -89,3 +89,84 @@ Students will be able to:
 
 <!-- .slide: data-background="Figures-Brittle_deformation1/slide11.jpg" -->
 
+<--o-->
+
+<!-- .slide: data-background="Figures-Brittle_deformation1/slide12.jpg" -->
+
+<--o-->
+
+<!-- .slide: data-background="Figures-Brittle_deformation1/slide13.jpg" -->
+
+<--o-->
+
+<!-- .slide: data-background="Figures-Brittle_deformation1/slide14.jpg" -->
+
+<--o-->
+
+<!-- .slide: data-background="Figures-Brittle_deformation1/slide15.jpg" -->
+<--o-->
+
+<!-- .slide: data-background="Figures-Brittle_deformation1/slide16.jpg" -->
+
+<--o-->
+
+<!-- .slide: data-background="Figures-Brittle_deformation1/slide17.jpg" -->
+
+<--o-->
+
+<!-- .slide: data-background="Figures-Brittle_deformation1/slide18.jpg" -->
+
+<--o-->
+
+<!-- .slide: data-background="Figures-Brittle_deformation1/slide19.jpg" -->
+
+<--o-->
+
+<!-- .slide: data-background="Figures-Brittle_deformation1/slide20.jpg" -->
+
+<--o-->
+
+<!-- .slide: data-background="Figures-Brittle_deformation1/slide21.jpg" -->
+<--o-->
+
+<!-- .slide: data-background="Figures-Brittle_deformation1/slide22.jpg" -->
+
+<--o-->
+
+<!-- .slide: data-background="Figures-Brittle_deformation1/slide23.jpg" -->
+
+<--o-->
+
+<!-- .slide: data-background="Figures-Brittle_deformation1/slide24.jpg" -->
+
+<--o-->
+
+<!-- .slide: data-background="Figures-Brittle_deformation1/slide25.jpg" -->
+
+<--o-->
+
+<!-- .slide: data-background="Figures-Brittle_deformation1/slide26.jpg" -->
+
+<--o-->
+
+<!-- .slide: data-background="Figures-Brittle_deformation1/slide27.jpg" -->
+
+<--o-->
+
+<!-- .slide: data-background="Figures-Brittle_deformation1/slide28.jpg" -->
+
+<--o-->
+
+<!-- .slide: data-background="Figures-Brittle_deformation1/slide29.jpg" -->
+
+<--o-->
+
+<!-- .slide: data-background="Figures-Brittle_deformation1/slide30.jpg" -->
+
+<--o-->
+
+<!-- .slide: data-background="Figures-Brittle_deformation1/slide31.jpg" -->
+
+<--o-->
+
+<!-- .slide: data-background="Figures-Brittle_deformation1/slide32.jpg" -->

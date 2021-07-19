@@ -8,6 +8,11 @@ This section of the course covers the theoretical background of structural geolo
 
 <iframe src="../slideshows/Module-iv-lecture1-Brittle-deformation.reveal.html" title="Slideshow" width=100%, height=500, allowfullscreen></iframe>
 
+### Brittle deformation 2
+
+<iframe src="../slideshows/Module-iv-lecture2-Brittle-deformation.reveal.html" title="Slideshow" width=100%, height=500, allowfullscreen></iframe>
+
+
 ## Links
 
 
