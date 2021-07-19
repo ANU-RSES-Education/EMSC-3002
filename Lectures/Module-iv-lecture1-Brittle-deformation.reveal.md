@@ -6,7 +6,7 @@ revealOptions:
     transition: 'fade'
     slideNumber: true
     width:  1250
-    height: 780
+    height: 800
     margin: 0.07 # Factor of the display size that should remain empty around the content (7% typically)
 ---
 
