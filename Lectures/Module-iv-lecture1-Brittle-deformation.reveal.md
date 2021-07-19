@@ -70,15 +70,3 @@ Students will be able to:
 <!-- .slide: data-background="Figures-Brittle_deformation1/slide6.jpg" -->
 
 <--o-->
-
-<!-- .slide: data-background="Figures-Brittle_deformation1/slide7.jpg" -->
-
-<--o-->
-
-<!-- .slide: data-background="Figures-Brittle_deformation1/slide8.jpg" -->
-
-<--o-->
-
-<!-- .slide: data-background="Figures-Brittle_deformation1/slide9.jpg" -->
-
-<--o-->
