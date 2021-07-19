@@ -12,7 +12,7 @@ revealOptions:
 
 # EMSC 3002
 
-## Brittle deformation 2
+## Fault, fault zone and focal mechanism
 
   - Louis Moresi (convenor)
   - Romain Beucher (lecturer)
@@ -56,3 +56,127 @@ Students will be able to:
 <--o-->
 
 <!-- .slide: data-background="Figures-Brittle_deformation2/slide3.jpg" -->
+
+<--o-->
+
+<!-- .slide: data-background="Figures-Brittle_deformation2/slide4.jpg" -->
+
+<--o-->
+
+<!-- .slide: data-background="Figures-Brittle_deformation2/slide5.jpg" -->
+
+<--o-->
+
+<!-- .slide: data-background="Figures-Brittle_deformation2/slide6.jpg" -->
+
+<--o-->
+
+<!-- .slide: data-background="Figures-Brittle_deformation2/slide7.jpg" -->
+
+<--o-->
+
+<!-- .slide: data-background="Figures-Brittle_deformation2/slide8.jpg" -->
+
+<--o-->
+
+<!-- .slide: data-background="Figures-Brittle_deformation2/slide9.jpg" -->
+
+<--o-->
+
+<!-- .slide: data-background="Figures-Brittle_deformation2/slide10.jpg" -->
+
+<--o-->
+
+<!-- .slide: data-background="Figures-Brittle_deformation2/slide11.jpg" -->
+
+<--o-->
+
+<!-- .slide: data-background="Figures-Brittle_deformation2/slide12.jpg" -->
+
+<--o-->
+
+<!-- .slide: data-background="Figures-Brittle_deformation2/slide13.jpg" -->
+
+<--o-->
+
+<!-- .slide: data-background="Figures-Brittle_deformation2/slide14.jpg" -->
+
+<--o-->
+
+<!-- .slide: data-background="Figures-Brittle_deformation2/slide15.jpg" -->
+
+<--o-->
+
+<!-- .slide: data-background="Figures-Brittle_deformation2/slide16.jpg" -->
+
+<--o-->
+
+<!-- .slide: data-background="Figures-Brittle_deformation2/slide17.jpg" -->
+
+<--o-->
+
+<!-- .slide: data-background="Figures-Brittle_deformation2/slide18.jpg" -->
+
+<--o-->
+
+<!-- .slide: data-background="Figures-Brittle_deformation2/slide19.jpg" -->
+
+<--o-->
+
+<!-- .slide: data-background="Figures-Brittle_deformation2/slide20.jpg" -->
+
+<--o-->
+
+<!-- .slide: data-background="Figures-Brittle_deformation2/slide21.jpg" -->
+
+<--o-->
+
+<!-- .slide: data-background="Figures-Brittle_deformation2/slide22.jpg" -->
+
+<--o-->
+
+<!-- .slide: data-background="Figures-Brittle_deformation2/slide23.jpg" -->
+
+<--o-->
+
+<!-- .slide: data-background="Figures-Brittle_deformation2/slide24.jpg" -->
+
+<--o-->
+
+<!-- .slide: data-background="Figures-Brittle_deformation2/slide25.jpg" -->
+
+<--o-->
+
+<!-- .slide: data-background="Figures-Brittle_deformation2/slide26.jpg" -->
+
+<--o-->
+
+<!-- .slide: data-background="Figures-Brittle_deformation2/slide27.jpg" -->
+
+<--o-->
+
+<!-- .slide: data-background="Figures-Brittle_deformation2/slide28.jpg" -->
+
+<--o-->
+
+<!-- .slide: data-background="Figures-Brittle_deformation2/slide29.jpg" -->
+
+<--o-->
+
+<!-- .slide: data-background="Figures-Brittle_deformation2/slide30.jpg" -->
+
+<--o-->
+
+<!-- .slide: data-background="Figures-Brittle_deformation2/slide31.jpg" -->
+
+<--o-->
+
+<!-- .slide: data-background="Figures-Brittle_deformation2/slide32.jpg" -->
+
+<--o-->
+
+<!-- .slide: data-background="Figures-Brittle_deformation2/slide33.jpg" -->
+
+<--o-->
+
+<!-- .slide: data-background="Figures-Brittle_deformation2/slide34.jpg" -->

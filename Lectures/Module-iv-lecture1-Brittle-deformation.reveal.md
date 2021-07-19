@@ -5,14 +5,14 @@ verticalSeparator: '<--v-->'
 revealOptions:
     transition: 'fade'
     slideNumber: true
-    width:  1250
+    width:  1200
     height: 800
     margin: 0.07 # Factor of the display size that should remain empty around the content (7% typically)
 ---
 
 # EMSC 3002
 
-## Brittle deformation 1
+## Fractures, joints and fracture criteria
 
   - Louis Moresi (convenor)
   - Romain Beucher (lecturer)
