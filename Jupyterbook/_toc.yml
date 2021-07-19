@@ -21,7 +21,7 @@ parts:
     title: "Module 3 - Theory"
   - file: Lectures/Module-iv-BrittleDeformation.md
     title: "Module 4 - Brittle Deformation"
-  - file: Lectures/Lecture-Fold-Geometry-1
+  - file: Lectures/Module-iv-lecture1-Brittle-deformation
     title: "Module 5 - Ductile Deformation"
     sections: 
       - file: Lectures/Lecture-Folds-and-Folding-Mechanisms
