@@ -238,9 +238,6 @@ The regions of highest strain rate at the surface of the Earth are the plate bou
 
 
 
-
-
-
 <--o-->
 
 ## Divergent Boundaries & Kinematics
@@ -261,6 +258,11 @@ The regions of highest strain rate at the surface of the Earth are the plate bou
 
 <--o-->
 
+## Plate Boundaries
+
+
+
+<--o-->
 
 ## Convergent Boundaries & Kinematics
 
@@ -269,9 +271,28 @@ note: Google Earth examples + diagrams ...
 
 <--o-->
 
-## Plate Deformation v. Continental Deformation
-
-
+## Plate Boundary Types
 
 
 <--o-->
+
+## Divergent Boundaries & Kinematics
+
+
+<--o-->
+
+## Transform Boundaries & Kinematics
+
+
+<--o-->
+
+
+## Convergent Boundaries & Kinematics
+
+
+note: Google Earth examples + diagrams ... 
+
+<--o-->
+
+
+## Plate Deformation v. Continental Deformation
