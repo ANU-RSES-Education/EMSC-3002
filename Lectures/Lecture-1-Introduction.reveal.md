@@ -10,7 +10,7 @@ revealOptions:
 
 # EMSC 3002
 
-### An Introduction to Structural Geology and Tectonics
+## Introduction to Structural Geology & Tectonics
 
   - **Louis Moresi** (convenor)
   - Romain Beucher (lecturer)
@@ -59,12 +59,28 @@ Read more on [Wikipedia](https://en.wikipedia.org/wiki/Tectonics).
 
   This [online book](https://anu-rses-education.github.io/EMSC-3002/FrontPage.html)
 with lecture materials and lecture notes. This is a live document and we can update this
-to fix bugs and add material. You can create feedback for the pages. 
+to fix bugs and add material. You can create feedback for the pages. The original 
+"source code" for the slides etc is also available 
 
  - [EMSC3002/6030](https://wattlecourses.anu.edu.au/course/view.php?id=34828) on Wattle
  - [EMSC3002](https://programsandcourses.anu.edu.au/2021/course/EMSC3002) on programs & courses
 
 </div> 
+
+<--v-->
+
+## Resources
+
+
+![](images/Introduction/RevealNavigator.png) <!-- .element style="display:block; margin-left:auto; margin-right:auto; width:75%" -->
+
+</br>
+
+All of the slides for this course are available online and you can access the presentations as part of the online book. 
+The slides are in a 2D stack that have follow-on (sometimes more advanced material) below the regular flow of the presentation. 
+
+If you 
+
 
 <--o-->
 

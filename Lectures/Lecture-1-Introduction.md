@@ -7,12 +7,12 @@ The nature of the course and some things you need to know.
 ## Links
 
   1. [EMSC3002/6030](https://wattlecourses.anu.edu.au/course/view.php?id=34828) on Wattle
-  1. Programmes and courses
-  1. Other ...
+  1. [Programmes and courses](https://programsandcourses.anu.edu.au/2021/course/EMSC3002)
 
 ## Overview 
 
 The material in the course is split into five modules that cover:
+
   - Global Tectonics
   - Structures in the Earch
   - Theoretical background
@@ -22,6 +22,7 @@ The material in the course is split into five modules that cover:
 There are links to helpful external sites and background reading that you can find on pages for each module here and on wattle. All assessment is via wattle.
 
 ### Remote Participation
+
   We will make all the lectures available via zoom. In-person attendance is always preferable though restrictions on numbers may apply.
 
 ### Summary of Course Assessment
