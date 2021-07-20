@@ -226,7 +226,7 @@ Make your own map from the NOAA natural hazards interactive web page: [https://m
 
 ## Plate Boundaries
 
-
+The regions of highest strain rate at the surface of the Earth are the plate boundaries. 
 
 
 
@@ -266,3 +266,12 @@ Make your own map from the NOAA natural hazards interactive web page: [https://m
 
 
 note: Google Earth examples + diagrams ... 
+
+<--o-->
+
+## Plate Deformation v. Continental Deformation
+
+
+
+
+<--o-->
