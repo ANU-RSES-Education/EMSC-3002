@@ -4,7 +4,7 @@ This section of the course covers the theoretical background of structural geolo
 
 ## Lecture 1
 
-<iframe src="../slideshows/Module-iii-lecture1-Theory.reveal.html" title="Slideshow" width=110%, height=550, allowfullscreen></iframe>
+<iframe src="../slideshows/Module-iii-lecture1-Theory.reveal.html" title="Slideshow" width=110%, height=500, allowfullscreen></iframe>
 
 
 ## Links
