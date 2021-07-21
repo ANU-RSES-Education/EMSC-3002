@@ -12,7 +12,7 @@ revealOptions:
 
 # EMSC 3002
 
-### An Introduction to Structural Geology and Tectonics
+## Module 1.1 - Global Deformation Patterns
 
   - **Louis Moresi** (convenor)
   - Romain Beucher (lecturer)
@@ -41,23 +41,24 @@ with lecture materials, practicals and live computational examples.
 
   [Source code](https://github.com/underworld-geodynamics-cloud/self-managing-jupyterhub)
 </div> 
+
+
+We will be revising and building upon second year structural / tectonics materials (e.g. EMSC2023). Some material will be 
+quite familiar but we provide background reading to help revise important topics.
+
+
 <--o-->
 
 ## Learning Outcomes for this module
 
 What you will learn about global tectonics.
 
+ - The global datasets that we use to understand tectonic processes
  - The relationship between plate motions and plate boundary structures
  - The difference between continental and oceanic deformation
  - How mantle convection drives the plates
  - Background on stresses, strains, rheology
  - Background on deformation style and observations
-
-We will not be covering
-
- - Details of mantle circulation (Geodynamics)
- - Stress / strain tensors (see Module iii)
- - Quantitative analysis of deformation in 3D
 
 <--o-->
 
@@ -134,29 +135,164 @@ This map shows the relative thickness of the crust and the lithosphere (thick cr
 
 <--o-->
 
-## Rock Deformation Map
+## Global Stress 
 
+![](https://www.researchgate.net/profile/Oliver-Heidbach/publication/327061751/figure/fig2/AS:675475772940291@1538057382465/The-World-Stress-Map-WSM-2016-displays-the-contemporary-crustal-stress-orientation-in_W640.jpg) <!-- .element style="float:right; margin-top:50px;margin-bottom:50px; width:50%; margin-left:50px" -->
 
-![DefMap](images/GlobalTectonics/Gomez-Rivas-DeformationMap.jpg) <!-- .element style="display:block; margin-left:auto; margin-right:auto; width:50%" -->
+The World Stress Map (WSM) 2016 displays the contemporary crustal stress orientation in the upper 40 km based on the WSM database release 2016. Lines show the orientation of maximum horizontal stress. The colours indicate whether stresses are:
 
-Rock deformation map that shows how temperature and the magnitude of the differential stress (shear stress compared to confining pressure) influence how rocks deform.
+  - Normal faulting 
+  - Strike slip 
+  - Thrust faulting
+
+So, already, we can see that the state of stress and deformation style are closely linked. Note that the **magnitude** of the stress is not part of this map.
+
+<--v-->
+
+## Global Seismicity
+
+The magnitude of the stress is related to the rate of seismic energy release because this is a measure of those places which are under enough stress for the lithosphere to "break".
+
+<center>
+<video autoplay controls width="75%">
+    <source src="movies/GlobalEQCumulative.m4v"
+            type="video/mp4">
+
+    Sorry, your browser doesn't support embedded videos.
+</video>
+</center>
+
+Usually this takes the form of a fault that already exists sliding because the shear stresses are large compared to the confining pressure.
+
+<--v-->
+
+## Global Strain rate
+
+<center>
+
+![](images/GlobalTectonics/GlobalStrainRate.png) <!-- .element style="float:right; margin-top:50px;margin-bottom:50px; width:50%; margin-left:50px" -->
+
+<!-- .element stoyle="width:60%" -->
+
+</center>
+
+The strain rate is a measure of how fast deformation is taking place. Strain rate is a measure of the rate of change of length (units are $s^{-1}$) *and* it is a tensor: there are multiple components that represent normal and shear strains. The measure shown here is an average (the second invariant).
+
+The rate of deformation is related to two things: the stress applied and the strength of the material. 
 
 <small>
 
-Gomez-Rivas, E., Butler, R. W. H., Healy, D., & Alsop, I. (2020). From hot to cold - The temperature dependence on rock deformation processes: An introduction. Journal of Structural Geology, 132, 103977. https://doi.org/10/gk6kn4
+Kreemer, C., Blewitt, G., & Klein, E. C. (2014). A geodetic plate motion and Global Strain Rate Model. Geochemistry, Geophysics, Geosystems, 15(10), 3849–3889. https://doi.org/10/f6p92p
 
 </small>
-<--o--> 
+
+<--v-->
+
+## Global Volcanism
+
+<center>
+
+![](images/GlobalTectonics/GlobalVolcanismMap.png) <!-- .element style="width:60%" -->
+
+</center>
+
+Volcanic activity is distributed similarly to that of seismicity and mostly occurs at convergent and divergent plate boundaries. There is also a significant level of intra-plate volcanism. Magma pathways within the crust are influenced by the stress field and we can analyse volcanic structures to determine the ambient stress field at the time they were formed.
+
+<small>
+
+Make your own map from the NOAA natural hazards interactive web page: [https://maps.ngdc.noaa.gov/viewers/hazards](https://maps.ngdc.noaa.gov/viewers/hazards/?layers=3)
+
+</small>
+
+<--o-->
+
+## Global Plate Motions
+
+<center>
+
+![](images/GlobalTectonics/GlobalVolcanismMap.png) <!-- .element style="width:60%" -->
+
+</center>
+
+Volcanic activity is distributed similarly to that of seismicity and mostly occurs at convergent and divergent plate boundaries. There is also a significant level of intra-plate volcanism. Magma pathways within the crust are influenced by the stress field and we can analyse volcanic structures to determine the ambient stress field at the time they were formed.
+
+<small>
+
+Make your own map from the NOAA natural hazards interactive web page: [https://maps.ngdc.noaa.gov/viewers/hazards](https://maps.ngdc.noaa.gov/viewers/hazards/?layers=3)
+
+</small>
+
+<--o-->
+
+## Plate Boundaries
+
+The regions of highest strain rate at the surface of the Earth are the plate boundaries. 
+
+
+
+<--o-->
+
+## Plate Boundary Types
+
+
+
+
+
+<--o-->
+
+## Divergent Boundaries & Kinematics
+
+
+
+
+
+
+<--o-->
+
+## Transform Boundaries & Kinematics
+
+
+
+
+
+
+<--o-->
+
+## Plate Boundaries
+
+
+
+<--o-->
+
+## Convergent Boundaries & Kinematics
+
+
+note: Google Earth examples + diagrams ... 
+
+<--o-->
+
+## Plate Boundary Types
+
+
+<--o-->
+
+## Divergent Boundaries & Kinematics
+
+
+<--o-->
+
+## Transform Boundaries & Kinematics
+
 
 <--o-->
 
 
-## New Slide
+## Convergent Boundaries & Kinematics
 
-With nothing much 
 
-<--o-->
-
+note: Google Earth examples + diagrams ... 
 
 <--o-->
 
+
+## Plate Deformation v. Continental Deformation
