@@ -6,12 +6,11 @@ motions and deformation patterns, and then we will consider the forces at work.
 
 ## Lecture Slides 
 
-### Plates and Plate Motions
+### The Lithosphere, and Plate Motions
 
-The first part of this module introduces the structure of the Earth on a global scale and how plate motions relate to mantle circulation patterns. We map the near surface to see how plates, continental crust, and lithospheric thickness relate to deformation patterns and we identify plate boundaries and their types.
+The first part of this module introduces the structure of the Earth on a global scale and how plate motions relate to mantle circulation patterns. We map the near surface to see how plates, continental crust, and lithospheric thickness relate to deformation patterns and we identify where plate boundaries are and their types.
 
 <iframe src="../slideshows/Module-i-GlobalTectonics-1.reveal.html" title="Slideshow" width=100%, height=500, allowfullscreen></iframe>
-
 
 ### Forces, Stresses, Strains and Strain-rates
 
@@ -19,9 +18,9 @@ A brief introduction to the physical forces that are at work ... that will be co
 
 todo: (link)
 
-<!--
 <iframe src="../slideshows/Module-i-GlobalTectonics-2.reveal.html" title="Slideshow" width=100%, height=500, allowfullscreen></iframe>
--->
+
+note: palaeo stresses, fracking / geothermal, style of magma ascent ... 
 
 ### Plate Boundaries
 
