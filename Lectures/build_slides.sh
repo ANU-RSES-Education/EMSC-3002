@@ -15,4 +15,4 @@ reveal-md  --static static_slides/slideshows \
            --theme css/anu.css --glob '**/*.reveal.md' \
            --separator '<--o-->' \
            --vertical-separator '<--v-->' \
-           --static-dirs movies,images,images,Figures-Fold-Geometry-1,Figures-Folds-and-Folding-Mechanisms,Figures-Shear_zones,Figures-Structural-Geology-And-Crustal-Deformation,Figures-Structures-Associated-with-Folding-1,Figures-Structures-Associated-with-Folding-2,Figures-Structures-Associated-with-Folding-3,Figures-Brittle_deformation1,Figures-Brittle_deformation2,Figures-Brittle_deformation3,Figures-Brittle_deformation4,Figures-Theory1
+           --static-dirs movies,images,images,Figures-Fold-Geometry-1,Figures-Folds-and-Folding-Mechanisms,Figures-Shear_zones,Figures-Structural-Geology-And-Crustal-Deformation,Figures-Structures-Associated-with-Folding-1,Figures-Structures-Associated-with-Folding-2,Figures-Structures-Associated-with-Folding-3,Figures-Brittle_deformation1,Figures-Brittle_deformation2,Figures-Brittle_deformation3,Figures-Brittle_deformation4,Figures-Theory1,Figures-Theory2
