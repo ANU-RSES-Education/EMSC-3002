@@ -5,7 +5,7 @@ verticalSeparator: '<--v-->'
 revealOptions:
     transition: 'fade'
     slideNumber: true
-    width:  1250
+    width:  1200
     height: 800
     margin: 0.07 # Factor of the display size that should remain empty around the content (7% typically)
 ---
@@ -64,6 +64,18 @@ Students will be able to:
 <--o-->
 
 <!-- .slide: data-background="Figures-Brittle_deformation3/slide5.jpg" -->
+
+<--o-->
+
+<center>
+<video autoplay controls width="100%">
+    <source src="movies/GlobalEQCumulative.mp4"
+            type="video/mp4">
+
+    Sorry, your browser doesn't support embedded videos.
+</video>
+</center>
+</div>
 
 <--o-->
 
