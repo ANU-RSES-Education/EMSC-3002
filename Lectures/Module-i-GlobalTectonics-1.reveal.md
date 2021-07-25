@@ -210,7 +210,7 @@ Make your own map from the NOAA natural hazards interactive web page: [https://m
 
 <center>
 
-![](images/GlobalTectonics/GlobalVolcanismMap.png) <!-- .element style="width:60%" -->
+![](images/GlobalTectonics/PlateMotionsMollweide.png) <!-- .element style="width:60%" -->
 
 </center>
 
@@ -228,13 +228,25 @@ Make your own map from the NOAA natural hazards interactive web page: [https://m
 
 The regions of highest strain rate at the surface of the Earth are the plate boundaries. 
 
+<center>
 
+![](images/GlobalTectonics/GlobalStrainRate.png) <!-- .element style="width:50%;" -->
+
+</center>
+
+The styles and patterns of deformation are very dependent on the orientation of the stresses that are acting at the boundary. 
 
 <--o-->
 
-## Plate Boundary Types
+<center>
 
+![](images/GlobalTectonics/WorldTectonicMap_Poster_HiRes.png) <!-- .element style="width:50%;" -->
 
-note: duplicate the 2 slides above in lecture 3
+</center>
 
-<--o-->
+This map includes diagrams of the physical processes that are happening at the smaller scale at each type of plate boundary. 
+
+<small>
+World Map of Plate Boundaries, Bonnie Magura (Portland Public Schools) and Chris Hedeen (Oregon City High School) from https://serc.carleton.edu/ANGLE/educational_materials/activities/204690.html
+</small>
+
