@@ -79,7 +79,7 @@ to fix bugs and add material. You can create feedback for the pages. The origina
 All of the slides for this course are available online and you can access the presentations as part of the online book. 
 The slides are in a 2D stack that have follow-on (sometimes more advanced material) below the regular flow of the presentation. 
 
-If you 
+You are more than welcome to read slides in advance. They are not entirely self-explanatory but we don't try to be cryptic either !
 
 
 <--o-->
