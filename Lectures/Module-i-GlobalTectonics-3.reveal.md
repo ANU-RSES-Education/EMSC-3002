@@ -23,6 +23,15 @@ Australian National University
 
 _**NB:** the course materials provided by the authors are open source under a creative commons licence.  We acknowledge the contribution of the community in providing other materials and we endeavour to provide the correct attribution and citation. Please contact louis.moresi@anu.edu.au for updates and corrections._
 
+
+<--o-->
+
+## About this section
+
+Prelude to Module 3 in the course ... 
+
+
+
 <--o-->
 
 ## What is Stress ?
@@ -33,8 +42,11 @@ Consider what happens when we build an underground structure - a basement, a tre
 
 In the shallowest parts of the crust, confining pressure is low and the strength of the soil is correspondingly weak. It fails by collapsing sideways.
 
+<small>
+
 (See [*Homes damaged in Mount Waverley construction site collapse 'still unsafe'*](https://www.abc.net.au/news/2015-10-16/homes-still-unsafe-after-mount-waverley-pit-collapse/6858266))
 
+</small>
 
 <--v-->
 
@@ -42,13 +54,17 @@ In the shallowest parts of the crust, confining pressure is low and the strength
 
 ![NoCollapse](images/GlobalTectonics/TrenchShoringExampleWikipedia.JPG) <!-- .element style="float:right; margin-left:20px; width:33%" -->
 
-The exposed surface used to be in equilibrium with its surroundings: all forces were in balance and we can only ensure no movement takes place if we supply equivalent forces. 
+The exposed, vertical surface used to be in equilibrium with its surroundings: all forces were in balance and we can only ensure no movement takes place if we supply equivalent forces. 
 
 Here, the most important forces are the horizontal ones that hold the walls in place. We can replace these by horizontal supports.
 
-Remember this if you become a paleoseismologist or an archeologist (or a builder / civil engineer).
+Please remember this if you become a paleoseismologist or an archeologist (or a builder / civil engineer), or if you are building a retaining wall on your property one day.
+
+<small>
 
 ( See this [*wikipedia article on trench shoring*](https://en.wikipedia.org/wiki/Trench_shoring))
+
+</small>
 
 <--v-->
 
@@ -59,12 +75,17 @@ In a deep structure, the dominant forces change and the engineering response cha
 <center>
 
 ![NCB](images/GlobalTectonics/RoofSupportAndControl-NCB.png)
-<!-- .element style="width:66%" -->
+<!-- .element style="width:50%" -->
 
 </center>
 
 Now the dominant forces are vertical because the weight of the over-burden is so large. The first task is to support these loads when material is removed.
 
+<small>
+
+From [Roof Support in Coal Mines](https://www.culturenlmuseums.co.uk/SIModes/Detail/14223) from the North Lanarkshire Museums collection. 
+
+</small>
 <--v-->
 
 ## What is Stress ?
@@ -78,24 +99,114 @@ Of course, the **magnitude** of those forces is also much larger and there is a 
 
 </center>
 
-<--v-->
+<small>
 
-## What is Stress ?
+For an explanation of this image, see [https://en.wikipedia.org/wiki/Cave-in](https://en.wikipedia.org/wiki/Cave-in)
 
-![](images/GlobalTectonics/StressOrientations.svg)  <!-- .element style="float:right;width:50%" -->
+</small>
 
+<--o-->
 
-The stress can have distinct orientations as well as magnitudes. Here are 
+## The Stress Tensor
+
+![](images/GlobalTectonics/StressOrientations.svg)  <!-- .element style="float:right;width:49%%" -->
+
+<div style="width:45%; margin-left:50px;">
+
+The stress has a distinct orientation as well as magnitude. Here are 
 some examples that we will commonly encounter in tectonics
 
-  - A. Pure shear with the most compressional direction vertical. Typical of a region undergoing extensional deformation.
+A. Pure shear with the most compressional direction vertical. Typical of a region undergoing extensional deformation.
 
-  - B. Pure shear with the most compressional direction horizontal. Typical of a region undergoing compressional deformation.
+B. Pure shear with the most compressional direction horizontal. Typical of a region undergoing compressional deformation.
 
-  - C. Simple shear deformation
+C. Simple shear (e.g. a zone of strike-slip deformation viewed from above)
 
-  - D. Increasing pressure
+D. Pressure (increase)
 
+</div>
+
+<--v-->
+
+## The Stress Tensor
+
+If we cut out a plane through a material that is under stress, then there is a **traction vector** (a force) on this plane that results from the unbalanced stresses and *the vector changes with the orientation of the plane*. 
+
+![](images/GlobalTectonics/TractionsOnAPlane.png)  <!-- .element style="float:right;width:49%%" -->
+
+In fact, this is enough to define the stress tensor.
+
+$$ T_i = \sum_{j} \sigma_{ij} \times n_j = \boldsymbol{\sigma} \cdot \mathbf{n} $$
+
+where $\left\\{ n \right\\}$ is the vector normal to the plane.
+
+Here is a way to think about it: *In general, the force that we need to balance in a void in the ground will be in a different direction for the roof from the walls*
+
+<--v-->
+
+
+## The Stress Tensor
+
+The complexity we have seen reflects the fact that **stress is a tensor quantity**. 
+
+$$ \mathbf{\sigma} = 
+\begin{bmatrix}
+\sigma_{xx} & \sigma_{xy} & \sigma_{xz} \\\\
+\sigma_{yx} & \sigma_{yy} & \sigma_{yz} \\\\
+\sigma_{zx} & \sigma_{zy} & \sigma_{zz} 
+\end{bmatrix} $$
+
+The stress tensor is **symmetric**. i.e. $\sigma_{xy} = \sigma_{yx}$ 
+
+It has a **volumetric** component (pressure) that is independent of the orientation and a **deviatoric** component (the shear stresses) that is not.
+
+We can rotate the coordinates (equivalent to adjusting our point of view) and in one specific orientation, the shear stresses all vanish. This coordinate system defines the principal stresses.
+
+<--o-->
+
+## Principal Stresses
+
+
+The stress tensor has **principal directions** which define a special orientation in which the shear stresses all vanish (this is a property of tensor quantities in general - they can be diagonalised). 
+
+
+<center>
+
+![Principal Stresses](images/GlobalTectonics/KaliakinCh4-PrincipalStresses.jpg) 
+<!-- .element style="width:40%" -->
+
+</center>
+
+This will be very helpful in understanding tectonic stresses, however, it may be hard to find what these directions are. This is something we address in our theory module.
+
+<small>
+
+The diagram above is found in Kaliakin, V. N. (2017). Stresses, Strains, and Elastic Response of Soils. In Soil Mechanics (pp. 131–203). Elsevier. https://doi.org/10.1016/B978-0-12-804491-9.00004-5
+
+</small>
+
+
+<--v-->
+
+## Principal Stresses
+
+Surface of the Earth 
+
+
+
+<--o-->
+
+## Global Stress Revised
+
+![](https://www.researchgate.net/profile/Oliver-Heidbach/publication/327061751/figure/fig2/AS:675475772940291@1538057382465/The-World-Stress-Map-WSM-2016-displays-the-contemporary-crustal-stress-orientation-in_W640.jpg) <!-- .element style="float:right; margin-top:50px;margin-bottom:50px; width:50%; margin-left:50px" -->
+
+The World Stress Map (WSM) 2016 displays the contemporary crustal stress orientation in the upper 40 km based on the WSM database release 2016. Lines show the orientation of maximum horizontal stress. The colours indicate whether stresses are:
+
+  - Normal faulting 
+  - Strike slip 
+  - Thrust faulting
+
+So, already, we can see that the state of stress and deformation style are closely linked. Note that the **magnitude** of the stress is not part of this map.
 
 
 <!--
@@ -107,12 +218,12 @@ Tunnel enlargement using the tunnel-in-tunnel method – with support plates in 
 
 -->
 
-<--v-->
+<--o-->
 
 ## What is Strain ?
 
 
-<--v-->
+<--o-->
 
 ## What is Strain-Rate ? 
 
@@ -120,17 +231,6 @@ Tunnel enlargement using the tunnel-in-tunnel method – with support plates in 
 
 <--v-->
 
-## Global Stress 
-
-![](https://www.researchgate.net/profile/Oliver-Heidbach/publication/327061751/figure/fig2/AS:675475772940291@1538057382465/The-World-Stress-Map-WSM-2016-displays-the-contemporary-crustal-stress-orientation-in_W640.jpg) <!-- .element style="float:right; margin-top:50px;margin-bottom:50px; width:50%; margin-left:50px" -->
-
-The World Stress Map (WSM) 2016 displays the contemporary crustal stress orientation in the upper 40 km based on the WSM database release 2016. Lines show the orientation of maximum horizontal stress. The colours indicate whether stresses are:
-
-  - Normal faulting 
-  - Strike slip 
-  - Thrust faulting
-
-So, already, we can see that the state of stress and deformation style are closely linked. Note that the **magnitude** of the stress is not part of this map.
 
 <--v-->
 
