@@ -23,7 +23,38 @@ _**NB:** the course materials provided by the authors are open source under a cr
 We acknowledge the contribution of the community in providing other materials and we endeavour to 
 provide the correct attribution and citation. Please contact louis.moresi@anu.edu.au for updates and 
 corrections._
- 
+
+<--o-->
+
+## Resources
+
+ ![](images/Introduction/EMSC3002-JB-QRcode.png) <!-- .element style="float: right" width="25%" -->
+
+<div  style="width:50%">
+
+  This [online book](https://anu-rses-education.github.io/EMSC-3002/FrontPage.html)
+with lecture materials and lecture notes. This is a live document and we can update this
+to fix bugs and add material. You can create feedback for the pages. The original 
+"source code" for the slides etc is also available 
+
+ - [EMSC3002/6030](https://wattlecourses.anu.edu.au/course/view.php?id=34828) on Wattle
+ - [EMSC3002](https://programsandcourses.anu.edu.au/2021/course/EMSC3002) on programs & courses
+
+</div> 
+
+<--v-->
+
+## Resources
+
+![](images/Introduction/RevealNavigator.png) <!-- .element style="display:block; margin-left:auto; margin-right:auto; width:75%" -->
+
+</br>
+
+All of the slides for this course are available online and you can access the presentations as part of the online book. 
+The slides are in a 2D stack that have follow-on (sometimes more advanced material) below the regular flow of the presentation. 
+
+You are more than welcome to read slides in advance. They are not entirely self-explanatory but we don't try to be cryptic either !
+
 <--o-->
 
 ## What is "Structural Geology" ?
@@ -48,40 +79,6 @@ Tectonic studies are important as guides for economic geologists searching for f
 
 Read more on [Wikipedia](https://en.wikipedia.org/wiki/Tectonics).
 
-
-<--o-->
-
-## Resources
-
- ![](images/Introduction/EMSC3002-JB-QRcode.png) <!-- .element style="float: right" width="25%" -->
-
-<div  style="width:50%">
-
-  This [online book](https://anu-rses-education.github.io/EMSC-3002/FrontPage.html)
-with lecture materials and lecture notes. This is a live document and we can update this
-to fix bugs and add material. You can create feedback for the pages. The original 
-"source code" for the slides etc is also available 
-
- - [EMSC3002/6030](https://wattlecourses.anu.edu.au/course/view.php?id=34828) on Wattle
- - [EMSC3002](https://programsandcourses.anu.edu.au/2021/course/EMSC3002) on programs & courses
-
-</div> 
-
-<--v-->
-
-## Resources
-
-
-![](images/Introduction/RevealNavigator.png) <!-- .element style="display:block; margin-left:auto; margin-right:auto; width:75%" -->
-
-</br>
-
-All of the slides for this course are available online and you can access the presentations as part of the online book. 
-The slides are in a 2D stack that have follow-on (sometimes more advanced material) below the regular flow of the presentation. 
-
-You are more than welcome to read slides in advance. They are not entirely self-explanatory but we don't try to be cryptic either !
-
-
 <--o-->
 
 ## Learning Outcomes
@@ -105,6 +102,9 @@ This course is designed to develop an advanced understanding of deformation proc
   - Interpret the relative timing of formation of structures, the kinematics of deformation, and progressive deformation histories.
   - Predict the geometry and location of structures at depth or in areas of poor outcrop.
   - Apply an understanding of structural geology in sustainable mining and basin management.
+
+
+
 
 <--o-->
 
