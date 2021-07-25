@@ -1,6 +1,6 @@
 # Brittle Deformation
 
-This section of the course covers the theoretical background of structural geology and tectonics that we need to go deeper in our understanding of how structures form and how to analyse their geometry.
+When rocks undergo rapid, localised deformation, refer to the process as "brittle deformation". Typically brittle features in the Earth's crust are faults and we can understand much about the stress and deformation if we understand faults, their rupture and associated seismic energy release.
 
 ## Lecture 1
 

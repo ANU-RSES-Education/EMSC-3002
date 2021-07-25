@@ -25,11 +25,14 @@ The broad themes of the course and these materials can be broken down as follows
 
 ### Module i - Global Tectonics 
 
-  - [Plate Tectonics](Lectures/Module-i-GlobalTectonics)
+  - [Global Tectonics](Lectures/Module-i-GlobalTectonics)
 
 Introduces the concepts of global-scale tectonics, plate motions, the nature of plate boundaries and the geological structures characteristic of large-scale deformation of the crust.
 
 ### Module ii - Structures in the Earth
+
+  - [Structures](Lectures/Lecture-Structural-Geology-And-Crustal-Deformation)
+
 
 This module aims to develop student intuition and proficiency in 3- and 4-dimensional visualization and thinking and teach the fundamentals of rock deformation using natural examples.
 
@@ -41,7 +44,9 @@ In order to understand geological structures in more detail, we need some backgr
 
 ### Module iv - Brittle Deformation
 
-When rocks undergo rapid, localised deformation, refer to the process as "brittle deformation". Typically brittle features in the Earth's crust are faults and we can understand much about the stress and deformation if we understand faults, their rupture and associated seismic energy release. Chengxin Jiang will lead this part of the course. 
+ - [Brittle Deformation](Lectures/Module-iv-BrittleDeformation)
+
+When rocks undergo rapid, localised deformation, refer to the process as "brittle deformation". Typically brittle features in the Earth's crust are faults and we can understand much about the stress and deformation if we understand faults, their rupture and associated seismic energy release. 
 
 ### Module v - Ductile Deformation
 
