@@ -4,8 +4,11 @@ This section of the course covers the theoretical background of structural geolo
 
 ## Lecture 1
 
-<iframe src="../slideshows/Module-iii-lecture1-Theory.reveal.html" title="Slideshow" width=110%, height=500, allowfullscreen></iframe>
+<iframe src="../slideshows/Module-iii-lecture1-Theory.reveal.html" title="Slideshow" width=100%, height=470, allowfullscreen></iframe>
 
+## Lecture 2
+
+<iframe src="../slideshows/Module-iii-lecture2-Theory.reveal.html" title="Slideshow" width=100%, height=470, allowfullscreen></iframe>
 
 ## Links
   - Wattle courses
