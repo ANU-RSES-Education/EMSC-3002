@@ -1,8 +1,19 @@
 # Introduction to EMSC 3002
 
-The nature of the course and some things you need to know.
+The nature of the course and some things you need to know are in this slideshow.
 
 <iframe src="../slideshows/Lecture-1-Introduction.reveal.html" title="Slideshow" width=100%, height=500, allowfullscreen></iframe>
+
+## Navigating the slides
+
+![](images/Introduction/RevealNavigator.png) <!-- .element style="display:block; margin-left:auto; margin-right:auto; width:75%" -->
+
+The slides are in a 2D stack that have follow-on (sometimes more advanced material) below the regular flow of the presentation. The navigation area allows you to click through the slides but you can also:
+
+  - Hit **F** for full screen  (ESC to get back to normal)
+  - Hit **O** for the navigation / overview (above) 
+  - Use the arrow keys as a navigation shortcut
+
 
 ## Links
 
@@ -20,6 +31,7 @@ The material in the course is split into five modules that cover:
   - Ductile Deformation
 
 There are links to helpful external sites and background reading that you can find on pages for each module here and on wattle. All assessment is via wattle.
+
 
 ### Remote Participation
 
