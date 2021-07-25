@@ -12,7 +12,7 @@ revealOptions:
 
 # EMSC 3002
 
-## Rheology and deformation
+## Rheology
 
   - Louis Moresi (convenor)
   - Romain Beucher (lecturer)
@@ -30,10 +30,10 @@ corrections._
 
 ## Resources
 
-1. **Fossen, H, 2011.** *Structural Geology.* Cambridge University Press, 2nd Edition **Chapter 11**
-1. **Davis, G.H. and Reynolds, S.J., 1996.** *Structural Geology of Rocks and Regions.* 2nd Edition, John Wiley & Sons. **Chapter 7**
-1. **McClay, K.R. 1991.** *The Mapping of Geological Structures.* John Wiley & Sons.  **Chapter 3**
-1. **Park, R.G., 1995.** *Foundations of Structural Geology.* Blackie & Sons Ltd. **Chapter 2**
+1. **Fossen, H, 2011.** *Structural Geology.* Cambridge University Press, 2nd Edition **Chapter 6**
+1. **van der Pluijm, B.A. and Marshak, S., 2003.** *Earth Strcture: an introduction to structural geology and tectonics.* W. W. Norton & Company, Ltd.
+1. **Davis, G.H. and Reynolds, S.J., 1996.** *Structural Geology of Rocks and Regions.* 2nd Edition, John Wiley & Sons. 
+1. **Park, R.G., 1995.** *Foundations of Structural Geology.* Blackie & Sons Ltd. 
 
 <--o-->
 
@@ -47,126 +47,107 @@ Students will be able to:
 
 <--o-->
 
-<!-- .slide: data-background="Figures-Brittle_deformation1/slide1.jpg" -->
+<!-- .slide: data-background="Figures-Theory2/slide1.jpg" -->
 
 <--o-->
 
-<!-- .slide: data-background="Figures-Brittle_deformation1/slide2.jpg" -->
+<!-- .slide: data-background="Figures-Theory2/slide2.jpg" -->
 
 <--o-->
 
-<!-- .slide: data-background="Figures-Brittle_deformation1/slide3.jpg" -->
+<center>
+<video autoplay controls width="90%">
+    <source src="movies/subduction_simulation.mp4"
+            type="video/mp4">
+
+    Sorry, your browser doesn't support embedded videos.
+</video>
+</center>
+</div>
 
 <--o-->
 
-<!-- .slide: data-background="Figures-Brittle_deformation1/slide4.jpg" -->
+<!-- .slide: data-background="Figures-Theory2/slide3.jpg" -->
 
 <--o-->
 
-<!-- .slide: data-background="Figures-Brittle_deformation1/slide5.jpg" -->
+<!-- .slide: data-background="Figures-Theory2/slide4.jpg" -->
 
 <--o-->
 
-<!-- .slide: data-background="Figures-Brittle_deformation1/slide6.jpg" -->
+<!-- .slide: data-background="Figures-Theory2/slide5.jpg" -->
+
+<--o-->
+<!-- .slide: data-background="Figures-Theory2/slide6.jpg" -->
 
 <--o-->
 
-<!-- .slide: data-background="Figures-Brittle_deformation1/slide7.jpg" -->
+<!-- .slide: data-background="Figures-Theory2/slide7.jpg" -->
 
 <--o-->
 
-<!-- .slide: data-background="Figures-Brittle_deformation1/slide8.jpg" -->
+<!-- .slide: data-background="Figures-Theory2/slide8.jpg" -->
 
 <--o-->
 
-<!-- .slide: data-background="Figures-Brittle_deformation1/slide9.jpg" -->
+<!-- .slide: data-background="Figures-Theory2/slide9.jpg" -->
 
 <--o-->
 
-<!-- .slide: data-background="Figures-Brittle_deformation1/slide10.jpg" -->
+<!-- .slide: data-background="Figures-Theory2/slide10.jpg" -->
 
 <--o-->
 
-<!-- .slide: data-background="Figures-Brittle_deformation1/slide11.jpg" -->
+<!-- .slide: data-background="Figures-Theory2/slide11.jpg" -->
 
 <--o-->
 
-<!-- .slide: data-background="Figures-Brittle_deformation1/slide12.jpg" -->
+<!-- .slide: data-background="Figures-Theory2/slide12.jpg" -->
 
 <--o-->
 
-<!-- .slide: data-background="Figures-Brittle_deformation1/slide13.jpg" -->
+<!-- .slide: data-background="Figures-Theory2/slide13.jpg" -->
 
 <--o-->
 
-<!-- .slide: data-background="Figures-Brittle_deformation1/slide14.jpg" -->
+<!-- .slide: data-background="Figures-Theory2/slide14.jpg" -->
 
 <--o-->
 
-<!-- .slide: data-background="Figures-Brittle_deformation1/slide15.jpg" -->
-<--o-->
-
-<!-- .slide: data-background="Figures-Brittle_deformation1/slide16.jpg" -->
+<!-- .slide: data-background="Figures-Theory2/slide15.jpg" -->
 
 <--o-->
 
-<!-- .slide: data-background="Figures-Brittle_deformation1/slide17.jpg" -->
+<!-- .slide: data-background="Figures-Theory2/slide16.jpg" -->
 
 <--o-->
 
-<!-- .slide: data-background="Figures-Brittle_deformation1/slide18.jpg" -->
+<!-- .slide: data-background="Figures-Theory2/slide17.jpg" -->
 
 <--o-->
 
-<!-- .slide: data-background="Figures-Brittle_deformation1/slide19.jpg" -->
+<!-- .slide: data-background="Figures-Theory2/slide18.jpg" -->
 
 <--o-->
 
-<!-- .slide: data-background="Figures-Brittle_deformation1/slide20.jpg" -->
+<!-- .slide: data-background="Figures-Theory2/slide19.jpg" -->
 
 <--o-->
 
-<!-- .slide: data-background="Figures-Brittle_deformation1/slide21.jpg" -->
-<--o-->
-
-<!-- .slide: data-background="Figures-Brittle_deformation1/slide22.jpg" -->
+<!-- .slide: data-background="Figures-Theory2/slide20.jpg" -->
 
 <--o-->
 
-<!-- .slide: data-background="Figures-Brittle_deformation1/slide23.jpg" -->
+<!-- .slide: data-background="Figures-Theory2/slide21.jpg" -->
 
 <--o-->
 
-<!-- .slide: data-background="Figures-Brittle_deformation1/slide24.jpg" -->
+<!-- .slide: data-background="Figures-Theory2/slide22.jpg" -->
 
 <--o-->
 
-<!-- .slide: data-background="Figures-Brittle_deformation1/slide25.jpg" -->
+<--o-->
 
 <--o-->
 
-<!-- .slide: data-background="Figures-Brittle_deformation1/slide26.jpg" -->
-
-<--o-->
-
-<!-- .slide: data-background="Figures-Brittle_deformation1/slide27.jpg" -->
-
-<--o-->
-
-<!-- .slide: data-background="Figures-Brittle_deformation1/slide28.jpg" -->
-
-<--o-->
-
-<!-- .slide: data-background="Figures-Brittle_deformation1/slide29.jpg" -->
-
-<--o-->
-
-<!-- .slide: data-background="Figures-Brittle_deformation1/slide30.jpg" -->
-
-<--o-->
-
-<!-- .slide: data-background="Figures-Brittle_deformation1/slide31.jpg" -->
-
-<--o-->
-
-<!-- .slide: data-background="Figures-Brittle_deformation1/slide32.jpg" -->
+<!-- .slide: data-background="Figures-Theory2/slide25.jpg" -->
