@@ -37,9 +37,23 @@ The regions of highest strain rate at the surface of the Earth are the plate bou
 
 The styles and patterns of deformation are very dependent on the orientation of the stresses that are acting at the boundary which is not recorded in this map.
 
-<--v-->
+<--o-->
 
-## Plate Boundaries
+## Plate Boundary Types 
+
+There are three categories of plate boundaries and they are clearly identifiable and distinct:
+
+  - Divergent boundaries where the crust pulls apart and new crust is formed. 
+  - Convergent boundaries where the lithosphere and oceanic crust is destroyed
+  - Strike-slip boundaries where lateral motion neither creates nor destroys crust
+
+The Earth naturally seems to separate out these different types of boundaries - at least in the oceanic lithosphere. 
+
+**This observation is really quite remarkable, don't you agree ?**
+
+<--o-->
+
+## Plate Boundary Map
 
 <center>
 
@@ -55,7 +69,7 @@ World Map of Plate Boundaries, Bonnie Magura (Portland Public Schools) and Chris
 
 <--v-->
 
-## Plate Boundaries
+## Plate Boundary Map
 
 <center>
 
@@ -73,44 +87,87 @@ Bird, P. (2003). An updated digital model of plate boundaries: UPDATED MODEL OF 
 
 <--o-->
 
-## Continental v. Oceanic Plate Boundaries
+## Divergent Boundaries: Morphology
+
+<center>
+
+![tharp](images/GlobalTectonics/manuscript-painting-of-heezen-tharp-world-ocean-floor-map-by-berann.jpg)   <!-- .element style="width:55%;" -->
+
+</center>
+
+The divergent boundaries largely form the global mid-ocean ridge system. This well-known map by Marie Tharp and her colleagues, identified those features as one of the most prominent geological features of the entire planet that had previously been unknown.
+
+<small>
+
+Hand-painted rendition of Heezen-Tharp 1977 ‘World ocean floor’ map, by Heinrich Berann.  Library of Congress, Geography and Map Division, CC BY-ND. See [this article](https://theconversation.com/marie-tharp-pioneered-mapping-the-bottom-of-the-ocean-6-decades-ago-scientists-are-still-learning-about-earths-last-frontier-142451) for some background. 
+
+</small>
+
+<--v-->
+
+## Divergent Boundaries: Morphology
+
+<center>
+
+![JDF](images/GlobalTectonics/CanalesEtAl2005-JDF.jpg) <!-- .element style="width:66%" -->
+
+</center>
+
+Close up view of the Juan de Fuca ridge system showing the rifting morphology
+
+<small>
+
+Canales, J. P., R. S. Detrick, S. M.Carbotte, G. M. Kent, J. B. Diebold, A. J. Harding, J. Babcock, M. R. Nedimović, and E. van Ark (2005), Upper crustal structure and axial topography at intermediate-spreading ridges: seismic constraints from the Southern Juan de Fuca Ridge, J. Geophys. Res., B12104, doi:12110.11029/12005JB003630.
+
+</small>
+
+<--o-->
+
+## Divergent Boundaries: Structure 
 
 
 <center>
 
-![](images/GlobalTectonics/HimalayaS.png) <!-- .element style="width:60%;" -->
+![JDF](images/GlobalTectonics/MOR.svg) <!-- .element style="width:75%" -->
 
 </center>
 
-This is a close-up of the strain rate in the Himalayas -- a collision zone which we can also think of as a convergent plate boundary that has been entirely congested by continental crust.
-
-In continental regions, the processes that are responsible for creating the distinct types of plate boundaries in the oceans are masked because of the thick, buoyant crust that makes up a significant fraction of the lithosphere. 
-
-<--o-->
-
-## Plate Boundary Types 
-
-!! Do this and compare the oceanic v. continental examples 
+The cross section of a ridge showing three important factors: 
+  1. The sense of movement away from the ridge axis
+  1. Topography that becomes deeper away from the ridge
+  1. A partial melt zone that is tapped to form the ocean crust close to the axis
 
 
 <--o-->
 
-## Divergent Boundaries & Kinematics
 
-
-Magnetic stripes
-
-Diagram of MOR kinematics
-
-Lava lake movie
-
-
+## Divergent Boundaries: Earthquakes
 
 
 
 <--o-->
+
+
+## Divergent Boundaries: Kinematics
+
+
+
+<--o-->
+
+
+
+
+
+
+
+
 
 ## Transform Boundaries & Kinematics
+
+
+
+
+
 
 ## Fracture zone / plate boundary
 
@@ -130,19 +187,40 @@ note: Google Earth examples + diagrams ...
 ## Triple Junctions
 
 
+<--o-->
+
+## Continental v. Oceanic Plate Boundaries
+
+
+<center>
+
+![](images/GlobalTectonics/HimalayaS.png) <!-- .element style="width:60%;" -->
+
+</center>
+
+This is a close-up of the strain rate in the Himalayas -- a collision zone which we can also think of as a convergent plate boundary that has been entirely congested by continental crust.
+
+In continental regions, the processes that are responsible for creating the distinct types of plate boundaries in the oceans are masked because of the thick, buoyant crust that makes up a significant fraction of the lithosphere. 
+
+<--v-->
+
+## Continental v. Oceanic Plate Boundaries
+
+
 
 
 <--o-->
 
 
-## Plate Deformation v. Continental Deformation
+## Partitioning of Plate Motions 
+
+Oblique spreading
+
+(GPlates map)
 
 
 
-<--o-->
-
-
-## Partitioning of Plate Motions
+Transpressional margins 
 
 
 
