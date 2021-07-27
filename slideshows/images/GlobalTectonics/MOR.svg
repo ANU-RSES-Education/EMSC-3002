@@ -1,51 +1,105 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <svg
-   xmlns:dc="http://purl.org/dc/elements/1.1/"
-   xmlns:cc="http://creativecommons.org/ns#"
-   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
-   xmlns:svg="http://www.w3.org/2000/svg"
-   xmlns="http://www.w3.org/2000/svg"
-   xmlns:xlink="http://www.w3.org/1999/xlink"
-   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
-   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
-   width="297mm"
-   height="210mm"
-   viewBox="0 0 297 210"
+   width="249.18365mm"
+   height="113.10951mm"
+   viewBox="0 0 249.18365 113.10951"
    version="1.1"
    id="svg8"
-   inkscape:version="1.0.2 (e86c8708, 2021-01-15)"
+   inkscape:version="1.1 (c4e8f9e, 2021-05-24)"
    sodipodi:docname="MOR.svg"
    inkscape:export-filename="/Users/lmoresi/+Github/EMSC-3002/Lectures/images/MOR.png"
    inkscape:export-xdpi="300.04099"
-   inkscape:export-ydpi="300.04099">
+   inkscape:export-ydpi="300.04099"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:xlink="http://www.w3.org/1999/xlink"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:dc="http://purl.org/dc/elements/1.1/">
   <defs
      id="defs2">
     <marker
        style="overflow:visible"
-       id="Arrow1Lstart"
-       refX="0.0"
-       refY="0.0"
+       id="marker1410"
+       refX="0"
+       refY="0"
        orient="auto"
        inkscape:stockid="Arrow1Lstart"
        inkscape:isstock="true">
       <path
-         transform="scale(0.8) translate(12.5,0)"
-         style="fill-rule:evenodd;stroke:#000000;stroke-width:1pt;stroke-opacity:1;fill:#000000;fill-opacity:1"
-         d="M 0.0,0.0 L 5.0,-5.0 L -12.5,0.0 L 5.0,5.0 L 0.0,0.0 z "
-         id="path2133" />
+         transform="matrix(0.8,0,0,0.8,10,0)"
+         style="fill:context-stroke;fill-rule:evenodd;stroke:context-stroke;stroke-width:1pt"
+         d="M 0,0 5,-5 -12.5,0 5,5 Z"
+         id="path1044" />
     </marker>
     <marker
-       style="overflow:visible;"
-       id="Arrow1Lend"
-       refX="0.0"
-       refY="0.0"
+       style="overflow:visible"
+       id="marker1401"
+       refX="0"
+       refY="0"
        orient="auto"
        inkscape:stockid="Arrow1Lend"
        inkscape:isstock="true">
       <path
-         transform="scale(0.8) rotate(180) translate(12.5,0)"
-         style="fill-rule:evenodd;stroke:#000000;stroke-width:1pt;stroke-opacity:1;fill:#000000;fill-opacity:1"
-         d="M 0.0,0.0 L 5.0,-5.0 L -12.5,0.0 L 5.0,5.0 L 0.0,0.0 z "
+         transform="matrix(-0.8,0,0,-0.8,-10,0)"
+         style="fill:context-stroke;fill-rule:evenodd;stroke:context-stroke;stroke-width:1pt"
+         d="M 0,0 5,-5 -12.5,0 5,5 Z"
+         id="path1047" />
+    </marker>
+    <marker
+       id="ExperimentalArrow"
+       refX="5"
+       refY="3"
+       orient="auto-start-reverse"
+       inkscape:stockid="ExperimentalArrow"
+       inkscape:isstock="true">
+      <path
+         style="fill:context-stroke"
+         d="M 10,3 0,6 V 0 Z"
+         id="path1297" />
+    </marker>
+    <marker
+       style="overflow:visible"
+       id="Arrow2Mend"
+       refX="0"
+       refY="0"
+       orient="auto"
+       inkscape:stockid="Arrow2Mend"
+       inkscape:isstock="true">
+      <path
+         transform="scale(-0.6)"
+         d="M 8.7185878,4.0337352 -2.2072895,0.01601326 8.7185884,-4.0017078 c -1.7454984,2.3720609 -1.7354408,5.6174519 -6e-7,8.035443 z"
+         style="fill:context-stroke;fill-rule:evenodd;stroke-width:0.625;stroke-linejoin:round"
+         id="path1071" />
+    </marker>
+    <marker
+       style="overflow:visible"
+       id="Arrow1Lstart"
+       refX="0"
+       refY="0"
+       orient="auto"
+       inkscape:stockid="Arrow1Lstart"
+       inkscape:isstock="true">
+      <path
+         transform="matrix(0.8,0,0,0.8,10,0)"
+         style="fill:#000000;fill-opacity:1;fill-rule:evenodd;stroke:#000000;stroke-width:1pt;stroke-opacity:1"
+         d="M 0,0 5,-5 -12.5,0 5,5 Z"
+         id="path2133" />
+    </marker>
+    <marker
+       style="overflow:visible"
+       id="Arrow1Lend"
+       refX="0"
+       refY="0"
+       orient="auto"
+       inkscape:stockid="Arrow1Lend"
+       inkscape:isstock="true">
+      <path
+         transform="matrix(-0.8,0,0,-0.8,-10,0)"
+         style="fill:#000000;fill-opacity:1;fill-rule:evenodd;stroke:#000000;stroke-width:1pt;stroke-opacity:1"
+         d="M 0,0 5,-5 -12.5,0 5,5 Z"
          id="path2136" />
     </marker>
     <linearGradient
@@ -109,9 +163,9 @@
        inkscape:collect="always"
        style="color-interpolation-filters:sRGB"
        id="filter1434"
-       x="-0.0076233484"
+       x="-0.0076233485"
        width="1.0152467"
-       y="-0.028176385"
+       y="-0.028176386"
        height="1.0563528">
       <feGaussianBlur
          inkscape:collect="always"
@@ -122,10 +176,10 @@
        inkscape:collect="always"
        style="color-interpolation-filters:sRGB"
        id="filter1448"
-       x="-0.0014415946"
-       width="1.0028832"
-       y="-0.0063192402"
-       height="1.0126385">
+       x="-0.0014403333"
+       width="1.0028807"
+       y="-0.0071916782"
+       height="1.0143834">
       <feGaussianBlur
          inkscape:collect="always"
          stdDeviation="0.35687781"
@@ -153,10 +207,10 @@
        inkscape:collect="always"
        style="color-interpolation-filters:sRGB"
        id="filter1434-8"
-       x="-0.0076233484"
+       x="-0.0076233485"
        width="1.0152467"
        y="-0.028176386"
-       height="1.0563529">
+       height="1.0563528">
       <feGaussianBlur
          inkscape:collect="always"
          stdDeviation="2.0301268"
@@ -186,10 +240,10 @@
        inkscape:collect="always"
        style="color-interpolation-filters:sRGB"
        id="filter2043"
-       x="-0.0069530286"
-       width="1.0139061"
-       y="-0.030478651"
-       height="1.0609573">
+       x="-0.0069469451"
+       width="1.0138939"
+       y="-0.034686551"
+       height="1.0693731">
       <feGaussianBlur
          inkscape:collect="always"
          stdDeviation="1.7212756"
@@ -199,15 +253,29 @@
        inkscape:collect="always"
        style="color-interpolation-filters:sRGB"
        id="filter2047"
-       x="-0.056409903"
-       width="1.1128198"
-       y="-0.11191479"
-       height="1.2238296">
+       x="-0.060272793"
+       width="1.1205456"
+       y="-0.13853699"
+       height="1.277074">
       <feGaussianBlur
          inkscape:collect="always"
          stdDeviation="1.2916027"
          id="feGaussianBlur2049" />
     </filter>
+    <marker
+       style="overflow:visible"
+       id="marker1410-1"
+       refX="0"
+       refY="0"
+       orient="auto"
+       inkscape:stockid="Arrow1Lstart"
+       inkscape:isstock="true">
+      <path
+         transform="matrix(0.8,0,0,0.8,10,0)"
+         style="fill:context-stroke;fill-rule:evenodd;stroke:context-stroke;stroke-width:1pt"
+         d="M 0,0 5,-5 -12.5,0 5,5 Z"
+         id="path1044-2" />
+    </marker>
   </defs>
   <sodipodi:namedview
      id="base"
@@ -217,17 +285,22 @@
      inkscape:pageopacity="1"
      inkscape:pageshadow="2"
      inkscape:zoom="0.91922992"
-     inkscape:cx="502.73927"
-     inkscape:cy="262.57251"
+     inkscape:cx="511.84148"
+     inkscape:cy="262.71991"
      inkscape:document-units="mm"
      inkscape:current-layer="g1456"
      inkscape:document-rotation="0"
      showgrid="false"
-     inkscape:window-width="1419"
-     inkscape:window-height="796"
-     inkscape:window-x="-25"
+     inkscape:window-width="2265"
+     inkscape:window-height="1093"
+     inkscape:window-x="184"
      inkscape:window-y="25"
-     inkscape:window-maximized="0" />
+     inkscape:window-maximized="0"
+     inkscape:pagecheckerboard="0"
+     fit-margin-top="0"
+     fit-margin-left="0"
+     fit-margin-right="0"
+     fit-margin-bottom="0" />
   <metadata
      id="metadata5">
     <rdf:RDF>
@@ -236,14 +309,14 @@
         <dc:format>image/svg+xml</dc:format>
         <dc:type
            rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
-        <dc:title></dc:title>
       </cc:Work>
     </rdf:RDF>
   </metadata>
   <g
      inkscape:label="Layer 1"
      inkscape:groupmode="layer"
-     id="layer1">
+     id="layer1"
+     transform="translate(-29.606879,-28.252823)">
     <g
        id="g1456"
        transform="matrix(0.8549317,0,0,0.70076161,40.487922,31.878688)">
@@ -414,6 +487,11 @@
          id="path2061"
          sodipodi:nodetypes="cc" />
       <path
+         style="fill:none;stroke:#000000;stroke-width:0.64598;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:0.64598, 0.64598;stroke-dashoffset:0;stroke-opacity:1"
+         d="M 16.38617,45.380594 16.15966,6.416319"
+         id="path2061-1"
+         sodipodi:nodetypes="cc" />
+      <path
          style="fill:none;stroke:#000000;stroke-width:0.64598;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;marker-end:url(#Arrow1Lend)"
          d="M 150.60502,23.512994 114.24445,18.173363"
          id="path2063" />
@@ -421,6 +499,85 @@
          style="fill:none;stroke:#000000;stroke-width:0.64598;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;marker-start:url(#Arrow1Lstart)"
          d="M 196.27326,30.767314 159.91269,25.427683"
          id="path2063-0" />
+      <path
+         style="fill:none;stroke:#000000;stroke-width:0.64598;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;marker-start:url(#marker1410)"
+         d="M 72.817138,90.557102 42.870003,146.40352"
+         id="path1042" />
+      <path
+         style="fill:none;stroke:#000000;stroke-width:0.64598;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;marker-start:url(#marker1410-1)"
+         d="M 105.13438,65.073733 3.1394484,101.20459"
+         id="path1042-6"
+         sodipodi:nodetypes="cc" />
+      <text
+         xml:space="preserve"
+         style="font-style:normal;font-weight:normal;font-size:13.6732px;line-height:1.25;font-family:sans-serif;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.341831"
+         x="41.353031"
+         y="139.48122"
+         id="text1772"
+         transform="scale(0.90535615,1.1045377)"><tspan
+           sodipodi:role="line"
+           id="tspan1770"
+           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:9.1155px;font-family:'Times New Roman';-inkscape-font-specification:'Times New Roman, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;stroke-width:0.341831"
+           x="41.353031"
+           y="139.48122">Zone of partial melting</tspan></text>
+      <text
+         xml:space="preserve"
+         style="font-style:normal;font-weight:normal;font-size:13.6732px;line-height:1.25;font-family:sans-serif;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.341831"
+         x="-14.333832"
+         y="100.3735"
+         id="text1772-38"
+         transform="scale(0.90535615,1.1045377)"><tspan
+           sodipodi:role="line"
+           id="tspan1770-6"
+           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:9.1155px;font-family:'Times New Roman';-inkscape-font-specification:'Times New Roman, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;stroke-width:0.341831"
+           x="-14.333832"
+           y="100.3735">Transform fault</tspan></text>
+      <text
+         xml:space="preserve"
+         style="font-style:normal;font-weight:normal;font-size:13.6732px;line-height:1.25;font-family:sans-serif;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.341831"
+         x="172.72632"
+         y="2.2721789"
+         id="text1772-5"
+         transform="scale(0.90535615,1.1045377)"><tspan
+           sodipodi:role="line"
+           id="tspan1770-4"
+           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:9.1155px;font-family:'Times New Roman';-inkscape-font-specification:'Times New Roman, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;stroke-width:0.341831"
+           x="172.72632"
+           y="2.2721789">Ridge axis</tspan></text>
+      <text
+         xml:space="preserve"
+         style="font-style:normal;font-weight:normal;font-size:13.6732px;line-height:1.25;font-family:sans-serif;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.341831"
+         x="57.817822"
+         y="35.084686"
+         id="text1772-5-2"
+         transform="matrix(0.89510697,0.16572891,-0.13584296,1.0920336,0,0)"><tspan
+           sodipodi:role="line"
+           id="tspan1770-4-4"
+           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:9.1155px;font-family:'Times New Roman';-inkscape-font-specification:'Times New Roman, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;stroke-width:0.341831"
+           x="57.817822"
+           y="35.084686">Fracture zone</tspan></text>
+      <text
+         xml:space="preserve"
+         style="font-style:normal;font-weight:normal;font-size:13.6732px;line-height:1.25;font-family:sans-serif;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.341831"
+         x="143.61116"
+         y="129.45065"
+         id="text1772-3"
+         transform="scale(0.90535615,1.1045377)"><tspan
+           sodipodi:role="line"
+           id="tspan1770-9"
+           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:9.1155px;font-family:'Times New Roman';-inkscape-font-specification:'Times New Roman, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;stroke-width:0.341831"
+           x="143.61116"
+           y="129.45065">Cooling lithosphere</tspan></text>
+      <path
+         style="fill:none;stroke:#000000;stroke-width:0.64598;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:0.64598, 0.64598;stroke-dashoffset:0;stroke-opacity:1"
+         d="M 232.97992,90.968368 232.75341,52.004094"
+         id="path2061-9"
+         sodipodi:nodetypes="cc" />
+      <path
+         style="fill:none;stroke:#000000;stroke-width:0.64598;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:0.64598, 0.64598;stroke-dashoffset:0;stroke-opacity:1"
+         d="M 21.099579,32.129451 230.28301,76.134852"
+         id="path2061-8"
+         sodipodi:nodetypes="cc" />
     </g>
   </g>
 </svg>
