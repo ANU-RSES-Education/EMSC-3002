@@ -28,24 +28,35 @@ corrections._
 
 <--o-->
 
-## Resources
+## Plate Tectonics
 
- ![](images/Introduction/EMSC3002-JB-QRcode.png) <!-- .element style="float: right" width="25%" -->
+<center>
 
-<div  style="width:50%">
+![Dewey](images/Introduction/Dewey1972-PlateMap.png) <!-- .element style="width:66%;" -->
 
-  [Online book](https://anu-rses-education.github.io/EMSC-3002/FrontPage.html)
-with lecture materials, practicals and live computational examples.
+</center>
 
-  Wattle (when available), Programs and Courses  
+This part of the course introduces the concepts of global-scale tectonics, plate motions, the nature of plate boundaries and the geological structures characteristic of large-scale deformation of the crust.
 
-  [Source code](https://github.com/underworld-geodynamics-cloud/self-managing-jupyterhub)
-</div> 
+<br>
 
+<small>
 
-We will be revising and building upon second year structural / tectonics materials (e.g. EMSC2023). Some material will be 
-quite familiar but we provide background reading to help revise important topics.
+*Dewey, J. F. (1972). PLATE TECTONICS. Scientific American, 226(5), 56–72. https://doi.org/10.1038/scientificamerican0572-56 - a global map of the "Mosaic of Plates [that] forms the Earth's lithosphere or outer shell"*
 
+</small>
+
+<--o-->
+
+## Plate Tectonics (Wikipedia)
+
+![Plates-USGS](https://upload.wikimedia.org/wikipedia/commons/thumb/8/8a/Plates_tect2_en.svg/2560px-Plates_tect2_en.svg.png) <!-- .element style="float:right; width:30%"-->
+
+Plate tectonics is a scientific theory describing the large-scale motion of the plates making up the Earth's lithosphere since tectonic processes began on Earth *between 3.3 and 3.5 billion years ago*. The model builds on the concept of continental drift, an idea developed during the first decades of the 20th century. The geoscientific community accepted plate-tectonic theory after seafloor spreading was validated in the late 1950s and early 1960s.
+
+The lithosphere, which is the rigid outermost shell of a planet (the crust and upper mantle), is broken into tectonic plates. The Earth's lithosphere is composed of seven or eight major plates (depending on how they are defined) and many minor plates. Where the plates meet, their relative motion determines the type of boundary: convergent, divergent, or transform. 
+
+Earthquakes, volcanic activity, mountain-building, and oceanic trench formation occur along these plate boundaries (or faults). The relative movement of the plates typically ranges from zero to 100 mm annually.
 
 <--o-->
 
@@ -206,23 +217,50 @@ Make your own map from the NOAA natural hazards interactive web page: [https://m
 
 <--o-->
 
+## Plate Tectonics (Wikipedia + annotation)
+
+![Plates-USGS](https://upload.wikimedia.org/wikipedia/commons/thumb/8/8a/Plates_tect2_en.svg/2560px-Plates_tect2_en.svg.png) <!-- .element style="float:right; width:30%"-->
+
+Plate tectonics is a scientific theory describing the large-scale motion of the plates making up the Earth's lithosphere since tectonic processes began on Earth *between 3.3 and 3.5 billion years ago*. The model builds on the concept of continental drift, an idea developed during the first decades of the 20th century. The geoscientific community accepted plate-tectonic theory after seafloor spreading was validated in the late 1950s and early 1960s.
+
+The lithosphere, which is the rigid outermost shell of a planet (the crust and upper mantle), is broken into tectonic plates. The Earth's lithosphere is composed of seven or eight major plates (depending on how they are defined) and many minor plates. Where the plates meet, their relative motion determines the type of boundary: convergent, divergent, or transform. 
+
+Earthquakes, volcanic activity, mountain-building, and oceanic trench formation occur along these plate boundaries (or faults). The relative movement of the plates typically ranges from *zero to 100 mm annually*.
+
+<--o-->
+
+## Discussion points
+
+  1. How can we measure plate motions (now, in the past ?)  
+  1. Does plate tectonics really apply to the continents ?
+  1. What is the most obvious difference between the response of continental crust and oceanic to 
+     mantle forcing ?
+
+We will revisit these questions throughout the course. 
+
+<--o-->
+
 ## Global Plate Motions
 
-<center>
+![](images/GlobalTectonics/PlateMotionsMollweide.png) <!-- .element style="width:60%; float:right;" -->
 
-![](images/GlobalTectonics/PlateMotionsMollweide.png) <!-- .element style="width:60%" -->
+<div>
 
-</center>
+This map is the plate motions derived from the NUVEL-1 model in a No-Net-Rotation frame of reference in which the major contienental masses do not move very much. 
 
-Volcanic activity is distributed similarly to that of seismicity and mostly occurs at convergent and divergent plate boundaries. There is also a significant level of intra-plate volcanism. Magma pathways within the crust are influenced by the stress field and we can analyse volcanic structures to determine the ambient stress field at the time they were formed.
+  1. We only measure the relative motion of plates relative to one another. 
+  2. The speed of the plates can vary even though they are rigid because their motion is described by their **angular velocity** about a pole (Euler pole).
+
+</div>
 
 <small>
 
-Make your own map from the NOAA natural hazards interactive web page: [https://maps.ngdc.noaa.gov/viewers/hazards](https://maps.ngdc.noaa.gov/viewers/hazards/?layers=3)
+You can build your own global dataset of plate motions from a UNAVCO website here: [https://www.unavco.org/software/geodetic-utilities/plate-motion-calculator/plate-motion-calculator.html](https://www.unavco.org/software/geodetic-utilities/plate-motion-calculator/plate-motion-calculator.html) and also read more about the models / data themselves.
 
 </small>
 
 <--o-->
+
 
 ## Plate Boundaries
 
@@ -230,7 +268,7 @@ The regions of highest strain rate at the surface of the Earth are the plate bou
 
 <center>
 
-![](images/GlobalTectonics/GlobalStrainRate.png) <!-- .element style="width:50%;" -->
+![](images/GlobalTectonics/GlobalStrainRate.png) <!-- .element style="width:66%;" -->
 
 </center>
 
@@ -238,9 +276,12 @@ The styles and patterns of deformation are very dependent on the orientation of 
 
 <--o-->
 
+## Plate Boundaries
+
+
 <center>
 
-![](images/GlobalTectonics/WorldTectonicMap_Poster_HiRes.png) <!-- .element style="width:50%;" -->
+![](images/GlobalTectonics/WorldTectonicMap_Poster_HiRes.png) <!-- .element style="width:66%;" -->
 
 </center>
 
@@ -250,3 +291,21 @@ This map includes diagrams of the physical processes that are happening at the s
 World Map of Plate Boundaries, Bonnie Magura (Portland Public Schools) and Chris Hedeen (Oregon City High School) from https://serc.carleton.edu/ANGLE/educational_materials/activities/204690.html
 </small>
 
+<--o-->
+
+## Take away points
+
+Do you know the answers to these questions ?
+
+  - Is the mantle solid or liquid ?
+    </br>
+  - What is the relationship between crust and lithosphere ?
+    </br>
+  - How fast do the plates move (typically / roughly) ?
+    </br>
+  - What evidence do we have that plates are "rigid" ? 
+    </br>
+  - Is plate tectonics really a theory about plates ?
+    
+    
+<--o-->
