@@ -6,6 +6,7 @@ Notebooks/*.png
 
 Jupyterbook/_build
 Jupyterbook/static_slides
+Jupyterbook/static_pdfs
 
 # IDE files
 
@@ -146,6 +147,7 @@ dmypy.json
 
 Lectures/_static
 Lectures/static_slides
+Lectures/static_pdfs
 
 
 
