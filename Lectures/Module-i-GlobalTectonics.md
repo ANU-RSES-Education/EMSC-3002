@@ -20,11 +20,9 @@ The first part of this module introduces the structure of the Earth on a global 
 
 The next part of the module covers the nature of the plate boundaries and introduces some of the techniques we will use in this course to identify the forces that are at work. 
 
-**SLIDES COMING SOON !**
 
-<!-- 
 <iframe src="../slideshows/Module-i-GlobalTectonics-2.reveal.html" title="Slideshow" width=100%, height=500, allowfullscreen></iframe> 
--->
+
 
 [PDF: Updated July 27, 2021](../slideshows/Module-i-GlobalTectonics-2.reveal.html?print-pdf)
 
