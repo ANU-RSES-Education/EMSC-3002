@@ -559,15 +559,6 @@ Image credit: [Wikipedia](https://commons.wikimedia.org/wiki/File:Cross-section_
 
 </small>
 
-<--v-->
-
-https://www.usgs.gov/centers/pcmsc/science/cascadia-subduction-zone-marine-geohazards?qt-science_center_objects=0#qt-science_center_objects
-
-
-note: USE NPS examples !
-
-
-Congested subduction: All the rubber ducks end up at the plughole when you let out the bathwater. 
 
 <--o-->
 
@@ -577,7 +568,7 @@ The slab is a continuation of the oceanic lithosphere that is bent at the trench
 
 <center>
 
-![](images/GlobalTectonics/PlateBendingTrench.png) <!-- .element style="width:50%" -->
+![](images/GlobalTectonics/PlateBendingTrench.png) <!-- .element style="width:40%" -->
 
 </center>
 
@@ -733,14 +724,14 @@ Outer rise Earthquakes are predominantly normal faulting events caused by the ex
 
 ## Upper plate seismicity
 
-The upper plate is nothing if not complicated ...
 
 <center>
 
-![](images/GlobalTectonics/UpperPlateSeismicityTohoku_WangEtAl.png) <!-- .element style="width:66%" -->
+![](images/GlobalTectonics/UpperPlateSeismicityTohoku_WangEtAl.png) <!-- .element style="width:50%" -->
 
 </center>
 
+The upper plate is nothing if not complicated ...
 Perhaps the most striking observation is this from Wang et al, which shows the extent to which the upper plate is controlled by the lower plate and the megathrust. Earthquake mechanisms before and after the great Tohoku earthquake of 2011.
 
 <small>
@@ -756,7 +747,7 @@ Wang, K., Brown, L., Hu, Y., Yoshida, K., He, J., & Sun, T. (2019). Stable Forea
 A magnitude 8.2 earthquake struck 50 miles south of the Alaska Peninsula on July 28, 2021 at 10:15 pm local time (July 29, 2021 06:15 UTC). Seismic instruments indicate the earthquake originated at a depth of 20 miles (32.2 kilometers). 
 
 
-[USGS Interactive Analysis](https://earthquake.usgs.gov/earthquakes/eventpage/ak0219neiszm/executive)
+[USGS News Page / Analysis](https://www.usgs.gov/news/magnitude-82-earthquake-alaska)
 
 The earthquake occurred as the result of thrust faulting at shallow depth on the subduction zone interface between the Pacific plate and the North America plate, where the Pacific plate begins subducting to the northwest beneath Alaska.
 
@@ -830,3 +821,4 @@ In continental regions, the processes that are responsible for creating the dist
 
 Note: Contrast this with Tapponier and one of our movies
 
+Congested subduction: All the rubber ducks end up at the plughole when you let out the bathwater. 
