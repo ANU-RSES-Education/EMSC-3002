@@ -14,17 +14,17 @@ The first part of this module introduces the structure of the Earth on a global 
 
 <iframe src="../slideshows/Module-i-GlobalTectonics-1.reveal.html" title="Slideshow" width=100%, height=500, allowfullscreen></iframe>
 
-[PDF: Updated July 27, 2021](../slideshows/Module-i-GlobalTectonics-1.reveal.html?print-pdf)
+<a href="../slideshows/Module-i-GlobalTectonics-1.reveal.html?print-pdf"> PDF, Updated July 27, 2021 </a>
 
 ### Plate Boundaries
 
 The next part of the module covers the nature of the plate boundaries and introduces some of the techniques we will use in this course to identify the forces that are at work. 
 
-
 <iframe src="../slideshows/Module-i-GlobalTectonics-2.reveal.html" title="Slideshow" width=100%, height=500, allowfullscreen></iframe> 
 
+<a href="../slideshows/Module-i-GlobalTectonics-2.reveal.html?print-pdf"> PDF, Updated August 1, 2021 </a>
 
-[PDF: Updated July 27, 2021](../slideshows/Module-i-GlobalTectonics-2.reveal.html?print-pdf)
+This is the link to the USGS page on the M8.2 Earthquake in Alaska during the week of lectures: [USGS News and Analysis](https://www.usgs.gov/news/magnitude-82-earthquake-alaska)
 
 
 ### Stresses, Strains, Strain-rates and Strength
