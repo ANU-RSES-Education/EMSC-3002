@@ -18,6 +18,7 @@ reveal-md  --static static_slides/slideshows \
            --static-dirs \
 movies,\
 images,\
+data,\
 Figures-Fold-Geometry-1,\
 Figures-Folds-and-Folding-Mechanisms,\
 Figures-Shear_zones,\
