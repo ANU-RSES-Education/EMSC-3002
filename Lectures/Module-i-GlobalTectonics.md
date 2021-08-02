@@ -29,25 +29,15 @@ This is the link to the USGS page on the M8.2 Earthquake in Alaska during the we
 
 ### Stresses, Strains, Strain-rates and Strength
 
-A brief introduction to the physical forces that are at work ... that will be covered in detail in Module 3 
-
-**SLIDES COMING SOON !**
-
-
-<!-- 
-todo: (link)
+A brief introduction to the physical forces that are at work, definitions of stress, strain and strain rate.
+The different way rocks respond to stress.
 
 <iframe src="../slideshows/Module-i-GlobalTectonics-3.reveal.html" title="Slideshow" width=100%, height=500, allowfullscreen></iframe>
 
-note: palaeo stresses, fracking / geothermal, style of magma ascent ... 
-
--->
-
 ### Plate Kinematics and reconstruction
 
-If we understand the *kinematics* of plate boundary evolution, then we can run a configuration backwards in time to observe the earlier configuration. In this part of the module, we cast the observations about plate deformation in the form of hard-and-fast rules and we see what we can do with them.
+If we understand the *kinematics* of plate boundary evolution, then we can run a configuration backwards in time to observe the earlier configuration. In this short concluding part of the module, we cast the observations about plate deformation in the form of hard-and-fast rules and we see what we can do with them.
 
-**SLIDES COMING SOON !**
 
 
 ## Links
