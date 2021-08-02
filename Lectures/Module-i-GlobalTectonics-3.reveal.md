@@ -28,9 +28,11 @@ _**NB:** the course materials provided by the authors are open source under a cr
 
 ## About this section
 
-Prelude to Module 3 in the course ... 
+This section covers some of the concepts that we will deal with in considerable detail in Module 3 of the course. You will need to understand the basics of stress, strain, strain-rate as well as elastic, viscous and plastic deformation in order to appreciate the way tectonic stresses produce structures in the Earth.
 
+You also need familiarity with the variety of structures in the Earth before you can appreaciate how stresses and constitutive properties of rocks play out under different situations. 
 
+This will be a brief introduction and we will return to details once you have completed Module 2.
 
 <--o-->
 
@@ -142,6 +144,8 @@ where $\left\\{ n \right\\}$ is the vector normal to the plane.
 
 Here is a way to think about it: *In general, the force that we need to balance in a void in the ground will be in a different direction for the roof from the walls*
 
+Pressures are stresses (forces acting per area of a surface) and so stresses have the same units: $\textrm{Pa} \equiv N / m^2 $
+
 <--v-->
 
 
@@ -188,37 +192,52 @@ The diagram above is found in Kaliakin, V. N. (2017). Stresses, Strains, and Ela
 
 <--v-->
 
-## Principal Stresses
+## Principal Stresses & Tectonics
 
-Surface of the Earth 
+The surface of the Earth is a **free surface**. That is, it is not confined by stresses but evolves to an equilibrium where there are no resulting stresses. There can be no shear stresses.
 
+<center> 
 
+![](images/GlobalTectonics/worldsm_tectonic_regime_diagram.png) <!-- .element style="width:80%" -->
 
-<--o-->
+</center>
 
-## Global Stress Revised
+This means that one principal stress has to be normal to the Earth's surface (close to vertical) and two tangential to the surface (horizontal). 
+
+The orientation of the principal stresses dictates the fault orientation most likely to form and also controls which faults are likely to be the first to slip (orientation, weakness).
+
+Broadly, we can categorize the regional stress field by the orientation of the principal stress and hence the tectonic regime.
+
+<--v-->
+
+## Global Stress Revisited
 
 ![](https://www.researchgate.net/profile/Oliver-Heidbach/publication/327061751/figure/fig2/AS:675475772940291@1538057382465/The-World-Stress-Map-WSM-2016-displays-the-contemporary-crustal-stress-orientation-in_W640.jpg) <!-- .element style="float:right; margin-top:50px;margin-bottom:50px; width:50%; margin-left:50px" -->
 
-The World Stress Map (WSM) 2016 displays the contemporary crustal stress orientation in the upper 40 km based on the WSM database release 2016. Lines show the orientation of maximum horizontal stress. The colours indicate whether stresses are:
+The World Stress Map (WSM) 2016 displays the contemporary crustal stress orientation in the upper 40 km based on the WSM database release 2016. Lines show the orientation of maximum horizontal stress. 
 
-  - Normal faulting 
-  - Strike slip 
-  - Thrust faulting
+The colours indicate whether stresses are:
 
-So, already, we can see that the state of stress and deformation style are closely linked. Note that the **magnitude** of the stress is not part of this map.
-
-
-<!--
-
-![Tunnel](images/GlobalTectonics/ModernTunnelConstruction.jpg) 
+  - Normal faulting ($\sigma_1$ vertical )
+  - Strike slip ($\sigma_2$ vertical)
+  - Thrust faulting ($\sigma_3$ vertical )
 
 
-Tunnel enlargement using the tunnel-in-tunnel method – with support plates in the roof to safeguard against collapse (image: GTA Maschinensysteme GmbH, Hamminkeln)
-
--->
 
 <--o-->
+
+<--o-->
+
+<--o-->
+
+<--o-->
+
+<--o-->
+
+<--o-->
+At
+<--o-->
+
 
 ## What is Strain ?
 
@@ -227,9 +246,8 @@ Tunnel enlargement using the tunnel-in-tunnel method – with support plates in 
 
 ## What is Strain-Rate ? 
 
-
-
 <--v-->
+
 
 
 <--v-->
@@ -271,6 +289,11 @@ Kreemer, C., Blewitt, G., & Klein, E. C. (2014). A geodetic plate motion and Glo
 
 </small>
 
+
+<--v-->
+
+Kostrov summation connects seismic moment release and strain rate
+
 <--o-->
 
 ## Rock Deformation Map
@@ -303,7 +326,9 @@ We expect to see far more "creep" dominated deformation in the deep (high pressu
 
 (Also see Magali's survey of the topic)
 
+Connection between strain-rate / strain and the applied stress
 
+Tensor relationship (Cijkl) & explanation
 
 
 <--o--> 
@@ -356,11 +381,11 @@ Byerlee, J. D. (1968). Brittle-ductile transition in rocks. Journal of Geophysic
 
 <--o-->
 
-
+<!-- 
 ## Measurements of stress
 
 (stress map again ...)
-
+ -->
 
 
 
