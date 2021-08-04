@@ -2,13 +2,13 @@
 <!-- Created with Inkscape (http://www.inkscape.org/) -->
 
 <svg
-   width="297mm"
-   height="210mm"
-   viewBox="0 0 297 210"
+   width="163.67654mm"
+   height="145.10684mm"
+   viewBox="0 0 163.67654 145.10684"
    version="1.1"
    id="svg5"
    inkscape:version="1.1 (c4e8f9e, 2021-05-24)"
-   sodipodi:docname="Rheology-ViscousBehaviour.svg"
+   sodipodi:docname="Rheology-PlasticBehaviour.svg"
    xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
    xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
    xmlns:xlink="http://www.w3.org/1999/xlink"
@@ -25,42 +25,46 @@
      inkscape:document-units="mm"
      showgrid="false"
      inkscape:zoom="0.57416476"
-     inkscape:cx="292.59894"
-     inkscape:cy="404.0652"
+     inkscape:cx="301.30724"
+     inkscape:cy="377.06947"
      inkscape:window-width="1312"
-     inkscape:window-height="798"
+     inkscape:window-height="797"
      inkscape:window-x="85"
      inkscape:window-y="25"
      inkscape:window-maximized="0"
-     inkscape:current-layer="layer1" />
+     inkscape:current-layer="layer1"
+     fit-margin-top="0"
+     fit-margin-left="0"
+     fit-margin-right="0"
+     fit-margin-bottom="0" />
   <defs
      id="defs2">
     <marker
        style="overflow:visible"
        id="Arrow1Lstart"
-       refX="0.0"
-       refY="0.0"
+       refX="0"
+       refY="0"
        orient="auto"
        inkscape:stockid="Arrow1Lstart"
        inkscape:isstock="true">
       <path
-         transform="scale(0.8) translate(12.5,0)"
-         style="fill-rule:evenodd;fill:context-stroke;stroke:context-stroke;stroke-width:1.0pt"
-         d="M 0.0,0.0 L 5.0,-5.0 L -12.5,0.0 L 5.0,5.0 L 0.0,0.0 z "
+         transform="matrix(0.8,0,0,0.8,10,0)"
+         style="fill:context-stroke;fill-rule:evenodd;stroke:context-stroke;stroke-width:1pt"
+         d="M 0,0 5,-5 -12.5,0 5,5 Z"
          id="path859" />
     </marker>
     <marker
-       style="overflow:visible;"
+       style="overflow:visible"
        id="Arrow1Lend"
-       refX="0.0"
-       refY="0.0"
+       refX="0"
+       refY="0"
        orient="auto"
        inkscape:stockid="Arrow1Lend"
        inkscape:isstock="true">
       <path
-         transform="scale(0.8) rotate(180) translate(12.5,0)"
-         style="fill-rule:evenodd;fill:context-stroke;stroke:context-stroke;stroke-width:1.0pt;"
-         d="M 0.0,0.0 L 5.0,-5.0 L -12.5,0.0 L 5.0,5.0 L 0.0,0.0 z "
+         transform="matrix(-0.8,0,0,-0.8,-10,0)"
+         style="fill:context-stroke;fill-rule:evenodd;stroke:context-stroke;stroke-width:1pt"
+         d="M 0,0 5,-5 -12.5,0 5,5 Z"
          id="path862" />
     </marker>
     <marker
@@ -81,7 +85,8 @@
   <g
      inkscape:label="Layer 1"
      inkscape:groupmode="layer"
-     id="layer1">
+     id="layer1"
+     transform="translate(-26.180414,-30.264979)">
     <path
        style="fill:none;stroke:#000000;stroke-width:0.565;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;marker-start:url(#Arrow1Lstart)"
        d="M 43.906566,31.361832 44.690612,174.05817"
@@ -100,9 +105,9 @@
        y="36.6535" />
     <path
        style="fill:none;stroke:#af1a1a;stroke-width:2;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
-       d="M 44.660858,158.59102 C 50.614855,134.38661 54.887219,112.81876 82.918672,84.84026 110.95012,56.861755 131.45756,55.034848 174.86087,46.510138"
+       d="m 44.660858,158.59102 c 1.345854,-26.04767 1.853484,-84.349489 1.853484,-84.349489 0,0 80.795888,-0.774111 125.581638,-1.464978"
        id="path1687"
-       sodipodi:nodetypes="czc" />
+       sodipodi:nodetypes="ccc" />
     <text
        xml:space="preserve"
        style="font-style:normal;font-weight:normal;font-size:10.5833px;line-height:1.25;font-family:sans-serif;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.264583"
@@ -155,31 +160,75 @@ cwAAAABJRU5ErkJggg==
        y="166.55238" />
     <path
        style="fill:none;stroke:#50b196;stroke-width:2;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
-       d="M 44.714381,159.38875 160.83958,30.821596"
-       id="path6894" />
+       d="m 44.714381,159.38875 39.664629,-86.029527 77.3822,-1.06434"
+       id="path6894"
+       sodipodi:nodetypes="ccc" />
     <text
        xml:space="preserve"
        style="font-size:7.05556px;font-family:Times;-inkscape-font-specification:'Times, Normal';fill:#4fb195;fill-opacity:0.984314;stroke:none;stroke-width:2;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
-       x="-53.05785"
-       y="136.61362"
+       x="124.61675"
+       y="82.65361"
        id="text7456"
-       transform="rotate(-47.476862)"><tspan
+       transform="rotate(0.57679914)"><tspan
          sodipodi:role="line"
          id="tspan7454"
          style="fill:#4fb195;fill-opacity:0.984314;stroke:none;stroke-width:2"
-         x="-53.05785"
-         y="136.61362">Linear (Newtonian) </tspan></text>
+         x="124.61675"
+         y="82.65361">Viscous-plastic</tspan><tspan
+         sodipodi:role="line"
+         style="fill:#4fb195;fill-opacity:0.984314;stroke:none;stroke-width:2"
+         x="124.61675"
+         y="91.473061"
+         id="tspan22218" /></text>
     <text
        xml:space="preserve"
        style="font-size:7.05556px;font-family:Times;-inkscape-font-specification:'Times, Normal';fill:#af1a1a;fill-opacity:1;stroke:none;stroke-width:2;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
-       x="-36.161514"
-       y="111.4651"
+       x="47.462299"
+       y="66.234085"
        id="text13840"
-       transform="rotate(-44.603019)"><tspan
+       transform="rotate(0.396981)"><tspan
          sodipodi:role="line"
          id="tspan13838"
          style="fill:#af1a1a;fill-opacity:1;stroke-width:2"
-         x="-36.161514"
-         y="111.4651">Non-linear (power -law)</tspan></text>
+         x="47.462299"
+         y="66.234085">&quot;rigid&quot;-plastic</tspan></text>
+    <path
+       style="fill:none;stroke:#000000;stroke-width:0.960496;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:0.960496, 0.960496;stroke-dashoffset:0;stroke-opacity:1"
+       d="M 39.361032,72.92771 189.85549,72.466897"
+       id="path23257"
+       sodipodi:nodetypes="cc" />
+    <image
+       width="14.816667"
+       height="7.7611108"
+       preserveAspectRatio="none"
+       xlink:href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAFQAAAAsCAYAAAD7Gp9tAAAABHNCSVQICAgIfAhkiAAABR5JREFU
+aIHtmm2IFVUYx39Xd1fb1eqWbbZCbyYVWVKUgr1aHyKjcC0oSogK/LDY64deoTL6YCBBRWYfBCMq
+0tpFqcyoWNTsHSSi1EW0KEu3zHJ33XbXnT48M+zszHN258ycmbur+4PDhTtz/uc/556XZ55zS2Sj
+BjgTmA6cDUwFShk1u4F9wBrgn4xao4IScC3ywD2Al1NpLeh5KspdwA7y68Rw6SzomSpCPbCOYjoy
+KJsLebIKMB/YT7Gd+RtwRREP55rhNpBGZK2sMlz/HmgBdgFlZEO5HFgITDLUuRVoN1zzgAPAT0D/
+MN5GHTdj3nTWABcMUXcq0tla3RfzszxymQf8R7wzDgB3JNQoA18pGp3ARMd+RwzalD8JGV3TIt+3
+A3OA3Rb6s5FOjXID8JGFzjTgQ2Ay8kN3IT9MJzKLxiE/0nFArf9ZA/QBTcCnFm0FzAFWA9V+e13A
+Yf+zhCxpk/1yELjSvx5jLfFR1QNclcIUwI+K3jJLjTsVjaTl/pS+H7JooxeZkbHNZhGyaUR5ANiU
+0thG4PzId9MtNZqBx5HZcwLy455nuLcX2ADsRKKTty3bCngLmILMpouV693AN8A2YAvwd/SGamAP
+8d7/IKWhgMcUzawx5njgY0XXA7Zm1I6yKKJ/CHgeic2H5F6Dwazx4JOKprau2jJb0fWQcGuoCMSG
+U4G9Ie3vgIYkFauQWDJq7nMHpl5SdD9zoAuyDGmdusqBdi0ylQPN94G6pJXnG4w1OjD2nqL7hgNd
+kFhZ892NjK60TGDwkrISWWYSs1Ix5Spe/FnRtt3lTZSA7Yq+BzyXUrMaWB/SeS2NqV8VQ+tSGgrT
+oOh6wBIH2gGLDW38iUxbG8YD74Q03kRiXCsuMhhabCuksNCgPdeBdsBEJCGttdNkoVNCAvmgbgvm
+HMaQNBrMzEgjFmGVoruX7Fn9KE8p7XhAG8lH2IpQvY3IOpqK+xQjHRZGTExAgt2o9oqMuhpTkFfC
+tBvr8tD9m7FfKgaxTDHxRRZBnwWKroccn+RBeISFy5Zh6i0N3fstcHxWIy8oJlZnFWXwThmULx3o
+mjgHOKK06SGJDo1HQvf8AJzswoiWBFieUdP0FpN3Fr7Z0O5a5d4loettSA7XCdrUfDmj5ieKZktG
+zSTMVdr1kDTeWaH77kFeUT3gF+B0lya0sGlDBr2bFL124IxsNhOzVWnfY+Ck4HYGloY/cBPNDKKE
+DPlw47tSap1LfGfvBa7J7DI5pti3A7jb9+MBfwEX5mXi4UjjR5BF3oYykoOMPojLt6IkjCM+QKLl
+X+CyPE2UkTxfuNFmi/oNxKdaP/CoW5uJacLcmV2kP32w4hYGFuqg3Jig3jxkLQrX6wZuy8dmImqR
+c55oZ/YA1xdp5JmIgT7/Oy11NQt43b8nXGcHbt/V06JloZ4t2kQJmaaHI0Z2I2czS4FX0HfSDuS4
+o6Zo0wqnEJ9tHjluQsMxAzl6HWphD8pO4Gnix86VRNvp9xXRsCk91QZch5xOLgBmAqcBJyIx5R4k
+cbwJ+Dp3l/ZcrXzXWrSJo4ltxEeoTW50jBBl9PXT1UnoMYd2cLcf90ltlaxJ5JGItn4Gx825c6x0
+aGvRJo4W6tGTzDMraWo08wTxzjxIQesnRTaUA7OAS5D/Z04CLkVysdHYug94FUlJBv8pfRdJ443h
+UwJ+J9mbnFYezMtYqoP8EUDwKlmPjLhD/mcvMiL7kQ23CvlrTR0yiuuQf0BvL97yGKn4H8o8vcvt
+QYfyAAAAAElFTkSuQmCC
+"
+       id="image23446"
+       x="26.180414"
+       y="74.457878" />
   </g>
 </svg>
