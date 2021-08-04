@@ -210,6 +210,26 @@ Broadly, we can categorize the regional stress field by the orientation of the p
 
 <--v-->
 
+## Principal Stresses & Tectonics
+
+Faults form and are most likely to slip when they are oriented at a shallow angle to the 
+most compressive principle stress direction. 
+
+<center> 
+
+![](images/GlobalTectonics/worldsm_tectonic_regime_diagram.png) <!-- .element style="width:80%" -->
+
+</center>
+
+This minimises the normal stress on the faults and maximizes the shear stress. This angle is dictated by the 
+friction coefficient. 
+
+$$
+\tan 2\theta = \mp \frac{1}{\mu}
+$$
+
+<--v-->
+
 ## Global Stress Revisited
 
 ![](https://www.researchgate.net/profile/Oliver-Heidbach/publication/327061751/figure/fig2/AS:675475772940291@1538057382465/The-World-Stress-Map-WSM-2016-displays-the-contemporary-crustal-stress-orientation-in_W640.jpg) <!-- .element style="float:right; margin-top:50px;margin-bottom:50px; width:50%; margin-left:50px" -->
@@ -223,9 +243,6 @@ The colours indicate whether stresses are:
   - Thrust faulting ($\sigma_3$ vertical )
 
 <--o-->
-
-<--o-->
-
 
 ## What is Strain ?
 
@@ -440,7 +457,7 @@ because there is no particular reason to expect all the stress and strain direct
 
 ## Rheology: Elasticity
 
-![](images/GlobalTectonics/Rheology-ElasticBehaviour.svg) <!-- .element style="width:45%;float:right" -->
+![](images/GlobalTectonics/Rheology-ElasticBehaviour.svg) <!-- .element style="width:35%;float:right;margin-left:40px;" -->
 
 The one dimensional elastic response to stress is the classical Hooke's law for an extending spring. This is typically a linear response but if the stress is too high, permanent deformation or failure may occur.
 
@@ -454,10 +471,87 @@ where the term in Red term is the volumetric strain but the term in Blue is not 
 
 <--v-->
 
+## Rheology: Elasticity
 
+![](images/GlobalTectonics/ElasticStretching.svg) <!-- .element style="width:40%;float:right" -->
 
+$$
+\sigma_{ij} = \color{Black}{2\mu D_{ij}} + \color{Black}{\lambda \delta_{ij} D_{kk}}
+$$
 
+If we apply a single normal stress component, it is clear that there must still be a response in all three dimensions (two in the sketch), especially if the material is incompressible, or very nearly so.
 
+<--o-->
+
+## Rheology: Viscosity
+
+<center>
+
+![Honey](images/GlobalTectonics/Honey.tiff)  <!-- .element style="height:250px;" -->
+![Tar](images/GlobalTectonics/UQ_PitchDropExperiment.png) <!-- .element style="height:250px;" -->
+
+</center>
+
+**Viscosity** is a measure of the resistance of a fluid to deform under shear stress. It is commonly perceived as "thickness", or resistance to flow. Viscosity describes a fluid's internal resistance to flow and may be thought of as a measure of fluid friction. Water is runny, having a lower viscosity, while honey is "thick" having a higher viscosity. The symbol we typically use for viscosity is $\eta$ (sometimes $\mu$ but we often use that for elastic shear modulus !)
+
+*The right image is from the University of Queensland [Pitch Drop Experiment](https://smp.uq.edu.au/pitch-drop-experiment)*
+
+<--v-->
+
+## Rheology: Viscosity
+
+![Shear](images/GlobalTectonics/ShearFlow.png) <!-- .element style="width:35%; float:right; padding-left:30px; " -->
+
+Viscous deformation is an irreversible *flow* that occurs in response to an applied shear stress. 
+The stress is found to depend on the strength of the shearing *velocity gradient*.
+
+$$
+  \tau_{ij} = \eta D_{ij}
+$$  
+<!-- .element style="width:60%;" -->
+
+![GC](images/GlobalTectonics/GravityCurrentAnim.gif) <!-- .element style="width:35%; float:right; padding-left:30px;" -->
+
+Think of this as the stress that resists the shear deformation, i.e. how hard it is to stir the fluid. This is much harder if the fluid is **more viscous**. 
+Or think of it as how fast the fluid responds to a given force (e.g. gravity) so a viscous gravity current will spread **more slowly** if the viscosity is high.
+
+Viscosity only opposes the formation of velocity gradients; not a driving force, only a resistance.
+
+<--v-->
+
+## Rheology: Viscosity
+
+![](images/GlobalTectonics/Rheology-ViscousBehaviour.svg) <!-- .element style="width:35%;float:right;margin-left:40px;" -->
+
+The idealised, linear relationship between the shear stress ($\tau$) and the deviatoric strain rate, is attributed to Newton but many fluids start to lose their ability to resist at high stress. These are known
+as thixotropic materials. 
+
+Rocks can be viscous without being liquid: they deform by migration of defects (dislocations, point defects, grain boundaries) which is often known as crystal plasticity. The changes are permanent and dissipate rather than store energy. 
+
+Many forms of crystal plasticity weaken at high stresses and this can typically be expressed as a power law. 
+
+$$
+  \eta = K \left( II_D \right) ^{n-1}
+$$
+
+<--o-->
+
+## Rheology: Plasticity
+
+<center>
+
+![](images/GlobalTectonics/GranularMaterial.svg) <!-- .element style="height:250px;" -->
+![](images/GlobalTectonics/Rheology-PlasticBehaviour.svg) <!-- .element style="height:250px;margin-left:60px;" -->
+
+</center>
+
+Granular materials exhibit "frictional" behaviour. The contacts between grains are locked when the frictional stress ($\tau_Y \approx \mu P$ ) is stronger than any shear stresses. After this, the material will begin to deform and the stresses will be **limited** by the frictional strength. 
+
+Rocks with multiple faults in them can start to look like granular materials in which the stress is limited by the strength of whichever faults are sliding in the given conditions. If there are very many faults, then the resulting rheological law is likely to be isotropic.
+
+$$ 
+\eta = \frac{\tau_Y}{II_D}
+$$
 
 <--o--> 
 
@@ -526,8 +620,3 @@ Byerlee, J. D. (1968). Brittle-ductile transition in rocks. Journal of Geophysic
 </small>
 
 <--o-->
-
-
-<--o-->
-## Anderson Faulting Theory
-
