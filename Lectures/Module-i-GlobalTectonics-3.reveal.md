@@ -222,79 +222,244 @@ The colours indicate whether stresses are:
   - Strike slip ($\sigma_2$ vertical)
   - Thrust faulting ($\sigma_3$ vertical )
 
-
-
 <--o-->
 
-<--o-->
-
-<--o-->
-
-<--o-->
-
-<--o-->
-
-<--o-->
-At
 <--o-->
 
 
 ## What is Strain ?
 
+Strain is the relative change in length/shape of a material as a result of deformation. It has no
+units as it is a relative measure (but often expressed in terms of % strain)
+
+![](images/GlobalTectonics/StressOrientations.svg)  <!-- .element style="float:right;width:35%" -->
+
+In one dimension, this is simple to express:
+
+$$
+\varepsilon = \frac{\delta L}{L_0}
+$$
+
+In three dimensions, like stress, it is actually a tensor. We already saw the diagram on the right to describe the orientations of the stress and the tendency to deform from those stresses (in an isotropic material).
+
+$$ 
+\mathbf{\varepsilon} = 
+\begin{bmatrix}
+\varepsilon_{xx} & \varepsilon_{xy} & \varepsilon_{xz} \\\\
+\varepsilon_{yx} & \varepsilon_{yy} & \varepsilon_{yz} \\\\
+\varepsilon_{zx} & \varepsilon_{zy} & \varepsilon_{zz} 
+\end{bmatrix} 
+$$
+
+<--v--> 
+
+## Strain Tensor
+
+The strain tensor contains volumetric strains, shear strains and normal strains. The shear and normal strains are the the **deviatoric** parts of the tensor. These are analogous to the shear stresses and normal stresses of the deviatoric stress tensor.
+
+The components of the strain tensor are usually expressed this way:
+
+$$
+\varepsilon_{ij}  = \frac{1}{2} \left[ \frac{\partial u_i}{\partial x_j} + \frac{\partial u_j}{\partial x_i}  \right]
+$$
+
+Where $u_i$ is the displacement in the direction $i$. $i,j$ can be any of $\{1,2,3\}$ and the coordinates $\{x,y,z\}$ are then referred to as $\{x_1, x_2, x_3\}$ (etc).
+
+A typical component might be written
+
+$$
+\varepsilon_{xy}  \equiv \varepsilon_{12} = \frac{1}{2} \left[ \frac{\partial u_1}{\partial x_2} + \frac{\partial u_2}{\partial x_1}  \right]  
+$$
+
+<--v-->
+
+## Symmetry of the Strain Tensor
+
+From the definition given, it is clear that $\varepsilon_{xy} \equiv \varepsilon_{yx}$.
+
+The strain tensor is the **symmetric part** of the more general deformation tensor and this 
+removes all components of the deformation that are associated with pure **rotation**.
+
+Rotations are equivalent to changes in the point of view of the observer and we know that the forces and responses cannot depend on the coordinate system itself. 
+
+This principle is known as **objectivity** - our systems of equations cannot include translations and rotation of the coordinate system.
+
+*It is possible to have equations that are sensitive to rotation but these also need additional conservation equations, physical moduli and forces*
+
+<--v-->
+
+## Volumetric Strain and Incompressibility
+
+The volumetric strain (or dilatation) on a material is given by
+
+$$
+\delta = \frac{\Delta V}{V_0} = \sum_{i} \varepsilon_{ii}
+$$
+
+In an incompressible material (an idealised situation, not unlike the notion of a rigid plate), the volumetric strain is always zero (identically zero).
+
+Engineers often have a sign convention that differs from the everyday one. Here, increasing volume is 
+considered positive (so an increasing pressure should produce a negative volumetric strain)
+
+<--o-->
+
+## Invariants of the (Strain) Tensor
+
+Tensors have a number of *invariants*, properties that do not change with the coordinate system.
+
+We have met one example already:
+
+$$
+\delta = \frac{\Delta V}{V_0} = \sum_{i} \varepsilon_{ii} = \sum_{k} \epsilon_k
+$$
+
+where $\epsilon_k$ represents the principle strains which are unique for the tensor no matter what coordinate system it is expressed in. This is known as the **first invariant** of the tensor, often $I_{\varepsilon}$
+
+The **second invariant**, $II_{\varepsilon}$ is defined as
+
+$$
+II_{\varepsilon} = \frac{1}{2} \left( \epsilon_1 \epsilon_2 + \epsilon_2 \epsilon_3 + \epsilon_1 \epsilon_3 \right)
+$$
+
+This plays the role of the magnitude of the deviatoric part of the tensor and that is why it is used
+when we plot the world strain rate map. 
 
 <--o-->
 
 ## What is Strain-Rate ? 
 
-<--v-->
+The strain-rate a measure of the rate of change of strain with time (of course it is !). 
 
+The strain rate tensor is sometimes written as $\dot\varepsilon$, but we will refer to $\mathbf{D}$ (see note below)  
 
+$$ 
+\mathbf{D} = 
+\begin{bmatrix}
+D_{xx} & D_{xy} & D_{xz} \\\\
+D_{yx} & D_{yy} & D_{yz} \\\\
+D_{zx} & D_{zy} & D_{zz} 
+\end{bmatrix} \quad \textrm{or} \quad D_{ij} = \frac{1}{2} \left[ \frac{\partial v_i}{\partial x_j} + \frac{\partial v_j}{\partial x_i}  \right]
+$$
 
-<--v-->
+Here we have replaced the dispacement vector in the strain, $\mathbf{u}$ with the velocity vector, $\mathbf{v}$ and all other remarks we made about the strain still hold.
 
-## Global Seismicity
-
-The magnitude of the stress is related to the rate of seismic energy release because this is a measure of those places which are under enough stress for the lithosphere to "break".
-
-<center>
-<video autoplay controls width="75%">
-    <source src="movies/GlobalEQCumulative.m4v"
-            type="video/mp4">
-
-    Sorry, your browser doesn't support embedded videos.
-</video>
-</center>
-
-Usually this takes the form of a fault that already exists sliding because the shear stresses are large compared to the confining pressure.
-
-<--v-->
-
-## Global Strain rate
-
-<center>
-
-![](images/GlobalTectonics/GlobalStrainRate.png) <!-- .element style="float:right; margin-top:50px;margin-bottom:50px; width:50%; margin-left:50px" -->
-
-<!-- .element stoyle="width:60%" -->
-
-</center>
-
-The strain rate is a measure of how fast deformation is taking place. Strain rate is a measure of the rate of change of length (units are $s^{-1}$) *and* it is a tensor: there are multiple components that represent normal and shear strains. The measure shown here is an average (the second invariant).
-
-The rate of deformation is related to two things: the stress applied and the strength of the material. 
+The strain rate is a symmetric tensor and there are principal strain rates all shear values vanish. The diagonal sums to zero if the material is incompressible (a.k.a zero trace, first invariant is zero). The second invariant is defined from the principal values and represents the magnitude. 
 
 <small>
 
-Kreemer, C., Blewitt, G., & Klein, E. C. (2014). A geodetic plate motion and Global Strain Rate Model. Geochemistry, Geophysics, Geosystems, 15(10), 3849–3889. https://doi.org/10/f6p92p
+**NB:** the definition of $\partial \boldsymbol{\varepsilon} / \partial t$ is ambiguious because, in some derivations, we don't just differentiate the displacement to get a velocity, we also account for the distortion of the original coordinate system during deformation. That's why we start with velocity gradients etc. 
 
 </small>
 
+<--v-->
+
+## Advanced: Velocity Gradient, Vorticity
+
+The strain rate is the symmetric part of a more general **velocity gradient tensor** which can be written $\nabla \mathbf{v}$ (the *gradient of a vector* and not to be confused with $\nabla \cdot \mathbf{v}$, the divergence).
+
+$$
+L_{ij} \equiv \left( \nabla\mathbf{v}\right)^T = \partial v_i / \partial x_j  \quad \\{i,j\\}:\\{1,2,3\\}
+$$
+
+Which means you may see the strain rate written like this:
+
+$$
+\mathbf{D} = 
+\frac{1}{2}\left(\nabla \mathbf{v} + \left( \nabla \mathbf{v} \right)^T \right) \equiv
+\frac{1}{2}\left(\mathbf{L} + \mathbf{L}^T \right) \quad \textrm{and} \quad \mathbf{W} 
+= \frac{1}{2} \left(\mathbf{L} - \mathbf{L}^T\right)
+$$ 
+
+Here $\mathbf{W}$ is the spin tensor. It is related to the better known **vorticity** vector, $\omega$ through 
+
+$$
+ \omega_i = -\epsilon_{ijk} W_{kj} = 2\Omega
+$$
+
+$\Omega$ is the angular velocity at each point in the fluid. Hence the names "spin" and "vorticity".
+
+<small>
+
+The wikipedia article is quite good: https://en.wikipedia.org/wiki/Strain-rate_tensor
+
+Smith, A. C., & Kaloni, P. N. (1996). A note on spin, vorticity and the deformation-rate tensor. Journal of Non-Newtonian Fluid Mechanics, 62(1), 95–98. https://doi.org/10/dfxhjj
+
+</small>
+
+<--o-->
+
+## Kostrov Summation links seismicity / strain
+
+There is a connection between the seismic moment tensor and the strain rate tensor which is attributed to Kostrov (1974).
+
+![](images/GlobalTectonics/Jackson_McKenzie_Kostrov_Fig.png) <!-- .element style="width:30%;float:right; margin-left:30px;" -->
+
+The moment tensor can be interpreted as:
+
+$$ M^n_{ij} = M^n_0 \left(u_i n_j + u_j n_i \right) $$
+
+where $\mathbf{\hat{u}}$ and $\mathbf{\hat{n}}$ are unit vectors describing the slip direction and the normal to the slip plane respectively (see diagram)
+
+$$
+\left< \varepsilon \right>_{ij} = \frac{1}{2 \mu V} \sum_n M^n _{ij} \quad \textrm{or} \quad 
+\left< D \right> _{ij} = \frac{1}{2 \mu V \tau} \sum_n M^n _{ij}
+$$
+
+Here, $\tau$ is a time over which we summing the moment tensor to create a time-average. $\left< . \right>$ denotes an average over the volume, $V$.
+
+<small>
+
+Jackson, J., & McKenzie, D. (1988). The relationship between plate motions and seismic moment tensors, and the rates of active deformation in the Mediterranean and Middle East. Geophysical Journal International, 93(1), 45–73. https://doi.org/10/fp7rkq
+
+Kostrov, V.V., 1974. Seismic moment and energy of earthquakes, and seismic flow of rock. Izv. Acad. Sci. USSR Phys. Solid Earth, 1, 23–44.
+
+</small>
+
+<--o-->
+
+## Rheology
+
+Rheology is the study of how materials deform / flow in response to stresses. We do not know *a priori* how a material will behave when stressed and how this will change with temperature and pressure. We can make some educated guesses but there are empirical coefficients that we have to measure.
+
+  - When a material deforms as an elastic medium, there is a relationship between stress and strain 
+    and elastic "constants" such as shear / bulk modulus.
+
+  - When a fault slides under shear stress, there is a frictional relationship that describes when sliding begins 
+
+  - When a material deforms as a viscous fluid, there is a relationship between stress and strain-rate and the viscosity and bulk viscosity are the relevant coefficients. 
+
+
+$$
+    \sigma_{ij} = C_{ijkl} \varepsilon_{kl}
+$$
+
+The coefficients should be (rank 4) tensors 
+because there is no particular reason to expect all the stress and strain directions to respond the same way. But symmetry is helpful and usually we work with simplifications. 
 
 <--v-->
 
-Kostrov summation connects seismic moment release and strain rate
+## Rheology: Elasticity
 
-<--o-->
+![](images/GlobalTectonics/Rheology-ElasticBehaviour.svg) <!-- .element style="width:45%;float:right" -->
+
+The one dimensional elastic response to stress is the classical Hooke's law for an extending spring. This is typically a linear response but if the stress is too high, permanent deformation or failure may occur.
+
+In general, 
+
+$$
+\sigma_{ij} = \color{Blue}{2\mu D_{ij}} + \color{Red}{\lambda \delta_{ij} D_{kk}}
+$$
+
+where the term in Red term is the volumetric strain but the term in Blue is not purely deviatoric because it still contains the diagonal terms. 
+
+<--v-->
+
+
+
+
+
+
+<--o--> 
 
 ## Rock Deformation Map
 
@@ -321,17 +486,7 @@ Gomez-Rivas, E., Butler, R. W. H., Healy, D., & Alsop, I. (2020). From hot to co
 
 We expect to see far more "creep" dominated deformation in the deep (high pressure, high temperature) parts of the planet and more fracture dominated deformation in the shallow (cooler, lower pressure) parts of the lithosphere. 
 
-
-## Rock Rheology
-
-(Also see Magali's survey of the topic)
-
-Connection between strain-rate / strain and the applied stress
-
-Tensor relationship (Cijkl) & explanation
-
-
-<--o--> 
+<--o-->
 
 ## The Brittle-Ductile Transition 
 
@@ -370,23 +525,7 @@ Byerlee, J. D. (1968). Brittle-ductile transition in rocks. Journal of Geophysic
 
 </small>
 
-
 <--o-->
-
-## The Mohr Circle
-
-
-
-
-
-<--o-->
-
-<!-- 
-## Measurements of stress
-
-(stress map again ...)
- -->
-
 
 
 <--o-->
