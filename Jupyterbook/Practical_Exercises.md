@@ -3,7 +3,7 @@
 These are demonstrations of core concepts in the course for students to explore in practical classes or tutorials.
 
 
-## Exercise 1, GPlate Tutorial
+## Exercise 1, GPlates Tutorial
 
 An important tool for modern tectonics research is [GPlates](https://www.gplates.org) from the EarthByte group. We suggest spending some time with GPlates exploring the [GPlates Portal](https://portal.gplates.org) and running through one of the available demonstrations / tutorials.
 
@@ -55,8 +55,7 @@ Which combination of relative velocity vectors for the diagram of the ridge-ridg
 
 ![](Figures/practicals/kinematics/TripleJunctionExerciseFigure3.svg)
 
-
-Notes: (1) the diagram is drawn to scale, although you don’t need this information to answer the question !   (2) you should read $_X V _Y$ as the relative velocity of plate Y with respect to plate X.
+Notes: (1) the diagram is drawn to scale, although you don’t need this information to answer the question !      (2) you should read $_X V _Y$ as the relative velocity of plate Y with respect to plate X. The units are not important to answer the question but let's say they are all cm/yr.
 
   1. $_A V _B$ = ( 5, 6 ); $_B V _C$ =  ( 2, 4 ); $_C V _A$ = ( 3, 2 ) 	  
   2. $_A V _B$ = ( 5, 0 ); $_B V _C$ =  ( 1, 2 ); $_C V _A$ = ( 4,-2 ) 	  
@@ -76,7 +75,8 @@ Notes: (1) the diagram is drawn to scale, although you don’t need this informa
 
 </div>
 
-Which of the plate boundary configurations in the diagram is not possible under the standard rules of plate tectonics ?   Explain your reasoning. Note. The velocity vectors are not drawn precisely to scale.
+Which of the plate boundary configurations in the diagram is not possible under the standard rules of plate tectonics (i.e. it's locking / cannot evolve forward in time) ?   Explain your reasoning. 
+Note. The velocity vectors are not drawn precisely to scale.
 
 ::::
 
@@ -84,7 +84,6 @@ Which of the plate boundary configurations in the diagram is not possible under 
 
 ::::{admonition} 2.5 Plate velocity closures and rollback
 
-In this diagram  
 
 <div style="width:50%;float:right;" >
 
@@ -92,8 +91,9 @@ In this diagram
 
 </div>
 
+In the diagram on the right ...  
 
-Is the plate boundary between plates A and C a transform, spreading centre or subduction zone ?
+Is the plate boundary between plates A and C (dotted) a transform, spreading centre or subduction zone ?
 
 What is the magnitude of the velocity across this plate boundary ?
 
@@ -105,8 +105,9 @@ What is the separation / convergence velocity of the line q-q' ?
 
 What is the separation / convergence velocity of the line r-r' ?
 
-*Hint: figure out the plate velocities relative to, say, plate A first of all, and then you can answer the questions relatively easily. Also, remember the spreading rate marked is the half spreading rate*
+*Hint: figure out the plate velocities relative to, say, plate A first of all, and then you can answer these questions relatively easily. Also, remember the spreading rate marked is the half spreading rate*
 
 Now sketch some magnetic stripes for this system.
+
 ::::
 
