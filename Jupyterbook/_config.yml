@@ -1,6 +1,6 @@
 # Book settings
 title: EMSC 3002
-author: Louis Moresi 
+author: EMSC 3002 teaching team 
 logo: Figures/AuWorldEQ.jpg
 exclude_patterns: ["README.md", "Notes/*", "Scripts/*", "Lectures/*.reveal.md"]
 
@@ -32,7 +32,7 @@ sphinx:
   config:
     mathjax_path: https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js
     html_extra_path: ['Lectures/static_slides']
-
+    bibtex_reference_style: author_year
 
 repository:
   url         : https://github.com/ANU-RSES-Education/EMSC-3002  # Online location of this book
