@@ -34,6 +34,9 @@ The different way rocks respond to stress.
 
 <iframe src="../slideshows/Module-i-GlobalTectonics-3.reveal.html" title="Slideshow" width=100%, height=500, allowfullscreen></iframe>
 
+<a href="../slideshows/Module-i-GlobalTectonics-3.reveal.html?print-pdf"> PDF, Updated August 1, 2021 </a>
+
+
 ### Plate Kinematics and reconstruction
 
 If we understand the *kinematics* of plate boundary evolution, then we can run a configuration backwards in time to observe the earlier configuration. In this short concluding part of the module, we cast the observations about plate deformation in the form of hard-and-fast rules and we see what we can do with them.

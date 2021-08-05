@@ -1,0 +1,185 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   width="297mm"
+   height="210mm"
+   viewBox="0 0 297 210"
+   version="1.1"
+   id="svg5"
+   inkscape:version="1.1 (c4e8f9e, 2021-05-24)"
+   sodipodi:docname="Rheology-ViscousBehaviour.svg"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:xlink="http://www.w3.org/1999/xlink"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg">
+  <sodipodi:namedview
+     id="namedview7"
+     pagecolor="#ffffff"
+     bordercolor="#cccccc"
+     borderopacity="1"
+     inkscape:pageshadow="0"
+     inkscape:pageopacity="1"
+     inkscape:pagecheckerboard="false"
+     inkscape:document-units="mm"
+     showgrid="false"
+     inkscape:zoom="0.57416476"
+     inkscape:cx="292.59894"
+     inkscape:cy="404.0652"
+     inkscape:window-width="1312"
+     inkscape:window-height="798"
+     inkscape:window-x="85"
+     inkscape:window-y="25"
+     inkscape:window-maximized="0"
+     inkscape:current-layer="layer1" />
+  <defs
+     id="defs2">
+    <marker
+       style="overflow:visible"
+       id="Arrow1Lstart"
+       refX="0.0"
+       refY="0.0"
+       orient="auto"
+       inkscape:stockid="Arrow1Lstart"
+       inkscape:isstock="true">
+      <path
+         transform="scale(0.8) translate(12.5,0)"
+         style="fill-rule:evenodd;fill:context-stroke;stroke:context-stroke;stroke-width:1.0pt"
+         d="M 0.0,0.0 L 5.0,-5.0 L -12.5,0.0 L 5.0,5.0 L 0.0,0.0 z "
+         id="path859" />
+    </marker>
+    <marker
+       style="overflow:visible;"
+       id="Arrow1Lend"
+       refX="0.0"
+       refY="0.0"
+       orient="auto"
+       inkscape:stockid="Arrow1Lend"
+       inkscape:isstock="true">
+      <path
+         transform="scale(0.8) rotate(180) translate(12.5,0)"
+         style="fill-rule:evenodd;fill:context-stroke;stroke:context-stroke;stroke-width:1.0pt;"
+         d="M 0.0,0.0 L 5.0,-5.0 L -12.5,0.0 L 5.0,5.0 L 0.0,0.0 z "
+         id="path862" />
+    </marker>
+    <marker
+       style="overflow:visible"
+       id="Arrow1Lstart-6"
+       refX="0"
+       refY="0"
+       orient="auto"
+       inkscape:stockid="Arrow1Lstart"
+       inkscape:isstock="true">
+      <path
+         transform="matrix(0.8,0,0,0.8,10,0)"
+         style="fill:context-stroke;fill-rule:evenodd;stroke:context-stroke;stroke-width:1pt"
+         d="M 0,0 5,-5 -12.5,0 5,5 Z"
+         id="path859-5" />
+    </marker>
+  </defs>
+  <g
+     inkscape:label="Layer 1"
+     inkscape:groupmode="layer"
+     id="layer1">
+    <path
+       style="fill:none;stroke:#000000;stroke-width:0.565;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;marker-start:url(#Arrow1Lstart)"
+       d="M 43.906566,31.361832 44.690612,174.05817"
+       id="path857" />
+    <path
+       style="fill:none;stroke:#000000;stroke-width:0.565;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;marker-start:url(#Arrow1Lstart-6)"
+       d="M 169.03662,158.32811 26.34024,159.11216"
+       id="path857-5" />
+    <image
+       width="10.583333"
+       height="8.4666662"
+       preserveAspectRatio="none"
+       xlink:href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACgAAAAgCAYAAABgrToAAAAABHNCSVQICAgIfAhkiAAAAolJREFU WIW91z2IVFcYxvHfjsa1sHAt1KxiSFQs/GpkCYmIayFJ/MCNQiCIgp1gJYEVmyRNtAgEC0sLK2FX /CjERoNoEDaFhYHIKmEj2ZXgiha6fiaOxZ0rw913du6H6wMHhufM+5w/c+855x2KqwObMICXqE/T uFKCzV4MTyNU85goAjYf598TWDqu5YX7CvffM9wY1pO8T1OpT/KuzWwxfxNn8Re68Byf42vMaVGz C+Mt5up4iFt43YbNdq03wQBWTlG7sAEf1R5rt3Ae9eJFEP4Q3+bM6MJQkDGB2VXg5mE0CL6Pjwtm 9QQ5dXxRBXAwCHyJDSXz/gzyjpaF2x2E1bG/bCB+CfIGywR9gL+DsAsV4OBQkJn7jKs1fd6Dj4Lv HKlChxmBNytvcQo4E4eD+ev4rQRUsxYEXu5rLAXcjE+C+Z/LEGW0KPDG8hangNuDuae4WIYoo3WB VwiwA1uDuUuSq6uKurEk8EfzBtSwWvwYqu5e+LSFf6NISJ/47FteCS3RiSD3nvZNylvVsDjwJyQd ShV1SrqarM5JQHOpJn68f8jR7rTRl5gb+KeLhNTEh+ZwGaKM9gXeEH4tElLDP4H/oAxRk3qwLfC/ KxpUw0jgdxYNyuinwDun5K20xuSdVuWA3hbkjYvv+VzqwJ1MYNkdvAKPMlmvsLEsXKqDmdD/saxg Rhdum/zrHagKl4Y/zgSfKVDfLel8mutfo/9dwKXa2QhtXmRLjrpe/Jupe45v3iVcqh8yC/3X8KKm cy1ONr7TXDOMz6YDjmTD9ONZZtERnMKPOG7y46zjiaS9z90tV9FyXA4gonEb34uvzMpq11UsxQ6s woeSu3Vc8ufqLq7i9+kAS/UGG2lA4YIsn4sAAAAASUVORK5CYII= "
+       id="image1495"
+       x="27.502396"
+       y="36.6535" />
+    <path
+       style="fill:none;stroke:#af1a1a;stroke-width:2;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       d="M 44.660858,158.59102 C 50.614855,134.38661 54.887219,112.81876 82.918672,84.84026 110.95012,56.861755 131.45756,55.034848 174.86087,46.510138"
+       id="path1687"
+       sodipodi:nodetypes="czc" />
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-weight:normal;font-size:10.5833px;line-height:1.25;font-family:sans-serif;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.264583"
+       x="27.732597"
+       y="186.05412"
+       id="text7920"><tspan
+         sodipodi:role="line"
+         id="tspan7918"
+         style="stroke-width:0.264583"
+         x="27.732597"
+         y="186.05412" /></text>
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-weight:normal;font-size:10.5833px;line-height:1.25;font-family:sans-serif;display:none;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.264583"
+       x="26.328415"
+       y="179.73531"
+       id="text13702"
+       inkscape:label="text13702"><tspan
+         sodipodi:role="line"
+         id="tspan13700"
+         style="stroke-width:0.264583"
+         x="0"
+         y="0">Linea</tspan></text>
+    <image
+       width="10.230556"
+       height="8.8194437"
+       preserveAspectRatio="none"
+       xlink:href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAADoAAAAyCAYAAAAN6MhFAAAABHNCSVQICAgIfAhkiAAAA8ZJREFU
+aIHNmslrFEEUh7+ERGPcUGOiuG+ICyK4XUQDEm+CGhdQQfHiRS+eBP8ADyKo0ZiLBz0KLhcVBWFU
+RA8RNInivitoUDAqxi3t4WV0GPpVuqdezeSDpmeqpt/vvZ56XVVdVUZ6ZgPrgDqgvIDr0/AFeAY8
+7z2/BH4G1vzHWSAq0fEHuA3sAkaFDvRUCQPNPbqBfUB1EqfLCgi0Cpjbex4IDAXGAo3ACsd1zcAl
+pDm6mt8AYCRQA8wHlgJzHL6+AjYBNxJH4MlM9Lt/xtP2NOAg0KXY7wIWeGokZoPiRASsN9KYAGQU
+jU5glpGOk2bFgR6kKVpRDhxRtN4Akw21YrmviN8JoFUOnFb0HiPPjiDUKqIRklshqAbeKprbA2my
+XhGMgNWhRIEdimZ7KMGjiqB1fuZTgf6vNoQQvKeIhcjPfI4r2hethUqRn7lo3VoP0v8CNoPy5Y66
+jIH9vrillJcB87JfLAKtV8oj4JqB/b744Kibkv0QMtB24JOB/b7oBr4qdWaB1iLz0zgynrbT8E0p
+Nwt0maMu42k7DYOU8ilKeWq0MWcPRZgY91Kt+BAhU0ITOhSBu1YCCZih+BCR84zwabqj6R/5Od1R
+9zb7wSfQ5eiz/oyH3bRoNxtk2gb4BVqvlBer/8xSskA7gI8edtOy2FHnHWh/yc9hDj/AINBl9I/8
+XII7hn/j4EIDrVfKI+BqgTYLYZWj7hEyffSinfh+q83XcArKgXeKHxHyctuLGmTkE2f8sK/xFNQr
+PmSPhbk/LqTp9pf+c6Oj7hXQ6ivQhD6+rfE1npAKZB6q/Zv7LUS0/Az25i2GBsWHCJmb1uVfkLbp
+1iALPnFkUtryYZOj7gDw3ldgLfqdbPQ1npCJwA/Fhw/I6p43hxWBYuZni+JDBOy0EmlTBIqVn5OQ
+tdU4H54AlRYio9D7zyYLgQScU/S7yes3fSh1fm526JsuKrnyc7SlUAxjkKlfnH6LtZiWnx3WQnkM
+Aq4r2jeRPQ9muPLziKVQHpXABUX3KTDOWnCNIhYhm6tCMBh9VbsVeXluziFFMCJMfs5B3ypwCRgS
+QBOQ97TFys9tyBJDnN5JjPrKOMYrotb5uRK4rOh8B/ZQ2AawxOxVxC36zwHAVvQnegScB6Z66jiZ
+DOwGfjucSLuBqQJZhd4CHEPffxABr5FBigllyGygCdmVVcX/vXgjElz/A3gB/Op1TqMa6aKG03fz
+ewicQAYo2nJgQWhbWIp5dCI3e5FlYLlUIKP+z8jL4KDJjqxuvURaQfb8ALiCpEgw/gLBjjQ5JXHo
+cwAAAABJRU5ErkJggg==
+"
+       id="image6206"
+       x="159.85625"
+       y="166.55238" />
+    <path
+       style="fill:none;stroke:#50b196;stroke-width:2;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       d="M 44.714381,159.38875 160.83958,30.821596"
+       id="path6894" />
+    <text
+       xml:space="preserve"
+       style="font-size:7.05556px;font-family:Times;-inkscape-font-specification:'Times, Normal';fill:#4fb195;fill-opacity:0.984314;stroke:none;stroke-width:2;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       x="-53.05785"
+       y="136.61362"
+       id="text7456"
+       transform="rotate(-47.476862)"><tspan
+         sodipodi:role="line"
+         id="tspan7454"
+         style="fill:#4fb195;fill-opacity:0.984314;stroke:none;stroke-width:2"
+         x="-53.05785"
+         y="136.61362">Linear (Newtonian) </tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-size:7.05556px;font-family:Times;-inkscape-font-specification:'Times, Normal';fill:#af1a1a;fill-opacity:1;stroke:none;stroke-width:2;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       x="-36.161514"
+       y="111.4651"
+       id="text13840"
+       transform="rotate(-44.603019)"><tspan
+         sodipodi:role="line"
+         id="tspan13838"
+         style="fill:#af1a1a;fill-opacity:1;stroke-width:2"
+         x="-36.161514"
+         y="111.4651">Non-linear (power -law)</tspan></text>
+  </g>
+</svg>
