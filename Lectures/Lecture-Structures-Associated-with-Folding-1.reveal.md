@@ -47,6 +47,9 @@ corrections._
 
 ## Definition: Fabric
 
+<div>
+<div style="width:50%; float:left">
+
 The term **fabric** is used to describe penetrative and distributive components of rock masses.
 
 A fabric is built of minerals and mineral aggregates  with a *preferred orientation* that
@@ -55,7 +58,25 @@ A fabric is built of minerals and mineral aggregates  with a *preferred orientat
 The distance between the elements is typically less than 10cm which excludes sets of faults and
 small shear zones as fabric elements.
 
+*Primary fabric in anorthosite intrusion, Rogaland, Norway* source: ![Wikipedia](https://en.wikipedia.org/wiki/Fabric_(geology)#/media/File:Primary_fabric_Jibbeheia.JPG)
+
+</div>
+<div style="width:50%; float:right">
+
+![Fabric](Figures-Structures-Associated-with-Folding-1/Photos/Wikipedia_1280px-Primary_fabric_Jibbeheia.jpeg) <!-- .element style="float: right" width="95%" -->
+
+
+</div>
+</div>
+
+
 <--o-->
+<!-- .slide: data-background="Figures-Structures-Associated-with-Folding-1/Photos/Wikipedia_1280px-Primary_fabric_Jibbeheia.jpeg" -->
+
+<--o-->
+
+<div>
+<div style="width:60%; float:left">
 
 **Primary fabrics** are acquired during the formation of the rock (sedimentary or magmatic fabrics).
 They need to be accounted for when considering the deformation history of a rock.
@@ -64,9 +85,25 @@ Any fabric that does not result from the deformation of a rock.
 Metamorphic rocks typically show **strong fabrics** and are often referred as **Tectonites**.
 **L-Tectonites** show Linear fabrics while **S-Tectonites** have Planar fabrics.
 
+*Deformed waterlain volcanic sediments. Primary fabric (bedding) shown by abrupt change in clast size, secondary fabric shown by penetrative S-fabric, cleavage, in fine-grained rock, and by shape fabric in deformed volcanic clasts. Cape Forchu, Nova Scotia.* source: ![Wikipedia](https://en.wikipedia.org/wiki/Fabric_(geology)#/media/File:Primary_and_secondary_fabrics.JPG)
+
+</div>
+<div style="width:40%; float:right">
+
+![Fabric](Figures-Structures-Associated-with-Folding-1/Photos/Wikipedia_800px-Primary_and_secondary_fabrics.jpeg) <!-- .element style="float: right" width="90%" -->
+
+</div>
+</div>
+
+<--o-->
+<!-- .slide: data-background="Figures-Structures-Associated-with-Folding-1/Photos/Wikipedia_800px-Primary_and_secondary_fabrics.jpeg" -->
+
 <--o-->
 
 ### Linear, Planar and Random fabrics
+
+<div>
+<div style="width:50%; float:left">
 
 - **Linear Fabric**: Elongated elements with preferred orientation
 - **Planar Fabric**: Tabular or platy elements with common orientation. The faric does not
@@ -74,9 +111,50 @@ need to be planar in a mathematical sense. It can be affected by folding and wra
 stronger elements.
 - **Random Fabric**: No preferred orientation. Undeformed sedimentary rocks, igneous rocks.
 
+</div>
+<div style="width:50%; float:right">
+
+![Linear Fabric](Figures-Structures-Associated-with-Folding-1/Photos/StretchingLineationAmphibolite.jpg) <!-- .element style="float: right" width="90%" -->
+
+*Stretching Lineation in amphibolite (Cap de Creus) Jordi Carreras Planells*
+
+</div>
+</div>
+
+<--o-->
+<!-- .slide: data-background="Figures-Structures-Associated-with-Folding-1/Photos/Hornblende_Lineations.jpeg" -->
+<!-- Hornblende lineation in orthogneiss.  Big Silver Creek., Harrison Lake, BC. [49.696595,-121.816864]> -->
+
+<--o-->
+
+### Linear, Planar and Random fabrics
+
+<div>
+<div style="width:50%; float:left">
+
+- **Linear Fabric**: Elongated elements with preferred orientation
+- **Planar Fabric**: Tabular or platy elements with common orientation. The faric does not
+need to be planar in a mathematical sense. It can be affected by folding and wrap around
+stronger elements.
+- **Random Fabric**: No preferred orientation. Undeformed sedimentary rocks, igneous rocks.
+
+</div>
+<div style="width:50%; float:right">
+
+![Planar Fabricn](Figures-Structures-Associated-with-Folding-1/Photos/EGU_Blogs_foliation-700x400.jpg) <!-- .element style="float: right" width="90%" -->
+
+</div>
+</div>
+
+
+*Jurassic slate in La Grave (Hautes-Alpes, France). These rocks easily split along foliation surfaces that dip towards the left of the image. Don’t believe me? Try to hammer them! Photo © Samuele Papeschi* source: ![EGU Blog](https://blogs.egu.eu/divisions/ts/2019/08/30/features-from-the-field-foliation)
+
 <--o-->
 
 ## Definition: Foliation
+
+<div>
+<div style="width:50%; float:left">
 
 **Foliation** (lat: *folium*, leaf)
 
@@ -88,7 +166,22 @@ millimeter thick domains, densely distributed and cohesive micro-fractures, micr
 
 A foliated rock is by definition *cohesive* but may break preferentially along the foliation.
 
+</div>
+<div style="width:50%; float:right">
+
+![Foliated Rocks](Figures-Structures-Associated-with-Folding-1/Photos/foliated-textures-2.png) <!-- .element style="float: right" width="90%" -->
+
+</div>
+</div>
+
 <--o-->
+
+## Definition: Foliation
+
+![Foliated Rocks](Figures-Structures-Associated-with-Folding-1/Photos/foliatedvsnonfoliated.png) <!-- .element style="float: right" width="90%" -->
+
+<--o-->
+
 
 ### Primary foliation vs Secondary foliation
 
@@ -126,7 +219,6 @@ We use the designation **$S_n$** for foliations, with the **$n$** subscript indi
 As folds and foliations are often related we associate **$S_1$**, **$S_2$**, **$S_3$**... to generations of folds **$F_1$**, **$F_2$**, **$F_3$**...
 
 We can also refer to deformation phases as **$D_1$**, **$D_2$**, **$D_3$**...
-
 <--o-->
 
 ## Cleavage development

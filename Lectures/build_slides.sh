@@ -22,7 +22,7 @@ data,\
 Figures-Fold-Geometry-1,\
 Figures-Folds-and-Folding-Mechanisms,\
 Figures-Shear_zones,\
-Figures-Structural-Geology-And-Crustal-Deformation,\
+Module-ii-Figures-Structural-Geology-And-Crustal-Deformation,\
 Figures-Structures-Associated-with-Folding-1,\
 Figures-Structures-Associated-with-Folding-2,\
 Figures-Structures-Associated-with-Folding-3,\
