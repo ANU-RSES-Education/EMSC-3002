@@ -1,0 +1,402 @@
+
+<!DOCTYPE html>
+
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Exercises: Plate Kinematics &#8212; EMSC 3002</title>
+    
+  <link href="../_static/css/theme.css" rel="stylesheet" />
+  <link href="../_static/css/index.c5995385ac14fb8791e8eb36b4908be2.css" rel="stylesheet" />
+
+    
+  <link rel="stylesheet"
+    href="../_static/vendor/fontawesome/5.13.0/css/all.min.css">
+  <link rel="preload" as="font" type="font/woff2" crossorigin
+    href="../_static/vendor/fontawesome/5.13.0/webfonts/fa-solid-900.woff2">
+  <link rel="preload" as="font" type="font/woff2" crossorigin
+    href="../_static/vendor/fontawesome/5.13.0/webfonts/fa-brands-400.woff2">
+
+    
+      
+
+    
+    <link rel="stylesheet" href="../_static/pygments.css" type="text/css" />
+    <link rel="stylesheet" href="../_static/sphinx-book-theme.e8e5499552300ddf5d7adccae7cc3b70.css" type="text/css" />
+    <link rel="stylesheet" type="text/css" href="../_static/togglebutton.css" />
+    <link rel="stylesheet" type="text/css" href="../_static/copybutton.css" />
+    <link rel="stylesheet" type="text/css" href="../_static/mystnb.css" />
+    <link rel="stylesheet" type="text/css" href="../_static/sphinx-thebe.css" />
+    <link rel="stylesheet" type="text/css" href="../_static/panels-main.c949a650a448cc0ae9fd3441c0e17fb0.css" />
+    <link rel="stylesheet" type="text/css" href="../_static/panels-variables.06eb56fa6e07937060861dad626602ad.css" />
+    
+  <link rel="preload" as="script" href="../_static/js/index.1c5a1a01449ed65a7b51.js">
+
+    <script id="documentation_options" data-url_root="../" src="../_static/documentation_options.js"></script>
+    <script src="../_static/jquery.js"></script>
+    <script src="../_static/underscore.js"></script>
+    <script src="../_static/doctools.js"></script>
+    <script src="../_static/togglebutton.js"></script>
+    <script src="../_static/clipboard.min.js"></script>
+    <script src="../_static/copybutton.js"></script>
+    <script async="async" kind="hypothesis" src="https://hypothes.is/embed.js"></script>
+    <script >var togglebuttonSelector = '.toggle, .admonition.dropdown, .tag_hide_input div.cell_input, .tag_hide-input div.cell_input, .tag_hide_output div.cell_output, .tag_hide-output div.cell_output, .tag_hide_cell.cell, .tag_hide-cell.cell';</script>
+    <script src="../_static/sphinx-book-theme.12a9622fbb08dcb3a2a40b2c02b83a57.js"></script>
+    <script async="async" src="https://unpkg.com/thebelab@latest/lib/index.js"></script>
+    <script >
+        const thebe_selector = ".thebe"
+        const thebe_selector_input = "pre"
+        const thebe_selector_output = ".output"
+    </script>
+    <script async="async" src="../_static/sphinx-thebe.js"></script>
+    <script async="async" src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js"></script>
+    <script type="text/x-mathjax-config">MathJax.Hub.Config({"tex2jax": {"inlineMath": [["\\(", "\\)"]], "displayMath": [["\\[", "\\]"]], "processRefs": false, "processEnvironments": false}})</script>
+    <link rel="index" title="Index" href="../genindex.html" />
+    <link rel="search" title="Search" href="../search.html" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="docsearch:language" content="en" />
+    
+  </head>
+  <body data-spy="scroll" data-target="#bd-toc-nav" data-offset="80">
+    
+    <div class="container-fluid" id="banner"></div>
+
+    
+
+    <div class="container-xl">
+      <div class="row">
+          
+<div class="col-12 col-md-3 bd-sidebar site-navigation show" id="site-navigation">
+    
+        <div class="navbar-brand-box">
+    <a class="navbar-brand text-wrap" href="../index.html">
+      
+      <img src="../_static/AuWorldEQ.jpg" class="logo" alt="logo">
+      
+      
+      <h1 class="site-logo" id="site-title">EMSC 3002</h1>
+      
+    </a>
+</div><form class="bd-search d-flex align-items-center" action="../search.html" method="get">
+  <i class="icon fas fa-search"></i>
+  <input type="search" class="form-control" name="q" id="search-input" placeholder="Search this book..." aria-label="Search this book..." autocomplete="off" >
+</form><nav class="bd-links" id="bd-docs-nav" aria-label="Main navigation">
+    <div class="bd-toc-item active">
+        <ul class="nav bd-sidenav">
+ <li class="toctree-l1">
+  <a class="reference internal" href="../FrontPage.html">
+   EMSC 3002 - Structural Geology and Tectonics
+  </a>
+ </li>
+</ul>
+<p class="caption">
+ <span class="caption-text">
+  Introduction
+ </span>
+</p>
+<ul class="nav bd-sidenav">
+ <li class="toctree-l1">
+  <a class="reference internal" href="../Introductory_Remarks.html">
+   Introduction
+  </a>
+ </li>
+ <li class="toctree-l1">
+  <a class="reference internal" href="../Background_Reading.html">
+   Background Reading
+  </a>
+ </li>
+ <li class="toctree-l1">
+  <a class="reference internal" href="../Practical_Exercises.html">
+   Exercises
+  </a>
+ </li>
+</ul>
+<p class="caption">
+ <span class="caption-text">
+  Lecture Notes
+ </span>
+</p>
+<ul class="nav bd-sidenav">
+ <li class="toctree-l1">
+  <a class="reference internal" href="../Lectures/Lecture-1-Introduction.html">
+   Introduction to EMSC 3002
+  </a>
+ </li>
+ <li class="toctree-l1">
+  <a class="reference internal" href="../Lectures/Module-i-GlobalTectonics.html">
+   Module 1 - Global Tectonics
+  </a>
+ </li>
+ <li class="toctree-l1">
+  <a class="reference internal" href="../Lectures/Lecture-Structural-Geology-And-Crustal-Deformation.html">
+   Module 2 - Structures in the Earth
+  </a>
+ </li>
+ <li class="toctree-l1">
+  <a class="reference internal" href="../Lectures/Module-iii-Theory.html">
+   Module 3 - Theory
+  </a>
+ </li>
+ <li class="toctree-l1">
+  <a class="reference internal" href="../Lectures/Module-iv-BrittleDeformation.html">
+   Module 4 - Brittle Deformation
+  </a>
+ </li>
+ <li class="toctree-l1 has-children">
+  <a class="reference internal" href="../Lectures/Lecture-Fold-Geometry-1.html">
+   Module 5 - Ductile Deformation
+  </a>
+  <input class="toctree-checkbox" id="toctree-checkbox-1" name="toctree-checkbox-1" type="checkbox"/>
+  <label for="toctree-checkbox-1">
+   <i class="fas fa-chevron-down">
+   </i>
+  </label>
+  <ul>
+   <li class="toctree-l2">
+    <a class="reference internal" href="../Lectures/Lecture-Folds-and-Folding-Mechanisms.html">
+     Folds and Folding Mechanisms
+    </a>
+   </li>
+   <li class="toctree-l2">
+    <a class="reference internal" href="../Lectures/Lecture-Structures-Associated-with-Folding.html">
+     Structures associated with folding 1
+    </a>
+   </li>
+   <li class="toctree-l2">
+    <a class="reference internal" href="../Lectures/Lecture-Shear_zones.html">
+     Shear Zones
+    </a>
+   </li>
+  </ul>
+ </li>
+</ul>
+<p class="caption">
+ <span class="caption-text">
+  Glossary
+ </span>
+</p>
+<ul class="nav bd-sidenav">
+ <li class="toctree-l1">
+  <a class="reference internal" href="../Glossary.html">
+   Glossary
+  </a>
+ </li>
+</ul>
+<p class="caption">
+ <span class="caption-text">
+  Bibliography
+ </span>
+</p>
+<ul class="nav bd-sidenav">
+ <li class="toctree-l1">
+  <a class="reference internal" href="../Bibliography.html">
+   Bibliography
+  </a>
+ </li>
+</ul>
+
+    </div>
+</nav> <!-- To handle the deprecated key -->
+
+<div class="navbar_extra_footer">
+  Powered by <a href="https://jupyterbook.org">Jupyter Book</a>
+</div>
+
+</div>
+
+
+          
+
+
+          
+<main class="col py-md-3 pl-md-4 bd-content overflow-auto" role="main">
+    
+    <div class="topbar container-xl fixed-top">
+    <div class="topbar-contents row">
+        <div class="col-12 col-md-3 bd-topbar-whitespace site-navigation show"></div>
+        <div class="col pl-md-4 topbar-main">
+            
+            <button id="navbar-toggler" class="navbar-toggler ml-0" type="button" data-toggle="collapse"
+                data-toggle="tooltip" data-placement="bottom" data-target=".site-navigation" aria-controls="navbar-menu"
+                aria-expanded="true" aria-label="Toggle navigation" aria-controls="site-navigation"
+                title="Toggle navigation" data-toggle="tooltip" data-placement="left">
+                <i class="fas fa-bars"></i>
+                <i class="fas fa-arrow-left"></i>
+                <i class="fas fa-arrow-up"></i>
+            </button>
+            
+            
+<div class="dropdown-buttons-trigger">
+    <button id="dropdown-buttons-trigger" class="btn btn-secondary topbarbtn" aria-label="Download this page"><i
+            class="fas fa-download"></i></button>
+
+    <div class="dropdown-buttons">
+        <!-- ipynb file if we had a myst markdown file -->
+        
+        <!-- Download raw file -->
+        <a class="dropdown-buttons" href="../_sources/Exercises/PlateKinematics.md"><button type="button"
+                class="btn btn-secondary topbarbtn" title="Download source file" data-toggle="tooltip"
+                data-placement="left">.md</button></a>
+        <!-- Download PDF via print -->
+        <button type="button" id="download-print" class="btn btn-secondary topbarbtn" title="Print to PDF"
+            onClick="window.print()" data-toggle="tooltip" data-placement="left">.pdf</button>
+    </div>
+</div>
+
+            <!-- Source interaction buttons -->
+
+<div class="dropdown-buttons-trigger">
+    <button id="dropdown-buttons-trigger" class="btn btn-secondary topbarbtn"
+        aria-label="Connect with source repository"><i class="fab fa-github"></i></button>
+    <div class="dropdown-buttons sourcebuttons">
+        <a class="repository-button"
+            href="https://github.com/ANU-RSES-Education/EMSC-3002"><button type="button" class="btn btn-secondary topbarbtn"
+                data-toggle="tooltip" data-placement="left" title="Source repository"><i
+                    class="fab fa-github"></i>repository</button></a>
+        
+        
+    </div>
+</div>
+
+            <!-- Full screen (wrap in <a> to have style consistency -->
+
+<a class="full-screen-button"><button type="button" class="btn btn-secondary topbarbtn" data-toggle="tooltip"
+        data-placement="bottom" onclick="toggleFullScreen()" aria-label="Fullscreen mode"
+        title="Fullscreen mode"><i
+            class="fas fa-expand"></i></button></a>
+
+            <!-- Launch buttons -->
+
+        </div>
+
+        <!-- Table of contents -->
+        <div class="d-none d-md-block col-md-2 bd-toc show">
+            
+        </div>
+    </div>
+</div>
+    <div id="main-content" class="row">
+        <div class="col-12 col-md-9 pl-md-3 pr-md-0">
+        
+              <div>
+                
+  <div class="section" id="exercises-plate-kinematics">
+<h1>Exercises: Plate Kinematics<a class="headerlink" href="#exercises-plate-kinematics" title="Permalink to this headline">¶</a></h1>
+<p>A basic understanding of plate kinematics is helpful in understanding how systems of plates evolve and
+the boundary conditions they apply to the continental crust. It is also important to appreciate that the
+“rules” of plate boundary evolution are, in fact, emergent from complicated, multiscale systems.</p>
+<p>You will need to read the notes on plate kinematics (section 2 of module 1) and it will help to have read
+John Dewey’s “PLATE TECTONICS.” Scientific American 226, no. 5 (1972): 56–72. <a class="reference external" href="https://doi.org/10.1038/scientificamerican0572-56">10.1038/scientificamerican0572-56</a></p>
+<div class="admonition-rrr-triple-junction-velocities admonition">
+<p class="admonition-title">2.1 RRR triple junction velocities</p>
+<div style="width:50%;float:left;" >
+<p><img alt="" src="../_images/TripleJunctionExerciseFigure1.svg" /></p>
+<p><em>A ridge-ridge-ridge triple junction with half-spreading rates labelled.</em></p>
+</div>
+<p>What is the magnitude in cm/yr of the half-spreading rate between plates A &amp; B in the three-plate system in the diagram ?</p>
+<p>Draw a selection of magnetic stripes on this diagram (in the reference frame of the triple junction to make things simple).</p>
+</div>
+<hr class="docutils" />
+<div class="admonition-rrr-triple-junction-evolution admonition">
+<p class="admonition-title">2.2 RRR triple junction evolution</p>
+<p><img alt="" src="../_images/TripleJunctionExerciseFigure2.svg" /></p>
+<p><em>A ridge-ridge-ridge triple junction with spreading directions / magnitudes shown in scaled arrows.</em></p>
+<p>If we assume that plate A is fixed, which of the 3 configurations below represents the correct movement of the triple junction and three ridges from their original location (shown in black) to their new location a year later (shown in red).</p>
+<ol class="simple">
+<li><p>Configuration 1</p></li>
+<li><p>Configuration 2</p></li>
+<li><p>Configuration 3</p></li>
+</ol>
+</div>
+<hr class="docutils" />
+<div class="admonition-rrr-triple-junction-vectors admonition">
+<p class="admonition-title">2.3 RRR triple junction vectors</p>
+<p>Which combination of relative velocity vectors for the diagram of the ridge-ridge-ridge triple junction below is a possible solution .</p>
+<p><img alt="" src="../_images/TripleJunctionExerciseFigure3.svg" /></p>
+<p>Notes: (1) the diagram is drawn to scale, although you don’t need this information to answer the question !      (2) you should read <span class="math notranslate nohighlight">\(_X V _Y\)</span> as the relative velocity of plate Y with respect to plate X. The units are not important to answer the question but let’s say they are all cm/yr.</p>
+<ol class="simple">
+<li><p><span class="math notranslate nohighlight">\(_A V _B\)</span> = ( 5, 6 ); <span class="math notranslate nohighlight">\(_B V _C\)</span> =  ( 2, 4 ); <span class="math notranslate nohighlight">\(_C V _A\)</span> = ( 3, 2 )</p></li>
+<li><p><span class="math notranslate nohighlight">\(_A V _B\)</span> = ( 5, 0 ); <span class="math notranslate nohighlight">\(_B V _C\)</span> =  ( 1, 2 ); <span class="math notranslate nohighlight">\(_C V _A\)</span> = ( 4,-2 )</p></li>
+<li><p><span class="math notranslate nohighlight">\(_A V _B\)</span> = (-5, 0 ); <span class="math notranslate nohighlight">\(_B V _C\)</span> =  (-1, 2 ); <span class="math notranslate nohighlight">\(_C V _A\)</span> = ( 6,-1 )</p></li>
+<li><p><span class="math notranslate nohighlight">\(_A V _B\)</span> =  (5, 0 ); <span class="math notranslate nohighlight">\(_B V _C\)</span> = ( -1,-2 ); <span class="math notranslate nohighlight">\(_C V _A\)</span> = ( -4, 2)</p></li>
+</ol>
+</div>
+<hr class="docutils" />
+<div class="admonition-locking-plate-boundaries admonition">
+<p class="admonition-title">2.4 Locking plate boundaries</p>
+<div style="width:50%;float:right;" >
+<p><img alt="" src="../_images/TripleJunctionExerciseFigure4.svg" /></p>
+</div>
+<p>Which of the plate boundary configurations in the diagram is not possible under the standard rules of plate tectonics (i.e. it’s locking / cannot evolve forward in time) ?   Explain your reasoning.
+Note. The velocity vectors are not drawn precisely to scale.</p>
+</div>
+<hr class="docutils" />
+<div class="admonition-plate-velocity-closures-and-rollback admonition">
+<p class="admonition-title">2.5 Plate velocity closures and rollback</p>
+<div style="width:50%;float:right;" >
+<p><img alt="" src="../_images/TripleJunctionExerciseFigure5.svg" /></p>
+</div>
+<p>In the diagram on the right …</p>
+<p>Is the plate boundary between plates A and C (dotted) a transform, spreading centre or subduction zone ?</p>
+<p>What is the magnitude of the velocity across this plate boundary ?</p>
+<p>Is the sense of the offset along the left-hand transform branch of the ABC triple junction actually left lateral (as marked) or should it have been drawn as a right lateral transform fault ?</p>
+<p>What is the separation / convergence velocity of the line p-p’ ?</p>
+<p>What is the separation / convergence velocity of the line q-q’ ?</p>
+<p>What is the separation / convergence velocity of the line r-r’ ?</p>
+<p><em>Hint: figure out the plate velocities relative to, say, plate A first of all, and then you can answer these questions relatively easily. Also, remember the spreading rate marked is the half spreading rate</em></p>
+<p>Now sketch some magnetic stripes for this system.</p>
+</div>
+</div>
+
+    <script type="text/x-thebe-config">
+    {
+        requestKernel: true,
+        binderOptions: {
+            repo: "binder-examples/jupyter-stacks-datascience",
+            ref: "master",
+        },
+        codeMirrorConfig: {
+            theme: "abcdef",
+            mode: "python"
+        },
+        kernelOptions: {
+            kernelName: "python3",
+            path: "./Exercises"
+        },
+        predefinedOutput: true
+    }
+    </script>
+    <script>kernelName = 'python3'</script>
+
+              </div>
+              
+        
+        <div class='prev-next-bottom'>
+            
+
+        </div>
+        
+        </div>
+    </div>
+    <footer class="footer mt-5 mt-md-0">
+    <div class="container">
+      <p>
+        
+          By Louis Moresi<br/>
+        
+            &copy; Copyright 2021.<br/>
+      </p>
+    </div>
+  </footer>
+</main>
+
+
+      </div>
+    </div>
+  
+  <script src="../_static/js/index.1c5a1a01449ed65a7b51.js"></script>
+
+  
+  </body>
+</html>
