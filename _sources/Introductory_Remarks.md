@@ -31,7 +31,7 @@ Introduces the concepts of global-scale tectonics, plate motions, the nature of 
 
 ### Module ii - Structures in the Earth
 
-  - [Structures](Lectures/Lecture-Structural-Geology-And-Crustal-Deformation)
+  - [Structures](Lectures/Module-ii-Structural-Geology-And-Crustal-Deformation)
 
 
 This module aims to develop student intuition and proficiency in 3- and 4-dimensional visualization and thinking and teach the fundamentals of rock deformation using natural examples.
