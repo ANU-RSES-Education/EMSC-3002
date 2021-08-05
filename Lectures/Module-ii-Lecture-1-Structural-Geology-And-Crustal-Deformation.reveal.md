@@ -66,7 +66,7 @@ Deformations structures can form almost instantaneously like during earthquakes 
 </div>
 <div style="width:50%; float:right">
 
-![](Module-ii-Figures-Structural-Geology-And-Crustal-Deformation/IGR00.jpg) <!-- .element style="float: right" width="80%" -->
+![](Module-ii-Figures-Structural-Geology-And-Crustal-Deformation/StructuralGeology/IGR00.jpg) <!-- .element style="float: right" width="80%" -->
 
 </div>
 </div>
@@ -90,7 +90,7 @@ Structural geology studies structures at the scale of hundreds of kilometers dow
 </div>
 <div style="width:50%; float:right">
 
-![](Module-ii-Figures-Structural-Geology-And-Crustal-Deformation/StructuralGeologyScales.png) <!-- .element style="float: right" width="100%" -->
+![](Module-ii-Figures-Structural-Geology-And-Crustal-Deformation/StructuralGeology/StructuralGeologyScales.png) <!-- .element style="float: right" width="100%" -->
 
 </div>
 </div>
@@ -110,7 +110,7 @@ Structural geology studies structures at the scale of hundreds of kilometers dow
 </div>
 <div style="width:50%; float:right">
 
-![](Module-ii-Figures-Structural-Geology-And-Crustal-Deformation/RaphaelPumpelly.jpeg) <!-- .element style="float: right" height="100%" -->
+![](Module-ii-Figures-Structural-Geology-And-Crustal-Deformation/StructuralGeology/RaphaelPumpelly.jpeg) <!-- .element style="float: right" height="100%" -->
 
 </div>
 </div>
@@ -149,7 +149,7 @@ the formation of structures and their meaning.
 </div>
 <div style="width:50%; float:right">
 
-![](Module-ii-Figures-Structural-Geology-And-Crustal-Deformation/Structural_Geology.jpg) <!-- .element style="float: right" width="100%" -->
+![](Module-ii-Figures-Structural-Geology-And-Crustal-Deformation/StructuralGeology/Structural_Geology.jpg) <!-- .element style="float: right" width="100%" -->
 
 </div>
 </div>
@@ -171,7 +171,7 @@ the formation of structures and their meaning.
 </div>
 <div style="width:50%; float:right">
 
-![](Module-ii-Figures-Structural-Geology-And-Crustal-Deformation/GeologyMap.png) <!-- .element style="float: right" width="100%" -->
+![](Module-ii-Figures-Structural-Geology-And-Crustal-Deformation/StructuralGeology/GeologyMap.png) <!-- .element style="float: right" width="100%" -->
 
 </div>
 </div>
@@ -193,7 +193,7 @@ the formation of structures and their meaning.
 </div>
 <div style="width:50%; float:right">
 
-![](Module-ii-Figures-Structural-Geology-And-Crustal-Deformation/Lab_experiment.jpg) <!-- .element style="float: right" width="85%" -->
+![](Module-ii-Figures-Structural-Geology-And-Crustal-Deformation/StructuralGeology/Lab_experiment.jpg) <!-- .element style="float: right" width="85%" -->
 
 </div>
 </div>
@@ -214,7 +214,7 @@ the formation of structures and their meaning.
 </div>
 <div style="width:50%; float:right">
 
-![](Module-ii-Figures-Structural-Geology-And-Crustal-Deformation/SandboxCompression.gif) <!-- .element style="float: right" width="100%" -->
+![](Module-ii-Figures-Structural-Geology-And-Crustal-Deformation/StructuralGeology/SandboxCompression.gif) <!-- .element style="float: right" width="100%" -->
 
 *Numerical Sandbox using UWGeodynamics, Romain Beucher*
 
@@ -224,7 +224,7 @@ the formation of structures and their meaning.
 <--o-->
 ### Numerical Modeling
 
-![](Module-ii-Figures-Structural-Geology-And-Crustal-Deformation/SandboxCompression.gif) <!-- .element style="float: right" width="100%" -->
+![](Module-ii-Figures-Structural-Geology-And-Crustal-Deformation/StructuralGeology/SandboxCompression.gif) <!-- .element style="float: right" width="100%" -->
 
 <--o-->
 
@@ -243,7 +243,7 @@ and **incremental strain** (i.e., the small increment of deformation to unravel 
 </div>
 <div style="width:60%; float:right">
 
-![](Module-ii-Figures-Structural-Geology-And-Crustal-Deformation/Fig6_Site_1_Fouillouse.jpg) <!-- .element style="float: right" width="100%" -->
+![](Module-ii-Figures-Structural-Geology-And-Crustal-Deformation/StructuralGeology/Fig6_Site_1_Fouillouse.jpg) <!-- .element style="float: right" width="100%" -->
 
 </div>
 </div>
@@ -262,7 +262,7 @@ This can be used to infer the direction of the maximum and minimum **stress dire
 </div>
 <div style="width:60%; float:right">
 
-![](Module-ii-Figures-Structural-Geology-And-Crustal-Deformation/Fig6_Site_1_Fouillouse.jpg) <!-- .element style="float: right" width="100%" -->
+![](Module-ii-Figures-Structural-Geology-And-Crustal-Deformation/StructuralGeology/Fig6_Site_1_Fouillouse.jpg) <!-- .element style="float: right" width="100%" -->
 
 </div>
 </div>
@@ -288,7 +288,7 @@ Synthesis a broad range of information from other disciplines.
 </div>
 <div style="width:60%; float:right">
 
-![](Module-ii-Figures-Structural-Geology-And-Crustal-Deformation/csm_Brune_etal_2017_Turkana_3Panels_104d6dbbed.jpg) <!-- .element style="float: right" width="100%" -->
+![](Module-ii-Figures-Structural-Geology-And-Crustal-Deformation/StructuralGeology/csm_Brune_etal_2017_Turkana_3Panels_104d6dbbed.jpg) <!-- .element style="float: right" width="100%" -->
 
 source: Brune et al, 2017
 
@@ -297,7 +297,7 @@ source: Brune et al, 2017
 
 <--v-->
 
-![](Module-ii-Figures-Structural-Geology-And-Crustal-Deformation/csm_Brune_etal_2017_Turkana_3Panels_104d6dbbed.jpg) <!-- .element style="float: right" width="50%" -->
+![](Module-ii-Figures-Structural-Geology-And-Crustal-Deformation/StructuralGeology/csm_Brune_etal_2017_Turkana_3Panels_104d6dbbed.jpg) <!-- .element style="float: right" width="50%" -->
 
 *Combining analog "sandbox" experiments with numerical geodynamic modeling we find that inherited rift structures explain the dramatic change in rift style from deep, narrow rift basins north and south of the Turkana area to wide, distributed deformation within the Turkana depression. The failed Cretaceous rift is also responsible for the eastward bend of the Ethiopian rift and the westward bend of the Kenyan rift when entering the Turkana depression, which generated the characteristic hook-shaped form of present-day Lake Turkana.*
 
@@ -308,7 +308,7 @@ Brune, S., Corti, G., and Ranalli, G. Controls of inherited lithospheric heterog
 ### Data Acquisition: Field Geology
 
 
-![](Module-ii-Figures-Structural-Geology-And-Crustal-Deformation/Puzzle.jpeg) <!-- .element style="float: right" width="50%" -->
+![](Module-ii-Figures-Structural-Geology-And-Crustal-Deformation/StructuralGeology/Puzzle.jpeg) <!-- .element style="float: right" width="50%" -->
 
 Reconstructing the 3D architecture requires lots of structural measurements.
 
@@ -324,7 +324,7 @@ They can also determine the **kinematics**, sense of displacement along faults a
 ## Methods of Structural Geology and Tectonics
 ### Data Acquisition: Geophysics
 
-![](Module-ii-Figures-Structural-Geology-And-Crustal-Deformation/Australia_Magnetic_anomaly_TMI-map_lg.jpg) <!-- .element style="float: right" width="50%" -->
+![](Module-ii-Figures-Structural-Geology-And-Crustal-Deformation/StructuralGeology/Australia_Magnetic_anomaly_TMI-map_lg.jpg) <!-- .element style="float: right" width="50%" -->
 
 
 **Geophysics** data such as gravity or magnetic anomalies can reveal information about the
@@ -338,7 +338,7 @@ Spectral images at various wavelengths can be used to map the distribution of mi
 ## Methods of Structural Geology and Tectonics
 ### Data Acquisition: Geophysics
 
-![](Module-ii-Figures-Structural-Geology-And-Crustal-Deformation/Geophysics_Seismic_profile.jpg) <!-- .element style="float: right" width="40%" -->
+![](Module-ii-Figures-Structural-Geology-And-Crustal-Deformation/StructuralGeology/Geophysics_Seismic_profile.jpg) <!-- .element style="float: right" width="40%" -->
 
 Information about structures at depth can be gathered *directly* via **drilling** and *indirectly* via geophysical
 method such as gravimetry annd seismic surveys.
@@ -350,7 +350,7 @@ Passive seimic uses earthquakes to image the structures and interfaces at depth 
 
 <--v-->
 
-![](Module-ii-Figures-Structural-Geology-And-Crustal-Deformation/Geophysics_Seismic_profile.jpg) <!-- .element style="float: right" width="100%" -->
+![](Module-ii-Figures-Structural-Geology-And-Crustal-Deformation/StructuralGeology/Geophysics_Seismic_profile.jpg) <!-- .element style="float: right" width="100%" -->
 
 Faults and graben structure, offshore Tunisia (Riv Butler, Seismic Atlas https://see-atlas.leeds.ac.uk/)
 
@@ -371,7 +371,7 @@ Structural data and analysis are summarized in various documents:
 </div>
 <div style="width:50%; float:right">
 
-![](Module-ii-Figures-Structural-Geology-And-Crustal-Deformation/Geological-map-of-France.png) <!-- .element style="float: right" width="90%" -->
+![](Module-ii-Figures-Structural-Geology-And-Crustal-Deformation/StructuralGeology/Geological-map-of-France.png) <!-- .element style="float: right" width="90%" -->
 
 </div>
 </div>
@@ -390,7 +390,7 @@ Structural data and analysis are summarized in various documents:
 </div>
 <div style="width:50%; float:right">
 
-![](Module-ii-Figures-Structural-Geology-And-Crustal-Deformation/Structural_Geologist.jpg) <!-- .element style="float: right" width="100%" -->
+![](Module-ii-Figures-Structural-Geology-And-Crustal-Deformation/StructuralGeology/Structural_Geologist.jpg) <!-- .element style="float: right" width="100%" -->
 
 </div>
 </div>
@@ -451,7 +451,7 @@ The Himalayas is an example of a geological feature formed by the collision of t
 </div>
 <div style="width:50%; float:right">
 
-![](Module-ii-Figures-Structural-Geology-And-Crustal-Deformation/1920px-Mount_Everest_as_seen_from_Drukair2_PLW_edit.jpg)<!-- .element style="float: right" width="90%" -->
+![](Module-ii-Figures-Structural-Geology-And-Crustal-Deformation/StructuralGeology/1920px-Mount_Everest_as_seen_from_Drukair2_PLW_edit.jpg)<!-- .element style="float: right" width="90%" -->
 
 </div>
 </div>
@@ -474,7 +474,7 @@ When divergent boundaries occur in continental plates, a different geological fe
 </div>
 <div style="width:50%; float:right">
 
-![](Module-ii-Figures-Structural-Geology-And-Crustal-Deformation/East-African-Rift.jpg) <!-- .element style="float: right" width="90%" -->
+![](Module-ii-Figures-Structural-Geology-And-Crustal-Deformation/StructuralGeology/East-African-Rift.jpg) <!-- .element style="float: right" width="90%" -->
 
 </div>
 </div>
@@ -485,7 +485,7 @@ When divergent boundaries occur in continental plates, a different geological fe
 ## Plate Boundaries and Morphology of the landscape
 ### Transform boundaries
 
-![](Module-ii-Figures-Structural-Geology-And-Crustal-Deformation/SanAndreas.jpg) <!-- .element style="width:30%;float:right; margin-left:50px;" -->
+![](Module-ii-Figures-Structural-Geology-And-Crustal-Deformation/StructuralGeology/SanAndreas.jpg) <!-- .element style="width:30%;float:right; margin-left:50px;" -->
 
 **Transform boundaries** are places where plates slip horizontally past one another. At transform boundaries lithosphere is neither created nor destroyed. Many transform boundaries are found on the sea floor, where they connect segments of diverging mid-ocean ridges.
 
