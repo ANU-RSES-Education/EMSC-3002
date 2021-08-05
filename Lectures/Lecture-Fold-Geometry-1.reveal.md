@@ -192,14 +192,42 @@ axis that plunges in either direction.
 </div>
 
 <--o-->
+## Basic Fold shapes
+
+<div>
+
+<div style="width:50%; float:left">
+
+![Fold Shapes](Figures-Fold-Geometry-1/figures/SynformAntiform.svg) <!-- .element style="float: right" height="95%" -->
+
+</div>
+
+<div style="width:50%; float:right">
+
+
+![Fold Shapes](Figures-Fold-Geometry-1/figures/SynclineAnticline.svg) <!-- .element style="float: right" height="95%" -->
+
+
+</div>
+</div>
+
+<--o-->
 ## Anticline
 
 ![Anticline](Figures-Fold-Geometry-1/figures/Anticline.jpg) <!-- .element style="float: right" width="95%" -->
 
 <--o-->
+
+<!-- .slide: data-background="Figures-Fold-Geometry-1/photos/Anticline.jpg" -->
+
+<--o-->
 ## Syncline
 
 ![Syncline](Figures-Fold-Geometry-1/figures/Syncline.jpg) <!-- .element style="float: right" width="95%" -->
+
+<--o-->
+
+<!-- .slide: data-background="Figures-Fold-Geometry-1/photos/syncline-oklaoma_university.jpg" -->
 
 <--o-->
 ## Dome
@@ -216,12 +244,148 @@ axis that plunges in either direction.
 ![Basin](Figures-Fold-Geometry-1/figures/Basin.jpg) <!-- .element style="float: right" width="95%" -->
 
 <--o-->
+## Fold shape and stratigraphy
+
+
+![Refolded Fold](Figures-Fold-Geometry-1/figures/Refolded_fold.svg) <!-- .element style="float: right" width="95%" -->
+
+
+<--o-->
+## Classification of folds
+
+
+![Parallel vs similar](Figures-Fold-Geometry-1/figures/Parallel_vs_Similar_Folds.svg) <!-- .element style="float: right" width="95%" -->
+
+
+<--o-->
+
+## Fold Styles
+
+<div>
+
+<div style="width:45%; float:left">
+
+A spectrum of hinge shapes exists, from the pointed hinges of kink-bands and
+chevron folds to the rounded hinges of concentric folds.
+
+Classification according to the hinge curvature is referred to as bluntness.
+</div>
+
+<div style="width:55%; float:right">
+
+![Fold](Figures-Fold-Geometry-1/figures/Fold_types.svg) <!-- .element style="float: right" height="95%" -->
+
+</div>
+</div>
+
+<--o-->
+
+## Fold styles
+### Kink Folds
+
+<div>
+
+<div style="width:50%; float:left">
+
+![Kink Folds](Figures-Fold-Geometry-1/figures/KinkFolds.svg)  <!-- .element style="float: left" width="95%" -->
+
+</div>
+<div style="width:50%; float:right">
+
+![Kink Folds](Figures-Fold-Geometry-1/photos/kink_folds_pyrenees_jordi_carreras.jpg)  <!-- .element style="float: left" width="95%" -->
+
+
+</div>
+</div>
+
+<--o-->
+
+## Fold styles
+### Concentric Folds
+
+<div>
+
+<div style="width:50%; float:left">
+
+![Concentric Folds](Figures-Fold-Geometry-1/figures/cylindricalFolds.svg)
+
+</div>
+
+<div style="width:50%; float:right">
+
+![Concentric Folds](Figures-Fold-Geometry-1/photos/ConcentricFolds.jpeg)  <!-- .element style="float: right" width="95%" -->
+*Core of concentric anticline. Keele River, McKenzie Mountains, Northwest Territories, Canada. [64.170859,-125.598908]*
+
+</div>
+</div>
+
+<--o-->
+
+
+## Fold styles
+### Chevrons Folds
+
+<div>
+
+<div style="width:50%; float:left">
+
+![Chevron Folds](Figures-Fold-Geometry-1/figures/chevronFolds.svg)
+
+</div>
+
+<div style="width:50%; float:right">
+
+![Chevron Folds](Figures-Fold-Geometry-1/photos/Chevron_folds.jpg)  <!-- .element style="float: right" width="95%" -->
+
+
+</div>
+</div>
+
+*Chevron folds with flat-lying axial planes, Millook Haven, North Cornwall, UK* source: ![GeologyIn.com](https://www.geologyin.com/2015/02/types-of-folds-with-photos.html)
+
+<--o-->
+
+## Fold styles
+### Box Folds
+
+<div>
+
+<div style="width:50%; float:left">
+
+![Box Folds](Figures-Fold-Geometry-1/figures/boxFolds.svg)
+
+</div>
+
+<div style="width:50%; float:right">
+
+![Box Folds](Figures-Fold-Geometry-1/photos/boxFolds_calico_mountains_Barstow_California.jpg)  <!-- .element style="float: right" width="95%" -->
+
+
+</div>
+</div>
+
+<--o-->
 
 
 
 ## Fold styles
+### Ptygmatic Folds
 
-![Fold](Figures-Fold-Geometry-1/figures/Fold_types.svg)
+<div>
+
+<div style="width:50%; float:left">
+
+![Ptygmatic Folds](Figures-Fold-Geometry-1/figures/ptygmaticFolds.svg)
+
+</div>
+
+<div style="width:50%; float:right">
+
+![Ptygmatic Folds](Figures-Fold-Geometry-1/photos/Ptygmatic_folds.jpg)  <!-- .element style="float: right" width="95%" -->
+
+
+</div>
+</div>
 
 <--o-->
 
@@ -246,7 +410,35 @@ axis that plunges in either direction.
 
 ## Fold Attitude
 
-![Fold](Figures-Fold-Geometry-1/figures/Fold_Attitude.svg) <!-- .element style="float: center" width="95%" -->
+![Fold](Figures-Fold-Geometry-1/figures/PlungeUprightRecumbent.svg) <!-- .element style="float: center" height="95%" -->
+
+<--o-->
+
+## Fold Attitude
+
+<div>
+
+<div style="width:40%; float:left">
+
+- Horizontal folds have horizontal fold axis.
+- Vertical folds have vertical fold axis.
+- Plunging folds have plunging fold axis.
+- Reclined folds have a plunging fold axis AND younging pointing downward.
+
+</div>
+
+<div style="width:60%; float:right">
+
+![Fold](Figures-Fold-Geometry-1/figures/PlungeUprightRecumbent.svg) <!-- .element style="float: right" width="95%" -->
+
+</div>
+</div>
+
+<--o-->
+
+## Fold Attitude
+
+![Fold](Figures-Fold-Geometry-1/figures/Fold_Attitude.svg) <!-- .element style="float: center" height="95%" -->
 
 <--o-->
 
@@ -263,26 +455,7 @@ axis that plunges in either direction.
 
 ![Fold](Figures-Fold-Geometry-1/photos/Caledonian_orogeny_fold_in_King_Oscar_Fjord.jpg)  <!-- .element style="float: center" width="100%" -->
 
-<--o-->
 
-## Fold Types
-
-<div>
-
-<div style="width:45%; float:left">
-
-A spectrum of hinge shapes exists, from the pointed hinges of kink-bands and
-chevron folds to the rounded hinges of concentric folds.
-
-Classification according to the hinge curvature is referred to as bluntness.
-</div>
-
-<div style="width:55%; float:right">
-
-![Fold](Figures-Fold-Geometry-1/figures/Fold_types.svg) <!-- .element style="float: right" width="95%" -->
-
-</div>
-</div>
 
 <--o-->
 
