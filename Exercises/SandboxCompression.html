@@ -5,7 +5,7 @@
   <head>
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Brittle Deformation &#8212; EMSC 3002</title>
+    <title>Exercises: Build your own Mountain belt &#8212; EMSC 3002</title>
     
   <link href="../_static/css/theme.css" rel="stylesheet" />
   <link href="../_static/css/index.c5995385ac14fb8791e8eb36b4908be2.css" rel="stylesheet" />
@@ -52,8 +52,6 @@
     <script async="async" src="../_static/sphinx-thebe.js"></script>
     <link rel="index" title="Index" href="../genindex.html" />
     <link rel="search" title="Search" href="../search.html" />
-    <link rel="next" title="Fold Geometry 1" href="Lecture-Fold-Geometry-1.html" />
-    <link rel="prev" title="Theoretical Underpinnings" href="Module-iii-Theory.html" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
     <meta name="docsearch:language" content="en" />
     
@@ -117,34 +115,34 @@
   Lecture Notes
  </span>
 </p>
-<ul class="current nav bd-sidenav">
+<ul class="nav bd-sidenav">
  <li class="toctree-l1">
-  <a class="reference internal" href="Lecture-1-Introduction.html">
+  <a class="reference internal" href="../Lectures/Lecture-1-Introduction.html">
    Introduction to EMSC 3002
   </a>
  </li>
  <li class="toctree-l1">
-  <a class="reference internal" href="Module-i-GlobalTectonics.html">
+  <a class="reference internal" href="../Lectures/Module-i-GlobalTectonics.html">
    Module 1 - Global Tectonics
   </a>
  </li>
  <li class="toctree-l1">
-  <a class="reference internal" href="Module-ii-Structural-Geology-And-Crustal-Deformation.html">
+  <a class="reference internal" href="../Lectures/Module-ii-Structural-Geology-And-Crustal-Deformation.html">
    Structures in the Earth
   </a>
  </li>
  <li class="toctree-l1">
-  <a class="reference internal" href="Module-iii-Theory.html">
+  <a class="reference internal" href="../Lectures/Module-iii-Theory.html">
    Module 3 - Theory
   </a>
  </li>
- <li class="toctree-l1 current active">
-  <a class="current reference internal" href="#">
+ <li class="toctree-l1">
+  <a class="reference internal" href="../Lectures/Module-iv-BrittleDeformation.html">
    Module 4 - Brittle Deformation
   </a>
  </li>
  <li class="toctree-l1 has-children">
-  <a class="reference internal" href="Lecture-Fold-Geometry-1.html">
+  <a class="reference internal" href="../Lectures/Lecture-Fold-Geometry-1.html">
    Module 5 - Ductile Deformation
   </a>
   <input class="toctree-checkbox" id="toctree-checkbox-1" name="toctree-checkbox-1" type="checkbox"/>
@@ -154,17 +152,17 @@
   </label>
   <ul>
    <li class="toctree-l2">
-    <a class="reference internal" href="Lecture-Folds-and-Folding-Mechanisms.html">
+    <a class="reference internal" href="../Lectures/Lecture-Folds-and-Folding-Mechanisms.html">
      Folds and Folding Mechanisms
     </a>
    </li>
    <li class="toctree-l2">
-    <a class="reference internal" href="Lecture-Structures-Associated-with-Folding.html">
+    <a class="reference internal" href="../Lectures/Lecture-Structures-Associated-with-Folding.html">
      Structures associated with folding 1
     </a>
    </li>
    <li class="toctree-l2">
-    <a class="reference internal" href="Lecture-Shear_zones.html">
+    <a class="reference internal" href="../Lectures/Lecture-Shear_zones.html">
      Shear Zones
     </a>
    </li>
@@ -235,7 +233,7 @@
         <!-- ipynb file if we had a myst markdown file -->
         
         <!-- Download raw file -->
-        <a class="dropdown-buttons" href="../_sources/Lectures/Module-iv-BrittleDeformation.md"><button type="button"
+        <a class="dropdown-buttons" href="../_sources/Exercises/SandboxCompression.md"><button type="button"
                 class="btn btn-secondary topbarbtn" title="Download source file" data-toggle="tooltip"
                 data-placement="left">.md</button></a>
         <!-- Download PDF via print -->
@@ -279,33 +277,33 @@
             <nav id="bd-toc-nav">
                 <ul class="visible nav section-nav flex-column">
  <li class="toc-h2 nav-item toc-entry">
-  <a class="reference internal nav-link" href="#lecture-1">
-   Lecture 1
+  <a class="reference internal nav-link" href="#analogue-sandbox-in-compression">
+   Analogue Sandbox in Compression.
   </a>
  </li>
  <li class="toc-h2 nav-item toc-entry">
-  <a class="reference internal nav-link" href="#lecture-2">
-   Lecture 2
+  <a class="reference internal nav-link" href="#introduction">
+   Introduction
   </a>
  </li>
  <li class="toc-h2 nav-item toc-entry">
-  <a class="reference internal nav-link" href="#lecture-3">
-   Lecture 3
+  <a class="reference internal nav-link" href="#learning-outcomes">
+   Learning outcomes
   </a>
  </li>
  <li class="toc-h2 nav-item toc-entry">
-  <a class="reference internal nav-link" href="#lecture-4">
-   Lecture 4
+  <a class="reference internal nav-link" href="#generic-skills">
+   Generic Skills
   </a>
  </li>
  <li class="toc-h2 nav-item toc-entry">
-  <a class="reference internal nav-link" href="#links">
-   Links
+  <a class="reference internal nav-link" href="#points-to-consider">
+   Points to consider
   </a>
  </li>
  <li class="toc-h2 nav-item toc-entry">
-  <a class="reference internal nav-link" href="#background-reading">
-   Background Reading
+  <a class="reference internal nav-link" href="#exercise">
+   Exercise
   </a>
  </li>
 </ul>
@@ -319,35 +317,138 @@
         
               <div>
                 
-  <div class="section" id="brittle-deformation">
-<h1>Brittle Deformation<a class="headerlink" href="#brittle-deformation" title="Permalink to this headline">¶</a></h1>
-<p>When rocks undergo rapid, localised deformation, refer to the process as “brittle deformation”. Typically brittle features in the Earth’s crust are faults and we can understand much about the stress and deformation if we understand faults, their rupture and associated seismic energy release.</p>
-<div class="section" id="lecture-1">
-<h2>Lecture 1<a class="headerlink" href="#lecture-1" title="Permalink to this headline">¶</a></h2>
-<iframe src="../slideshows/Module-iv-lecture1-Brittle-deformation.reveal.html" title="Slideshow" width=100%, height=470, allowfullscreen></iframe>
+  <div class="section" id="exercises-build-your-own-mountain-belt">
+<h1>Exercises: Build your own Mountain belt<a class="headerlink" href="#exercises-build-your-own-mountain-belt" title="Permalink to this headline">¶</a></h1>
+<div class="section" id="analogue-sandbox-in-compression">
+<h2>Analogue Sandbox in Compression.<a class="headerlink" href="#analogue-sandbox-in-compression" title="Permalink to this headline">¶</a></h2>
+<p>The following exercice is based on Sandra McLaren teaching at The University of Melbourne.</p>
 </div>
-<div class="section" id="lecture-2">
-<h2>Lecture 2<a class="headerlink" href="#lecture-2" title="Permalink to this headline">¶</a></h2>
-<iframe src="../slideshows/Module-iv-lecture2-Brittle-deformation.reveal.html" title="Slideshow" width=100%, height=470, allowfullscreen></iframe>
+<div class="section" id="introduction">
+<h2>Introduction<a class="headerlink" href="#introduction" title="Permalink to this headline">¶</a></h2>
+<p>Physical modeling of folding and faulting have been performed since the early days of Structural Geology.
+The traditional way of performing analogue experiments is by filling a box with materials such as clay, sand, plaster, silicone putty, honey etc. and
+to apply extension or contraction at the boundaries. Ideally the model geometry and physical properties of the material should be scaled proportionally.
+The kinematics of the model should also be similar to the natural example, with comparable rates of deformation and mechanical properties.</p>
+<p>It practice, it is impossible to scale all the parameters appropriately and some sort of compromises must be found.</p>
+<p><strong>For a small physical model to realistically reproduce a natural example, we need to scale down the geometries and properties of the materials as best as we can.</strong></p>
+<p>Analogue experiments remain extremely useful to understand the processes and their interaction. They allow us to develop our understanding of tectonic deformation mechanism and style observed in
+natural systems.</p>
+<p>In this practical we will run our own analogue modelling experiment to explore the controls on the structure and development of fold and thrust belts (the foreland of orogenic systems)</p>
+<div>
+<div style="width:45%;float:left;" >
+<p><img alt="" src="../_images/Sandbox1.jpg" /></p>
 </div>
-<div class="section" id="lecture-3">
-<h2>Lecture 3<a class="headerlink" href="#lecture-3" title="Permalink to this headline">¶</a></h2>
-<iframe src="../slideshows/Module-iv-lecture3-Brittle-deformation.reveal.html" title="Slideshow" width=100%, height=470, allowfullscreen></iframe>
+<div style="width:45%;float:right;" >
+<p><img alt="" src="../_images/Sandbox2.jpg" /></p>
 </div>
-<div class="section" id="lecture-4">
-<h2>Lecture 4<a class="headerlink" href="#lecture-4" title="Permalink to this headline">¶</a></h2>
-<iframe src="../slideshows/Module-iv-lecture4-Brittle-deformation.reveal.html" title="Slideshow" width=100%, height=470, allowfullscreen></iframe>
 </div>
-<div class="section" id="links">
-<h2>Links<a class="headerlink" href="#links" title="Permalink to this headline">¶</a></h2>
+</div>
+<div class="section" id="learning-outcomes">
+<h2>Learning outcomes<a class="headerlink" href="#learning-outcomes" title="Permalink to this headline">¶</a></h2>
+<p>At the completion of this practical you should:</p>
 <ul class="simple">
-<li><p>Wattle courses</p></li>
-<li><p>Programmes and courses</p></li>
-<li><p>Other …</p></li>
+<li><p>Have developed skills in the design and management of experiments, including formulating hypotheses</p></li>
+<li><p>Be able to document experimental methods and results in a laboratory report</p></li>
+<li><p>Understand the major controls on fold and thrust belt evolution</p></li>
+<li><p>Understand the geometry of structures formed in fold and thrust belts</p></li>
 </ul>
 </div>
-<div class="section" id="background-reading">
-<h2>Background Reading<a class="headerlink" href="#background-reading" title="Permalink to this headline">¶</a></h2>
+<div class="section" id="generic-skills">
+<h2>Generic Skills<a class="headerlink" href="#generic-skills" title="Permalink to this headline">¶</a></h2>
+<p>This practical exercise will help you develop skills in:</p>
+<ul class="simple">
+<li><p>Effective communication including written report writing</p></li>
+<li><p>Critical thinking and the conceptualization of complex and abstract ideas</p></li>
+<li><p>Problem-solving in new and unfamiliar tasks</p></li>
+<li><p>Effective collaboration team-work</p></li>
+</ul>
+<p>Only one sandbox is available so you will have to work as a team and make sure that everyone has an understanding of the different steps involved.
+The sandbox is a plexiglass-sided box with a motor-driven indenter at one end. Our experiment involves driving the indenter into the premade layers and observing and
+documenting how the layers of sand deform. As noted above, the experiment simulates the style of tectonic deformation we might observe in orogenic systems.</p>
+<p>You will need:</p>
+<ul class="simple">
+<li><p>Rulers: metre rules provided and smaller rulers also required</p></li>
+<li><p>Protractor</p></li>
+<li><p>Plain paper for sketching</p></li>
+<li><p>Your phone for taking photos or recording video: A webcam on a tripod will be provided.</p></li>
+</ul>
+</div>
+<div class="section" id="points-to-consider">
+<h2>Points to consider<a class="headerlink" href="#points-to-consider" title="Permalink to this headline">¶</a></h2>
+<ul class="simple">
+<li><p>As you advance the indenter, does the sand shorten and thicken uniformly or is the
+deformation localised (partitioned) along discrete planes?</p></li>
+<li><p>How much deformation is required before the first fault forms? What is the dip of
+that fault?</p></li>
+<li><p>Where do the new faults develop?</p></li>
+<li><p>Do the fault angles change during the experiment? If so, do they get steeper or
+shallower?</p></li>
+<li><p>Observe and describe the surface of the model as the deformation proceeds. Is it
+smooth or lumpy? If there are surface features, can you explain them in terms of the
+deformation observed in cross-section? What else happens to modify the surface?</p></li>
+<li><p>How does the width of the deformed zone change with time? How is the deformation
+partitioned at any particular time?</p></li>
+<li><p>Calculate the overall shortening for the experiment</p></li>
+<li><p>Plot the number of faults vs the indenter displacement</p></li>
+<li><p>What areas of the model are likely to be affected by ongoing deformation? Consider
+this for a land-use scenario, mitigating natural hazards from earthquakes in active
+fold and thrust belts</p></li>
+<li><p>How do you think the ongoing deformation might change the geomorphology of the
+region?</p></li>
+<li><p>How well did the results match up with your predictions about (1) the factors that
+control the deformation and (2) the geometry of the structures that developed.</p></li>
+</ul>
+</div>
+<div class="section" id="exercise">
+<h2>Exercise<a class="headerlink" href="#exercise" title="Permalink to this headline">¶</a></h2>
+<ol class="simple">
+<li><p>Formulate hypotheses about the factors that may control deformation within your
+sandbox. Use your theoretical knowledge of crustal deformation to inform your
+answers.</p></li>
+<li><p>Note the composition of the layers in your sandbox</p></li>
+<li><p>Make predictions about the geometry of the structures you might expect to observe.
+You might want to provide sketches and also consider how the geometry might
+change with time. Remember to indicate the position of the indenter and its sense of
+movement.</p></li>
+<li><p>Measure and record the pre-deformational dimensions of the material within the
+sandbox. Use the ruler provided on the base of the box to provide a reference
+throughout your experiment.</p></li>
+<li><p>Begin the deformation experiment! Note that you will need to carefully control the
+speed of the indenter. Work slowly to begin with to see how the motor responds, it
+can be a bit touchy, it might seem to be going really slow, but then a small change
+makes it go really quite fast!</p></li>
+<li><p>Observe carefully the changes in the model as your experiment proceeds. You might
+want to time the experiment. You can stop and start the indenter at any time. This is
+useful for pausing the experiment to make measurements or sketches at key stages.</p></li>
+<li><p>At key intervals sketch the geometry of the model and make observations, such as
+those listed in the table below. You may also want to record other details, such as the
+orientation of fold axial surfaces – you can measure these accurately with a
+protractor.</p></li>
+<li><p>Photograph your model at key intervals. Your group should also piece these photos
+together to make a video of your experiment; timelapse on your phone works well</p></li>
+<li><p>Do not overcontract your sandbox. The motor should automatically stop when you
+reach the maximum contraction but please observe closely just in case.</p></li>
+</ol>
+<table class="colwidths-auto table">
+<thead>
+<tr class="row-odd"><th class="head"><p>Displacement of indenter (cm)</p></th>
+<th class="head"><p>Length of model (cm)</p></th>
+<th class="head"><p>Maximum wedge thickness (cm)</p></th>
+<th class="head"><p># of faults</p></th>
+<th class="head"><p># of folds</p></th>
+<th class="head"><p>Dip of faults</p></th>
+</tr>
+</thead>
+<tbody>
+<tr class="row-even"><td><p></p></td>
+<td><p></p></td>
+<td><p></p></td>
+<td><p></p></td>
+<td><p></p></td>
+<td><p></p></td>
+</tr>
+</tbody>
+</table>
 </div>
 </div>
 
@@ -364,7 +465,7 @@
         },
         kernelOptions: {
             kernelName: "python3",
-            path: "./Lectures"
+            path: "./Exercises"
         },
         predefinedOutput: true
     }
@@ -376,8 +477,6 @@
         
         <div class='prev-next-bottom'>
             
-    <a class='left-prev' id="prev-link" href="Module-iii-Theory.html" title="previous page">Theoretical Underpinnings</a>
-    <a class='right-next' id="next-link" href="Lecture-Fold-Geometry-1.html" title="next page">Fold Geometry 1</a>
 
         </div>
         
