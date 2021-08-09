@@ -23,3 +23,9 @@ John Dewey's “PLATE TECTONICS.” Scientific American 226, no. 5 (1972): 56–
 [Exercise 2 Worksheet](Exercises/PlateKinematics)
 
 </div>
+
+## Exercise 3, Sandbox Compression
+
+Build your own mountain! We will be using a sandbox to build and run an analogue model and look at the deformation of a layered sequence of material.
+
+[Exercise 3 Worksheet](Exercises/SandboxCompression)
