@@ -3,7 +3,7 @@ title: Contractional regimes
 separator: '<--o-->'
 verticalSeparator: '<--v-->'
 revealOptions:
-    transition: 'fade'
+    #transition: 'fade'
     slideNumber: true
     width:  1200
     height: 800
@@ -30,9 +30,13 @@ corrections._
 
 ## Resources
 
-1.
-2.
-3.
+1. **Fossen, H, 2011.** *Structural Geology.* Cambridge University Press, 2nd Edition.
+1. **McClay, K.R. 1991.** *The Mapping of Geological Structures.* John Wiley & Sons.
+1. **Park, R.G., 1995.** *Foundations of Structural Geology.* Blackie & Sons Ltd.
+1. **Davis, G.H. and Reynolds, S.J., 1996.** *Structural Geology of Rocks and Regions.* 2nd Edition, John Wiley & Sons.
+<!-- 1. **Hatcher, R.D., 1990.** *Structural Geology - Principles, Concepts, and Problems*, 2nd Edition, Prentice-Hall -->
+<!-- 1. **Ramsay, J.G. and Huber, M.I. 1983.** *Modern Structural Geology. Volume 1: Strain Analysis.* Academic Press. -->
+<!-- 1. **Ramsay, J.G. and Huber, M.I. 1987.** *Modern Structural Geology. Volume 2: Folds and Fractures.* Academic Press. -->
 
 <--o-->
 
