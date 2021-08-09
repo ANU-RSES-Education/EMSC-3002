@@ -504,5 +504,3 @@ Deformation structures depends on the material, its texture and structure.
 
 Different materials, such as sandstones, limestones, granites respond differently to deformation and produce
 different structures.
-
-
