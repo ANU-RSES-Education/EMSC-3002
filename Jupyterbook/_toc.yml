@@ -15,7 +15,7 @@ parts:
   - file: Lectures/Lecture-1-Introduction
   - file: Lectures/Module-i-GlobalTectonics.md
     title: "Module 1 - Global Tectonics"
-  - file: Lectures/Module-ii-Structural-Geology-And-Crustal-Deformation
+  - file: Lectures/Module-ii-Structural-Geology-And-Crustal-Deformation.md
     title: "Module 2 - Structures in the Earth"
   - file: Lectures/Module-iii-Theory.md
     title: "Module 3 - Theory"
