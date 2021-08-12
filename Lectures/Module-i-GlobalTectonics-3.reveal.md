@@ -464,7 +464,7 @@ The one dimensional elastic response to stress is the classical Hooke's law for 
 In general, 
 
 $$
-\sigma_{ij} = \color{Blue}{2\mu D_{ij}} + \color{Red}{\lambda \delta_{ij} D_{kk}}
+\sigma_{ij} = \color{Blue}{2\mu \varepsilon_{ij}} + \color{Red}{\lambda \delta_{ij} \varepsilon_{kk}}
 $$
 
 where the term in Red term is the volumetric strain but the term in Blue is not purely deviatoric because it still contains the diagonal terms. 
