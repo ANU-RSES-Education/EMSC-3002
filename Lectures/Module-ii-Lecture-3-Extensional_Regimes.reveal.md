@@ -184,62 +184,344 @@ Some Definitions:
 ## Normal Fault systems
 ### Accommodating Extension: How do we avoid gaps?
 
-![](Module-ii-Figures-Structural-Geology-And-Crustal-Deformation/ExtensionalStructures/ExtensionAccommodation1.png) <!-- .element style="width:50%;float:right; margin-left:50px;" -->
+![](Module-ii-Figures-Structural-Geology-And-Crustal-Deformation/ExtensionalStructures/ExtensionAccommodation1.png) <!-- .element style="width:70%; display:block; margin-left:auto; margin-right:auto" -->
+
 
 <--o-->
 ## Normal Fault systems
 ### Accommodating Extension: How do we avoid gaps?Normal Fault systems
+
+<div>
+<div style="width:50%; float:left; position:absolute; top:50%; transform: translate(0, -50%)">
 
 - Rollover fold
 - Antithetic faults in hanging wall
 
-![](Module-ii-Figures-Structural-Geology-And-Crustal-Deformation/ExtensionalStructures/ExtensionAccommodation2.png) <!-- .element style="width:50%;float:right; margin-left:50px;" -->
+</div>
+<div style="width:50%; float:right">
+
+![](Module-ii-Figures-Structural-Geology-And-Crustal-Deformation/ExtensionalStructures/ExtensionAccommodation2.png) <!-- .element style="width:90%" -->
+
+</div>
+</div>
 
 <--o-->
 ## Normal Fault systems
 ### Accommodating Extension: How do we avoid gaps?Normal Fault systems
 
+<div>
+<div style="width:50%; float:left; position:absolute; top:50%; transform: translate(0, -50%)">
+
 - Synthetic faults in hanging wall
 
-![](Module-ii-Figures-Structural-Geology-And-Crustal-Deformation/ExtensionalStructures/ExtensionAccommodation3.png) <!-- .element style="width:50%;float:right; margin-left:50px;" -->
+</div>
+<div style="width:50%; float:right">
+
+![](Module-ii-Figures-Structural-Geology-And-Crustal-Deformation/ExtensionalStructures/ExtensionAccommodation3.png) <!-- .element style="width:90%" -->
+
+</div>
+</div>
 
 <--o-->
 ## Normal Fault systems
 ### Accommodating Extension: How do we avoid gaps?ormal Fault systems
 
+<div>
+<div style="width:50%; float:left; position:absolute; top:50%; transform: translate(0, -50%)">
+
 - Rollover fold with synthetic faults
 
-![](Module-ii-Figures-Structural-Geology-And-Crustal-Deformation/ExtensionalStructures/ExtensionAccommodation4.jpg) <!-- .element style="width:50%;float:right; margin-left:50px;" -->
+</div>
+<div style="width:50%; float:right">
 
+![](Module-ii-Figures-Structural-Geology-And-Crustal-Deformation/ExtensionalStructures/ExtensionAccommodation4.jpg)  <!-- .element style="width:90%" -->
+
+</div>
+</div>
 
 <--o-->
 ## Normal Fault systems
 
-![](Module-ii-Figures-Structural-Geology-And-Crustal-Deformation/ExtensionalStructures/Extensional_Duplex.svg) <!-- .element style="width:50%;float:right; margin-left:50px;" -->
+
+<div>
+<div style="width:50%; float:left; position:absolute; top:50%; transform: translate(0, -50%)">
 
 - **Imbrication fan**: a series of wedge-shaped faults or fault blocks developed above a ramp-flat-ramp fault, where the faults either die out upward or reach the surface.
 - **Extensional duplex**: a series of lenses (horses), arranged in a piggy-back fashion, bounded by an upper (roof) fault and a lower (sole or floor) fault.
 
+</div>
+<div style="width:50%; float:right">
+
+![](Module-ii-Figures-Structural-Geology-And-Crustal-Deformation/ExtensionalStructures/Extensional_Duplex.svg) <!-- .element style="width:100%" -->
+
+</div>
+<div style="width:50%; float:right">
 
 <--o-->
 ## Normal Fault systems
 
-![](Module-ii-Figures-Structural-Geology-And-Crustal-Deformation/ExtensionalStructures/SimplePureRift.jpg) <!-- .element style="width:50%;float:right; margin-left:50px;" -->
+<div>
+<div style="width:50%; float:left; position:absolute; top:50%; transform: translate(0, -50%)">
+
 
 - **Pure shear**: involves symmetrical stretching of the lithosphere in the horizontal direction and thinning in the vertical direction
 - **Simple shear**: involves asymmetric thinning of the lithosphere by a throughgoing shear zone in the lower crust and mantle-lithosphere, and by brittle faulting in the upper crust
+
+</div>
+<div style="width:50%; float:right">
+
+![](Module-ii-Figures-Structural-Geology-And-Crustal-Deformation/ExtensionalStructures/SimplePureRift.jpg) <!-- .element style="width:100%" -->
+
+</div>
+</div>
+
 
 <--o-->
 ## Normal Fault systems
 ### Metamorphic core complex 
 
-![](Module-ii-Figures-Structural-Geology-And-Crustal-Deformation/ExtensionalStructures/CoreComplex.jpg) <!-- .element style="width:50%;float:right; margin-left:50px;" -->
+![](Module-ii-Figures-Structural-Geology-And-Crustal-Deformation/ExtensionalStructures/CoreComplex.jpg)  <!-- .element style="width:50%; float:right" -->
 
 Special simple shear case, common in extended areas
 During deformation the upper crust is thinned and Moho exhumed aided by erosion of the upper plate...
 
+
 <--o-->
 
+
+## Extensional Settings
+### Rift basins
+
+<div>
+<div style="width:50%; float:left; position:absolute; top:50%; transform: translate(0, -50%)">
+
+
+- Active Rifting: Rift is generated by rising hot mantle plume in the asthenosphere.
+- Passive Rifting: Rift formed because of far-field stresses and tend to localise in region of weakenesses.
+
+*3 stages in Rifting: a) Early extension, creation or reactivation of fractures. Low-strain; b: Streching phase, faults developped; c) postrift: subsidence and sedimentation. Compaction.*
+
+</div>
+<div style="width:50%; float:right">
+
+![](Module-ii-Figures-Structural-Geology-And-Crustal-Deformation/ExtensionalStructures/RiftSystems.jpg)  <!-- .element style="width:90%" -->
+
+</div>
+</div>
+
+<--o-->
 ## Extensional Settings
 ### Passive margins and oceanic rifts
 
+<div>
+<div style="width:50%; float:left">
+
+Continental Rifting results in thinning of the crust and upwelling of hot asthenosphere.
+The release in pressure may result in partial melting and generation of basaltic magmas.
+
+New Lithosphere form at the margin during continental break up.
+The continental rift becomes inactive or "passive" at the margin.
+
+</div>
+<div style="width:50%; float:right">
+
+![](Module-ii-Figures-Structural-Geology-And-Crustal-Deformation/ExtensionalStructures/PassiveMargin.png)  <!-- .element style="width:100%" -->
+
+</div>
+</div>
+
+<--o-->
+
+## Extensional Settings
+### Extension in orogens: origin and occurences
+
+<div>
+<div style="width:40%; float:left; position:absolute; top:50%; transform: translate(0, -50%)">
+
+Orogens are frequently associated with extension.
+
+Following the Wilson cycle, the orogen can be subject to extension, from oceanic spreading and subduction to containental collision and eventually orogen collapse.
+
+</div>
+<div style="width:60%; float:right">
+
+![](Module-ii-Figures-Structural-Geology-And-Crustal-Deformation/ExtensionalStructures/ExtensionOrogen.png)  <!-- .element style="width:100%" -->
+
+</div>
+</div>
+
+<--o-->
+
+## Extensional Settings
+### Extension in orogens: Himalayas
+
+<div>
+<div style="width:40%; float:left">
+
+
+Interpretation: During the India-Asia collision, a slab of granitic composition and relatively low density decoupled from
+the subducting Indian Plate. The buoyant slab ascended towards the surface along a basal thrust zone (MCT).
+A Major normal fault developed along the top at the back of the chain.
+
+</div>
+<div style="width:60%; float:right">
+
+![](Module-ii-Figures-Structural-Geology-And-Crustal-Deformation/ExtensionalStructures/Himalayas1.png)  <!-- .element style="width:100%" -->
+
+</div>
+</div>
+
+<--o-->
+
+## Extensional Settings
+### Extension in orogens: Himalayas
+
+<div>
+<div style="width:40%; float:left">
+
+
+Interpretation: During the India-Asia collision, a slab of granitic composition and relatively low density decoupled from
+the subducting Indian Plate. The buoyant slab ascended towards the surface along a basal thrust zone (MCT).
+A Major normal fault developed along the top at the back of the chain.
+
+</div>
+<div style="width:60%; float:right">
+
+![](Module-ii-Figures-Structural-Geology-And-Crustal-Deformation/ExtensionalStructures/Himalayas2.png)  <!-- .element style="width:100%" -->
+
+</div>
+</div>
+
+<--o-->
+
+## Extensional Settings
+### Extension in orogens: Himalayas
+
+<div>
+<div style="width:40%; float:left">
+
+Interpretation: During the India-Asia collision, a slab of granitic composition and relatively low density decoupled from
+the subducting Indian Plate. The buoyant slab ascended towards the surface along a basal thrust zone (MCT).
+A Major normal fault developed along the top at the back of the chain.
+
+</div>
+<div style="width:60%; float:right">
+
+![](Module-ii-Figures-Structural-Geology-And-Crustal-Deformation/ExtensionalStructures/Himalayas3.png)  <!-- .element style="width:100%" -->
+
+</div>
+</div>
+
+<--o-->
+
+## Extensional Settings
+### Extension in orogens: Himalayas
+
+<div>
+<div style="width:40%; float:left">
+
+Interpretation: During the India-Asia collision, a slab of granitic composition and relatively low density decoupled from
+the subducting Indian Plate. The buoyant slab ascended towards the surface along a basal thrust zone (MCT).
+A Major normal fault developed along the top at the back of the chain.
+
+</div>
+<div style="width:60%; float:right">
+
+![](Module-ii-Figures-Structural-Geology-And-Crustal-Deformation/ExtensionalStructures/Himalayas4.png)  <!-- .element style="width:100%" -->
+
+</div>
+</div>
+
+<--o-->
+
+## Extensional Settings
+### Extension in orogens: Delamination Model
+
+<div>
+<div style="width:40%; float:left">
+
+A relatively cold and dense root of an orogen detaches from the lithosphere and sinks down into the mantle.
+In response to **Isostatic** unloading the remaining lithosphere is exhumed.
+Tectonic displacement takes place along a base decollement from the hinterland towards the foreland an the upper part of the lithosphere experiences extension.
+
+</div>
+<div style="width:60%; float:right">
+
+![](Module-ii-Figures-Structural-Geology-And-Crustal-Deformation/ExtensionalStructures/Delamination1.png)  <!-- .element style="width:100%" -->
+
+</div>
+</div>
+
+<--o-->
+
+## Extensional Settings
+### Extension in orogens: Delamination Model
+
+<div>
+<div style="width:40%; float:left">
+
+A relatively cold and dense root of an orogen detaches from the lithosphere and sinks down into the mantle.
+In response to **Isostatic** unloading the remaining lithosphere is exhumed.
+Tectonic displacement takes place along a base decollement from the hinterland towards the foreland an the upper part of the lithosphere experiences extension.
+
+</div>
+<div style="width:60%; float:right">
+
+![](Module-ii-Figures-Structural-Geology-And-Crustal-Deformation/ExtensionalStructures/Delamination2.png)  <!-- .element style="width:100%" -->
+
+</div>
+</div>
+
+<--o-->
+
+## Extensional Settings
+### Extension in orogens: Post-orogenic extension
+
+<div>
+<div style="width:40%; float:left">
+
+The Caledonian orogen of Southern Norway features a nimber of major low-angle faults that formed in response to orogenic collapse and reversal of plate movements. 
+
+</div>
+<div style="width:60%; float:right">
+
+![](Module-ii-Figures-Structural-Geology-And-Crustal-Deformation/ExtensionalStructures/PostOrogenic1.png)  <!-- .element style="width:100%" -->
+
+</div>
+</div>
+
+<--o-->
+
+## Extensional Settings
+### Extension in orogens: Post-orogenic extension
+
+<div>
+<div style="width:40%; float:left">
+
+The Caledonian orogen of Southern Norway features a nimber of major low-angle faults that formed in response to orogenic collapse and reversal of plate movements. 
+
+</div>
+<div style="width:60%; float:right">
+
+![](Module-ii-Figures-Structural-Geology-And-Crustal-Deformation/ExtensionalStructures/PostOrogenic2.png)  <!-- .element style="width:100%" -->
+
+</div>
+</div
+
+<--o-->
+
+## Extensional Settings
+### Extension in orogens: Post-orogenic extension
+
+<div>
+<div style="width:40%; float:left">
+
+The Caledonian orogen of Southern Norway features a nimber of major low-angle faults that formed in response to orogenic collapse and reversal of plate movements. 
+
+</div>
+<div style="width:60%; float:right">
+
+![](Module-ii-Figures-Structural-Geology-And-Crustal-Deformation/ExtensionalStructures/PostOrogenic3.png)  <!-- .element style="width:100%" -->
+
+</div>
+</div
