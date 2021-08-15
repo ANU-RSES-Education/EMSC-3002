@@ -30,7 +30,6 @@ The slides are in html / javascript format with some external links and movies. 
 
 <a href="../slideshows/Module-ii-Lecture-4-Strike-Slip-Transtention-Transpression.reveal.htm?print-pdf"> PDF, Updated Aug 9, 2021 </a>
 
-<!-- 
-### Links
--->
+## Ressources
 
+Patrice Rey, University of Sydney, [Introduction to Structural](https://sydney.academia.edu/PatriceRey) Geology has some good ressources.
