@@ -525,3 +525,14 @@ The Caledonian orogen of Southern Norway features a nimber of major low-angle fa
 
 </div>
 </div
+
+<--o-->
+## Summary
+
+- Extensional Faults extend a reference surface (surface of the crust or bedding fault smaller faults)
+- Large scale extensional systems can be modeled using a **soft domino model** which allows for internal deformation of the blocks.
+- Extensional Faults can form imbrications zones, duplexes and flat-ramps systems like contractional faults.
+- A **Metamorphic core complex** consists of metamorphic rocks exposed in a window and separated from overlying rocks by extensional detachments.
+- **Extensional faults** and **detachments** are commonly found in orogens. They form both during and after the collision.
+- Synconvergent **gravitational collapse** can cause extension in the hinterland and thrusting towards the foreland.
+- **Post-convergent extension** commonly reactivates thrusts and extensional detachments.
