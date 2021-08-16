@@ -259,10 +259,14 @@ The longest fracture zones are found in the Pacific ocean. Significant parts of 
 </div>
 <div style="width:50%; float:right">
 
-![](Module-ii-Figures-Structural-Geology-And-Crustal-Deformation/StrikeSlipStructures/FracturesPacific.jpg) <!-- .element style="width:90%; margin-left:50px" -->
+![](Module-ii-Figures-Structural-Geology-And-Crustal-Deformation/StrikeSlipStructures/FracturesPacific.png) <!-- .element style="width:90%; margin-left:50px" -->
 
 </div>
 </div>
+
+<--o-->
+
+<!-- .slide: data-background="Module-ii-Figures-Structural-Geology-And-Crustal-Deformation/StrikeSlipStructures/FracturesPacific.png" -->
 
 <--o-->
 ## Transform faults
@@ -354,6 +358,10 @@ It can be regarded as a transcurrent strike-slip fault that has formed in the si
 </div>
 
 <--o-->
+
+<!-- .slide: data-background="Module-ii-Figures-Structural-Geology-And-Crustal-Deformation/StrikeSlipStructures/HaitiMap1.png" -->
+
+<--o-->
 ## Transcurrent faults
 ### Example: Haiti
 
@@ -375,6 +383,10 @@ It can be regarded as a transcurrent strike-slip fault that has formed in the si
 
 </div>
 </div>
+
+<--o-->
+
+<!-- .slide: data-background="Module-ii-Figures-Structural-Geology-And-Crustal-Deformation/StrikeSlipStructures/HaitiMap2.png" -->
 
 <--o-->
 ## Transcurrent faults
@@ -433,18 +445,18 @@ Tapponnier et al. (1986) modeled the pattern of strike-slip faults north of Indi
 </div>
 
 <--o-->
-## Transcurrent faults
-### Conjugate sets
-
 <div>
 <div style="width:60%; float:left">
 
-Tapponnier et al. (1986) modeled the pattern of strike-slip faults north of India using a rigid indenter forced into layered plasticine.
+## Transcurrent faults
+### Conjugate sets
 
+
+Tapponnier et al. (1986) modeled the pattern of strike-slip faults north of India using a rigid indenter forced into layered plasticine.
 </div>
 <div style="width:40%; float:right">
 
-![](Module-ii-Figures-Structural-Geology-And-Crustal-Deformation/StrikeSlipStructures/IndiaAsia.jpg) <!-- .element style="width:60%; margin-left:50px" -->
+![](Module-ii-Figures-Structural-Geology-And-Crustal-Deformation/StrikeSlipStructures/IndiaAsia.jpg) <!-- .element style="width:90%; margin-left:50px" -->
 
 </div>
 </div>
@@ -540,17 +552,16 @@ There are 2 types of fault bends or stepovers:
 <div>
 <div style="width:50%; float:left">
 
-Step-overs and bends along strike-slip faluts (in map view), generate local pockets of extension or contraction, depending on the fault geometry and sense of slip.
+Step-overs and bends along strike-slip faults (in map view), generate local pockets of extension or contraction, depending on the fault geometry and sense of slip.
 
 **Restraining bends** are location where local contraction occurs in response to fault bend or stepover.
 
 A variety of contractional structures can occur... stylolites, folds, reverse faults, thrusts.. even small mountain ranges is the region is large enough.
 
-
 </div>
 <div style="width:50%; float:right">
 
-![](Module-ii-Figures-Structural-Geology-And-Crustal-Deformation/StrikeSlipStructures/RestrainingBends.png) <!-- .element style="width:90%" -->
+![](Module-ii-Figures-Structural-Geology-And-Crustal-Deformation/StrikeSlipStructures/RestrainingBends.png) <!-- .element style="width:100%; margin-left:50px" -->
 
 </div>
 </div>
@@ -573,10 +584,14 @@ Large scale natural pop-up structures would be eroded and form mountains.
 </div>
 <div style="width:60%; float:right">
 
-![](Module-ii-Figures-Structural-Geology-And-Crustal-Deformation/StrikeSlipStructures/RestrainingBends2.jpg) <!-- .element style="width:90%; margin-left:50px" -->
+![](Module-ii-Figures-Structural-Geology-And-Crustal-Deformation/StrikeSlipStructures/RestrainingBends2.jpg) <!-- .element style="width:100%; margin-left:50px" -->
 
 </div>
 </div>
+
+<--o-->
+
+<!-- .slide: data-background="Module-ii-Figures-Structural-Geology-And-Crustal-Deformation/StrikeSlipStructures/RestrainingBends2.jpg" -->
 
 <--o-->
 ## Flower structures
@@ -615,8 +630,6 @@ Upward widening of strike-slip zones are related to strike-slip reactivation of 
 </div>
 
 <--o-->
-
-
 ## Flower structures
 
 <div>
@@ -682,7 +695,7 @@ When a strike-slip fault zone or shear zone diverts from simple shear we get **t
 </div>
 <div style="width:50%; float:right">
 
-![](Module-ii-Figures-Structural-Geology-And-Crustal-Deformation/StrikeSlipStructures/TranspressionTranstension2.jpg) <!-- .element style="width:70%; margin-left:50px" -->
+![](Module-ii-Figures-Structural-Geology-And-Crustal-Deformation/StrikeSlipStructures/TranspressionTranstension2.jpg) <!-- .element style="width:100%; margin-left:50px" -->
 
 </div>
 </div>
@@ -714,7 +727,7 @@ When a strike-slip fault zone or shear zone diverts from simple shear we get **t
 </div>
 <div style="width:50%; float:right">
 
-![](Module-ii-Figures-Structural-Geology-And-Crustal-Deformation/StrikeSlipStructures/TranspressionTranstension4.jpg) <!-- .element style="width:70%; margin-left:50px" -->
+![](Module-ii-Figures-Structural-Geology-And-Crustal-Deformation/StrikeSlipStructures/TranspressionTranstension4.jpg) <!-- .element style="width:60%; margin-left:50px" -->
 
 </div>
 </div>
@@ -764,52 +777,28 @@ This requires that the deformation is distributed through a zone with a combinat
 ## Transpression and Transtension
 ### Folding
 
-<div>
-<div style="width:40%; float:left; position:absolute; top:50%; transform: translate(0, -50%)">
-
 
 If the zone is simple shear, folds initiate at (or close) to 45 degrees and rotate toward the shear zone.
 
 It is the noncoaxial nature of simple shear that makes the folds axes rotate.
 
-</div>
-<div style="width:60%; float:right">
-
 ![](Module-ii-Figures-Structural-Geology-And-Crustal-Deformation/StrikeSlipStructures/TranspressionFoldingA.png) <!-- .element style="width:90%" -->
-
-</div>
-</div>
 
 <--o-->
 ## Transpression and Transtension
 ### Folding
-
-<div>
-<div style="width:40%; float:left; position:absolute; top:50%; transform: translate(0, -50%)">
-
 
 **Transpression** involves a component of shortening.
 
 This influences the initial orientation of fold hinges. They become closer to the zone by an amount function of the amount of shortening relative to the amount of simple shear.
-(depends on $W_k$)
+(depends on $W_k$). The hinges rotate toward parallelism withing the zone.
 
-The hinges rotate toward parallelism withing the zone.
+![](Module-ii-Figures-Structural-Geology-And-Crustal-Deformation/StrikeSlipStructures/TranspressionFoldingC.png) <!-- .element style="width:70%" -->
 
-</div>
-<div style="width:60%; float:right">
-
-![](Module-ii-Figures-Structural-Geology-And-Crustal-Deformation/StrikeSlipStructures/TranspressionFoldingC.png) <!-- .element style="width:90%" -->
-
-</div>
-</div>
 
 <--o-->
 ## Transpression and Transtension
 ### Folding
-
-<div>
-<div style="width:40%; float:left; position:absolute; top:50%; transform: translate(0, -50%)">
-
 
 **Transtension** produces folds whose hinges initiate at angles greater than 45 degrees.
 
@@ -817,14 +806,7 @@ How they rotate depends on $W_k$. For low $W_k$, the folds may actually rotate b
 
 Observation of folds can give important information about the type of deformation ($W_k$)
 
-</div>
-<div style="width:60%; float:right">
-
-![](Module-ii-Figures-Structural-Geology-And-Crustal-Deformation/StrikeSlipStructures/TranstensionFoldingA.png) <!-- .element style="width:90%" -->
-
-</div>
-</div>
-
+![](Module-ii-Figures-Structural-Geology-And-Crustal-Deformation/StrikeSlipStructures/TranstensionFoldingA.png) <!-- .element style="width:70%" -->
 
 <--o-->
 ## Strain Partitioning
@@ -933,7 +915,7 @@ Th SAF is associated with other subparallel faults and the transform plate bound
 - Transform fault
 - Associated with major Earthquakes
 - Contains central aseismically creeping section
-- 1906 San Fracnisco (M 8.7) most famous quake.
+- 1906 San Francisco (M 8.7) most famous quake.
 - Large Earthquake recurrence interval: 150 years
 - Last large quake on southern segment: 1857
 - Southern segment overdue for large quake...
@@ -950,16 +932,7 @@ Th SAF is associated with other subparallel faults and the transform plate bound
 ## The San Andres Fault System
 ### History
 
-<div>
-<div style="width:50%; float:left">
-
-</div>
-<div style="width:50%; float:right">
-
 ![](Module-ii-Figures-Structural-Geology-And-Crustal-Deformation/StrikeSlipStructures/SanAndreasHistory.jpg) <!-- .element style="width:90%; margin-left:50px" -->
-
-</div>
-</div>
 
 <--o-->
 ## The San Andres Fault System
