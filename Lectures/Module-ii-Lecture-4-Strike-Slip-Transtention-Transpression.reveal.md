@@ -50,6 +50,7 @@ The students will learn about the structural style of trike-slip, transpression 
 
 Strike-slip faults have been studied for more than 100 years. They received attention as they are often associated to
 devastating earthquakes (e.g. North Anatolian Fault in Turkey, San-Andres fault in California.)
+
 In this lecture we will look at the differents types of strike-slip faults, their formation and tectonic settings.
 We will look at **transpression** and **transtension** deformations that link strike-slip, extensional and contractional regimes.
 
@@ -65,7 +66,7 @@ The 2 blocks moves sideways.
 </div>
 <div style="width:50%; float:right">
 
-![](Module-ii-Figures-Structural-Geology-And-Crustal-Deformation/StrikeSlipStructures/StrikeSlipFault.png) <!-- .element style="width:90%" -->
+![](Module-ii-Figures-Structural-Geology-And-Crustal-Deformation/StrikeSlipStructures/StrikeSlipFault.png) <!-- .element style="width:90%; margin-left:50px" -->
 
 </div>
 </div>
@@ -75,7 +76,7 @@ The 2 blocks moves sideways.
 
 
 <div>
-<div style="width:50%; float:left; position:absolute; top:50%; transform: translate(0, -50%)">
+<div style="width:50%; float:left">
 
 - Commonly strep structures but they don't have to be
 - No vertical motions
@@ -86,13 +87,12 @@ The 2 blocks moves sideways.
 - Occur in all tectonic regimes
 - Some can cause repeated large earthquakes.
 
-
 *Railroad workers in Turkey after the 17 August 1999 earthquake. Right-lateral offset*.
 
 </div>
 <div style="width:50%; float:right">
 
-![](Module-ii-Figures-Structural-Geology-And-Crustal-Deformation/StrikeSlipStructures/RailWay.jpg) <!-- .element style="width:90%" -->
+![](Module-ii-Figures-Structural-Geology-And-Crustal-Deformation/StrikeSlipStructures/RailWay.jpg) <!-- .element style="width:90%; margin-left:50px" -->
 
 </div>
 </div>
@@ -100,16 +100,16 @@ The 2 blocks moves sideways.
 <--o-->
 ## Three fundamental types of faults
 
-1. Transfer faults: transfer displacement from one structure to another.
-1. Transform faults: mid-ocean transfer faults that segment or offset the mid-ocean rift axes.
-1. Transcurrent faults: regional strike-slip faults. They usually have free tips and are able to grow freely.
+1. **Transfer faults**: transfer displacement from one structure to another.
+1. **Transform faults**: mid-ocean transfer faults that segment or offset the mid-ocean rift axes.
+1. **Transcurrent faults**: regional strike-slip faults. They usually have free tips and are able to grow freely.
 
 <--o-->
 
 ## Transfer faults
 
 <div>
-<div style="width:50%; float:left; position:absolute; top:50%; transform: translate(0, -50%)">
+<div style="width:50%; float:left">
 
 - A strike-slip transfer fault transfers slip from one structure to another.
 - The linked structures can be any types of fault (reverse, normal, oblique), extension fractures or folds.
@@ -123,7 +123,7 @@ Transfer faults are also sometimes called **tear faults**
 </div>
 <div style="width:50%; float:right">
 
-![](Module-ii-Figures-Structural-Geology-And-Crustal-Deformation/StrikeSlipStructures/TransferFault.jpg) <!-- .element style="width:90%" -->
+![](Module-ii-Figures-Structural-Geology-And-Crustal-Deformation/StrikeSlipStructures/TransferFault.jpg) <!-- .element style="width:90%; margin-left:50px" -->
 
 </div>
 </div>
@@ -133,7 +133,7 @@ Transfer faults are also sometimes called **tear faults**
 ## Transfer faults in extensional regimes
 
 <div>
-<div style="width:50%; float:left; position:absolute; top:50%; transform: translate(0, -50%)">
+<div style="width:50%; float:left">
 
 **Transfer faults** are known to tranmsfer displacement between large-scale structures in continental rifts.
 
@@ -146,7 +146,7 @@ The normal faults must flatten out at depth to create a perfect strike-slip[ tra
 </div>
 <div style="width:50%; float:right">
 
-![](Module-ii-Figures-Structural-Geology-And-Crustal-Deformation/StrikeSlipStructures/TransferExtension.jpg) <!-- .element style="width:90%" -->
+![](Module-ii-Figures-Structural-Geology-And-Crustal-Deformation/StrikeSlipStructures/TransferExtension.jpg) <!-- .element style="width:90%; margin-left:50px" -->
 
 </div>
 </div>
@@ -162,7 +162,7 @@ Transfer of displacement between thrusts or reverse faults is seen in many thrus
 </div>
 <div style="width:50%; float:right">
 
-![](Module-ii-Figures-Structural-Geology-And-Crustal-Deformation/StrikeSlipStructures/TransferContraction.png) <!-- .element style="width:90%" -->
+![](Module-ii-Figures-Structural-Geology-And-Crustal-Deformation/StrikeSlipStructures/TransferContraction.png) <!-- .element style="width:90%; margin-left:50px" -->
 
 </div>
 </div>
@@ -179,7 +179,7 @@ A crustal scale example is the flanking shear zones of the India-Asia collision 
 </div>
 <div style="width:50%; float:right">
 
-![](Module-ii-Figures-Structural-Geology-And-Crustal-Deformation/StrikeSlipStructures/IndiaAsiaCollisionTransfer.png) <!-- .element style="width:90%" -->
+![](Module-ii-Figures-Structural-Geology-And-Crustal-Deformation/StrikeSlipStructures/IndiaAsiaCollisionTransfer.png) <!-- .element style="width:90%; margin-left:50px" -->
 
 </div>
 </div>
@@ -200,7 +200,7 @@ The figure illustrate the kinematics.
 </div>
 <div style="width:50%; float:right">
 
-![](Module-ii-Figures-Structural-Geology-And-Crustal-Deformation/StrikeSlipStructures/TransformFigure.jpg) <!-- .element style="width:90%" -->
+![](Module-ii-Figures-Structural-Geology-And-Crustal-Deformation/StrikeSlipStructures/TransformFigure.jpg) <!-- .element style="width:90%; margin-left:50px" -->
 
 </div>
 </div>
@@ -211,18 +211,18 @@ The figure illustrate the kinematics.
 ### Ridge-Ridge
 
 <div>
-<div style="width:50%; float:left; position:absolute; top:50%; transform: translate(0, -50%)">
+<div style="width:50%; float:left">
 
 **Transform faults** are a special type of **transfer faults** that separate mid-ocean ridges into segments.
 They are bound by the ridge segments and only extend beyond the ridges as passive (dead) faults.
 
-*A perspective view of a transform fault along the East Pacific Rise. The north Americam plate is to the right (East) and the Pacific plate is to the left (West) Marine Geoscience Data System*
+*A perspective view of a transform fault along the East Pacific Rise. The north American plate is to the right (East) and the Pacific plate is to the left (West) Marine Geoscience Data System*
 
 
 </div>
 <div style="width:50%; float:right">
 
-![](Module-ii-Figures-Structural-Geology-And-Crustal-Deformation/StrikeSlipStructures/Transform1.jpg) <!-- .element style="width:90%" -->
+![](Module-ii-Figures-Structural-Geology-And-Crustal-Deformation/StrikeSlipStructures/Transform1.jpg) <!-- .element style="width:90%; margin-left:50px" -->
 
 </div>
 </div>
@@ -232,14 +232,14 @@ They are bound by the ridge segments and only extend beyond the ridges as passiv
 ### Ridge-Ridge
 
 <div>
-<div style="width:50%; float:left; position:absolute; top:50%; transform: translate(0, -50%)">
+<div style="width:60%; float:left; position:absolute; top:50%; transform: translate(0, -50%)">
 
 **Transform faults** occur along the oceanic ridges. They have varying length and extend into inactive fractures zones.
 
 </div>
-<div style="width:50%; float:right">
+<div style="width:40%; float:right">
 
-![](Module-ii-Figures-Structural-Geology-And-Crustal-Deformation/StrikeSlipStructures/Transform2.jpg) <!-- .element style="width:90%" -->
+![](Module-ii-Figures-Structural-Geology-And-Crustal-Deformation/StrikeSlipStructures/Transform2.jpg) <!-- .element style="width:80%; margin-left:50px" -->
 
 </div>
 </div>
@@ -249,7 +249,7 @@ They are bound by the ridge segments and only extend beyond the ridges as passiv
 ### Fracture zones
 
 <div>
-<div style="width:50%; float:left; position:absolute; top:50%; transform: translate(0, -50%)">
+<div style="width:50%; float:left">
 
 Oceanic fracture zones initial during riftiong and continental break-up so the longer the spreading history, the longer the fracture zones.
 The transform fault, the active part of the fault, tend to retain a fixed length over time.
@@ -259,7 +259,7 @@ The longest fracture zones are found in the Pacific ocean. Significant parts of 
 </div>
 <div style="width:50%; float:right">
 
-![](Module-ii-Figures-Structural-Geology-And-Crustal-Deformation/StrikeSlipStructures/FracturesPacific.jpg) <!-- .element style="width:90%" -->
+![](Module-ii-Figures-Structural-Geology-And-Crustal-Deformation/StrikeSlipStructures/FracturesPacific.jpg) <!-- .element style="width:90%; margin-left:50px" -->
 
 </div>
 </div>
@@ -279,7 +279,7 @@ The fault have more or less constant offset along them which is unusual for faul
 </div>
 <div style="width:50%; float:right">
 
-![](Module-ii-Figures-Structural-Geology-And-Crustal-Deformation/StrikeSlipStructures/MagneticAnomalies.jpg) <!-- .element style="width:90%" -->
+![](Module-ii-Figures-Structural-Geology-And-Crustal-Deformation/StrikeSlipStructures/MagneticAnomalies.jpg) <!-- .element style="width:90%; margin-left:50px" -->
 
 </div>
 </div>
@@ -303,7 +303,7 @@ In practice, **strike-slip fault** and **transcurrent fault** are synonymous.
 </div>
 <div style="width:50%; float:right">
 
-![](Module-ii-Figures-Structural-Geology-And-Crustal-Deformation/StrikeSlipStructures/TranscurrentEarth.jpg) <!-- .element style="width:90%" -->
+![](Module-ii-Figures-Structural-Geology-And-Crustal-Deformation/StrikeSlipStructures/TranscurrentEarth.jpg) <!-- .element style="width:90%; margin-left:50px" -->
 
 </div>
 </div>
@@ -326,7 +326,7 @@ In practice, **strike-slip fault** and **transcurrent fault** are synonymous.
 </div>
 <div style="width:50%; float:right">
 
-![](Module-ii-Figures-Structural-Geology-And-Crustal-Deformation/StrikeSlipStructures/TranscurrentMars.jpg) <!-- .element style="width:90%" -->
+![](Module-ii-Figures-Structural-Geology-And-Crustal-Deformation/StrikeSlipStructures/TranscurrentMars.jpg) <!-- .element style="width:90%; margin-left:50px" -->
 
 </div>
 </div>
@@ -336,7 +336,7 @@ In practice, **strike-slip fault** and **transcurrent fault** are synonymous.
 ### Example: Haiti
 
 <div>
-<div style="width:50%; float:left; position:absolute; top:50%; transform: translate(0, -50%)">
+<div style="width:50%; float:left">
 
 The magnitude 7 Earthquake in Haiti on 12 January 2010 killed 200000-300000 people.
 
@@ -348,7 +348,7 @@ It can be regarded as a transcurrent strike-slip fault that has formed in the si
 </div>
 <div style="width:50%; float:right">
 
-![](Module-ii-Figures-Structural-Geology-And-Crustal-Deformation/StrikeSlipStructures/HaitiMap1.png) <!-- .element style="width:90%" -->
+![](Module-ii-Figures-Structural-Geology-And-Crustal-Deformation/StrikeSlipStructures/HaitiMap1.png) <!-- .element style="width:90%; margin-left:50px" -->
 
 </div>
 </div>
@@ -358,7 +358,7 @@ It can be regarded as a transcurrent strike-slip fault that has formed in the si
 ### Example: Haiti
 
 <div>
-<div style="width:50%; float:left; position:absolute; top:50%; transform: translate(0, -50%)">
+<div style="width:50%; float:left">
 
 The magnitude 7 Earthquake in Haiti on 12 January 2010 killed 200000-300000 people.
 
@@ -371,7 +371,7 @@ It can be regarded as a transcurrent strike-slip fault that has formed in the si
 </div>
 <div style="width:50%; float:right">
 
-![](Module-ii-Figures-Structural-Geology-And-Crustal-Deformation/StrikeSlipStructures/HaitiMap2.png) <!-- .element style="width:90%" -->
+![](Module-ii-Figures-Structural-Geology-And-Crustal-Deformation/StrikeSlipStructures/HaitiMap2.png) <!-- .element style="width:90%; margin-left:50px" -->
 
 </div>
 </div>
@@ -391,7 +391,7 @@ The stresses generate a number of transcurrent faults.
 </div>
 <div style="width:50%; float:right">
 
-![](Module-ii-Figures-Structural-Geology-And-Crustal-Deformation/StrikeSlipStructures/Himalaya1.png) <!-- .element style="width:90%" -->
+![](Module-ii-Figures-Structural-Geology-And-Crustal-Deformation/StrikeSlipStructures/Himalaya1.png) <!-- .element style="width:90%; margin-left:50px" -->
 
 </div>
 </div>
@@ -407,11 +407,10 @@ The stresses generate a number of transcurrent faults.
 
 This pattern is well illustrated in the Tibetan plateau, causing lateral extrusion of heated orogenic crust in reaction to the movement of the rigid Indian continent into Asia
 
-
 </div>
 <div style="width:50%; float:right">
 
-![](Module-ii-Figures-Structural-Geology-And-Crustal-Deformation/StrikeSlipStructures/HimalayaMap.png) <!-- .element style="width:90%" -->
+![](Module-ii-Figures-Structural-Geology-And-Crustal-Deformation/StrikeSlipStructures/HimalayaMap.png) <!-- .element style="width:90%; margin-left:50px" -->
 
 </div>
 </div>
@@ -438,14 +437,14 @@ Tapponnier et al. (1986) modeled the pattern of strike-slip faults north of Indi
 ### Conjugate sets
 
 <div>
-<div style="width:50%; float:left; position:absolute; top:50%; transform: translate(0, -50%)">
+<div style="width:60%; float:left; position:absolute; top:50%; transform: translate(0, -50%)">
 
 Tapponnier et al. (1986) modeled the pattern of strike-slip faults north of India using a rigid indenter forced into layered plasticine.
 
 </div>
-<div style="width:50%; float:right">
+<div style="width:40%; float:right">
 
-![](Module-ii-Figures-Structural-Geology-And-Crustal-Deformation/StrikeSlipStructures/IndiaAsia.jpg) <!-- .element style="width:90%" -->
+![](Module-ii-Figures-Structural-Geology-And-Crustal-Deformation/StrikeSlipStructures/IndiaAsia.jpg) <!-- .element style="width:60%" -->
 
 </div>
 </div>
@@ -465,7 +464,7 @@ They can also initiate by reactivation of joints or preexisting faults. They may
 </div>
 <div style="width:50%; float:right">
 
-![](Module-ii-Figures-Structural-Geology-And-Crustal-Deformation/StrikeSlipStructures/InitiationTranscurrentFault1.jpg) <!-- .element style="width:90%" -->
+![](Module-ii-Figures-Structural-Geology-And-Crustal-Deformation/StrikeSlipStructures/InitiationTranscurrentFault1.jpg) <!-- .element style="width:70%; margin-left:50px" -->
 
 </div>
 </div>
@@ -484,7 +483,7 @@ They can also initiate by reactivation of joints or preexisting faults. They may
 </div>
 <div style="width:50%; float:right">
 
-![](Module-ii-Figures-Structural-Geology-And-Crustal-Deformation/StrikeSlipStructures/InitiationTranscurrentFault2.jpg) <!-- .element style="width:90%" -->
+![](Module-ii-Figures-Structural-Geology-And-Crustal-Deformation/StrikeSlipStructures/InitiationTranscurrentFault2.jpg) <!-- .element style="width:90%; margin-left:50px" -->
 
 </div>
 </div>
@@ -493,7 +492,7 @@ They can also initiate by reactivation of joints or preexisting faults. They may
 ## Initiation of transcurrent faults
 
 <div>
-<div style="width:50%; float:left; position:absolute; top:50%; transform: translate(0, -50%)">
+<div style="width:40%; float:left">
 
 **Strike slip** faults initiate like any other fault. They occur by linkage of early small structures, notably R and P shear.
 
@@ -501,9 +500,9 @@ They can also initiate by reactivation of joints or preexisting faults. They may
 
 
 </div>
-<div style="width:50%; float:right">
+<div style="width:60%; float:right">
 
-![](Module-ii-Figures-Structural-Geology-And-Crustal-Deformation/StrikeSlipStructures/InitiationTranscurrentFault3.jpg) <!-- .element style="width:90%" -->
+![](Module-ii-Figures-Structural-Geology-And-Crustal-Deformation/StrikeSlipStructures/InitiationTranscurrentFault3.jpg) <!-- .element style="width:90%; margin-left:50px" -->
 
 </div>
 </div>
@@ -512,7 +511,7 @@ They can also initiate by reactivation of joints or preexisting faults. They may
 ## Fault Bends and Stepovers
 
 <div>
-<div style="width:50%; float:left; position:absolute; top:50%; transform: translate(0, -50%)">
+<div style="width:50%; float:left">
 
 **Strike slip** faults tend to be straight but they can show geometric irregularities that are significant enough to cause kinematic complications.
 
@@ -529,7 +528,7 @@ There are 2 types of fault bends or stepovers:
 </div>
 <div style="width:50%; float:right">
 
-![](Module-ii-Figures-Structural-Geology-And-Crustal-Deformation/StrikeSlipStructures/FaultBendsStepOvers.png) <!-- .element style="width:90%" -->
+![](Module-ii-Figures-Structural-Geology-And-Crustal-Deformation/StrikeSlipStructures/FaultBendsStepOvers.png) <!-- .element style="width:90%; margin-left:50px" -->
 
 </div>
 </div>
@@ -539,7 +538,7 @@ There are 2 types of fault bends or stepovers:
 ### Restraining bends
 
 <div>
-<div style="width:50%; float:left; position:absolute; top:50%; transform: translate(0, -50%)">
+<div style="width:50%; float:left">
 
 Step-overs and bends along strike-slip faluts (in map view), generate local pockets of extension or contraction, depending on the fault geometry and sense of slip.
 
@@ -561,7 +560,7 @@ A variety of contractional structures can occur... stylolites, folds, reverse fa
 ### Restraining bends
 
 <div>
-<div style="width:50%; float:left; position:absolute; top:50%; transform: translate(0, -50%)">
+<div style="width:40%; float:left">
 
 Modeling of stepover structure by McClay and Bonora (2001).
 
@@ -572,9 +571,9 @@ The positive contractional structure is known as a **pop-up structure**.
 Large scale natural pop-up structures would be eroded and form mountains.
 
 </div>
-<div style="width:50%; float:right">
+<div style="width:60%; float:right">
 
-![](Module-ii-Figures-Structural-Geology-And-Crustal-Deformation/StrikeSlipStructures/RestrainingBends2.jpg) <!-- .element style="width:90%" -->
+![](Module-ii-Figures-Structural-Geology-And-Crustal-Deformation/StrikeSlipStructures/RestrainingBends2.jpg) <!-- .element style="width:90%; margin-left:50px" -->
 
 </div>
 </div>
@@ -583,7 +582,7 @@ Large scale natural pop-up structures would be eroded and form mountains.
 ## Flower structures
 
 <div>
-<div style="width:50%; float:left; position:absolute; top:50%; transform: translate(0, -50%)">
+<div style="width:60%; float:left">
 
 **Flower structure** is a name used to describe cross-section images of strike-slip zones that show upward widening.
 Those structures are well developed across many stepovers / fault bends.
@@ -591,12 +590,10 @@ Those structures are well developed across many stepovers / fault bends.
 - **Positive flower structures** have positive relief, involve horizontal shortening and are found in restraining bends. They are associated with reverse fault offsets.
 - **Negative flower structures** have negative relief (basins) and form in releasing bends. They are associated with normal faults offsets.
 
-Upward widening of strike-slip zones are related to strike-slip reactivation of basement faults in stiff basement rocks. Widening is favored in weak sediments where the realtive strength of fault rocks and sediments is relatively small.
-
 </div>
-<div style="width:50%; float:right">
+<div style="width:40%; float:right">
 
-![](Module-ii-Figures-Structural-Geology-And-Crustal-Deformation/StrikeSlipStructures/Flowers1.jpg) <!-- .element style="width:90%" -->
+![](Module-ii-Figures-Structural-Geology-And-Crustal-Deformation/StrikeSlipStructures/Flowers1.jpg) <!-- .element style="width:70%; margin-left:50px" -->
 
 </div>
 </div>
@@ -605,16 +602,34 @@ Upward widening of strike-slip zones are related to strike-slip reactivation of 
 ## Flower structures
 
 <div>
-<div style="width:40%; float:left; position:absolute; top:50%; transform: translate(0, -50%)">
+<div style="width:60%; float:left">
+
+Upward widening of strike-slip zones are related to strike-slip reactivation of basement faults in stiff basement rocks. Widening is favored in weak sediments where the realtive strength of fault rocks and sediments is relatively small.
+
+</div>
+<div style="width:40%; float:right">
+
+![](Module-ii-Figures-Structural-Geology-And-Crustal-Deformation/StrikeSlipStructures/Flowers1.jpg) <!-- .element style="width:70%; margin-left:50px" -->
+
+</div>
+</div>
+
+<--o-->
+
+
+## Flower structures
+
+<div>
+<div style="width:50%; float:left">
 
 Upward widening of strike-slip zones are related to strike-slip reactivation of basement faults in stiff basement rocks. Widening is favored in weak sediments where the realtive strength of fault rocks and sediments is relatively small.
 
 *Section through restraining bend produced in sandbox experiment. McClay and Bonora (2001)*
 
 </div>
-<div style="width:60%; float:right">
+<div style="width:50%; float:right">
 
-![](Module-ii-Figures-Structural-Geology-And-Crustal-Deformation/StrikeSlipStructures/Flowers2.png) <!-- .element style="width:90%" -->
+![](Module-ii-Figures-Structural-Geology-And-Crustal-Deformation/StrikeSlipStructures/Flowers2.png) <!-- .element style="width:80%; margin-left:50px" -->
 
 </div>
 </div>
@@ -623,16 +638,16 @@ Upward widening of strike-slip zones are related to strike-slip reactivation of 
 ## Releasing Bends
 
 <div>
-<div style="width:40%; float:left; position:absolute; top:50%; transform: translate(0, -50%)">
+<div style="width:50%; float:left">
 
 **Releasing bends** are fult bends where local extension occurs.
 They form where strike-slip fault segments overlap and connect during accumulation of slip.
 This leads to a structural low or **pull-apart** basin such as the dead-sea in the Middle East or the Death Valley in California
 
 </div>
-<div style="width:60%; float:right">
+<div style="width:50%; float:right">
 
-![](Module-ii-Figures-Structural-Geology-And-Crustal-Deformation/StrikeSlipStructures/DeathValley.jpg) <!-- .element style="width:90%" -->
+![](Module-ii-Figures-Structural-Geology-And-Crustal-Deformation/StrikeSlipStructures/DeathValley.jpg)  <!-- .element style="width:80%; margin-left:50px" -->
 
 </div>
 </div>
@@ -641,7 +656,7 @@ This leads to a structural low or **pull-apart** basin such as the dead-sea in t
 ## Transpression and Transtension
 
 <div>
-<div style="width:40%; float:left; position:absolute; top:50%; transform: translate(0, -50%)">
+<div style="width:50%; float:left; position:absolute; top:50%; transform: translate(0, -50%)">
 
 When a strike-slip fault zone or shear zone diverts from simple shear we get **transpression** or **transtension**.
 
@@ -649,25 +664,9 @@ When a strike-slip fault zone or shear zone diverts from simple shear we get **t
 - **Transtension** implies that the side walls diverge.
 
 </div>
-<div style="width:60%; float:right">
+<div style="width:50%; float:right">
 
-![](Module-ii-Figures-Structural-Geology-And-Crustal-Deformation/StrikeSlipStructures/TranspressionTranstension1.jpg) <!-- .element style="width:90%" -->
-
-</div>
-</div>
-
-<--o-->
-## Transpression and Transtension
-
-<div>
-<div style="width:40%; float:left; position:absolute; top:50%; transform: translate(0, -50%)">
-
-**Transpression** (*transtension*) is the simulatenous conmbination of strike-slip or simple-shear motion along a structure and shortening (*extension*) perpendicular to it.
-
-</div>
-<div style="width:60%; float:right">
-
-![](Module-ii-Figures-Structural-Geology-And-Crustal-Deformation/StrikeSlipStructures/TranspressionTranstension2.jpg) <!-- .element style="width:90%" -->
+![](Module-ii-Figures-Structural-Geology-And-Crustal-Deformation/StrikeSlipStructures/TranspressionTranstension1.jpg) <!-- .element style="width:100%; margin-left:50px" -->
 
 </div>
 </div>
@@ -676,14 +675,14 @@ When a strike-slip fault zone or shear zone diverts from simple shear we get **t
 ## Transpression and Transtension
 
 <div>
-<div style="width:40%; float:left; position:absolute; top:50%; transform: translate(0, -50%)">
+<div style="width:50%; float:left">
 
 **Transpression** (*transtension*) is the simulatenous conmbination of strike-slip or simple-shear motion along a structure and shortening (*extension*) perpendicular to it.
 
 </div>
-<div style="width:60%; float:right">
+<div style="width:50%; float:right">
 
-![](Module-ii-Figures-Structural-Geology-And-Crustal-Deformation/StrikeSlipStructures/TranspressionTranstension3.jpg) <!-- .element style="width:90%" -->
+![](Module-ii-Figures-Structural-Geology-And-Crustal-Deformation/StrikeSlipStructures/TranspressionTranstension2.jpg) <!-- .element style="width:70%; margin-left:50px" -->
 
 </div>
 </div>
@@ -692,14 +691,30 @@ When a strike-slip fault zone or shear zone diverts from simple shear we get **t
 ## Transpression and Transtension
 
 <div>
-<div style="width:40%; float:left; position:absolute; top:50%; transform: translate(0, -50%)">
+<div style="width:40%; float:left">
 
 **Transpression** (*transtension*) is the simulatenous conmbination of strike-slip or simple-shear motion along a structure and shortening (*extension*) perpendicular to it.
 
 </div>
 <div style="width:60%; float:right">
 
-![](Module-ii-Figures-Structural-Geology-And-Crustal-Deformation/StrikeSlipStructures/TranspressionTranstension4.jpg) <!-- .element style="width:90%" -->
+![](Module-ii-Figures-Structural-Geology-And-Crustal-Deformation/StrikeSlipStructures/TranspressionTranstension3.jpg) <!-- .element style="width:90%; margin-left:50px" -->
+
+</div>
+</div>
+
+<--o-->
+## Transpression and Transtension
+
+<div>
+<div style="width:50%; float:left">
+
+**Transpression** (*transtension*) is the simulatenous conmbination of strike-slip or simple-shear motion along a structure and shortening (*extension*) perpendicular to it.
+
+</div>
+<div style="width:50%; float:right">
+
+![](Module-ii-Figures-Structural-Geology-And-Crustal-Deformation/StrikeSlipStructures/TranspressionTranstension4.jpg) <!-- .element style="width:70%; margin-left:50px" -->
 
 </div>
 </div>
@@ -710,7 +725,7 @@ When a strike-slip fault zone or shear zone diverts from simple shear we get **t
 ### Seismic
 
 <div>
-<div style="width:40%; float:left; position:absolute; top:50%; transform: translate(0, -50%)">
+<div style="width:40%; float:left">
 
 While pure strike-slip zones in horizontally layered units can be difficult to detect from seismic data, adding some shortening or extension creates more easily visible vertical offset of reflectors.
 
@@ -721,7 +736,7 @@ Note that transpression and transtension can occur locally in restraining bends/
 </div>
 <div style="width:60%; float:right">
 
-![](Module-ii-Figures-Structural-Geology-And-Crustal-Deformation/StrikeSlipStructures/FlowerSeismic.jpg) <!-- .element style="width:90%" -->
+![](Module-ii-Figures-Structural-Geology-And-Crustal-Deformation/StrikeSlipStructures/FlowerSeismic.jpg) <!-- .element style="width:90%; margin-left:50px" -->
 
 </div>
 </div>
@@ -731,7 +746,7 @@ Note that transpression and transtension can occur locally in restraining bends/
 ### Folding
 
 <div>
-<div style="width:40%; float:left; position:absolute; top:50%; transform: translate(0, -50%)">
+<div style="width:40%; float:left">
 
 Folds can form in strike-slip zones where layers are subhorizontal.
 
@@ -825,7 +840,7 @@ This often occur along destructive plate boundaries where strain partition withi
 </div>
 <div style="width:60%; float:right">
 
-![](Module-ii-Figures-Structural-Geology-And-Crustal-Deformation/StrikeSlipStructures/StrainPartitioning.jpg) <!-- .element style="width:90%" -->
+![](Module-ii-Figures-Structural-Geology-And-Crustal-Deformation/StrikeSlipStructures/StrainPartitioning.jpg) <!-- .element style="width:90%; margin-left:50px" -->
 
 </div>
 </div>
@@ -843,7 +858,7 @@ This gives pure shear dominated domains between strike-slip faults.
 </div>
 <div style="width:60%; float:right">
 
-![](Module-ii-Figures-Structural-Geology-And-Crustal-Deformation/StrikeSlipStructures/StrainPartitioning.jpg) <!-- .element style="width:90%" -->
+![](Module-ii-Figures-Structural-Geology-And-Crustal-Deformation/StrikeSlipStructures/StrainPartitioning.jpg) <!-- .element style="width:90%; margin-left:50px" -->
 
 </div>
 </div>
@@ -852,7 +867,7 @@ This gives pure shear dominated domains between strike-slip faults.
 <--o-->
 ## The San Andres Fault System
 <div>
-<div style="width:40%; float:left; position:absolute; top:50%; transform: translate(0, -50%)">
+<div style="width:50%; float:left; position:absolute; top:50%; transform: translate(0, -50%)">
 
 The San Andreas fault is a transform fault between the North American Plate and the Pacific Plate.
 
@@ -860,11 +875,10 @@ It is not a typical transform fault.: it transfers displacement form a spreading
 
 This causes to have variable slip along strike.
 
-
 </div>
-<div style="width:60%; float:right">
+<div style="width:50%; float:right">
 
-![](Module-ii-Figures-Structural-Geology-And-Crustal-Deformation/StrikeSlipStructures/SanAndreas1.png) <!-- .element style="width:90%" -->
+![](Module-ii-Figures-Structural-Geology-And-Crustal-Deformation/StrikeSlipStructures/SanAndreas1.png) <!-- .element style="width:90%; margin-left:50px" -->
 
 </div>
 </div>
@@ -872,16 +886,16 @@ This causes to have variable slip along strike.
 <--o-->
 ## The San Andres Fault System
 <div>
-<div style="width:40%; float:left; position:absolute; top:50%; transform: translate(0, -50%)">
+<div style="width:50%; float:left">
 
 The San Andreas fault occurs in an atypical oceanic crust that is rather a series of accreted island arcs.
 
 Th SAF is associated with other subparallel faults and the transform plate boundary is rather a wide fault system.
 
 </div>
-<div style="width:60%; float:right">
+<div style="width:50%; float:right">
 
-![](Module-ii-Figures-Structural-Geology-And-Crustal-Deformation/StrikeSlipStructures/SanAndreas1.png) <!-- .element style="width:90%" -->
+![](Module-ii-Figures-Structural-Geology-And-Crustal-Deformation/StrikeSlipStructures/SanAndreas1.png) <!-- .element style="width:90%; margin-left:50px" -->
 
 </div>
 </div>
@@ -891,7 +905,7 @@ Th SAF is associated with other subparallel faults and the transform plate bound
 ### Facts
 
 <div>
-<div style="width:40%; float:left; position:absolute; top:50%; transform: translate(0, -50%)">
+<div style="width:50%; float:left">
 
 - 1200-1300 km long
 - 300-550 km offset
@@ -902,9 +916,9 @@ Th SAF is associated with other subparallel faults and the transform plate bound
 - Slightly transpressive
 
 </div>
-<div style="width:60%; float:right">
+<div style="width:50%; float:right">
 
-![](Module-ii-Figures-Structural-Geology-And-Crustal-Deformation/StrikeSlipStructures/SanAndreas1.png) <!-- .element style="width:90%" -->
+![](Module-ii-Figures-Structural-Geology-And-Crustal-Deformation/StrikeSlipStructures/SanAndreas1.png) <!-- .element style="width:90%; margin-left:50px" -->
 
 </div>
 </div>
@@ -914,7 +928,7 @@ Th SAF is associated with other subparallel faults and the transform plate bound
 ### Facts
 
 <div>
-<div style="width:40%; float:left; position:absolute; top:50%; transform: translate(0, -50%)">
+<div style="width:50%; float:left">
 
 - Transform fault
 - Associated with major Earthquakes
@@ -925,9 +939,9 @@ Th SAF is associated with other subparallel faults and the transform plate bound
 - Southern segment overdue for large quake...
 
 </div>
-<div style="width:60%; float:right">
+<div style="width:50%; float:right">
 
-![](Module-ii-Figures-Structural-Geology-And-Crustal-Deformation/StrikeSlipStructures/SanAndreas1.png) <!-- .element style="width:90%" -->
+![](Module-ii-Figures-Structural-Geology-And-Crustal-Deformation/StrikeSlipStructures/SanAndreas1.png) <!-- .element style="width:90%; margin-left:50px" -->
 
 </div>
 </div>
@@ -937,12 +951,12 @@ Th SAF is associated with other subparallel faults and the transform plate bound
 ### History
 
 <div>
-<div style="width:40%; float:left; position:absolute; top:50%; transform: translate(0, -50%)">
+<div style="width:50%; float:left">
 
 </div>
-<div style="width:60%; float:right">
+<div style="width:50%; float:right">
 
-![](Module-ii-Figures-Structural-Geology-And-Crustal-Deformation/StrikeSlipStructures/SanAndreasHistory.jpg) <!-- .element style="width:90%" -->
+![](Module-ii-Figures-Structural-Geology-And-Crustal-Deformation/StrikeSlipStructures/SanAndreasHistory.jpg) <!-- .element style="width:90%; margin-left:50px" -->
 
 </div>
 </div>
@@ -959,7 +973,7 @@ The depth and geometry of the SAF at depth is unknown. It is thought to be conne
 </div>
 <div style="width:60%; float:right">
 
-![](Module-ii-Figures-Structural-Geology-And-Crustal-Deformation/StrikeSlipStructures/SanAndreasPartitioning.png) <!-- .element style="width:90%" -->
+![](Module-ii-Figures-Structural-Geology-And-Crustal-Deformation/StrikeSlipStructures/SanAndreasPartitioning.png) <!-- .element style="width:90%; margin-left:50px" -->
 
 </div>
 </div>
@@ -968,7 +982,7 @@ The depth and geometry of the SAF at depth is unknown. It is thought to be conne
 ## The San Andres Fault System
 ### Stream offsets
 
-![](Module-ii-Figures-Structural-Geology-And-Crustal-Deformation/StrikeSlipStructures/StreamOffsets.png) <!-- .element style="width:90%" -->
+![](Module-ii-Figures-Structural-Geology-And-Crustal-Deformation/StrikeSlipStructures/StreamOffsets.png) <!-- .element style="width:70%" -->
 
 
 The SAF exhibits multiple evidence that allow for slip-sense determination.
