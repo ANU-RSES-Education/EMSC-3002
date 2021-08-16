@@ -420,14 +420,14 @@ This pattern is well illustrated in the Tibetan plateau, causing lateral extrusi
 ### Conjugate sets
 
 <div>
-<div style="width:50%; float:left; position:absolute; top:50%; transform: translate(0, -50%)">
+<div style="width:50%; float:left">
 
 Tapponnier et al. (1986) modeled the pattern of strike-slip faults north of India using a rigid indenter forced into layered plasticine.
 
 </div>
 <div style="width:50%; float:right">
 
-![](Module-ii-Figures-Structural-Geology-And-Crustal-Deformation/StrikeSlipStructures/Tapponnier.jpg) <!-- .element style="width:90%" -->
+![](Module-ii-Figures-Structural-Geology-And-Crustal-Deformation/StrikeSlipStructures/Tapponnier.jpg) <!-- .element style="width:90%; margin-left:50px" -->
 
 </div>
 </div>
@@ -437,14 +437,14 @@ Tapponnier et al. (1986) modeled the pattern of strike-slip faults north of Indi
 ### Conjugate sets
 
 <div>
-<div style="width:60%; float:left; position:absolute; top:50%; transform: translate(0, -50%)">
+<div style="width:60%; float:left">
 
 Tapponnier et al. (1986) modeled the pattern of strike-slip faults north of India using a rigid indenter forced into layered plasticine.
 
 </div>
 <div style="width:40%; float:right">
 
-![](Module-ii-Figures-Structural-Geology-And-Crustal-Deformation/StrikeSlipStructures/IndiaAsia.jpg) <!-- .element style="width:60%" -->
+![](Module-ii-Figures-Structural-Geology-And-Crustal-Deformation/StrikeSlipStructures/IndiaAsia.jpg) <!-- .element style="width:60%; margin-left:50px" -->
 
 </div>
 </div>

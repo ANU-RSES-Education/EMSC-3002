@@ -22,7 +22,7 @@ The slides are in html / javascript format with some external links and movies. 
 
 <iframe src="../slideshows/Module-ii-Lecture-3-Extensional_Regimes.reveal.html" title="Slideshow" width=100%, height=500 allowfullscreen></iframe>
 
-<a href="../slideshows/Module-ii-Lecture-3-Extensional_Regimes.reveal.htmll?print-pdf"> PDF, Updated Aug 9, 2021 </a>
+<a href="../slideshows/Module-ii-Lecture-3-Extensional_Regimes.reveal.html?print-pdf"> PDF, Updated Aug 9, 2021 </a>
 
 ### Strike-slip, Transpression and transtension
 
