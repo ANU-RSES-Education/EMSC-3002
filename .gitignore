@@ -147,7 +147,7 @@ dmypy.json
 
 Lectures/_static
 Lectures/static_slides
-Lectures/static_pdfs
+Lectures/static_pdfs/*.pdf
 
 
 
