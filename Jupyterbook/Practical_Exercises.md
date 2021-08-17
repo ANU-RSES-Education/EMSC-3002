@@ -29,3 +29,9 @@ John Dewey's “PLATE TECTONICS.” Scientific American 226, no. 5 (1972): 56–
 Build your own mountain! We will be using a sandbox to build and run an analogue model and look at the deformation of a layered sequence of material.
 
 [Exercise 3 Worksheet](Exercises/SandboxCompression)
+
+## Exercise 4, 3D Geometry of Rock Bodies using Google Earth
+
+Google Earth offers the ability to view topography in 3D, and in areas of good exposure, the interaction between topography and rock bodies can be clearly visualized by manipulating the viewer’s perspective.  Through this user interaction, a much clearer understanding of how outcrop patterns related to rock structure can be gained.
+
+[Exercise 4 Worksheet](Exercises/MappingWithGoogleEarth)
