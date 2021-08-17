@@ -1,0 +1,468 @@
+
+<!DOCTYPE html>
+
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Mapping Exercises with Google Earth &#8212; EMSC 3002</title>
+    
+  <link href="../_static/css/theme.css" rel="stylesheet" />
+  <link href="../_static/css/index.c5995385ac14fb8791e8eb36b4908be2.css" rel="stylesheet" />
+
+    
+  <link rel="stylesheet"
+    href="../_static/vendor/fontawesome/5.13.0/css/all.min.css">
+  <link rel="preload" as="font" type="font/woff2" crossorigin
+    href="../_static/vendor/fontawesome/5.13.0/webfonts/fa-solid-900.woff2">
+  <link rel="preload" as="font" type="font/woff2" crossorigin
+    href="../_static/vendor/fontawesome/5.13.0/webfonts/fa-brands-400.woff2">
+
+    
+      
+
+    
+    <link rel="stylesheet" href="../_static/pygments.css" type="text/css" />
+    <link rel="stylesheet" href="../_static/sphinx-book-theme.5f77b4aec8189eecf79907ce328c390d.css" type="text/css" />
+    <link rel="stylesheet" type="text/css" href="../_static/togglebutton.css" />
+    <link rel="stylesheet" type="text/css" href="../_static/copybutton.css" />
+    <link rel="stylesheet" type="text/css" href="../_static/mystnb.css" />
+    <link rel="stylesheet" type="text/css" href="../_static/sphinx-thebe.css" />
+    <link rel="stylesheet" type="text/css" href="../_static/panels-main.c949a650a448cc0ae9fd3441c0e17fb0.css" />
+    <link rel="stylesheet" type="text/css" href="../_static/panels-variables.06eb56fa6e07937060861dad626602ad.css" />
+    
+  <link rel="preload" as="script" href="../_static/js/index.1c5a1a01449ed65a7b51.js">
+
+    <script id="documentation_options" data-url_root="../" src="../_static/documentation_options.js"></script>
+    <script src="../_static/jquery.js"></script>
+    <script src="../_static/underscore.js"></script>
+    <script src="../_static/doctools.js"></script>
+    <script src="../_static/togglebutton.js"></script>
+    <script src="../_static/clipboard.min.js"></script>
+    <script src="../_static/copybutton.js"></script>
+    <script async="async" kind="hypothesis" src="https://hypothes.is/embed.js"></script>
+    <script >var togglebuttonSelector = '.toggle, .admonition.dropdown, .tag_hide_input div.cell_input, .tag_hide-input div.cell_input, .tag_hide_output div.cell_output, .tag_hide-output div.cell_output, .tag_hide_cell.cell, .tag_hide-cell.cell';</script>
+    <script src="../_static/sphinx-book-theme.12a9622fbb08dcb3a2a40b2c02b83a57.js"></script>
+    <script async="async" src="https://unpkg.com/thebelab@latest/lib/index.js"></script>
+    <script >
+        const thebe_selector = ".thebe"
+        const thebe_selector_input = "pre"
+        const thebe_selector_output = ".output"
+    </script>
+    <script async="async" src="../_static/sphinx-thebe.js"></script>
+    <link rel="index" title="Index" href="../genindex.html" />
+    <link rel="search" title="Search" href="../search.html" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="docsearch:language" content="en" />
+    
+  </head>
+  <body data-spy="scroll" data-target="#bd-toc-nav" data-offset="80">
+    
+    <div class="container-fluid" id="banner"></div>
+
+    
+
+    <div class="container-xl">
+      <div class="row">
+          
+<div class="col-12 col-md-3 bd-sidebar site-navigation show" id="site-navigation">
+    
+        <div class="navbar-brand-box">
+    <a class="navbar-brand text-wrap" href="../index.html">
+      
+      <img src="../_static/AuWorldEQ.jpg" class="logo" alt="logo">
+      
+      
+      <h1 class="site-logo" id="site-title">EMSC 3002</h1>
+      
+    </a>
+</div><form class="bd-search d-flex align-items-center" action="../search.html" method="get">
+  <i class="icon fas fa-search"></i>
+  <input type="search" class="form-control" name="q" id="search-input" placeholder="Search this book..." aria-label="Search this book..." autocomplete="off" >
+</form><nav class="bd-links" id="bd-docs-nav" aria-label="Main navigation">
+    <div class="bd-toc-item active">
+        <ul class="nav bd-sidenav">
+ <li class="toctree-l1">
+  <a class="reference internal" href="../FrontPage.html">
+   EMSC 3002 - Structural Geology and Tectonics
+  </a>
+ </li>
+</ul>
+<p class="caption">
+ <span class="caption-text">
+  Introduction
+ </span>
+</p>
+<ul class="nav bd-sidenav">
+ <li class="toctree-l1">
+  <a class="reference internal" href="../Introductory_Remarks.html">
+   Introduction
+  </a>
+ </li>
+ <li class="toctree-l1">
+  <a class="reference internal" href="../Background_Reading.html">
+   Background Reading
+  </a>
+ </li>
+ <li class="toctree-l1">
+  <a class="reference internal" href="../Practical_Exercises.html">
+   Exercises
+  </a>
+ </li>
+</ul>
+<p class="caption">
+ <span class="caption-text">
+  Lecture Notes
+ </span>
+</p>
+<ul class="nav bd-sidenav">
+ <li class="toctree-l1">
+  <a class="reference internal" href="../Lectures/Lecture-1-Introduction.html">
+   Introduction to EMSC 3002
+  </a>
+ </li>
+ <li class="toctree-l1">
+  <a class="reference internal" href="../Lectures/Module-i-GlobalTectonics.html">
+   Module 1 - Global Tectonics
+  </a>
+ </li>
+ <li class="toctree-l1">
+  <a class="reference internal" href="../Lectures/Module-ii-Structural-Geology-And-Crustal-Deformation.html">
+   Module 2 - Structures in the Earth
+  </a>
+ </li>
+ <li class="toctree-l1">
+  <a class="reference internal" href="../Lectures/Module-iii-Theory.html">
+   Module 3 - Theory
+  </a>
+ </li>
+ <li class="toctree-l1">
+  <a class="reference internal" href="../Lectures/Module-iv-BrittleDeformation.html">
+   Module 4 - Brittle Deformation
+  </a>
+ </li>
+ <li class="toctree-l1 has-children">
+  <a class="reference internal" href="../Lectures/Lecture-Fold-Geometry-1.html">
+   Module 5 - Ductile Deformation
+  </a>
+  <input class="toctree-checkbox" id="toctree-checkbox-1" name="toctree-checkbox-1" type="checkbox"/>
+  <label for="toctree-checkbox-1">
+   <i class="fas fa-chevron-down">
+   </i>
+  </label>
+  <ul>
+   <li class="toctree-l2">
+    <a class="reference internal" href="../Lectures/Lecture-Folds-and-Folding-Mechanisms.html">
+     Folds and Folding Mechanisms
+    </a>
+   </li>
+   <li class="toctree-l2">
+    <a class="reference internal" href="../Lectures/Lecture-Structures-Associated-with-Folding.html">
+     Structures associated with folding 1
+    </a>
+   </li>
+   <li class="toctree-l2">
+    <a class="reference internal" href="../Lectures/Lecture-Shear_zones.html">
+     Shear Zones
+    </a>
+   </li>
+  </ul>
+ </li>
+</ul>
+<p class="caption">
+ <span class="caption-text">
+  Glossary
+ </span>
+</p>
+<ul class="nav bd-sidenav">
+ <li class="toctree-l1">
+  <a class="reference internal" href="../Glossary.html">
+   Glossary
+  </a>
+ </li>
+</ul>
+<p class="caption">
+ <span class="caption-text">
+  Bibliography
+ </span>
+</p>
+<ul class="nav bd-sidenav">
+ <li class="toctree-l1">
+  <a class="reference internal" href="../Bibliography.html">
+   Bibliography
+  </a>
+ </li>
+</ul>
+
+    </div>
+</nav> <!-- To handle the deprecated key -->
+
+<div class="navbar_extra_footer">
+  Powered by <a href="https://jupyterbook.org">Jupyter Book</a>
+</div>
+
+</div>
+
+
+          
+
+
+          
+<main class="col py-md-3 pl-md-4 bd-content overflow-auto" role="main">
+    
+    <div class="topbar container-xl fixed-top">
+    <div class="topbar-contents row">
+        <div class="col-12 col-md-3 bd-topbar-whitespace site-navigation show"></div>
+        <div class="col pl-md-4 topbar-main">
+            
+            <button id="navbar-toggler" class="navbar-toggler ml-0" type="button" data-toggle="collapse"
+                data-toggle="tooltip" data-placement="bottom" data-target=".site-navigation" aria-controls="navbar-menu"
+                aria-expanded="true" aria-label="Toggle navigation" aria-controls="site-navigation"
+                title="Toggle navigation" data-toggle="tooltip" data-placement="left">
+                <i class="fas fa-bars"></i>
+                <i class="fas fa-arrow-left"></i>
+                <i class="fas fa-arrow-up"></i>
+            </button>
+            
+            
+<div class="dropdown-buttons-trigger">
+    <button id="dropdown-buttons-trigger" class="btn btn-secondary topbarbtn" aria-label="Download this page"><i
+            class="fas fa-download"></i></button>
+
+    <div class="dropdown-buttons">
+        <!-- ipynb file if we had a myst markdown file -->
+        
+        <!-- Download raw file -->
+        <a class="dropdown-buttons" href="../_sources/Exercises/MappingWithGoogleEarth.md"><button type="button"
+                class="btn btn-secondary topbarbtn" title="Download source file" data-toggle="tooltip"
+                data-placement="left">.md</button></a>
+        <!-- Download PDF via print -->
+        <button type="button" id="download-print" class="btn btn-secondary topbarbtn" title="Print to PDF"
+            onClick="window.print()" data-toggle="tooltip" data-placement="left">.pdf</button>
+    </div>
+</div>
+
+            <!-- Source interaction buttons -->
+
+<div class="dropdown-buttons-trigger">
+    <button id="dropdown-buttons-trigger" class="btn btn-secondary topbarbtn"
+        aria-label="Connect with source repository"><i class="fab fa-github"></i></button>
+    <div class="dropdown-buttons sourcebuttons">
+        <a class="repository-button"
+            href="https://github.com/ANU-RSES-Education/EMSC-3002"><button type="button" class="btn btn-secondary topbarbtn"
+                data-toggle="tooltip" data-placement="left" title="Source repository"><i
+                    class="fab fa-github"></i>repository</button></a>
+        
+        
+    </div>
+</div>
+
+            <!-- Full screen (wrap in <a> to have style consistency -->
+
+<a class="full-screen-button"><button type="button" class="btn btn-secondary topbarbtn" data-toggle="tooltip"
+        data-placement="bottom" onclick="toggleFullScreen()" aria-label="Fullscreen mode"
+        title="Fullscreen mode"><i
+            class="fas fa-expand"></i></button></a>
+
+            <!-- Launch buttons -->
+
+        </div>
+
+        <!-- Table of contents -->
+        <div class="d-none d-md-block col-md-2 bd-toc show">
+            
+            <div class="tocsection onthispage pt-5 pb-3">
+                <i class="fas fa-list"></i> Contents
+            </div>
+            <nav id="bd-toc-nav">
+                <ul class="visible nav section-nav flex-column">
+ <li class="toc-h2 nav-item toc-entry">
+  <a class="reference internal nav-link" href="#intended-learning-goals">
+   Intended Learning Goals
+  </a>
+ </li>
+ <li class="toc-h2 nav-item toc-entry">
+  <a class="reference internal nav-link" href="#setting-up-google-earth">
+   Setting up Google Earth
+  </a>
+ </li>
+ <li class="toc-h2 nav-item toc-entry">
+  <a class="reference internal nav-link" href="#activity-1-relationship-between-outcrop-pattern-and-planar-structure">
+   Activity 1: Relationship between outcrop pattern and planar structure
+  </a>
+  <ul class="nav section-nav flex-column">
+   <li class="toc-h3 nav-item toc-entry">
+    <a class="reference internal nav-link" href="#activity-2-relationship-between-outcrop-pattern-and-folded-rocks">
+     Activity 2: Relationship between outcrop pattern and folded rocks
+    </a>
+   </li>
+   <li class="toc-h3 nav-item toc-entry">
+    <a class="reference internal nav-link" href="#activity-3-dip-slopes">
+     Activity 3: Dip slopes
+    </a>
+   </li>
+   <li class="toc-h3 nav-item toc-entry">
+    <a class="reference internal nav-link" href="#activity-4-recognizing-different-rock-types">
+     Activity 4: Recognizing different rock types
+    </a>
+   </li>
+   <li class="toc-h3 nav-item toc-entry">
+    <a class="reference internal nav-link" href="#activity-5-constructing-a-geologic-map-and-cross-section">
+     Activity 5: Constructing a geologic map and cross section
+    </a>
+   </li>
+   <li class="toc-h3 nav-item toc-entry">
+    <a class="reference internal nav-link" href="#summary-reflection">
+     Summary reflection
+    </a>
+   </li>
+  </ul>
+ </li>
+</ul>
+
+            </nav>
+        </div>
+    </div>
+</div>
+    <div id="main-content" class="row">
+        <div class="col-12 col-md-9 pl-md-3 pr-md-0">
+        
+              <div>
+                
+  <div class="section" id="mapping-exercises-with-google-earth">
+<h1>Mapping Exercises with Google Earth<a class="headerlink" href="#mapping-exercises-with-google-earth" title="Permalink to this headline">¶</a></h1>
+<p>Understanding the relationship between the outcrop pattern and the 3-D geometry of rock bodies can be a challenge.
+Google Earth offers the ability to view topography in 3D, and in areas of good exposure, the interaction between topography and rock bodies can be clearly visualized by manipulating the viewer’s perspective.  Through this user interaction, a much clearer understanding of how outcrop patterns related to rock structure can be gained.</p>
+<p>This activity is designed as a self-paced exercise for students working individually or in small groups.</p>
+<p>Students must have some familiarity with Google Earth.  Specifically, they must be comfortable with the controls to zoom, change viewing angle, rotate, and fly around images.  They must also have some understanding of geologic maps and cross sections, and strike and dip.</p>
+<div class="section" id="intended-learning-goals">
+<h2>Intended Learning Goals<a class="headerlink" href="#intended-learning-goals" title="Permalink to this headline">¶</a></h2>
+<ul class="simple">
+<li><p>Students will be able to interpret the geometry of planar dipping layers from the outcrop pattern</p></li>
+<li><p>Students will be able to recognize different rock units based on their characteristics as seen on satellite images</p></li>
+<li><p>Students will be able to draw a geologic map and interpret structure based on the map pattern of different units</p></li>
+<li><p>Students will be able to visualize the three-dimensional geometry of rock bodies from patterns on two-dimensional surfaces.</p></li>
+</ul>
+</div>
+<div class="section" id="setting-up-google-earth">
+<h2>Setting up Google Earth<a class="headerlink" href="#setting-up-google-earth" title="Permalink to this headline">¶</a></h2>
+<p>Start by opening <span class="xref myst">Atlas.kmz</span> in Google Earth.  Make sure that Terrain is checked and that the elevation exaggeration (Tools/Options) is set to 3.  Double-click the file folder in the Places list to bring you to the Atlas Mountains.  Expand the folder list if it is not already so.  Take a few minutes to acquaint yourself with the fantastically well-exposed geology of the region by moving around, zooming-in on areas of interest, rotating the view, and changing the angle of tilt.</p>
+</div>
+<div class="section" id="activity-1-relationship-between-outcrop-pattern-and-planar-structure">
+<h2>Activity 1: Relationship between outcrop pattern and planar structure<a class="headerlink" href="#activity-1-relationship-between-outcrop-pattern-and-planar-structure" title="Permalink to this headline">¶</a></h2>
+<p>Double-click on the <strong>Outcrop Ia placemark</strong>.  Zoom in to about 10 miles eye elevation (found at bottom right corner of screen).  This area is underlain by non-marine sedimentary rocks with distinctly different colors.  The topography is moderately rugged with ridges of relatively resistant rocks cut by numerous washes and gullies.  Note the pattern of <strong>“V’s”</strong> in the color bands where the gullies cross the rock units.  Note the direction of stream flow by looking at the branching pattern of the tributaries (tributaries merge in the downstream direction except on alluvial fans where they diverge downstream)</p>
+<ol>
+<li><p>Does the “V” in the color band point upstream or downstream?</p></li>
+<li><p>Can you tell the direction of dip of bedding in the rock units?  What is it?</p>
+<p>Zoom in to about 20,000 ft elevation.  Tilt the view to a low angle and rotate it around to different positions.</p>
+</li>
+<li><p>What is the dip direction of bedding?</p>
+<p>Tilt the scene back to vertical and reexamine the pattern of “V’s”.  You may want to go back and forth between tilted and vertical a few times.</p>
+</li>
+<li><p>Describe the relationship between the direction of the “V” and the dip direction.</p>
+<p>Double-click on the <strong>Outcrop Ib</strong> placemark.  Follow the same steps as above to determine the dip direction.</p>
+</li>
+<li><p>What is the dip direction of the bedding?</p></li>
+<li><p>Describe the relationship between the direction of the “V” and the dip direction.</p>
+<p>Double-click on the <strong>Outcrop Ic</strong> placemark.  Examine the area by zooming, tilting, and rotating.</p>
+</li>
+<li><p>What is different about the pattern of rock units in this area compared to the previous two areas?</p></li>
+<li><p>What is the dip of bedding?</p></li>
+<li><p>How would you describe the relationship between the outcrop pattern and bedding dip here?</p></li>
+<li><p>Compare this area to the patterns at <strong>Outcrop Id</strong>.  What is the difference?</p>
+<p>Examine the area around the <strong>Outcrop Ie</strong> placemark paying particular attention to the feature crossing the area from NE to SW.</p>
+</li>
+<li><p>Describe the outcrop pattern of this feature as it crosses the hills in the center of the area.</p></li>
+<li><p>What is the dip of this feature?</p></li>
+<li><p>Speculate on the origin of this feature?</p></li>
+</ol>
+<div class="section" id="activity-2-relationship-between-outcrop-pattern-and-folded-rocks">
+<h3>Activity 2: Relationship between outcrop pattern and folded rocks<a class="headerlink" href="#activity-2-relationship-between-outcrop-pattern-and-folded-rocks" title="Permalink to this headline">¶</a></h3>
+<p>Double-click on the <strong>Outcrop II placemark</strong>.  Examine the area by zooming, tilting, and rotating.  Follow any of the distinctive units and note the general pattern.</p>
+<ol class="simple">
+<li><p>How does the outcrop pattern in this area differ from those in previous areas (at the same level of zoom)?</p></li>
+<li><p>Zoom-in and determine the dip direction at several places in the area.  Are they the same?  Is there a pattern to the dip directions?</p></li>
+<li><p>Describe the structure in this area.</p></li>
+</ol>
+</div>
+<div class="section" id="activity-3-dip-slopes">
+<h3>Activity 3: Dip slopes<a class="headerlink" href="#activity-3-dip-slopes" title="Permalink to this headline">¶</a></h3>
+<p>Double-click on the <strong>Outcrop III placemark</strong>.  Examine the area by zooming, tilting, and rotating.  You are looking at a large dip slope, which is where the ground surface coincides with a single bedding plane.</p>
+<ol class="simple">
+<li><p>What is the dip direction of bedding?</p></li>
+<li><p>What could explain the distinctive pattern on the prominent dip slope?</p></li>
+</ol>
+</div>
+<div class="section" id="activity-4-recognizing-different-rock-types">
+<h3>Activity 4: Recognizing different rock types<a class="headerlink" href="#activity-4-recognizing-different-rock-types" title="Permalink to this headline">¶</a></h3>
+<p>Double-click on the <strong>Outcrop IV placemark</strong>.  Examine the area by zooming, tilting, and rotating.</p>
+<ol class="simple">
+<li><p>Compare the appearance of the rocks near the placemark with that of the rocks along the edges of this structure  Are these all the same rock types (i.e., igneous, sedimentary, metamorphic)?</p></li>
+<li><p>Which rock types are found at each placemark?</p></li>
+</ol>
+</div>
+<div class="section" id="activity-5-constructing-a-geologic-map-and-cross-section">
+<h3>Activity 5: Constructing a geologic map and cross section<a class="headerlink" href="#activity-5-constructing-a-geologic-map-and-cross-section" title="Permalink to this headline">¶</a></h3>
+<p>Construct a geologic map and cross section of each of the three areas (polygons), Area 1, Area 2, and Area 3.  For your base map, print the view filling the page as much as possible with the polygon.  For each area, draw several contacts using the most distinctive units.  Place strike and dip symbols at several places within the area to show the orientation of bedding.  Sketch a cross section along the line in each polygon.</p>
+</div>
+<div class="section" id="summary-reflection">
+<h3>Summary reflection<a class="headerlink" href="#summary-reflection" title="Permalink to this headline">¶</a></h3>
+<ol class="simple">
+<li><p>Describe how the outcrop pattern on a geological map can be used to determine the three-dimensional structure.</p></li>
+<li><p>That characteristics can be used to differentiate rock units on a satellite image?  Are there any specific to igneous, metamorphic, or sedimentary rocks?</p></li>
+</ol>
+</div>
+</div>
+</div>
+
+    <script type="text/x-thebe-config">
+    {
+        requestKernel: true,
+        binderOptions: {
+            repo: "binder-examples/jupyter-stacks-datascience",
+            ref: "master",
+        },
+        codeMirrorConfig: {
+            theme: "abcdef",
+            mode: "python"
+        },
+        kernelOptions: {
+            kernelName: "python3",
+            path: "./Exercises"
+        },
+        predefinedOutput: true
+    }
+    </script>
+    <script>kernelName = 'python3'</script>
+
+              </div>
+              
+        
+        <div class='prev-next-bottom'>
+            
+
+        </div>
+        
+        </div>
+    </div>
+    <footer class="footer mt-5 mt-md-0">
+    <div class="container">
+      <p>
+        
+          By EMSC 3002 teaching team<br/>
+        
+            &copy; Copyright 2021.<br/>
+      </p>
+    </div>
+  </footer>
+</main>
+
+
+      </div>
+    </div>
+  
+  <script src="../_static/js/index.1c5a1a01449ed65a7b51.js"></script>
+
+  
+  </body>
+</html>
