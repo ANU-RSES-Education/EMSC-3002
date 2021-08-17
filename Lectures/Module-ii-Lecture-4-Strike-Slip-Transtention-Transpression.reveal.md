@@ -732,6 +732,17 @@ When a strike-slip fault zone or shear zone diverts from simple shear we get **t
 </div>
 </div>
 
+<--v-->
+
+**$W_k$** is a measure of the reation between vorticity (internal rotation) and how fast straion accumulates during the deformation.
+
+It is defined as $$ W_k = \frac{w}{\sqrt{2 (s_x^2 + s_y^2 + s_z^2)}}$$ where $s_n$ are the principal strain rates along the Instantaneous Stretching Axes of the Strain Ellipsoid.
+
+<--v-->
+
+![](Module-ii-Figures-Structural-Geology-And-Crustal-Deformation/StrikeSlipStructures/PaddleWheel.jpg) <!-- .element style="width:70%" -->
+
+The paddle-wheel interpretation is useful to visualise the effect of $W_k$. The axis of the paddle wheel is parallel to the vorticity vector and is not rotating fo coaxial deformation ($W_k = 0$) and show an increasing tendency to rotate with increasing values of $W_k$.
 
 <--o-->
 ## Transpression and Transtension
@@ -794,7 +805,6 @@ This influences the initial orientation of fold hinges. They become closer to th
 (depends on $W_k$). The hinges rotate toward parallelism withing the zone.
 
 ![](Module-ii-Figures-Structural-Geology-And-Crustal-Deformation/StrikeSlipStructures/TranspressionFoldingC.png) <!-- .element style="width:70%" -->
-
 
 <--o-->
 ## Transpression and Transtension
