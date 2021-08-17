@@ -9,7 +9,6 @@ cd ..
 # This is where we can build LaTeX beamer content to pdfs
 # pdfs should be build to Lectures/static_pdfs/pdfs
 
-
 # Now build the remaining book
 
 jupyter-book build . 
@@ -22,3 +21,6 @@ cp -r Lectures/static_pdfs/pdfs _build/html
 
 mkdir -p _build/html/Figures/Movies
 cp -r Figures/Movies _build/html/Figures
+
+mkdir -p _build/html/Exercises/Resources
+cp -r Exercises/Resources _build/html/Exercises
