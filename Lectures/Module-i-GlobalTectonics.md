@@ -14,7 +14,12 @@ The first part of this module introduces the structure of the Earth on a global 
 
 <iframe src="../slideshows/Module-i-GlobalTectonics-1.reveal.html" title="Slideshow" width=100%, height=500, allowfullscreen></iframe>
 
-<a href="../slideshows/Module-i-GlobalTectonics-1.reveal.html?print-pdf"> PDF, Updated July 27, 2021 </a>
+<a href="../slideshows/Module-i-GlobalTectonics-1.reveal.html?print-pdf">Build your own PDF</a>
+
+<!-- 
+<iframe src="../pdfs/Lecture-1-Introduction.reveal.pdf" width="100%" height="500px", allowfullscreen>
+</iframe>
+-->
 
 ### Plate Boundaries
 
@@ -22,9 +27,7 @@ The next part of the module covers the nature of the plate boundaries and introd
 
 <iframe src="../slideshows/Module-i-GlobalTectonics-2.reveal.html" title="Slideshow" width=100%, height=500, allowfullscreen></iframe> 
 
-<a href="../slideshows/Module-i-GlobalTectonics-2.reveal.html?print-pdf"> PDF, Updated August 1, 2021 </a>
-
-This is the link to the USGS page on the M8.2 Earthquake in Alaska during the week of lectures: [USGS News and Analysis](https://www.usgs.gov/news/magnitude-82-earthquake-alaska)
+<a href="../slideshows/Module-i-GlobalTectonics-2.reveal.html?print-pdf">Build your own PDF</a>
 
 
 ### Stresses, Strains, Strain-rates and Strength
@@ -34,7 +37,7 @@ The different way rocks respond to stress.
 
 <iframe src="../slideshows/Module-i-GlobalTectonics-3.reveal.html" title="Slideshow" width=100%, height=500, allowfullscreen></iframe>
 
-<a href="../slideshows/Module-i-GlobalTectonics-3.reveal.html?print-pdf"> PDF, Updated August 1, 2021 </a>
+<a href="../slideshows/Module-i-GlobalTectonics-3.reveal.html?print-pdf">Build your own PDF</a>
 
 
 ### Plate Kinematics and reconstruction
@@ -45,7 +48,9 @@ If we understand the *kinematics* of plate boundary evolution, then we can run a
 
 ## Links
 
-  The plate reconstruction community uses a tool known as [GPlates](https://www.gplates.org) that was developed at the University of Sydney (along with many international collaborators). There is a portal where you can [browse interactive movies](http://portal.gplates.org) of plates moving over hundreds of millions of years with various data visualised on the moving plates.
+The plate reconstruction community uses a tool known as [GPlates](https://www.gplates.org) that was developed at the University of Sydney (along with many international collaborators). There is a portal where you can [browse interactive movies](http://portal.gplates.org) of plates moving over hundreds of millions of years with various data visualised on the moving plates.
+
+This is the link to the USGS page on the M8.2 Earthquake in Alaska during the week of lectures: [USGS News and Analysis](https://www.usgs.gov/news/magnitude-82-earthquake-alaska)
 
 
 ## Background Reading

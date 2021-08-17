@@ -18,7 +18,7 @@ Students must have some familiarity with Google Earth.  Specifically, they must 
 
 Start by opening Atlas.kmz in Google Earth.  Make sure that Terrain is checked and that the elevation exaggeration (Tools/Options) is set to 3.  Double-click the file folder in the Places list to bring you to the Atlas Mountains.  Expand the folder list if it is not already so.  Take a few minutes to acquaint yourself with the fantastically well-exposed geology of the region by moving around, zooming-in on areas of interest, rotating the view, and changing the angle of tilt.
 
-<a href="../Exercises/Ressources/Atlas.kmz"> Atlas.kmz </a>
+<a href="../Exercises/Resources/Atlas.kmz"> Atlas.kmz </a>
 
 ## Activity 1: Relationship between outcrop pattern and planar structure
 
