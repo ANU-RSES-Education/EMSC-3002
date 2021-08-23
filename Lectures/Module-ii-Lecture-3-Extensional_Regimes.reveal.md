@@ -53,7 +53,7 @@ Extensional faults and shear zones are widespread in most orogenic belts.
 Current interest is also related to the fact that many hydrocarbon ressources are located in
 rift settings and are controlled by normal faults.
 
-Development of hydrocarbon reservoir also requires a good understanding of extensional faults.
+Development of hydrocarbon reservoirs also requires a good understanding of extensional faults.
 
 <--o-->
 ## Tectonic Extension
@@ -143,8 +143,7 @@ However, the blocks show significant internal deformation.
 
 It is unclear how exactly domino systems form.
 
-Many domino systems rest on low-angle (<30 degrees detachments) that nucleate in 
-mechanically weak zones (e.g. clay, salt).
+Many domino systems rest on low-angle (<30 degrees detachments) that nucleate in mechanically weak zones (e.g. clay, salt).
 
 Rotation of strata prior to faulting can sometimes explain domino systems.
 
@@ -177,7 +176,7 @@ Some Definitions:
 
 **Antithetic**: in a direction opposite to the prevailing sense of vergence (Sense of shear or transport).
 **Synthetic**: Describe a structure with the prevailing orientation of vergence.
-**Conjuguate**: A pair, or twoo sets of faults, shear zones, asymmetrical folds, kink bands with opposing dips.
+**Conjuguate**: A pair, or two sets of faults, shear zones, asymmetrical folds, kink bands with opposing dips.
 
 
 <--o-->
@@ -189,7 +188,7 @@ Some Definitions:
 
 <--o-->
 ## Normal Fault systems
-### Accommodating Extension: How do we avoid gaps?Normal Fault systems
+### Accommodating Extension: How do we avoid gaps?
 
 <div>
 <div style="width:50%; float:left; position:absolute; top:50%; transform: translate(0, -50%)">
@@ -207,7 +206,7 @@ Some Definitions:
 
 <--o-->
 ## Normal Fault systems
-### Accommodating Extension: How do we avoid gaps?Normal Fault systems
+### Accommodating Extension: How do we avoid gaps?
 
 <div>
 <div style="width:50%; float:left; position:absolute; top:50%; transform: translate(0, -50%)">
@@ -224,7 +223,7 @@ Some Definitions:
 
 <--o-->
 ## Normal Fault systems
-### Accommodating Extension: How do we avoid gaps?ormal Fault systems
+### Accommodating Extension: How do we avoid gaps?
 
 <div>
 <div style="width:50%; float:left; position:absolute; top:50%; transform: translate(0, -50%)">
@@ -340,7 +339,7 @@ The continental rift becomes inactive or "passive" at the margin.
 
 Orogens are frequently associated with extension.
 
-Following the Wilson cycle, the orogen can be subject to extension, from oceanic spreading and subduction to containental collision and eventually orogen collapse.
+Following the Wilson cycle, the orogen can be subject to extension, from oceanic spreading and subduction to continental collision and eventually orogen collapse.
 
 </div>
 <div style="width:60%; float:right">
@@ -480,7 +479,7 @@ Tectonic displacement takes place along a base decollement from the hinterland t
 <div>
 <div style="width:40%; float:left">
 
-The Caledonian orogen of Southern Norway features a nimber of major low-angle faults that formed in response to orogenic collapse and reversal of plate movements. 
+The Caledonian orogen of Southern Norway features a number of major low-angle faults that formed in response to orogenic collapse and reversal of plate movements. 
 
 </div>
 <div style="width:60%; float:right">
@@ -498,7 +497,7 @@ The Caledonian orogen of Southern Norway features a nimber of major low-angle fa
 <div>
 <div style="width:40%; float:left">
 
-The Caledonian orogen of Southern Norway features a nimber of major low-angle faults that formed in response to orogenic collapse and reversal of plate movements. 
+The Caledonian orogen of Southern Norway features a number of major low-angle faults that formed in response to orogenic collapse and reversal of plate movements. 
 
 </div>
 <div style="width:60%; float:right">
@@ -516,7 +515,7 @@ The Caledonian orogen of Southern Norway features a nimber of major low-angle fa
 <div>
 <div style="width:40%; float:left">
 
-The Caledonian orogen of Southern Norway features a nimber of major low-angle faults that formed in response to orogenic collapse and reversal of plate movements. 
+The Caledonian orogen of Southern Norway features a number of major low-angle faults that formed in response to orogenic collapse and reversal of plate movements. 
 
 </div>
 <div style="width:60%; float:right">
