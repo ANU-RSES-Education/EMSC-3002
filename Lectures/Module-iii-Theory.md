@@ -4,31 +4,28 @@ This section of the course covers the theoretical background of structural geolo
 
 ## Lecture Slides
 
-The slides are originally made using PowerPoint and then convert to html / javascript format through stacking a series of snapshots. If you would like to download a pdf version, the link provided will process the files and you can then *print from your browser* to a file (or paper copy if that is what you prefer). A pdf version of the original format is provided in the Wattle to have three slides each page on the left with space for notes on the right. 
+The slides are originally made using PowerPoint and then convert to html / javascript format through stacking a series of snapshots. Therefore it does not work well if printing them from your browser. But a pdf version of the original format is provided in the Wattle to have three slides each page on the left with space for notes on the right. 
 
 ### Stress
 
 The first part of this module introduces the concept of stress, stress tensor, the derivation and application of Mohr circle and the methods to measure stress inside the Earth.
 
 <iframe src="../slideshows/Module-iii-lecture1-Theory.reveal.html" title="Slideshow" width=100%, height=470, allowfullscreen></iframe>
-
-<a href="../slideshows/Module-iii-lecture1-Theory.reveal.html">Build your own PDF</a>
+Login to [Wattle](https://wattlecourses.anu.edu.au/course/) for the pdf version.
 
 ### Strain and Strain Rate
 
 The next part of the module covers the topic of strain and strain rate, their tensor expression and introduces the strain classification and general methods for strain analysis. 
 
 <iframe src="../slideshows/Module-iii-lecture2-Theory.reveal.html" title="Slideshow" width=100%, height=470, allowfullscreen></iframe>
-
-<a href="../slideshows/Module-iii-lecture2-Theory.reveal.html">Build your own PDF</a>
+Login to [Wattle](https://wattlecourses.anu.edu.au/course/) for the pdf version.
 
 ### Rheology
 
 The last part of the module explores the relationship between stress and strain, i.e. the rheological property of rock materials.
 
 <iframe src="../slideshows/Module-iii-lecture3-Theory.reveal.html" title="Slideshow" width=100%, height=470, allowfullscreen></iframe>
-
-<a href="../slideshows/Module-iii-lecture3-Theory.reveal.html">Build your own PDF</a>
+Login to [Wattle](https://wattlecourses.anu.edu.au/course/) for the pdf version.
 
 ## Resources
 
