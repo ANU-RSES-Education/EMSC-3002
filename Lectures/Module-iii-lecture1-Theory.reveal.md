@@ -156,15 +156,6 @@ What you will learn about stress.
 
 <--o-->
 
-## HOW WE MEASURE STRESS
-***Hydraulic fracturing*** is frequently applied to petroleum reservoirs to increase the near-well permeability and it means increasing the fluid pressure until the rock fractures. It relies on the theory that pore fluid pressure reduces the effective stress, which is the stress at grain contacts in porous rocks.
-
-<center>
-<iframe width="800" height="500" src="https://www.youtube.com/embed/T_yfPcX1gG4?start=0" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-</center>
-
-<--o-->
-
 <!-- .slide: data-background="Figures-Theory1/slide29.png" -->
 
 <--o-->
@@ -181,33 +172,33 @@ What you will learn about stress.
 
 <--o-->
 
-## Plate Bending / Unbending Stresses
-
-![](images/GlobalTectonics/PlateBendingStrains.jpg) <!-- .element style="width:50%;float:right;margin-left:50px;" -->
-
-</br>
-
-The stress state of the downgoing plate is related to bending strains *(elastic)* or strain-rates *(viscous)*. The balance between viscous and elastic behaviour is not well understood and probabably varies within the slab (e.g. effects of temperature, faulting).
-
-If the deformation is elastic then the shape completely determines the stresses (Hooke's law).
-
-The diagram on the right shows this: the elastic stresses in a slab that bends, then unbends, vanish in the region where the slab straightens out.
+<!-- .slide: data-background="Figures-Theory1/slide33.png" -->
 
 <--o-->
 
-## Plate Bending / Unbending Stresses
+## HOW WE MEASURE STRESS
+***Hydraulic fracturing*** is frequently applied to petroleum reservoirs to increase the near-well permeability and it means increasing the fluid pressure until the rock fractures. It relies on the theory that pore fluid pressure reduces the effective stress, which is the stress at grain contacts in porous rocks.
 
 <center>
-
-![](images/GlobalTectonics/SandifordPhD_FlatSlabBending.png) <!-- .element style="width:66%;" -->
-
+<iframe width="800" height="500" src="https://www.youtube.com/embed/T_yfPcX1gG4?start=0" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 </center>
 
-If the slab is *viscous*, the change of shape is associated with stress and a very different set of
-stresses is predicted.
+<--o-->
 
-<small>
+<!-- .slide: data-background="Figures-Theory1/slide35.png" -->
 
-Sandiford, Dan, 2019 (PhD Thesis, University of Melbourne)
+<--o-->
 
-</small>
+<!-- .slide: data-background="Figures-Theory1/slide36.png" -->
+
+<--o-->
+
+<!-- .slide: data-background="Figures-Theory1/slide37.png" -->
+
+<--o-->
+
+<!-- .slide: data-background="Figures-Theory1/slide38.png" -->
+
+<--o-->
+
+<!-- .slide: data-background="Figures-Theory1/slide39.png" -->
