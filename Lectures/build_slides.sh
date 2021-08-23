@@ -31,4 +31,5 @@ Figures-Brittle_deformation2,\
 Figures-Brittle_deformation3,\
 Figures-Brittle_deformation4,\
 Figures-Theory1,\
-Figures-Theory2
+Figures-Theory2,\
+Figures-Theory3
