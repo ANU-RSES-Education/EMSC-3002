@@ -489,7 +489,7 @@ When divergent boundaries occur in continental plates, a different geological fe
 
 **Transform boundaries** are places where plates slip horizontally past one another. At transform boundaries lithosphere is neither created nor destroyed. Many transform boundaries are found on the sea floor, where they connect segments of diverging mid-ocean ridges.
 
-*Aerial view of the Sandreas Fault in the Carrizo Plain, Central California. Note the sudden change of course of the stream channel, consistent with 130 meters of right-lateral displacement. (source: Haakon Fossen)*
+*Aerial view of the San Andreas Fault in the Carrizo Plain, Central California. Note the sudden change of course of the stream channel, consistent with 130 meters of right-lateral displacement. (source: Haakon Fossen)*
 
 <--o-->
 

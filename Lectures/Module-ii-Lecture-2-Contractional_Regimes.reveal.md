@@ -14,10 +14,10 @@ revealOptions:
 
 ## Contractional regimes
 
-  - Louis Moresi (convenor)
-  - **Romain Beucher** (lecturer)
-  - Chengxin Jiang (lecturer)
-  - Stephen Cox (curriculum advisor)
+- Louis Moresi (convenor)
+- **Romain Beucher** (lecturer)
+- Chengxin Jiang (lecturer)
+- Stephen Cox (curriculum advisor)
 
 Australian National University
 
@@ -43,18 +43,16 @@ corrections._
 ## Intended learning outcomes
 
 <--o-->
-## Contractional Structures
 
+## Contractional Structures
 
 **Contractional structures occur in any tectonic regime, but they are more common along convergent boundaries.**
 
 Understanding contractional structures is important for understanding formation of mountain belts in general, but also for improved oil and gas exploration methods, because many world's oil ressources are located in fold and thrust belts.
 
-
 <--o-->
 
 ## Contractional Structures
-
 
 **Contractional deformation structures when rocks are shortened by tectonic or gravitational forces**
 
@@ -67,7 +65,6 @@ We find contractional faults and folds in:
 <--o-->
 
 ## Contractional Structures
-
 
 **Shortening can be accomodated in different ways**
 
@@ -135,7 +132,7 @@ Thrusts faults bring older rocks on top of youger rocks, and rocks of higher met
 
 *Stratigraphy and Metamorphic grade can both be used to map thrusts... Stratigraphic control is particularly important*
 
-*Photo: Chief Mountain, Montana. pre-Cambrian limestones over Cretaceous shales.* 
+*Photo: Chief Mountain, Montana. pre-Cambrian limestones over Cretaceous shales.*
 
 <--o-->
 
@@ -147,11 +144,11 @@ Thrusts faults bring older rocks on top of youger rocks, and rocks of higher met
 
 ![](Module-ii-Figures-Structural-Geology-And-Crustal-Deformation/ContractionalStructures/NappeComplexes.png) <!-- .element style="width:60%;float:right; margin-left:50px;" -->
 
-**Thrust nappes** consist of one or several subordiante **Thrust sheets** that have a common diplacement history.
+**Thrust nappes** consist of one or several subordinate **Thrust sheets** that have a common diplacement history.
 
 The smallest tectonic units originating within the pile is called a **horse**
 
-Nappes, sheets and horses are bounded at their base by a **sole thrust** or **floor thurst** and at the top by
+Nappes, sheets and horses are bounded at their base by a **sole thrust** or **floor thrust** and at the top by
 a **roof thrust**
 
 Nappes are thin compared to their lateral extent. They commonly show a wedge geometry in cross-section.
@@ -174,7 +171,7 @@ Nappes are thin compared to their lateral extent. They commonly show a wedge geo
 
 Locally transported rocks are referred to as **parautochthonous**.
 
-The low-angle fault or shear-zone that separates allochthon from autochthon is called a **detachment** or **decollement**.
+The low-angle fault or shear-zone that separates allochthon from autochthon is called a **detachment** or **décollement**.
 
 <--o-->
 ## Thrust Faults and Tectonic Units
@@ -229,6 +226,7 @@ Thrust typically propagates in a stepwise manner that gives rise to **ramp-flat 
 **Ramps** develop where the thrust cuts across relatively stiff layers.
 
 Ramps categories are based on their orientation relative to the direction of transport.
+
 - Frontal ramps are perpendicular with reverse dip-slip.
 - Lateral ramps are parallel to the direction of transport. They are associated with vertical transfer faults.
 - Oblique ramps form oblique slip faults.
@@ -274,6 +272,7 @@ Imbrications zones form preferentially in the foreland.
 
 <div>
 <div style="width:50%; float:left">
+
 Contractional faults in the foreland of an orogenic zone typically form **imbrication zones** and **duplex structures**.
 
 **Duplexes** are structures confined between an overlying **roof thrust** and an underlying **floor thrust**.
@@ -420,7 +419,7 @@ Three gravity models have been proposed.
 ### Gravity Models: the Gliding Model
 
 - The basal detachment dips toward the foreland
-- Nappe displacement do not require any internal deformaion.
+- Nappe displacement do not require any internal deformation.
 
 ![](Module-ii-Figures-Structural-Geology-And-Crustal-Deformation/ContractionalStructures/GlidingModel1.png) <!-- .element style="width:50%;float:left" -->
 ![](Module-ii-Figures-Structural-Geology-And-Crustal-Deformation/ContractionalStructures/GlidingModel2.png) <!-- .element style="width:50%;float:left" -->
