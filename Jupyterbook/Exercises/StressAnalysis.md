@@ -10,7 +10,7 @@ Knowing the stress state of our Earth is helpful in many ways. In this exercise,
 
 </div>
 
-Consider a tall rectangular of rock above a point at 6 km depth (z) in the crust. This rectangle has a base of 5 km in length (l) and 2 km in width (w). What are the corresponding lithostatic stress at this point? Let’s assume that rock column has an averaged density of 2.5 g/cm^3 and the gravitational acceleration value at that point is 9.85 m/s^2. What is the hydrostatic stress if replacing that rock with a water column (do not worry about the empty house)? What geological processes could potentially reduce the stress at that point?
+Consider a tall rectangular of rock above a point at 6 km depth (z) in the crust. This rectangle has a base of 5 km in length (l) and 2 km in width (w). What are the corresponding lithostatic stress at this point? Let’s assume that rock column has an averaged density of 2.5 g/$cm^3$ and the gravitational acceleration value at that point is 9.85 m/$s^2$. What is the hydrostatic stress if replacing that rock with a water column (do not worry about the empty house)? What geological processes could potentially reduce the stress at that point?
 
 Note: convert all the measurements in the same units before doing the math. 
 ::::
@@ -27,10 +27,13 @@ Note: convert all the measurements in the same units before doing the math.
 
 Lake George is flanked to the west by the Lake George Fault, which is a west-dipping fault and is thought to have formed about 3.93 Ma ago. Dr. Trevor Allen from Geoscience Australia (GA) described the Lake George Fault as “one of Australia’s most active fault lines” in his recent [ABC talk](https://www.abc.net.au/radionational/programs/ockhamsrazor/earthquakes-in-australia-mythbusting/13494950?fbclid=IwAR1TIbrIahvU046e5jILWz-fAEnwBdAMgLQgcPn62mJ9EX5KXuqLqbJRXS8). Imagine GA shows you a W-E cross section of this fault from one of their early surveys in the region, and it shows the fault has a dipping angle of 45&deg; and extends to 5 km depth. GA also provided you a stress tensor along this section as described below. 
 
-$$\sigma = 
-\begin{bmatrix}-45 & -8\\
--8 & -15
-\end{bmatrix}$$
+$$
+\sigma = 
+\begin{bmatrix}
+-45 & -8 \\
+-8 & -15 \\
+\end{bmatrix}
+$$
 
 As a structural geologist, you are asked by the GA for the following questions. What type of this fault could be based on this stress tensor if assuming Anderson’s theory of faulting? What is the stress acting across that fault plane (as a vector)? What are the corresponding normal and shear stress along the plane, respectively? 
 Note: unit vector is a vector of a unit length and can be normal to the fault plane or along the fault plane. 
