@@ -40,5 +40,4 @@ Google Earth offers the ability to view topography in 3D, and in areas of good e
 
 Knowing the stress state of our Earth is helpful in many ways. In this exercise, we will compute stress along a certain orientation given a stress tensor, predict whether a certain plane is going to fracture with the tool of Mohr circle and discuss what type of faults will develop under one specific stress state.
 
-<div style="width:20%">
 [Exercise 5 Worksheet](Exercises/StressAnalysis)
