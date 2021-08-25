@@ -41,12 +41,12 @@ corrections._
 
 What you will learn about strain and strain rate.
 
-- The meaning of kinematic analysis
-- The four deformation styles
-- The concept of strain and its quantification in 2D / 3D
-- Strain classification via Flinn diagram
-- The general methods for strain analysis
-- The concept of strain rate and how we measure them
+- Geometric, dynamic and kinematic analysis
+- Four general forms of deformation 
+- The concept of strain and its quantification in 1D, 2D, 3D (strain tensor)
+- Strain classification via the Flinn diagram
+- Methods to estimate strain in a rock
+- The concept of strain rate and how / why we measure them
 
 <--o-->
 
