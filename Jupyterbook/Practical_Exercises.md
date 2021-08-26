@@ -35,3 +35,9 @@ Build your own mountain! We will be using a sandbox to build and run an analogue
 Google Earth offers the ability to view topography in 3D, and in areas of good exposure, the interaction between topography and rock bodies can be clearly visualized by manipulating the viewer’s perspective.  Through this user interaction, a much clearer understanding of how outcrop patterns related to rock structure can be gained.
 
 [Exercise 4 Worksheet](Exercises/MappingWithGoogleEarth)
+
+## Exercise 5, Stress Analysis
+
+Knowing the stress state of our Earth is helpful in many ways. In this exercise, we will compute stress along a certain orientation given a stress tensor, predict whether a certain plane is going to fracture with the tool of Mohr circle and discuss what type of faults will develop under one specific stress state.
+
+[Exercise 5 Worksheet](Exercises/StressAnalysis)
