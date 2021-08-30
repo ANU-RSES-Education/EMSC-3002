@@ -19,7 +19,7 @@ Note: convert all the measurements in the same units before doing the math.
 
 ::::{admonition} 5.2 Traction vector along a plane
 
-<div style="width:25%;float:right;">
+<div style="width:40%;float:right;">
 
 ![](Figures/stress/Figure2.jpg)
 
@@ -32,8 +32,8 @@ $$
 \begin{bmatrix}
  -45 & -8 \\
  -8 & -15 
-\end{bmatrix}
-$$ MPa
+\end{bmatrix} \textrm{MPa}
+$$ 
 
 As a structural geologist, you are asked by the GA for the following questions. What type of this fault could be based on this stress tensor if assuming Anderson’s theory of faulting? What is the stress acting across that fault plane (as a vector)? What are the corresponding normal and shear stress along the plane, respectively? 
 Note: unit vector is a vector of a unit length and can be normal to the fault plane or along the fault plane. 
@@ -44,7 +44,7 @@ Note: unit vector is a vector of a unit length and can be normal to the fault pl
 
 ::::{admonition} 5.3 Mohr circle application
 
-<div style="width:35%;float:right;">
+<div style="width:40%;float:right;">
 
 ![](Figures/stress/Figure3.jpg)
 
