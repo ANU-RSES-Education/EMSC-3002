@@ -5,7 +5,7 @@
   <head>
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Exercises: Stress Analysis &#8212; EMSC 3002</title>
+    <title>Exercises: design an experiment to measure internal friction angle &#8212; EMSC 3002</title>
     
   <link href="../_static/css/theme.css" rel="stylesheet" />
   <link href="../_static/css/index.c5995385ac14fb8791e8eb36b4908be2.css" rel="stylesheet" />
@@ -235,7 +235,7 @@
         <!-- ipynb file if we had a myst markdown file -->
         
         <!-- Download raw file -->
-        <a class="dropdown-buttons" href="../_sources/Exercises/StressAnalysis.md"><button type="button"
+        <a class="dropdown-buttons" href="../_sources/Exercises/InternalFrictionAngle.md"><button type="button"
                 class="btn btn-secondary topbarbtn" title="Download source file" data-toggle="tooltip"
                 data-placement="left">.md</button></a>
         <!-- Download PDF via print -->
@@ -273,6 +273,39 @@
         <!-- Table of contents -->
         <div class="d-none d-md-block col-md-2 bd-toc show">
             
+            <div class="tocsection onthispage pt-5 pb-3">
+                <i class="fas fa-list"></i> Contents
+            </div>
+            <nav id="bd-toc-nav" aria-label="Page">
+                <ul class="visible nav section-nav flex-column">
+ <li class="toc-h2 nav-item toc-entry">
+  <a class="reference internal nav-link" href="#introduction">
+   Introduction
+  </a>
+ </li>
+ <li class="toc-h2 nav-item toc-entry">
+  <a class="reference internal nav-link" href="#exercise">
+   Exercise
+  </a>
+ </li>
+ <li class="toc-h2 nav-item toc-entry">
+  <a class="reference internal nav-link" href="#background">
+   Background
+  </a>
+ </li>
+ <li class="toc-h2 nav-item toc-entry">
+  <a class="reference internal nav-link" href="#assessment">
+   Assessment
+  </a>
+ </li>
+ <li class="toc-h2 nav-item toc-entry">
+  <a class="reference internal nav-link" href="#reference">
+   Reference
+  </a>
+ </li>
+</ul>
+
+            </nav>
         </div>
     </div>
 </div>
@@ -281,49 +314,53 @@
         
               <div>
                 
-  <div class="section" id="exercises-stress-analysis">
-<h1>Exercises: Stress Analysis<a class="headerlink" href="#exercises-stress-analysis" title="Permalink to this headline">¶</a></h1>
-<p>Knowing the stress state of our Earth is helpful in many ways. In this exercise, we will compute the stress along a plane given a stress tensor, predict whether a certain plane is going to fracture with the tool of Mohr circle and discuss what type of faults will develop under one specific stress state.</p>
-<div class="admonition-lithostatic-and-hydrostatic-stress admonition">
-<p class="admonition-title">5.1 Lithostatic and hydrostatic stress</p>
-<div style="width:25%;float:right;">
-<p><img alt="" src="../_images/Figure1.jpg" /></p>
-</div>
-<p>Consider a tall rectangular of rock above a point at 6 km depth (z) in the crust. This rectangle has a base of 5 km in length (l) and 2 km in width (w). What are the corresponding lithostatic stress at this point? Let’s assume that rock column has an averaged density of 2.5 g/<span class="math notranslate nohighlight">\(cm^3\)</span> and the gravitational acceleration value at that point is 9.85 m/<span class="math notranslate nohighlight">\(s^2\)</span>. What is the hydrostatic stress if replacing that rock with a water column (do not worry about the empty house)? What geological processes could potentially reduce the stress at that point?</p>
-<p>Note: convert all the measurements in the same units before doing the math.</p>
-</div>
-<hr class="docutils" />
-<div class="admonition-traction-vector-along-a-plane admonition">
-<p class="admonition-title">5.2 Traction vector along a plane</p>
-<div style="width:40%;float:right;">
-<p><img alt="" src="../_images/Figure2.jpg" /></p>
-</div>
-<p>Lake George is flanked to the west by the Lake George Fault, which is a west-dipping fault and is thought to have formed about 3.93 Ma ago. Dr. Trevor Allen from Geoscience Australia (GA) described the Lake George Fault as “one of Australia’s most active fault lines” in his recent <a class="reference external" href="https://www.abc.net.au/radionational/programs/ockhamsrazor/earthquakes-in-australia-mythbusting/13494950?fbclid=IwAR1TIbrIahvU046e5jILWz-fAEnwBdAMgLQgcPn62mJ9EX5KXuqLqbJRXS8">ABC talk</a>. Imagine GA shows you a W-E cross section of this fault from one of their early surveys in the region, and it shows the fault has a dipping angle of 45° and extends to 5 km depth. GA also provided you a stress tensor along this section as described below.</p>
+  <div class="section" id="exercises-design-an-experiment-to-measure-internal-friction-angle">
+<h1>Exercises: design an experiment to measure internal friction angle<a class="headerlink" href="#exercises-design-an-experiment-to-measure-internal-friction-angle" title="Permalink to this headline">¶</a></h1>
+<div class="section" id="introduction">
+<h2>Introduction<a class="headerlink" href="#introduction" title="Permalink to this headline">¶</a></h2>
+<p>Angle of internal friction (<span class="math notranslate nohighlight">\(\phi\)</span>) is a measure of the ability of a unit of rock or soil to withstand a shear stress. It is the angle measured between the normal force and resultant force, that is attained when failure just occurs in response to a shearing stress. As discussed in the module 3.1 of the course, this parameter (<span class="math notranslate nohighlight">\(\phi\)</span>), combined with the cohesion strength (<span class="math notranslate nohighlight">\(C\)</span>), can predict whether a material is going to facture under certain stress conditions, a relationship known as the Coulomb-Mohr facture criterion. Based on this criterion, one can derive an important formula shown blow that describes the angle of internal friction and the orientation of the fracture (<span class="math notranslate nohighlight">\(\theta\)</span>):</p>
 <div class="math notranslate nohighlight">
-\[\begin{split}
-\mathbf{\sigma} =
-\begin{bmatrix}
- -45 &amp; -8 \\
- -8 &amp; -15 
-\end{bmatrix} \textrm{MPa}
-\end{split}\]</div>
-<p>As a structural geologist, you are asked by the GA for the following questions. What type of this fault could be based on this stress tensor if assuming Anderson’s theory of faulting? What is the stress acting across that fault plane (as a vector)? What are the corresponding normal and shear stress along the plane, respectively?
-Note: unit vector is a vector of a unit length and can be normal to the fault plane or along the fault plane.</p>
+\[
+\phi = 45 ^\circ - \theta/2
+\]</div>
+<p>For example, most rocks have <span class="math notranslate nohighlight">\(\phi\)</span> values of about 30°, so the angle between <span class="math notranslate nohighlight">\(\sigma_1\)</span> and the fracture of \theta is also about 30°. Thus, Andersonian normal and reverse faults (i.e., different direction of <span class="math notranslate nohighlight">\(\sigma_1\)</span>) dip at about 60° and 30°, respectively.</p>
+<p>Like many other mechanical properties of a material, this angle is also depended on the temperature, pressure, saturated conditions etc. The value of the angle of internal friction can be determined in the laboratory by the <em>Direct Shear Test</em> or the <em>Triaxial Stress Test</em>.</p>
+<div style="width:40%;float:right;margin:50px;">
+<p><img alt="" src="../_images/Figure.jpg" /></p>
+<p><em>Angle of repose of various gravel, stones and pebbles. <a class="reference external" href="https://stock.adobe.com/au/images/piles-of-various-gravel-stones-and-pebbels-isolated-on-white-background/210412352">Image Source</a></em></p>
 </div>
+</div>
+<div class="section" id="exercise">
+<h2>Exercise<a class="headerlink" href="#exercise" title="Permalink to this headline">¶</a></h2>
+<p>In this exercise, you are going to select any granular material that you have to hand and design an experiment to measure the angle of repose for that material. In your own “lab”, this angle of internal friction can be approximated by the angle of repose: materials placed in a pile to attain a conical shape with slopes (see Figure).</p>
+<p>There are many materials can be used to conduct this experiment, such as sugar, salt and flour in your kitchen, or soils, sands, pebbles in your yard. You can also surprise us by being creative!</p>
+</div>
+<div class="section" id="background">
+<h2>Background<a class="headerlink" href="#background" title="Permalink to this headline">¶</a></h2>
+<p>First of all, watch this video for some ideas about what we are going to ask you to do.</p>
+<iframe width="560" height="315" src="https://www.youtube.com/embed/7UM5R-oMBHc" title="Angle of Repose Experiments" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 <hr class="docutils" />
-<div class="admonition-mohr-circle-application admonition">
-<p class="admonition-title">5.3 Mohr circle application</p>
-<div style="width:40%;float:right;">
-<p><img alt="" src="../_images/Figure3.jpg" /></p>
-</div>
-<p>RSES researchers along with scientists from GA successfully completed a drilling program in the Lake George during December 2020 and collected a continuous core sample down to about 130 m depth. Some of these samples are sent to a lab for mechanical property assessments. Imagine you are given a Mohr circle from this mechanical lab describing one state of a Triaxial compression experiment conducted upon a sandstone section of this core. Based on this Mohr circle, describe this stress state in a full tensor form. What is the differential stress and mean stress of this state? What are the shear and normal stress for a plane dip at 30° angle within that rock sample? What about a plane of a dipping angle of 60°? Discuss which of the two dipping planes is more likely to fracture.
-Note: The auxiliary lines in green divide the upper portion of the circle into six equal parts. Deviatoric stress equals the radius of the Mohr circle. Also, an error of 5 MPa when reading the values from the figure is expected based on the resolution.</p>
-</div>
+<p>The video below shows the kind of experiment that any of us can try at home - pouring a granular material onto a board and measuring (recording / photographing) the pile as it forms and varying the parameters of the experiment a little to understand what controls the measured values.</p>
+<iframe width="560" height="315" src="https://www.youtube.com/embed/SIkRUv39SoI" title="Angle of Repose Demonstration" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+<p>This <a class="reference external" href="http://www.geotechdata.info/parameter/angle-of-friction">website</a> provides reference values of this angle for some common materials so that it can be used as a benchmark of your experiment. But as mentioned earlier, many other physical conditions such as temperature, humidity, water saturation etc can largely affect this property, thus these reported values can be different from yours by a bit.</p>
 <hr class="docutils" />
-<div class="admonition-the-coulomb-mohr-failure-criteria admonition">
-<p class="admonition-title">5.4 The Coulomb-Mohr failure criteria</p>
-<p>Following question 3, the same mechanical lab also provided you the cohesive strength (C) and the internal friction angle (<span class="math notranslate nohighlight">\(\varphi\)</span>) data of the sandstone samples, which are 10 MPa and 45° respectively. Assuming the data associated with the Mohr circle in question 3 is correct, are there any problems with the cohesive strength (C) and the internal friction angle (<span class="math notranslate nohighlight">\(\varphi\)</span>) values they provided? Why or why not?
-Note: normally you need to convert the angles in degree to radius when doing trigonometric function calculations. But this depends on what type of calculators you use.</p>
+<p>Note that some materials have <em>cohesion</em> which is what happens when there is still a bond between particles at zero confining pressure. If, for example, you use flour, you would need to sift it to make a pile. Materials that are left lying around will often start to develop cohesion as the particles cement together. If the materials are agitaged then they usually can be poured and will “freeze” to a slope with the angle of repose. The video of dry sand avalanching at the beach is an example of this:</p>
+<iframe width="560" height="315" src="https://www.youtube.com/embed/sOOPTZw7FcE" title="Angle of Repose at the Beach" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+</div>
+<div class="section" id="assessment">
+<h2>Assessment<a class="headerlink" href="#assessment" title="Permalink to this headline">¶</a></h2>
+<p>Perform a simple set of experiments to demonstrate that granular materials usually pour to form a cone with an angle that is a property of the material itself. You should repeat the experiment for at least two different materials.</p>
+<ol class="simple">
+<li><p>Explain how you photograph / video the material so that you can measure the angle.</p></li>
+<li><p>How many times do you need to do this to demonstrate that the angle is the same each time ?  <strong>Hint:</strong> <em>if you have multiple materials, how many times do you need to do this to show that the angles are actually different ?</em></p></li>
+<li><p>Verify that the angle is approximately independent of factors such as the size of the pile, the speed that the particles land ?</p></li>
+</ol>
+<p>Write a very short experimental report (certainly no more than 2 pages) that introduces the topic, explains the materials you used (and why you chose them), the set-up of the experiment and how the measurements are made. Show your results in a table and estimate the errors. Discuss your results in comparison to the published values</p>
+</div>
+<div class="section" id="reference">
+<h2>Reference<a class="headerlink" href="#reference" title="Permalink to this headline">¶</a></h2>
+<p>Fossen, H. (2011). Structural geology. Cambridge university press.</p>
+<p>Keaton J.R. (2017) Angle of Internal Friction. In: Bobrowsky P., Marker B. (eds) Encyclopedia of Engineering Geology. <em>Encyclopedia of Earth Sciences Series</em>. Springer, Cham. <a class="reference external" href="https://doi.org/10.1007/978-3-319-12127-7_16-1">https://doi.org/10.1007/978-3-319-12127-7_16-1</a>.</p>
 </div>
 </div>
 
