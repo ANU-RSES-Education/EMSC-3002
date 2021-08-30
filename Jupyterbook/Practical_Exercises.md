@@ -2,7 +2,6 @@
 
 These are demonstrations of core concepts in the course for students to explore in practical classes or tutorials.
 
-
 ## Exercise 1, GPlates Tutorial
 
 An important tool for modern tectonics research is [GPlates](https://www.gplates.org) from the EarthByte group. We suggest spending some time with GPlates exploring the [GPlates Portal](https://portal.gplates.org) and running through one of the available demonstrations / tutorials.
@@ -41,3 +40,9 @@ Google Earth offers the ability to view topography in 3D, and in areas of good e
 Knowing the stress state of our Earth is helpful in many ways. In this exercise, we will compute stress along a certain orientation given a stress tensor, predict whether a certain plane is going to fracture with the tool of Mohr circle and discuss what type of faults will develop under one specific stress state.
 
 [Exercise 5 Worksheet](Exercises/StressAnalysis)
+
+
+## Exercise 6, Granular materials, angle of repose
+
+
+[Exercise 6 Worksheet](Exercises/InternalFrictionAngle)
