@@ -44,5 +44,7 @@ Knowing the stress state of our Earth is helpful in many ways. In this exercise,
 
 ## Exercise 6, Granular materials, angle of repose
 
+The internal friction angle in a granular material is a property that controls how the material responds to shearing and it can be 
+measured approximately just by pouring the material into a pile and seeing the shape of the cone that forms.
 
 [Exercise 6 Worksheet](Exercises/InternalFrictionAngle)
