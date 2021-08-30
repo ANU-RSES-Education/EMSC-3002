@@ -18,6 +18,7 @@ Like many other mechanical properties of a material, this angle is also depended
 
 ![](Figures/FrictionAngle/Figure.jpg)
 
+*Angle of repose of various gravel, stones and pebbles. [Image Source](https://stock.adobe.com/au/images/piles-of-various-gravel-stones-and-pebbels-isolated-on-white-background/210412352)*
 </div>
 
 In this exercise, you are going to select a common material at your hand and design an experiment to measure this angle of that material. In your own lab, this angle of internal friction can be approximated by the angle of repose: materials placed in a pile to attain a conical shape with slopes (Figure on the right). There are many materials can be used to conduct this experiment, such as sugar, salt and flour in your kitchen, or soils, sands, pebbles in your yard. You can also surprise us by being creative! 
