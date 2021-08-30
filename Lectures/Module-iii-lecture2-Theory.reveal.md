@@ -156,15 +156,23 @@ What you will learn about strain and strain rate.
 <!-- .slide: data-background="Figures-Theory2/slide27.png" -->
 
 <--o-->
-## Plate Boundaries
 
-The regions of highest strain rate at the surface of the Earth are the plate boundaries.
+<!-- .slide: data-background="Figures-Theory2/slide28.png" -->
 
-<center>
+<--o-->
 
-![](images/GlobalTectonics/GlobalStrainRate.png) <!-- .element style="width:66%;" -->
+<!-- .slide: data-background="Figures-Theory2/slide29.png" -->
 
-</center>
+<--o-->
 
-The styles and patterns of deformation are very dependent on the orientation of the stresses that are acting at the boundary.
+<!-- .slide: data-background="Figures-Theory2/slide30.png" -->
 
+<--o-->
+
+<!-- .slide: data-background="Figures-Theory2/slide31.png" -->
+
+<--o-->
+
+<!-- .slide: data-background="Figures-Theory2/slide32.png" -->
+
+<--o-->
