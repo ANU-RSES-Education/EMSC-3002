@@ -14,9 +14,9 @@ Like many other mechanical properties of a material, this angle is also depended
 
 ## Exercise
 
-<div style="width:50%;float:right;">
+<div style="width:40%;float:right;">
 
-![](Figures/FrictionAngle/Figure.png)
+![](Figures/FrictionAngle/Figure.jpg)
 
 </div>
 
@@ -31,5 +31,5 @@ For the sake of assessment, you could either choose to write a separate report f
 ## Reference
 Fossen, H. (2011). Structural geology. Cambridge university press.
 
-Keaton J.R. (2017) Angle of Internal Friction. In: Bobrowsky P., Marker B. (eds) Encyclopedia of Engineering Geology. $Encyclopedia of Earth Sciences Series$. Springer, Cham. https://doi.org/10.1007/978-3-319-12127-7\_16-1.
+Keaton J.R. (2017) Angle of Internal Friction. In: Bobrowsky P., Marker B. (eds) Encyclopedia of Engineering Geology. $Encyclopedia of Earth Sciences Series$. Springer, Cham. https://doi.org/10.1007/978-3-319-12127-7/_16-1.
 
