@@ -39,115 +39,99 @@ corrections._
 
 ## Intended learning outcomes
 
-Students will be able to:
+What you will learn about strain and strain rate.
 
-- one
-- two
-- three
-
-<--o-->
-
-<!-- .slide: data-background="Figures-Theory3/slide1.jpg" -->
-
-<--o-->
-
-<!-- .slide: data-background="Figures-Theory3/slide2.jpg" -->
+- The concept of rhelology
+- Idealized form of deformation: elastic and viscous
+- Two important parameters for elastic deformation: Young's Modulus and Poisson's ratio
+- Viscosity to describe viscous deformation and several types of flows
+- Main phyiscal factors controlling the deformation
+- Some deformation mechanisms
 
 <--o-->
 
-<center>
-<video autoplay controls width="90%">
-    <source src="movies/subduction_simulation.mp4"
-            type="video/mp4">
-
-    Sorry, your browser doesn't support embedded videos.
-</video>
-</center>
-</div>
+<!-- .slide: data-background="Figures-Theory3/slide1.png" -->
 
 <--o-->
 
-<!-- .slide: data-background="Figures-Theory3/slide3.jpg" -->
+<!-- .slide: data-background="Figures-Theory3/slide2.png" -->
 
 <--o-->
 
-<!-- .slide: data-background="Figures-Theory3/slide4.jpg" -->
+<!-- .slide: data-background="Figures-Theory3/slide3.png" -->
 
 <--o-->
 
-<!-- .slide: data-background="Figures-Theory3/slide5.jpg" -->
-
-<--o-->
-<!-- .slide: data-background="Figures-Theory3/slide6.jpg" -->
+<!-- .slide: data-background="Figures-Theory3/slide4.png" -->
 
 <--o-->
 
-<!-- .slide: data-background="Figures-Theory3/slide7.jpg" -->
+<!-- .slide: data-background="Figures-Theory3/slide5.png" -->
+
+<--o-->
+<!-- .slide: data-background="Figures-Theory3/slide6.png" -->
 
 <--o-->
 
-<!-- .slide: data-background="Figures-Theory3/slide8.jpg" -->
+<!-- .slide: data-background="Figures-Theory3/slide7.png" -->
 
 <--o-->
 
-<!-- .slide: data-background="Figures-Theory3/slide9.jpg" -->
+<!-- .slide: data-background="Figures-Theory3/slide8.png" -->
 
 <--o-->
 
-<!-- .slide: data-background="Figures-Theory3/slide10.jpg" -->
+<!-- .slide: data-background="Figures-Theory3/slide9.png" -->
 
 <--o-->
 
-<!-- .slide: data-background="Figures-Theory3/slide11.jpg" -->
+<!-- .slide: data-background="Figures-Theory3/slide10.png" -->
 
 <--o-->
 
-<!-- .slide: data-background="Figures-Theory3/slide12.jpg" -->
+<!-- .slide: data-background="Figures-Theory3/slide11.png" -->
 
 <--o-->
 
-<!-- .slide: data-background="Figures-Theory3/slide13.jpg" -->
+<!-- .slide: data-background="Figures-Theory3/slide12.png" -->
 
 <--o-->
 
-<!-- .slide: data-background="Figures-Theory3/slide14.jpg" -->
+<!-- .slide: data-background="Figures-Theory3/slide13.png" -->
 
 <--o-->
 
-<!-- .slide: data-background="Figures-Theory3/slide15.jpg" -->
+<!-- .slide: data-background="Figures-Theory3/slide14.png" -->
 
 <--o-->
 
-<!-- .slide: data-background="Figures-Theory3/slide16.jpg" -->
+<!-- .slide: data-background="Figures-Theory3/slide15.png" -->
 
 <--o-->
 
-<!-- .slide: data-background="Figures-Theory3/slide17.jpg" -->
+<!-- .slide: data-background="Figures-Theory3/slide16.png" -->
 
 <--o-->
 
-<!-- .slide: data-background="Figures-Theory3/slide18.jpg" -->
+<!-- .slide: data-background="Figures-Theory3/slide17.png" -->
 
 <--o-->
 
-<!-- .slide: data-background="Figures-Theory3/slide19.jpg" -->
+<!-- .slide: data-background="Figures-Theory3/slide18.png" -->
 
 <--o-->
 
-<!-- .slide: data-background="Figures-Theory3/slide20.jpg" -->
+<!-- .slide: data-background="Figures-Theory3/slide19.png" -->
 
 <--o-->
 
-<!-- .slide: data-background="Figures-Theory3/slide21.jpg" -->
+<!-- .slide: data-background="Figures-Theory3/slide20.png" -->
 
 <--o-->
 
-<!-- .slide: data-background="Figures-Theory3/slide22.jpg" -->
+<!-- .slide: data-background="Figures-Theory3/slide21.png" -->
 
 <--o-->
 
-<--o-->
+<!-- .slide: data-background="Figures-Theory3/slide22.png" -->
 
-<--o-->
-
-<!-- .slide: data-background="Figures-Theory3/slide25.jpg" -->
