@@ -36,6 +36,7 @@ $$
 $$ 
 
 As a structural geologist, you are asked by the GA for the following questions. What type of this fault could be based on this stress tensor if assuming Anderson’s theory of faulting? What is the stress acting across that fault plane (as a vector)? What are the corresponding normal and shear stress along the plane, respectively? 
+
 Note: unit vector is a vector of a unit length and can be normal to the fault plane or along the fault plane. 
 
  ::::
@@ -51,6 +52,7 @@ Note: unit vector is a vector of a unit length and can be normal to the fault pl
 </div>
 
 RSES researchers along with scientists from GA successfully completed a drilling program in the Lake George during December 2020 and collected a continuous core sample down to about 130 m depth. Some of these samples are sent to a lab for mechanical property assessments. Imagine you are given a Mohr circle from this mechanical lab describing one state of a Triaxial compression experiment conducted upon a sandstone section of this core. Based on this Mohr circle, describe this stress state in a full tensor form. What is the differential stress and mean stress of this state? What are the shear and normal stress for a plane dip at 30&deg; angle within that rock sample? What about a plane of a dipping angle of 60&deg;? Discuss which of the two dipping planes is more likely to fracture.
+
 Note: The auxiliary lines in green divide the upper portion of the circle into six equal parts. Deviatoric stress equals the radius of the Mohr circle. Also, an error of 5 MPa when reading the values from the figure is expected based on the resolution. 
 
  ::::
@@ -60,6 +62,7 @@ Note: The auxiliary lines in green divide the upper portion of the circle into s
 ::::{admonition} 5.4 The Coulomb-Mohr failure criteria
 
 Following question 3, the same mechanical lab also provided you the cohesive strength (C) and the internal friction angle ($\varphi$) data of the sandstone samples, which are 10 MPa and 45&deg; respectively. Assuming the data associated with the Mohr circle in question 3 is correct, are there any problems with the cohesive strength (C) and the internal friction angle ($\varphi$) values they provided? Why or why not? 
+
 Note: normally you need to convert the angles in degree to radius when doing trigonometric function calculations. But this depends on what type of calculators you use. 
 
  ::::
