@@ -8,7 +8,7 @@ $$
 \phi = 45 ^\circ - \theta/2
 $$
 
-For example, most rocks have $\phi$ values of about 30&deg;, so the angle between $\sigma_1$ and the fracture of \theta is also about 30&deg;. Thus, Andersonian normal and reverse faults (i.e., different direction of $\sigma_1$) dip at about 60&deg; and 30&deg;, respectively.	
+For example, most rocks have $\phi$ values of about 30&deg;, so the angle between $\sigma_1$ and the fracture of $\theta$ is also about 30&deg;. Thus, Andersonian normal and reverse faults (i.e., different direction of $\sigma_1$) dip at about 60&deg; and 30&deg;, respectively.	
 
 Like many other mechanical properties of a material, this angle is also depended on the temperature, pressure, saturated conditions etc. The value of the angle of internal friction can be determined in the laboratory by the *Direct Shear Test* or the *Triaxial Stress Test*.
 
