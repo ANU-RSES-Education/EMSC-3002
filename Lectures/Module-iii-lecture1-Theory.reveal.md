@@ -156,6 +156,10 @@ What you will learn about stress.
 
 <--o-->
 
+<!-- .slide: data-background="Figures-Theory1/slide28.png" -->
+
+<--o-->
+
 <!-- .slide: data-background="Figures-Theory1/slide29.png" -->
 
 <--o-->
@@ -202,3 +206,7 @@ What you will learn about stress.
 <--o-->
 
 <!-- .slide: data-background="Figures-Theory1/slide39.png" -->
+
+<--o-->
+
+<!-- .slide: data-background="Figures-Theory1/slide40.png" -->
