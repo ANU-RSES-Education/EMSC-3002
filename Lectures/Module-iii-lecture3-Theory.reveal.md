@@ -39,13 +39,13 @@ corrections._
 
 ## Intended learning outcomes
 
-What you will learn about strain and strain rate.
+What you will learn in this module:
 
-- The concept of rhelology
+- The concept of rheology
 - Idealized form of deformation: elastic and viscous
 - Two important parameters for elastic deformation: Young's Modulus and Poisson's ratio
 - Viscosity to describe viscous deformation and several types of flows
-- Main phyiscal factors controlling the deformation
+- Main physical factors controlling the deformation
 - Some deformation mechanisms
 
 <--o-->
@@ -69,6 +69,7 @@ What you will learn about strain and strain rate.
 <!-- .slide: data-background="Figures-Theory3/slide5.png" -->
 
 <--o-->
+
 <!-- .slide: data-background="Figures-Theory3/slide6.png" -->
 
 <--o-->
@@ -135,3 +136,30 @@ What you will learn about strain and strain rate.
 
 <!-- .slide: data-background="Figures-Theory3/slide22.png" -->
 
+<--o-->
+
+<!-- .slide: data-background="Figures-Theory3/slide23.png" -->
+
+<--o-->
+
+<!-- .slide: data-background="Figures-Theory3/slide24.png" -->
+
+<--o-->
+
+<!-- .slide: data-background="Figures-Theory3/slide25.png" -->
+
+<--o-->
+
+<!-- .slide: data-background="Figures-Theory3/slide26.png" -->
+
+<--o-->
+
+<!-- .slide: data-background="Figures-Theory3/slide27.png" -->
+
+<--o-->
+
+<!-- .slide: data-background="Figures-Theory3/slide28.png" -->
+
+<--o-->
+
+<!-- .slide: data-background="Figures-Theory3/slide29.png" -->
