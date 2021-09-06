@@ -8,6 +8,7 @@ parts:
   - file: Introductory_Remarks.md
   - file: Background_Reading.md
   - file: Practical_Exercises.md
+  - file: Project_Ideas.md
 #   - file: Theory_Computational_Exercises.md  # Another time ... 
 
 - caption: Lecture Notes
