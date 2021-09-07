@@ -30,13 +30,30 @@ behind the mapping of the sea-floor and the rendering of the bathymetry into a n
 
 - Wilson, J. T. (1965). A New Class of Faults and their Bearing on Continental Drift. Nature, 207(4995), 343–347. https://doi.org/10/b4vzck. *Transform faults in the ocean-floor were first explained as such by Tuzo Wilson an observation of incredible significance for the plate tectonic framework*
 
-- Vine, F. (1968). Magnetic anomalies associated with mid-ocean ridges. In The history of the earth’s crust (pp. 73–89). Princeton University Press Princeton, NJ. *The observation of the magnetic reversals stamped into the oceanic crust by spreading set the scene for plate kinematic reconstruction. This paper is a mature synthesis of earlier contributions but still one of the foundation works of plate tectonics"
+- Vine, F. (1968). Magnetic anomalies associated with mid-ocean ridges. In The history of the earth’s crust (pp. 73–89). Princeton University Press Princeton, NJ. *The observation of the magnetic reversals stamped into the oceanic crust by spreading set the scene for plate kinematic reconstruction. This paper is a mature synthesis of earlier contributions but still one of the foundation works of plate tectonics*
 
 - McKENZIE, D. P., & Morgan, W. J. (1969). Evolution of Triple Junctions. Nature, 224, 125–133. *In plate kinematics, the behaviour of triple junctions is predictable and their evolution through time can be used for reconstruction. This paper is a complete analysis of what happens if we assume the kinematic rules of plate boundary evolution are precisely satisfied in the ocean*
 
 - Dewey, J. F. (1972). PLATE TECTONICS. Scientific American, 226(5), 56–72. https://doi.org/10.1038/scientificamerican0572-56. *Dewey makes the connection between oceanic plate motion and continental tectonics in a way that does not over-complicate the continental side of the picture*
 
 - Tapponnier, P., Peltzer, G., Dain, A. Y. L., Armijo, R., & Cobbold, P. (1982). Propagating extrusion tectonics in Asia: New insights from simple experiments with plasticine. Geology, 10, 611–616. https://doi.org/10/bmzcmt. *A paper that proposes the concept of "escape tectonics" which recognises that continental deformation is not just driven by boundary forces but also by the balance between crustal thickening and gravitational potential energy*.
+
+** Here are some on theory and brittle deformation part **
+
+- Anderson, E. M. (1905). The dynamics of faulting. Oliver and Boyd. *A paper details the fundamental idea and theory behind the Anderson’s theory of faulting.*
+
+- Raleigh, C. B., & Paterson, M. S. (1965). Experimental deformation of serpentinite and its tectonic implications. Journal of Geophysical Research, 70(16), 3965-3985. https://doi.org/10.1029/jz070i016p03965. *A paper by ANU earth scientists on exploring the different factors on the rheological behaviours of serpentinite.*
+
+- Secor, D. T. (1965). Role of fluid pressure in jointing. American Journal of Science, 263(8), 633-646. https://doi.org/10.2475/ajs.263.8.633. *A paper combines fluid pressure theory and rock failure criteria to examine the mechanics of natural tension fracturing.* 
+
+- Byerlee, J. D. (1968). Brittle‐ductile transition in rocks. Journal of Geophysical Research, 73(14), 4741-4750. https://doi.org/10.1029/jb073i014p04741. *A paper studies the brittle-ductile transition through deformational characteristics of some common rock types in the crust and upper mantle.* 
+
+- Handin, J. (1969). On the Coulomb‐Mohr failure criterion. Journal of Geophysical Research, 74(22), 5343-5348. https://doi.org/10.1029/jb074i022p05343. *A paper adds some history and details on the Coulomb-Mohr failure criterion.* 
+
+- Anderson, D. L. (1971). The San Andreas fault. Scientific American, 225(5), 52-71. https://doi.org/10.1038/scientificamerican1171-52. *An early paper summarizes various aspects of the San Andreas fault system, including its displacement measurements, the regional tectonic history, fault origin and its associated seismicity.* 
+
+- Kanamori, H., & Anderson, D. L. (1975). Theoretical basis of some empirical relations in seismology. Bulletin of the seismological society of America, 65(5), 1073-1095. *An early paper explores the different scaling laws among several important earthquake parameters through an extensive set of earthquake data in the 1980s.* 
+
 
 The next part of the task is to choose one of these papers and then to look for a significant paper to pair with it from the past (say) decade that either updates the original paper, provides an observational validation, or perhaps a major re-evaluation of the idea. 
 
