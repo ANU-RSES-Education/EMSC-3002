@@ -4,6 +4,14 @@
 
 The purpose of projects is to provide the opportunity for our students to learn more deeply about one or two topics from the course and to give you, the student, the freedom to present your work in the form you choose along with a short, written justification and discussion of how you spent your time and what you have learned.
 
+::::{admonition} Checklist
+
+ - [ ] project plan
+ - [ ] marking rubric
+
+
+::::
+
 ## Marking Rubric and Project Plan
 
 All of the ideas we have outlined allow students to choose their project topics and the form of the presentation of their work. A project needs to have a clear plan so that the amount of work is appropriate to the assessment and reasonable. Advance planning also makes sure that students can focus on relevant material and the outcomes of their project. 
@@ -101,7 +109,7 @@ As long as there is a connection to a key concept in the course and the workload
 If you would like to suggest a project, you first need to find an academic sponsor to help with the 
 planning and provide perspective on the marking scheme. The topic should be relevant to the course and the most effective way to ensure that is to review the learning outcomes and identify how the project topic touches on at least one of these. 
 
-Read the comments above about assessment. The project mark is 
+Read the comments above about assessment. The project mark is based on the work that is relevant to the course and that is also your own contribution rather than the background material or work shared with a group. We may not be familiar with the background material you have from your academic sponsor so it will be important to document this for us.
 
-
+Decide what you want to do and make sure you get us to give feedback and, ultimately, sign off on the project.
 ::::
