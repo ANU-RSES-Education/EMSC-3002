@@ -38,9 +38,9 @@ behind the mapping of the sea-floor and the rendering of the bathymetry into a n
 
 - Tapponnier, P., Peltzer, G., Dain, A. Y. L., Armijo, R., & Cobbold, P. (1982). Propagating extrusion tectonics in Asia: New insights from simple experiments with plasticine. Geology, 10, 611–616. https://doi.org/10/bmzcmt. *A paper that proposes the concept of "escape tectonics" which recognises that continental deformation is not just driven by boundary forces but also by the balance between crustal thickening and gravitational potential energy*.
 
-** Here are some on theory and brittle deformation part **
+**Here are some on theory and brittle deformation part**
 
-- Anderson, E. M. (1905). The dynamics of faulting. Oliver and Boyd. *A paper details the fundamental idea and theory behind the Anderson’s theory of faulting.*
+- Anderson, E. M. (1905). The dynamics of faulting. Oliver and Boyd. https://doi-org.virtual.anu.edu.au/10.1144/transed.8.3.387. *A paper details the fundamental idea and theory behind the Anderson’s theory of faulting.*
 
 - Raleigh, C. B., & Paterson, M. S. (1965). Experimental deformation of serpentinite and its tectonic implications. Journal of Geophysical Research, 70(16), 3965-3985. https://doi.org/10.1029/jz070i016p03965. *A paper by ANU earth scientists on exploring the different factors on the rheological behaviours of serpentinite.*
 
@@ -71,6 +71,9 @@ Examples include:
 
 - Demonstration of diapirism using simple kitchen materials. This is akin to the sandbox project only much more messy. We never do these kinds of experiments in half-day practicals as they take a lot of setting up and clearing away. However, you can imagine making some analogues to lower-crustal flow or salt diapirs using oils, syrup and sand. 
 
+- Design your own experiment for a strength test using common materials at home (e.g., clay) and create / record the stress vs. strain graphs. Try different materials that can result in brittle and ductile materials, and conduct experiments using ductile materials with different strain rate.  
+
+- Use cheese (or whatever you regard appropriate) as an analog to understand some fracture fundamentals. You can make small cuts (fracture nuclei) in processed cheese food and then apply stresses perpendicular or parallel to the cuts to see how fractures grow. How is this experiment different and/or similar to the rock deformation? How will various kinds of applied stresses act on pre-existing cracks?
 
 ## Virtual Mapping  projects
 
