@@ -82,6 +82,10 @@ Examples include:
 
 - Demonstration of diapirism using simple kitchen materials. This is akin to the sandbox project only much more messy. We never do these kinds of experiments in half-day practicals as they take a lot of setting up and clearing away. However, you can imagine making some analogues to lower-crustal flow or salt diapirs using oils, syrup and sand. 
 
+- Design your own experiment for a strength test using common materials at home (e.g., clay) and create / record the stress vs. strain graphs. Try different materials that can result in brittle and ductile materials, and conduct experiments using ductile materials with different strain rate.  
+
+- Use cheese (or whatever you regard appropriate) as an analog to understand some fracture fundamentals. You can make small cuts (fracture nuclei) in processed cheese food and then apply stresses perpendicular or parallel to the cuts to see how fractures grow. How is this experiment different and/or similar to the rock deformation? How will various kinds of applied stresses act on pre-existing cracks?
+
 - Darcy flow modelling using a coffee machine. Fluid flow and fluid pressure in the pore-space of granular materials influences the strength because it changes the effective pressure that appears in the strength envelope. The Darcy flow model is often used as a approximation for the fluid flow in response to pressure gradients. It relates flow rates to pressure gradients through a permeability - this is something that is demonstrable in something as simple as a home espresso machine (a pump establishes a pressure gradient across a granular material).
 
 ## Mapping projects
@@ -89,8 +93,6 @@ Examples include:
 Field-based mapping projects need to avoid overlap with field sections of this course but are otherwise encouraged ! Any mapping project will need to complete the same planning and risk-management process as any field work and this time cannot be counted as part of the assessable component. 
 
 It is also possible to map large-scale features virtually using topographic maps, digital elevation models and online geological map data and this has a much lower administrative overhead.
-
-Here are some ideas to help you develop a virtual mapping project.
 
  - TBA
 
