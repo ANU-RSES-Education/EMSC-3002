@@ -6,9 +6,18 @@ The purpose of projects is to provide the opportunity for our students to learn 
 
 ::::{admonition} Checklist
 
- - [ ] project plan
- - [ ] marking rubric
-
+ - Read this document and discuss it with us
+ - Academic sponsor *(for self-designed projects)*
+ - Project plan
+   - Which learning outcomes do you touch upon ?
+   - What is the form of the project presentation (poster, talk, video, tapestry) ?
+   - What background are you building upon ?
+   - Timeline
+ - Marking rubric
+ - Sign-off on plan / rubric
+ - Review of relevant work / background work
+ - Interim report to class
+ - Formal hand in before presentation
 
 ::::
 
@@ -82,11 +91,20 @@ Examples include:
 
 - Demonstration of diapirism using simple kitchen materials. This is akin to the sandbox project only much more messy. We never do these kinds of experiments in half-day practicals as they take a lot of setting up and clearing away. However, you can imagine making some analogues to lower-crustal flow or salt diapirs using oils, syrup and sand. 
 
-- Design your own experiment for a strength test using common materials at home (e.g., clay) and create / record the stress vs. strain graphs. Try different materials that can result in brittle and ductile materials, and conduct experiments using ductile materials with different strain rate.  
+- Design your own experiment for a strength test using common materials at home (e.g., clay) and create / record the stress vs. strain graphs. Try different materials that can result in brittle and ductile materials, and conduct experiments using ductile materials with different strain rate.  Detail how you apply known loads to materials and how you standardise the samples that you are testing to ensure the experiments are repeatable.
 
-- Use cheese (or whatever you regard appropriate) as an analog to understand some fracture fundamentals. You can make small cuts (fracture nuclei) in processed cheese food and then apply stresses perpendicular or parallel to the cuts to see how fractures grow. How is this experiment different and/or similar to the rock deformation? How will various kinds of applied stresses act on pre-existing cracks?
+- Use cheese (or whatever works !) as an analog to understand some fracture fundamentals. You can make small cuts (fracture nuclei) in processed cheese food and then apply stresses perpendicular or parallel to the cuts to see how fractures grow. How is this experiment different and/or similar to  rock deformation? How will various kinds of applied stresses act on pre-existing cracks
 
 - Darcy flow modelling using a coffee machine. Fluid flow and fluid pressure in the pore-space of granular materials influences the strength because it changes the effective pressure that appears in the strength envelope. The Darcy flow model is often used as a approximation for the fluid flow in response to pressure gradients. It relates flow rates to pressure gradients through a permeability - this is something that is demonstrable in something as simple as a home espresso machine (a pump establishes a pressure gradient across a granular material).
+
+
+::::{admonition} Instructions for hands-on projects
+
+We have made some suggestions above but they are only suggestions. If you plan to undertake one of the hands-on projects, use these ideas as an inspiration and then come to talk to us. You can think of these as suggestions for designing your own project. One of us will be your academic sponsor for the project but you will need to flesh out your own version of the project and how you wish to make connections to the core topics of the course.
+
+You will need to work with us on the plan and marking rubric once you have decided which project to undertake.
+
+::::
 
 ## Mapping projects
 
