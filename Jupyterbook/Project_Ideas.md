@@ -81,6 +81,17 @@ behind the mapping of the sea-floor and the rendering of the bathymetry into a n
 
 - Kanamori, H., & Anderson, D. L. (1975). Theoretical basis of some empirical relations in seismology. Bulletin of the seismological society of America, 65(5), 1073-1095. *An early paper explores the different scaling laws among several important earthquake parameters through an extensive set of earthquake data in the 1980s.* 
 
+- Dahlen, F. A. (1990). Critical taper model of fold-and-thrust belts and accretionary wedges. Annual Review of Earth and Planetary Sciences, 18(1), 55-99.
+*“for understanding the large­ scale mechanics of fold-and-thrust belts and accretionary wedges.”*
+
+- Sylvester, A. G., 1988, Strike-slip faults: GSA Bulletin, v. 100, no. 11, p. 1666-1703. *A must-read paper for anyone, and more so for those who want to understand the mechanisms of strike-slip faulting*
+
+- Lister, G.S., Davis, G. (1989) The origin of metamorphic core complexes and detachment faults formed during Tertiary continental extension in the northern Colorado River region, U.S.A. Journal of Structural Geology 11, pp. 65–94. https://doi.org/10.1016/0191-8141(89)90036-9 *Seminal article for core complexes and detachment faults, cited well over a thousand times.*
+
+- Dewey, J.F., 1988. Extensional collapse of orogens. Tectonics 7, 1123–1139. https://doi.org/10.1029/TC007i006p01123 
+
+- Davis, D., Suppe, J., Dahlen, F.A., 1983. Mechanics of fold-and-thrust belts and accretionary wedges. J. Geophys. Res., 88, 1153-1172. https://doi.org/10.1029/JB088iB02p01153
+
 ## Hands-on projects
 
 Some of the demonstration examples that we suggest for practical class exercises can be developed into more extensive projects over the course of a few weeks. You will typically need to understand the principles behind the demonstration in order to construct a version of your own to work with at home. 
