@@ -10,13 +10,15 @@ if (localStorage.getItem('legibility') != 'legible') {
 savedStyle = localStorage.getItem('legibility')
 if (savedStyle == 'legible') {
     legibleFontFamily = getComputedStyle(document.documentElement).getPropertyValue('--pst-font-family-legible');
+    legibleFontFamilyH = getComputedStyle(document.documentElement).getPropertyValue('--pst-font-family-legible-headers');
     document.documentElement.style.setProperty('--pst-font-family-base', legibleFontFamily);
-    document.documentElement.style.setProperty('--pst-font-family-heading', legibleFontFamily);
+    document.documentElement.style.setProperty('--pst-font-family-heading', legibleFontFamilyH);
 }
 else {
     prettyFontFamily = getComputedStyle(document.documentElement).getPropertyValue('--pst-font-family-pretty');
+    prettyFontFamilyH = getComputedStyle(document.documentElement).getPropertyValue('--pst-font-family-pretty-headers');
     document.documentElement.style.setProperty('--pst-font-family-base', prettyFontFamily);
-    document.documentElement.style.setProperty('--pst-font-family-heading', prettyFontFamily);
+    document.documentElement.style.setProperty('--pst-font-family-heading', prettyFontFamilyH);
 
 }
 
@@ -27,14 +29,16 @@ function legibleFontSwitcher() {
     if (savedStyle == 'pretty') {
         thisStyle = 'legible'
         legibleFontFamily = getComputedStyle(document.documentElement).getPropertyValue('--pst-font-family-legible');
+        legibleFontFamilyH = getComputedStyle(document.documentElement).getPropertyValue('--pst-font-family-legible-headers');
         document.documentElement.style.setProperty('--pst-font-family-base', legibleFontFamily);
-        document.documentElement.style.setProperty('--pst-font-family-heading', legibleFontFamily);
+        document.documentElement.style.setProperty('--pst-font-family-heading', legibleFontFamilyH);
     }
     else {
         thisStyle = 'pretty'; 
         prettyFontFamily = getComputedStyle(document.documentElement).getPropertyValue('--pst-font-family-pretty');
+        prettyFontFamilyH = getComputedStyle(document.documentElement).getPropertyValue('--pst-font-family-pretty-headers');
         document.documentElement.style.setProperty('--pst-font-family-base', prettyFontFamily);
-        document.documentElement.style.setProperty('--pst-font-family-heading', prettyFontFamily);
+        document.documentElement.style.setProperty('--pst-font-family-heading', prettyFontFamilyH);
     }
     localStorage.setItem('legibility', thisStyle);
 }
