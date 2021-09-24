@@ -1,0 +1,32 @@
+/* Fonts: "Open Sans", "Roboto", "Yanone Kaffeesatz" */
+@import url("https://indestructibletype.com/fonts/Jost.css");
+@import url('https://fonts.googleapis.com/css2?family=Atkinson+Hyperlegible&family=Open+Sans:wght@300&family=Oswald:wght@300&family=Roboto:wght@300&family=Yanone+Kaffeesatz:wght@300&display=swap');
+
+/* Options for root variables:
+       https://github.com/pydata/pydata-sphinx-theme/blob/master/pydata_sphinx_theme/static/css/theme.css */
+
+
+:root { 
+    --pst-font-family-legible: "Atkinson Hyperlegible", "Roboto", sans-serif; 
+    --pst-font-family-pretty: "Jost", "Roboto", sans-serif; 
+    
+    --pst-font-family-base: var(--pst-font-family-pretty);
+    --pst-font-family-heading: var(--pst-font-family-pretty);
+}
+
+p {
+    text-align: justify;
+}
+
+
+/* This is to drop elements from the navigation when printing. */
+@media print {
+    .bd-toc {
+        visibility: hidden;
+    }
+
+    /* footer {
+        visibility: hidden;
+    } */
+
+}
