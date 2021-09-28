@@ -58,6 +58,85 @@ Students will be able to:
 
 <--o-->
 
+## Introduction
+
+Folds are spectacular structures. They are great evidence of how the original shape of rocks can evolve during deformation.
+The shape and orientations of folds seems almost limitless, yet there are some patterns that stands out.
+
+
+In the following lecture we will observe and describe folds and we will attempt to understand folding mechanisms and history.
+
+<--o-->
+
+## Three fundamental mechanisms
+
+<div>
+
+<div style="width:50%; float:left">
+
+Folds may form **actively** and originite from mechanical or rheological properties of the
+layering relative to the properties of the surrounding material.
+We talk about about **contrast in competence or viscosity**
+
+**Active folds** nucleate and grow as competent layers are shortened. This process is called **buckling**
+
+</div>
+<div style="width:50%; float:right">
+
+![Fold](Figures-Folds-and-Folding-Mechanisms/figures/Fossen_Chap11_fold_mechanisms.jpg) <!-- .element style="float: right" width="95%" -->
+
+</div>
+</div>
+
+
+<--o-->
+
+## Three fundamental mechanisms
+
+<div>
+
+<div style="width:50%; float:left">
+
+
+Folding that occurs during flow in rocks without visocisty contrast is called **passive folding**.
+In that case, the layers are markers that are transported by the flow.
+**Passive folds** form in shear zones and are sometimes called **shear folds**
+
+Layers can also be bent as forces act across the layering, a mechanism called **bending** or **forced folding**
+
+</div>
+<div style="width:50%; float:right">
+
+![Fold](Figures-Folds-and-Folding-Mechanisms/figures/Fossen_Chap11_fold_mechanisms.jpg) <!-- .element style="float: right" width="95%" -->
+
+</div>
+</div>
+
+
+<--o-->
+## Three fundamental mechanisms
+
+<div>
+
+<div style="width:50%; float:left">
+
+
+Folding can occur in any tectonic regime (Extensional, Contractional, Strike-Slip)
+
+It can also occur at any level in the crust, from soft sediment folding to folding under
+the entire range of metamorphic conditions.
+
+</div>
+<div style="width:50%; float:right">
+
+![Fold](Figures-Folds-and-Folding-Mechanisms/figures/Fossen_Chap11_fold_mechanisms.jpg) <!-- .element style="float: right" width="95%" -->
+
+</div>
+</div>
+
+
+<--o-->
+
 ## Different ways of forming folds
 
 <div>
@@ -164,6 +243,60 @@ Slickenlines on folded weak layers and constant bed thickness reveal flexural sl
 
 </div>
 </div>
+
+<--o-->
+## Active Folding or Buckling
+
+![Flexural Slip](Figures-Folds-and-Folding-Mechanisms/figures/Buckling.png) <!-- .element style="float: center" width="90%" -->
+
+
+<--o-->
+## Active Folding or Buckling
+### Buckling and Viscosity Contrast
+
+<div>
+
+<div style="width:50%; float:left">
+
+Keeping the layer thickness constant shows the influence of competence contrast.
+
+**High contrast** create large wave lengths and amplitudes.
+**Low contrast** create small wave lengths and amplitudes.
+
+The least competent layer ends up much thicker than prior to deformation, more competent
+layer show less thickness changes.
+
+
+</div>
+<div style="width:50%; float:right">
+
+![Flexural Flow](Figures-Folds-and-Folding-Mechanisms/figures/BucklingViscosityContrast.png) <!-- .element style="float: center" width="95%" -->
+
+</div>
+</div>
+
+<--o-->
+## Active Folding or Buckling
+### Multilayers
+
+<div>
+
+<div style="width:50%; float:left">
+
+When layers are widely apart they behave as single layers.
+
+When they are close together they tend to behave as a single layer whose thickness is the same as the sum of the individual ones.
+
+</div>
+<div style="width:50%; float:right">
+
+![Flexural Flow](Figures-Folds-and-Folding-Mechanisms/figures/Multilayers.png) <!-- .element style="float: center" width="95%" -->
+
+</div>
+</div>
+
+<--o-->
+<!-- .slide: data-background="Figures-Folds-and-Folding-Mechanisms/photos/Multilayers.jpg" -->
 
 <--o-->
 ## Active Folding or Buckling
