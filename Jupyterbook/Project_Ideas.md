@@ -69,6 +69,8 @@ behind the mapping of the sea-floor and the rendering of the bathymetry into a n
 
 - Anderson, E. M. (1905). The dynamics of faulting. Oliver and Boyd. *A paper details the fundamental idea and theory behind the Anderson’s theory of faulting.*
 
+- Paterson, M. S. (1958). Experimental deformation and faulting in Wombeyan marble. GSA Bulletin, 69(4): 465-476. https://doi.org/10.1130/0016-7606(1958)69[465:EDAFIW]2.0.CO;2. *A paper documents a series of early rock mechanical experiments carried within RSES on exploring the brittle-ductile behavior of a coarse-grained marble.*
+
 - Raleigh, C. B., & Paterson, M. S. (1965). Experimental deformation of serpentinite and its tectonic implications. Journal of Geophysical Research, 70(16), 3965-3985. https://doi.org/10.1029/jz070i016p03965. *A paper by ANU earth scientists on exploring the different factors on the rheological behaviours of serpentinite.*
 
 - Secor, D. T. (1965). Role of fluid pressure in jointing. American Journal of Science, 263(8), 633-646. https://doi.org/10.2475/ajs.263.8.633. *A paper combines fluid pressure theory and rock failure criteria to examine the mechanics of natural tension fracturing.* 
