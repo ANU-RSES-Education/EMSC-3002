@@ -1,6 +1,6 @@
 # Background Reading
 
-Things to read and a brief summary of each item (Add to bibliography, please)
+Things to read and a brief summary of each item
 
 ## Reference texts
 
