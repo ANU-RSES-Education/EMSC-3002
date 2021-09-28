@@ -4,6 +4,14 @@
 
 The purpose of projects is to provide the opportunity for our students to learn more deeply about one or two topics from the course and to give you, the student, the freedom to present your work in the form you choose along with a short, written justification and discussion of how you spent your time and what you have learned.
 
+::::{admonition} Checklist
+
+ - [ ] project plan
+ - [ ] marking rubric
+
+
+::::
+
 ## Marking Rubric and Project Plan
 
 All of the ideas we have outlined allow students to choose their project topics and the form of the presentation of their work. A project needs to have a clear plan so that the amount of work is appropriate to the assessment and reasonable. Advance planning also makes sure that students can focus on relevant material and the outcomes of their project. 
@@ -19,9 +27,18 @@ The rubric needs to state very clearly what the assessable parts of the project 
 
 **Pairings:** A classic paper paired with a more recent update that will allow you to 1) appreciate the original work in the light of the observations available to the authors, 2) understand the way the basic concepts of structure and tectonics evolve in meaning even when the nomenclature remains the same, and 3) realise that the emergence of new ideas does not (always) invalidate the old but may well adjust the way in which we frame and reuse those ideas. The reading should be wider than the two papers in question but those provide the end points to help steer the discussion. 
 
-Here are some classic papers 
 
-**Note: these are global tectonics, others are needed**
+::::{admonition} Instructions for reading projects
+
+The task is to choose one of these papers and then to look for a significant paper to pair with it from the past (say) decade that either updates the original paper, provides an observational validation, or perhaps a major re-evaluation of the idea. 
+
+Writing up these two papers into a report should include a discussion of the significance of the original paper, and the nature of the updated information in the recent paper. Which key points from the course are important to understanding the importance of this work ?
+
+Students should make a presentation of their report in a format of their choosing such as: a very short 3-5 minute oral discussion with a few slides, a poster in a "standard conference format" which you can summarise in a 3-5 minute talk, a video presentation of about 3-5 minutes long, or any other assessable format agreed with the instructors.
+::::
+
+
+### Global tectonics
 
 - Wilson, J. T. (1963). CONTINENTAL DRIFT. Scientific American, 208(4), 86–103. https://doi.org/10.1038/scientificamerican0463-86. *This paper came very early in the evolution of the plate tectonic paradigm but outlines a version of the theory that has changed very little despite the vastly increased observational data that subsequently became available*
 
@@ -38,9 +55,10 @@ behind the mapping of the sea-floor and the rendering of the bathymetry into a n
 
 - Tapponnier, P., Peltzer, G., Dain, A. Y. L., Armijo, R., & Cobbold, P. (1982). Propagating extrusion tectonics in Asia: New insights from simple experiments with plasticine. Geology, 10, 611–616. https://doi.org/10/bmzcmt. *A paper that proposes the concept of "escape tectonics" which recognises that continental deformation is not just driven by boundary forces but also by the balance between crustal thickening and gravitational potential energy*.
 
-**Here are some on theory and brittle deformation part**
 
-- Anderson, E. M. (1905). The dynamics of faulting. Oliver and Boyd. https://doi-org.virtual.anu.edu.au/10.1144/transed.8.3.387. *A paper details the fundamental idea and theory behind the Anderson’s theory of faulting.*
+### Brittle Deformation
+
+- Anderson, E. M. (1905). The dynamics of faulting. Oliver and Boyd. *A paper details the fundamental idea and theory behind the Anderson’s theory of faulting.*
 
 - Paterson, M. S. (1958). Experimental deformation and faulting in Wombeyan marble. GSA Bulletin, 69(4): 465-476. https://doi.org/10.1130/0016-7606(1958)69[465:EDAFIW]2.0.CO;2. *A paper documents a series of early rock mechanical experiments carried within RSES on exploring the brittle-ductile behavior of a coarse-grained marble.*
 
@@ -56,13 +74,6 @@ behind the mapping of the sea-floor and the rendering of the bathymetry into a n
 
 - Kanamori, H., & Anderson, D. L. (1975). Theoretical basis of some empirical relations in seismology. Bulletin of the seismological society of America, 65(5), 1073-1095. *An early paper explores the different scaling laws among several important earthquake parameters through an extensive set of earthquake data in the 1980s.* 
 
-
-The next part of the task is to choose one of these papers and then to look for a significant paper to pair with it from the past (say) decade that either updates the original paper, provides an observational validation, or perhaps a major re-evaluation of the idea. 
-
-Writing up these two papers into a report should include a discussion of the significance of the original paper, and the nature of the updated information in the recent paper. Which key points from the course are important to understanding the importance of this work ?
-
-*Optional:* students should make a presentation of their report in a format of their choosing such as: a very short 3-5 minute oral discussion with a few slides, a poster in a "standard conference format" which you can summarise in a 3-5 minute talk, a video presentation of about 3-5 minutes long, or any other format agreed with the instructors.
-
 ## Hands-on projects
 
 Some of the demonstration examples that we suggest for practical class exercises can be developed into more extensive projects over the course of a few weeks. You will typically need to understand the principles behind the demonstration in order to construct a version of your own to work with at home. 
@@ -77,12 +88,32 @@ Examples include:
 
 - Use cheese (or whatever you regard appropriate) as an analog to understand some fracture fundamentals. You can make small cuts (fracture nuclei) in processed cheese food and then apply stresses perpendicular or parallel to the cuts to see how fractures grow. How is this experiment different and/or similar to the rock deformation? How will various kinds of applied stresses act on pre-existing cracks?
 
-## Virtual Mapping  projects
+- Darcy flow modelling using a coffee machine. Fluid flow and fluid pressure in the pore-space of granular materials influences the strength because it changes the effective pressure that appears in the strength envelope. The Darcy flow model is often used as a approximation for the fluid flow in response to pressure gradients. It relates flow rates to pressure gradients through a permeability - this is something that is demonstrable in something as simple as a home espresso machine (a pump establishes a pressure gradient across a granular material).
 
-Here are some ideas to help develop a virtual mapping project 
+## Mapping projects
 
-????
+Field-based mapping projects need to avoid overlap with field sections of this course but are otherwise encouraged ! Any mapping project will need to complete the same planning and risk-management process as any field work and this time cannot be counted as part of the assessable component. 
+
+It is also possible to map large-scale features virtually using topographic maps, digital elevation models and online geological map data and this has a much lower administrative overhead.
+
+ - TBA
+
+ ::::{admonition} Instructions for designing a mapping project
+
+TBA
+
+::::
 
 ## Self-designed project
 
 As long as there is a connection to a key concept in the course and the workload is equivalent to one of the suggestions above, students can be encouraged to design a project that interests them including joint projects or projects that draw on material from other courses. If the project uses background information or is a team project, then the plan will need to outline the individual contribution and the rubric should be written to assess only the individual part. 
+
+::::{admonition} Instructions for designing a project from scratch
+
+If you would like to suggest a project, you first need to find an academic sponsor to help with the 
+planning and provide perspective on the marking scheme. The topic should be relevant to the course and the most effective way to ensure that is to review the learning outcomes and identify how the project topic touches on at least one of these. 
+
+Read the comments above about assessment. The project mark is based on the work that is relevant to the course and that is also your own contribution rather than the background material or work shared with a group. We may not be familiar with the background material you have from your academic sponsor so it will be important to document this for us.
+
+Decide what you want to do and make sure you get us to give feedback and, ultimately, sign off on the project.
+::::
