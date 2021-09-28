@@ -12,7 +12,7 @@ revealOptions:
 
 # EMSC 3002
 
-## Fractures, joints and fracture criteria
+## Module4.1 - Fundamentals of brittle deformation 
 
   - Louis Moresi (convenor)
   - Romain Beucher (lecturer)
@@ -30,20 +30,24 @@ corrections._
 
 ## Resources
 
-1. **Fossen, H, 2011.** *Structural Geology.* Cambridge University Press, 2nd Edition **Chapter 11**
-1. **Davis, G.H. and Reynolds, S.J., 1996.** *Structural Geology of Rocks and Regions.* 2nd Edition, John Wiley & Sons. **Chapter 7**
-1. **McClay, K.R. 1991.** *The Mapping of Geological Structures.* John Wiley & Sons.  **Chapter 3**
-1. **Park, R.G., 1995.** *Foundations of Structural Geology.* Blackie & Sons Ltd. **Chapter 2**
+1. **Fossen, H, 2011.** *Structural Geology.* Cambridge University Press, 2nd Edition.
+1. **van der Pluijm, B.A. and Marshak, S., 2003.** *Earth Strcture: an introduction to structural geology and tectonics.* W. W. Norton & Company, Ltd.
+1. **Davis, G.H. and Reynolds, S.J., 1996.** *Structural Geology of Rocks and Regions.* 2nd Edition, John Wiley & Sons.
+1. **McClay, K.R. 1991.** *The Mapping of Geological Structures.* John Wiley & Sons. 
 
 <--o-->
 
 ## Intended learning outcomes
 
-Students will be able to:
+What you will learn about the brittle deformation
 
-- one
-- two
-- three
+- Concepts of fractures and brittle deformation
+- Four modes of fracture and its relation to stress state
+- The effects of internal defects on material strength
+- The development of tensile and shear fractures
+- Mohr failure envelope and a composte failure criterion
+- Fricitional sliding: concepts and implications
+- Effect of environmental factors on failure
 
 <--o-->
 
@@ -159,14 +163,3 @@ Students will be able to:
 
 <!-- .slide: data-background="Figures-Brittle_deformation1/slide29.jpg" -->
 
-<--o-->
-
-<!-- .slide: data-background="Figures-Brittle_deformation1/slide30.jpg" -->
-
-<--o-->
-
-<!-- .slide: data-background="Figures-Brittle_deformation1/slide31.jpg" -->
-
-<--o-->
-
-<!-- .slide: data-background="Figures-Brittle_deformation1/slide32.jpg" -->

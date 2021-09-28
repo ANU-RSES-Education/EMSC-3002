@@ -50,129 +50,131 @@ What you will learn about strain and strain rate.
 
 <--o-->
 
-<!-- .slide: data-background="Figures-Theory2/slide1.png" -->
+<!-- .slide: data-background="Figures-Theory2/slide1.jpg" -->
 
 <--o-->
 
-<!-- .slide: data-background="Figures-Theory2/slide2.png" -->
+<!-- .slide: data-background="Figures-Theory2/slide2.jpg" -->
 
 <--o-->
 
-<!-- .slide: data-background="Figures-Theory2/slide3.png" -->
+<!-- .slide: data-background="Figures-Theory2/slide3.jpg" -->
 
 <--o-->
 
-<!-- .slide: data-background="Figures-Theory2/slide4.png" -->
+<!-- .slide: data-background="Figures-Theory2/slide4.jpg" -->
 
 <--o-->
 
-<!-- .slide: data-background="Figures-Theory2/slide5.png" -->
+<!-- .slide: data-background="Figures-Theory2/slide5.jpg" -->
 
 <--o-->
-<!-- .slide: data-background="Figures-Theory2/slide6.png" -->
-
-<--o-->
-
-<!-- .slide: data-background="Figures-Theory2/slide7.png" -->
+<!-- .slide: data-background="Figures-Theory2/slide6.jpg" -->
 
 <--o-->
 
-<!-- .slide: data-background="Figures-Theory2/slide8.png" -->
+<!-- .slide: data-background="Figures-Theory2/slide7.jpg" -->
 
 <--o-->
 
-<!-- .slide: data-background="Figures-Theory2/slide9.png" -->
+<!-- .slide: data-background="Figures-Theory2/slide8.jpg" -->
 
 <--o-->
 
-<!-- .slide: data-background="Figures-Theory2/slide10.png" -->
+<!-- .slide: data-background="Figures-Theory2/slide9.jpg" -->
 
 <--o-->
 
-<!-- .slide: data-background="Figures-Theory2/slide11.png" -->
+<!-- .slide: data-background="Figures-Theory2/slide10.jpg" -->
 
 <--o-->
 
-<!-- .slide: data-background="Figures-Theory2/slide12.png" -->
+<!-- .slide: data-background="Figures-Theory2/slide11.jpg" -->
 
 <--o-->
 
-<!-- .slide: data-background="Figures-Theory2/slide13.png" -->
+<!-- .slide: data-background="Figures-Theory2/slide12.jpg" -->
 
 <--o-->
 
-<!-- .slide: data-background="Figures-Theory2/slide14.png" -->
+<!-- .slide: data-background="Figures-Theory2/slide13.jpg" -->
 
 <--o-->
 
-<!-- .slide: data-background="Figures-Theory2/slide15.png" -->
+<!-- .slide: data-background="Figures-Theory2/slide14.jpg" -->
 
 <--o-->
 
-<!-- .slide: data-background="Figures-Theory2/slide16.png" -->
+<!-- .slide: data-background="Figures-Theory2/slide15.jpg" -->
 
 <--o-->
 
-<!-- .slide: data-background="Figures-Theory2/slide17.png" -->
+<!-- .slide: data-background="Figures-Theory2/slide16.jpg" -->
 
 <--o-->
 
-<!-- .slide: data-background="Figures-Theory2/slide18.png" -->
+<!-- .slide: data-background="Figures-Theory2/slide17.jpg" -->
 
 <--o-->
 
-<!-- .slide: data-background="Figures-Theory2/slide19.png" -->
+<!-- .slide: data-background="Figures-Theory2/slide18.jpg" -->
 
 <--o-->
 
-<!-- .slide: data-background="Figures-Theory2/slide20.png" -->
+<!-- .slide: data-background="Figures-Theory2/slide19.jpg" -->
 
 <--o-->
 
-<!-- .slide: data-background="Figures-Theory2/slide21.png" -->
+<!-- .slide: data-background="Figures-Theory2/slide20.jpg" -->
 
 <--o-->
 
-<!-- .slide: data-background="Figures-Theory2/slide22.png" -->
+<!-- .slide: data-background="Figures-Theory2/slide21.jpg" -->
 
 <--o-->
 
-<!-- .slide: data-background="Figures-Theory2/slide23.png" -->
+<!-- .slide: data-background="Figures-Theory2/slide22.jpg" -->
 
 <--o-->
 
-<!-- .slide: data-background="Figures-Theory2/slide24.png" -->
+<!-- .slide: data-background="Figures-Theory2/slide23.jpg" -->
 
 <--o-->
 
-<!-- .slide: data-background="Figures-Theory2/slide25.png" -->
+<!-- .slide: data-background="Figures-Theory2/slide24.jpg" -->
 
 <--o-->
 
-<!-- .slide: data-background="Figures-Theory2/slide26.png" -->
+<!-- .slide: data-background="Figures-Theory2/slide25.jpg" -->
 
 <--o-->
 
-<!-- .slide: data-background="Figures-Theory2/slide27.png" -->
+<!-- .slide: data-background="Figures-Theory2/slide26.jpg" -->
 
 <--o-->
 
-<!-- .slide: data-background="Figures-Theory2/slide28.png" -->
+<!-- .slide: data-background="Figures-Theory2/slide27.jpg" -->
 
 <--o-->
 
-<!-- .slide: data-background="Figures-Theory2/slide29.png" -->
+<!-- .slide: data-background="Figures-Theory2/slide28.jpg" -->
 
 <--o-->
 
-<!-- .slide: data-background="Figures-Theory2/slide30.png" -->
+<!-- .slide: data-background="Figures-Theory2/slide29.jpg" -->
 
 <--o-->
 
-<!-- .slide: data-background="Figures-Theory2/slide31.png" -->
+<!-- .slide: data-background="Figures-Theory2/slide30.jpg" -->
 
 <--o-->
 
-<!-- .slide: data-background="Figures-Theory2/slide32.png" -->
+<!-- .slide: data-background="Figures-Theory2/slide31.jpg" -->
 
 <--o-->
+
+<!-- .slide: data-background="Figures-Theory2/slide32.jpg" -->
+
+<--o-->
+
+<!-- .slide: data-background="Figures-Theory2/slide33.jpg" -->
