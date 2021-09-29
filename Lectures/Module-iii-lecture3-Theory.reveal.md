@@ -39,11 +39,14 @@ corrections._
 
 ## Intended learning outcomes
 
-Students will be able to:
+What you will learn in this module:
 
-- one
-- two
-- three
+- The concept of rheology
+- Idealized form of deformation: elastic and viscous
+- Two important parameters for elastic deformation: Young's Modulus and Poisson's ratio
+- Viscosity to describe viscous deformation and several types of flows
+- Main physical factors controlling the deformation
+- Some deformation mechanisms
 
 <--o-->
 
@@ -52,18 +55,6 @@ Students will be able to:
 <--o-->
 
 <!-- .slide: data-background="Figures-Theory3/slide2.jpg" -->
-
-<--o-->
-
-<center>
-<video autoplay controls width="90%">
-    <source src="movies/subduction_simulation.mp4"
-            type="video/mp4">
-
-    Sorry, your browser doesn't support embedded videos.
-</video>
-</center>
-</div>
 
 <--o-->
 
@@ -78,6 +69,7 @@ Students will be able to:
 <!-- .slide: data-background="Figures-Theory3/slide5.jpg" -->
 
 <--o-->
+
 <!-- .slide: data-background="Figures-Theory3/slide6.jpg" -->
 
 <--o-->
@@ -146,8 +138,28 @@ Students will be able to:
 
 <--o-->
 
+<!-- .slide: data-background="Figures-Theory3/slide23.jpg" -->
+
 <--o-->
+
+<!-- .slide: data-background="Figures-Theory3/slide24.jpg" -->
 
 <--o-->
 
 <!-- .slide: data-background="Figures-Theory3/slide25.jpg" -->
+
+<--o-->
+
+<!-- .slide: data-background="Figures-Theory3/slide26.jpg" -->
+
+<--o-->
+
+<!-- .slide: data-background="Figures-Theory3/slide27.jpg" -->
+
+<--o-->
+
+<!-- .slide: data-background="Figures-Theory3/slide28.jpg" -->
+
+<--o-->
+
+<!-- .slide: data-background="Figures-Theory3/slide29.jpg" -->

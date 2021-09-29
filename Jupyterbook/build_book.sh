@@ -7,7 +7,11 @@ source build_slides.sh
 cd ..
 
 # This is where we can build LaTeX beamer content to pdfs
-# pdfs should be build to Lectures/static_pdfs/pdfs
+# pdfs should be build to Lectures/static_slides/PDFs
+
+cd Lectures
+source build_pdfs.sh 
+cd ..
 
 # Now build the remaining book
 
@@ -17,7 +21,7 @@ jupyter-book build .
 # if there is no work to be done in rebuilding the book 
 
 cp -r Lectures/static_slides/slideshows _build/html
-cp -r Lectures/static_pdfs/pdfs _build/html
+cp -r Lectures/static_slides/PDFs _build/html
 
 mkdir -p _build/html/Figures/Movies
 cp -r Figures/Movies _build/html/Figures
