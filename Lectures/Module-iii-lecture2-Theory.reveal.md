@@ -41,130 +41,140 @@ corrections._
 
 What you will learn about strain and strain rate.
 
-- The meaning of kinematic analysis
-- The four deformation styles
-- The concept of strain and its quantification in 2D / 3D
-- Strain classification via Flinn diagram
-- The general methods for strain analysis
-- The concept of strain rate and how we measure them
+- Geometric, dynamic and kinematic analysis
+- Four general forms of deformation 
+- The concept of strain and its quantification in 1D, 2D, 3D (strain tensor)
+- Strain classification via the Flinn diagram
+- Methods to estimate strain in a rock
+- The concept of strain rate and how / why we measure them
 
 <--o-->
 
-<!-- .slide: data-background="Figures-Theory2/slide1.png" -->
+<!-- .slide: data-background="Figures-Theory2/slide1.jpg" -->
 
 <--o-->
 
-<!-- .slide: data-background="Figures-Theory2/slide2.png" -->
+<!-- .slide: data-background="Figures-Theory2/slide2.jpg" -->
 
 <--o-->
 
-<!-- .slide: data-background="Figures-Theory2/slide3.png" -->
+<!-- .slide: data-background="Figures-Theory2/slide3.jpg" -->
 
 <--o-->
 
-<!-- .slide: data-background="Figures-Theory2/slide4.png" -->
+<!-- .slide: data-background="Figures-Theory2/slide4.jpg" -->
 
 <--o-->
 
-<!-- .slide: data-background="Figures-Theory2/slide5.png" -->
+<!-- .slide: data-background="Figures-Theory2/slide5.jpg" -->
 
 <--o-->
-<!-- .slide: data-background="Figures-Theory2/slide6.png" -->
-
-<--o-->
-
-<!-- .slide: data-background="Figures-Theory2/slide7.png" -->
+<!-- .slide: data-background="Figures-Theory2/slide6.jpg" -->
 
 <--o-->
 
-<!-- .slide: data-background="Figures-Theory2/slide8.png" -->
+<!-- .slide: data-background="Figures-Theory2/slide7.jpg" -->
 
 <--o-->
 
-<!-- .slide: data-background="Figures-Theory2/slide9.png" -->
+<!-- .slide: data-background="Figures-Theory2/slide8.jpg" -->
 
 <--o-->
 
-<!-- .slide: data-background="Figures-Theory2/slide10.png" -->
+<!-- .slide: data-background="Figures-Theory2/slide9.jpg" -->
 
 <--o-->
 
-<!-- .slide: data-background="Figures-Theory2/slide11.png" -->
+<!-- .slide: data-background="Figures-Theory2/slide10.jpg" -->
 
 <--o-->
 
-<!-- .slide: data-background="Figures-Theory2/slide12.png" -->
+<!-- .slide: data-background="Figures-Theory2/slide11.jpg" -->
 
 <--o-->
 
-<!-- .slide: data-background="Figures-Theory2/slide13.png" -->
+<!-- .slide: data-background="Figures-Theory2/slide12.jpg" -->
 
 <--o-->
 
-<!-- .slide: data-background="Figures-Theory2/slide14.png" -->
+<!-- .slide: data-background="Figures-Theory2/slide13.jpg" -->
 
 <--o-->
 
-<!-- .slide: data-background="Figures-Theory2/slide15.png" -->
+<!-- .slide: data-background="Figures-Theory2/slide14.jpg" -->
 
 <--o-->
 
-<!-- .slide: data-background="Figures-Theory2/slide16.png" -->
+<!-- .slide: data-background="Figures-Theory2/slide15.jpg" -->
 
 <--o-->
 
-<!-- .slide: data-background="Figures-Theory2/slide17.png" -->
+<!-- .slide: data-background="Figures-Theory2/slide16.jpg" -->
 
 <--o-->
 
-<!-- .slide: data-background="Figures-Theory2/slide18.png" -->
+<!-- .slide: data-background="Figures-Theory2/slide17.jpg" -->
 
 <--o-->
 
-<!-- .slide: data-background="Figures-Theory2/slide19.png" -->
+<!-- .slide: data-background="Figures-Theory2/slide18.jpg" -->
 
 <--o-->
 
-<!-- .slide: data-background="Figures-Theory2/slide20.png" -->
+<!-- .slide: data-background="Figures-Theory2/slide19.jpg" -->
 
 <--o-->
 
-<!-- .slide: data-background="Figures-Theory2/slide21.png" -->
+<!-- .slide: data-background="Figures-Theory2/slide20.jpg" -->
 
 <--o-->
 
-<!-- .slide: data-background="Figures-Theory2/slide22.png" -->
+<!-- .slide: data-background="Figures-Theory2/slide21.jpg" -->
 
 <--o-->
 
-<!-- .slide: data-background="Figures-Theory2/slide23.png" -->
+<!-- .slide: data-background="Figures-Theory2/slide22.jpg" -->
 
 <--o-->
 
-<!-- .slide: data-background="Figures-Theory2/slide24.png" -->
+<!-- .slide: data-background="Figures-Theory2/slide23.jpg" -->
 
 <--o-->
 
-<!-- .slide: data-background="Figures-Theory2/slide25.png" -->
+<!-- .slide: data-background="Figures-Theory2/slide24.jpg" -->
 
 <--o-->
 
-<!-- .slide: data-background="Figures-Theory2/slide26.png" -->
+<!-- .slide: data-background="Figures-Theory2/slide25.jpg" -->
 
 <--o-->
 
-<!-- .slide: data-background="Figures-Theory2/slide27.png" -->
+<!-- .slide: data-background="Figures-Theory2/slide26.jpg" -->
 
 <--o-->
-## Plate Boundaries
 
-The regions of highest strain rate at the surface of the Earth are the plate boundaries.
+<!-- .slide: data-background="Figures-Theory2/slide27.jpg" -->
 
-<center>
+<--o-->
 
-![](images/GlobalTectonics/GlobalStrainRate.png) <!-- .element style="width:66%;" -->
+<!-- .slide: data-background="Figures-Theory2/slide28.jpg" -->
 
-</center>
+<--o-->
 
-The styles and patterns of deformation are very dependent on the orientation of the stresses that are acting at the boundary.
+<!-- .slide: data-background="Figures-Theory2/slide29.jpg" -->
 
+<--o-->
+
+<!-- .slide: data-background="Figures-Theory2/slide30.jpg" -->
+
+<--o-->
+
+<!-- .slide: data-background="Figures-Theory2/slide31.jpg" -->
+
+<--o-->
+
+<!-- .slide: data-background="Figures-Theory2/slide32.jpg" -->
+
+<--o-->
+
+<!-- .slide: data-background="Figures-Theory2/slide33.jpg" -->

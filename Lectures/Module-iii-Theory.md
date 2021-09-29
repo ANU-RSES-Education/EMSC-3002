@@ -11,21 +11,21 @@ The slides are originally made using PowerPoint and then convert to html / javas
 The first part of this module introduces the concept of stress, stress tensor, the derivation and application of Mohr circle and the methods to measure stress inside the Earth.
 
 <iframe src="../slideshows/Module-iii-lecture1-Theory.reveal.html" title="Slideshow" width=100%, height=470, allowfullscreen></iframe>
-Login to [Wattle](https://wattlecourses.anu.edu.au/course/) for the pdf version.
+Login to Wattle for the pdf version.
 
 ### Strain and Strain Rate
 
 The next part of the module covers the topic of strain and strain rate, their tensor expression and introduces the strain classification and general methods for strain analysis. 
 
 <iframe src="../slideshows/Module-iii-lecture2-Theory.reveal.html" title="Slideshow" width=100%, height=470, allowfullscreen></iframe>
-Login to [Wattle](https://wattlecourses.anu.edu.au/course/) for the pdf version.
+Login to Wattle for the pdf version.
 
 ### Rheology
 
 The last part of the module explores the relationship between stress and strain, i.e. the rheological property of rock materials.
 
 <iframe src="../slideshows/Module-iii-lecture3-Theory.reveal.html" title="Slideshow" width=100%, height=470, allowfullscreen></iframe>
-Login to [Wattle](https://wattlecourses.anu.edu.au/course/) for the pdf version.
+Login to Wattle for the pdf version.
 
 ## Resources
 
