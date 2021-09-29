@@ -875,45 +875,7 @@ Always more complicated in nature! Folds may have complex histories with changin
 
 Always require to compile and synthesize other relevant pieces of information to reconstruct the strain / stress history.
 
-
-
 <--o-->
-
-## Bedding / Cleavage relationships
-
-![Fold](Figures-Folds-and-Folding-Mechanisms/figures/Bedding_Cleavage_Relationship.svg) <!-- .element width="90%" -->
-
-<--o-->
-
-## Introduction to structural analysis
-### Pumpelly's Rule
-
-![Fold](Figures-Folds-and-Folding-Mechanisms/figures/Pumpellys_rule.svg)  <!-- .element width="90%" -->>
-
-<--o-->
-## Shorthand nomenclature
-
-<div>
-<div style="width:60%; float:left">
-
-We use the designation **$S_n$** for foliations, with the **$n$** subscript indicating relative age ($S_0$, $S_1$, $S_2$ etc.)
-
-**$S_0$** referred to the primary foliation, e.g the bedding for a sedimentary rock.
-
-As folds and foliations are often related we associate **$S_1$**, **$S_2$**, **$S_3$**... to generations of folds **$F_1$**, **$F_2$**, **$F_3$**...
-
-We can also refer to deformation phases as **$D_1$**, **$D_2$**, **$D_3$**...
-
-</div>
-<div style="width:40%; float:right">
-
-![Shorthand Nomenclature](Figures-Folds-and-Folding-Mechanisms/figures/CleavageLayeringRelationships.jpg) <!-- .element style="float: center" width="90%" -->
-
-</div>
-</div>
-
-<--o-->
-
 ## Superposed folds - fold interference patterns
 
 <div>
