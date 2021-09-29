@@ -1,4 +1,4 @@
-# Structures associated with folding 1
+# Structures associated with folding
 
 ## Lecture 1
 
