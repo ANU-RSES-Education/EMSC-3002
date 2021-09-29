@@ -209,8 +209,21 @@ The term **cleavage** describe the ability of a rock to split, or cleave, into m
 Do not confuse with crystallographic cleavage which is the tendency of minerals to break along crystallographic planes).
 
 <--o-->
+## Bedding / Cleavage relationships
 
+![Fold](Figures-Structures-Associated-with-Folding-1/Figures/Bedding_Cleavage_Relationship.svg) <!-- .element width="90%" -->
+
+<--o-->
+### Pumpelly's Rule
+
+![Fold](Figures-Structures-Associated-with-Folding-1/Figures/Pumpellys_rule.svg)  <!-- .element width="90%" -->>
+
+
+<--o-->
 ## Shorthand nomenclature
+
+<div>
+<div style="width:60%; float:left">
 
 We use the designation **$S_n$** for foliations, with the **$n$** subscript indicating relative age ($S_0$, $S_1$, $S_2$ etc.)
 
@@ -219,6 +232,15 @@ We use the designation **$S_n$** for foliations, with the **$n$** subscript indi
 As folds and foliations are often related we associate **$S_1$**, **$S_2$**, **$S_3$**... to generations of folds **$F_1$**, **$F_2$**, **$F_3$**...
 
 We can also refer to deformation phases as **$D_1$**, **$D_2$**, **$D_3$**...
+
+</div>
+<div style="width:40%; float:right">
+
+![Shorthand Nomenclature](Figures-Structures-Associated-with-Folding-1/Figures/CleavageLayeringRelationships.jpg) <!-- .element style="float: center" width="90%" -->
+
+</div>
+</div>
+
 <--o-->
 
 ## Cleavage development
