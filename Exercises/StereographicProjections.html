@@ -1,0 +1,520 @@
+
+<!DOCTYPE html>
+
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Exercises: Build your own Mountain belt &#8212; EMSC 3002</title>
+    
+  <link href="../_static/css/theme.css" rel="stylesheet" />
+  <link href="../_static/css/index.c5995385ac14fb8791e8eb36b4908be2.css" rel="stylesheet" />
+
+    
+  <link rel="stylesheet"
+    href="../_static/vendor/fontawesome/5.13.0/css/all.min.css">
+  <link rel="preload" as="font" type="font/woff2" crossorigin
+    href="../_static/vendor/fontawesome/5.13.0/webfonts/fa-solid-900.woff2">
+  <link rel="preload" as="font" type="font/woff2" crossorigin
+    href="../_static/vendor/fontawesome/5.13.0/webfonts/fa-brands-400.woff2">
+
+    
+      
+
+    
+    <link rel="stylesheet" href="../_static/pygments.css" type="text/css" />
+    <link rel="stylesheet" href="../_static/sphinx-book-theme.css?digest=c3fdc42140077d1ad13ad2f1588a4309" type="text/css" />
+    <link rel="stylesheet" type="text/css" href="../_static/togglebutton.css" />
+    <link rel="stylesheet" type="text/css" href="../_static/copybutton.css" />
+    <link rel="stylesheet" type="text/css" href="../_static/mystnb.css" />
+    <link rel="stylesheet" type="text/css" href="../_static/sphinx-thebe.css" />
+    <link rel="stylesheet" type="text/css" href="../_static/customize.css" />
+    <link rel="stylesheet" type="text/css" href="../_static/panels-main.c949a650a448cc0ae9fd3441c0e17fb0.css" />
+    <link rel="stylesheet" type="text/css" href="../_static/panels-variables.06eb56fa6e07937060861dad626602ad.css" />
+    
+  <link rel="preload" as="script" href="../_static/js/index.1c5a1a01449ed65a7b51.js">
+
+    <script id="documentation_options" data-url_root="../" src="../_static/documentation_options.js"></script>
+    <script src="../_static/jquery.js"></script>
+    <script src="../_static/underscore.js"></script>
+    <script src="../_static/doctools.js"></script>
+    <script src="../_static/togglebutton.js"></script>
+    <script src="../_static/clipboard.min.js"></script>
+    <script src="../_static/copybutton.js"></script>
+    <script src="../_static/font_button.js"></script>
+    <script async="async" kind="hypothesis" src="https://hypothes.is/embed.js"></script>
+    <script >var togglebuttonSelector = '.toggle, .admonition.dropdown, .tag_hide_input div.cell_input, .tag_hide-input div.cell_input, .tag_hide_output div.cell_output, .tag_hide-output div.cell_output, .tag_hide_cell.cell, .tag_hide-cell.cell';</script>
+    <script src="../_static/sphinx-book-theme.12a9622fbb08dcb3a2a40b2c02b83a57.js"></script>
+    <script async="async" src="https://unpkg.com/thebe@0.5.1/lib/index.js"></script>
+    <script >
+        const thebe_selector = ".thebe"
+        const thebe_selector_input = "pre"
+        const thebe_selector_output = ".output"
+    </script>
+    <script async="async" src="../_static/sphinx-thebe.js"></script>
+    <link rel="index" title="Index" href="../genindex.html" />
+    <link rel="search" title="Search" href="../search.html" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="docsearch:language" content="en" />
+    
+  </head>
+  <body data-spy="scroll" data-target="#bd-toc-nav" data-offset="80">
+    
+    <div class="container-fluid" id="banner"></div>
+
+    
+
+    <div class="container-xl">
+      <div class="row">
+          
+<div class="col-12 col-md-3 bd-sidebar site-navigation show" id="site-navigation">
+    
+        <div class="navbar-brand-box">
+    <a class="navbar-brand text-wrap" href="../index.html">
+      
+        <!-- `logo` is deprecated in Sphinx 4.0, so remove this when we stop supporting 3 -->
+        
+      
+      
+      <img src="../_static/AuWorldEQ.jpg" class="logo" alt="logo">
+      
+      
+      <h1 class="site-logo" id="site-title">EMSC 3002</h1>
+      
+    </a>
+</div><form class="bd-search d-flex align-items-center" action="../search.html" method="get">
+  <i class="icon fas fa-search"></i>
+  <input type="search" class="form-control" name="q" id="search-input" placeholder="Search this book..." aria-label="Search this book..." autocomplete="off" >
+</form><nav class="bd-links" id="bd-docs-nav" aria-label="Main">
+    <div class="bd-toc-item active">
+        <ul class="nav bd-sidenav">
+ <li class="toctree-l1">
+  <a class="reference internal" href="../FrontPage.html">
+   EMSC 3002 - Structural Geology and Tectonics
+  </a>
+ </li>
+</ul>
+<p class="caption">
+ <span class="caption-text">
+  Introduction
+ </span>
+</p>
+<ul class="nav bd-sidenav">
+ <li class="toctree-l1">
+  <a class="reference internal" href="../Introductory_Remarks.html">
+   Introduction
+  </a>
+ </li>
+ <li class="toctree-l1">
+  <a class="reference internal" href="../Background_Reading.html">
+   Background Reading
+  </a>
+ </li>
+ <li class="toctree-l1">
+  <a class="reference internal" href="../Practical_Exercises.html">
+   Exercises
+  </a>
+ </li>
+ <li class="toctree-l1">
+  <a class="reference internal" href="../Project_Ideas.html">
+   Project Ideas
+  </a>
+ </li>
+</ul>
+<p class="caption">
+ <span class="caption-text">
+  Lecture Notes
+ </span>
+</p>
+<ul class="nav bd-sidenav">
+ <li class="toctree-l1">
+  <a class="reference internal" href="../Lectures/Lecture-1-Introduction.html">
+   Introduction to EMSC 3002
+  </a>
+ </li>
+ <li class="toctree-l1">
+  <a class="reference internal" href="../Lectures/Module-i-GlobalTectonics.html">
+   Module 1 - Global Tectonics
+  </a>
+ </li>
+ <li class="toctree-l1">
+  <a class="reference internal" href="../Lectures/Module-ii-Structural-Geology-And-Crustal-Deformation.html">
+   Module 2 - Structures in the Earth
+  </a>
+ </li>
+ <li class="toctree-l1">
+  <a class="reference internal" href="../Lectures/Module-iii-Theory.html">
+   Module 3 - Theory
+  </a>
+ </li>
+ <li class="toctree-l1">
+  <a class="reference internal" href="../Lectures/Module-iv-BrittleDeformation.html">
+   Module 4 - Brittle Deformation
+  </a>
+ </li>
+ <li class="toctree-l1 has-children">
+  <a class="reference internal" href="../Lectures/Lecture-Fold-Geometry-1.html">
+   Module 5 - Ductile Deformation
+  </a>
+  <input class="toctree-checkbox" id="toctree-checkbox-1" name="toctree-checkbox-1" type="checkbox"/>
+  <label for="toctree-checkbox-1">
+   <i class="fas fa-chevron-down">
+   </i>
+  </label>
+  <ul>
+   <li class="toctree-l2">
+    <a class="reference internal" href="../Lectures/Lecture-Folds-and-Folding-Mechanisms.html">
+     Folds and Folding Mechanisms
+    </a>
+   </li>
+   <li class="toctree-l2">
+    <a class="reference internal" href="../Lectures/Lecture-Structures-Associated-with-Folding.html">
+     Structures associated with folding
+    </a>
+   </li>
+   <li class="toctree-l2">
+    <a class="reference internal" href="../Lectures/Lecture-Shear_zones.html">
+     Shear Zones
+    </a>
+   </li>
+  </ul>
+ </li>
+</ul>
+<p class="caption">
+ <span class="caption-text">
+  Glossary
+ </span>
+</p>
+<ul class="nav bd-sidenav">
+ <li class="toctree-l1">
+  <a class="reference internal" href="../Glossary.html">
+   Glossary
+  </a>
+ </li>
+</ul>
+<p class="caption">
+ <span class="caption-text">
+  Bibliography
+ </span>
+</p>
+<ul class="nav bd-sidenav">
+ <li class="toctree-l1">
+  <a class="reference internal" href="../Bibliography.html">
+   Bibliography
+  </a>
+ </li>
+</ul>
+
+    </div>
+</nav> <!-- To handle the deprecated key -->
+
+<div class="navbar_extra_footer">
+  <button type="button" onclick="legibleFontSwitcher()">Switch Font</button>&nbsp;&nbsp;<button type="button" onclick="fontScaler(1.1)">&#10133;</button><button type="button" onclick="fontScaler(0.0)">&#9679;</button><button type="button" onclick="fontScaler(0.909)">&#10134;</button>
+</div>
+
+</div>
+
+
+          
+
+
+          
+<main class="col py-md-3 pl-md-4 bd-content overflow-auto" role="main">
+    
+    <div class="topbar container-xl fixed-top">
+    <div class="topbar-contents row">
+        <div class="col-12 col-md-3 bd-topbar-whitespace site-navigation show"></div>
+        <div class="col pl-md-4 topbar-main">
+            
+            <button id="navbar-toggler" class="navbar-toggler ml-0" type="button" data-toggle="collapse"
+                data-toggle="tooltip" data-placement="bottom" data-target=".site-navigation" aria-controls="navbar-menu"
+                aria-expanded="true" aria-label="Toggle navigation" aria-controls="site-navigation"
+                title="Toggle navigation" data-toggle="tooltip" data-placement="left">
+                <i class="fas fa-bars"></i>
+                <i class="fas fa-arrow-left"></i>
+                <i class="fas fa-arrow-up"></i>
+            </button>
+            
+            
+<div class="dropdown-buttons-trigger">
+    <button id="dropdown-buttons-trigger" class="btn btn-secondary topbarbtn" aria-label="Download this page"><i
+            class="fas fa-download"></i></button>
+
+    <div class="dropdown-buttons">
+        <!-- ipynb file if we had a myst markdown file -->
+        
+        <!-- Download raw file -->
+        <a class="dropdown-buttons" href="../_sources/Exercises/StereographicProjections.md"><button type="button"
+                class="btn btn-secondary topbarbtn" title="Download source file" data-toggle="tooltip"
+                data-placement="left">.md</button></a>
+        <!-- Download PDF via print -->
+        <button type="button" id="download-print" class="btn btn-secondary topbarbtn" title="Print to PDF"
+            onClick="window.print()" data-toggle="tooltip" data-placement="left">.pdf</button>
+    </div>
+</div>
+
+            <!-- Source interaction buttons -->
+
+<div class="dropdown-buttons-trigger">
+    <button id="dropdown-buttons-trigger" class="btn btn-secondary topbarbtn"
+        aria-label="Connect with source repository"><i class="fab fa-github"></i></button>
+    <div class="dropdown-buttons sourcebuttons">
+        <a class="repository-button"
+            href="https://github.com/ANU-RSES-Education/EMSC-3002"><button type="button" class="btn btn-secondary topbarbtn"
+                data-toggle="tooltip" data-placement="left" title="Source repository"><i
+                    class="fab fa-github"></i>repository</button></a>
+        
+        
+    </div>
+</div>
+
+            <!-- Full screen (wrap in <a> to have style consistency -->
+
+<a class="full-screen-button"><button type="button" class="btn btn-secondary topbarbtn" data-toggle="tooltip"
+        data-placement="bottom" onclick="toggleFullScreen()" aria-label="Fullscreen mode"
+        title="Fullscreen mode"><i
+            class="fas fa-expand"></i></button></a>
+
+            <!-- Launch buttons -->
+
+        </div>
+
+        <!-- Table of contents -->
+        <div class="d-none d-md-block col-md-2 bd-toc show">
+            
+            <div class="tocsection onthispage pt-5 pb-3">
+                <i class="fas fa-list"></i> Contents
+            </div>
+            <nav id="bd-toc-nav" aria-label="Page">
+                <ul class="visible nav section-nav flex-column">
+ <li class="toc-h2 nav-item toc-entry">
+  <a class="reference internal nav-link" href="#analogue-sandbox-in-compression">
+   Analogue Sandbox in Compression.
+  </a>
+ </li>
+ <li class="toc-h2 nav-item toc-entry">
+  <a class="reference internal nav-link" href="#introduction">
+   Introduction
+  </a>
+ </li>
+ <li class="toc-h2 nav-item toc-entry">
+  <a class="reference internal nav-link" href="#learning-outcomes">
+   Learning outcomes
+  </a>
+ </li>
+ <li class="toc-h2 nav-item toc-entry">
+  <a class="reference internal nav-link" href="#generic-skills">
+   Generic Skills
+  </a>
+ </li>
+ <li class="toc-h2 nav-item toc-entry">
+  <a class="reference internal nav-link" href="#points-to-consider">
+   Points to consider
+  </a>
+ </li>
+ <li class="toc-h2 nav-item toc-entry">
+  <a class="reference internal nav-link" href="#exercise">
+   Exercise
+  </a>
+ </li>
+</ul>
+
+            </nav>
+        </div>
+    </div>
+</div>
+    <div id="main-content" class="row">
+        <div class="col-12 col-md-9 pl-md-3 pr-md-0">
+        
+              <div>
+                
+  <div class="section" id="exercises-build-your-own-mountain-belt">
+<h1>Exercises: Build your own Mountain belt<a class="headerlink" href="#exercises-build-your-own-mountain-belt" title="Permalink to this headline">¶</a></h1>
+<div class="section" id="analogue-sandbox-in-compression">
+<h2>Analogue Sandbox in Compression.<a class="headerlink" href="#analogue-sandbox-in-compression" title="Permalink to this headline">¶</a></h2>
+<p>The following exercice is based on Sandra McLaren teaching at The University of Melbourne.</p>
+</div>
+<div class="section" id="introduction">
+<h2>Introduction<a class="headerlink" href="#introduction" title="Permalink to this headline">¶</a></h2>
+<p>Physical modeling of folding and faulting have been performed since the early days of Structural Geology.
+The traditional way of performing analogue experiments is by filling a box with materials such as clay, sand, plaster, silicone putty, honey etc. and
+to apply extension or contraction at the boundaries. Ideally the model geometry and physical properties of the material should be scaled proportionally.
+The kinematics of the model should also be similar to the natural example, with comparable rates of deformation and mechanical properties.</p>
+<p>It practice, it is impossible to scale all the parameters appropriately and some sort of compromises must be found.</p>
+<p><strong>For a small physical model to realistically reproduce a natural example, we need to scale down the geometries and properties of the materials as best as we can.</strong></p>
+<p>Analogue experiments remain extremely useful to understand the processes and their interaction. They allow us to develop our understanding of tectonic deformation mechanism and style observed in
+natural systems.</p>
+<p>In this practical we will run our own analogue modelling experiment to explore the controls on the structure and development of fold and thrust belts (the foreland of orogenic systems)</p>
+<div>
+<div style="width:45%;float:left;" >
+<p><img alt="" src="../_images/Sandbox1.jpg" /></p>
+</div>
+<div style="width:45%;float:right;" >
+<p><img alt="" src="../_images/Sandbox2.jpg" /></p>
+</div>
+</div>
+</div>
+<div class="section" id="learning-outcomes">
+<h2>Learning outcomes<a class="headerlink" href="#learning-outcomes" title="Permalink to this headline">¶</a></h2>
+<p>At the completion of this practical you should:</p>
+<ul class="simple">
+<li><p>Have developed skills in the design and management of experiments, including formulating hypotheses</p></li>
+<li><p>Be able to document experimental methods and results in a laboratory report</p></li>
+<li><p>Understand the major controls on fold and thrust belt evolution</p></li>
+<li><p>Understand the geometry of structures formed in fold and thrust belts</p></li>
+</ul>
+</div>
+<div class="section" id="generic-skills">
+<h2>Generic Skills<a class="headerlink" href="#generic-skills" title="Permalink to this headline">¶</a></h2>
+<p>This practical exercise will help you develop skills in:</p>
+<ul class="simple">
+<li><p>Effective communication including written report writing</p></li>
+<li><p>Critical thinking and the conceptualization of complex and abstract ideas</p></li>
+<li><p>Problem-solving in new and unfamiliar tasks</p></li>
+<li><p>Effective collaboration team-work</p></li>
+</ul>
+<p>Only one sandbox is available so you will have to work as a team and make sure that everyone has an understanding of the different steps involved.
+The sandbox is a plexiglass-sided box with a motor-driven indenter at one end. Our experiment involves driving the indenter into the premade layers and observing and
+documenting how the layers of sand deform. As noted above, the experiment simulates the style of tectonic deformation we might observe in orogenic systems.</p>
+<p>You will need:</p>
+<ul class="simple">
+<li><p>Rulers: metre rules provided and smaller rulers also required</p></li>
+<li><p>Protractor</p></li>
+<li><p>Plain paper for sketching</p></li>
+<li><p>Your phone for taking photos or recording video: A webcam on a tripod will be provided.</p></li>
+</ul>
+</div>
+<div class="section" id="points-to-consider">
+<h2>Points to consider<a class="headerlink" href="#points-to-consider" title="Permalink to this headline">¶</a></h2>
+<ul class="simple">
+<li><p>As you advance the indenter, does the sand shorten and thicken uniformly or is the
+deformation localised (partitioned) along discrete planes?</p></li>
+<li><p>How much deformation is required before the first fault forms? What is the dip of
+that fault?</p></li>
+<li><p>Where do the new faults develop?</p></li>
+<li><p>Do the fault angles change during the experiment? If so, do they get steeper or
+shallower?</p></li>
+<li><p>Observe and describe the surface of the model as the deformation proceeds. Is it
+smooth or lumpy? If there are surface features, can you explain them in terms of the
+deformation observed in cross-section? What else happens to modify the surface?</p></li>
+<li><p>How does the width of the deformed zone change with time? How is the deformation
+partitioned at any particular time?</p></li>
+<li><p>Calculate the overall shortening for the experiment</p></li>
+<li><p>Plot the number of faults vs the indenter displacement</p></li>
+<li><p>What areas of the model are likely to be affected by ongoing deformation? Consider
+this for a land-use scenario, mitigating natural hazards from earthquakes in active
+fold and thrust belts</p></li>
+<li><p>How do you think the ongoing deformation might change the geomorphology of the
+region?</p></li>
+<li><p>How well did the results match up with your predictions about (1) the factors that
+control the deformation and (2) the geometry of the structures that developed.</p></li>
+</ul>
+</div>
+<div class="section" id="exercise">
+<h2>Exercise<a class="headerlink" href="#exercise" title="Permalink to this headline">¶</a></h2>
+<ol class="simple">
+<li><p>Formulate hypotheses about the factors that may control deformation within your
+sandbox. Use your theoretical knowledge of crustal deformation to inform your
+answers.</p></li>
+<li><p>Note the composition of the layers in your sandbox</p></li>
+<li><p>Make predictions about the geometry of the structures you might expect to observe.
+You might want to provide sketches and also consider how the geometry might
+change with time. Remember to indicate the position of the indenter and its sense of
+movement.</p></li>
+<li><p>Measure and record the pre-deformational dimensions of the material within the
+sandbox. Use the ruler provided on the base of the box to provide a reference
+throughout your experiment.</p></li>
+<li><p>Begin the deformation experiment! Note that you will need to carefully control the
+speed of the indenter. Work slowly to begin with to see how the motor responds, it
+can be a bit touchy, it might seem to be going really slow, but then a small change
+makes it go really quite fast!</p></li>
+<li><p>Observe carefully the changes in the model as your experiment proceeds. You might
+want to time the experiment. You can stop and start the indenter at any time. This is
+useful for pausing the experiment to make measurements or sketches at key stages.</p></li>
+<li><p>At key intervals sketch the geometry of the model and make observations, such as
+those listed in the table below. You may also want to record other details, such as the
+orientation of fold axial surfaces – you can measure these accurately with a
+protractor.</p></li>
+<li><p>Photograph your model at key intervals. Your group should also piece these photos
+together to make a video of your experiment; timelapse on your phone works well</p></li>
+<li><p>Do not overcontract your sandbox. The motor should automatically stop when you
+reach the maximum contraction but please observe closely just in case.</p></li>
+</ol>
+<table class="colwidths-auto table">
+<thead>
+<tr class="row-odd"><th class="head"><p>Displacement of indenter (cm)</p></th>
+<th class="head"><p>Length of model (cm)</p></th>
+<th class="head"><p>Maximum wedge thickness (cm)</p></th>
+<th class="head"><p># of faults</p></th>
+<th class="head"><p># of folds</p></th>
+<th class="head"><p>Dip of faults</p></th>
+</tr>
+</thead>
+<tbody>
+<tr class="row-even"><td><p></p></td>
+<td><p></p></td>
+<td><p></p></td>
+<td><p></p></td>
+<td><p></p></td>
+<td><p></p></td>
+</tr>
+</tbody>
+</table>
+</div>
+</div>
+
+    <script type="text/x-thebe-config">
+    {
+        requestKernel: true,
+        binderOptions: {
+            repo: "binder-examples/jupyter-stacks-datascience",
+            ref: "master",
+        },
+        codeMirrorConfig: {
+            theme: "abcdef",
+            mode: "python"
+        },
+        kernelOptions: {
+            kernelName: "python3",
+            path: "./Exercises"
+        },
+        predefinedOutput: true
+    }
+    </script>
+    <script>kernelName = 'python3'</script>
+
+              </div>
+              
+        
+            
+
+
+
+<div class='prev-next-bottom'>
+    
+
+</div>
+        
+        </div>
+    </div>
+    <footer class="footer">
+    <div class="container">
+      <p>
+        
+          By EMSC 3002 teaching team<br/>
+        
+            &copy; Copyright 2021.<br/>
+      </p>
+    </div>
+  </footer>
+</main>
+
+
+      </div>
+    </div>
+  
+  <script src="../_static/js/index.1c5a1a01449ed65a7b51.js"></script>
+
+  
+  </body>
+</html>
