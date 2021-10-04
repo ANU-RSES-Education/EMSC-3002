@@ -48,3 +48,8 @@ The internal friction angle in a granular material is a property that controls h
 measured approximately just by pouring the material into a pile and seeing the shape of the cone that forms.
 
 [Exercise 6 Worksheet](Exercises/InternalFrictionAngle)
+
+
+## Exercise 7, Stereonet Projection and Structural Analyses
+
+[Exercise 7 Worksheet](Exercises/Stereonet)
