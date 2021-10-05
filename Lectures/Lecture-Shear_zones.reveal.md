@@ -51,7 +51,7 @@ corrections._
 ## Transition from brittle to ductile beahviour with increasing depth
 
 <div>
-<div style='width:50%; float:lef'>
+<div style='width:50%; float:left'>
 
 Gradual Brittle-Ductile transition from faults, which normally form in the upper crust, and ductile shear zones.
 
@@ -62,7 +62,7 @@ For a granitic crust it normally occurs in the range of 10-15km.
 
 <div style='width:50%; float:right'>
 
-![Shear Zone](Figures-Shear_zones/Figures/BrittleDuctilieTransition.jpg) <!-- .element style='float: right' width='90%' -->
+![Shear Zone](Figures-Shear_zones/Figures/BrittleDuctilieTransition.jpg) <!-- .element style="float: right" width="90%" -->
 
 </div>
 </div>
@@ -72,7 +72,7 @@ For a granitic crust it normally occurs in the range of 10-15km.
 ## Shear zones
 
 <div>
-<div style='width:50%; float:lef'>
+<div style='width:50%; float:left'>
 
 Strain and Shear strain in particular tend to localise into zones or bands.
 Shear zones are classic examples of strain localisation.
@@ -83,10 +83,9 @@ Shear zones occur at almost any scale in any tectonic regime and form at any dep
 The definition of shear zone is not restricted to a specific scale.
 
 </div>
-
 <div style='width:50%; float:right'>
 
-![Shear Zone 1](Figures-Shear_zones/Photos/ShearZone2.jpg) <!-- .element style='float: right' width='90%' -->
+![Shear Zone 1](Figures-Shear_zones/Photos/ShearZone2.jpg) <!-- .element style="float: right" width="90%" -->
 
 </div>
 </div>
@@ -96,7 +95,7 @@ The definition of shear zone is not restricted to a specific scale.
 ## Shear zone: Definition
 
 <div>
-<div style='width:50%; float:lef'>
+<div style='width:50%; float:left'>
 
 Strain and Shear strain in particular tend to localise into zones or bands.
 Shear zones are classic examples of strain localisation.
@@ -107,10 +106,9 @@ Shear zones occur at almost any scale in any tectonic regime and form at any dep
 The definition of shear zone is not restricted to a specific scale.
 
 </div>
-
 <div style='width:50%; float:right'>
 
-![Shear Zone 2](Figures-Shear_zones/Photos/ShearZone1.jpg) <!-- .element style='float: right' width='90%' -->
+![Shear Zone 2](Figures-Shear_zones/Photos/ShearZone1.jpg) <!-- .element style="float: right" width="70%" -->
 
 </div>
 </div>
@@ -157,7 +155,7 @@ Other subclasses can be defined based on the kinematics, mineral deformation mec
 ### What do we actually mean by "Ductile" and "Brittle"?
 
 <div>
-<div style='width:50%; float:lef'>
+<div style='width:50%; float:left'>
 
 **Ductile** should be used about the style of deformation where passive markers preserve continuity. Ductility is scale dependent.
 
@@ -167,7 +165,7 @@ Other subclasses can be defined based on the kinematics, mineral deformation mec
 
 <div style='width:50%; float:right'>
 
-![Shear Zone continuous discontinuous](Figures-Shear_zones/Figures/Shear_Zone.svg) <!-- .element style='float: right' width='90%' -->
+![Shear Zone continuous discontinuous](Figures-Shear_zones/Figures/Shear_Zone.svg) <!-- .element style="float: right" width="90%" -->
 
 </div>
 </div>
@@ -177,7 +175,7 @@ Other subclasses can be defined based on the kinematics, mineral deformation mec
 ### What do we actually mean by "Ductile" and "Brittle"?
 
 <div>
-<div style='width:50%; float:lef'>
+<div style='width:50%; float:left'>
 
 **Brittle Mechanisms** is different: it means microscale frictional sliding and grain rolling.
 
@@ -187,7 +185,7 @@ This makes the term **Brittle shear zone** a bit ambiguous unless the meaning of
 
 <div style='width:50%; float:right'>
 
-![Shear Zone continuous discontinuous](Figures-Shear_zones/Figures/Shear_Zone.svg) <!-- .element style='float: right' width='90%' -->
+![Shear Zone continuous discontinuous](Figures-Shear_zones/Figures/Shear_Zone.svg) <!-- .element style="float: right" width="90%" -->
 
 </div>
 </div>
@@ -206,7 +204,7 @@ This makes the term **Brittle shear zone** a bit ambiguous unless the meaning of
 ### General Characteristics
 
 <div>
-<div style='width:50%; float:lef'>
+<div style='width:50%; float:left'>
 
 - Shear zones are tabular zones of strain localization in the crust
 - Shear zones occur on all scales, from thin-section scale to those cutting the entire crust and involving hundreds of km of displacement
@@ -219,7 +217,7 @@ This makes the term **Brittle shear zone** a bit ambiguous unless the meaning of
 
 <div style='width:50%; float:right'>
 
-![Shear Zone 3](Figures-Shear_zones/gifs/ShearZone1.gif) <!-- .element style='float: right' width='90%' -->
+![Shear Zone 3](Figures-Shear_zones/gifs/ShearZone1.gif) <!-- .element style="float: right" width="90%" -->
 
 </div>
 </div>
@@ -238,7 +236,7 @@ amount of fluid available etc. and can vary through space and time.
 ###  Brittle mechanisms shear zones
 
 <div>
-<div style='width:50%; float:lef'>
+<div style='width:50%; float:left'>
 
 - Brittle mechanisms dominate during shearing
 - Form at shallow depths (0-10km) in the brittle regime.
@@ -250,7 +248,7 @@ amount of fluid available etc. and can vary through space and time.
 
 <div style='width:50%; float:right'>
 
-![label](Figures-Shear_zones/Photos/ShearZone1.jpg) <!-- .element style='float: right' width='90%' -->
+![label](Figures-Shear_zones/Photos/ShearZone1.jpg) <!-- .element style="float: right" width="70%" -->
 
 </div>
 </div>
@@ -259,12 +257,86 @@ amount of fluid available etc. and can vary through space and time.
 
 ### What Deformation Mechanisms are brittle?
 
+<div>
+<div style='width:50%; float:left'>
+
+Brittle Mechanisms involve mechanical or frictional deformation of grains.
+
+There are 3 modes of deformation at the grain scale:
+
+- Frictional grain boundary sliding
+- Rigid rotation of grains
+- Grain Fracture
+
+In a Brittle shear zone grains flow through:
+
+- Granular flow (no grain fracture)
+- Cataclastic flow (abundant fractures)
+
+</div>
+
+<div style='width:50%; float:right'>
+
+![Granular Flow](Figures-Shear_zones/gifs/ShearZone27.gif) <!-- .element style="float: right" width="90%" -->
+
+</div>
+</div>
+
+<--o-->
+
+### What Deformation Mechanisms are brittle?
+
+<div>
+<div style='width:50%; float:left'>
+
+Brittle Mechanisms involve mechanical or frictional deformation of grains.
+
+There are 3 modes of deformation at the grain scale:
+
+- Frictional grain boundary sliding
+- Rigid rotation of grains
+- Grain Fracture
+
+In a Brittle shear zone grains flow through:
+
+- Granular flow (no grain fracture)
+- Cataclastic flow (abundant fractures)
+
+</div>
+
+<div style='width:50%; float:right'>
+
+![Cataclastic Flow](Figures-Shear_zones/gifs/ShearZone28.gif) <!-- .element style="float: right" width="90%" -->
+
+</div>
+</div>
+
+<--o-->
+
+### What Deformation Mechanisms are brittle?
+
+<div>
+<div style='width:50%; float:left'>
+
+Example of granular flow (non-cataclastic flow). This type of low involves some change in thickness of the zone.
+In this case compaction.
+
+</div>
+
+<div style='width:50%; float:right'>
+
+
+![Granular Flow](Figures-Shear_zones/gifs/ShearZone29.gif) <!-- .element style="float: right" width="90%" -->
+
+</div>
+</div>
+
 <--o-->
 
 ### Plastic Shear zones
 
 <div>
-<div style='width:50%; float:lef'>
+<div style='width:50%; float:left'>
 
 - Dominated by plastic (non-frictional) deformation mechanisms
 - Ductile, meaning that passive markers can be traced continuously through the zone.
@@ -276,7 +348,31 @@ amount of fluid available etc. and can vary through space and time.
 
 <div style='width:50%; float:right'>
 
-![label](image) <!-- .element style='float: right' width='90%' -->
+</div>
+</div>
+
+<--o-->
+
+### What Deformation Mechanisms are plastic?
+
+<div>
+<div style='width:50%; float:left'>
+
+Plastic deformation strains mineral without microfracture.
+
+Grains deform by the movement of imperfections known as **dislocation vacancies**
+
+Vacancy movement is diffusion, while dislocations move as atomic bounds are rearranged.
+
+Some important plastic processes:
+
+- Diffusional creep
+- Dislocation creep
+
+</div>
+<div style='width:50%; float:right'>
+
+![Shear Zone 2](Figures-Shear_zones/Photos/ShearZone22.jpg) <!-- .element style="float: right" width="90%" -->
 
 </div>
 </div>
@@ -284,12 +380,27 @@ amount of fluid available etc. and can vary through space and time.
 <--o-->
 
 ### What Deformation Mechanisms are plastic?
+
+<div>
+<div style='width:50%; float:left'>
+
+*Example of plastic defromation of impoure quartzite (ruby Gap, Australia). Large quartz (graish) are remnants of the original texture. Dark shadows are expressions of intracrystalline strain (dislocation accumulations). New grainsa re much smaller. Credit: W. James Dunlap*
+
+</div>
+<div style='width:50%; float:right'>
+
+![Shear Zone 2](Figures-Shear_zones/Photos/ShearZone22.jpg) <!-- .element style="float: right" width="90%" -->
+
+</div>
+</div>
+
 <--o-->
+
 
 ### Brittle shear zones
 
 <div>
-<div style='width:50%; float:lef'>
+<div style='width:50%; float:left'>
 
 Brittle deformation dominates: **cataclasic flow** which involves micro-fracturing, frictional sliding, rigid rotations.
 We talk about **brittle** or **frictional shear zones**.
@@ -303,7 +414,7 @@ We talk about **brittle** or **frictional shear zones**.
 
 <div style='width:50%; float:right'>
 
-![label](Figures-Shear_zones/Figures/BrittleFaultZone.png) <!-- .element style='float: right' width='90%' -->
+![label](Figures-Shear_zones/Figures/BrittleFaultZone.png) <!-- .element style="float: right" width="90%" -->
 
 </div>
 </div>
@@ -316,7 +427,7 @@ We talk about **brittle** or **frictional shear zones**.
 ### Brittle-ductile shear zones
 
 <div>
-<div style='width:50%; float:lef'>
+<div style='width:50%; float:left'>
 
 The transition between brittle and plastic deformation can be quite wide. We talk of **brittle-plastic shear zones** which
 can include both plastic and brittle deformation.
@@ -328,7 +439,7 @@ rock (e.g. layers rich in micas in gneiss)
 
 <div style='width:50%; float:right'>
 
-![label](Figures-Shear_zones/gifs/ShearZone3.gif) <!-- .element style='float: right' width='90%' -->
+![label](Figures-Shear_zones/gifs/ShearZone3.gif) <!-- .element style="float: right" width="90%" -->
 
 </div>
 </div>
@@ -337,7 +448,7 @@ rock (e.g. layers rich in micas in gneiss)
 ### Brittle-ductile shear zones
 
 <div>
-<div style='width:50%; float:lef'>
+<div style='width:50%; float:left'>
 
 - The offset of brittle components is comparable to the offset of ductile strain.
 - brittle components include Extension fractures, Veins, Slip surfaces
@@ -347,7 +458,7 @@ rock (e.g. layers rich in micas in gneiss)
 
 <div style='width:50%; float:right'>
 
-![label](Figures-Shear_zones/Photos/ShearZone9.jpg) <!-- .element style='float: right' width='90%' -->
+![label](Figures-Shear_zones/Photos/ShearZone9.jpg) <!-- .element style="float: right" width="70%" -->
 
 </div>
 </div>
@@ -355,14 +466,14 @@ rock (e.g. layers rich in micas in gneiss)
 <--o-->
 ### Example of Brittle-ductile shear zones
 
-![label](Figures-Shear_zones/Figures/ExampleBrittleDuctile.png) <!-- .element style='float: right' width='90%' -->
+![label](Figures-Shear_zones/Figures/ExampleBrittleDuctile.png) <!-- .element style="float: right" width="80%" -->
 
 
 <--o-->
 ### Vein arrays
 
 <div>
-<div style='width:50%; float:lef'>
+<div style='width:50%; float:left'>
 
 A special type of Brittle-ductile shear zones
 
@@ -376,7 +487,7 @@ They typically form in the brittle upper crust (3-15km depth)
 
 <div style='width:50%; float:right'>
 
-![label](Figures-Shear_zones/gifs/ShearZone3.gif)) <!-- .element style='float: right' width='90%' -->
+![label](Figures-Shear_zones/gifs/ShearZone3.gif)) <!-- .element style="float: right" width="90%" -->
 
 </div>
 </div>
@@ -388,7 +499,7 @@ They typically form in the brittle upper crust (3-15km depth)
 ### Ductile shear zones
 
 <div>
-<div style='width:50%; float:lef'>
+<div style='width:50%; float:left'>
 
 Ductility is different than plasticity in the sense that it relates to continuity of original markers.
 **continuous deformation / strain**: marker layers can be traced through the zone at the mesoscopic scale.
@@ -400,7 +511,7 @@ A **ductile shear zone** can deform britelly and plastically.
 
 <div style='width:50%; float:right'>
 
-![label](Figures-Shear_zones/gifs/ShearZone2.gif) <!-- .element style='float: right' width='90%' -->
+![label](Figures-Shear_zones/gifs/ShearZone2.gif) <!-- .element style="float: right" width="90%" -->
 
 </div>
 </div>
@@ -410,7 +521,7 @@ A **ductile shear zone** can deform britelly and plastically.
 ### Ductile shear zones
 
 <div>
-<div style='width:50%; float:lef'>
+<div style='width:50%; float:left'>
 
 Ductility is different than plasticity in the sense that it relates to continuity of original markers.
 **continuous deformation / strain**: marker layers can be traced through the zone at the mesoscopic scale.
@@ -422,7 +533,7 @@ A **ductile shear zone** can deform britelly and plastically.
 
 <div style='width:50%; float:right'>
 
-![label](Figures-Shear_zones/Photos/ShearZone3.jpg) <!-- .element style='float: right' width='90%' -->
+![label](Figures-Shear_zones/Photos/ShearZone3.jpg) <!-- .element style="float: right" width="90%" -->
 
 </div>
 </div>
@@ -432,7 +543,7 @@ A **ductile shear zone** can deform britelly and plastically.
 ### Ductile shear zones
 
 <div>
-<div style='width:50%; float:lef'>
+<div style='width:50%; float:left'>
 
 
 In most cases the deformation is **semi-ductile** as we often observe small sharp discontinuities.
@@ -443,17 +554,13 @@ Some shear zones show no continuity at all (heavily fractured zone, breccias).
 
 <div style='width:50%; float:right'>
 
-![label](Figures-Shear_zones/Photos/ShearZone4.jpg) <!-- .element style='float: right' width='90%' -->
+![label](Figures-Shear_zones/Photos/ShearZone4.jpg) <!-- .element style="float: right" width="90%" -->
 
 </div>
 </div>
 
 <--o-->
 <!-- .slide: data-background="Figures-Shear_zones/Photos/ShearZone5.jpg" -->
-
-<--o-->
-
-**Classification: ductility / plasticity domain**
 
 <--o-->
 
@@ -480,7 +587,7 @@ A **stretching lineation** can develop and can be used to determine the X-axis.
 ## Simple shear zones
 
 <div>
-<div style='width:50%; float:lef'>
+<div style='width:50%; float:left'>
 
 - Plane strain deformation with $$W_k = 1$$
 - No shortening nor stretching along or normal to the zone
@@ -491,13 +598,12 @@ A **stretching lineation** can develop and can be used to determine the X-axis.
 
 <div style='width:50%; float:right'>
 
-![label](Figures-Shear_zones/gifs/ShearZone5.gif) <!-- .element style='float: right' width='70%' -->
-![label](Figures-Shear_zones/gifs/ShearZone6.gif) <!-- .element style='float: right' width='70%' -->
+![label](Figures-Shear_zones/gifs/ShearZone5.gif) <!-- .element style="float: right" width="70%" -->
+![label](Figures-Shear_zones/gifs/ShearZone6.gif) <!-- .element style="float: right" width="70%" -->
 
 
 </div>
 </div>
-
 
 <--o-->
 
@@ -514,7 +620,7 @@ The minimum axis can be called the maximum shortening direction, the intermediat
 
 <div style='width:50%; float:right'>
 
-![label](Figures-Shear_zones/gifs/ShearZone7.gif) <!-- .element style='float: right' width='90%' -->
+![label](Figures-Shear_zones/gifs/ShearZone7.gif) <!-- .element style="float: right" width="90%" -->
 
 </div>
 </div>
@@ -535,7 +641,7 @@ the shear direction.
 
 <div style='width:50%; float:right'>
 
-![label](Figures-Shear_zones/gifs/ShearZone8.gif) <!-- .element style='float: right' width='90%' -->
+![label](Figures-Shear_zones/gifs/ShearZone8.gif) <!-- .element style="float: right" width="90%" -->
 
 </div>
 </div>
@@ -547,20 +653,21 @@ the shear direction.
 - The foliation approximate the orientation of the X-Y plane.
 - The foliation can be treaced through the shear zone and usually appear curved because of higher strain in the central parts.
 
-![label](Figures-Shear_zones/gifs/ShearZone9.gif) <!-- .element style='float: right' width='90%' -->
+![label](Figures-Shear_zones/gifs/ShearZone9.gif) <!-- .element style="float: right" width="90%" -->
 
 <--o-->
 
 ## Displacement in simple shear zones
 
 
-![label](Figures-Shear_zones/gifs/ShearZone10.gif) <!-- .element style='float: right' width='90%' -->
+![label](Figures-Shear_zones/gifs/ShearZone10.gif) <!-- .element style="float: right" width="90%" -->
 
 <--o-->
+
 ## Dilation / Compaction zones
 
 <div>
-<div style='width:50%; float:lef'>
+<div style='width:50%; float:left'>
 
 A zone that conpacts by wall-normal displacement is a **compaction zone**
 
@@ -575,7 +682,7 @@ The deformatino is planar and co-axial with zero vorticity.
 
 <div style='width:50%; float:right'>
 
-![label](Figures-Shear_zones/gifs/ShearZone12.gif) <!-- .element style='float: right' width='90%' -->
+![label](Figures-Shear_zones/gifs/ShearZone12.gif) <!-- .element style="float: right" width="90%" -->
 
 </div>
 </div>
@@ -584,7 +691,7 @@ The deformatino is planar and co-axial with zero vorticity.
 ## Compactional Shear
 
 <div>
-<div style='width:50%; float:lef'>
+<div style='width:50%; float:left'>
 
 Compaction can combine with Simple shear.
 
@@ -594,7 +701,7 @@ The comnpaction conponent will close walls as the zone develops but this will co
 
 <div style='width:50%; float:right'>
 
-![label](Figures-Shear_zones/gifs/ShearZone13.gif) <!-- .element style='float: right' width='90%' -->
+![label](Figures-Shear_zones/gifs/ShearZone13.gif) <!-- .element style="float: right" width="90%" -->
 
 </div>
 </div>
@@ -614,7 +721,7 @@ The comnpaction conponent will close walls as the zone develops but this will co
 
 <div style='width:50%; float:right'>
 
-![label](Figures-Shear_zones/gifs/ShearZone14.gif) <!-- .element style='float: right' width='90%' -->
+![label](Figures-Shear_zones/gifs/ShearZone14.gif) <!-- .element style="float: right" width="90%" -->
 
 </div>
 </div>
@@ -634,10 +741,117 @@ The comnpaction conponent will close walls as the zone develops but this will co
 
 <div style='width:50%; float:right'>
 
-![label](Figures-Shear_zones/gifs/ShearZone15.gif) <!-- .element style='float: right' width='90%' -->
+![label](Figures-Shear_zones/gifs/ShearZone15.gif) <!-- .element style="float: right" width="90%" -->
 
 </div>
 </div>
+
+<--o-->
+
+### Pure SHear
+
+<div>
+<div style='width:50%; float:left'>
+
+Can have curved and non-parallel walls, their displacement profile vary as we move along the zone.
+
+**Extrusion** of material along the zone causes a compatibility problem.
+This can be solved if the shear zone thins or thickens laterally during deformation.
+Material can thus flow in the thickening areas. Another possibility is to have a free domain where material can extrude.
+
+**Extrusion** is an effect of pure shear that also occurs in other deformation involving pure shear (e.g. Sub-simple shear)
+
+</div>
+
+<div style='width:50%; float:right'>
+
+![label](Figures-Shear_zones/gifs/ShearZone17.gif) <!-- .element style="float: right" width="90%" -->
+
+</div>
+</div>
+
+
+<--o-->
+
+### Pure SHear
+
+<div>
+<div style='width:50%; float:left'>
+
+Pure shear zones have been suggested to occur at the base of thrust nappes when the nappes collapse under their own weight.
+
+It is probably more common to have a combination of Pure and Simple shear.
+
+</div>
+
+<div style='width:50%; float:right'>
+
+![label](Figures-Shear_zones/gifs/ShearZone18.gif) <!-- .element style="float: right" width="90%" -->
+
+</div>
+</div>
+
+
+<--o-->
+
+### Sub-Simple Shear
+
+<div>
+<div style='width:50%; float:left'>
+
+**Combination of Pure and Simple Shear**
+
+**Simple shear** is involved in most shear zones. However, vorticity analysis of shear zones show that a component of **Pure shear** is
+common.
+
+
+</div>
+
+<div style='width:50%; float:right'>
+
+![label](Figures-Shear_zones/gifs/ShearZone19.gif) <!-- .element style="float: right" width="90%" -->
+
+</div>
+</div>
+
+<--o-->
+
+### Sub-Simple Shear and ISA
+#### Instantaneous Stretching Axis
+
+- ISA max and ISA min are oblkique to the shear zone walls.
+- ISA do not rotate. They stay fixed during steady state deformation
+- The orientatin of ISA specify the amounts of Pure and Simple shear
+- In Brittle-ductile deformation zones with tension gashes, the tips of the veins are perpendicular to ISA max.
+
+**The orientation of ISA is constant across the zone, regardless of strain**
+
+<--o-->
+
+### Sub-Simple Shear and ISA
+#### Instantaneous Stretching Axis
+
+
+![label](Figures-Shear_zones/gifs/ShearZone20.gif) <!-- .element style="float: center" width="100%" -->
+
+<--o-->
+
+### Sub-Simple Shear
+
+<div>
+<div style='width:50%; float:left'>
+
+text
+
+</div>
+
+<div style='width:50%; float:right'>
+
+![label](Figures-Shear_zones/gifs/ShearZone21.gif) <!-- .element style="float: right" width="90%" -->
+
+</div>
+</div>
+
 
 <--o-->
 
