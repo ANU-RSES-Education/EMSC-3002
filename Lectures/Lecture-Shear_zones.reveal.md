@@ -348,6 +348,9 @@ In this case compaction.
 
 <div style='width:50%; float:right'>
 
+![Shear Zone 2](Figures-Shear_zones/Photos/ShearZonePRonaEGU.jpg) <!-- .element style="float: right" width="90%" -->
+
+
 </div>
 </div>
 
@@ -527,7 +530,7 @@ Ductility is different than plasticity in the sense that it relates to continuit
 **continuous deformation / strain**: marker layers can be traced through the zone at the mesoscopic scale.
 
 Most plastic shear zone preserve continuity, some brittle shear zones too.
-A **ductile shear zone** can deform britelly and plastically.
+A **ductile shear zone** can deform britlely and plastically.
 
 </div>
 
@@ -748,7 +751,7 @@ The comnpaction conponent will close walls as the zone develops but this will co
 
 <--o-->
 
-### Pure SHear
+### Pure Shear
 
 <div>
 <div style='width:50%; float:left'>
@@ -770,10 +773,9 @@ Material can thus flow in the thickening areas. Another possibility is to have a
 </div>
 </div>
 
-
 <--o-->
 
-### Pure SHear
+### Pure Shear
 
 <div>
 <div style='width:50%; float:left'>
@@ -804,7 +806,6 @@ It is probably more common to have a combination of Pure and Simple shear.
 **Simple shear** is involved in most shear zones. However, vorticity analysis of shear zones show that a component of **Pure shear** is
 common.
 
-
 </div>
 
 <div style='width:50%; float:right'>
@@ -819,7 +820,7 @@ common.
 ### Sub-Simple Shear and ISA
 #### Instantaneous Stretching Axis
 
-- ISA max and ISA min are oblkique to the shear zone walls.
+- ISA max and ISA min are oblique to the shear zone walls.
 - ISA do not rotate. They stay fixed during steady state deformation
 - The orientatin of ISA specify the amounts of Pure and Simple shear
 - In Brittle-ductile deformation zones with tension gashes, the tips of the veins are perpendicular to ISA max.
@@ -831,17 +832,17 @@ common.
 ### Sub-Simple Shear and ISA
 #### Instantaneous Stretching Axis
 
-
-![label](Figures-Shear_zones/gifs/ShearZone20.gif) <!-- .element style="float: center" width="100%" -->
+![label](Figures-Shear_zones/gifs/ShearZone20.gif) <!-- .element style="float: center" width="90%" -->
 
 <--o-->
 
 ### Sub-Simple Shear
+#### Rotation of passive markers
 
 <div>
 <div style='width:50%; float:left'>
 
-text
+Technically, passive markers become discontinuous along the margins of a subsimple shear zone.
 
 </div>
 
@@ -855,11 +856,156 @@ text
 
 <--o-->
 
+### Growth of Shear Zones
+
+
+<div>
+<div style='width:50%; float:left'>
+
+Shear zones grow from small shear bands just as fault grow from small fractures.
+
+We usually find that long and thick shear zones show more displacements than short and narrow ones.
+
+**How do they grow?**
+
+**Which part of the shear zone recorded the last part of the strain history?**
+
+- Borders?
+- Central part?
+
+No simple answers but we have models.
+
+</div>
+
+<div style='width:50%; float:right'>
+
+![label](Figures-Shear_zones/gifs/ShearZone30.gif) <!-- .element style="float: right" width="90%" -->
+
+</div>
+</div>
+
+<--o-->
+
+### Growth of Shear Zones
+### Type-I
+
+<div>
+<div style='width:50%; float:left'>
+
+- Expand into its walls and thus becomes thicker with increasing offset.
+- The central part is inactive as the walls are being strained.
+- Strain profile shows a flat peak in the central part of the shear zone.
+- This is typical of strain hardening.
+
+</div>
+
+<div style='width:50%; float:right'>
+
+![label](Figures-Shear_zones/gifs/ShearZone23.gif) <!-- .element style="float: right" width="90%" -->
+
+</div>
+</div>
+
+<--o-->
+
+### Growth of Shear Zones
+### Type-II
+
+<div>
+<div style='width:50%; float:left'>
+
+- Expand only for a limited period of time
+- Margins become inactive, deformation is concentrated in the central part.
+- The strain profile shows a steep peak in the central part of the shear zone.
+- This is typical of strain softening.
+
+</div>
+
+<div style='width:50%; float:right'>
+
+![label](Figures-Shear_zones/gifs/ShearZone24.gif) <!-- .element style="float: right" width="90%" -->
+
+</div>
+</div>
+
+<--o-->
+
+
+### Growth of Shear Zones
+### Type-III
+
+<div>
+<div style='width:50%; float:left'>
+
+- Initiate with a certain thickness.
+- The shear zone thickness remain constant and the entire zone is always active.
+- The strain profile is flat.
+- There is no significant hardening or softening.
+- Some Kink-bands may represent zones of this type.
+
+</div>
+
+<div style='width:50%; float:right'>
+
+![label](Figures-Shear_zones/gifs/ShearZone25.gif) <!-- .element style="float: right" width="90%" -->
+
+</div>
+</div>
+
+<--o-->
+
+
+### Growth of Shear Zones
+### Type-IV
+
+<div>
+<div style='width:50%; float:left'>
+
+- Expand continuously during their lifetime.
+- The entire zone is always active.
+- The strain profile is a steep peak through the zone.
+
+</div>
+
+<div style='width:50%; float:right'>
+
+![label](Figures-Shear_zones/gifs/ShearZone26.gif) <!-- .element style="float: right" width="90%" -->
+
+</div>
+</div>
+
+<--o-->
+
 ## Mylonites
+
+<div>
+<div style='width:50%; float:left'>
 
 Highly strained rocks in the central part of some plastic shear zones.
 
 Pre-existing structures and textures are totally flattened and transposed and are hard to identify.
+
+</div>
+
+<div style='width:50%; float:right'>
+
+![label](Figures-Shear_zones/Photos/Mylonites.jpg) <!-- .element style="float: right" width="90%" -->
+
+</div>
+</div>
+
+
+<--o-->
+<!-- .slide: data-background="Figures-Shear_zones/Photos/Mylonites.jpeg" -->
+
+
+<--o-->
+
+## Kinematic Indicators
+
+Wide range of indicators
+
+![label](Figures-Shear_zones/Figures/KinematicIndicators.jpg) <!-- .element style="float: center" width="100%" -->
 
 <--o-->
 
@@ -867,19 +1013,48 @@ Pre-existing structures and textures are totally flattened and transposed and ar
 
 ### Asymmetric structures
 
+<div>
+<div style='width:50%; float:left'>
+
 The (a)symmetry of mylonitic structures can be used to determine the sense of shear and the degree of coaxiality of the deformation.
+
+</div>
+
+<div style='width:50%; float:right'>
+
+![label](Figures-Shear_zones/Figures/Mylonites_Asymetric_structures.jpg) <!-- .element style="float: right" width="90%" -->
+
+</div>
+</div>
 
 
 <--o-->
 
 ## Kinematic indicators
+
+<div>
+<div style='width:50%; float:left'>
+
 ### Deflected markers
 
 Rotation of planar marker from an area of low strain to an area of high strain provide very reliable criteria for sense of shear.
 
+</div>
+
+<div style='width:50%; float:right'>
+
+![label](Figures-Shear_zones/Photos/Deflection.png) <!-- .element style="float: right" width="90%" -->
+
+</div>
+</div>
+
 <--o-->
 
 ## Kinematic indicators
+
+<div>
+<div style='width:50%; float:left'>
+
 ### Mylonitic foliation and shear bands (S-C structures)
 
 The foliation usually trace the XY-plane of the strain ellipsoid.
@@ -889,6 +1064,14 @@ of deflection reflect the sense of shear of the shear-zone.
 
 It is important to remember that C structures form relatively late and may only reflect the last stage of deformation.
 
+</div>
+
+<div style='width:50%; float:right'>
+
+![label](Figures-Shear_zones/Figures/SCStructures.jpg) <!-- .element style="float: right" width="90%" -->
+
+</div>
+</div>
 
 <--o-->
 
@@ -910,12 +1093,25 @@ It can also help to determine the sense of shear.
 <--o-->
 
 ## Kinematic indicators
+
+<div>
+<div style='width:50%; float:left'>
+
 ### Mica fish
 
 Type of S-C structure
 
 - Tails curve away from the genral orientation
 - The asymmetry indicates the sense of shear
+
+</div>
+
+<div style='width:50%; float:right'>
+
+![label](Figures-Shear_zones/Photos/MicaFish.jpeg) <!-- .element style="float: right" width="90%" -->
+
+</div>
+</div>
 
 <--o-->
 
@@ -927,22 +1123,62 @@ Parts of strongly foliated mylonite back-rotate with respect to the shear direct
 <--o-->
 
 ## Kinematic indicators
+
+<div>
+<div style='width:50%; float:left'>
+
 ### Boudinage
 
 Rotated boudins can be used to determine the sense of shear.
 
+</div>
+
+<div style='width:50%; float:right'>
+
+![label](Figures-Shear_zones/Photos/RotatedBoudinage.jpeg) <!-- .element style="float: right" width="90%" -->
+
+</div>
+</div>
+
+<--o-->
+<!-- .slide: data-background="Figures-Shear_zones/Photos/RotatedBoudinage.jpeg" -->
+
 <--o-->
 
 ## Kinematic indicators
+
+<div>
+<div style='width:50%; float:left'>
+
 ### Porphyroclastes
 
 Recrystallised material around large mineral can form tails.
 
 Asymmetry highlight non-coaxial deformation with the final shape being a function of Wk.
 
+</div>
+
+<div style='width:50%; float:right'>
+
+![label](Figures-Shear_zones/Figures/Wings_shear.svg) <!-- .element style="float: right" width="90%" -->
+
+</div>
+</div>
+
+<--o-->
+<!-- .slide: data-background="Figures-Shear_zones/Photos/ShearZone5.jpg" -->
+
+<--v-->
+
+$\delta$-type porphyroclast indicating roattion during top-to-the-left shearing, consistent with the asymmetry of the small scale folds to the right**
+
 <--o-->
 
 ## Kinematic indicators
+
+<div>
+<div style='width:50%; float:left'>
+
 ### Folds and cleavage
 
 Asymmetric folds and associated cleavages within the shear zone can give the sense of shear.
@@ -951,44 +1187,99 @@ The mylonitic foliation is often folded.
 
 Pre-existing structures (eg dikes)
 
+*Fold formed in non-coaxial deformation in gneisses. The vergence of teh asymmetric folds indicate top-to-the-left transport**
+
+</div>
+
+<div style='width:50%; float:right'>
+
+![label](Figures-Shear_zones/Photos/FoldNonCoaxial.jpg) <!-- .element style="float: right" width="90%" -->
+
+</div>
+</div>
+
+
 <--o-->
 
 ## Kinematic indicators
+
+<div>
+<div style='width:50%; float:left'>
+
 ### Quarter structures
 
 Association of contraction and extension structures around tectonic lenses.
 
+</div>
+
+<div style='width:50%; float:right'>
+
+![label](Figures-Shear_zones/Figures/QuarterStructures.jpg) <!-- .element style="float: right" width="90%" -->
+
+</div>
+</div>
+
 <--o-->
 
 ## Kinematic indicators
+
+<div>
+<div style='width:50%; float:left'>
+
 ### Crystallographic orientation
 
 Mesure of C-axis orientation of quartz grains.
 
 Asymmetry with respect to foliation gives sense of shear.
 
-<--o-->
+</div>
 
-## Kinematic indicators
-### Tiling of objects
+<div style='width:50%; float:right'>
 
-Require large densities of crystals. Common in porphyritic magmatic rocks.
+![label](Figures-Shear_zones/Figures/QuartzMineralAxis.jpg) <!-- .element style="float: right" width="90%" -->
 
-<--o-->
-
-## Kinematic indicators
-### Shear transfer structures
+</div>
+</div>
 
 <--o-->
 
 ## Kinematic indicators
-### Micro-faulted mineral grains
 
-<--o-->
+<div>
+<div style='width:30%; float:left'>
 
-## Kinematic indicators
 ### Fiber and veins
 
 Orientation of extensional veins indicate the sense of shear.
 Fibers are usually more reliable.
 If the deformation is non-coaxial, the veins rotate and become sygmoide that can be used to determine the sense of shear.
+
+</div>
+
+<div style='width:70%; float:right'>
+
+![label](Figures-Shear_zones/Figures/VeinDevelopment.svg) <!-- .element style="float: right" width="90%" -->
+
+</div>
+</div>
+
+<--o-->
+
+## Kinematic indicators
+
+- Tiling of objects: Require large densities of crystals. Common in porphyritic magmatic rocks.
+- Shear transfer structures
+- Micro-faulted mineral grains
+
+<--o-->
+
+## Summary
+
+- Shear zones occur at all scale and crutal depths.
+- Shallow shear zones deform by brittle mechanisms.
+- Deeper shear zones deform by plastic mechanims.
+- The ideal shear zones involves simple shear and perhaps volume change but this is a very simplified view.
+- Sub-simple shear zones are (most?) common.
+- Most shear zones show an increase in strain from the margin to the center.
+- Several growth pattern can be envisaged.
+- Most shear zones grow wider... but tsrain softening may lead to a narrowing of the zone over time.

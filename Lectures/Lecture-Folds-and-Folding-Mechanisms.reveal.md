@@ -50,8 +50,6 @@ Students will be able to:
 - **Classify folds** according to fold terminology.
 - Understand **Folding Mechanims**
 - Find second order folds and cleavage
-- Identify **folding and faulting in extensional** regimes
-- Identify **folding and faulting in compressional** regimes.
 
 <--o-->
 <!-- .slide: data-background="Figures-Folds-and-Folding-Mechanisms/photos/Folds.jpg" -->
@@ -62,7 +60,6 @@ Students will be able to:
 
 Folds are spectacular structures. They are great evidence of how the original shape of rocks can evolve during deformation.
 The shape and orientations of folds seems almost limitless, yet there are some patterns that stands out.
-
 
 In the following lecture we will observe and describe folds and we will attempt to understand folding mechanisms and history.
 
