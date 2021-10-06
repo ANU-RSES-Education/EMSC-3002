@@ -3,10 +3,13 @@
 ## Lecture 1
 
 <iframe src="../slideshows/Lecture-Structures-Associated-with-Folding-2.reveal.html" title="Slideshow" width=100%, height=500 allowfullscreen></iframe>
+<a href="../slideshows/Lecture-Structures-Associated-with-Folding-2.reveal.html?print-pdf"> PDF, Updated Oct 06, 2021 </a>
 
 ## Lecture 2
 
 <iframe src="../slideshows/Lecture-Structures-Associated-with-Folding-3.reveal.html" title="Slideshow" width=100%, height=500 allowfullscreen></iframe>
+<a href="../slideshows/Lecture-Structures-Associated-with-Folding-3.reveal.html?print-pdf"> PDF, Updated Oct 06, 2021 </a>
+
 
 ## Learning outcomes
 
