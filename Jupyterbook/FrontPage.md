@@ -2,7 +2,7 @@
 
 EMSC 3002 is an intermediate-level course in Structural Geology and Tectonics from the Research School of Earth Sciences at ANU.
 
-```{figure} https://www.researchgate.net/profile/Mark-Tingay/publication/270812962/figure/fig1/AS:295192843309061@1447390866547/The-World-Stress-Map-consisting-of-over-14000-A-C-quality-stress-indicators-from-a.png
+```{figure} Jupyterbook/Figures/World_Stress_Map.jpeg
 ---
 width: 75%
 name: "World stress map"
