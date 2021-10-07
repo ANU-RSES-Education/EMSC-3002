@@ -1,6 +1,6 @@
 # EMSC 3002 - Structural Geology and Tectonics
 
-<img src="https://www.researchgate.net/profile/Oliver-Heidbach/publication/327061751/figure/fig2/AS:675475772940291@1538057382465/The-World-Stress-Map-WSM-2016-displays-the-contemporary-crustal-stress-orientation-in_W640.jpg" width=50%>
+<img src="Jupyterbook/Figures/World_Stress_Map.jpeg" width=50%>
 <caption>
 The World Stress Map (WSM) 2016 displays the contemporary crustal stress orientation in the upper 40 km based on the WSM database release 2016. Lines show the orientation of maximum horizontal stress. (Heidbach et al, 2018)
 </caption>
