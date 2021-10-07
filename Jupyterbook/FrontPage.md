@@ -2,13 +2,14 @@
 
 EMSC 3002 is an intermediate-level course in Structural Geology and Tectonics from the Research School of Earth Sciences at ANU.
 
-```{figure} Jupyterbook/Figures/World_Stress_Map.jpeg
+```{figure} Figures/World_Stress_Map.jpeg
 ---
 width: 75%
 name: "World stress map"
 ---
 The World Stress Map (WSM) 2016 displays the contemporary crustal stress orientation in the upper 40 km based on the WSM database release 2016. Lines show the orientation of maximum horizontal stress. ({cite}`heidbach_world_2018`)
 ```
+
 
 Your instructors for 2021 are:
 
