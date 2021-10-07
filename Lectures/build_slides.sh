@@ -22,9 +22,9 @@ Figures-Fold-Geometry-1,\
 Figures-Folds-and-Folding-Mechanisms,\
 Figures-Shear_zones,\
 Module-ii-Figures-Structural-Geology-And-Crustal-Deformation,\
-Figures-Structures-Associated-with-Folding-1,\
 Figures-Structures-Associated-with-Folding-2,\
 Figures-Structures-Associated-with-Folding-3,\
+Figures-Brittle_deformation0,\
 Figures-Brittle_deformation1,\
 Figures-Brittle_deformation2,\
 Figures-Brittle_deformation3,\

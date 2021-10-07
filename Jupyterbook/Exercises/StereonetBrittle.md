@@ -1,0 +1,3 @@
+# Exercise
+
+Stereonets are a convenient and common way to represent structural orientation data in three dimensions. Spherical projections are tools that allow solving three-dimensional problems, however, what is more important is to learn to visualize the problems. This practice will give you an introduction to the use of spherical projections: orientation data measurements (strike, dip, trend, plunge, etc), plotting of lines, planes, and their normal vectors, determining angles between planes. In this practice, you will get experience plotting them manually so you can gain knowledge on behind theory of the software that handles these important data automatically.
