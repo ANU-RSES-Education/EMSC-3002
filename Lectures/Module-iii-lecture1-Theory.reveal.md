@@ -49,134 +49,134 @@ What you will learn about stress.
 
 <--o-->
 
-<!-- .slide: data-background="Figures-Theory1/slide1.jpg" -->
+<!-- .slide: data-background="Module-iii-Theory/Figures-Theory1/slide1.jpg" -->
 
 <--o-->
 
-<!-- .slide: data-background="Figures-Theory1/slide2.jpg" -->
+<!-- .slide: data-background="Module-iii-Theory/Figures-Theory1/slide2.jpg" -->
 
 <--o-->
 
-<!-- .slide: data-background="Figures-Theory1/slide3.jpg" -->
+<!-- .slide: data-background="Module-iii-Theory/Figures-Theory1/slide3.jpg" -->
 
 <--o-->
 
-<!-- .slide: data-background="Figures-Theory1/slide4.jpg" -->
+<!-- .slide: data-background="Module-iii-Theory/Figures-Theory1/slide4.jpg" -->
 
 <--o-->
 
-<!-- .slide: data-background="Figures-Theory1/slide5.jpg" -->
+<!-- .slide: data-background="Module-iii-Theory/Figures-Theory1/slide5.jpg" -->
 
 <--o-->
-<!-- .slide: data-background="Figures-Theory1/slide6.jpg" -->
-
-<--o-->
-
-<!-- .slide: data-background="Figures-Theory1/slide7.jpg" -->
+<!-- .slide: data-background="Module-iii-Theory/Figures-Theory1/slide6.jpg" -->
 
 <--o-->
 
-<!-- .slide: data-background="Figures-Theory1/slide8.jpg" -->
+<!-- .slide: data-background="Module-iii-Theory/Figures-Theory1/slide7.jpg" -->
 
 <--o-->
 
-<!-- .slide: data-background="Figures-Theory1/slide9.jpg" -->
+<!-- .slide: data-background="Module-iii-Theory/Figures-Theory1/slide8.jpg" -->
 
 <--o-->
 
-<!-- .slide: data-background="Figures-Theory1/slide10.jpg" -->
+<!-- .slide: data-background="Module-iii-Theory/Figures-Theory1/slide9.jpg" -->
 
 <--o-->
 
-<!-- .slide: data-background="Figures-Theory1/slide11.jpg" -->
+<!-- .slide: data-background="Module-iii-Theory/Figures-Theory1/slide10.jpg" -->
 
 <--o-->
 
-<!-- .slide: data-background="Figures-Theory1/slide12.jpg" -->
+<!-- .slide: data-background="Module-iii-Theory/Figures-Theory1/slide11.jpg" -->
 
 <--o-->
 
-<!-- .slide: data-background="Figures-Theory1/slide13.jpg" -->
+<!-- .slide: data-background="Module-iii-Theory/Figures-Theory1/slide12.jpg" -->
 
 <--o-->
 
-<!-- .slide: data-background="Figures-Theory1/slide14.jpg" -->
+<!-- .slide: data-background="Module-iii-Theory/Figures-Theory1/slide13.jpg" -->
 
 <--o-->
 
-<!-- .slide: data-background="Figures-Theory1/slide15.jpg" -->
+<!-- .slide: data-background="Module-iii-Theory/Figures-Theory1/slide14.jpg" -->
 
 <--o-->
 
-<!-- .slide: data-background="Figures-Theory1/slide16.jpg" -->
+<!-- .slide: data-background="Module-iii-Theory/Figures-Theory1/slide15.jpg" -->
 
 <--o-->
 
-<!-- .slide: data-background="Figures-Theory1/slide17.jpg" -->
+<!-- .slide: data-background="Module-iii-Theory/Figures-Theory1/slide16.jpg" -->
 
 <--o-->
 
-<!-- .slide: data-background="Figures-Theory1/slide18.jpg" -->
+<!-- .slide: data-background="Module-iii-Theory/Figures-Theory1/slide17.jpg" -->
 
 <--o-->
 
-<!-- .slide: data-background="Figures-Theory1/slide19.jpg" -->
+<!-- .slide: data-background="Module-iii-Theory/Figures-Theory1/slide18.jpg" -->
 
 <--o-->
 
-<!-- .slide: data-background="Figures-Theory1/slide20.jpg" -->
+<!-- .slide: data-background="Module-iii-Theory/Figures-Theory1/slide19.jpg" -->
 
 <--o-->
 
-<!-- .slide: data-background="Figures-Theory1/slide21.jpg" -->
+<!-- .slide: data-background="Module-iii-Theory/Figures-Theory1/slide20.jpg" -->
 
 <--o-->
 
-<!-- .slide: data-background="Figures-Theory1/slide22.jpg" -->
+<!-- .slide: data-background="Module-iii-Theory/Figures-Theory1/slide21.jpg" -->
 
 <--o-->
 
-<!-- .slide: data-background="Figures-Theory1/slide23.jpg" -->
+<!-- .slide: data-background="Module-iii-Theory/Figures-Theory1/slide22.jpg" -->
 
 <--o-->
 
-<!-- .slide: data-background="Figures-Theory1/slide24.jpg" -->
+<!-- .slide: data-background="Module-iii-Theory/Figures-Theory1/slide23.jpg" -->
 
 <--o-->
 
-<!-- .slide: data-background="Figures-Theory1/slide25.jpg" -->
+<!-- .slide: data-background="Module-iii-Theory/Figures-Theory1/slide24.jpg" -->
 
 <--o-->
 
-<!-- .slide: data-background="Figures-Theory1/slide26.jpg" -->
+<!-- .slide: data-background="Module-iii-Theory/Figures-Theory1/slide25.jpg" -->
 
 <--o-->
 
-<!-- .slide: data-background="Figures-Theory1/slide27.jpg" -->
+<!-- .slide: data-background="Module-iii-Theory/Figures-Theory1/slide26.jpg" -->
 
 <--o-->
 
-<!-- .slide: data-background="Figures-Theory1/slide28.jpg" -->
+<!-- .slide: data-background="Module-iii-Theory/Figures-Theory1/slide27.jpg" -->
 
 <--o-->
 
-<!-- .slide: data-background="Figures-Theory1/slide29.jpg" -->
+<!-- .slide: data-background="Module-iii-Theory/Figures-Theory1/slide28.jpg" -->
 
 <--o-->
 
-<!-- .slide: data-background="Figures-Theory1/slide30.jpg" -->
+<!-- .slide: data-background="Module-iii-Theory/Figures-Theory1/slide29.jpg" -->
 
 <--o-->
 
-<!-- .slide: data-background="Figures-Theory1/slide31.jpg" -->
+<!-- .slide: data-background="Module-iii-Theory/Figures-Theory1/slide30.jpg" -->
 
 <--o-->
 
-<!-- .slide: data-background="Figures-Theory1/slide32.jpg" -->
+<!-- .slide: data-background="Module-iii-Theory/Figures-Theory1/slide31.jpg" -->
 
 <--o-->
 
-<!-- .slide: data-background="Figures-Theory1/slide33.jpg" -->
+<!-- .slide: data-background="Module-iii-Theory/Figures-Theory1/slide32.jpg" -->
+
+<--o-->
+
+<!-- .slide: data-background="Module-iii-Theory/Figures-Theory1/slide33.jpg" -->
 
 <--o-->
 
@@ -189,24 +189,24 @@ What you will learn about stress.
 
 <--o-->
 
-<!-- .slide: data-background="Figures-Theory1/slide35.jpg" -->
+<!-- .slide: data-background="Module-iii-Theory/Figures-Theory1/slide35.jpg" -->
 
 <--o-->
 
-<!-- .slide: data-background="Figures-Theory1/slide36.jpg" -->
+<!-- .slide: data-background="Module-iii-Theory/Figures-Theory1/slide36.jpg" -->
 
 <--o-->
 
-<!-- .slide: data-background="Figures-Theory1/slide37.jpg" -->
+<!-- .slide: data-background="Module-iii-Theory/Figures-Theory1/slide37.jpg" -->
 
 <--o-->
 
-<!-- .slide: data-background="Figures-Theory1/slide38.jpg" -->
+<!-- .slide: data-background="Module-iii-Theory/Figures-Theory1/slide38.jpg" -->
 
 <--o-->
 
-<!-- .slide: data-background="Figures-Theory1/slide39.jpg" -->
+<!-- .slide: data-background="Module-iii-Theory/Figures-Theory1/slide39.jpg" -->
 
 <--o-->
 
-<!-- .slide: data-background="Figures-Theory1/slide40.jpg" -->
+<!-- .slide: data-background="Module-iii-Theory/Figures-Theory1/slide40.jpg" -->
