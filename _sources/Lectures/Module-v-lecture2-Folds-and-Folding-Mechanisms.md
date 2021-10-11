@@ -2,8 +2,8 @@
 
 This lecture introduces folds morphology, their classifications and the folding mechanisms.
 
-<iframe src="../slideshows/Lecture-Folds-and-Folding-Mechanisms.reveal.html" title="Slideshow" width=100%, height=500 allowfullscreen></iframe>
-<a href="../slideshows/Lecture-Folds-and-Folding-Mechanisms.reveal.html?print-pdf"> PDF, Updated Oct 06, 2021 </a>
+<iframe src="../slideshows/Module-v-lecture2-Folds-and-Folding-Mechanisms.reveal.html" title="Slideshow" width=100%, height=500 allowfullscreen></iframe>
+<a href="../slideshows/Nodule-v-lecture2-Folds-and-Folding-Mechanisms.reveal.html?print-pdf"> PDF, Updated Oct 06, 2021 </a>
 
 
 
