@@ -40,133 +40,133 @@ What you will learn in this lecture
 
 <--o-->
 
-<!-- .slide: data-background="Figures-Brittle_deformation4/slide1.jpg" -->
+<!-- .slide: data-background="Module-iv-Brittle-Deformation/Figures-Brittle_deformation4/slide1.jpg" -->
 
 <--o-->
 
-<!-- .slide: data-background="Figures-Brittle_deformation4/slide2.jpg" -->
+<!-- .slide: data-background="Module-iv-Brittle-Deformation/Figures-Brittle_deformation4/slide2.jpg" -->
 
 <--o-->
 
-<!-- .slide: data-background="Figures-Brittle_deformation4/slide3.jpg" -->
+<!-- .slide: data-background="Module-iv-Brittle-Deformation/Figures-Brittle_deformation4/slide3.jpg" -->
 
 <--o-->
 
-<!-- .slide: data-background="Figures-Brittle_deformation4/slide4.jpg" -->
+<!-- .slide: data-background="Module-iv-Brittle-Deformation/Figures-Brittle_deformation4/slide4.jpg" -->
 
 <--o-->
 
-<!-- .slide: data-background="Figures-Brittle_deformation4/slide5.jpg" -->
+<!-- .slide: data-background="Module-iv-Brittle-Deformation/Figures-Brittle_deformation4/slide5.jpg" -->
 
 <--o-->
 
-<!-- .slide: data-background="Figures-Brittle_deformation4/slide6.jpg" -->
+<!-- .slide: data-background="Module-iv-Brittle-Deformation/Figures-Brittle_deformation4/slide6.jpg" -->
 
 <--o-->
 
-<!-- .slide: data-background="Figures-Brittle_deformation4/slide7.jpg" -->
+<!-- .slide: data-background="Module-iv-Brittle-Deformation/Figures-Brittle_deformation4/slide7.jpg" -->
 
 <--o-->
 
-<!-- .slide: data-background="Figures-Brittle_deformation4/slide8.jpg" -->
+<!-- .slide: data-background="Module-iv-Brittle-Deformation/Figures-Brittle_deformation4/slide8.jpg" -->
 
 <--o-->
 
-<!-- .slide: data-background="Figures-Brittle_deformation4/slide9.jpg" -->
+<!-- .slide: data-background="Module-iv-Brittle-Deformation/Figures-Brittle_deformation4/slide9.jpg" -->
 
 <--o-->
 
-<!-- .slide: data-background="Figures-Brittle_deformation4/slide11.jpg" -->
+<!-- .slide: data-background="Module-iv-Brittle-Deformation/Figures-Brittle_deformation4/slide11.jpg" -->
 
 <--o-->
 
-<!-- .slide: data-background="Figures-Brittle_deformation4/slide12.jpg" -->
+<!-- .slide: data-background="Module-iv-Brittle-Deformation/Figures-Brittle_deformation4/slide12.jpg" -->
 
 <--o-->
 
-<!-- .slide: data-background="Figures-Brittle_deformation4/slide13.jpg" -->
+<!-- .slide: data-background="Module-iv-Brittle-Deformation/Figures-Brittle_deformation4/slide13.jpg" -->
 
 <--o-->
 
-<!-- .slide: data-background="Figures-Brittle_deformation4/slide14.jpg" -->
+<!-- .slide: data-background="Module-iv-Brittle-Deformation/Figures-Brittle_deformation4/slide14.jpg" -->
 
 <--o-->
 
-<!-- .slide: data-background="Figures-Brittle_deformation4/slide15.jpg" -->
+<!-- .slide: data-background="Module-iv-Brittle-Deformation/Figures-Brittle_deformation4/slide15.jpg" -->
 
 <--o-->
 
-<!-- .slide: data-background="Figures-Brittle_deformation4/slide16.jpg" -->
+<!-- .slide: data-background="Module-iv-Brittle-Deformation/Figures-Brittle_deformation4/slide16.jpg" -->
 
 <--o-->
 
-<!-- .slide: data-background="Figures-Brittle_deformation4/slide17.jpg" -->
+<!-- .slide: data-background="Module-iv-Brittle-Deformation/Figures-Brittle_deformation4/slide17.jpg" -->
 
 <--o-->
 
-<!-- .slide: data-background="Figures-Brittle_deformation4/slide18.jpg" -->
+<!-- .slide: data-background="Module-iv-Brittle-Deformation/Figures-Brittle_deformation4/slide18.jpg" -->
 
 <--o-->
 
-<!-- .slide: data-background="Figures-Brittle_deformation4/slide19.jpg" -->
+<!-- .slide: data-background="Module-iv-Brittle-Deformation/Figures-Brittle_deformation4/slide19.jpg" -->
 
 <--o-->
 
-<!-- .slide: data-background="Figures-Brittle_deformation4/slide20.jpg" -->
+<!-- .slide: data-background="Module-iv-Brittle-Deformation/Figures-Brittle_deformation4/slide20.jpg" -->
 
 <--o-->
 
-<!-- .slide: data-background="Figures-Brittle_deformation4/slide21.jpg" -->
+<!-- .slide: data-background="Module-iv-Brittle-Deformation/Figures-Brittle_deformation4/slide21.jpg" -->
 
 <--o-->
 
-<!-- .slide: data-background="Figures-Brittle_deformation4/slide22.jpg" -->
+<!-- .slide: data-background="Module-iv-Brittle-Deformation/Figures-Brittle_deformation4/slide22.jpg" -->
 
 <--o-->
 
-<!-- .slide: data-background="Figures-Brittle_deformation4/slide23.jpg" -->
+<!-- .slide: data-background="Module-iv-Brittle-Deformation/Figures-Brittle_deformation4/slide23.jpg" -->
 
 <--o-->
 
-<!-- .slide: data-background="Figures-Brittle_deformation4/slide24.jpg" -->
+<!-- .slide: data-background="Module-iv-Brittle-Deformation/Figures-Brittle_deformation4/slide24.jpg" -->
 
 <--o-->
 
-<!-- .slide: data-background="Figures-Brittle_deformation4/slide25.jpg" -->
+<!-- .slide: data-background="Module-iv-Brittle-Deformation/Figures-Brittle_deformation4/slide25.jpg" -->
 
 <--o-->
 
-<!-- .slide: data-background="Figures-Brittle_deformation4/slide26.jpg" -->
+<!-- .slide: data-background="Module-iv-Brittle-Deformation/Figures-Brittle_deformation4/slide26.jpg" -->
 
 <--o-->
 
-<!-- .slide: data-background="Figures-Brittle_deformation4/slide27.jpg" -->
+<!-- .slide: data-background="Module-iv-Brittle-Deformation/Figures-Brittle_deformation4/slide27.jpg" -->
 
 <--o-->
 
-<!-- .slide: data-background="Figures-Brittle_deformation4/slide28.jpg" -->
+<!-- .slide: data-background="Module-iv-Brittle-Deformation/Figures-Brittle_deformation4/slide28.jpg" -->
 
 <--o-->
 
-<!-- .slide: data-background="Figures-Brittle_deformation4/slide29.jpg" -->
+<!-- .slide: data-background="Module-iv-Brittle-Deformation/Figures-Brittle_deformation4/slide29.jpg" -->
 
 <--o-->
 
-<!-- .slide: data-background="Figures-Brittle_deformation4/slide30.jpg" -->
+<!-- .slide: data-background="Module-iv-Brittle-Deformation/Figures-Brittle_deformation4/slide30.jpg" -->
 
 <--o-->
 
-<!-- .slide: data-background="Figures-Brittle_deformation4/slide31.jpg" -->
+<!-- .slide: data-background="Module-iv-Brittle-Deformation/Figures-Brittle_deformation4/slide31.jpg" -->
 
 <--o-->
 
-<!-- .slide: data-background="Figures-Brittle_deformation4/slide32.jpg" -->
+<!-- .slide: data-background="Module-iv-Brittle-Deformation/Figures-Brittle_deformation4/slide32.jpg" -->
 
 <--o-->
 
-<!-- .slide: data-background="Figures-Brittle_deformation4/slide33.jpg" -->
+<!-- .slide: data-background="Module-iv-Brittle-Deformation/Figures-Brittle_deformation4/slide33.jpg" -->
 
 <--o-->
 
-<!-- .slide: data-background="Figures-Brittle_deformation4/slide34.jpg" -->
+<!-- .slide: data-background="Module-iv-Brittle-Deformation/Figures-Brittle_deformation4/slide34.jpg" -->
 
