@@ -210,6 +210,8 @@ The geologist working on a cross section of the Alice Hills region has been call
 1. Complete the cross section by showing the structure between the ground surface and the Precambrian/Cambrian contact.  You must choose detachment levels, position ramps, and indicate the amount of slip on each ramp.
 2. Restore your completed section.  Does it balance?
 
+<iframe width="560" height="315" src="https://youtu.be/C_lfUx7cEAQ?rel=0&amp;controls=0&amp;showinfo=0" frameborder="0" allowfullscreen></iframe>
+
 #### Some hints/suggestions/questions for this exercise:
 
 - Remember that the upper Silurian unit that is repeated under borehole #3 is slightly less thick than the lower, complete unit.  This means that the fault-bend fold has not yet developed to full vertical relief.  As far as your cross section goes, this means that the down-thrust dip domain trace will not necessarily intersect the fault trace at the fault ramp-flat interface.  Keep this in mind.
