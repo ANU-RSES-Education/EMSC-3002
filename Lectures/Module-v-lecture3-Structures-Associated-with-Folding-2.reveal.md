@@ -127,9 +127,9 @@ Rotation is most efficient if the strain is constrictional.
 It also depends on the original orientation of the object relative to the
 stress orientations.
 
-Example: Rotation of amphibole mineral in amphibole-mica schists.
+Example: Rotation of amphibole minerals in amphibole-mica schists.
 
-Stiff minerals rotates while the matrix deforms plastically.
+Stiff minerals rotate while the matrix deforms plastically.
 
 </div>
 
@@ -179,7 +179,7 @@ mineral lineation.
 
 Growth can be directed by the external stress field and/or existing fabric in the rock.
 
-*Growth of Amhibole during metamorphism, producing a mineral lineation*
+*Growth of Amphibole during metamorphism, producing a mineral lineation.*
 
 </div>
 
@@ -200,7 +200,7 @@ Growth can be directed by the external stress field and/or existing fabric in th
 
 The resulting L-structure is sometimes called **nematoblastic**.
 
-How do we distinguish between crystallization and rotation?
+**How do we distinguish between crystallization and rotation?**
 
 Rotation commonly involves some deformation of the grain.
 Rotation is unlikely to achieve perfect parallelism.
@@ -401,10 +401,9 @@ Fold axes are theoretical or geometric lines rather than actual physical objects
 High densities of parallel fold axis can constitue a fabric and create a **crenulation lineation**.
 
 </div>
-
 <div style='width:50%; float:right'>
 
-![label](Module-v-Ductile-Deformation/Figures-Structures-Associated-with-Folding-2/Photos/Lineations10.jpg) <!-- .element style='float: right' width='70%' -->
+![label](Module-v-Ductile-Deformation/Figures-Structures-Associated-with-Folding-2/Photos/Lineations10.jpg) <!-- .element style='float: right' width='60%' -->
 
 </div>
 </div>
@@ -423,7 +422,7 @@ Intersection of planar structures in deformed rocks can define an **intersection
 When the first tectonic cleavage (S1) intersect the bedding (S0), the resulting lineation (L1) can
 be observed on the bedding planes.
 
-**Intersection lineations** can also results from the intersection of two tectonic foliations/cleavages.
+**Intersection lineations** can also result from the intersection of two tectonic foliations/cleavages.
 
 </div>
 
@@ -443,7 +442,7 @@ be observed on the bedding planes.
 
 #### Intersection lineation
 
-*Stereoplot showing bedding orinetation in green and cleavage of the fold to the left.
+*Stereoplot showing bedding orientation in green and cleavage of the fold to the left.
 The intersection lineation is the point of interesection between $S_0$ and the cleavage (square)*
 
 </div>
@@ -682,7 +681,7 @@ Lineations formed by boudinage form along Y. i.e. perpendicula to X.
 
 Surface lineations have a much more indirect relationship with strain since they are bound by the fracture surface on which they occur.
 
-**Slickenlines**, **striae** and other lineartions associated with faults are parallel to the direction of movement but do not
+**Slickenlines**, **striae** and other lineations associated with faults are parallel to the direction of movement but do not
 reveal the sense of shear which need to be determined via observation of other markers.
 
 The exception is fiber linearions on extension fractures where the fibers tend to be parallel to X (direction of opening)
@@ -720,7 +719,7 @@ Lineations have been used to interpet strain and movement pattern related to oro
 
 ## Conclusions
 
-- Lineationsa re linear structures in rocks.
+- Lineations are linear structures in rocks.
 - They may be **penetrative** or confined to **surface**
 - **Geometric lineations** are theoretical lines such as fold axes
 - **Tectonic lineations** occur as a result of tectonic deformation

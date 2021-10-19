@@ -137,7 +137,7 @@ Broad definition include **faults** and **ductile shear zones**.
 
 - Ductile Shear Zones
 - Brittle-Ductile Shear zones
-- Brittle SHear zones (Fault)
+- Brittle Shear zones (Fault)
 
 **Ductile shear zones** show a gradual distribution of strain. They show evidence of both plastic and brittle deformation mechanisms
 **Faults** or **non-ductile shear zones** are essentially formed by brittle deformation. Faults are a subclass of shear-zones.
@@ -149,7 +149,7 @@ Other subclasses can be defined based on the kinematics, mineral deformation mec
 ### According to deformation mechanism
 
 - Plastic Shear Zone: Deformation occurs by crystal-plastic mechanisms (e.g. dislocation) and diffusion
-- Britle mechanism shear zone: Deformation is dominated by britlle mechanisms (cataclasis, frictional sliding, rigid rotation)
+- Brittle mechanism shear zone: Deformation is dominated by  brittle mechanisms (cataclasis, frictional sliding, rigid rotation)
 
 <--o-->
 ### What do we actually mean by "Ductile" and "Brittle"?
@@ -179,7 +179,7 @@ Other subclasses can be defined based on the kinematics, mineral deformation mec
 
 **Brittle Mechanisms** is different: it means microscale frictional sliding and grain rolling.
 
-This makes the term **Brittle shear zone** a bit ambiguous unless the meaning of the term "brittle" is specified. The expressions **Brittle-style shear zone** and **Bittle-mechanism shear zone** are unambiguous.
+This makes the term **Brittle shear zone** a bit ambiguous unless the meaning of the term "brittle" is specified. The expressions **Brittle-style shear zone** and **Brittle-mechanism shear zone** are unambiguous.
 
 </div>
 
@@ -209,7 +209,7 @@ This makes the term **Brittle shear zone** a bit ambiguous unless the meaning of
 - Shear zones are tabular zones of strain localization in the crust
 - Shear zones occur on all scales, from thin-section scale to those cutting the entire crust and involving hundreds of km of displacement
 - Like faults, Shear zones tend to involve simple shear but could also be influenced by other pure shear
-- High strain plastic shear zones develip mylonitic fabrics.
+- High strain plastic shear zones develop mylonitic fabrics.
 - Shear zones may be reverse, normal, strike-slip or oblique.
 - Shear zones tend to have lower dips than faults
 
@@ -318,7 +318,7 @@ In a Brittle shear zone grains flow through:
 <div>
 <div style='width:50%; float:left'>
 
-Example of granular flow (non-cataclastic flow). This type of low involves some change in thickness of the zone.
+Example of granular flow (non-cataclastic flow). This type of flow involves some change in thickness of the zone.
 In this case compaction.
 
 </div>
@@ -387,7 +387,7 @@ Some important plastic processes:
 <div>
 <div style='width:50%; float:left'>
 
-*Example of plastic defromation of impoure quartzite (ruby Gap, Australia). Large quartz (graish) are remnants of the original texture. Dark shadows are expressions of intracrystalline strain (dislocation accumulations). New grainsa re much smaller. Credit: W. James Dunlap*
+*Example of plastic defromation of impoure quartzite (ruby Gap, Australia). Large quartz (graish) are remnants of the original texture. Dark shadows are expressions of intracrystalline strain (dislocation accumulations). New grains are much smaller. Credit: W. James Dunlap*
 
 </div>
 <div style='width:50%; float:right'>
@@ -508,7 +508,7 @@ Ductility is different than plasticity in the sense that it relates to continuit
 **continuous deformation / strain**: marker layers can be traced through the zone at the mesoscopic scale.
 
 Most plastic shear zone preserve continuity, some brittle shear zones too.
-A **ductile shear zone** can deform britelly and plastically.
+A **ductile shear zone** can deform brittelly and plastically.
 
 </div>
 
@@ -654,7 +654,7 @@ the shear direction.
 ## Foliation in simple shear zones
 
 - The foliation approximate the orientation of the X-Y plane.
-- The foliation can be treaced through the shear zone and usually appear curved because of higher strain in the central parts.
+- The foliation can be traced through the shear zone and usually appear curved because of higher strain in the central parts.
 
 ![label](Module-v-Ductile-Deformation/Figures-Shear_zones/gifs/ShearZone9.gif) <!-- .element style="float: right" width="90%" -->
 
@@ -672,14 +672,14 @@ the shear direction.
 <div>
 <div style='width:50%; float:left'>
 
-A zone that conpacts by wall-normal displacement is a **compaction zone**
+A zone that compacts by wall-normal displacement is a **compaction zone**
 
-The deformatino is planar and co-axial with zero vorticity.
+The deformation is planar and co-axial with zero vorticity.
 
 - Shortening across (not along) the zone
 - ISA max normal to the shear zone.
 - Long axis of the strain ellipsoid initiate and remain parallel to the walls.
-- Passive planar marker that initially made an angle $\alpha$ with the zone obtains a new angle $\alpha'$ that is realted to the dilation through: $$\beta'=cot \beta/(1+\delta)$$
+- Passive planar marker that initially made an angle $\beta$ with the zone obtains a new angle $\beta'$ that is related to the dilation through: $$\beta'=cot \beta/(1+\delta)$$
 
 </div>
 
@@ -698,13 +698,33 @@ The deformatino is planar and co-axial with zero vorticity.
 
 Compaction can combine with Simple shear.
 
-The comnpaction conponent will close walls as the zone develops but this will counteracted by general widening of the zone as strain accumulates
+The compaction conponent will close walls as the zone develops but this will be counteracted by general widening of the zone as strain accumulates.
 
 </div>
 
 <div style='width:50%; float:right'>
 
 ![label](Module-v-Ductile-Deformation/Figures-Shear_zones/gifs/ShearZone13.gif) <!-- .element style="float: right" width="90%" -->
+
+</div>
+</div>
+
+<--o-->
+
+## Instantaneous Stretching Axes in Compactional Shear zones
+
+<div>
+<div style='width:50%; float:left'>
+
+- Compaction Rotates ISA so that ISA max (The direction of fastest stretching) makes an angle $\theta$ withthe shear plane that is les tham 45 degrees.
+- The stronger the compaction, the larger the deviation from 45 degrees.
+- For dilational simple shear the angle $\theta$ is larger than 45 degrees.
+
+</div>
+
+<div style='width:50%; float:right'>
+
+![label](Module-v-Ductile-Deformation/Figures-Shear_zones/gifs/ShearZone15.gif) <!-- .element style="float: right" width="90%" -->
 
 </div>
 </div>
@@ -725,26 +745,6 @@ The comnpaction conponent will close walls as the zone develops but this will co
 <div style='width:50%; float:right'>
 
 ![label](Module-v-Ductile-Deformation/Figures-Shear_zones/gifs/ShearZone14.gif) <!-- .element style="float: right" width="90%" -->
-
-</div>
-</div>
-
-<--o-->
-
-## Instantaneous Stretching Axes in Compactional Shear zones
-
-<div>
-<div style='width:50%; float:left'>
-
-- Compaction Rotates ISA so that ISA max (The direction of fastest strecthing) makes an angle $\theta$ withthe shear plane that is les tham 45 degrees.
-- The stronger the compaction, the larger the deviation from 45 degrees.
-- For dilational simple shear the angle $\theta$ is larger than 45 degrees.
-
-</div>
-
-<div style='width:50%; float:right'>
-
-![label](Module-v-Ductile-Deformation/Figures-Shear_zones/gifs/ShearZone15.gif) <!-- .element style="float: right" width="90%" -->
 
 </div>
 </div>
@@ -822,7 +822,7 @@ common.
 
 - ISA max and ISA min are oblique to the shear zone walls.
 - ISA do not rotate. They stay fixed during steady state deformation
-- The orientatin of ISA specify the amounts of Pure and Simple shear
+- The orientation of ISA specify the amounts of Pure and Simple shear
 - In Brittle-ductile deformation zones with tension gashes, the tips of the veins are perpendicular to ISA max.
 
 **The orientation of ISA is constant across the zone, regardless of strain**
@@ -1228,7 +1228,7 @@ Association of contraction and extension structures around tectonic lenses.
 
 ### Crystallographic orientation
 
-Mesure of C-axis orientation of quartz grains.
+Measure of C-axis orientations of quartz grains.
 
 Asymmetry with respect to foliation gives sense of shear.
 
@@ -1252,7 +1252,7 @@ Asymmetry with respect to foliation gives sense of shear.
 
 Orientation of extensional veins indicate the sense of shear.
 Fibers are usually more reliable.
-If the deformation is non-coaxial, the veins rotate and become sygmoide that can be used to determine the sense of shear.
+If the deformation is non-coaxial, the veins rotate and become sygmoides that can be used to determine the sense of shear.
 
 </div>
 
@@ -1282,4 +1282,4 @@ If the deformation is non-coaxial, the veins rotate and become sygmoide that can
 - Sub-simple shear zones are (most?) common.
 - Most shear zones show an increase in strain from the margin to the center.
 - Several growth pattern can be envisaged.
-- Most shear zones grow wider... but tsrain softening may lead to a narrowing of the zone over time.
+- Most shear zones grow wider... but strain softening may lead to a narrowing of the zone over time.
