@@ -65,13 +65,13 @@ In the following lecture we will observe and describe folds and we will attempt 
 
 <--o-->
 
-## Three fundamental mechanisms
+## 3 fundamental mechanisms
 
 <div>
 
 <div style="width:50%; float:left">
 
-Folds may form **actively** and originite from mechanical or rheological properties of the
+Folds may form **actively** and originate from mechanical or rheological properties of the
 layering relative to the properties of the surrounding material.
 We talk about about **contrast in competence or viscosity**
 
@@ -86,14 +86,14 @@ We talk about about **contrast in competence or viscosity**
 </div>
 
 <--o-->
-## Three fundamental mechanisms
+## 3 fundamental mechanisms
 
 <div>
 
 <div style="width:50%; float:left">
 
 
-Folding that occurs during flow in rocks without visocisty contrast is called **passive folding**.
+Folding that occurs during flow in rocks without viscosity contrast is called **passive folding**.
 In that case, the layers are markers that are transported by the flow.
 **Passive folds** form in shear zones and are sometimes called **shear folds**
 
@@ -108,12 +108,11 @@ Layers can also be bent as forces act across the layering, a mechanism called **
 </div>
 
 <--o-->
-## Three fundamental mechanisms
+## 3 fundamental mechanisms
 
 <div>
 
 <div style="width:50%; float:left">
-
 
 Folding can occur in any tectonic regime (Extensional, Contractional, Strike-Slip)
 
@@ -127,7 +126,6 @@ the entire range of metamorphic conditions.
 
 </div>
 </div>
-
 
 <--o-->
 ## Different ways of forming folds
@@ -339,7 +337,7 @@ the individual layer thicknesses.
 ### Multilayers
 
 During buckling of alternately thin and thick competent layers, **the thin layers fold first**.
-Thick layer tend to go through a phase of layer thicknening prior to folding.
+Thick layers tend to go through a phase of layer thickening prior to folding.
 
 Thin layers produce small folds that are later folded by the thick layer.
 
@@ -396,7 +394,7 @@ Lines originally parallel do not remain so.
 - Requires weak coupling between layers
 - Slip occurs on bedding planes
 - Bed thickness is constant
-- No slip at hingee
+- No slip at hinges
 
 Slickenlines on folded weak layers and constant bed thickness reveal flexural slip
 
@@ -449,7 +447,7 @@ Properties are (as for Flexural slip)
 ### Flexural Flow
 
 - Requires some weak layers
-- within layer flow Beds are sheared in limbs
+- within layer flow beds are sheared in limbs
 - Thickening in hinge
 - No shear at hinge
 
@@ -610,7 +608,7 @@ Bucking also occurs during non-coaxial deformation, such as in shear zones.
 When the contrast in viscosity is sufficient, layers will fold in response to layer parallel
 shortening.
 
-During shearing, the rotating limb experiences early limb thicknening and later attenuation.
+During shearing, the rotating limb experiences early limb thickening and later attenuation.
 The reason is that it rotates into and then out of the instantaneous shortening field.
 
 This requires high competency contrast.

@@ -88,7 +88,7 @@ Any fabric that does not result from the deformation of a rock.
 Metamorphic rocks typically show **strong fabrics** and are often referred as **Tectonites**.
 **L-Tectonites** show Linear fabrics while **S-Tectonites** have Planar fabrics.
 
-*Deformed waterlain volcanic sediments. Primary fabric (bedding) shown by abrupt change in clast size, secondary fabric shown by penetrative S-fabric, cleavage, in fine-grained rock, and by shape fabric in deformed volcanic clasts. Cape Forchu, Nova Scotia.* source: ![Wikipedia](https://en.wikipedia.org/wiki/Fabric_(geology)#/media/File:Primary_and_secondary_fabrics.JPG)
+*Deformed waterlain volcanic sediments. Primary fabric (bedding) shown by abrupt change in clast size, secondary fabric shown by penetrative S-fabric, cleavage, in fine-grained rock, and by shape fabric in deformed volcanic clasts. Cape Forchu, Nova Scotia.* source: [Wikipedia](https://en.wikipedia.org/wiki/Fabric_(geology)#/media/File:Primary_and_secondary_fabrics.JPG)
 
 </div>
 <div style="width:40%; float:right">
@@ -109,7 +109,7 @@ Metamorphic rocks typically show **strong fabrics** and are often referred as **
 <div style="width:50%; float:left">
 
 - **Linear Fabric**: Elongated elements with preferred orientation
-- **Planar Fabric**: Tabular or platy elements with common orientation. The faric does not
+- **Planar Fabric**: Tabular or platy elements with common orientation. The fabric does not
 need to be planar in a mathematical sense. It can be affected by folding and wrap around
 stronger elements.
 - **Random Fabric**: No preferred orientation. Undeformed sedimentary rocks, igneous rocks.
@@ -136,7 +136,7 @@ stronger elements.
 <div style="width:50%; float:left">
 
 - **Linear Fabric**: Elongated elements with preferred orientation
-- **Planar Fabric**: Tabular or platy elements with common orientation. The faric does not
+- **Planar Fabric**: Tabular or platy elements with common orientation. The fabric does not
 need to be planar in a mathematical sense. It can be affected by folding and wrap around
 stronger elements.
 - **Random Fabric**: No preferred orientation. Undeformed sedimentary rocks, igneous rocks.
@@ -163,7 +163,7 @@ Credit: Samuele Papeschi* source: [EGU Blog](https://blogs.egu.eu/divisions/ts/2
 
 Any forming-fabric *planar* or *curviplanar* structure in a metamorphic rock.
 
-A foliation may bed defined by zone of different grain size, flattened objects,
+A foliation may be defined by zone of different grain size, flattened objects,
 recrystallized tabular grains with a uniform orientation, platy mineral arranged into
 millimeter thick domains, densely distributed and cohesive micro-fractures, micro-folds (crenulations).
 
@@ -266,9 +266,9 @@ Do not confuse with crystallographic cleavage which is the tendency of minerals 
 Rigid rotation of grains.
 
 Not as important as originally thought but can be important for rocks with
-very rigid minerals such as amphiboles and feldspar in a softer matrix.
+very rigid minerals such as amphiboles and feldspars in a softer matrix.
 
-Most Important for non-metamorphic conditions where temperature is too low to allow
+Most important for non-metamorphic conditions where temperature is too low to allow
 for crystallization to occur and where pressure solution is limited.
 
 See **Compaction Cleavage**
@@ -292,7 +292,7 @@ See **Compaction Cleavage**
 
 Some minerals such as phyllosilicates are flexible, even at surface temperature and can be bent under stress.
 
-Bending can be seen as a Flexural slip processes (see lecture on folding)
+Bending can be seen as a **Flexural slip** process (see lecture on folding)
 
 Bending is mostly important for platy minerals.
 
@@ -312,7 +312,7 @@ Bending is mostly important for platy minerals.
 
 ### Pressure Solution
 
-Dissolution of minerals along grain boundaries t high angles to $\sigma_1$ and redeposition of the material can strain the grains so that they obtain a preferred orientation (i.e. A fabric that defines a foliation.)
+Dissolution of minerals along grain boundaries at high angles to $\sigma_1$ and redeposition of the material can strain the grains so that they obtain a preferred orientation (i.e. A fabric that defines a foliation.)
 
 Important factors are:
 
@@ -523,7 +523,7 @@ The seams are **stylolites** and the foliation can be called a **stylolite cleav
 <div style="width:70%; float:left">
 
 Minerals diffuse away, perpendicular to the direction of $\sigma 1$,  through a very thin film of fluid along
-the grain boundaries and precipitates in pressure shadows of larger and/or more rigid grains or are simply trnsported out of the rocks.
+the grain boundaries and precipitate in pressure shadows of larger and/or more rigid grains or are simply transported out of the rocks.
 
 Very significant amount of material is lost through **pressure solution**. This presents interesting consequences in terms of
 thermodynamics and fluid flow though the crust.
