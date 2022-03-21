@@ -53,3 +53,7 @@ measured approximately just by pouring the material into a pile and seeing the s
 ## Exercise 7, Stereonet Projection and Structural Analyses
 
 [Exercise 7 Worksheet](Exercises/Stereonet)
+
+## Exercise 8, Balancing and Restoring Cross sections
+
+[Exercise 8 Worksheet](Exercises/CrossSection)

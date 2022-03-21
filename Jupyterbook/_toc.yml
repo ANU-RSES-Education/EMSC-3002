@@ -22,12 +22,12 @@ parts:
     title: "Module 3 - Theory"
   - file: Lectures/Module-iv-BrittleDeformation
     title: "Module 4 - Brittle Deformation"
-  - file: Lectures/Lecture-Fold-Geometry-1
+  - file: Lectures/Module-v-lecture1-Fold-Geometry
     title: "Module 5 - Ductile Deformation"
     sections: 
-      - file: Lectures/Lecture-Folds-and-Folding-Mechanisms
-      - file: Lectures/Lecture-Structures-Associated-with-Folding
-      - file: Lectures/Lecture-Shear_zones
+      - file: Lectures/Module-v-lecture2-Folds-and-Folding-Mechanisms
+      - file: Lectures/Module-v-lecture3-Structures-Associated-with-Folding
+      - file: Lectures/Module-v-lecture4-Shear-Zones
         
 
 - caption: Glossary
