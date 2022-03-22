@@ -7,8 +7,8 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>&lt;no title&gt; &#8212; EMSC 3002</title>
     
-  <link href="_static/css/theme.css" rel="stylesheet" />
-  <link href="_static/css/index.c5995385ac14fb8791e8eb36b4908be2.css" rel="stylesheet" />
+  <link href="_static/css/theme.css" rel="stylesheet">
+  <link href="_static/css/index.ff1ffe594081f20da1ef19478df9384b.css" rel="stylesheet">
 
     
   <link rel="stylesheet"
@@ -32,30 +32,35 @@
     <link rel="stylesheet" type="text/css" href="_static/panels-main.c949a650a448cc0ae9fd3441c0e17fb0.css" />
     <link rel="stylesheet" type="text/css" href="_static/panels-variables.06eb56fa6e07937060861dad626602ad.css" />
     
-  <link rel="preload" as="script" href="_static/js/index.1c5a1a01449ed65a7b51.js">
+  <link rel="preload" as="script" href="_static/js/index.be7d3bbb2ef33a8344ce.js">
 
     <script data-url_root="./" id="documentation_options" src="_static/documentation_options.js"></script>
     <script src="_static/jquery.js"></script>
     <script src="_static/underscore.js"></script>
     <script src="_static/doctools.js"></script>
-    <script src="_static/togglebutton.js"></script>
     <script src="_static/clipboard.min.js"></script>
     <script src="_static/copybutton.js"></script>
+    <script>let toggleHintShow = 'Click to show';</script>
+    <script>let toggleHintHide = 'Click to hide';</script>
+    <script>let toggleOpenOnPrint = 'true';</script>
+    <script src="_static/togglebutton.js"></script>
     <script src="_static/font_button.js"></script>
     <script async="async" kind="hypothesis" src="https://hypothes.is/embed.js"></script>
     <script>var togglebuttonSelector = '.toggle, .admonition.dropdown, .tag_hide_input div.cell_input, .tag_hide-input div.cell_input, .tag_hide_output div.cell_output, .tag_hide-output div.cell_output, .tag_hide_cell.cell, .tag_hide-cell.cell';</script>
-    <script src="_static/sphinx-book-theme.12a9622fbb08dcb3a2a40b2c02b83a57.js"></script>
-    <script async="async" src="https://unpkg.com/thebe@0.5.1/lib/index.js"></script>
-    <script>
-        const thebe_selector = ".thebe"
-        const thebe_selector_input = "pre"
-        const thebe_selector_output = ".output"
-    </script>
+    <script src="_static/sphinx-book-theme.d59cb220de22ca1c485ebbdc042f0030.js"></script>
+    <script>const THEBE_JS_URL = "https://unpkg.com/thebe@0.8.2/lib/index.js"
+const thebe_selector = ".thebe,.cell"
+const thebe_selector_input = "pre"
+const thebe_selector_output = ".output, .cell_output"
+</script>
     <script async="async" src="_static/sphinx-thebe.js"></script>
     <link rel="index" title="Index" href="genindex.html" />
     <link rel="search" title="Search" href="search.html" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
-    <meta name="docsearch:language" content="en" />
+    <meta name="docsearch:language" content="None">
+    
+
+    <!-- Google Analytics -->
     
   </head>
   <body data-spy="scroll" data-target="#bd-toc-nav" data-offset="80">
@@ -94,7 +99,7 @@
   </a>
  </li>
 </ul>
-<p class="caption" role="heading">
+<p aria-level="2" class="caption" role="heading">
  <span class="caption-text">
   Introduction
  </span>
@@ -121,7 +126,7 @@
   </a>
  </li>
 </ul>
-<p class="caption" role="heading">
+<p aria-level="2" class="caption" role="heading">
  <span class="caption-text">
   Lecture Notes
  </span>
@@ -180,7 +185,7 @@
   </ul>
  </li>
 </ul>
-<p class="caption" role="heading">
+<p aria-level="2" class="caption" role="heading">
  <span class="caption-text">
   Glossary
  </span>
@@ -192,7 +197,7 @@
   </a>
  </li>
 </ul>
-<p class="caption" role="heading">
+<p aria-level="2" class="caption" role="heading">
  <span class="caption-text">
   Bibliography
  </span>
@@ -249,7 +254,7 @@
                 data-placement="left">.md</button></a>
         <!-- Download PDF via print -->
         <button type="button" id="download-print" class="btn btn-secondary topbarbtn" title="Print to PDF"
-            onClick="window.print()" data-toggle="tooltip" data-placement="left">.pdf</button>
+                onclick="printPdf(this)" data-toggle="tooltip" data-placement="left">.pdf</button>
     </div>
 </div>
 
@@ -280,7 +285,7 @@
         </div>
 
         <!-- Table of contents -->
-        <div class="d-none d-md-block col-md-2 bd-toc show">
+        <div class="d-none d-md-block col-md-2 bd-toc show noprint">
             
             <div class="tocsection onthispage pt-5 pb-3">
                 <i class="fas fa-list"></i> Contents
@@ -295,46 +300,64 @@
 </div>
     <div id="main-content" class="row">
         <div class="col-12 col-md-9 pl-md-3 pr-md-0">
-        
+            <!-- Table of contents that is only displayed when printing the page -->
+            <div id="jb-print-docs-body" class="onlyprint">
+                <h1><no title></h1>
+                <!-- Table of contents -->
+                <div id="print-main-content">
+                    <div id="jb-print-toc">
+                        
+                        <div>
+                            <h2> Contents </h2>
+                        </div>
+                        <nav aria-label="Page">
+                            <ul class="simple visible nav section-nav flex-column">
+</ul>
+
+                        </nav>
+                    </div>
+                </div>
+            </div>
+            
               <div>
                 
   <!-- 
 grep "@" JupyterBook.bib 
 replace @article / @book / @etcetc with {cite}` and , with ` 
 -->
-<p><span id="id1">[<a class="reference internal" href="Bibliography.html#id2">Wilson, 1963</a>]</span>
-<span id="id2">[<a class="reference internal" href="Bibliography.html#id3">Dewey, 1972</a>]</span>
-<span id="id3">[<a class="reference internal" href="Bibliography.html#id4">Heidbach <em>et al.</em>, 2018</a>]</span>
-<span id="id4">[<a class="reference internal" href="Bibliography.html#id5">Gomez-Rivas <em>et al.</em>, 2020</a>]</span>
-<span id="id5">[<a class="reference internal" href="Bibliography.html#id6">Kaliakin, 2017</a>]</span>
-<span id="id6">[<a class="reference internal" href="Bibliography.html#id7">Bird, 2003</a>]</span>
-<span id="id7">[<a class="reference internal" href="Bibliography.html#id8">Vine, 1968</a>]</span>
-<span id="id8">[<a class="reference internal" href="Bibliography.html#id9">Stein and Woods, 1989</a>]</span>
-<span id="id9">[<a class="reference internal" href="Bibliography.html#id10">Hensen <em>et al.</em>, 2019</a>]</span>
-<span id="id10">[<a class="reference internal" href="Bibliography.html#id11">Abercrombie and Ekström, 2001</a>]</span>
-<span id="id11">[<a class="reference internal" href="Bibliography.html#id12">Vavryčuk, 2015</a>]</span>
-<span id="id12">[<a class="reference internal" href="Bibliography.html#id13">Hamblin and Christiansen, 2004</a>]</span>
-<span id="id13">[<a class="reference internal" href="Bibliography.html#id14">Hayes <em>et al.</em>, 2018</a>]</span>
-<span id="id14">[<a class="reference internal" href="Bibliography.html#id15">Wang <em>et al.</em>, 2019</a>]</span>
-<span id="id15">[<a class="reference internal" href="Bibliography.html#id16">Chen <em>et al.</em>, 2015</a>]</span>
-<span id="id16">[<a class="reference internal" href="Bibliography.html#id17">Li <em>et al.</em>, 2020</a>]</span>
-<span id="id17">[<a class="reference internal" href="Bibliography.html#id18">Rajendran <em>et al.</em>, 2013</a>]</span>
-<span id="id18">[<a class="reference internal" href="Bibliography.html#id19">Hashima and Sato, 2017</a>]</span>
-<span id="id19">[<a class="reference internal" href="Bibliography.html#id20">Govers <em>et al.</em>, 2018</a>]</span>
-<span id="id20">[<a class="reference internal" href="Bibliography.html#id21">Fan and Zhao, 2021</a>]</span>
-<span id="id21">[<a class="reference internal" href="Bibliography.html#id22">Liu and Zhao, 2018</a>]</span>
-<span id="id22">[<a class="reference internal" href="Bibliography.html#id23">Craig <em>et al.</em>, 2014</a>]</span>
-<span id="id23">[<a class="reference internal" href="Bibliography.html#id24">Wang <em>et al.</em>, 2019</a>]</span>
-<span id="id24">[<a class="reference internal" href="Bibliography.html#id25">Tapponnier <em>et al.</em>, 1982</a>]</span>
-<span id="id25">[<a class="reference internal" href="Bibliography.html#id26">Álvarez-Gómez, 2019</a>]</span>
-<span id="id26">[<a class="reference internal" href="Bibliography.html#id27">Jolivet <em>et al.</em>, 2018</a>]</span>
-<span id="id27">[<a class="reference internal" href="Bibliography.html#id28">Peltzer and Tapponnier, 1988</a>]</span>
-<span id="id28">[<a class="reference internal" href="Bibliography.html#id29">Desa <em>et al.</em>, 2019</a>]</span>
-<span id="id29">[<a class="reference internal" href="Bibliography.html#id30">Koptev <em>et al.</em>, 2018</a>]</span>
-<span id="id30">[<a class="reference internal" href="Bibliography.html#id31">McKENZIE and Morgan, 1969</a>]</span>
-<span id="id31">[<a class="reference internal" href="Bibliography.html#id32">Smith and Kaloni, 1996</a>]</span>
-<span id="id32">[<a class="reference internal" href="Bibliography.html#id33">Jackson and McKenzie, 1988</a>]</span>
-<span id="id33">[<a class="reference internal" href="Bibliography.html#id34">Prentice, 1968</a>]</span></p>
+<p><span id="id1">[<a class="reference internal" href="Bibliography.html#id2" title="J. Tuzo Wilson. CONTINENTAL DRIFT. Scientific American, 208(4):86–103, 1963. ZSCC: 0000274 Publisher: Scientific American, a division of Nature America, Inc. URL: http://www.jstor.org/stable/24936535 (visited on 2020-09-21), doi:10.1038/scientificamerican0463-86.">Wilson, 1963</a>]</span>
+<span id="id2">[<a class="reference internal" href="Bibliography.html#id3" title="John F. Dewey. PLATE TECTONICS. Scientific American, 226(5):56–72, 1972. ZSCC: 0000132 Publisher: Scientific American, a division of Nature America, Inc. URL: http://www.jstor.org/stable/24927338 (visited on 2020-09-21), doi:10.1038/scientificamerican0572-56.">Dewey, 1972</a>]</span>
+<span id="id3">[<a class="reference internal" href="Bibliography.html#id4" title="Oliver Heidbach, Mojtaba Rajabi, Xiaofeng Cui, Karl Fuchs, Birgit Müller, John Reinecker, Karsten Reiter, Mark Tingay, Friedemann Wenzel, Furen Xie, Moritz O. Ziegler, Mary-Lou Zoback, and Mark Zoback. The World Stress Map database release 2016: Crustal stress pattern across scales. Tectonophysics, 744:484–498, October 2018. URL: https://linkinghub.elsevier.com/retrieve/pii/S0040195118302506 (visited on 2021-04-28), doi:10/gff69f.">Heidbach <em>et al.</em>, 2018</a>]</span>
+<span id="id4">[<a class="reference internal" href="Bibliography.html#id5" title="Enrique Gomez-Rivas, Robert W.H. Butler, David Healy, and Ian Alsop. From hot to cold - The temperature dependence on rock deformation processes: An introduction. Journal of Structural Geology, 132:103977, March 2020. URL: https://linkinghub.elsevier.com/retrieve/pii/S0191814119305140 (visited on 2021-07-15), doi:10/gk6kn4.">Gomez-Rivas <em>et al.</em>, 2020</a>]</span>
+<span id="id5">[<a class="reference internal" href="Bibliography.html#id6" title="Victor N. Kaliakin. Stresses, Strains, and Elastic Response of Soils. In Soil Mechanics, pages 131–203. Elsevier, 2017. URL: https://linkinghub.elsevier.com/retrieve/pii/B9780128044919000045 (visited on 2021-07-22), doi:10.1016/B978-0-12-804491-9.00004-5.">Kaliakin, 2017</a>]</span>
+<span id="id6">[<a class="reference internal" href="Bibliography.html#id7" title="Peter Bird. An updated digital model of plate boundaries: UPDATED MODEL OF PLATE BOUNDARIES. Geochemistry, Geophysics, Geosystems, March 2003. URL: http://doi.wiley.com/10.1029/2001GC000252 (visited on 2021-07-23), doi:10/br2s86.">Bird, 2003</a>]</span>
+<span id="id7">[<a class="reference internal" href="Bibliography.html#id8" title="FJ Vine. Magnetic anomalies associated with mid-ocean ridges. In The history of the earth's crust, pages 73–89. 1968.">Vine, 1968</a>]</span>
+<span id="id8">[<a class="reference internal" href="Bibliography.html#id9" title="Seth Stein and Dale F. Woods. Seismicity: Mid-ocean ridge. In Geophysics, pages 1050–1054. Kluwer Academic Publishers, Dordrecht, 1989. URL: http://link.springer.com/10.1007/0-387-30752-4_128 (visited on 2021-07-27), doi:10.1007/0-387-30752-4_128.">Stein and Woods, 1989</a>]</span>
+<span id="id9">[<a class="reference internal" href="Bibliography.html#id10" title="Christian Hensen, Joao C. Duarte, Paola Vannucchi, Adriano Mazzini, Mark A. Lever, Pedro Terrinha, Louis Géli, Pierre Henry, Heinrich Villinger, Jason Morgan, Mark Schmidt, Marc-André Gutscher, Rafael Bartolome, Yama Tomonaga, Alina Polonia, Eulàlia Gràcia, Umberta Tinivella, Matteo Lupi, M. Namık Çağatay, Marcus Elvert, Dimitris Sakellariou, Luis Matias, Rolf Kipfer, Aristomenis P. Karageorgis, Livio Ruffine, Volker Liebetrau, Catherine Pierre, Christopher Schmidt, Luis Batista, Luca Gasperini, Ewa Burwicz, Marta Neres, and Marianne Nuzzo. Marine Transform Faults and Fracture Zones: A Joint Perspective Integrating Seismicity, Fluid Flow and Life. Frontiers in Earth Science, 7:39, March 2019. URL: https://www.frontiersin.org/article/10.3389/feart.2019.00039/full (visited on 2021-07-27), doi:10/ghs2k4.">Hensen <em>et al.</em>, 2019</a>]</span>
+<span id="id10">[<a class="reference internal" href="Bibliography.html#id11" title="Rachel E. Abercrombie and Göran Ekström. Earthquake slip on oceanic transform faults. Nature, 410(6824):74–77, March 2001. URL: http://www.nature.com/articles/35065064 (visited on 2021-07-27), doi:10/c8ptph.">Abercrombie and Ekström, 2001</a>]</span>
+<span id="id11">[<a class="reference internal" href="Bibliography.html#id12" title="Václav Vavryčuk. Moment tensor decompositions revisited. Journal of Seismology, 19(1):231–252, January 2015. URL: http://link.springer.com/10.1007/s10950-014-9463-y (visited on 2021-07-29), doi:10/f6sfjw.">Vavryčuk, 2015</a>]</span>
+<span id="id12">[<a class="reference internal" href="Bibliography.html#id13" title="W. Kenneth Hamblin and Eric H. Christiansen. Earth's dynamic systems. Prentice Hall, Pearson Education, Upper Saddle River, N.J, 10th ed edition, 2004. ISBN 978-0-13-142066-3.">Hamblin and Christiansen, 2004</a>]</span>
+<span id="id13">[<a class="reference internal" href="Bibliography.html#id14" title="Gavin P. Hayes, Ginevra L. Moore, Daniel E. Portner, Mike Hearne, Hanna Flamme, Maria Furtney, and Gregory M. Smoczyk. Slab2, a comprehensive subduction zone geometry model. Science, 362(6410):58–61, October 2018. URL: https://www.sciencemag.org/lookup/doi/10.1126/science.aat4723 (visited on 2021-07-30), doi:10/gd4q9n.">Hayes <em>et al.</em>, 2018</a>]</span>
+<span id="id14">[<a class="reference internal" href="Bibliography.html#id15" title="Kelin Wang, Lonn Brown, Yan Hu, Keisuke Yoshida, Jiangheng He, and Tianhaozhe Sun. Stable Forearc Stressed by a Weak Megathrust: Mechanical and Geodynamic Implications of Stress Changes Caused by the M = 9 Tohoku‐Oki Earthquake. Journal of Geophysical Research: Solid Earth, 124(6):6179–6194, June 2019. URL: https://onlinelibrary.wiley.com/doi/abs/10.1029/2018JB017043 (visited on 2021-07-31), doi:10/gg28pc.">Wang <em>et al.</em>, 2019</a>]</span>
+<span id="id15">[<a class="reference internal" href="Bibliography.html#id16" title="Zhihao Chen, Wouter P. Schellart, and João C. Duarte. Overriding plate deformation and variability of fore‐arc deformation during subduction: Insight from geodynamic models and application to the \textless span style=&quot;font-variant:small-caps;&quot;\textgreater C\textless /span\textgreater  alabria subduction zone. Geochemistry, Geophysics, Geosystems, 16(10):3697–3715, October 2015. URL: https://onlinelibrary.wiley.com/doi/abs/10.1002/2015GC005958 (visited on 2021-07-31), doi:10/f733dq.">Chen <em>et al.</em>, 2015</a>]</span>
+<span id="id16">[<a class="reference internal" href="Bibliography.html#id17" title="Shaoyang Li, Jun'ichi Fukuda, and Onno Oncken. Geodetic Evidence of Time‐Dependent Viscoelastic Interseismic Deformation Driven by Megathrust Locking in the Southwest Japan Subduction Zone. Geophysical Research Letters, February 2020. URL: https://onlinelibrary.wiley.com/doi/10.1029/2019GL085551 (visited on 2021-07-31), doi:10/gmc56r.">Li <em>et al.</em>, 2020</a>]</span>
+<span id="id17">[<a class="reference internal" href="Bibliography.html#id18" title="C. P. Rajendran, Kusala Rajendran, Vanessa Andrade, and S. Srinivasalu. Ages and relative sizes of pre-2004 tsunamis in the Bay of Bengal inferred from geologic evidence in the Andaman and Nicobar Islands: AGES AND SIZES OF PRE-2004 TSUNAMIS. Journal of Geophysical Research: Solid Earth, 118(4):1345–1362, April 2013. URL: http://doi.wiley.com/10.1002/jgrb.50122 (visited on 2021-07-31), doi:10/f42dp2.">Rajendran <em>et al.</em>, 2013</a>]</span>
+<span id="id18">[<a class="reference internal" href="Bibliography.html#id19" title="Akinori Hashima and Toshinori Sato. A megathrust earthquake cycle model for Northeast Japan: bridging the mismatch between geological uplift and geodetic subsidence. Earth, Planets and Space, 69(1):23, December 2017. URL: http://earth-planets-space.springeropen.com/articles/10.1186/s40623-017-0606-6 (visited on 2021-08-01), doi:10/gmc7nx.">Hashima and Sato, 2017</a>]</span>
+<span id="id19">[<a class="reference internal" href="Bibliography.html#id20" title="R. Govers, K. P. Furlong, L. van de Wiel, M. W. Herman, and T. Broerse. The Geodetic Signature of the Earthquake Cycle at Subduction Zones: Model Constraints on the Deep Processes: Megathrust Earthquake Cycle From GNSS. Reviews of Geophysics, 56(1):6–49, March 2018. URL: http://doi.wiley.com/10.1002/2017RG000586 (visited on 2021-08-01), doi:10/gdfxsv.">Govers <em>et al.</em>, 2018</a>]</span>
+<span id="id20">[<a class="reference internal" href="Bibliography.html#id21" title="Jianke Fan and Dapeng Zhao. Subslab heterogeneity and giant megathrust earthquakes. Nature Geoscience, 14(5):349–353, May 2021. URL: http://www.nature.com/articles/s41561-021-00728-x (visited on 2021-08-01), doi:10/gjv32k.">Fan and Zhao, 2021</a>]</span>
+<span id="id21">[<a class="reference internal" href="Bibliography.html#id22" title="Xin Liu and Dapeng Zhao. Upper and lower plate controls on the great 2011 Tohoku-oki earthquake. Science Advances, 4(6):eaat4396, June 2018. URL: https://advances.sciencemag.org/lookup/doi/10.1126/sciadv.aat4396 (visited on 2021-08-01), doi:10/gdsbbk.">Liu and Zhao, 2018</a>]</span>
+<span id="id22">[<a class="reference internal" href="Bibliography.html#id23" title="T. J. Craig, A. Copley, and J. Jackson. A reassessment of outer-rise seismicity and its implications for the mechanics of oceanic lithosphere. Geophysical Journal International, 197(1):63–89, April 2014. URL: http://academic.oup.com/gji/article/197/1/63/691899/A-reassessment-of-outerrise-seismicity-and-its (visited on 2021-08-01), doi:10/f5xr4z.">Craig <em>et al.</em>, 2014</a>]</span>
+<span id="id23">[<a class="reference internal" href="Bibliography.html#id24" title="Kelin Wang, Lonn Brown, Yan Hu, Keisuke Yoshida, Jiangheng He, and Tianhaozhe Sun. Stable Forearc Stressed by a Weak Megathrust: Mechanical and Geodynamic Implications of Stress Changes Caused by the M = 9 Tohoku‐Oki Earthquake. Journal of Geophysical Research: Solid Earth, 124(6):6179–6194, June 2019. URL: https://onlinelibrary.wiley.com/doi/abs/10.1029/2018JB017043 (visited on 2021-08-01), doi:10/gg28pc.">Wang <em>et al.</em>, 2019</a>]</span>
+<span id="id24">[<a class="reference internal" href="Bibliography.html#id25" title="P Tapponnier, G Peltzer, A Y Le Dain, R Armijo, and P Cobbold. Propagating extrusion tectonics in Asia: New insights from simple experiments with plasticine. Geology, 10:611–616, 1982. doi:10/bmzcmt.">Tapponnier <em>et al.</em>, 1982</a>]</span>
+<span id="id25">[<a class="reference internal" href="Bibliography.html#id26" title="José A. Álvarez-Gómez. FMC—Earthquake focal mechanisms data management, cluster and classification. SoftwareX, 9:299–307, January 2019. URL: https://linkinghub.elsevier.com/retrieve/pii/S2352711018302590 (visited on 2021-08-02), doi:10/gmc789.">Álvarez-Gómez, 2019</a>]</span>
+<span id="id26">[<a class="reference internal" href="Bibliography.html#id27" title="Laurent Jolivet, Claudio Faccenna, Thorsten Becker, Magdala Tesauro, Pietro Sternai, and Pierre Bouilhol. Mantle Flow and Deforming Continents: From India‐Asia Convergence to Pacific Subduction. Tectonics, 37(9):2887–2914, September 2018. URL: https://onlinelibrary.wiley.com/doi/abs/10.1029/2018TC005036 (visited on 2021-08-02), doi:10/gfjqxh.">Jolivet <em>et al.</em>, 2018</a>]</span>
+<span id="id27">[<a class="reference internal" href="Bibliography.html#id28" title="Gilles Peltzer and Paul Tapponnier. Formation and evolution of strike-slip faults, rifts, and basins during the India-Asia Collision: An experimental approach. Journal of Geophysical Research: Solid Earth, 93(B12):15085–15117, December 1988. URL: http://doi.wiley.com/10.1029/JB093iB12p15085 (visited on 2021-08-02), doi:10/b853mv.">Peltzer and Tapponnier, 1988</a>]</span>
+<span id="id28">[<a class="reference internal" href="Bibliography.html#id29" title="Maria Ana Desa, T. Ramprasad, and K.A. Kamesh Raju. An integrated geophysical study east of the southern Chagos Laccadive Ridge Complex, Central Indian Ocean Basin: Implications for the Rodriguez Triple Junction dynamics in the Late Cretaceous. Marine Geology, 414:47–63, August 2019. URL: https://linkinghub.elsevier.com/retrieve/pii/S0025322719300131 (visited on 2021-08-02), doi:10/gmc8s5.">Desa <em>et al.</em>, 2019</a>]</span>
+<span id="id29">[<a class="reference internal" href="Bibliography.html#id30" title="Alexander Koptev, Taras Gerya, Eric Calais, Sylvie Leroy, and Evgueni Burov. Afar triple junction triggered by plume-assisted bi-directional continental break-up. Scientific Reports, 8(1):14742, December 2018. URL: http://www.nature.com/articles/s41598-018-33117-3 (visited on 2021-08-02), doi:10/gfggxh.">Koptev <em>et al.</em>, 2018</a>]</span>
+<span id="id30">[<a class="reference internal" href="Bibliography.html#id31" title="D P McKENZIE and W. J. Morgan. Evolution of Triple Junctions. Nature, 224:125–133, 1969.">McKENZIE and Morgan, 1969</a>]</span>
+<span id="id31">[<a class="reference internal" href="Bibliography.html#id32" title="A.C. Smith and P.N. Kaloni. A note on spin, vorticity and the deformation-rate tensor. Journal of Non-Newtonian Fluid Mechanics, 62(1):95–98, January 1996. URL: https://linkinghub.elsevier.com/retrieve/pii/0377025795013903 (visited on 2021-08-03), doi:10/dfxhjj.">Smith and Kaloni, 1996</a>]</span>
+<span id="id32">[<a class="reference internal" href="Bibliography.html#id33" title="J. Jackson and D. McKenzie. The relationship between plate motions and seismic moment tensors, and the rates of active deformation in the Mediterranean and Middle East. Geophysical Journal International, 93(1):45–73, April 1988. URL: https://academic.oup.com/gji/article-lookup/doi/10.1111/j.1365-246X.1988.tb01387.x (visited on 2021-08-03), doi:10/fp7rkq.">Jackson and McKenzie, 1988</a>]</span>
+<span id="id33">[<a class="reference internal" href="Bibliography.html#id34" title="J. H. Prentice. Dimensional Problem of the Power Law in Rheology. Nature, 217(5124):157–157, January 1968. URL: http://www.nature.com/articles/217157a0 (visited on 2021-08-04), doi:10/bh7578.">Prentice, 1968</a>]</span></p>
 
     <script type="text/x-thebe-config">
     {
@@ -358,36 +381,28 @@ replace @article / @book / @etcetc with {cite}` and , with `
 
               </div>
               
-        
             
-
-
-
-<div class='prev-next-bottom'>
-    
-
+                <!-- Previous / next buttons -->
+<div class='prev-next-area'>
 </div>
-        
+            
         </div>
     </div>
     <footer class="footer">
-    <div class="container">
-      <p>
-        
-          By EMSC 3002 teaching team<br/>
-        
-            &copy; Copyright 2021.<br/>
-      </p>
-    </div>
-  </footer>
+  <p>
+    
+      By ANU EMSC 3002 teaching team<br/>
+    
+        &copy; Copyright 2021.<br/>
+  </p>
+</footer>
 </main>
 
 
       </div>
     </div>
   
-  <script src="_static/js/index.1c5a1a01449ed65a7b51.js"></script>
+  <script src="_static/js/index.be7d3bbb2ef33a8344ce.js"></script>
 
-  
   </body>
 </html>
