@@ -11,7 +11,8 @@ fi
 
 mkdir -p static_slides
 reveal-md  --static static_slides/slideshows \
-           --theme css/anu.css --glob '**/*.reveal.md' \
+           --theme https://anu-rses-education.github.io/EMSC-3002/slideshows/_assets/css/anu.css \
+           --glob '**/*.reveal.md' \
            --separator '<--o-->' \
            --vertical-separator '<--v-->' \
            --static-dirs \
