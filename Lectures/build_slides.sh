@@ -1,7 +1,7 @@
 #! /usr/bin/env bash
 
 # This will build all the reveal.md files it finds in the root directory
-# These files are also ignored by the jupyterbook script
+# These files are also ignored by the jupyterbook script. 
 
 
 if ! command -v reveal-md &> /dev/null
