@@ -4,9 +4,9 @@ channels:
     - geo-down-under    
 dependencies:
     - numpy
+    - libiconv
     - nodejs
     - pip 
-    - libiconv
 
 
       
