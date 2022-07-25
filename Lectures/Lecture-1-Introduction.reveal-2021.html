@@ -1,0 +1,890 @@
+
+<!DOCTYPE html>
+
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" /><meta name="generator" content="Docutils 0.17.1: http://docutils.sourceforge.net/" />
+
+    <title>EMSC 3002 &#8212; EMSC 3002</title>
+    
+  <!-- Loaded before other Sphinx assets -->
+  <link href="../_static/styles/theme.css?digest=1999514e3f237ded88cf" rel="stylesheet">
+<link href="../_static/styles/pydata-sphinx-theme.css?digest=1999514e3f237ded88cf" rel="stylesheet">
+
+    
+  <link rel="stylesheet"
+    href="../_static/vendor/fontawesome/5.13.0/css/all.min.css">
+  <link rel="preload" as="font" type="font/woff2" crossorigin
+    href="../_static/vendor/fontawesome/5.13.0/webfonts/fa-solid-900.woff2">
+  <link rel="preload" as="font" type="font/woff2" crossorigin
+    href="../_static/vendor/fontawesome/5.13.0/webfonts/fa-brands-400.woff2">
+
+    <link rel="stylesheet" type="text/css" href="../_static/pygments.css" />
+    <link rel="stylesheet" href="../_static/styles/sphinx-book-theme.css?digest=5115cc725059bd94278eecd172e13a965bf8f5a9" type="text/css" />
+    <link rel="stylesheet" type="text/css" href="../_static/togglebutton.css" />
+    <link rel="stylesheet" type="text/css" href="../_static/copybutton.css" />
+    <link rel="stylesheet" type="text/css" href="../_static/mystnb.css" />
+    <link rel="stylesheet" type="text/css" href="../_static/sphinx-thebe.css" />
+    <link rel="stylesheet" type="text/css" href="../_static/customize.css" />
+    <link rel="stylesheet" type="text/css" href="../_static/design-style.b7bb847fb20b106c3d81b95245e65545.min.css" />
+    
+  <!-- Pre-loaded scripts that we'll load fully later -->
+  <link rel="preload" as="script" href="../_static/scripts/pydata-sphinx-theme.js?digest=1999514e3f237ded88cf">
+
+    <script data-url_root="../" id="documentation_options" src="../_static/documentation_options.js"></script>
+    <script src="../_static/jquery.js"></script>
+    <script src="../_static/underscore.js"></script>
+    <script src="../_static/doctools.js"></script>
+    <script src="../_static/clipboard.min.js"></script>
+    <script src="../_static/copybutton.js"></script>
+    <script src="../_static/scripts/sphinx-book-theme.js?digest=9c920249402e914e316237a7dbc6769907cce411"></script>
+    <script>let toggleHintShow = 'Click to show';</script>
+    <script>let toggleHintHide = 'Click to hide';</script>
+    <script>let toggleOpenOnPrint = 'true';</script>
+    <script src="../_static/togglebutton.js"></script>
+    <script async="async" kind="hypothesis" src="https://hypothes.is/embed.js"></script>
+    <script src="../_static/font_button.js"></script>
+    <script>var togglebuttonSelector = '.toggle, .admonition.dropdown, .tag_hide_input div.cell_input, .tag_hide-input div.cell_input, .tag_hide_output div.cell_output, .tag_hide-output div.cell_output, .tag_hide_cell.cell, .tag_hide-cell.cell';</script>
+    <script src="../_static/design-tabs.js"></script>
+    <script>const THEBE_JS_URL = "https://unpkg.com/thebe@0.8.2/lib/index.js"
+const thebe_selector = ".thebe,.cell"
+const thebe_selector_input = "pre"
+const thebe_selector_output = ".output, .cell_output"
+</script>
+    <script async="async" src="../_static/sphinx-thebe.js"></script>
+    <link rel="index" title="Index" href="../genindex.html" />
+    <link rel="search" title="Search" href="../search.html" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="docsearch:language" content="None">
+    
+
+    <!-- Google Analytics -->
+    
+  </head>
+  <body data-spy="scroll" data-target="#bd-toc-nav" data-offset="60">
+<!-- Checkboxes to toggle the left sidebar -->
+<input type="checkbox" class="sidebar-toggle" name="__navigation" id="__navigation" aria-label="Toggle navigation sidebar">
+<label class="overlay overlay-navbar" for="__navigation">
+    <div class="visually-hidden">Toggle navigation sidebar</div>
+</label>
+<!-- Checkboxes to toggle the in-page toc -->
+<input type="checkbox" class="sidebar-toggle" name="__page-toc" id="__page-toc" aria-label="Toggle in-page Table of Contents">
+<label class="overlay overlay-pagetoc" for="__page-toc">
+    <div class="visually-hidden">Toggle in-page Table of Contents</div>
+</label>
+<!-- Headers at the top -->
+<div class="announcement header-item noprint"></div>
+<div class="header header-item noprint"></div>
+
+    
+    <div class="container-fluid" id="banner"></div>
+
+    
+
+    <div class="container-xl">
+      <div class="row">
+          
+<!-- Sidebar -->
+<div class="bd-sidebar noprint" id="site-navigation">
+    <div class="bd-sidebar__content">
+        <div class="bd-sidebar__top"><div class="navbar-brand-box">
+    <a class="navbar-brand text-wrap" href="../index.html">
+      
+        <!-- `logo` is deprecated in Sphinx 4.0, so remove this when we stop supporting 3 -->
+        
+      
+      
+      <img src="../_static/AuWorldEQ.jpg" class="logo" alt="logo">
+      
+      
+      <h1 class="site-logo" id="site-title">EMSC 3002</h1>
+      
+    </a>
+</div><form class="bd-search d-flex align-items-center" action="../search.html" method="get">
+  <i class="icon fas fa-search"></i>
+  <input type="search" class="form-control" name="q" id="search-input" placeholder="Search this book..." aria-label="Search this book..." autocomplete="off" >
+</form><nav class="bd-links" id="bd-docs-nav" aria-label="Main">
+    <div class="bd-toc-item active">
+        
+        <ul class="nav bd-sidenav bd-sidenav__home-link">
+            <li class="toctree-l1">
+                <a class="reference internal" href="../FrontPage.html">
+                    EMSC 3002 - Structural Geology and Tectonics
+                </a>
+            </li>
+        </ul>
+        <p aria-level="2" class="caption" role="heading">
+ <span class="caption-text">
+  Introduction
+ </span>
+</p>
+<ul class="nav bd-sidenav">
+ <li class="toctree-l1">
+  <a class="reference internal" href="../Introductory_Remarks.html">
+   Introduction
+  </a>
+ </li>
+ <li class="toctree-l1">
+  <a class="reference internal" href="../Background_Reading.html">
+   Background Reading
+  </a>
+ </li>
+ <li class="toctree-l1">
+  <a class="reference internal" href="../Practical_Exercises.html">
+   Exercises
+  </a>
+ </li>
+ <li class="toctree-l1">
+  <a class="reference internal" href="../Project_Ideas.html">
+   Project Ideas
+  </a>
+ </li>
+</ul>
+<p aria-level="2" class="caption" role="heading">
+ <span class="caption-text">
+  Lecture Notes
+ </span>
+</p>
+<ul class="nav bd-sidenav">
+ <li class="toctree-l1">
+  <a class="reference internal" href="Lecture-1-Introduction.html">
+   Introduction to EMSC 3002
+  </a>
+ </li>
+ <li class="toctree-l1">
+  <a class="reference internal" href="Module-i-GlobalTectonics.html">
+   Module 1 - Global Tectonics
+  </a>
+ </li>
+ <li class="toctree-l1">
+  <a class="reference internal" href="Module-ii-Structural-Geology-And-Crustal-Deformation.html">
+   Module 2 - Structures in the Earth
+  </a>
+ </li>
+ <li class="toctree-l1">
+  <a class="reference internal" href="Module-iii-Theory.html">
+   Module 3 - Theory
+  </a>
+ </li>
+ <li class="toctree-l1">
+  <a class="reference internal" href="Module-iv-BrittleDeformation.html">
+   Module 4 - Brittle Deformation
+  </a>
+ </li>
+ <li class="toctree-l1 has-children">
+  <a class="reference internal" href="Module-v-lecture1-Fold-Geometry.html">
+   Module 5 - Ductile Deformation
+  </a>
+  <input class="toctree-checkbox" id="toctree-checkbox-1" name="toctree-checkbox-1" type="checkbox"/>
+  <label for="toctree-checkbox-1">
+   <i class="fas fa-chevron-down">
+   </i>
+  </label>
+  <ul>
+   <li class="toctree-l2">
+    <a class="reference internal" href="Module-v-lecture2-Folds-and-Folding-Mechanisms.html">
+     Folds and Folding Mechanisms
+    </a>
+   </li>
+   <li class="toctree-l2">
+    <a class="reference internal" href="Module-v-lecture3-Structures-Associated-with-Folding.html">
+     Structures associated with folding
+    </a>
+   </li>
+   <li class="toctree-l2">
+    <a class="reference internal" href="Module-v-lecture4-Shear-Zones.html">
+     Shear Zones
+    </a>
+   </li>
+  </ul>
+ </li>
+</ul>
+<p aria-level="2" class="caption" role="heading">
+ <span class="caption-text">
+  Glossary
+ </span>
+</p>
+<ul class="nav bd-sidenav">
+ <li class="toctree-l1">
+  <a class="reference internal" href="../Glossary.html">
+   Glossary
+  </a>
+ </li>
+</ul>
+<p aria-level="2" class="caption" role="heading">
+ <span class="caption-text">
+  Bibliography
+ </span>
+</p>
+<ul class="nav bd-sidenav">
+ <li class="toctree-l1">
+  <a class="reference internal" href="../Bibliography.html">
+   Bibliography
+  </a>
+ </li>
+</ul>
+
+    </div>
+</nav></div>
+        <div class="bd-sidebar__bottom">
+             <!-- To handle the deprecated key -->
+            
+            <div class="navbar_extra_footer">
+            <button type="button" onclick="legibleFontSwitcher()">Switch Font</button>&nbsp;&nbsp;<button type="button" onclick="fontScaler(1.1)">&#10133;</button><button type="button" onclick="fontScaler(0.0)">&#9679;</button><button type="button" onclick="fontScaler(0.909)">&#10134;</button>
+            </div>
+            
+        </div>
+    </div>
+    <div id="rtd-footer-container"></div>
+</div>
+
+
+          
+
+
+          
+<!-- A tiny helper pixel to detect if we've scrolled -->
+<div class="sbt-scroll-pixel-helper"></div>
+<!-- Main content -->
+<div class="col py-0 content-container">
+    
+    <div class="header-article row sticky-top noprint">
+        
+
+
+
+<div class="col py-1 d-flex header-article-main">
+    <div class="header-article__left">
+        
+        <label for="__navigation"
+  class="headerbtn"
+  data-toggle="tooltip"
+data-placement="right"
+title="Toggle navigation"
+>
+  
+
+<span class="headerbtn__icon-container">
+  <i class="fas fa-bars"></i>
+  </span>
+
+</label>
+
+        
+    </div>
+    <div class="header-article__right">
+<button onclick="toggleFullScreen()"
+  class="headerbtn"
+  data-toggle="tooltip"
+data-placement="bottom"
+title="Fullscreen mode"
+>
+  
+
+<span class="headerbtn__icon-container">
+  <i class="fas fa-expand"></i>
+  </span>
+
+</button>
+<a href="https://github.com/ANU-RSES-Education/EMSC-3002"
+   class="headerbtn"
+   data-toggle="tooltip"
+data-placement="bottom"
+title="Source repository"
+>
+  
+
+<span class="headerbtn__icon-container">
+  <i class="fab fa-github"></i>
+  </span>
+
+</a>
+
+<div class="menu-dropdown menu-dropdown-download-buttons">
+  <button class="headerbtn menu-dropdown__trigger"
+      aria-label="Download this page">
+      <i class="fas fa-download"></i>
+  </button>
+  <div class="menu-dropdown__content">
+    <ul>
+      <li>
+        <a href="../_sources/Lectures/Lecture-1-Introduction.reveal-2021.md"
+   class="headerbtn"
+   data-toggle="tooltip"
+data-placement="left"
+title="Download source file"
+>
+  
+
+<span class="headerbtn__icon-container">
+  <i class="fas fa-file"></i>
+  </span>
+<span class="headerbtn__text-container">.md</span>
+</a>
+
+      </li>
+      
+      <li>
+        
+<button onclick="printPdf(this)"
+  class="headerbtn"
+  data-toggle="tooltip"
+data-placement="left"
+title="Print to PDF"
+>
+  
+
+<span class="headerbtn__icon-container">
+  <i class="fas fa-file-pdf"></i>
+  </span>
+<span class="headerbtn__text-container">.pdf</span>
+</button>
+
+      </li>
+      
+    </ul>
+  </div>
+</div>
+<label for="__page-toc"
+  class="headerbtn headerbtn-page-toc"
+  
+>
+  
+
+<span class="headerbtn__icon-container">
+  <i class="fas fa-list"></i>
+  </span>
+
+</label>
+
+    </div>
+</div>
+
+<!-- Table of contents -->
+<div class="col-md-3 bd-toc show noprint">
+    <div class="tocsection onthispage pt-5 pb-3">
+        <i class="fas fa-list"></i> Contents
+    </div>
+    <nav id="bd-toc-nav" aria-label="Page">
+        <ul class="visible nav section-nav flex-column">
+ <li class="toc-h2 nav-item toc-entry">
+  <a class="reference internal nav-link" href="#introduction-to-structural-geology-tectonics">
+   Introduction to Structural Geology &amp; Tectonics
+  </a>
+ </li>
+ <li class="toc-h2 nav-item toc-entry">
+  <a class="reference internal nav-link" href="#resources">
+   Resources
+  </a>
+ </li>
+ <li class="toc-h2 nav-item toc-entry">
+  <a class="reference internal nav-link" href="#id1">
+   Resources
+  </a>
+ </li>
+ <li class="toc-h2 nav-item toc-entry">
+  <a class="reference internal nav-link" href="#what-is-structural-geology">
+   What is “Structural Geology” ?
+  </a>
+ </li>
+ <li class="toc-h2 nav-item toc-entry">
+  <a class="reference internal nav-link" href="#what-does-tectonics-mean">
+   What does “Tectonics” mean ?
+  </a>
+ </li>
+ <li class="toc-h2 nav-item toc-entry">
+  <a class="reference internal nav-link" href="#learning-outcomes">
+   Learning Outcomes
+  </a>
+ </li>
+ <li class="toc-h2 nav-item toc-entry">
+  <a class="reference internal nav-link" href="#id2">
+   Learning Outcomes
+  </a>
+ </li>
+ <li class="toc-h2 nav-item toc-entry">
+  <a class="reference internal nav-link" href="#lecturers">
+   Lecturers
+  </a>
+ </li>
+ <li class="toc-h2 nav-item toc-entry">
+  <a class="reference internal nav-link" href="#id3">
+   Lecturers
+  </a>
+ </li>
+ <li class="toc-h2 nav-item toc-entry">
+  <a class="reference internal nav-link" href="#id4">
+   Lecturers
+  </a>
+ </li>
+ <li class="toc-h2 nav-item toc-entry">
+  <a class="reference internal nav-link" href="#assessment-summary">
+   Assessment (Summary)
+  </a>
+ </li>
+ <li class="toc-h2 nav-item toc-entry">
+  <a class="reference internal nav-link" href="#practicals">
+   Practicals
+  </a>
+ </li>
+ <li class="toc-h2 nav-item toc-entry">
+  <a class="reference internal nav-link" href="#course-modules">
+   Course Modules
+  </a>
+  <ul class="nav section-nav flex-column">
+   <li class="toc-h3 nav-item toc-entry">
+    <a class="reference internal nav-link" href="#module-i-global-tectonics">
+     Module i - Global Tectonics
+    </a>
+   </li>
+  </ul>
+ </li>
+ <li class="toc-h2 nav-item toc-entry">
+  <a class="reference internal nav-link" href="#id5">
+   Course Modules
+  </a>
+  <ul class="nav section-nav flex-column">
+   <li class="toc-h3 nav-item toc-entry">
+    <a class="reference internal nav-link" href="#module-ii-structures-in-the-earth">
+     Module ii - Structures in the Earth
+    </a>
+   </li>
+  </ul>
+ </li>
+ <li class="toc-h2 nav-item toc-entry">
+  <a class="reference internal nav-link" href="#id6">
+   Course Modules
+  </a>
+  <ul class="nav section-nav flex-column">
+   <li class="toc-h3 nav-item toc-entry">
+    <a class="reference internal nav-link" href="#module-iii-theoretical-underpinnings">
+     Module iii - Theoretical Underpinnings
+    </a>
+   </li>
+  </ul>
+ </li>
+ <li class="toc-h2 nav-item toc-entry">
+  <a class="reference internal nav-link" href="#id7">
+   Course Modules
+  </a>
+  <ul class="nav section-nav flex-column">
+   <li class="toc-h3 nav-item toc-entry">
+    <a class="reference internal nav-link" href="#module-iv-brittle-deformation">
+     Module iv - Brittle Deformation
+    </a>
+   </li>
+  </ul>
+ </li>
+ <li class="toc-h2 nav-item toc-entry">
+  <a class="reference internal nav-link" href="#id8">
+   Course Modules
+  </a>
+  <ul class="nav section-nav flex-column">
+   <li class="toc-h3 nav-item toc-entry">
+    <a class="reference internal nav-link" href="#module-v-ductile-deformation">
+     Module v - Ductile Deformation
+    </a>
+   </li>
+  </ul>
+ </li>
+</ul>
+
+    </nav>
+</div>
+    </div>
+    <div class="article row">
+        <div class="col pl-md-3 pl-lg-5 content-container">
+            <!-- Table of contents that is only displayed when printing the page -->
+            <div id="jb-print-docs-body" class="onlyprint">
+                <h1>EMSC 3002</h1>
+                <!-- Table of contents -->
+                <div id="print-main-content">
+                    <div id="jb-print-toc">
+                        
+                        <div>
+                            <h2> Contents </h2>
+                        </div>
+                        <nav aria-label="Page">
+                            <ul class="visible nav section-nav flex-column">
+ <li class="toc-h2 nav-item toc-entry">
+  <a class="reference internal nav-link" href="#introduction-to-structural-geology-tectonics">
+   Introduction to Structural Geology &amp; Tectonics
+  </a>
+ </li>
+ <li class="toc-h2 nav-item toc-entry">
+  <a class="reference internal nav-link" href="#resources">
+   Resources
+  </a>
+ </li>
+ <li class="toc-h2 nav-item toc-entry">
+  <a class="reference internal nav-link" href="#id1">
+   Resources
+  </a>
+ </li>
+ <li class="toc-h2 nav-item toc-entry">
+  <a class="reference internal nav-link" href="#what-is-structural-geology">
+   What is “Structural Geology” ?
+  </a>
+ </li>
+ <li class="toc-h2 nav-item toc-entry">
+  <a class="reference internal nav-link" href="#what-does-tectonics-mean">
+   What does “Tectonics” mean ?
+  </a>
+ </li>
+ <li class="toc-h2 nav-item toc-entry">
+  <a class="reference internal nav-link" href="#learning-outcomes">
+   Learning Outcomes
+  </a>
+ </li>
+ <li class="toc-h2 nav-item toc-entry">
+  <a class="reference internal nav-link" href="#id2">
+   Learning Outcomes
+  </a>
+ </li>
+ <li class="toc-h2 nav-item toc-entry">
+  <a class="reference internal nav-link" href="#lecturers">
+   Lecturers
+  </a>
+ </li>
+ <li class="toc-h2 nav-item toc-entry">
+  <a class="reference internal nav-link" href="#id3">
+   Lecturers
+  </a>
+ </li>
+ <li class="toc-h2 nav-item toc-entry">
+  <a class="reference internal nav-link" href="#id4">
+   Lecturers
+  </a>
+ </li>
+ <li class="toc-h2 nav-item toc-entry">
+  <a class="reference internal nav-link" href="#assessment-summary">
+   Assessment (Summary)
+  </a>
+ </li>
+ <li class="toc-h2 nav-item toc-entry">
+  <a class="reference internal nav-link" href="#practicals">
+   Practicals
+  </a>
+ </li>
+ <li class="toc-h2 nav-item toc-entry">
+  <a class="reference internal nav-link" href="#course-modules">
+   Course Modules
+  </a>
+  <ul class="nav section-nav flex-column">
+   <li class="toc-h3 nav-item toc-entry">
+    <a class="reference internal nav-link" href="#module-i-global-tectonics">
+     Module i - Global Tectonics
+    </a>
+   </li>
+  </ul>
+ </li>
+ <li class="toc-h2 nav-item toc-entry">
+  <a class="reference internal nav-link" href="#id5">
+   Course Modules
+  </a>
+  <ul class="nav section-nav flex-column">
+   <li class="toc-h3 nav-item toc-entry">
+    <a class="reference internal nav-link" href="#module-ii-structures-in-the-earth">
+     Module ii - Structures in the Earth
+    </a>
+   </li>
+  </ul>
+ </li>
+ <li class="toc-h2 nav-item toc-entry">
+  <a class="reference internal nav-link" href="#id6">
+   Course Modules
+  </a>
+  <ul class="nav section-nav flex-column">
+   <li class="toc-h3 nav-item toc-entry">
+    <a class="reference internal nav-link" href="#module-iii-theoretical-underpinnings">
+     Module iii - Theoretical Underpinnings
+    </a>
+   </li>
+  </ul>
+ </li>
+ <li class="toc-h2 nav-item toc-entry">
+  <a class="reference internal nav-link" href="#id7">
+   Course Modules
+  </a>
+  <ul class="nav section-nav flex-column">
+   <li class="toc-h3 nav-item toc-entry">
+    <a class="reference internal nav-link" href="#module-iv-brittle-deformation">
+     Module iv - Brittle Deformation
+    </a>
+   </li>
+  </ul>
+ </li>
+ <li class="toc-h2 nav-item toc-entry">
+  <a class="reference internal nav-link" href="#id8">
+   Course Modules
+  </a>
+  <ul class="nav section-nav flex-column">
+   <li class="toc-h3 nav-item toc-entry">
+    <a class="reference internal nav-link" href="#module-v-ductile-deformation">
+     Module v - Ductile Deformation
+    </a>
+   </li>
+  </ul>
+ </li>
+</ul>
+
+                        </nav>
+                    </div>
+                </div>
+            </div>
+            <main id="main-content" role="main">
+                
+              <div>
+                
+  <section class="tex2jax_ignore mathjax_ignore" id="emsc-3002">
+<h1>EMSC 3002<a class="headerlink" href="#emsc-3002" title="Permalink to this headline">#</a></h1>
+<section id="introduction-to-structural-geology-tectonics">
+<h2>Introduction to Structural Geology &amp; Tectonics<a class="headerlink" href="#introduction-to-structural-geology-tectonics" title="Permalink to this headline">#</a></h2>
+<ul class="simple">
+<li><p><strong>Louis Moresi</strong> (convenor)</p></li>
+<li><p>Romain Beucher (lecturer)</p></li>
+<li><p>Chengxin Jiang (lecturer)</p></li>
+<li><p>Stephen Cox (curriculum advisor)</p></li>
+</ul>
+<p>Australian National University</p>
+<p><em><strong>NB:</strong> the course materials provided by the authors are open source under a creative commons licence.
+We acknowledge the contribution of the community in providing other materials and we endeavour to
+provide the correct attribution and citation. Please contact <a class="reference external" href="mailto:louis&#46;moresi&#37;&#52;&#48;anu&#46;edu&#46;au">louis<span>&#46;</span>moresi<span>&#64;</span>anu<span>&#46;</span>edu<span>&#46;</span>au</a> for updates and
+corrections.</em></p>
+<p>&lt;–o–&gt;</p>
+</section>
+<section id="resources">
+<h2>Resources<a class="headerlink" href="#resources" title="Permalink to this headline">#</a></h2>
+<p><img alt="" src="../_images/EMSC3002-JB-QRcode.png" /> <!-- .element style="float: right" width="25%" --></p>
+<div  style="width:50%">
+<p>This <a class="reference external" href="https://anu-rses-education.github.io/EMSC-3002/FrontPage.html">online book</a>
+with lecture materials and lecture notes. This is a live document and we can update this
+to fix bugs and add material. You can create feedback for the pages. The original
+“source code” for the slides etc is also available</p>
+<ul class="simple">
+<li><p><a class="reference external" href="https://wattlecourses.anu.edu.au/course/view.php?id=34828">EMSC3002/6030</a> on Wattle</p></li>
+<li><p><a class="reference external" href="https://programsandcourses.anu.edu.au/2021/course/EMSC3002">EMSC3002</a> on programs &amp; courses</p></li>
+</ul>
+</div> 
+<p>&lt;–v–&gt;</p>
+</section>
+<section id="id1">
+<h2>Resources<a class="headerlink" href="#id1" title="Permalink to this headline">#</a></h2>
+<p><img alt="" src="../_images/RevealNavigator.png" /> <!-- .element style="display:block; margin-left:auto; margin-right:auto; width:75%" --></p>
+</br>
+<p>All of the slides for this course are available online and you can access the presentations as part of the online book.
+The slides are in a 2D stack that have follow-on (sometimes more advanced material) below the regular flow of the presentation.</p>
+<p>You are more than welcome to read slides in advance. They are not entirely self-explanatory but we don’t try to be cryptic either !</p>
+<p>&lt;–o–&gt;</p>
+</section>
+<section id="what-is-structural-geology">
+<h2>What is “Structural Geology” ?<a class="headerlink" href="#what-is-structural-geology" title="Permalink to this headline">#</a></h2>
+<p><img alt="Wikipedia-SG" src="https://upload.wikimedia.org/wikipedia/commons/thumb/c/c7/Folded_gyprock.jpg/440px-Folded_gyprock.jpg" /> <!-- .element style="width:33%; float:right; margin:30px" --></p>
+<p><strong>Structural geology</strong> is the study of the three-dimensional distribution of rock units with respect to their deformational histories. The primary goal of structural geology is to use measurements of present-day rock geometries to uncover information about the history of deformation (strain) in the rocks, and ultimately, to understand the stress field that resulted in the observed strain and geometries.</p>
+<p>This understanding of the dynamics of the stress field can be linked to important events in the geologic past; a common goal is to understand the structural evolution of a particular area with respect to regionally widespread patterns of rock deformation (e.g., mountain building, rifting) due to plate tectonics.</p>
+<p>Read more on <a class="reference external" href="https://en.wikipedia.org/wiki/Structural_geology">Wikipedia</a>.</p>
+<p>&lt;–o–&gt;</p>
+</section>
+<section id="what-does-tectonics-mean">
+<h2>What does “Tectonics” mean ?<a class="headerlink" href="#what-does-tectonics-mean" title="Permalink to this headline">#</a></h2>
+<p><img alt="Wikipedia-Tect" src="https://upload.wikimedia.org/wikipedia/commons/thumb/b/b4/Plate_tectonics_map.gif/800px-Plate_tectonics_map.gif" /> <!-- .element style="width:33%; float:right; margin:30px" --></p>
+<p><strong>Tectonics</strong> (from Latin <em>tectonicus;</em> from Ancient Greek <em>τεκτονικός (tektonikos)</em> ‘pertaining to building’) are the processes that control the structure and properties of the Earth’s crust and its evolution through time. These include the processes of mountain building, the growth and behavior of the strong, old cores of continents known as cratons, and the ways in which the relatively rigid plates that constitute the Earth’s outer shell interact with each other. Tectonics also provide a framework for understanding the earthquake and volcanic belts that directly affect much of the global population.</p>
+<p>Tectonic studies are important as guides for economic geologists searching for fossil fuels and ore deposits of metallic and nonmetallic resources. An understanding of tectonic principles is essential to geomorphologists to explain erosion patterns and other Earth surface features.</p>
+<p>Read more on <a class="reference external" href="https://en.wikipedia.org/wiki/Tectonics">Wikipedia</a>.</p>
+<p>&lt;–o–&gt;</p>
+</section>
+<section id="learning-outcomes">
+<h2>Learning Outcomes<a class="headerlink" href="#learning-outcomes" title="Permalink to this headline">#</a></h2>
+<p>This course is designed to develop an advanced understanding of deformation processes and structures produced by displacement and deformation in the Earth’s lithosphere at scales ranging from the tectonic plate scale, down to the crystal lattice scale. Emphasis is placed on understanding</p>
+<ol class="simple">
+<li><p>Geodynamic processes controlling plate motions and crustal deformation.</p></li>
+<li><p>Geometry and structures produced by complex crustal deformation histories involving contractional, extensional and wrench regimes</p></li>
+<li><p>Factors influencing strength and mechanical behaviour of the crust and  mantle lithosphere</p></li>
+<li><p>Deformation processes controlling the microstructural evolution of rocks</p></li>
+<li><p>Deformational controls on crustal-scale fluid flow and applications to understanding ore genesis and earthquake processes</p></li>
+</ol>
+<p>&lt;–v–&gt;</p>
+</section>
+<section id="id2">
+<h2>Learning Outcomes<a class="headerlink" href="#id2" title="Permalink to this headline">#</a></h2>
+<ul class="simple">
+<li><p>Recognise, map and interpret the geological structure of deformed continental regimes, from mildly deformed upper crustal regimes to complexly deformed, deeper crustal regimes.</p></li>
+<li><p>Interpret the relative timing of formation of structures, the kinematics of deformation, and progressive deformation histories.</p></li>
+<li><p>Predict the geometry and location of structures at depth or in areas of poor outcrop.</p></li>
+<li><p>Apply an understanding of structural geology in sustainable mining and basin management.</p></li>
+</ul>
+<p>&lt;–o–&gt;</p>
+</section>
+<section id="lecturers">
+<h2>Lecturers<a class="headerlink" href="#lecturers" title="Permalink to this headline">#</a></h2>
+<p><img alt="LM" src="../_images/Mugshot-Moresi.jpeg" />   <!-- .element style="width:20%; float:right; margin-top:150px" --></p>
+<div style="width:75%">
+<p><strong>Louis Moresi</strong></p>
+<p>I am a professor of geophysics / geodynamics and I am interested in understanding the evolution of the deep Earth over geological time, how this evolution is recorded in the superficial geological record,and how to build computation modelling tools to simulate the Earth.</p>
+<p>The tools of my trade are computational programs and numerical algorithms. I am a strong supporter of open source code so my publications will also find links to repositories where the source code is available with examples of how to reproduce peer-reviewed benchmarks and published results.</p>
+<p>For more information my work and some blog posts see <a class="reference external" href="https://www.geo-down-under.org.au/author/louis/">https://www.geo-down-under.org.au/author/louis</a></p>
+</div>
+<p>&lt;–v–&gt;</p>
+</section>
+<section id="id3">
+<h2>Lecturers<a class="headerlink" href="#id3" title="Permalink to this headline">#</a></h2>
+<p><img alt="RB" src="../_images/Mugshot-Beucher.jpeg" />   <!-- .element style="width:20%; float:right; margin-top:150px" --></p>
+<div style="width:75%">
+<p><strong>Romain Beucher</strong></p>
+<p>I am a Research Fellow in the Computational Geodynamics Group. Before that I was a Postdoctoral Research Associate at The University of Melbourne.</p>
+<p>I received my PhD in Geology / Geophysics from the University of Grenoble, France where I worked on the tectonic evolution of the Alpine mountain belt. I moved to Scotland in 2010 to work on the uplift of the South African plateau, then to Norway in 2013 to learn Computational Geodynamics.</p>
+<p>My current research interest includes the study of interactions between tectonics and erosion at continent scale for which I use a wide range of numerical and analytical techniques.</p>
+</div>
+<p>&lt;–v–&gt;</p>
+</section>
+<section id="id4">
+<h2>Lecturers<a class="headerlink" href="#id4" title="Permalink to this headline">#</a></h2>
+<p><img alt="CJ" src="../_images/Mugshot-Jiang.png" />   <!-- .element style="width:20%; float:right; margin-top:150px" --></p>
+<div style="width:75%">
+<p><strong>Chengxin Jiang</strong></p>
+<p>I am a seismologist broadly interested in tectonic, magmatic and near surface geological processes, and I address these problems with seismic tomography, monitoring and numerical modeling tools.  My recent research focus on studying lithosphere deformation of continent and subduction zones by illuminating anisotropic properties of the Earth’s interior and monitoring volcanic and groundwater processes with the technique of ambient noise interferometry.</p>
+</div>
+<p>&lt;–o–&gt;</p>
+</section>
+<section id="assessment-summary">
+<h2>Assessment (Summary)<a class="headerlink" href="#assessment-summary" title="Permalink to this headline">#</a></h2>
+<p>There will be 5 short quizzes during the semester that will help you to calibrate your knowledge from the course material for each module and which you can use for revision. The first of these quizzes will be a refresher on plate tectonics which you will be allowed to re-take after an optional tutorial. (20% on these quizzes)</p>
+<p>Lab-based assessments will be worth 20% of the course in total. One assessment will be an exercise on interpreting sandbox models that you will be running in the lab. The second will be a mapping exercise.</p>
+<p>There will be a poster presentation and final report that together make up 20% of the course assessment.</p>
+<p>The final exam will be worth 40% of the course.</p>
+<p><em>We are, of course, open to some negotiation of the weight of the assessment tasks and their timing where this helps to cement the learning goals.</em>  <strong>Now is the time to discuss !</strong></p>
+<p>&lt;–o–&gt;</p>
+</section>
+<section id="practicals">
+<h2>Practicals<a class="headerlink" href="#practicals" title="Permalink to this headline">#</a></h2>
+<center>
+<video autoplay controls width="40%">
+    <source src="movies/SandboxDemonstration.m4v"
+            type="video/mp4">
+<div class="highlight-none notranslate"><div class="highlight"><pre><span></span>Sorry, your browser doesn&#39;t support embedded videos.
+</pre></div>
+</div>
+</video>
+</center>
+</div>
+<p>Three hour practicals each week. We are not able to undertake any field trips this year so we will have a number of exercises in virtual mapping and we will be spending some time running and interpreting analogue-geology experiments in the sandbox (above).</p>
+<p>&lt;–o–&gt;</p>
+</section>
+<section id="course-modules">
+<h2>Course Modules<a class="headerlink" href="#course-modules" title="Permalink to this headline">#</a></h2>
+<p>(See wattle for updates)</p>
+<p><img alt="Dewey" src="../_images/Dewey1972-PlateMap.png" /> <!-- .element style="width:33%; float:right; margin:30px" --></p>
+<section id="module-i-global-tectonics">
+<h3>Module i - Global Tectonics<a class="headerlink" href="#module-i-global-tectonics" title="Permalink to this headline">#</a></h3>
+<p>Introduces the concepts of global-scale tectonics, plate motions, the nature of plate boundaries and the geological structures characteristic of large-scale deformation of the crust.</p>
+<p><strong>Louis Moresi</strong> will lead this part of the course in 2021.</p>
+<small>
+<p><em>Dewey, J. F. (1972). PLATE TECTONICS. Scientific American, 226(5), 56–72. <a class="reference external" href="https://doi.org/10.1038/scientificamerican0572-56">https://doi.org/10.1038/scientificamerican0572-56</a> - a global map of the “Mosaic of Plates [that] forms the Earth’s lithosphere or outer shell”</em></p>
+</small>
+<p>&lt;–v–&gt;</p>
+</section>
+</section>
+<section id="id5">
+<h2>Course Modules<a class="headerlink" href="#id5" title="Permalink to this headline">#</a></h2>
+<p><img alt="Syncline" src="../_images/Synclinal_cirque_de_gavarnie.jpg" /> <!-- .element style="width:33%; float:right; margin:30px" --></p>
+<section id="module-ii-structures-in-the-earth">
+<h3>Module ii - Structures in the Earth<a class="headerlink" href="#module-ii-structures-in-the-earth" title="Permalink to this headline">#</a></h3>
+<p>This module aims to develop student intuition and proficiency in 3- and 4-dimensional visualization and thinking and teach the fundamentals of rock deformation using natural examples.</p>
+<p>You will be given an overview of the geometry and type of structures produced by complex crustal deformation histories involving contractional, extensional and wrench regimes over a wide range of spatial and temporal scales. You will learn how to recognise structural features using satellite imagery, geological maps and will learn how to construct geological profiles.</p>
+<p><strong>Romain Beucher</strong> will lead this part of the course in 2021.</p>
+<p>&lt;–v–&gt;</p>
+</section>
+</section>
+<section id="id6">
+<h2>Course Modules<a class="headerlink" href="#id6" title="Permalink to this headline">#</a></h2>
+<p><img alt="INSAR" src="../_images/Napa-airport-discontinuity-INSAR.jpg" /> <!-- .element style="width:25%; float:right; margin:30px" --></p>
+<section id="module-iii-theoretical-underpinnings">
+<h3>Module iii - Theoretical Underpinnings<a class="headerlink" href="#module-iii-theoretical-underpinnings" title="Permalink to this headline">#</a></h3>
+<p>In order to understand geological structures in more detail, we need some background understanding of how stresses and strains work, how they are measured, and how you can use these concepts to interpret what you see in the field.</p>
+<p><strong>Chengxin Jiang</strong> will lead this part of the course in 2021.</p>
+<small>
+<p><em>On 24 August 2014 (03:20 local time), a magnitude 6.0 earthquake struck the Napa Valley, California, just south of the city of Napa (population 77,000). This is the first earthquake for which the surface deformation has been measured by ESA’s Sentinel-1 satellite.</em>
+</small></p>
+<p>&lt;–v–&gt;</p>
+</section>
+</section>
+<section id="id7">
+<h2>Course Modules<a class="headerlink" href="#id7" title="Permalink to this headline">#</a></h2>
+<p><img alt="SAF" src="../_images/Carrizo_Plain_birds_eye_view_SAF.jpg" /> <!-- .element style="width:20%; float:right; margin:30px" --></p>
+<section id="module-iv-brittle-deformation">
+<h3>Module iv - Brittle Deformation<a class="headerlink" href="#module-iv-brittle-deformation" title="Permalink to this headline">#</a></h3>
+<p>When rocks undergo rapid, localised deformation, refer to the process as “brittle deformation”. Typically brittle features in the Earth’s crust are faults and we can understand much about the stress and deformation if we understand faults, their rupture and associated seismic energy release.</p>
+<p><strong>Chengxin Jiang</strong> will lead this part of the course in 2021.</p>
+<small>
+<p><em>San Andreas Fault as it passes through the Carizzo Plain in Southern California
+Nelson Saarni, CC BY-SA 4.0 <a class="reference external" href="https://creativecommons.org/licenses/by-sa/4.0">https://creativecommons.org/licenses/by-sa/4.0</a>, via Wikimedia Commons</em></p>
+</small>
+<p>&lt;–v–&gt;</p>
+</section>
+</section>
+<section id="id8">
+<h2>Course Modules<a class="headerlink" href="#id8" title="Permalink to this headline">#</a></h2>
+<p><img alt="Fold" src="../_images/Sheep_Mountain_Anticline_Wyoming_bernhard_edmaier_photography.png" /> <!-- .element style="width:20%; float:right; margin:30px" --></p>
+<section id="module-v-ductile-deformation">
+<h3>Module v - Ductile Deformation<a class="headerlink" href="#module-v-ductile-deformation" title="Permalink to this headline">#</a></h3>
+<p>Ductile deformation occurs when rocks are able to accommodate large deformations without fracturing. You will learn how to recognise elements of ductile deformation such as folding, shearing and stretching.</p>
+<p>We will see how folds represent important windows into local and regional deformation histories. You will learn how to describe geometry and different styles of folding and will understand how we can use them to derive important information about the type of deformation. You will then learn about structures associated with folding and see how they can be used to map and understand the deformation history.</p>
+<p><strong>Romain Beucher</strong> will lead this part of the course in 2021.</p>
+</section>
+</section>
+</section>
+
+    <script type="text/x-thebe-config">
+    {
+        requestKernel: true,
+        binderOptions: {
+            repo: "binder-examples/jupyter-stacks-datascience",
+            ref: "master",
+        },
+        codeMirrorConfig: {
+            theme: "abcdef",
+            mode: "python"
+        },
+        kernelOptions: {
+            kernelName: "python3",
+            path: "./Lectures"
+        },
+        predefinedOutput: true
+    }
+    </script>
+    <script>kernelName = 'python3'</script>
+
+              </div>
+              
+            </main>
+            <footer class="footer-article noprint">
+                
+    <!-- Previous / next buttons -->
+<div class='prev-next-area'>
+</div>
+            </footer>
+        </div>
+    </div>
+    <div class="footer-content row">
+        <footer class="col footer"><p>
+  
+    By ANU EMSC 3002 teaching team<br/>
+  
+      &copy; Copyright 2022.<br/>
+</p>
+        </footer>
+    </div>
+    
+</div>
+
+
+      </div>
+    </div>
+  
+  <!-- Scripts loaded after <body> so the DOM is not blocked -->
+  <script src="../_static/scripts/pydata-sphinx-theme.js?digest=1999514e3f237ded88cf"></script>
+
+
+  </body>
+</html>
