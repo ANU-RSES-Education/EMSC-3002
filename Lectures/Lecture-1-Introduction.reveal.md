@@ -10,17 +10,33 @@ revealOptions:
 
 # EMSC 3002
 
+
+![LocalMapTerrain](images/Introduction/TerrainMapCbrSurrounds.png) <!-- .element style="float:right; width:40%; margin-left:50px"-->
+
+
+We would like to acknowledge and celebrate the First Australians on whose lands
+we teach and learn. 
+
+The ANU campus sits within the lands of the Ngambri and Ngunnawal people 
+and we extend our respect to their elders past, present and emerging.
+
+We will be learning another story of the same lands, told from beneath, adding to and not
+diminishing the traditional knowledge.
+
+<--o-->
+
 ## Introduction to Structural Geology & Tectonics
 
-  - **Louis Moresi** (convenor)
-  - Romain Beucher (lecturer)
-  - Chengxin Jiang (lecturer)
-  - Stephen Cox (curriculum advisor)
+  - **Louis Moresi** (convenor - J2 room 231)
+  - **Chengxin Jiang** (lecturer - J2 ground floor)
+
+**Contributing Authors:** Romain Beucher (former lecturer), Stephen Cox (curriculum advisor)
 
 Australian National University
 
-_**NB:** the course materials provided by the authors are open source under a creative commons licence. 
-We acknowledge the contribution of the community in providing other materials and we endeavour to 
+**NB:** the course materials provided by the authors are open source under a creative commons licence. 
+
+_We acknowledge the contribution of the community in providing other materials and we endeavour to 
 provide the correct attribution and citation. Please contact louis.moresi@anu.edu.au for updates and 
 corrections._
 
@@ -38,7 +54,7 @@ to fix bugs and add material. You can create feedback for the pages. The origina
 "source code" for the slides etc is also available 
 
  - [EMSC3002/6030](https://wattlecourses.anu.edu.au/course/view.php?id=34828) on Wattle
- - [EMSC3002](https://programsandcourses.anu.edu.au/2021/course/EMSC3002) on programs & courses
+ - [EMSC3002](https://programsandcourses.anu.edu.au/2022/course/EMSC3002) on programs & courses
 
 </div> 
 
@@ -51,6 +67,7 @@ to fix bugs and add material. You can create feedback for the pages. The origina
 </br>
 
 All of the slides for this course are available online and you can access the presentations as part of the online book. 
+
 The slides are in a 2D stack that have follow-on (sometimes more advanced material) below the regular flow of the presentation. 
 
 You are more than welcome to read slides in advance. They are not entirely self-explanatory but we don't try to be cryptic either !
@@ -86,6 +103,7 @@ Read more on [Wikipedia](https://en.wikipedia.org/wiki/Tectonics).
 This course is designed to develop an advanced understanding of deformation processes and structures produced by displacement and deformation in the Earth's lithosphere at scales ranging from the tectonic plate scale, down to the crystal lattice scale. Emphasis is placed on understanding 
 
   1. Geodynamic processes controlling plate motions and crustal deformation.
+
   2. Geometry and structures produced by complex crustal deformation histories involving contractional, extensional and wrench regimes 
 
   3.  Factors influencing strength and mechanical behaviour of the crust and  mantle lithosphere
@@ -99,12 +117,18 @@ This course is designed to develop an advanced understanding of deformation proc
 ## Learning Outcomes
 
   - Recognise, map and interpret the geological structure of deformed continental regimes, from mildly deformed upper crustal regimes to complexly deformed, deeper crustal regimes.
+
   - Interpret the relative timing of formation of structures, the kinematics of deformation, and progressive deformation histories.
+
   - Predict the geometry and location of structures at depth or in areas of poor outcrop.
+
   - Apply an understanding of structural geology in sustainable mining and basin management.
 
+## EMSC 3034 v EMSC 3002
 
+*Dynamic Earth: Plates, Plumes and Mantle Convection* deals with global scale dynamics of the Earth as a planet. The focus is on how plate tectonics works as a by-produce of mantle convection, and how we use that knowledge to understand the geological record.
 
+*Structural Geology & Tectonics* focuses on the dynamics of the lithosphere and the emergence of geological structure from the forces at work in the crust. We will delve deeply into the mechanical behaviour of the lithosphere and how we can interpret and predict geological structures by knowing something about the energy / force balance. 
 
 <--o-->
 
@@ -116,7 +140,9 @@ This course is designed to develop an advanced understanding of deformation proc
 
 **Louis Moresi**
 
-I am a professor of geophysics / geodynamics and I am interested in understanding the evolution of the deep Earth over geological time, how this evolution is recorded in the superficial geological record,and how to build computation modelling tools to simulate the Earth. 
+I am a professor of geophysics / geodynamics and I am interested in understanding the evolution of the deep Earth over geological time, how this evolution is recorded in the superficial geological record,and how to build computation modelling tools to simulate the Earth.
+
+I also work (and can supervise projects) in planetary science, groundwater models, surface processes (river systems, erosion, deposition), lithospheric dynamics ... 
 
 The tools of my trade are computational programs and numerical algorithms. I am a strong supporter of open source code so my publications will also find links to repositories where the source code is available with examples of how to reproduce peer-reviewed benchmarks and published results.
 
@@ -125,27 +151,10 @@ For more information my work and some blog posts see [https://www.geo-down-under
 
 <--v-->
 
-## Lecturers
-
-![RB](images/Introduction/Mugshot-Beucher.jpeg)   <!-- .element style="width:20%; float:right; margin-top:150px" -->
-
-<div style="width:75%">
-
-**Romain Beucher**
-
-I am a Research Fellow in the Computational Geodynamics Group. Before that I was a Postdoctoral Research Associate at The University of Melbourne.
-
-I received my PhD in Geology / Geophysics from the University of Grenoble, France where I worked on the tectonic evolution of the Alpine mountain belt. I moved to Scotland in 2010 to work on the uplift of the South African plateau, then to Norway in 2013 to learn Computational Geodynamics.
-
-My current research interest includes the study of interactions between tectonics and erosion at continent scale for which I use a wide range of numerical and analytical techniques.
-
-</div>
-
-<--v-->
 
 ## Lecturers
 
-![CJ](images/Introduction/Mugshot-Jiang.png)   <!-- .element style="width:20%; float:right; margin-top:150px" -->
+![CJ](images/Introduction/Mugshot-Jiang.png)   <!-- .element style="width:20%; float:right; margin-top:50px" -->
 
 <div style="width:75%">
 
@@ -155,13 +164,43 @@ I am a seismologist broadly interested in tectonic, magmatic and near surface ge
 
 </div>
 
+<--v-->
+
+## Demonstrators
+
+![CG](images/Introduction/Mugshot-Carlos2.jpg)   <!-- .element style="width:30%; float:right; margin-top:50px" -->
+
+
+<div style="width:70%">
+
+**Carlos Carrasco Godoy**
+
+Carlos is a third-year PhD student working in the geochemistry group. He completed his undergraduate and honours in Chile with a focus on field geology and mineral deposits. He has worked in mineral exploration, including surface mapping and core logging, and completed a master's in geochemistry at ANU.
+
+</div>
+
+<--v-->
+
+## Demonstrators
+
+
+![CD](images/Introduction/Mugshot-Chini.jpg)   <!-- .element style="width:30%; float:right; margin-top:150px" -->
+
+<div style="width:70%">
+
+**Chitrangada (Chini) Datta**
+
+I'm an undergraduate at the RSES finishing off my Honours thesis which investigates the deformation processes and kinematic evolution of the Murrumbidgee Fault Zone: a large structural feature visible near Canberra which records fascinating information about the evolution of the Lachlan Orogen of South-Eastern Australia . I'm very interested in structural geology, geochemistry and geochronology.  I absolutely adore doing fieldwork and in my spare time I love to go on long bushwalks! Although I'm quite new to the field of structural geology, I'm excited to help you guys learn as much as I can. Never be scared to hit me up if you have any questions, need help or just want to chat about rocks! 
+
+</div>
+
 <--o-->
 
 ## Assessment (Summary)
 
 There will be 5 short quizzes during the semester that will help you to calibrate your knowledge from the course material for each module and which you can use for revision. The first of these quizzes will be a refresher on plate tectonics which you will be allowed to re-take after an optional tutorial. (20% on these quizzes)
 
-Lab-based assessments will be worth 20% of the course in total. One assessment will be an exercise on interpreting sandbox models that you will be running in the lab. The second will be a mapping exercise.
+Lab-based assessments will be worth 20% of the course in total. One assessment will be an exercise on interpreting sandbox models that you will be running in the lab. The second will be a mapping exercise (if we are lucky, we can do a "field trip" for this exercise)
 
 There will be a poster presentation and final report that together make up 20% of the course assessment.
 
@@ -183,7 +222,7 @@ The final exam will be worth 40% of the course.
 </center>
 </div>
 
-Three hour practicals each week. We are not able to undertake any field trips this year so we will have a number of exercises in virtual mapping and we will be spending some time running and interpreting analogue-geology experiments in the sandbox (above). 
+Two hour practicals each week (three hours allocated for us to use this lab). We hope we can run a short, local field trip this year and we will have a number of exercises in virtual mapping to prepare. We will be spending some time running and interpreting analogue-geology experiments in the sandbox (above). 
 
 <--o-->
 
@@ -197,7 +236,7 @@ Three hour practicals each week. We are not able to undertake any field trips th
 
 Introduces the concepts of global-scale tectonics, plate motions, the nature of plate boundaries and the geological structures characteristic of large-scale deformation of the crust.
 
-**Louis Moresi** will lead this part of the course in 2021.
+**Louis Moresi** will lead this part of the course in 2022.
 
 <small>
 
@@ -217,7 +256,7 @@ This module aims to develop student intuition and proficiency in 3- and 4-dimens
 
 You will be given an overview of the geometry and type of structures produced by complex crustal deformation histories involving contractional, extensional and wrench regimes over a wide range of spatial and temporal scales. You will learn how to recognise structural features using satellite imagery, geological maps and will learn how to construct geological profiles.
 
-**Romain Beucher** will lead this part of the course in 2021.
+**Louis Moresi** will lead this part of the course in 2022.
 
 <--v-->
 
@@ -229,7 +268,7 @@ You will be given an overview of the geometry and type of structures produced by
 
 In order to understand geological structures in more detail, we need some background understanding of how stresses and strains work, how they are measured, and how you can use these concepts to interpret what you see in the field.
 
-**Chengxin Jiang** will lead this part of the course in 2021.
+**Chengxin Jiang** will lead this part of the course in 2022.
 
 <small>
 
@@ -246,7 +285,7 @@ In order to understand geological structures in more detail, we need some backgr
 
 When rocks undergo rapid, localised deformation, refer to the process as “brittle deformation”. Typically brittle features in the Earth’s crust are faults and we can understand much about the stress and deformation if we understand faults, their rupture and associated seismic energy release. 
 
-**Chengxin Jiang** will lead this part of the course in 2021.
+**Chengxin Jiang** will lead this part of the course in 2022.
 
 <small>
 
@@ -268,4 +307,47 @@ Ductile deformation occurs when rocks are able to accommodate large deformations
 
 We will see how folds represent important windows into local and regional deformation histories. You will learn how to describe geometry and different styles of folding and will understand how we can use them to derive important information about the type of deformation. You will then learn about structures associated with folding and see how they can be used to map and understand the deformation history.
 
-**Romain Beucher** will lead this part of the course in 2021.
+**Chengxin Jiang** will lead this part of the course in 2022.
+
+<--o-->
+
+## Get involved with the school !
+
+  - You should consider attending seminars (and PhD completions) when they are topics of interest. We will let you know if there are any seminars that are particularly relevant to the course during this semester.
+
+  - Become a class rep !
+
+  - Join the Earth & Marine Science Society: https://www.facebook.com/anuems/
+
+  - Come and talk to us if you have problems (you have access to the school). 
+
+
+<--v-->
+
+## Scipals
+
+![Fold](images/Introduction/Mentors.png) <!-- .element style="width:20%; float:right; margin:30px" -->
+Are you a second year or later STEM student wanting to share tips and tricks that helped you survive your STEM journey at ANU? Are you interested in developing mentoring skills? Do you want to claim those ANU+ hours? 
+
+Science Society ANU has just the right program for you! 
+
+SciPals is an ANU+ accredited program that aims to bring the ANU STEM community closer together by connecting new students with older year mentors such as yourself. 
+
+As a mentor, you’ll be paired with a small group of first year science students who will benefit tremendously from your advice and you’ll get to see their growth throughout the semester. 
+
+**Sign-ups will be closing on the 27th of July, so sign-up now !!**
+
+
+
+<--o-->
+
+## Interested in Honours, Masters, PhD ? 
+
+If you have an interest in structural geology, tectonics, geo-mechanics, then you may want to consider choosing a special topic or honours project, or masters topic in this area, or even entry to the PhD program. 
+
+We can help you to develop a project and we can also help you find a supervisor in the school (if we are not available). 
+
+There are other areas such as groundwater models, seismology, planetary science, and geodynamics which we can also supervise or advise you on. 
+
+**Just ask !**
+
