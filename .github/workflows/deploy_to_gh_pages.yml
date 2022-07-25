@@ -34,13 +34,12 @@ jobs:
       uses: actions/cache@v1
       env:
         # Increase this value to reset cache if etc/example-environment.yml has not changed
-        CACHE_NUMBER: 1
+        CACHE_NUMBER: 2
       with:
         path: |
           ~/conda_pkgs_dir
           /usr/share/miniconda3/envs/jupyter
           ~/.cache/pip
-          ~/Jupyterbook/_build
         key: ${{ runner.os }}-conda-${{ env.CACHE_NUMBER }}-${{ hashFiles('conda_packages.yml') }}
 
 
