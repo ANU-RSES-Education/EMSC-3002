@@ -154,7 +154,7 @@ For more information my work and some blog posts see [https://www.geo-down-under
 
 ## Lecturers
 
-![CJ](images/Introduction/Mugshot-Jiang.png)   <!-- .element style="width:20%; float:right; margin-top:150px" -->
+![CJ](images/Introduction/Mugshot-Jiang.png)   <!-- .element style="width:20%; float:right; margin-top:50px" -->
 
 <div style="width:75%">
 
@@ -168,12 +168,14 @@ I am a seismologist broadly interested in tectonic, magmatic and near surface ge
 
 ## Demonstrators
 
-![CJ](images/Introduction/Mugshot-Carlos.jpg)   <!-- .element style="width:20%; float:right; margin-top:150px" -->
+![CG](images/Introduction/Mugshot-Carlos2.jpg)   <!-- .element style="width:30%; float:right; margin-top:50px" -->
 
 
-<div style="width:75%">
+<div style="width:70%">
 
 **Carlos Carrasco Godoy**
+
+Carlos is a third-year PhD student working in the geochemistry group. He completed his undergraduate and honours in Chile with a focus on field geology and mineral deposits. He has worked in mineral exploration, including surface mapping and core logging, and completed a master's in geochemistry at ANU.
 
 </div>
 
@@ -182,7 +184,7 @@ I am a seismologist broadly interested in tectonic, magmatic and near surface ge
 ## Demonstrators
 
 
-![CJ](images/Introduction/Mugshot-Chini.jpg)   <!-- .element style="width:30%; float:right; margin-top:150px" -->
+![CD](images/Introduction/Mugshot-Chini.jpg)   <!-- .element style="width:30%; float:right; margin-top:150px" -->
 
 <div style="width:70%">
 
