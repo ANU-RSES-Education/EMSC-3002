@@ -11,9 +11,9 @@ EMSC 3002 is an intermediate-level course in Structural Geology and Tectonics fr
 Your instructors for 2021 are:
 
   - Louis Moresi (convenor)
-  - Romain Beucher (lecturer)
   - Chengxin Jiang (lecturer)
-  - Stephen Cox (curriculum design)
+
+**Course contributors:** Romain Beucher (former lecturer), Stephen Cox (curriculum design)
 
 ## Links
 
