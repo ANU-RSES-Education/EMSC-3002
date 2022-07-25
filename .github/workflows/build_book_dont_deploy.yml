@@ -3,8 +3,8 @@ name: test-build-book
 # The master branch uses a similar script plus deployment
 on:
   push:
-    # branches-ignore:
-    # - master
+    branches-ignore:
+    - master
 
   workflow_dispatch:
 
