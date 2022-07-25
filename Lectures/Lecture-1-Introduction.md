@@ -25,7 +25,7 @@ The slides are in a 2D stack that have follow-on (sometimes more advanced materi
 The material in the course is split into five modules that cover:
 
   - Global Tectonics
-  - Structures in the Earch
+  - Structures in the Earth
   - Theoretical background
   - Brittle Deformation
   - Ductile Deformation
