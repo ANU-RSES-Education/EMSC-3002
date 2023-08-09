@@ -14,9 +14,9 @@ revealOptions:
 
 ## Extensional regimes
 
-  - Louis Moresi (convenor)
-  - **Romain Beucher** (lecturer)
+  - **Louis Moresi** (convenor)
   - Chengxin Jiang (lecturer)
+  - Romain Beucher (former lecturer)
   - Stephen Cox (curriculum advisor)
 
 Australian National University

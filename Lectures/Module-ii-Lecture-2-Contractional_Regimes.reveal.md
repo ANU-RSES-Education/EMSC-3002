@@ -14,10 +14,10 @@ revealOptions:
 
 ## Contractional regimes
 
-- Louis Moresi (convenor)
-- **Romain Beucher** (lecturer)
-- Chengxin Jiang (lecturer)
-- Stephen Cox (curriculum advisor)
+  - **Louis Moresi** (convenor)
+  - Chengxin Jiang (lecturer)
+  - Romain Beucher (former lecturer)
+  - Stephen Cox (curriculum advisor)
 
 Australian National University
 
@@ -154,11 +154,20 @@ a **roof thrust**
 
 Nappes are thin compared to their lateral extent. They commonly show a wedge geometry in cross-section.
 
-<--o-->
+<--v-->
 ## Thrust Faults and Tectonic Units
-### Nappe Terminology
+### Nappe Terminology 2
+
+![](Module-ii-Figures-Structural-Geology-And-Crustal-Deformation/ContractionalStructures/Thrust_system_en.jpg) <!-- .element style="width:90%" -->
+
+<--v-->
+
+
+## Thrust Faults and Tectonic Units
+### Nappe Terminology 3
 
 ![](Module-ii-Figures-Structural-Geology-And-Crustal-Deformation/ContractionalStructures/ChiefMountainInterpretation.png) <!-- .element style="width:90%" -->
+
 
 <--o-->
 

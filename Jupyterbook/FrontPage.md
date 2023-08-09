@@ -11,12 +11,13 @@ The World Stress Map (WSM) 2016 displays the contemporary crustal stress orienta
 ```
 
 
-Your instructors for 2021 are:
+EMSC 3002 is an intermediate-level course in Structural Geology and Tectonics from the Research School of Earth Sciences at ANU.
+Your instructors for 2023 are:
 
   - Louis Moresi (convenor)
-  - Romain Beucher (lecturer)
   - Chengxin Jiang (lecturer)
-  - Stephen Cox (curriculum design)
+
+**Course contributors:** Romain Beucher (former lecturer), Stephen Cox (curriculum design)
 
 
 ## Acknowledgements

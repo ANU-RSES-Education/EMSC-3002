@@ -15,8 +15,8 @@ revealOptions:
 ## Module 1.3 - Stress, Strain and Strength
 
   - **Louis Moresi** (convenor)
-  - Romain Beucher (lecturer)
   - Chengxin Jiang (lecturer)
+  - Romain Beucher (former lecturer)
   - Stephen Cox (curriculum advisor)
 
 Australian National University
