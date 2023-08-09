@@ -17,8 +17,8 @@ The slides are in a 2D stack that have follow-on (sometimes more advanced materi
 
 ## Links
 
-  1. [EMSC3002/6030](https://wattlecourses.anu.edu.au/course/view.php?id=34828) on Wattle
-  1. [Programmes and courses](https://programsandcourses.anu.edu.au/2021/course/EMSC3002)
+  1. [EMSC3002/6030](https://wattlecourses.anu.edu.au/course/view.php?id=40252) on Wattle
+  1. [Programmes and courses](https://programsandcourses.anu.edu.au/2023/course/EMSC3002)
 
 ## Overview 
 
@@ -35,7 +35,8 @@ There are links to helpful external sites and background reading that you can fi
 
 ### Remote Participation
 
-  We will make all the lectures available via zoom. In-person attendance is always preferable though restrictions on numbers may apply.
+All lectures will be recorded using echo360. There is a zoom link on wattle which we will use if the lecturer 
+cannot be present in person.
 
 ### Summary of Course Assessment
 
@@ -48,3 +49,4 @@ There will be a poster presentation and final report that together make up 20% o
 The final exam will be worth 40% of the course.
 
 *We are, of course, open to some negotiation of the weight of the assessment tasks and their timing where this helps to cement the learning goals.*
+
