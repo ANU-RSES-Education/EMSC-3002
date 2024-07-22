@@ -81,6 +81,7 @@ You are more than welcome to read slides in advance. They are not entirely self-
 
 **Tectonics** (from Latin *tectonicus;* from Ancient Greek *τεκτονικός (tektonikos)* 'pertaining to building') are the processes that control the structure and properties of the Earth's crust and its evolution through time. These include the processes of mountain building, the growth and behavior of the strong, old cores of continents known as cratons, and the ways in which the relatively rigid plates that constitute the Earth's outer shell interact with each other. Tectonics also provide a framework for understanding the earthquake and volcanic belts that directly affect much of the global population.
 
+
 Tectonic studies are important as guides for economic geologists searching for fossil fuels and ore deposits of metallic and nonmetallic resources. An understanding of tectonic principles is essential to geomorphologists to explain erosion patterns and other Earth surface features.
 
 Read more on [Wikipedia](https://en.wikipedia.org/wiki/Tectonics).
@@ -171,10 +172,28 @@ I am a seismologist broadly interested in tectonic, magmatic and near surface ge
 
 <--v-->
 
+## Lecturers
+
+![CG](images/Introduction/Mugshot-Gouramanis.jpg)   <!-- .element style="width:20%; float:right; margin-top:50px" -->
+
+<div style="width:75%">
+
+**Chris Gouramanis**
+
+My research interests are diverse and varied, but my primary focus is to examine understand how past, current and future climate change and related natural hazards will affect surface and groundwater resources and the environments they support.
+
+I am particularly interested in how both climate hazards and geophysical hazards affect water resources and have studied the impacts of hazards on surface waters and groundwater.
+
+As Australia's National Focal Point to the Scientific and Technical Review Panel to the Convention on Wetlands of International Importance especially as Waterfowl Habitat, also known as the Ramsar Convention, I work with the Australian Government to appropriately use the best available science to guide better wetland conservation.
+
+</div>
+
+<--v-->
+
+
 ## Demonstrators
 
-![TBA](images/Introduction/Mugshot-Carlos2.jpg)   <!-- .element style="width:30%; float:right; margin-top:50px" -->
-
+![CG](images/Introduction/Mugshot-TBA.jpg)   <!-- .element style="width:30%; float:right; margin-top:50px" -->
 
 <div style="width:70%">
 
@@ -211,7 +230,8 @@ The final exam will be worth 40% of the course.
 </center>
 </div>
 
-Two hour practicals each week with an associated tutorial (three hours allocated for us to use this lab). We hope we can run a short, local field trip this year and we will have a number of exercises in virtual mapping to prepare. We will be spending some time running and interpreting analogue-geology experiments in the sandbox (above).
+Two hour practicals each week with an associated tutorial (in one 3 hour block). We hope we can run a short, local field trip this year and we will have a number of exercises in virtual mapping to prepare. We will be spending some time running and interpreting analogue-geology experiments in the sandbox (above).
+
 
 <--o-->
 
@@ -309,6 +329,7 @@ We will see how folds represent important windows into local and regional deform
   - Join the Earth & Marine Science Society: https://www.facebook.com/anuems/
 
   - Come and talk to us if you have problems (you have access to the school).
+
 
 <--o-->
 
