@@ -19,9 +19,9 @@ revealOptions:
 
 Australian National University
 
-_**NB:** the course materials provided by the authors are open source under a creative commons licence. 
-We acknowledge the contribution of the community in providing other materials and we endeavour to 
-provide the correct attribution and citation. Please contact louis.moresi@anu.edu.au for updates and 
+_**NB:** the course materials provided by the authors are open source under a creative commons licence.
+We acknowledge the contribution of the community in providing other materials and we endeavour to
+provide the correct attribution and citation. Please contact louis.moresi@anu.edu.au for updates and
 corrections._
 
 <--o-->
@@ -34,13 +34,13 @@ corrections._
 
   This [online book](https://anu-rses-education.github.io/EMSC-3002/FrontPage.html)
 with lecture materials and lecture notes. This is a live document and we can update this
-to fix bugs and add material. You can create feedback for the pages. The original 
-"source code" for the slides etc is also available 
+to fix bugs and add material. You can create feedback for the pages. The original
+"source code" for the slides etc is also available
 
- - [EMSC3002/6030](https://wattlecourses.anu.edu.au/course/view.php?id=34828) on Wattle
- - [EMSC3002](https://programsandcourses.anu.edu.au/2021/course/EMSC3002) on programs & courses
+ - [EMSC3002/6030](https://wattlecourses.anu.edu.au/course/view.php?id=43913) on Wattle
+ - [EMSC3002](https://programsandcourses.anu.edu.au/2024/course/EMSC3002) on programs & courses
 
-</div> 
+</div>
 
 <--v-->
 
@@ -50,8 +50,8 @@ to fix bugs and add material. You can create feedback for the pages. The origina
 
 </br>
 
-All of the slides for this course are available online and you can access the presentations as part of the online book. 
-The slides are in a 2D stack that have follow-on (sometimes more advanced material) below the regular flow of the presentation. 
+All of the slides for this course are available online and you can access the presentations as part of the online book.
+The slides are in a 2D stack that have follow-on (sometimes more advanced material) below the regular flow of the presentation.
 
 You are more than welcome to read slides in advance. They are not entirely self-explanatory but we don't try to be cryptic either !
 
@@ -61,7 +61,7 @@ You are more than welcome to read slides in advance. They are not entirely self-
 
 ![Wikipedia-SG](https://upload.wikimedia.org/wikipedia/commons/thumb/c/c7/Folded_gyprock.jpg/440px-Folded_gyprock.jpg) <!-- .element style="width:33%; float:right; margin:30px" -->
 
-**Structural geology** is the study of the three-dimensional distribution of rock units with respect to their deformational histories. The primary goal of structural geology is to use measurements of present-day rock geometries to uncover information about the history of deformation (strain) in the rocks, and ultimately, to understand the stress field that resulted in the observed strain and geometries. 
+**Structural geology** is the study of the three-dimensional distribution of rock units with respect to their deformational histories. The primary goal of structural geology is to use measurements of present-day rock geometries to uncover information about the history of deformation (strain) in the rocks, and ultimately, to understand the stress field that resulted in the observed strain and geometries.
 
 This understanding of the dynamics of the stress field can be linked to important events in the geologic past; a common goal is to understand the structural evolution of a particular area with respect to regionally widespread patterns of rock deformation (e.g., mountain building, rifting) due to plate tectonics.
 
@@ -83,10 +83,10 @@ Read more on [Wikipedia](https://en.wikipedia.org/wiki/Tectonics).
 
 ## Learning Outcomes
 
-This course is designed to develop an advanced understanding of deformation processes and structures produced by displacement and deformation in the Earth's lithosphere at scales ranging from the tectonic plate scale, down to the crystal lattice scale. Emphasis is placed on understanding 
+This course is designed to develop an advanced understanding of deformation processes and structures produced by displacement and deformation in the Earth's lithosphere at scales ranging from the tectonic plate scale, down to the crystal lattice scale. Emphasis is placed on understanding
 
   1. Geodynamic processes controlling plate motions and crustal deformation.
-  2. Geometry and structures produced by complex crustal deformation histories involving contractional, extensional and wrench regimes 
+  2. Geometry and structures produced by complex crustal deformation histories involving contractional, extensional and wrench regimes
 
   3.  Factors influencing strength and mechanical behaviour of the crust and  mantle lithosphere
 
@@ -116,7 +116,7 @@ This course is designed to develop an advanced understanding of deformation proc
 
 **Louis Moresi**
 
-I am a professor of geophysics / geodynamics and I am interested in understanding the evolution of the deep Earth over geological time, how this evolution is recorded in the superficial geological record,and how to build computation modelling tools to simulate the Earth. 
+I am a professor of geophysics / geodynamics and I am interested in understanding the evolution of the deep Earth over geological time, how this evolution is recorded in the superficial geological record,and how to build computation modelling tools to simulate the Earth.
 
 The tools of my trade are computational programs and numerical algorithms. I am a strong supporter of open source code so my publications will also find links to repositories where the source code is available with examples of how to reproduce peer-reviewed benchmarks and published results.
 
@@ -183,7 +183,7 @@ The final exam will be worth 40% of the course.
 </center>
 </div>
 
-Three hour practicals each week. We are not able to undertake any field trips this year so we will have a number of exercises in virtual mapping and we will be spending some time running and interpreting analogue-geology experiments in the sandbox (above). 
+Three hour practicals each week. We are not able to undertake any field trips this year so we will have a number of exercises in virtual mapping and we will be spending some time running and interpreting analogue-geology experiments in the sandbox (above).
 
 <--o-->
 
@@ -244,7 +244,7 @@ In order to understand geological structures in more detail, we need some backgr
 
 ### Module iv - Brittle Deformation
 
-When rocks undergo rapid, localised deformation, refer to the process as “brittle deformation”. Typically brittle features in the Earth’s crust are faults and we can understand much about the stress and deformation if we understand faults, their rupture and associated seismic energy release. 
+When rocks undergo rapid, localised deformation, refer to the process as “brittle deformation”. Typically brittle features in the Earth’s crust are faults and we can understand much about the stress and deformation if we understand faults, their rupture and associated seismic energy release.
 
 **Chengxin Jiang** will lead this part of the course in 2021.
 
