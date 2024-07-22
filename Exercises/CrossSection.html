@@ -1,13 +1,12 @@
 
-
 <!DOCTYPE html>
 
 
-<html lang="en" >
+<html lang="en" data-content_root="../" >
 
   <head>
     <meta charset="utf-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" /><meta name="generator" content="Docutils 0.18.1: http://docutils.sourceforge.net/" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" /><meta name="viewport" content="width=device-width, initial-scale=1" />
 
     <title>Balancing &amp; Restoring Cross Sections &#8212; EMSC 3002</title>
   
@@ -15,58 +14,55 @@
   
   <script data-cfasync="false">
     document.documentElement.dataset.mode = localStorage.getItem("mode") || "";
-    document.documentElement.dataset.theme = localStorage.getItem("theme") || "light";
+    document.documentElement.dataset.theme = localStorage.getItem("theme") || "";
   </script>
   
   <!-- Loaded before other Sphinx assets -->
-  <link href="../_static/styles/theme.css?digest=e353d410970836974a52" rel="stylesheet" />
-<link href="../_static/styles/bootstrap.css?digest=e353d410970836974a52" rel="stylesheet" />
-<link href="../_static/styles/pydata-sphinx-theme.css?digest=e353d410970836974a52" rel="stylesheet" />
+  <link href="../_static/styles/theme.css?digest=dfe6caa3a7d634c4db9b" rel="stylesheet" />
+<link href="../_static/styles/bootstrap.css?digest=dfe6caa3a7d634c4db9b" rel="stylesheet" />
+<link href="../_static/styles/pydata-sphinx-theme.css?digest=dfe6caa3a7d634c4db9b" rel="stylesheet" />
 
   
-  <link href="../_static/vendor/fontawesome/6.1.2/css/all.min.css?digest=e353d410970836974a52" rel="stylesheet" />
-  <link rel="preload" as="font" type="font/woff2" crossorigin href="../_static/vendor/fontawesome/6.1.2/webfonts/fa-solid-900.woff2" />
-<link rel="preload" as="font" type="font/woff2" crossorigin href="../_static/vendor/fontawesome/6.1.2/webfonts/fa-brands-400.woff2" />
-<link rel="preload" as="font" type="font/woff2" crossorigin href="../_static/vendor/fontawesome/6.1.2/webfonts/fa-regular-400.woff2" />
+  <link href="../_static/vendor/fontawesome/6.5.2/css/all.min.css?digest=dfe6caa3a7d634c4db9b" rel="stylesheet" />
+  <link rel="preload" as="font" type="font/woff2" crossorigin href="../_static/vendor/fontawesome/6.5.2/webfonts/fa-solid-900.woff2" />
+<link rel="preload" as="font" type="font/woff2" crossorigin href="../_static/vendor/fontawesome/6.5.2/webfonts/fa-brands-400.woff2" />
+<link rel="preload" as="font" type="font/woff2" crossorigin href="../_static/vendor/fontawesome/6.5.2/webfonts/fa-regular-400.woff2" />
 
-    <link rel="stylesheet" type="text/css" href="../_static/pygments.css" />
-    <link rel="stylesheet" href="../_static/styles/sphinx-book-theme.css?digest=14f4ca6b54d191a8c7657f6c759bf11a5fb86285" type="text/css" />
-    <link rel="stylesheet" type="text/css" href="../_static/togglebutton.css" />
-    <link rel="stylesheet" type="text/css" href="../_static/copybutton.css" />
+    <link rel="stylesheet" type="text/css" href="../_static/pygments.css?v=fa44fd50" />
+    <link rel="stylesheet" type="text/css" href="../_static/styles/sphinx-book-theme.css?v=a3416100" />
+    <link rel="stylesheet" type="text/css" href="../_static/togglebutton.css?v=13237357" />
+    <link rel="stylesheet" type="text/css" href="../_static/copybutton.css?v=76b2166b" />
     <link rel="stylesheet" type="text/css" href="../_static/mystnb.4510f1fc1dee50b3e5859aac5469c37c29e427902b24a333a5f9fcb2f0b3ac41.css" />
-    <link rel="stylesheet" type="text/css" href="../_static/sphinx-thebe.css" />
-    <link rel="stylesheet" type="text/css" href="../_static/customize.css" />
-    <link rel="stylesheet" type="text/css" href="../_static/design-style.4045f2051d55cab465a707391d5b2007.min.css" />
+    <link rel="stylesheet" type="text/css" href="../_static/sphinx-thebe.css?v=4fa983c6" />
+    <link rel="stylesheet" type="text/css" href="../_static/sphinx-design.min.css?v=87e54e7c" />
+    <link rel="stylesheet" type="text/css" href="../_static/customize.css?v=a313bec9" />
   
   <!-- Pre-loaded scripts that we'll load fully later -->
-  <link rel="preload" as="script" href="../_static/scripts/bootstrap.js?digest=e353d410970836974a52" />
-<link rel="preload" as="script" href="../_static/scripts/pydata-sphinx-theme.js?digest=e353d410970836974a52" />
+  <link rel="preload" as="script" href="../_static/scripts/bootstrap.js?digest=dfe6caa3a7d634c4db9b" />
+<link rel="preload" as="script" href="../_static/scripts/pydata-sphinx-theme.js?digest=dfe6caa3a7d634c4db9b" />
+  <script src="../_static/vendor/fontawesome/6.5.2/js/all.min.js?digest=dfe6caa3a7d634c4db9b"></script>
 
-    <script data-url_root="../" id="documentation_options" src="../_static/documentation_options.js"></script>
-    <script src="../_static/jquery.js"></script>
-    <script src="../_static/underscore.js"></script>
-    <script src="../_static/_sphinx_javascript_frameworks_compat.js"></script>
-    <script src="../_static/doctools.js"></script>
-    <script src="../_static/clipboard.min.js"></script>
-    <script src="../_static/copybutton.js"></script>
-    <script src="../_static/scripts/sphinx-book-theme.js?digest=5a5c038af52cf7bc1a1ec88eea08e6366ee68824"></script>
+    <script src="../_static/documentation_options.js?v=9eb32ce0"></script>
+    <script src="../_static/doctools.js?v=9a2dae69"></script>
+    <script src="../_static/sphinx_highlight.js?v=dc90522c"></script>
+    <script src="../_static/clipboard.min.js?v=a7894cd8"></script>
+    <script src="../_static/copybutton.js?v=f281be69"></script>
+    <script src="../_static/scripts/sphinx-book-theme.js?v=887ef09a"></script>
     <script>let toggleHintShow = 'Click to show';</script>
     <script>let toggleHintHide = 'Click to hide';</script>
     <script>let toggleOpenOnPrint = 'true';</script>
-    <script src="../_static/togglebutton.js"></script>
+    <script src="../_static/togglebutton.js?v=4a39c7ea"></script>
     <script async="async" kind="hypothesis" src="https://hypothes.is/embed.js"></script>
-    <script src="../_static/font_button.js"></script>
     <script>var togglebuttonSelector = '.toggle, .admonition.dropdown';</script>
-    <script src="../_static/design-tabs.js"></script>
-    <script>const THEBE_JS_URL = "https://unpkg.com/thebe@0.8.2/lib/index.js"
-const thebe_selector = ".thebe,.cell"
-const thebe_selector_input = "pre"
-const thebe_selector_output = ".output, .cell_output"
-</script>
-    <script async="async" src="../_static/sphinx-thebe.js"></script>
+    <script src="../_static/design-tabs.js?v=f930bc37"></script>
+    <script>const THEBE_JS_URL = "https://unpkg.com/thebe@0.8.2/lib/index.js"; const thebe_selector = ".thebe,.cell"; const thebe_selector_input = "pre"; const thebe_selector_output = ".output, .cell_output"</script>
+    <script async="async" src="../_static/sphinx-thebe.js?v=c100c467"></script>
+    <script>var togglebuttonSelector = '.toggle, .admonition.dropdown';</script>
+    <script>const THEBE_JS_URL = "https://unpkg.com/thebe@0.8.2/lib/index.js"; const thebe_selector = ".thebe,.cell"; const thebe_selector_input = "pre"; const thebe_selector_output = ".output, .cell_output"</script>
     <script>window.MathJax = {"options": {"processHtmlClass": "tex2jax_process|mathjax_process|math|output_area"}}</script>
     <script defer="defer" src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js"></script>
     <script>DOCUMENTATION_OPTIONS.pagename = 'Exercises/CrossSection';</script>
+    <script src="../_static/font_button.js?v=3ec2d3a6"></script>
     <link rel="index" title="Index" href="../genindex.html" />
     <link rel="search" title="Search" href="../search.html" />
   <meta name="viewport" content="width=device-width, initial-scale=1"/>
@@ -78,19 +74,23 @@ const thebe_selector_output = ".output, .cell_output"
 
   
   
-  <a class="skip-link" href="#main-content">Skip to main content</a>
+  <div id="pst-skip-link" class="skip-link d-print-none"><a href="#main-content">Skip to main content</a></div>
+  
+  <div id="pst-scroll-pixel-helper"></div>
+  
+  <button type="button" class="btn rounded-pill" id="pst-back-to-top">
+    <i class="fa-solid fa-arrow-up"></i>Back to top</button>
+
   
   <input type="checkbox"
           class="sidebar-toggle"
-          name="__primary"
-          id="__primary"/>
-  <label class="overlay overlay-primary" for="__primary"></label>
+          id="pst-primary-sidebar-checkbox"/>
+  <label class="overlay overlay-primary" for="pst-primary-sidebar-checkbox"></label>
   
   <input type="checkbox"
           class="sidebar-toggle"
-          name="__secondary"
-          id="__secondary"/>
-  <label class="overlay overlay-secondary" for="__secondary"></label>
+          id="pst-secondary-sidebar-checkbox"/>
+  <label class="overlay overlay-secondary" for="pst-secondary-sidebar-checkbox"></label>
   
   <div class="search-button__wrapper">
     <div class="search-button__overlay"></div>
@@ -112,12 +112,22 @@ const thebe_selector_output = ".output, .cell_output"
   <span class="search-button__kbd-shortcut"><kbd class="kbd-shortcut__modifier">Ctrl</kbd>+<kbd>K</kbd></span>
 </form></div>
   </div>
+
+  <div class="pst-async-banner-revealer d-none">
+  <aside id="bd-header-version-warning" class="d-none d-print-none" aria-label="Version warning"></aside>
+</div>
+
   
-    <nav class="bd-header navbar navbar-expand-lg bd-navbar">
-    </nav>
+    <header class="bd-header navbar navbar-expand-lg bd-navbar d-print-none">
+    </header>
   
+
   <div class="bd-container">
     <div class="bd-container__inner bd-page-width">
+      
+      
+      
+        
       
       <div class="bd-sidebar-primary bd-sidebar">
         
@@ -132,9 +142,13 @@ const thebe_selector_output = ".output, .cell_output"
   
     <div class="sidebar-primary-items__start sidebar-primary__section">
         <div class="sidebar-primary-item">
+
+  
+    
   
 
 <a class="navbar-brand logo" href="../FrontPage.html">
+  
   
   
   
@@ -144,12 +158,23 @@ const thebe_selector_output = ".output, .cell_output"
       
     
     
-    <img src="../_static/AuWorldEQ.jpg" class="logo__image only-light" alt="Logo image"/>
-    <script>document.write(`<img src="../_static/AuWorldEQ.jpg" class="logo__image only-dark" alt="Logo image"/>`);</script>
+    <img src="../_static/AuWorldEQ.jpg" class="logo__image only-light" alt="EMSC 3002 - Home"/>
+    <script>document.write(`<img src="../_static/AuWorldEQ.jpg" class="logo__image only-dark" alt="EMSC 3002 - Home"/>`);</script>
   
   
 </a></div>
-        <div class="sidebar-primary-item"><nav class="bd-links" id="bd-docs-nav" aria-label="Main">
+        <div class="sidebar-primary-item">
+
+ <script>
+ document.write(`
+   <button class="btn search-button-field search-button__button" title="Search" aria-label="Search" data-bs-placement="bottom" data-bs-toggle="tooltip">
+    <i class="fa-solid fa-magnifying-glass"></i>
+    <span class="search-button__default-text">Search</span>
+    <span class="search-button__kbd-shortcut"><kbd class="kbd-shortcut__modifier">Ctrl</kbd>+<kbd class="kbd-shortcut__modifier">K</kbd></span>
+   </button>
+ `);
+ </script></div>
+        <div class="sidebar-primary-item"><nav class="bd-links bd-docs-nav" aria-label="Main">
     <div class="bd-toc-item navbar-nav active">
         
         <ul class="nav bd-sidenav bd-sidenav__home-link">
@@ -173,12 +198,12 @@ const thebe_selector_output = ".output, .cell_output"
 <li class="toctree-l1"><a class="reference internal" href="../Lectures/Module-ii-Structural-Geology-And-Crustal-Deformation.html">Module 2 - Structures in the Earth</a></li>
 <li class="toctree-l1"><a class="reference internal" href="../Lectures/Module-iii-Theory.html">Module 3 - Theory</a></li>
 <li class="toctree-l1"><a class="reference internal" href="../Lectures/Module-iv-BrittleDeformation.html">Module 4 - Brittle Deformation</a></li>
-<li class="toctree-l1 has-children"><a class="reference internal" href="../Lectures/Module-v-lecture1-Fold-Geometry.html">Module 5 - Ductile Deformation</a><input class="toctree-checkbox" id="toctree-checkbox-1" name="toctree-checkbox-1" type="checkbox"/><label class="toctree-toggle" for="toctree-checkbox-1"><i class="fa-solid fa-chevron-down"></i></label><ul>
+<li class="toctree-l1 has-children"><a class="reference internal" href="../Lectures/Module-v-lecture1-Fold-Geometry.html">Module 5 - Ductile Deformation</a><details><summary><span class="toctree-toggle" role="presentation"><i class="fa-solid fa-chevron-down"></i></span></summary><ul>
 <li class="toctree-l2"><a class="reference internal" href="../Lectures/Module-v-lecture2-Folds-and-Folding-Mechanisms.html">Folds and Folding Mechanisms</a></li>
 <li class="toctree-l2"><a class="reference internal" href="../Lectures/Module-v-lecture3-Structures-Associated-with-Folding.html">Structures associated with folding</a></li>
 <li class="toctree-l2"><a class="reference internal" href="../Lectures/Module-v-lecture4-Shear-Zones.html">Shear Zones</a></li>
 </ul>
-</li>
+</details></li>
 </ul>
 <p aria-level="2" class="caption" role="heading"><span class="caption-text">Glossary</span></p>
 <ul class="nav bd-sidenav">
@@ -202,7 +227,7 @@ const thebe_selector_output = ".output, .cell_output"
 
       </div>
       
-      <main id="main-content" class="bd-main">
+      <main id="main-content" class="bd-main" role="main">
         
         
 
@@ -211,14 +236,14 @@ const thebe_selector_output = ".output, .cell_output"
           <div class="bd-content">
             <div class="bd-article-container">
               
-              <div class="bd-header-article">
+              <div class="bd-header-article d-print-none">
 <div class="header-article-items header-article__inner">
   
     <div class="header-article-items__start">
       
-        <div class="header-article-item"><label class="sidebar-toggle primary-toggle btn btn-sm" for="__primary" title="Toggle primary sidebar" data-bs-placement="bottom" data-bs-toggle="tooltip">
+        <div class="header-article-item"><button class="sidebar-toggle primary-toggle btn btn-sm" title="Toggle primary sidebar" data-bs-placement="bottom" data-bs-toggle="tooltip">
   <span class="fa-solid fa-bars"></span>
-</label></div>
+</button></div>
       
     </div>
   
@@ -308,26 +333,28 @@ const thebe_selector_output = ".output, .cell_output"
 </button>
 
 
+
 <script>
 document.write(`
-  <button class="theme-switch-button btn btn-sm btn-outline-primary navbar-btn rounded-circle" title="light/dark" aria-label="light/dark" data-bs-placement="bottom" data-bs-toggle="tooltip">
-    <span class="theme-switch" data-mode="light"><i class="fa-solid fa-sun"></i></span>
-    <span class="theme-switch" data-mode="dark"><i class="fa-solid fa-moon"></i></span>
-    <span class="theme-switch" data-mode="auto"><i class="fa-solid fa-circle-half-stroke"></i></span>
+  <button class="btn btn-sm nav-link pst-navbar-icon theme-switch-button" title="light/dark" aria-label="light/dark" data-bs-placement="bottom" data-bs-toggle="tooltip">
+    <i class="theme-switch fa-solid fa-sun fa-lg" data-mode="light"></i>
+    <i class="theme-switch fa-solid fa-moon fa-lg" data-mode="dark"></i>
+    <i class="theme-switch fa-solid fa-circle-half-stroke fa-lg" data-mode="auto"></i>
   </button>
 `);
 </script>
 
+
 <script>
 document.write(`
-  <button class="btn btn-sm navbar-btn search-button search-button__button" title="Search" aria-label="Search" data-bs-placement="bottom" data-bs-toggle="tooltip">
-    <i class="fa-solid fa-magnifying-glass"></i>
+  <button class="btn btn-sm pst-navbar-icon search-button search-button__button" title="Search" aria-label="Search" data-bs-placement="bottom" data-bs-toggle="tooltip">
+    <i class="fa-solid fa-magnifying-glass fa-lg"></i>
   </button>
 `);
 </script>
-<label class="sidebar-toggle secondary-toggle btn btn-sm" for="__secondary"title="Toggle secondary sidebar" data-bs-placement="bottom" data-bs-toggle="tooltip">
+<button class="sidebar-toggle secondary-toggle btn btn-sm" title="Toggle secondary sidebar" data-bs-placement="bottom" data-bs-toggle="tooltip">
     <span class="fa-solid fa-list"></span>
-</label>
+</button>
 </div></div>
       
     </div>
@@ -390,16 +417,16 @@ document.write(`
               
                 
 <div id="searchbox"></div>
-                <article class="bd-article" role="main">
+                <article class="bd-article">
                   
   <section class="tex2jax_ignore mathjax_ignore" id="balancing-restoring-cross-sections">
-<h1>Balancing &amp; Restoring Cross Sections<a class="headerlink" href="#balancing-restoring-cross-sections" title="Permalink to this heading">#</a></h1>
+<h1>Balancing &amp; Restoring Cross Sections<a class="headerlink" href="#balancing-restoring-cross-sections" title="Link to this heading">#</a></h1>
 <section id="objective">
-<h2>Objective<a class="headerlink" href="#objective" title="Permalink to this heading">#</a></h2>
+<h2>Objective<a class="headerlink" href="#objective" title="Link to this heading">#</a></h2>
 <p>The goal of this lab is to aid you in understanding how structural geologists go about balancing cross sections and to make you see that there are many ways of interpreting data. Our goal is simply to make you aware of how cross section balancing is done and introduce you to the general concepts involved.</p>
 </section>
 <section id="structure-of-the-lab">
-<h2>Structure of the lab<a class="headerlink" href="#structure-of-the-lab" title="Permalink to this heading">#</a></h2>
+<h2>Structure of the lab<a class="headerlink" href="#structure-of-the-lab" title="Link to this heading">#</a></h2>
 <p><em>First 30 minutes</em></p>
 <p>Start by reading the rest of the lab handout. We’ll go over some of the goals of the lab and introduce the terminology.</p>
 <p><em>Next 30 Minutes</em></p>
@@ -409,14 +436,14 @@ Work through Problem 2, which is appropriately entitled “Restoring a Cross Sec
 <p>Take the opportunity to begin working on the problem set for this week (Problem 3), creating and restoring the cross section on the last page of this handout.</p>
 </section>
 <section id="constructing-restoring-balanced-cross-sections">
-<h2>Constructing &amp; Restoring Balanced Cross Sections<a class="headerlink" href="#constructing-restoring-balanced-cross-sections" title="Permalink to this heading">#</a></h2>
+<h2>Constructing &amp; Restoring Balanced Cross Sections<a class="headerlink" href="#constructing-restoring-balanced-cross-sections" title="Link to this heading">#</a></h2>
 <section id="introduction">
-<h3>Introduction<a class="headerlink" href="#introduction" title="Permalink to this heading">#</a></h3>
+<h3>Introduction<a class="headerlink" href="#introduction" title="Link to this heading">#</a></h3>
 <p>You are all experienced at drawing cross sections that help you visualize subsurface geology. You cn also use cross sections to quantify the amount of brittle deformation by measuring the offset across faults. But what if you wanted to reliably determine the amount of deformation in a faulted and folded region? It turns out that this problem is much more complex and we must therefore have a series of rules to help us construct cross sections that will allow us to easily extract this information. This lab handout will tell you how to construct simple versions of these “balanced” cross sections. It will also teach you how to “restore” the cross section as described in the simple experiment above. By comparing the deformed state cross section with the restored cross section, we can get a complete quantitative picture of brittle and ductile deformation.</p>
 <p>Balanced cross sections are most useful in fold-thrust belts. Some examples of fold-thrust belts include the Appalachian Mountains, the Swiss Jura Mountains, Taiwan, and the foothills of the Canadian Rockies.</p>
 </section>
 <section id="terminology">
-<h3>Terminology<a class="headerlink" href="#terminology" title="Permalink to this heading">#</a></h3>
+<h3>Terminology<a class="headerlink" href="#terminology" title="Link to this heading">#</a></h3>
 <p><strong>Balanced Cross Section</strong>: This is a deformed cross section that is capable of being kinematically restored. Unless you exercise great care when drawing your cross section, you won’t be able to restore it. For example, you could end up with big cavities or left-over material that has
 no place to go when you try to restore the cross section.</p>
 <p><strong>Blind Thrust</strong>: A thrust fault that does not reach the surface, but may cause folding and upwarping that can be observed at the surface.</p>
@@ -434,7 +461,7 @@ no place to go when you try to restore the cross section.</p>
 <p><strong>Transport Direction</strong>: The vector that points in the direction that the thrust sheet moves relative to the pin line.</p>
 </section>
 <section id="choosing-a-pin-line">
-<h3>Choosing a Pin Line<a class="headerlink" href="#choosing-a-pin-line" title="Permalink to this heading">#</a></h3>
+<h3>Choosing a Pin Line<a class="headerlink" href="#choosing-a-pin-line" title="Link to this heading">#</a></h3>
 <p>In nature, it’s often hard to tell which side stayed still while the other moved. From physics classes, you may recall that all motion is relative and all we really need to do is choose a reference frame. We usually select the edge of the cross section on the foreland side (on the footwall side of the thrusts). If that’s not possible, you should use the following criteria:</p>
 <ul class="simple">
 <li><p>perpendicular to undeformed bedding</p></li>
@@ -445,30 +472,30 @@ no place to go when you try to restore the cross section.</p>
 <p>In complex cross sections, you may need to choose several “local” pin lines. Local pin lines remain undeformed, but may move with respect to one another. The loose line is usually just the other edge of the cross section.</p>
 </section>
 <section id="assumptions">
-<h3>Assumptions<a class="headerlink" href="#assumptions" title="Permalink to this heading">#</a></h3>
+<h3>Assumptions<a class="headerlink" href="#assumptions" title="Link to this heading">#</a></h3>
 <p>The construction and restoration of balanced cross sections requires several simplifying assumptions in order to make the process convenient. As always, think about how realistic these assumptions are.</p>
 <section id="conservation-of-area">
-<h4>Conservation of Area<a class="headerlink" href="#conservation-of-area" title="Permalink to this heading">#</a></h4>
+<h4>Conservation of Area<a class="headerlink" href="#conservation-of-area" title="Link to this heading">#</a></h4>
 <p>The cross sectional area of a bed must be the same in both deformed and restored cross sections. The validity of this assumption depends largely on the validity of the plane-strain assumption (below).</p>
 </section>
 <section id="consistency-of-bed-length">
-<h4>Consistency of Bed Length<a class="headerlink" href="#consistency-of-bed-length" title="Permalink to this heading">#</a></h4>
+<h4>Consistency of Bed Length<a class="headerlink" href="#consistency-of-bed-length" title="Link to this heading">#</a></h4>
 <p>The length of a contact in a cross section does not change from the deformed to the restored cross sections. This is only true when there is no thinning or thickening of beds at the fold hinges. It follows from the Conservation of Area:  area = bed thickness * bed length, so if bed thickness is constant, area is conserved by using consistent contact lengths. Cross section restoration is a bit harder when bed thickness changes but is definitely possible.</p>
 </section>
 <section id="plain-strain">
-<h4>Plain Strain<a class="headerlink" href="#plain-strain" title="Permalink to this heading">#</a></h4>
+<h4>Plain Strain<a class="headerlink" href="#plain-strain" title="Link to this heading">#</a></h4>
 <p>We assume that no material has moved into or out of the page of the cross section. This assumption works well for faults that are relatively long and straight in map-view.</p>
 </section>
 <section id="in-sequence-thrusting">
-<h4>“In-Sequence Thrusting”<a class="headerlink" href="#in-sequence-thrusting" title="Permalink to this heading">#</a></h4>
+<h4>“In-Sequence Thrusting”<a class="headerlink" href="#in-sequence-thrusting" title="Link to this heading">#</a></h4>
 <p>Studies show that not all the faults in a fold-thrust belt form and slip at the same time. Studies often find that the faults closest to the foreland are usually youngest and the faults closest to the hinterland are oldest (think of the snow plow). While faults that form out of this sequence have been reorganized, when we restore cross sections we will assume that faults “break forward” and always follow the simple younger-in-the-foreland sequence.</p>
 </section>
 <section id="forward-ramping-faults">
-<h4>Forward Ramping Faults<a class="headerlink" href="#forward-ramping-faults" title="Permalink to this heading">#</a></h4>
+<h4>Forward Ramping Faults<a class="headerlink" href="#forward-ramping-faults" title="Link to this heading">#</a></h4>
 <p>We assume that faults always ramp “forward.”  That means that when moving across your cross section in the direction of transport, ramps always cut up-section. Slip along these ramps results in the repeating of sequences of stratigraphy and can put older rocks on top of younger rocks.</p>
 </section>
 <section id="kink-style-folds">
-<h4>Kink-Style Folds<a class="headerlink" href="#kink-style-folds" title="Permalink to this heading">#</a></h4>
+<h4>Kink-Style Folds<a class="headerlink" href="#kink-style-folds" title="Link to this heading">#</a></h4>
 <p>Kink folds have relatively straight limbs and all of the deformation is concentrated in the fold hinge. Chevron folds are classic examples of kinked folds and most fault-bend folds are relatively kinked. It’s a lot easier to draw and restore cross sections for kink style folds because we can use simple trigonometry to calculate angles and we can use rulers to measure bed length.  For that reason, you’ll often see cross sections drawn in a distinctive boxy and kinked style.</p>
 <p>Many thrust faults are blind and do not reach the surface, so how do you represent them on a cross section? It turns out that some relatively simple geometry can tell you the dip of a blind fault ramp if you know the dip of fault-bend folds on the surface (see Suppe, 1983, 1985). For example, if is the cutoff angle:</p>
 <p><span class="math notranslate nohighlight">\(2\gamma\)</span> supplement of forelimb dip</p>
@@ -478,14 +505,14 @@ no place to go when you try to restore the cross section.</p>
 </section>
 </section>
 <section id="creating-balanced-cross-sections-procedure">
-<h2>Creating Balanced Cross Sections: Procedure<a class="headerlink" href="#creating-balanced-cross-sections-procedure" title="Permalink to this heading">#</a></h2>
+<h2>Creating Balanced Cross Sections: Procedure<a class="headerlink" href="#creating-balanced-cross-sections-procedure" title="Link to this heading">#</a></h2>
 </section>
 <section id="problem-1">
-<h2>Problem 1<a class="headerlink" href="#problem-1" title="Permalink to this heading">#</a></h2>
+<h2>Problem 1<a class="headerlink" href="#problem-1" title="Link to this heading">#</a></h2>
 <p>Given the strip map of a portion of a fold-thrust belt, follow the method listed on the next page to construct an admissible deformed-state cross section that accommodates the map data.  Assume that the ground surface is a horizontal plane.  The only unit exposed at the surface is unit a.</p>
 <p><img alt="Problem 1" src="../_images/Problem1.png" /> <!-- .element style="float: center" width="50%" --></p>
 <section id="method">
-<h3>Method<a class="headerlink" href="#method" title="Permalink to this heading">#</a></h3>
+<h3>Method<a class="headerlink" href="#method" title="Link to this heading">#</a></h3>
 <p>Examine the map of a region know to be a fold and thrust belt.</p>
 <ol class="arabic">
 <li><p>Determine the transport direction.</p>
@@ -531,14 +558,14 @@ no place to go when you try to restore the cross section.</p>
 </section>
 </section>
 <section id="restoring-a-cross-section-procedure">
-<h2>Restoring a Cross Section: Procedure<a class="headerlink" href="#restoring-a-cross-section-procedure" title="Permalink to this heading">#</a></h2>
+<h2>Restoring a Cross Section: Procedure<a class="headerlink" href="#restoring-a-cross-section-procedure" title="Link to this heading">#</a></h2>
 </section>
 <section id="problem-2">
-<h2>Problem 2<a class="headerlink" href="#problem-2" title="Permalink to this heading">#</a></h2>
+<h2>Problem 2<a class="headerlink" href="#problem-2" title="Link to this heading">#</a></h2>
 <p>Follow the method provided and restore the labeled cross section shown below.  Assume that unit thickness is constant in the section, and assume that the displacement is constant along the fault. Complete on a separate paper.</p>
 <p><img alt="Problem 2" src="../_images/Problem2.png" /> <!-- .element style="float: center" width="50%" --></p>
 <section id="id1">
-<h3>Method<a class="headerlink" href="#id1" title="Permalink to this heading">#</a></h3>
+<h3>Method<a class="headerlink" href="#id1" title="Link to this heading">#</a></h3>
 <ol class="arabic simple">
 <li><p>Identify the foreland and hinterland</p></li>
 <li><p>Identify the Transport Direction</p></li>
@@ -550,7 +577,7 @@ no place to go when you try to restore the cross section.</p>
 </ol>
 </section>
 <section id="to-restore-by-bed-length-conservation">
-<h3>To Restore by Bed Length Conservation…<a class="headerlink" href="#to-restore-by-bed-length-conservation" title="Permalink to this heading">#</a></h3>
+<h3>To Restore by Bed Length Conservation…<a class="headerlink" href="#to-restore-by-bed-length-conservation" title="Link to this heading">#</a></h3>
 <ol class="arabic" start="8">
 <li><p>Measure the length of the first line segment on the footwall of the youngest fault. For the simplest case, this should be the first line segment adjacent to the pin line.</p></li>
 <li><p>Draw a horizontal line segment with the length that you measured above.</p>
@@ -576,11 +603,11 @@ no place to go when you try to restore the cross section.</p>
 </section>
 </section>
 <section id="problem-3">
-<h2>Problem 3<a class="headerlink" href="#problem-3" title="Permalink to this heading">#</a></h2>
+<h2>Problem 3<a class="headerlink" href="#problem-3" title="Link to this heading">#</a></h2>
 <p>The geologist working on a cross section of the Alice Hills region has been called off on another project.  You are left to develop a cross-sectional interpretation of the region.  Your predecessor has left several useful hints to make the task easier; you have access to a partially completed cross section (next page).  Note that the region displays kink-style folds and that the dip-domain boundaries are already labeled.  The dip angles in the nonhorizontal domains are indicated.  Note that there are well data at three localities.  If you measure closely, you will see that the Silurian layer in hole 3 is almost twice as thick as in the other two holes.  The upper interval of Silurian strata is not as thick as the lower interval.  Finally, studies elsewhere in the region suggest that beds have uniform thickness in the region and that detachment horizons occur along formation contacts.</p>
 <p><img alt="Problem 3" src="../_images/Problem3.png" /> <!-- .element style="float: center" width="50%" --></p>
 <section id="tasks">
-<h3>Tasks<a class="headerlink" href="#tasks" title="Permalink to this heading">#</a></h3>
+<h3>Tasks<a class="headerlink" href="#tasks" title="Link to this heading">#</a></h3>
 <ol class="arabic simple">
 <li><p>Complete the cross section by showing the structure between the ground surface and the Precambrian/Cambrian contact.  You must choose detachment levels, position ramps, and indicate the amount of slip on each ramp.</p></li>
 <li><p>Restore your completed section.  Does it balance?</p></li>
@@ -588,7 +615,7 @@ no place to go when you try to restore the cross section.</p>
 <iframe width="560" height="315" src="https://youtu.be/C_lfUx7cEAQ?rel=0&amp;controls=0&amp;showinfo=0" frameborder="0" allowfullscreen></iframe>
 </section>
 <section id="some-hints-suggestions-questions-for-this-exercise">
-<h3>Some hints/suggestions/questions for this exercise:<a class="headerlink" href="#some-hints-suggestions-questions-for-this-exercise" title="Permalink to this heading">#</a></h3>
+<h3>Some hints/suggestions/questions for this exercise:<a class="headerlink" href="#some-hints-suggestions-questions-for-this-exercise" title="Link to this heading">#</a></h3>
 <ul class="simple">
 <li><p>Remember that the upper Silurian unit that is repeated under borehole #3 is slightly less thick than the lower, complete unit.  This means that the fault-bend fold has not yet developed to full vertical relief.  As far as your cross section goes, this means that the down-thrust dip domain trace will not necessarily intersect the fault trace at the fault ramp-flat interface.  Keep this in mind.</p></li>
 <li><p>Notice under borehole #2 that the Cambrian unit is repeated so that the sequence there is Cambrian-Ordovician-Cambrian.</p></li>
@@ -625,16 +652,12 @@ no place to go when you try to restore the cross section.</p>
 
               
               
-                <footer class="bd-footer-article">
+              
+              
+                <footer class="prev-next-footer d-print-none">
                   
-<div class="footer-article-items footer-article__inner">
-  
-    <div class="footer-article-item"><!-- Previous / next buttons -->
 <div class="prev-next-area">
-</div></div>
-  
 </div>
-
                 </footer>
               
             </div>
@@ -642,6 +665,7 @@ no place to go when you try to restore the cross section.</p>
             
               
                 <div class="bd-sidebar-secondary bd-toc"><div class="sidebar-secondary-items sidebar-secondary__inner">
+
 
   <div class="sidebar-secondary-item">
   <div class="page-toc tocsection onthispage">
@@ -703,9 +727,10 @@ By ANU EMSC 3002 teaching team
   
   <div class="footer-item">
     
+
   <p class="copyright">
     
-      © Copyright 2022.
+      © Copyright 2023.
       <br/>
     
   </p>
@@ -729,8 +754,8 @@ By ANU EMSC 3002 teaching team
   </div>
   
   <!-- Scripts loaded after <body> so the DOM is not blocked -->
-  <script src="../_static/scripts/bootstrap.js?digest=e353d410970836974a52"></script>
-<script src="../_static/scripts/pydata-sphinx-theme.js?digest=e353d410970836974a52"></script>
+  <script src="../_static/scripts/bootstrap.js?digest=dfe6caa3a7d634c4db9b"></script>
+<script src="../_static/scripts/pydata-sphinx-theme.js?digest=dfe6caa3a7d634c4db9b"></script>
 
   <footer class="bd-footer">
   </footer>
