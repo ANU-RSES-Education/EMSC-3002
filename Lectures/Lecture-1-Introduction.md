@@ -17,7 +17,7 @@ The slides are in a 2D stack that have follow-on (sometimes more advanced materi
 
 ## Links
 
-  1. [EMSC3002/6030](https://wattlecourses.anu.edu.au/course/view.php?id=40252) on Wattle
+  1. [EMSC3002/6030](https://wattlecourses.anu.edu.au/course/view.php?id=43913) on Wattle
   1. [Programmes and courses](https://programsandcourses.anu.edu.au/2023/course/EMSC3002)
 
 ## Overview
