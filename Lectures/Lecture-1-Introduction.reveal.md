@@ -75,6 +75,18 @@ You are more than welcome to read slides in advance. They are not entirely self-
 
 <--o-->
 
+## What does "Tectonics" mean ?
+
+![Wikipedia-Tect](https://upload.wikimedia.org/wikipedia/commons/thumb/b/b4/Plate_tectonics_map.gif/800px-Plate_tectonics_map.gif) <!-- .element style="width:33%; float:right; margin:30px" -->
+
+**Tectonics** (from Latin *tectonicus;* from Ancient Greek *τεκτονικός (tektonikos)* 'pertaining to building') are the processes that control the structure and properties of the Earth's crust and its evolution through time. These include the processes of mountain building, the growth and behavior of the strong, old cores of continents known as cratons, and the ways in which the relatively rigid plates that constitute the Earth's outer shell interact with each other. Tectonics also provide a framework for understanding the earthquake and volcanic belts that directly affect much of the global population.
+
+Tectonic studies are important as guides for economic geologists searching for fossil fuels and ore deposits of metallic and nonmetallic resources. An understanding of tectonic principles is essential to geomorphologists to explain erosion patterns and other Earth surface features.
+
+Read more on [Wikipedia](https://en.wikipedia.org/wiki/Tectonics).
+
+<--o-->
+
 ## What is "Structural Geology" ?
 
 ![Wikipedia-SG](https://upload.wikimedia.org/wikipedia/commons/thumb/c/c7/Folded_gyprock.jpg/440px-Folded_gyprock.jpg) <!-- .element style="width:33%; float:right; margin:30px" -->
@@ -87,17 +99,7 @@ Read more on [Wikipedia](https://en.wikipedia.org/wiki/Structural_geology).
 
 <--o-->
 
-## What does "Tectonics" mean ?
 
-![Wikipedia-Tect](https://upload.wikimedia.org/wikipedia/commons/thumb/b/b4/Plate_tectonics_map.gif/800px-Plate_tectonics_map.gif) <!-- .element style="width:33%; float:right; margin:30px" -->
-
-**Tectonics** (from Latin *tectonicus;* from Ancient Greek *τεκτονικός (tektonikos)* 'pertaining to building') are the processes that control the structure and properties of the Earth's crust and its evolution through time. These include the processes of mountain building, the growth and behavior of the strong, old cores of continents known as cratons, and the ways in which the relatively rigid plates that constitute the Earth's outer shell interact with each other. Tectonics also provide a framework for understanding the earthquake and volcanic belts that directly affect much of the global population.
-
-Tectonic studies are important as guides for economic geologists searching for fossil fuels and ore deposits of metallic and nonmetallic resources. An understanding of tectonic principles is essential to geomorphologists to explain erosion patterns and other Earth surface features.
-
-Read more on [Wikipedia](https://en.wikipedia.org/wiki/Tectonics).
-
-<--o-->
 
 ## Learning Outcomes
 
@@ -171,16 +173,13 @@ I am a seismologist broadly interested in tectonic, magmatic and near surface ge
 
 ## Demonstrators
 
-![CG](images/Introduction/Mugshot-Carlos2.jpg)   <!-- .element style="width:30%; float:right; margin-top:50px" -->
+![TBA](images/Introduction/Mugshot-Carlos2.jpg)   <!-- .element style="width:30%; float:right; margin-top:50px" -->
 
 
 <div style="width:70%">
 
 **TBA**
 
-<!--
-Carlos is a third-year PhD student working in the geochemistry group. He completed his undergraduate and honours in Chile with a focus on field geology and mineral deposits. He has worked in mineral exploration, including surface mapping and core logging, and completed a master's in geochemistry at ANU.
--->
 
 </div>
 
