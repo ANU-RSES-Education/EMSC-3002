@@ -110,8 +110,7 @@ This image is drawn approximately to scale
 The circulation currents in the *solid mantle* move at a few cm/yr and plate motions are 
 part of the overall circulation. 
 
-Mantle Plumes are also part of the overall circulation but much smaller than the slabs because 
-they are cylindrical rather than sheets. 
+Mantle Plumes are also part of the overall circulation but much smaller than the slabs because they are cylindrical rather than sheets. 
 
 Flow in the mantle is broad scale - small structures induce broad flow. 
 
