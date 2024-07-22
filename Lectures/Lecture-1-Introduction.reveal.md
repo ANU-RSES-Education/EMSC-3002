@@ -124,6 +124,8 @@ This course is designed to develop an advanced understanding of deformation proc
 
   - Apply an understanding of structural geology in sustainable mining and basin management.
 
+<--o-->
+
 ## EMSC 3034 v EMSC 3002
 
 *Dynamic Earth: Plates, Plumes and Mantle Convection* deals with global scale dynamics of the Earth as a planet. The focus is on how plate tectonics works as a by-produce of mantle convection, and how we use that knowledge to understand the geological record.

@@ -15,8 +15,8 @@ revealOptions:
 ## Module 1.1 - Global Deformation Patterns
 
   - **Louis Moresi** (convenor)
-  - Romain Beucher (lecturer)
   - Chengxin Jiang (lecturer)
+  - Romain Beucher (former lecturer)
   - Stephen Cox (curriculum advisor)
 
 Australian National University
@@ -73,11 +73,11 @@ What you will learn about global tectonics.
 
 <--o-->
 
-## The Earth in Cross Section
+## The Earth in Cross Section 
 
 <div style="width:30%; float:right"> 
 
-![EarthXsection](images/GlobalTectonics/EarthXsection.svg) 
+![EarthXsection](images/GlobalTectonics/EarthXsection.png) 
 
 </div>
 
@@ -101,7 +101,7 @@ This image is drawn approximately to scale
 
 <div style="width:30%; float:right"> 
 
-![EarthXsection](images/GlobalTectonics/EarthXsection.svg) 
+![EarthXsection](images/GlobalTectonics/EarthXsection.png) 
 
 </div>
 
@@ -147,7 +147,7 @@ This map shows the relative thickness of the crust and the lithosphere (thick cr
 
 ## Global Stress 
 
-![](https://www.researchgate.net/profile/Oliver-Heidbach/publication/327061751/figure/fig2/AS:675475772940291@1538057382465/The-World-Stress-Map-WSM-2016-displays-the-contemporary-crustal-stress-orientation-in_W640.jpg) <!-- .element style="float:right; margin-top:50px;margin-bottom:50px; width:50%; margin-left:50px" -->
+![](images/GlobalTectonics/World_Stress_Map.jpeg) <!-- .element style="float:right; margin-top:50px;margin-bottom:50px; width:50%; margin-left:50px" -->
 
 The World Stress Map (WSM) 2016 displays the contemporary crustal stress orientation in the upper 40 km based on the WSM database release 2016. Lines show the orientation of maximum horizontal stress. The colours indicate whether stresses are:
 
