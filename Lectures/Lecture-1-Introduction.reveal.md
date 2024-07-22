@@ -212,7 +212,7 @@ The final exam will be worth 40% of the course.
 </center>
 </div>
 
-Two hour practicals each week (three hours allocated for us to use this lab). We hope we can run a short, local field trip this year and we will have a number of exercises in virtual mapping to prepare. We will be spending some time running and interpreting analogue-geology experiments in the sandbox (above).
+Two hour practicals each week with an associated tutorial (three hours allocated for us to use this lab). We hope we can run a short, local field trip this year and we will have a number of exercises in virtual mapping to prepare. We will be spending some time running and interpreting analogue-geology experiments in the sandbox (above).
 
 <--o-->
 
