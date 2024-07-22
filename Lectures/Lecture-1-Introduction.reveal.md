@@ -54,8 +54,8 @@ with lecture materials and lecture notes. This is a live document and we can upd
 to fix bugs and add material. You can create feedback for the pages. The original
 "source code" for the slides etc is also available
 
- - [EMSC3002/6030](https://wattlecourses.anu.edu.au/course/view.php?id=34828) on Wattle
- - [EMSC3002](https://programsandcourses.anu.edu.au/2022/course/EMSC3002) on programs & courses
+ - [EMSC3002/6030](https://wattlecourses.anu.edu.au/course/view.php?id=43913) on Wattle
+ - [EMSC3002](https://programsandcourses.anu.edu.au/2024/course/EMSC3002) on programs & courses
 
 </div>
 
