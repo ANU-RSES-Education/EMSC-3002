@@ -1,7 +1,7 @@
 ---
 title: Introduction to EMSC 3002
 revealOptions:
-#    transition: 'fade'
+    transition: 'concave'
     slideNumber: true
     width:  1100
     height: 750
@@ -25,7 +25,7 @@ diminishing the traditional knowledge.
 
 <--o-->
 
-## Introduction to Structural Geology & Tectonics
+## Structure and Tectonic Evolution of the Australian Plate
 
   - **Louis Moresi** (convenor - J2 room 231)
   - **Chengxin Jiang** (lecturer - J2 ground floor)
