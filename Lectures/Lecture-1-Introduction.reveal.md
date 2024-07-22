@@ -169,9 +169,29 @@ I am a seismologist broadly interested in tectonic, magmatic and near surface ge
 
 <--v-->
 
+
+## Lecturers
+
+![CJ](images/Introduction/Mugshot-Gouramanis.jpg)   <!-- .element style="width:20%; float:right; margin-top:50px" -->
+
+<div style="width:75%">
+
+**Chris Gouramanis**
+
+My research interests are diverse and varied, but my primary focus is to examine understand how past, current and future climate change and related natural hazards will affect surface and groundwater resources and the environments they support.
+
+I am particularly interested in how both climate hazards and geophysical hazards affect water resources and have studied the impacts of hazards on surface waters and groundwater.
+
+As Australia's National Focal Point to the Scientific and Technical Review Panel to the Convention on Wetlands of International Importance especially as Waterfowl Habitat, also known as the Ramsar Convention, I work with the Australian Government to appropriately use the best available science to guide better wetland conservation.
+
+</div>
+
+<--v-->
+
+
 ## Demonstrators
 
-![CG](images/Introduction/Mugshot-Carlos2.jpg)   <!-- .element style="width:30%; float:right; margin-top:50px" -->
+![CG](images/Introduction/Mugshot-TBA.jpg)   <!-- .element style="width:30%; float:right; margin-top:50px" -->
 
 
 <div style="width:70%">
