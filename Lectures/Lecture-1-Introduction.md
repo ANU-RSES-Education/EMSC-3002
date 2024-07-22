@@ -11,7 +11,7 @@ The nature of the course and some things you need to know are in this slideshow.
 The slides are in a 2D stack that have follow-on (sometimes more advanced material) below the regular flow of the presentation. The navigation area allows you to click through the slides but you can also:
 
   - Hit **F** for full screen  (ESC to get back to normal)
-  - Hit **O** for the navigation / overview (above) 
+  - Hit **O** for the navigation / overview (above)
   - Use the arrow keys as a navigation shortcut
 
 
@@ -20,7 +20,7 @@ The slides are in a 2D stack that have follow-on (sometimes more advanced materi
   1. [EMSC3002/6030](https://wattlecourses.anu.edu.au/course/view.php?id=40252) on Wattle
   1. [Programmes and courses](https://programsandcourses.anu.edu.au/2023/course/EMSC3002)
 
-## Overview 
+## Overview
 
 The material in the course is split into five modules that cover:
 
@@ -35,8 +35,7 @@ There are links to helpful external sites and background reading that you can fi
 
 ### Remote Participation
 
-All lectures will be recorded using echo360. There is a zoom link on wattle which we will use if the lecturer 
-cannot be present in person.
+All lectures will be recorded using echo360. There is a zoom link on wattle which we will use if the lecturer cannot be present in person.
 
 ### Summary of Course Assessment
 
@@ -49,4 +48,3 @@ There will be a poster presentation and final report that together make up 20% o
 The final exam will be worth 40% of the course.
 
 *We are, of course, open to some negotiation of the weight of the assessment tasks and their timing where this helps to cement the learning goals.*
-
