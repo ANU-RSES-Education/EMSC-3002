@@ -226,7 +226,7 @@ Two hour practicals each week with an associated tutorial (three hours allocated
 
 Introduces the concepts of global-scale tectonics, plate motions, the nature of plate boundaries and the geological structures characteristic of large-scale deformation of the crust.
 
-**Louis Moresi** will lead this part of the course in 2022.
+**Louis Moresi** will lead this part of the course.
 
 <small>
 
@@ -246,7 +246,7 @@ This module aims to develop student intuition and proficiency in 3- and 4-dimens
 
 You will be given an overview of the geometry and type of structures produced by complex crustal deformation histories involving contractional, extensional and wrench regimes over a wide range of spatial and temporal scales. You will learn how to recognise structural features using satellite imagery, geological maps and will learn how to construct geological profiles.
 
-**Louis Moresi** will lead this part of the course in 2022.
+**Louis Moresi** will lead this part of the course.
 
 <--v-->
 
@@ -258,7 +258,7 @@ You will be given an overview of the geometry and type of structures produced by
 
 In order to understand geological structures in more detail, we need some background understanding of how stresses and strains work, how they are measured, and how you can use these concepts to interpret what you see in the field.
 
-**Chengxin Jiang** will lead this part of the course in 2022.
+**Chengxin Jiang** will lead this part of the course.
 
 <small>
 
@@ -275,7 +275,7 @@ In order to understand geological structures in more detail, we need some backgr
 
 When rocks undergo rapid, localised deformation, refer to the process as “brittle deformation”. Typically brittle features in the Earth’s crust are faults and we can understand much about the stress and deformation if we understand faults, their rupture and associated seismic energy release.
 
-**Chengxin Jiang** will lead this part of the course in 2022.
+**Chengxin Jiang** will lead this part of the course.
 
 <small>
 
@@ -297,7 +297,7 @@ Ductile deformation occurs when rocks are able to accommodate large deformations
 
 We will see how folds represent important windows into local and regional deformation histories. You will learn how to describe geometry and different styles of folding and will understand how we can use them to derive important information about the type of deformation. You will then learn about structures associated with folding and see how they can be used to map and understand the deformation history.
 
-**Chengxin Jiang** will lead this part of the course in 2022.
+**Chengxin Jiang** will lead this part of the course.
 
 <--o-->
 
@@ -310,23 +310,6 @@ We will see how folds represent important windows into local and regional deform
   - Join the Earth & Marine Science Society: https://www.facebook.com/anuems/
 
   - Come and talk to us if you have problems (you have access to the school).
-
-
-<!--
-## Scipals
-
-![Fold](images/Introduction/Mentors.png) <!-- .element style="width:20%; float:right; margin:30px" -->
-Are you a second year or later STEM student wanting to share tips and tricks that helped you survive your STEM journey at ANU? Are you interested in developing mentoring skills? Do you want to claim those ANU+ hours?
-
-Science Society ANU has just the right program for you!
-
-SciPals is an ANU+ accredited program that aims to bring the ANU STEM community closer together by connecting new students with older year mentors such as yourself.
-
-As a mentor, you’ll be paired with a small group of first year science students who will benefit tremendously from your advice and you’ll get to see their growth throughout the semester.
-
-**Sign-ups will be closing on the 27th of July, so sign-up now !!**
--->
-
 
 <--o-->
 
