@@ -42,13 +42,34 @@ The different way rocks respond to stress.
 
 ### Plate Kinematics and reconstruction
 
-If we understand the *kinematics* of plate boundary evolution, then we can run a configuration backwards in time to observe the earlier configuration. In this short concluding part of the module, we cast the observations about plate deformation in the form of hard-and-fast rules and we see what we can do with them.
+If we understand the *kinematics* of plate boundary evolution,
+then we can run a configuration backwards in time to observe the
+earlier configuration. In this short concluding part of the module,
+we cast the observations about plate deformation in the form of hard-and-fast rules
+and we see what we can do with them.
+
+The "rules" of plate boundary kinematics and how they can be used.
+
+<center>
+<iframe src="../PDFs/EMSC3002_pt_rules.pdf" width="66%" height="300px", allowfullscreen>
+</iframe>
+</center>
+
+(This is a pdf presentation)
+
+
+
 
 ## Links
 
-The plate reconstruction community uses a tool known as [GPlates](https://www.gplates.org) that was developed at the University of Sydney (along with many international collaborators). There is a portal where you can [browse interactive movies](http://portal.gplates.org) of plates moving over hundreds of millions of years with various data visualised on the moving plates.
+The plate reconstruction community uses a tool known as [GPlates](https://www.gplates.org) that
+was developed at the University of Sydney (along with many international collaborators).
+There is a portal where you can [browse interactive movies](http://portal.gplates.org)
+of plates moving over hundreds of millions of years with various data visualised
+on the moving plates.
 
-This is the link to the USGS page on the M8.2 Earthquake in Alaska during the week of lectures: [USGS News and Analysis](https://www.usgs.gov/news/magnitude-82-earthquake-alaska)
+This is the link to the USGS page on a recent M8.2 Earthquake in Alaska:
+[USGS News and Analysis](https://www.usgs.gov/news/magnitude-82-earthquake-alaska)
 
 
 ## Background Reading
