@@ -20,9 +20,9 @@ revealOptions:
 
 Australian National University
 
-_**NB:** the course materials provided by the authors are open source under a creative commons licence. 
-We acknowledge the contribution of the community in providing other materials and we endeavour to 
-provide the correct attribution and citation. Please contact louis.moresi@anu.edu.au for updates and 
+_**NB:** the course materials provided by the authors are open source under a creative commons licence.
+We acknowledge the contribution of the community in providing other materials and we endeavour to
+provide the correct attribution and citation. Please contact louis.moresi@anu.edu.au for updates and
 corrections._
 
 <--o-->
@@ -39,16 +39,21 @@ corrections._
 
 <--o-->
 
+!<--
 ## Intended learning outcomes
+-->
 
-<--o-->
+
+
 ## Structural Geology and Crustal deformation
 
 **What is it about?**
 
-Structural geology covers deformation structures formed in the Earth's crust and in the underlying mantle in response to tectonic forces, in the cool upper part where the rocks have a tendency to fracture and in the hotter lower part where the deformation tends to be ductile.
+Structural geology covers deformation structures formed in the Earth's crust and in the underlying mantle
+in response to tectonic forces, in the cool upper part where the rocks have a tendency to fracture and
+in the hotter lower part where the deformation tends to be ductile.
 
-Deformations structures can form almost instantaneously like during earthquakes or over millions of years like mountains.
+Deformations structures can form almost instantaneously as they do during earthquakes or over millions of years like mountains.
 
 <--o-->
 
@@ -80,8 +85,8 @@ Deformations structures can form almost instantaneously like during earthquakes 
 <div>
 <div style="width:50%; float:left">
 
-Structural geology studies structures at the scale of hundreds of kilometers down to micro- or atomic scales.
-
+Structural geology studies structures at the scale of hundreds of kilometers
+all the way down to micro- or atomic scales.
 
 - **Macroscopic**: regional, crustal scale observations.
 - **Mesoscopic**: outcrop observations.
@@ -115,12 +120,32 @@ Structural geology studies structures at the scale of hundreds of kilometers dow
 </div>
 </div>
 
+<--v-->
+
+## Structural Geology and Crustal deformation
+
+<div>
+<div style="width:50%; float:left; margin: 0; position: absolute; top: 50%; -ms-transform: translateY(-50%); transform: translateY(-50%)">
+
+**Charles Lyell - Principles of Geology**:
+
+*the present is the key to the past*
+(Charles Lyell, Principles of Geology, published between 1830-1833)
+
+</div>
+<div style="width:50%; float:right">
+
+![](https://www.geolsoc.org.uk/~/media/shared/images/education%20careers/podcasts/lyell.jpg) <!-- .element style="float: right" height="100%" -->
+
+</div>
+</div>
+
 <--o-->
 ## Structural Geology, Tectonics, Geodynamics...
 
 Structural Geology, Tectonics and Geodynamics form a coherent and interdependent ensemble of sub-disciplines, the aim of which is the search for knowledge about how minerals, rocks and rock formations, and Earth systems (i.e., crust, lithosphere, asthenosphere ...) deform and via which processes.
 
-**Structural Geology** is about **structures** 
+**Structural Geology** is about **structures**
 
 **Tectonics** aims at unraveling the geological context in which deformation occurs. It involves integration of
 structural geology information (maps, cross section, measurements etc.) and other disciplines (e.g. sedimentology,
@@ -129,12 +154,12 @@ It focuses on processes such as **continental rifting**, **subduction**, **colli
 
 **Geodynamics** focuses on the forces that drives mantle convection, plate tectonics and the deformation of Earth's material.
 Geodynamics is interested in deep mantle and lithospheric processes and their link to plate motion and deformation.
-Geodynamics operates on scales greater than 100km. 
+Geodynamics operates on scales greater than 100km.
 
 
 <--o-->
 
-## Range of methods to approach structural geology
+## Range of methods to approach structures
 
 <div>
 <div style="width:50%; float:left">
@@ -156,7 +181,7 @@ the formation of structures and their meaning.
 
 <--o-->
 
-## Range of methods to approach structural geology
+## Range of methods to approach structures
 
 <div>
 <div style="width:50%; float:left">
@@ -178,7 +203,7 @@ the formation of structures and their meaning.
 
 <--o-->
 
-## Range of methods to approach structural geology
+## Range of methods to approach structures
 
 <div>
 <div style="width:50%; float:left">
@@ -199,7 +224,7 @@ the formation of structures and their meaning.
 </div>
 
 <--o-->
-## Range of methods to approach structural geology
+## Range of methods to approach structures
 
 <div>
 <div style="width:50%; float:left">
@@ -228,7 +253,7 @@ the formation of structures and their meaning.
 
 <--o-->
 
-## The Workflow of Structural Geology and Tectonics
+## The Workflow of Tectonics and Structural Geology
 
 <div>
 <div style="width:40%; float:left">
@@ -237,7 +262,7 @@ the formation of structures and their meaning.
 
 *Field Observations, mapping, cross-section, 3D block diagrams.*
 
-The aim is to understand **finite strain** (i.e. the end product of long, sometimes polyphased deformation histories),
+The aim is to understand **finite strain** (i.e. the end product of long, sometimes poly-phase deformation histories),
 and **incremental strain** (i.e., the small increment of deformation to unravel the stages of deformation.)
 
 </div>
@@ -249,15 +274,15 @@ and **incremental strain** (i.e., the small increment of deformation to unravel 
 </div>
 
 <--o-->
-## The Workflow of Structural Geology and Tectonics
+## The Workflow of Tectonics and Structural Geology
 
 <div>
 <div style="width:40%; float:left">
 
-The structural geologist wants to understand **strain fields** by mapping features such as foliations, lineations etc. and determine 
+We would like to understand **strain fields** by mapping features such as foliations, lineations etc. and determine
 the principal directions of shortening and lengthening.
 
-The structural geologist studies the **kinematics** of faults and shear zones, and the magnitude of the displacement involved.
+Structural geologists study the **kinematics** of faults and shear zones, and the magnitude of the displacement involved.
 This can be used to infer the direction of the maximum and minimum **stress directions** at a range of scales.
 </div>
 <div style="width:60%; float:right">
@@ -269,7 +294,7 @@ This can be used to infer the direction of the maximum and minimum **stress dire
 
 <--o-->
 
-## The Workflow of Structural Geology and Tectonics
+## The Workflow of Tectonics and Structural Geology
 
 <div>
 <div style="width:40%; float:left">
@@ -304,7 +329,7 @@ source: Brune et al, 2017
 Brune, S., Corti, G., and Ranalli, G. Controls of inherited lithospheric heterogeneity on rift linkage: Numerical and analogue models of interaction between the Kenyan and Ethiopian rifts across the Turkana depression: Tectonics, p. 2017TC004739, doi: 10.1002/2017TC004739.
 
 <--o-->
-## Methods of Structural Geology and Tectonics
+## Methods of Tectonics and Structural Geology
 ### Data Acquisition: Field Geology
 
 
@@ -318,10 +343,10 @@ and **plunge**, **plunge direction** of linear features (fold axes, lineations..
 When possible, structural geologist can determine the **magnitude** of **strain**, the **stress** orientations.
 They can also determine the **kinematics**, sense of displacement along faults and shear zones.
 
-**Cross-cutting relationships** are used determine the sequence of geological events. 
+**Cross-cutting relationships** are used determine the sequence of geological events.
 
 <--o-->
-## Methods of Structural Geology and Tectonics
+## Methods of Tectonics and Structural Geology
 ### Data Acquisition: Geophysics
 
 ![](Module-ii-Figures-Structural-Geology-And-Crustal-Deformation/StructuralGeology/Australia_Magnetic_anomaly_TMI-map_lg.jpg) <!-- .element style="float: right" width="50%" -->
@@ -335,7 +360,7 @@ Spectral images at various wavelengths can be used to map the distribution of mi
 *Sixth edition Total Magnetic Intensity (TMI) Anomaly Grid of Australia*
 
 <--o-->
-## Methods of Structural Geology and Tectonics
+## Methods of Tectonics and Structural Geology
 ### Data Acquisition: Geophysics
 
 ![](Module-ii-Figures-Structural-Geology-And-Crustal-Deformation/StructuralGeology/Geophysics_Seismic_profile.jpg) <!-- .element style="float: right" width="40%" -->
@@ -346,7 +371,7 @@ method such as gravimetry annd seismic surveys.
 Gravimetry gives information about the distribution of **densities** whereas seismology reveal variation in **elastic properties**.
 
 Active seismic methods include seismic refraction and reflection and involve artificially induces elastic waves (explosive, air canon, vibration truck).
-Passive seimic uses earthquakes to image the structures and interfaces at depth (e.g., Moho).  
+Passive seimic uses earthquakes to image the structures and interfaces at depth (e.g., Moho).
 
 <--v-->
 
@@ -355,7 +380,7 @@ Passive seimic uses earthquakes to image the structures and interfaces at depth 
 Faults and graben structure, offshore Tunisia (Riv Butler, Seismic Atlas https://see-atlas.leeds.ac.uk/)
 
 <--o-->
-## Methods of Structural Geology and Tectonics
+## Methods of Tectonics and Structural Geology
 ### Data Synthesis and Analysis
 
 <div>
@@ -378,14 +403,14 @@ Structural data and analysis are summarized in various documents:
 
 <--o-->
 
-## What makes a good structural geologist?
+## What makes a good structural geologist / tectonicist ?
 
 </div>
 <div style="width:50%; float:left">
 
 - The ability to think in 3D and to solve large scale 4D puzzles.
 - The ability to interact with a large range of geoscientists over a wide range of geological and environmental problems.
-- The ability to link field studies to computational modelling.
+- The ability to link field studies to computational modelling / theoretical modelling
 
 </div>
 <div style="width:50%; float:right">
@@ -398,16 +423,29 @@ Structural data and analysis are summarized in various documents:
 <--o-->
 ## Who needs Structural Geology?
 
-**Hydrocarbon and Mineral exploration**
+**Resource and Mineral exploration**
 
-Structures control the migration, trapping and escape of hydrocarbon fluids. Structural geology is the first stage to any regional geophysical and geochemical surveys aiming at identifying new mineralized provinces. It is also critical for the interpretation of geophysical, geochemical, and geochronological data. At the mine camp scale, structural geology guide the mining process.
+ - Structures control the migration, trapping and escape of deep fluids (e.g. hydrocarbons, hydrogen, helium)
+ - Structures control the flow of groundwater, stored CO~2~
+ - Structural geology is the first stage to any regional geophysical and geochemical surveys aiming at identifying new mineralized provinces.
+
+It is also critical for the interpretation of geophysical, geochemical, and geochronological data.
+At the mine camp scale, structural geology guide the mining process.
+
+
 
 <--o-->
 ## Who needs Structural Geology?
 
-**Geotechnique**
+**Geotechnical Research and Applications**
 
-Structural geology is at the core of geotechnical site assessment for bridges, dams, tunnels, nuclear reactors, waste disposals etc. Because of the obvious relationship between faults and earthquake, structural geology is that core of earthquake prevention and earthquake seismology.
+Structural geology / tectonics is at the core of geotechnical site assessment for bridges, dams, tunnels, nuclear reactors,
+waste disposals etc. Because of the obvious relationship between faults and earthquake,
+structural geology is that core of earthquake prevention and earthquake seismology.
+
+At the engineering-scale, structural geology
+guides the construction of underground structures and open excavations / slopes.
+Don't build a dam before understanding the local faults, geological units, and geomorphology.
 
 <--o-->
 ## Who needs Structural Geology?
@@ -423,7 +461,7 @@ Structural geology is central to any study of past and present mountain belts an
 ![Plates-USGS](https://upload.wikimedia.org/wikipedia/commons/thumb/8/8a/Plates_tect2_en.svg/2560px-Plates_tect2_en.svg.png) <!-- .element style="float:right; width:30%"-->
 
 The Theory of Plate Tectonics describe how Earth's crust is broken into tectonic plates that move about the surface.
-The interactions between those plates essentially occur at the boundaries. 
+The interactions between those plates essentially occur at the boundaries.
 
 We typically distinguished between:
 - Convergent boundaries
@@ -467,9 +505,9 @@ Sedimentary basins: crustal stretching.
 <div>
 <div style="width:50%; float:left">
 
-When divergent boundaries occur in continental plates, a different geological feature, called a rift valley, is formed. These depressions slowly fill with water, forming lakes, as their level drops. Ultimately, they will form the floor of a new ocean. 
+When divergent boundaries occur in continental plates, a different geological feature, called a rift valley, is formed. These depressions slowly fill with water, forming lakes, as their level drops. Ultimately, they will form the floor of a new ocean.
 
-*An example of this type of geological feature is the East African Rift Zone.* 
+*An example of this type of geological feature is the East African Rift Zone.*
 
 </div>
 <div style="width:50%; float:right">
