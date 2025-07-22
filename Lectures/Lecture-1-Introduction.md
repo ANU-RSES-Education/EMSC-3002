@@ -35,7 +35,7 @@ There are links to helpful external sites and background reading that you can fi
 
 ### Remote Participation
 
-All lectures will be recorded using echo360. There is a zoom link on wattle which we will use if the lecturer cannot be present in person.
+All lectures will be recorded using echo360. If the lecturers are isolating or unable to come to the lecture room for any reason, we will publish a zoom link in advance.
 
 ### Summary of Course Assessment
 
@@ -43,7 +43,7 @@ There will be 5 short quizzes during the semester that will help you to calibrat
 
 Lab-based assessments will be worth 20% of the course in total. One assessment will be an exercise on interpreting sandbox models that you will be running in the lab. The second will be a mapping exercise.
 
-There will be a poster presentation and final report that together make up 20% of the course assessment.
+There will be a poster- or slide-based- presentation  and final report that together make up 20% of the course assessment.
 
 The final exam will be worth 40% of the course.
 
