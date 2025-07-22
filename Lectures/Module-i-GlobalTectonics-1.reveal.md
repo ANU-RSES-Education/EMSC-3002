@@ -1,5 +1,5 @@
 ---
-title: EMSC 3002 - Plate Tectonics 
+title: EMSC 3002 - Plate Tectonics
 separator: '<--o-->'
 verticalSeparator: '<--v-->'
 revealOptions:
@@ -21,9 +21,9 @@ revealOptions:
 
 Australian National University
 
-_**NB:** the course materials provided by the authors are open source under a creative commons licence. 
-We acknowledge the contribution of the community in providing other materials and we endeavour to 
-provide the correct attribution and citation. Please contact louis.moresi@anu.edu.au for updates and 
+_**NB:** the course materials provided by the authors are open source under a creative commons licence.
+We acknowledge the contribution of the community in providing other materials and we endeavour to
+provide the correct attribution and citation. Please contact louis.moresi@anu.edu.au for updates and
 corrections._
 
 <--o-->
@@ -54,7 +54,7 @@ This part of the course introduces the concepts of global-scale tectonics, plate
 
 Plate tectonics is a scientific theory describing the large-scale motion of the plates making up the Earth's lithosphere since tectonic processes began on Earth *between 3.3 and 3.5 billion years ago*. The model builds on the concept of continental drift, an idea developed during the first decades of the 20th century. The geoscientific community accepted plate-tectonic theory after seafloor spreading was validated in the late 1950s and early 1960s.
 
-The lithosphere, which is the rigid outermost shell of a planet (the crust and upper mantle), is broken into tectonic plates. The Earth's lithosphere is composed of seven or eight major plates (depending on how they are defined) and many minor plates. Where the plates meet, their relative motion determines the type of boundary: convergent, divergent, or transform. 
+The lithosphere, which is the rigid outermost shell of a planet (the crust and upper mantle), is broken into tectonic plates. The Earth's lithosphere is composed of seven or eight major plates (depending on how they are defined) and many minor plates. Where the plates meet, their relative motion determines the type of boundary: convergent, divergent, or transform.
 
 Earthquakes, volcanic activity, mountain-building, and oceanic trench formation occur along these plate boundaries (or faults). The relative movement of the plates typically ranges from zero to 100 mm annually.
 
@@ -73,17 +73,17 @@ What you will learn about global tectonics.
 
 <--o-->
 
-## The Earth in Cross Section 
+## The Earth in Cross Section
 
-<div style="width:30%; float:right"> 
+<div style="width:30%; float:right">
 
-![EarthXsection](images/GlobalTectonics/EarthXsection.png) 
+![EarthXsection](images/GlobalTectonics/EarthXsection.png)
 
 </div>
 
 <div style="width:70%">
 
-This image is drawn approximately to scale 
+This image is drawn approximately to scale
 
   - The **core** is roughly 1/2 the radius (1/8 volume) and the **inner core** is roughly 1/2 the radius of the core </br>
 
@@ -99,23 +99,23 @@ This image is drawn approximately to scale
 
 ## The Earth in Cross Section
 
-<div style="width:30%; float:right"> 
+<div style="width:30%; float:right">
 
-![EarthXsection](images/GlobalTectonics/EarthXsection.png) 
+![EarthXsection](images/GlobalTectonics/EarthXsection.png)
 
 </div>
 
 <div style="width:70%">
 
-The circulation currents in the *solid mantle* move at a few cm/yr and plate motions are 
-part of the overall circulation. 
+The circulation currents in the *solid mantle* move at a few cm/yr and plate motions are
+part of the overall circulation.
 
-Mantle Plumes are also part of the overall circulation but much smaller than the slabs because 
-they are cylindrical rather than sheets. 
+Mantle Plumes are also part of the overall circulation but much smaller than the slabs because
+they are cylindrical rather than sheets.
 
-Flow in the mantle is broad scale - small structures induce broad flow. 
+Flow in the mantle is broad scale - small structures induce broad flow.
 
-On a global scale, movement is slow and viscous, especially in the deep mantle. 
+On a global scale, movement is slow and viscous, especially in the deep mantle.
 
 
 </div>
@@ -134,7 +134,7 @@ This map shows the lithospheric thickness coloured as though it refers to temper
 
 ![Litho-LAB-2](images/GlobalTectonics/LithosphereThickness.png) <!-- .element style="display:block; margin-left:auto; margin-right:auto; width:60%" -->
 
-A similar map that *contours* the thickest parts of the lithosphere (scale is in km) and leaves out the oceans altogether. 
+A similar map that *contours* the thickest parts of the lithosphere (scale is in km) and leaves out the oceans altogether.
 
 <--v-->
 
@@ -146,19 +146,39 @@ This map shows the relative thickness of the crust and the lithosphere (thick cr
 
 <--o-->
 
-## Global Stress 
+## Global Stress
 
 ![](images/GlobalTectonics/World_Stress_Map.jpeg) <!-- .element style="float:right; margin-top:50px;margin-bottom:50px; width:50%; margin-left:50px" -->
 
 The World Stress Map (WSM) 2016 displays the contemporary crustal stress orientation in the upper 40 km based on the WSM database release 2016. Lines show the orientation of maximum horizontal stress. The colours indicate whether stresses are:
 
-  - Normal faulting 
-  - Strike slip 
+  - Normal faulting
+  - Strike slip
   - Thrust faulting
 
 So, already, we can see that the state of stress and deformation style are closely linked. Note that the **magnitude** of the stress is not part of this map.
 
 <--v-->
+
+## Australian Stress field
+
+![](images/GlobalTectonics/StressMaps_WSM.png) <!-- .element margin-top:50px;margin-bottom:50px; width:50%; margin-left:50px" -->
+
+Close up of the World Stress Map, focussing on the data in Australia. Note that many areas are completely unconstrained by observations in this map.
+
+<--v-->
+
+## Australian Stress field - Trajectories
+
+![](images/GlobalTectonics/StressMaps_AusTrajectories.png) <!-- .element margin-top:50px;margin-bottom:50px; width:50%; margin-left:50px" -->
+
+The "stress-trajectories" for Australia (left) that show the "flow lines" of the compressional stress direction. These interpolate the actual data in a smooth fashion. On the right, a computational model of the stress field based on plate boundary forces and mantle drag forces.
+
+<--v-->
+
+
+
+StressMaps_WSM.png
 
 ## Global Seismicity
 
@@ -189,7 +209,7 @@ Usually this takes the form of a fault that already exists sliding because the s
 
 The strain rate is a measure of how fast deformation is taking place. Strain rate is a measure of the rate of change of length (units are $s^{-1}$) *and* it is a tensor: there are multiple components that represent normal and shear strains. The measure shown here is an average (the second invariant).
 
-The rate of deformation is related to two things: the stress applied and the strength of the material. 
+The rate of deformation is related to two things: the stress applied and the strength of the material.
 
 <small>
 
@@ -223,7 +243,7 @@ Make your own map from the NOAA natural hazards interactive web page: [https://m
 
 Plate tectonics is a scientific theory describing the large-scale motion of the plates making up the Earth's lithosphere since tectonic processes began on Earth *between 3.3 and 3.5 billion years ago*. The model builds on the concept of continental drift, an idea developed during the first decades of the 20th century. The geoscientific community accepted plate-tectonic theory after seafloor spreading was validated in the late 1950s and early 1960s.
 
-The lithosphere, which is the rigid outermost shell of a planet (the crust and upper mantle), is broken into tectonic plates. The Earth's lithosphere is composed of seven or eight major plates (depending on how they are defined) and many minor plates. Where the plates meet, their relative motion determines the type of boundary: convergent, divergent, or transform. 
+The lithosphere, which is the rigid outermost shell of a planet (the crust and upper mantle), is broken into tectonic plates. The Earth's lithosphere is composed of seven or eight major plates (depending on how they are defined) and many minor plates. Where the plates meet, their relative motion determines the type of boundary: convergent, divergent, or transform.
 
 Earthquakes, volcanic activity, mountain-building, and oceanic trench formation occur along these plate boundaries (or faults). The relative movement of the plates typically ranges from *zero to 100 mm annually*.
 
@@ -231,12 +251,12 @@ Earthquakes, volcanic activity, mountain-building, and oceanic trench formation 
 
 ## Discussion points
 
-  1. How can we measure plate motions (now, in the past ?)  
+  1. How can we measure plate motions (now, in the past ?)
   1. Does plate tectonics really apply to the continents ?
-  1. What is the most obvious difference between the response of continental crust and oceanic to 
+  1. What is the most obvious difference between the response of continental crust and oceanic to
      mantle forcing ?
 
-We will revisit these questions throughout the course. 
+We will revisit these questions throughout the course.
 
 <--o-->
 
@@ -246,9 +266,9 @@ We will revisit these questions throughout the course.
 
 <div>
 
-This map is the plate motions derived from the NUVEL-1 model in a No-Net-Rotation frame of reference in which the major contienental masses do not move very much. 
+This map is the plate motions derived from the NUVEL-1 model in a No-Net-Rotation frame of reference in which the major contienental masses do not move very much.
 
-  1. We only measure the relative motion of plates relative to one another. 
+  1. We only measure the relative motion of plates relative to one another.
   2. The speed of the plates can vary even though they are rigid because their motion is described by their **angular velocity** about a pole (Euler pole).
 
 </div>
@@ -264,7 +284,7 @@ You can build your own global dataset of plate motions from a UNAVCO website her
 
 ## Plate Boundaries
 
-The regions of highest strain rate at the surface of the Earth are the plate boundaries. 
+The regions of highest strain rate at the surface of the Earth are the plate boundaries.
 
 <center>
 
@@ -272,7 +292,7 @@ The regions of highest strain rate at the surface of the Earth are the plate bou
 
 </center>
 
-The styles and patterns of deformation are very dependent on the orientation of the stresses that are acting at the boundary. 
+The styles and patterns of deformation are very dependent on the orientation of the stresses that are acting at the boundary.
 
 <--o-->
 
@@ -285,7 +305,7 @@ The styles and patterns of deformation are very dependent on the orientation of 
 
 </center>
 
-This map includes diagrams of the physical processes that are happening at the smaller scale at each type of plate boundary. 
+This map includes diagrams of the physical processes that are happening at the smaller scale at each type of plate boundary.
 
 <small>
 World Map of Plate Boundaries, Bonnie Magura (Portland Public Schools) and Chris Hedeen (Oregon City High School) from https://serc.carleton.edu/ANGLE/educational_materials/activities/204690.html
@@ -303,9 +323,9 @@ Do you know the answers to these questions ?
     </br>
   - How fast do the plates move (typically / roughly) ?
     </br>
-  - What evidence do we have that plates are "rigid" ? 
+  - What evidence do we have that plates are "rigid" ?
     </br>
   - Is plate tectonics really a theory about plates ?
-    
-    
+
+
 <--o-->
