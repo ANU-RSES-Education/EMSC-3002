@@ -40,7 +40,6 @@ diminishing the traditional knowledge.
 
   - **Louis Moresi** (convenor - J2 room 231)
   - **Chengxin Jiang** (lecturer - J2 ground floor)
-  - **Chris Gouramanis** (lecturer - J8 top floor)
 
 **Contributing Authors:** Romain Beucher (former lecturer), Stephen Cox (curriculum advisor)
 
@@ -65,8 +64,8 @@ with lecture materials and lecture notes. This is a live document and we can upd
 to fix bugs and add material. You can create feedback for the pages. The original
 "source code" for the slides etc is also available
 
- - [EMSC3002/6030](https://wattlecourses.anu.edu.au/course/view.php?id=43913) on Wattle
- - [EMSC3002](https://programsandcourses.anu.edu.au/2024/course/EMSC3002) on programs & courses
+- [EMSC3002/6030](https://canvas.anu.edu.au/courses/3450) on Canvas
+- [EMSC3002](https://programsandcourses.anu.edu.au/2025/course/EMSC3002) on programs & courses
 
 </div>
 
@@ -145,7 +144,7 @@ This course is designed to develop an advanced understanding of deformation proc
 
 *Dynamic Earth: Plates, Plumes and Mantle Convection* deals with global scale dynamics of the Earth as a planet. The focus is on how plate tectonics works as a by-produce of mantle convection, and how we use that knowledge to understand the geological record.
 
-*Structural Geology & Tectonics* focuses on the dynamics of the lithosphere and the emergence of geological structure from the forces at work in the crust. We will delve deeply into the mechanical behaviour of the lithosphere and how we can interpret and predict geological structures by knowing something about the energy / force balance.
+*Structural & Tectonic Evolution of the Australian Plate* focuses on the dynamics of the lithosphere and the emergence of geological structure from the forces at work in the crust. We will delve deeply into the mechanical behaviour of the lithosphere and how we can interpret and predict geological structures by knowing something about the energy / force balance.
 
 <--o-->
 
@@ -183,25 +182,6 @@ I am a seismologist broadly interested in tectonic, magmatic and near surface ge
 
 <--v-->
 
-## Lecturers
-
-![CG](images/Introduction/Mugshot-Gouramanis.jpg)   <!-- .element style="width:20%; float:right; margin-top:50px" -->
-
-<div style="width:75%">
-
-**Chris Gouramanis**
-
-My research interests are diverse and varied, but my primary focus is to examine understand how past, current and future climate change and related natural hazards will affect surface and groundwater resources and the environments they support.
-
-I am particularly interested in how both climate hazards and geophysical hazards affect water resources and have studied the impacts of hazards on surface waters and groundwater.
-
-As Australia's National Focal Point to the Scientific and Technical Review Panel to the Convention on Wetlands of International Importance especially as Waterfowl Habitat, also known as the Ramsar Convention, I work with the Australian Government to appropriately use the best available science to guide better wetland conservation.
-
-</div>
-
-<--v-->
-
-
 ## Demonstrators
 
 ![CG](images/Introduction/Mugshot-TBA.jpg)   <!-- .element style="width:30%; float:right; margin-top:50px" -->
@@ -209,7 +189,6 @@ As Australia's National Focal Point to the Scientific and Technical Review Panel
 <div style="width:70%">
 
 **TBA**
-
 
 </div>
 
@@ -288,7 +267,7 @@ You will be given an overview of the geometry and type of structures produced by
 
 In order to understand geological structures in more detail, we need some background understanding of how stresses and strains work, how they are measured, and how you can use these concepts to interpret what you see in the field.
 
-**Chengxin Jiang** will lead this part of the course.
+**Louis Moresi** / **Chengxin Jiang**  will share this part of the course.
 
 <small>
 
@@ -346,7 +325,7 @@ We will see how folds represent important windows into local and regional deform
 
 ## Interested in Honours, Masters, PhD ?
 
-If you have an interest in structural geology, tectonics, geo-mechanics, then you may want to consider choosing a special topic or honours project, or masters topic in this area, or even entry to the PhD program.
+If you have an interest in structural geology, tectonics, geo-mechanics, mantle-convection then you may want to consider choosing a special topic or honours project, or masters topic in this area, or even entry to the PhD program.
 
 We can help you to develop a project and we can also help you find a supervisor in the school (if we are not available).
 
@@ -422,10 +401,7 @@ There are other areas such as groundwater models, seismology, planetary science,
       const mermaidOptions = extend({ startOnLoad: false }, {});
       mermaid.startOnLoad = false;
       mermaid.initialize(mermaidOptions);
-      const cb = function (event) {
-        mermaid.init(mermaidOptions, '.stack.present > .present pre code.mermaid');
-        mermaid.init(mermaidOptions, '.slides > .present:not(.stack) pre code.mermaid');
-      }
+      const cb = function (event) { mermaid.init(mermaidOptions, '.stack.present>.present pre code.mermaid'); };
       Reveal.addEventListener('ready', cb);
       Reveal.addEventListener('slidetransitionend', cb);
     </script>
