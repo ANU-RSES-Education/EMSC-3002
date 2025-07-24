@@ -53,8 +53,8 @@ with lecture materials and lecture notes. This is a live document and we can upd
 to fix bugs and add material. You can create feedback for the pages. The original
 "source code" for the slides etc is also available
 
- - [EMSC3002/6030](https://canvas.anu.edu.au/courses/3450) on Canvas
- - [EMSC3002](https://programsandcourses.anu.edu.au/2025/course/EMSC3002) on programs & courses
+- [EMSC3002/6030](https://canvas.anu.edu.au/courses/3450) on Canvas
+- [EMSC3002](https://programsandcourses.anu.edu.au/2025/course/EMSC3002) on programs & courses
 
 </div>
 
