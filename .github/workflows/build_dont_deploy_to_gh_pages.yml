@@ -1,4 +1,4 @@
-name: deploy-book
+name: test-build-jupyter-book
 
 # Only run this when the master branch changes (or by hand)
 on:
