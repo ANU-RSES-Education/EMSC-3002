@@ -178,7 +178,6 @@ The "stress-trajectories" for Australia (left) that show the "flow lines" of the
 
 
 
-StressMaps_WSM.png
 
 ## Global Seismicity
 
