@@ -11,10 +11,8 @@
 <a href="../slideshows/Module-v-lecture3-Structures-Associated-with-Folding-2.reveal.html?print-pdf"> PDF, Updated Oct 06, 2021 </a>
 
 
-## Learning outcomes
-
 ## Links
 
   - Wattle courses
-  - Programmes and courses 
-  - Other ... 
+  - Programmes and courses
+  - Other ...
