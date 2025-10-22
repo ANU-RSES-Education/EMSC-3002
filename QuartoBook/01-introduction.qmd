@@ -1,0 +1,51 @@
+# How to Use These Revision Notes {#sec-how-to-use}
+
+This document is designed to help you prepare for exams by testing your understanding of key concepts from the course. Each section contains:
+
+1. **Key Concept Summary** - Brief overview of the topic
+2. **Self-Test Questions** - Questions you should be able to answer
+3. **Things You Should Be Able To Do** - Practical skills to demonstrate
+
+Work through each module systematically. If you cannot answer a question, revisit the relevant lecture material before moving on.
+
+::: {.callout-tip}
+## Study Strategy
+The most effective way to use these notes is to:
+
+- Try to answer each question before looking at your notes
+- Write out answers to practice explaining concepts
+- Draw diagrams to test your 3D visualization skills
+- Work through quantitative problems with actual numbers
+- Connect concepts across different modules
+:::
+
+## Organization
+
+These revision notes are organized into major themes:
+
+- **Modules I-V**: Follow the course structure with self-test questions
+- **Cross-Cutting Themes**: Integrative concepts that span multiple modules
+- **Practical Resources**: Locations, terminology, and quantitative skills
+- **Exam Preparation**: Integration scenarios, common mistakes, and strategies
+
+## Best Practices
+
+**Understanding vs. Memorization:**
+
+- Don't just memorize facts - understand the WHY behind processes
+- Be able to explain concepts to someone else
+- Draw connections between different topics
+
+**Active Learning:**
+
+- Answer questions out loud or in writing
+- Sketch structures and diagrams
+- Work through calculations with pen and paper
+- Create your own examples
+
+**Regular Review:**
+
+- Revisit difficult topics multiple times
+- Space out your study sessions
+- Test yourself regularly without looking at answers
+- Focus on weak areas identified through self-testing

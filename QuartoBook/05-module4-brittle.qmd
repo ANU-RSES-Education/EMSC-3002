@@ -1,0 +1,330 @@
+# Module IV: Brittle Deformation {#sec-brittle}
+
+## Key Concept Summary
+
+Brittle deformation occurs when rocks fracture rather than flow. Understanding fracture mechanics, failure criteria, and fault behavior is essential for predicting earthquakes, interpreting seismic data, and understanding fluid flow in the crust. Joints, veins, and faults record the stress history and fluid-rock interactions.
+
+## Self-Test Questions
+
+### Deformation Mechanisms {#sec-deformation-mechanisms}
+
+**Can you describe the major brittle deformation mechanisms?**
+
+Consider:
+
+- Cataclastic flow: grain-scale fracturing
+- Grain crushing and rotation
+- Pressure solution
+- Mechanical twinning
+- At what conditions does each dominate?
+
+**Can you describe the major ductile deformation mechanisms?**
+
+Think about:
+
+- Diffusion creep: temperature and grain-size dependent
+- Dissolution creep: involves fluids
+- Dislocation creep: power-law relationship
+- Recovery and recrystallization processes
+- How do these differ from brittle mechanisms?
+
+### Fracture Fundamentals {#sec-fracture}
+
+**Can you describe the four modes of fracture?**
+
+Consider:
+
+- Mode I: Opening (tensile)
+- Mode II: In-plane shear
+- Mode III: Out-of-plane shear
+- Mixed modes
+- Which modes relate to joints, and which to faults?
+
+**Can you explain Griffith crack theory and its implications?**
+
+Think about:
+
+- Why are rocks much weaker than theoretical strength?
+- Role of pre-existing defects and cracks
+- Stress concentration at crack tips
+- Why is tensile strength much lower than compressive strength?
+
+**Can you distinguish between tensile and shear fractures?**
+
+Tensile fractures (joints):
+
+- Perpendicular to σ~3~ (minimum principal stress)
+- Mode I opening
+- No shear displacement
+- Extension fractures
+
+Shear fractures (faults):
+
+- At angle to principal stresses
+- Mode II and/or Mode III
+- Shear displacement
+- Angle controlled by friction
+
+### Failure Criteria {#sec-failure}
+
+**Can you explain and apply the Mohr-Coulomb failure criterion?**
+
+Consider:
+
+- τ = C + σ~n~·tan φ
+- C: cohesion
+- φ: angle of internal friction
+- Linear failure envelope
+- How to use it to predict failure
+
+**Can you explain the Coulomb-Navier criterion?**
+
+Think about:
+
+- Relates failure to principal stresses
+- Predicts fault orientation
+- Relationship to Mohr-Coulomb
+
+**Can you describe a composite failure envelope?**
+
+Consider:
+
+- Combines tensile and shear failure
+- Why is it more realistic for rocks?
+- Tensile cutoff
+- Transition from tensile to shear failure
+
+**Can you explain Byerlee's Law and its significance?**
+
+Think about:
+
+- τ = 0.85σ~n~ (low pressure, <200 MPa)
+- τ = 50 + 0.6σ~n~ (high pressure)
+- Friction coefficient μ ≈ 0.6-0.85
+- Remarkably independent of rock type
+- Implications for crustal strength
+
+### Environmental Effects {#sec-environmental}
+
+**Can you explain the role of pore fluid pressure?**
+
+Consider:
+
+- Effective stress: σ'~n~ = σ~n~ - P~f~
+- Reduces normal stress on faults
+- Can trigger failure without changing tectonic stress
+- Hubbert-Rubey hypothesis for low-angle thrusts
+- Role in hydraulic fracturing
+
+**Can you describe how temperature affects failure?**
+
+Think about:
+
+- Reduces rock strength
+- Promotes ductile behavior
+- Brittle-ductile transition
+- Why are earthquakes limited to certain depths?
+
+**Can you explain the effect of strain rate on failure?**
+
+Consider:
+
+- Fast rates favor brittle behavior
+- Slow rates allow ductile deformation
+- Same rock can behave differently depending on rate
+- Laboratory vs. geological strain rates
+
+**Can you describe the effect of confining pressure?**
+
+Think about:
+
+- Increases strength
+- Suppresses brittle fracture
+- Promotes ductile mechanisms
+- Why does strength increase with depth in upper crust?
+
+### Joints and Veins {#sec-joints}
+
+**Can you describe the characteristics of joints?**
+
+Consider:
+
+- Extension fractures (Mode I)
+- No shear displacement
+- Perpendicular to σ~3~
+- Often occur in systematic sets
+- Plumose structures indicate propagation direction
+
+**Can you interpret plumose structures on joint surfaces?**
+
+Think about:
+
+- Hackle marks: radial features
+- Arrest lines: mark pauses in propagation
+- Plume axis: initial fracture point
+- What direction did the joint propagate?
+
+**Can you explain joint spacing and its relationship to layer thickness?**
+
+Consider:
+
+- Thicker layers → wider spacing
+- Mechanical explanation
+- Implications for fracture permeability
+
+**Can you distinguish different types of joint systems?**
+
+Think about:
+
+- Systematic vs. non-systematic
+- Orthogonal sets
+- Conjugate sets
+- Cross-cutting relationships for relative age
+
+**Can you explain different origins of joints?**
+
+Consider:
+
+- Tectonic: regional stress
+- Unloading: erosion, exhumation
+- Cooling: thermal contraction (columnar joints)
+- Hydraulic: fluid pressure
+- How would you distinguish these in the field?
+
+**Can you describe vein characteristics and formation?**
+
+Think about:
+
+- Mineral-filled fractures
+- Evidence of fluid flow
+- Crack-seal mechanism
+- Fibrous veins: indicate opening direction
+- Why are veins important for ore deposits?
+
+### Faults and Fault Zones {#sec-faults}
+
+**Can you describe and use fault terminology?**
+
+Consider:
+
+- Strike: horizontal line on fault plane
+- Dip: angle from horizontal
+- Dip direction: azimuth of steepest descent
+- Slip: total displacement
+- Rake (pitch): angle of slip vector in fault plane
+- Throw and heave components
+
+**Can you classify faults by slip direction?**
+
+Think about:
+
+- Normal: hanging wall down (extension)
+- Reverse: hanging wall up (compression)
+- Strike-slip: lateral motion (wrench)
+- Oblique: combination
+- How do you determine sense of slip?
+
+**Can you classify faults by dip?**
+
+Consider:
+
+- Thrust: <30°
+- Low-angle: 30-45°
+- High-angle: >45°
+- Why is the 30° boundary significant?
+
+**Can you describe fault zone anatomy?**
+
+Think about:
+
+- Fault core: principal slip surface
+- Damage zone: fractured rock around fault
+- Fault gouge: fine-grained material
+- Fault breccia: angular fragments
+- Mylonite: ductilely deformed fault rock
+- Why does this matter for fluid flow?
+
+**Can you identify kinematic indicators on faults?**
+
+Consider:
+
+- Slickenlines (striations): parallel to slip
+- Slickensides: polished surfaces
+- Steps and grooves: indicate slip sense
+- Offset markers
+- How do you use these to determine slip direction?
+
+**Can you interpret faults on geological maps?**
+
+Think about:
+
+- Fault trace patterns
+- Stratigraphic separation
+- V-rule for faults in valleys
+- How do dip and topography interact?
+
+**Can you interpret faults in seismic sections?**
+
+Consider:
+
+- Offset reflectors
+- Flower structures (positive and negative)
+- Fault shadow zones
+- Growth strata (syn-tectonic sediments)
+
+**Can you measure and describe fault displacement?**
+
+Think about:
+
+- Net slip: total displacement
+- Throw: vertical component
+- Heave: horizontal component
+- Stratigraphic separation vs. true slip
+- Why is 3D analysis necessary?
+
+### Faults and Earthquakes {#sec-earthquakes}
+
+**Can you describe the earthquake cycle?**
+
+Consider:
+
+- Interseismic: stress accumulation, fault locked
+- Coseismic: rupture and slip
+- Postseismic: aftershocks, viscoelastic relaxation
+- How long is a typical cycle?
+
+**Can you explain stick-slip behavior?**
+
+Think about:
+
+- Fault locked during interseismic period
+- Sudden failure when stress exceeds strength
+- Stress drop during earthquake
+- Why do some faults creep instead of having earthquakes?
+
+**Can you describe earthquake magnitude scales?**
+
+Consider:
+
+- Magnitude (M): energy released
+- Moment (M~0~): rigidity × area × slip
+- Moment magnitude (M~w~): most reliable scale
+- Why are large earthquakes less frequent?
+
+**Can you interpret earthquake focal mechanisms?**
+
+Think about:
+
+- Beach ball diagrams
+- Compressional (black) and tensional (white) quadrants
+- P, T, and N axes
+- What do they tell you about fault orientation and stress?
+- Ambiguity between fault plane and auxiliary plane
+
+**Can you explain earthquake recurrence intervals?**
+
+Consider:
+
+- Time between large earthquakes on same fault
+- Statistical vs. characteristic earthquake models
+- Why is this important for hazard assessment?

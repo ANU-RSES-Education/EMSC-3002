@@ -1,0 +1,47 @@
+project:
+  type: book
+  output-dir: _book
+
+book:
+  title: "EMSC 3002 - Structural Geology & Tectonics"
+  subtitle: "Revision Materials"
+  author: "ANU EMSC 3002 Teaching Team"
+  date: today
+
+  repo-url: https://github.com/ANU-RSES-Education/EMSC-3002
+  repo-branch: master
+  repo-actions: [edit, issue]
+
+  chapters:
+    - index.qmd
+    - 01-introduction.qmd
+    - part: "Core Modules"
+      chapters:
+        - 02-module1-global-tectonics.qmd
+        - 03-module2-structural-geology.qmd
+        - 04-module3-theory.qmd
+        - 05-module4-brittle.qmd
+        - 06-module5-ductile.qmd
+    - part: "Integration & Practice"
+      chapters:
+        - 07-cross-cutting-themes.qmd
+        - 08-practical-resources.qmd
+        - 09-exam-preparation.qmd
+
+  sidebar:
+    style: "docked"
+    background: light
+    collapse-level: 2
+
+format:
+  html:
+    theme:
+      light: [cosmo, custom.scss]
+    code-link: true
+    toc: true
+    toc-depth: 4
+    number-sections: true
+    number-depth: 4
+    link-external-newwindow: true
+
+bibliography: references.bib

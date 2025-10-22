@@ -1,0 +1,206 @@
+# Practical Resources {#sec-locations}
+
+Test your knowledge by describing the tectonic setting and key features of these important locations:
+
+## Plate Boundaries {#sec-location-boundaries}
+
+**Mid-Ocean Ridges:**
+
+- Juan de Fuca Ridge (offshore Pacific Northwest)
+- East Pacific Rise
+- Mid-Atlantic Ridge
+
+**Subduction Zones:**
+
+- Tonga-Kermadec
+- Cascadia
+- Japan (Tohoku 2011 M9.0 earthquake)
+- Chile
+- Alaska (2021 M8.2 earthquake)
+
+**Transform Faults:**
+
+- San Andreas Fault (California)
+- Romanche and Chain transforms (Mid-Atlantic)
+
+**Triple Junctions:**
+
+- Afar Depression (Ethiopia)
+- Mendocino (offshore California)
+
+## Continental Collision {#sec-location-collision}
+
+- **Himalayas and Tibet**: Ongoing India-Asia collision
+- **Alps**: Classic nappe structures
+- **Caledonides**: Ancient orogen, post-orogenic extension
+
+## Extensional Provinces {#sec-location-extension}
+
+- **East African Rift**: Active continental rifting
+- **Basin and Range Province**: Metamorphic core complexes
+- **North Sea**: Rift basins, petroleum province
+- **Gullfaks Field**: Domino fault system
+
+## Strike-Slip Systems {#sec-location-strike-slip}
+
+- **San Andreas Fault**: 1200 km, >300 km offset
+- **Dead Sea Transform**: Pull-apart basin
+- **North Anatolian Fault**: Major Turkish earthquakes
+- **Alpine Fault**: New Zealand
+
+## Special Examples {#sec-location-special}
+
+- **Chief Mountain, Montana**: Classic thrust, Precambrian over Cretaceous
+- **Carrizo Plain**: San Andreas, visible offset streams
+- **Sheep Mountain Anticline, Wyoming**: Spectacular fold
+
+---
+
+# Key Terminology Checklist {#sec-terminology}
+
+Can you define and explain the significance of each of these terms?
+
+## Plate Tectonics Terms
+
+- Lithosphere / Asthenosphere / LAB
+- Euler pole / Angular velocity
+- Magnetic anomaly / Magnetic reversal
+- Seafloor spreading / Age-depth relationship
+- Megathrust / Outer rise / Slab rollback
+- Focal mechanism / P, T, N axes
+- Triple junction / Stability
+- Escape tectonics / Lateral extrusion
+
+## Structural Geology Terms
+
+- Strike / Dip / Dip direction
+- Plunge / Trend
+- Hanging wall / Footwall
+- Allochthon / Autochthon
+- Décollement / Detachment
+- Nappe / Klippe / Window
+- Horse / Duplex
+- Graben / Horst / Half-graben
+- Flower structure (positive/negative)
+- Pull-apart basin / Pop-up structure
+- Transpression / Transtension
+- Ramp / Flat (frontal, lateral, oblique)
+
+## Stress and Strain Terms
+
+- Stress tensor / Traction vector
+- Principal stress (σ~1~, σ~2~, σ~3~)
+- Normal stress / Shear stress
+- Deviatoric stress / Mean stress
+- Mohr circle / Failure envelope
+- Mohr-Coulomb criterion
+- Effective stress / Pore pressure
+- Strain tensor / Strain ellipsoid
+- Volumetric strain / Deviatoric strain
+- Strain rate / Second invariant
+- Elongation / Beta factor
+
+## Rheology Terms
+
+- Young's modulus / Poisson's ratio
+- Shear modulus / Bulk modulus
+- Viscosity / Power-law creep
+- Yield stress / Plastic deformation
+- Diffusion creep / Dislocation creep
+- Dynamic recrystallization
+- Brittle-ductile transition
+
+## Fracture and Fault Terms
+
+- Mode I, II, III fracture
+- Joint / Vein / Dike
+- Plumose structure / Hackle marks
+- Systematic / Non-systematic joints
+- Slickenlines / Slickensides
+- Fault gouge / Fault breccia / Mylonite
+- Throw / Heave / Rake
+- Stick-slip / Earthquake cycle
+- Magnitude / Moment / M~w~
+- Byerlee's Law
+
+## Fold Terms
+
+- Hinge / Hinge zone / Limb
+- Axial surface / Axial trace
+- Inflection line
+- Antiform / Synform
+- Anticline / Syncline / Monocline
+- Interlimb angle
+- Upright / Inclined / Recumbent / Overturned
+- Cylindrical / Non-cylindrical / Periclinal
+- Chevron / Box / Kink fold
+- Dome / Basin
+- Anticlinorium / Synclinorium
+- Parallel / Similar folds (Class 1B / Class 2)
+- Buckling / Bending / Passive folding
+- Flexural slip / Flexural flow
+
+## Cleavage and Fabric Terms
+
+- Axial planar cleavage
+- Crenulation cleavage
+- S-C fabric / Shear bands
+- Foliation / Lineation
+- Porphyroclast (σ-type, δ-type)
+- Mica fish
+- Mylonite / Protomylonite / Ultramylonite
+
+---
+
+# Quantitative Skills {#sec-quantitative}
+
+Can you apply these concepts quantitatively?
+
+## Calculations You Should Be Able to Do
+
+1. **Calculate extension from elongation:**
+   - Given stretched fossil: original 3 cm, now 5 cm
+   - e = (l - l~0~)/l~0~ = (5-3)/3 = 0.67 (67% extension)
+
+2. **Calculate beta factor:**
+   - β = l/l~0~ = 5/3 = 1.67
+
+3. **Use Mohr circle to find stress on a plane:**
+   - Given σ~1~ = 100 MPa, σ~3~ = 20 MPa
+   - Find normal and shear stress on plane at 30° to σ~1~
+
+4. **Predict fault angle from Anderson's theory:**
+   - Given friction coefficient μ = 0.6
+   - tan 2θ = ∓1/μ = ∓1.67
+   - θ ≈ 30° to σ~1~
+
+5. **Calculate effective stress:**
+   - Given total stress σ~n~ = 100 MPa, pore pressure P~f~ = 40 MPa
+   - σ'~n~ = σ~n~ - P~f~ = 60 MPa
+
+6. **Apply Mohr-Coulomb to predict failure:**
+   - τ = C + σ~n~·tan φ
+   - Given C = 10 MPa, φ = 30°, σ~n~ = 50 MPa
+   - τ = 10 + 50·tan(30°) ≈ 39 MPa
+
+7. **Use Byerlee's Law:**
+   - At shallow depth (<2 km): τ = 0.85σ~n~
+   - At greater depth: τ = 50 + 0.6σ~n~
+
+## Graphical Skills
+
+1. **Interpret and construct Mohr circles**
+2. **Use stereographic projections:**
+   - Plot planes and lines
+   - Find fold axis from limb data
+   - Analyze fault slip data
+   - Determine true dip from apparent dips
+
+3. **Construct cross-sections from maps:**
+   - Maintain bed thickness (parallel folds)
+   - Or maintain bed area (similar folds)
+   - Project faults to depth
+   - Show fold geometry
+
+4. **Use down-plunge projection**
+5. **Interpret seismic reflection data**
