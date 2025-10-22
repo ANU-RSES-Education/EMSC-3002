@@ -1,0 +1,40 @@
+/*-- scss:defaults --*/
+
+// Customize colors
+$primary: #003366;
+$secondary: #6c757d;
+$success: #28a745;
+$info: #17a2b8;
+$warning: #ffc107;
+$danger: #dc3545;
+
+/*-- scss:rules --*/
+
+// Better spacing for callouts
+.callout {
+  margin-top: 1.5rem;
+  margin-bottom: 1.5rem;
+}
+
+// Make headers more distinctive
+h2 {
+  margin-top: 2rem;
+  padding-top: 0.5rem;
+  border-top: 2px solid $primary;
+}
+
+h3 {
+  margin-top: 1.5rem;
+  color: $primary;
+}
+
+// Style for self-test questions
+h4 {
+  font-style: italic;
+  color: #555;
+}
+
+// Make checklists more visible
+input[type="checkbox"] {
+  margin-right: 0.5rem;
+}

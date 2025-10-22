@@ -1,0 +1,56 @@
+# Welcome {.unnumbered}
+
+## EMSC 3002 Revision Materials
+
+This is a companion resource for **EMSC 3002 - Structure and Tectonic Evolution of the Australian Plate** at the Australian National University.
+
+### About These Materials
+
+These revision notes have been developed to help you prepare for exams by:
+
+- Identifying key concepts that appear throughout the course
+- Grouping related topics across different modules
+- Providing self-test questions to check your understanding
+- Highlighting important examples and case studies
+- Connecting theoretical concepts to real-world applications
+
+### How to Use This Resource
+
+The revision notes are organized to help you:
+
+1. **Review core concepts** - Each module summary covers the fundamental principles
+2. **Test your knowledge** - Self-assessment questions help identify gaps
+3. **Make connections** - Cross-cutting themes show how topics relate
+4. **Practice skills** - Quantitative problems and graphical methods
+5. **Learn from examples** - Real-world locations illustrate key concepts
+
+### Course Structure
+
+EMSC 3002 is organized into five main modules:
+
+- **Module I: Global Tectonics** - Plate boundaries, motions, and large-scale deformation
+- **Module II: Structural Geology** - Contractional, extensional, and strike-slip regimes
+- **Module III: Theory** - Stress, strain, and rheology fundamentals
+- **Module IV: Brittle Deformation** - Fractures, faults, and earthquakes
+- **Module V: Ductile Deformation** - Folds, shear zones, and flow
+
+### Additional Resources
+
+For the complete course materials, including:
+
+- Lecture slides and presentations
+- Practical exercises and labs
+- Field trip guides
+- Background reading
+
+Please visit the main course website at: [https://anu-rses-education.github.io/EMSC-3002/](https://anu-rses-education.github.io/EMSC-3002/)
+
+### Acknowledgments
+
+Course materials developed by Louis Moresi, Chengxin Jiang, Romain Beucher, and Stephen Cox.
+
+These materials are open source under a Creative Commons licence. We acknowledge contributions from the broader community and endeavour to provide correct attribution and citation.
+
+---
+
+**Ready to start?** Continue to the [Revision Notes](RevisionNotes.qmd) to begin your exam preparation.

@@ -1,0 +1,374 @@
+# Exam Preparation {#sec-integration}
+
+These questions require synthesizing knowledge across multiple modules:
+
+## Scenario 1: Himalayan Orogen {#sec-scenario-himalaya}
+
+You are studying the Himalayan mountain belt. Using your knowledge of plate tectonics, stress, strain, and structures:
+
+**Questions:**
+
+1. Can you explain why the Himalayas formed (plate tectonic setting)?
+2. What is the orientation of principal stresses in this region?
+3. What types of structures would you expect to find? (Consider contractional structures, escape tectonics)
+4. Why do we see normal faults in Tibet despite ongoing convergence?
+5. How does the India-Asia collision illustrate the difference between oceanic and continental convergence?
+6. What role do conjugate strike-slip faults play in accommodating deformation?
+
+## Scenario 2: East African Rift {#sec-scenario-ear}
+
+You are mapping in the East African Rift System:
+
+**Questions:**
+
+1. What type of plate boundary is this (or is it even a plate boundary yet)?
+2. What is the stress regime and orientation of principal stresses?
+3. What structures would you expect to map? (Normal faults, graben, etc.)
+4. Is this active or passive rifting? How would you tell?
+5. What might happen if rifting continues?
+6. How does volcanism relate to the rifting process?
+7. Why are there sedimentary basins forming in the rift?
+
+## Scenario 3: San Andreas Fault System {#sec-scenario-saf}
+
+You are investigating the San Andreas Fault:
+
+**Questions:**
+
+1. What type of plate boundary is this?
+2. What is the relative motion of the Pacific and North American plates?
+3. Why is the fault slightly transpressional rather than pure strike-slip?
+4. What structures would you expect to find along the fault? (Pull-apart basins, pop-ups, etc.)
+5. How can you determine the total offset on the fault?
+6. What controls earthquake distribution along the fault?
+7. Why do some segments creep while others are locked?
+8. How does the stick-slip behavior relate to the earthquake cycle?
+
+## Scenario 4: North Sea Basin {#sec-scenario-northsea}
+
+You are exploring for hydrocarbons in the North Sea:
+
+**Questions:**
+
+1. What tectonic setting formed this basin (extensional)?
+2. What structures control the geometry of the basin? (Normal faults, half-graben, etc.)
+3. Where would you drill for oil (structural traps)?
+4. How does the Gullfaks Field domino system work?
+5. What is the relationship between extension, subsidence, and sedimentation?
+6. How do growth faults form and what do they tell you about syn-rift sedimentation?
+
+## Scenario 5: Fold and Thrust Belt {#sec-scenario-ftb}
+
+You are mapping in a fold-and-thrust belt:
+
+**Questions:**
+
+1. What is the tectonic setting (convergent, continent-continent or arc-continent)?
+2. What is the orientation of principal stresses?
+3. Can you identify the transport direction from fold vergence and thrust sense?
+4. How do you distinguish thick-skinned from thin-skinned tectonics?
+5. What is the geometry of ramps and flats and why do they form?
+6. How do duplexes develop?
+7. What role does a weak décollement layer play?
+8. How are folds related to thrusts (fault-bend, fault-propagation, detachment folds)?
+9. What does axial planar cleavage tell you?
+10. How would you predict structure at depth?
+
+## Scenario 6: Subduction Zone {#sec-scenario-subduction}
+
+You are studying a subduction zone:
+
+**Questions:**
+
+1. Why is the subducting plate bending and what stresses result?
+2. Why do we see normal faulting at the outer rise?
+3. What is the megathrust and what type of earthquakes occur there?
+4. How do you distinguish megathrust earthquakes from outer rise earthquakes from upper plate earthquakes?
+5. What is slab rollback and how does it differ from plate convergence rate?
+6. How does the upper plate respond to coupling with the downgoing plate?
+7. What happens when a megathrust earthquake occurs (coseismic deformation)?
+8. What structures form in the accretionary wedge?
+9. Why is the geometry of the wedge like it is (critical taper)?
+
+## Scenario 7: Shear Zone {#sec-scenario-shear}
+
+You find a mylonitic shear zone in the field:
+
+**Questions:**
+
+1. What deformation mechanisms produced the mylonite?
+2. How can you determine the sense of shear? (S-C fabrics, porphyroclasts, etc.)
+3. What does the degree of recrystallization tell you about temperature?
+4. Is this simple shear or general shear? How would you determine the vorticity?
+5. What is the relationship between the shear zone and the regional stress field?
+6. How does strain vary across the shear zone (strain profile)?
+7. What metamorphic conditions existed during deformation?
+
+---
+
+# Common Mistakes and Misconceptions {#sec-mistakes}
+
+Be aware of these common pitfalls:
+
+## Plate Tectonics
+
+::: {.callout-warning}
+## Common Mistakes
+
+❌ **Mistake:** Thinking plates are just the crust
+
+✓ **Correct:** Plates are lithosphere (crust + upper mantle)
+
+❌ **Mistake:** Confusing plate motion with trench motion
+
+✓ **Correct:** Slab rollback means these can be different
+
+❌ **Mistake:** Thinking all convergent boundaries produce the same structures
+
+✓ **Correct:** Ocean-ocean, ocean-continent, continent-continent are very different
+:::
+
+## Stress and Strain
+
+::: {.callout-warning}
+## Common Mistakes
+
+❌ **Mistake:** Confusing stress and strain
+
+✓ **Correct:** Stress is force/area (cause), strain is deformation (effect)
+
+❌ **Mistake:** Thinking high stress always means high strain
+
+✓ **Correct:** Rheology controls the relationship; strong rocks can support high stress with little strain
+
+❌ **Mistake:** Confusing principal stress directions with fault slip directions
+
+✓ **Correct:** Faults form at ~30° to σ~1~, not parallel to it
+:::
+
+## Faults
+
+::: {.callout-warning}
+## Common Mistakes
+
+❌ **Mistake:** Thinking all faults in convergent settings are thrusts
+
+✓ **Correct:** Can have normal faults (outer rise, extensional collapse)
+
+❌ **Mistake:** Confusing stratigraphic separation with true slip
+
+✓ **Correct:** Need 3D analysis to determine actual displacement
+
+❌ **Mistake:** Thinking friction coefficient varies greatly between rock types
+
+✓ **Correct:** Byerlee's Law shows it's remarkably constant (μ ≈ 0.6-0.85)
+:::
+
+## Folds
+
+::: {.callout-warning}
+## Common Mistakes
+
+❌ **Mistake:** Using anticline/syncline for folds with unknown age relationships
+
+✓ **Correct:** Use antiform/synform unless you know which rocks are older
+
+❌ **Mistake:** Thinking axial plane cleavage is always vertical
+
+✓ **Correct:** It's parallel to the axial surface, which can have any orientation
+
+❌ **Mistake:** Confusing fold axis with axial surface
+
+✓ **Correct:** Axis is a line, surface is a plane
+:::
+
+## Rheology
+
+::: {.callout-warning}
+## Common Mistakes
+
+❌ **Mistake:** Thinking temperature and pressure have the same effect
+
+✓ **Correct:** Temperature promotes ductile behavior, confining pressure promotes brittle
+
+❌ **Mistake:** Thinking brittle-ductile transition is at a fixed depth
+
+✓ **Correct:** Depends on rock type, strain rate, and thermal gradient
+
+❌ **Mistake:** Confusing elastic with brittle
+
+✓ **Correct:** Elastic is reversible deformation; brittle is fracturing (irreversible)
+:::
+
+---
+
+# Exam Preparation Strategies {#sec-strategies}
+
+## Topic Integration
+
+When studying, don't think of modules in isolation:
+
+1. **Connect stress to structures:**
+   - Normal faulting regime → σ~1~ vertical → normal faults, graben, rifts
+
+2. **Link plate boundaries to stress regimes:**
+   - Divergent → extensional → normal faults
+   - Convergent → compressional → thrusts and folds
+   - Transform → wrench → strike-slip
+
+3. **Connect deformation style to conditions:**
+   - Shallow, cold, fast → brittle → fractures, faults
+   - Deep, hot, slow → ductile → folds, shear zones
+
+## Practice Problems
+
+Work through problems that require:
+
+- Calculations (stress, strain, fault angles)
+- Graphical analysis (Mohr circles, stereonets)
+- Map interpretation
+- Cross-section construction
+- Structure identification from photos
+
+## Real-World Examples
+
+For each major structure type, know at least one real example:
+
+- Can you locate it?
+- Describe its characteristics?
+- Explain its tectonic setting?
+- Relate it to theory?
+
+## Terminology Precision
+
+- Be precise with terms (anticline vs. antiform, stress vs. strain)
+- Use proper notation (σ~1~, ε, τ, μ)
+- Know units (Pa for stress, s^-1^ for strain rate)
+
+## Conceptual Understanding
+
+Don't just memorize - understand:
+
+- **WHY** faults form at 30° to σ~1~ (minimize work)
+- **WHY** oceanic crust is uniform thickness (spreading center structure)
+- **WHY** Tibet extends despite convergence (gravitational collapse)
+
+## Visual Learning
+
+- Study photographs and diagrams
+- Draw sketches of structures
+- Visualize in 3D
+- Practice stereographic projections
+
+---
+
+# Final Checklist {#sec-checklist}
+
+Before your exam, ensure you can:
+
+## Global Tectonics
+
+- [ ] Describe Earth's layered structure with correct thicknesses
+- [ ] Explain plate motions and measurement methods
+- [ ] Identify and describe all three plate boundary types
+- [ ] Explain triple junctions and stability
+- [ ] Contrast oceanic and continental deformation
+- [ ] Describe the Himalayan collision as a detailed example
+- [ ] Explain subduction zone complexity (rollback, bending, outer rise)
+
+## Structural Geology Regimes
+
+- [ ] Predict structures for each tectonic regime
+- [ ] Describe contractional structures (thrusts, folds, nappes, duplexes)
+- [ ] Describe extensional structures (normal faults, graben, rifts)
+- [ ] Describe strike-slip structures (transforms, flower structures, pull-aparts)
+- [ ] Explain orogenic wedge geometry and models
+- [ ] Distinguish pure shear vs. simple shear rift models
+
+## Stress, Strain, and Rheology
+
+- [ ] Define and distinguish stress and strain
+- [ ] Describe the stress and strain tensors
+- [ ] Explain principal stresses and principal strains
+- [ ] Identify tectonic regimes from stress orientations
+- [ ] Use Mohr circle for stress analysis
+- [ ] Apply Mohr-Coulomb failure criterion
+- [ ] Calculate extension, elongation, beta factor
+- [ ] Explain elastic, viscous, and plastic rheology
+- [ ] Describe deformation mechanisms (brittle and ductile)
+- [ ] Explain the brittle-ductile transition
+
+## Brittle Deformation
+
+- [ ] Describe fracture modes (I, II, III)
+- [ ] Explain Griffith crack theory
+- [ ] Apply failure criteria (Mohr-Coulomb, Byerlee's Law)
+- [ ] Explain effective stress and pore pressure effects
+- [ ] Describe joint characteristics and origins
+- [ ] Interpret plumose structures
+- [ ] Classify faults by slip and dip
+- [ ] Describe fault zone anatomy
+- [ ] Identify kinematic indicators
+- [ ] Explain the earthquake cycle
+
+## Ductile Deformation
+
+- [ ] Label fold elements
+- [ ] Classify folds by all schemes (tightness, orientation, shape, thickness)
+- [ ] Distinguish antiform/synform from anticline/syncline
+- [ ] Explain folding mechanisms (buckling, bending, passive)
+- [ ] Describe fold classes (parallel vs. similar)
+- [ ] Identify second-order folds and interpret them
+- [ ] Explain axial planar cleavage formation
+- [ ] Describe fold-fault relationships
+- [ ] Identify shear sense indicators in shear zones
+- [ ] Classify mylonites
+
+## Integration and Application
+
+- [ ] Connect stress regimes to plate boundaries to structures
+- [ ] Explain scale relationships (Pumpelly's Rule)
+- [ ] Describe lithospheric strength profile
+- [ ] Apply structural geology to resource exploration
+- [ ] Apply structural geology to earthquake hazards
+- [ ] Interpret structures in maps and cross-sections
+- [ ] Use stereographic projections
+- [ ] Analyze multi-phase deformation
+- [ ] Think in 3D
+
+## Real-World Examples
+
+- [ ] Himalayas (collision, escape tectonics)
+- [ ] East African Rift (active rifting)
+- [ ] San Andreas Fault (transform, transpression)
+- [ ] Juan de Fuca (divergent boundary, subduction)
+- [ ] North Sea (rift basins)
+- [ ] Alps (nappe structures)
+
+---
+
+# Remember {#sec-remember}
+
+::: {.callout-note}
+## Keys to Success
+
+Success in structural geology exams requires:
+
+1. **Understanding fundamental concepts** rather than just memorizing
+2. **Integrating knowledge** across different topics
+3. **Thinking in 3D** and visualizing structures
+4. **Applying theory** to real-world examples
+5. **Using precise terminology** correctly
+6. **Practicing quantitative skills** (calculations, graphical methods)
+7. **Learning from diagrams and photos** as much as from text
+
+The most successful students can:
+
+- Explain **WHY** processes occur, not just WHAT happens
+- Predict structures from tectonic settings
+- Work backwards from structures to infer conditions
+- See connections between topics
+- Apply knowledge to unfamiliar scenarios
+:::
+
+**Good luck with your revision!**
