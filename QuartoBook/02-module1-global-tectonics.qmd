@@ -1,0 +1,160 @@
+# Module I: Global Tectonics {#sec-global-tectonics}
+
+## Key Concept Summary
+
+Plate tectonics describes Earth's lithosphere as broken into rigid plates that move relative to each other. The three main types of plate boundaries (divergent, convergent, and transform) produce characteristic geological structures and seismicity patterns. Continental deformation differs fundamentally from oceanic deformation due to the buoyancy and weakness of continental crust.
+
+## Self-Test Questions
+
+### Earth Structure and Composition {#sec-earth-structure}
+
+**Can you describe the basic layering of the Earth and give approximate thicknesses?**
+
+Think about:
+
+- What is the difference between crust and lithosphere?
+- Why is oceanic crust so uniform in thickness (~6-7 km) while continental crust varies (tens of km)?
+- How deep is the lithosphere-asthenosphere boundary (LAB) under oceans vs. continents?
+- What proportion of Earth's volume is the mantle vs. the core?
+
+**Can you explain the difference between lithosphere and asthenosphere in terms of their physical properties?**
+
+Consider:
+
+- Which layer is rigid and which is weak?
+- What controls this difference?
+- How does this relate to plate tectonics?
+
+### Plate Motions {#sec-plate-motions}
+
+**Can you describe how plate motions are measured, both currently and in the past?**
+
+Think about:
+
+- What role do GPS measurements play?
+- How do magnetic anomalies record past plate motions?
+- What is an Euler pole and why do plates move at different speeds in different locations?
+- What is meant by a "No-Net-Rotation" reference frame?
+
+**What is the typical range of plate velocities worldwide?**
+
+- Can you give examples of fast-moving and slow-moving plates?
+- How would you explain why the Indo-Australian plate moves at different speeds at different points?
+
+### Divergent Boundaries (Mid-Ocean Ridges) {#sec-divergent}
+
+**Can you identify and explain the major characteristics of mid-ocean ridges?**
+
+Consider:
+
+- What type of faulting dominates at mid-ocean ridges?
+- Why do we see symmetric magnetic stripe patterns?
+- What is the relationship between seafloor age and ocean depth?
+- What is the difference between fast-spreading and slow-spreading ridges in terms of morphology and seismicity?
+
+**Can you explain the Vine-Matthews hypothesis and its significance?**
+
+Think about:
+
+- How do magnetic reversals get recorded in oceanic crust?
+- Why was this crucial evidence for seafloor spreading?
+
+### Transform Boundaries {#sec-transform}
+
+**Can you distinguish between transform faults and fracture zones?**
+
+Consider:
+
+- Which parts are actively slipping and which are passive?
+- Why do we see such prominent bathymetric expression of fracture zones?
+- Why do transform faults form orthogonal to mid-ocean ridges?
+
+**Can you explain what happens at "leaky transforms" like the Gulf of California?**
+
+Think about:
+
+- What produces the staircase geometry?
+- What does this tell us about oblique plate motions?
+
+### Convergent Boundaries (Subduction Zones) {#sec-convergent}
+
+**Can you explain why subduction zones are more complex than divergent boundaries?**
+
+Consider:
+
+- Why are trenches curved rather than linear?
+- What is trench rollback and how does it differ from plate convergence?
+- Why do we see normal faulting at outer rises in a convergent setting?
+- What controls whether a subduction zone dips steeply or shallowly?
+
+**Can you describe the different sources of earthquakes at convergent margins?**
+
+Think about:
+
+- Megathrust earthquakes on the plate interface
+- Outer rise earthquakes (and their mechanism)
+- Upper plate seismicity
+- Intra-slab earthquakes
+- How did the stress state change in Japan after the 2011 Tohoku earthquake?
+
+**Can you explain the role of plate bending in subduction zone dynamics?**
+
+Consider:
+
+- Why do we see outer rise normal faults?
+- What is the difference between elastic and viscous bending?
+- How does bending affect fluid infiltration into the slab?
+- What happens when the slab unbends at depth?
+
+### Triple Junctions {#sec-triple-junctions}
+
+**Can you explain why only certain triple junction configurations are stable?**
+
+Think about:
+
+- What makes a Ridge-Ridge-Ridge junction always stable?
+- Why are some configurations impossible (e.g., three transforms meeting)?
+- Can you name a real-world example of a triple junction?
+
+### Continental Deformation {#sec-continental-deformation}
+
+**Can you explain the fundamental differences between oceanic and continental deformation?**
+
+Consider:
+
+- Why don't continents subduct?
+- Why are continental plate boundaries diffuse rather than sharp?
+- What is "escape tectonics" and where do we see it?
+- How does the India-Asia collision illustrate these principles?
+
+**Can you describe the Himalayan-Tibetan system as an example of continental collision?**
+
+Think about:
+
+- What structures accommodate the convergence?
+- Why do we see extension in Tibet despite ongoing convergence?
+- What is the role of gravitational potential energy?
+- How do conjugate strike-slip faults accommodate lateral extrusion?
+
+### Global Datasets and Patterns {#sec-global-data}
+
+**Can you identify the major plate boundaries on a world map and classify them by type?**
+
+- Where are the main divergent, convergent, and transform boundaries?
+- Which boundaries are purely oceanic, purely continental, or mixed?
+
+**Can you explain what the World Stress Map shows and what controls stress patterns?**
+
+Consider:
+
+- What are the three stress regime types shown (normal, strike-slip, thrust)?
+- What forces control the stress field (plate boundary forces, mantle drag, topography)?
+- Why is Australia's stress field oriented roughly E-W?
+
+**Can you explain the relationship between seismicity and plate boundaries?**
+
+Think about:
+
+- Why are plate boundaries seismically active?
+- What causes intraplate earthquakes?
+- How does earthquake depth reveal slab geometry?

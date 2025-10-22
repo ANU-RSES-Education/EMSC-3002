@@ -1,0 +1,228 @@
+# Cross-Cutting Themes {#sec-themes}
+
+These themes appear throughout multiple modules and represent integrative concepts:
+
+## Scale Relationships {#sec-scale}
+
+**Can you explain how structures at different scales relate to each other?**
+
+Think about:
+
+- Pumpelly's Rule: small structures reflect large structures
+- Same processes at all scales?
+- Fractal nature of some structures
+- When does the rule break down?
+
+## Stress-Strain-Rheology Triangle {#sec-ssr-triangle}
+
+**Can you explain the fundamental relationship: stress causes strain, rheology controls the relationship?**
+
+Consider:
+
+- Given stress and rheology, can you predict strain?
+- Given structures (strain), can you infer stress and rheology?
+- Temperature and pressure effects on rheology
+- Why does the same stress produce different structures in different rocks?
+
+## Brittle-Ductile Behavior {#sec-brittle-ductile}
+
+**Can you explain what controls whether rocks deform in a brittle or ductile manner?**
+
+Think about:
+
+- Depth (pressure and temperature)
+- Temperature increases with depth → ductile
+- Pressure increases with depth → brittle (upper crust)
+- Result: brittle-ductile transition at mid-crustal depths
+- Strain rate effects
+- Rock composition differences
+
+**Can you describe the strength profile of the lithosphere?**
+
+Consider:
+
+- Upper crust: brittle, strength increases with depth (Byerlee's Law)
+- Lower crust: ductile, strength decreases with depth (temperature effect)
+- Mantle lithosphere: strong or weak?
+- Asthenosphere: weak (high temperature)
+- Why is this important for plate tectonics?
+
+## Tectonic Regime Recognition {#sec-regime}
+
+**Can you identify the tectonic regime from principal stress orientations?**
+
+Think about:
+
+- Normal faulting: σ~1~ vertical, σ~3~ horizontal (extension)
+- Strike-slip: σ~2~ vertical, σ~1~ and σ~3~ horizontal
+- Thrust faulting: σ~3~ vertical, σ~1~ horizontal (compression)
+
+**Can you predict what structures form in each regime?**
+
+Extensional regime:
+
+- Normal faults
+- Graben and horst
+- Domino systems
+- Rollover folds
+- Rift basins
+
+Compressional regime:
+
+- Reverse and thrust faults
+- Folds
+- Nappes and duplexes
+- Orogenic wedges
+
+Strike-slip regime:
+
+- Vertical strike-slip faults
+- Flower structures
+- Pull-apart basins (releasing bends)
+- Pop-up structures (restraining bends)
+
+## Plate Boundaries and Structures {#sec-boundaries-structures}
+
+**Can you match plate boundary types with their characteristic structures?**
+
+Divergent boundaries:
+
+- Normal faults
+- Dikes
+- Sheeted dike complexes (ophiolites)
+- Seafloor spreading fabric
+
+Convergent boundaries:
+
+- Thrust faults and folds
+- Accretionary wedges
+- Metamorphic belts
+- Subduction-related structures
+
+Transform boundaries:
+
+- Strike-slip faults
+- Flower structures
+- En echelon tension gashes
+- Riedel shears
+
+Continental boundaries:
+
+- Complex, diffuse zones
+- Multiple structure types
+- Escape tectonics
+- Thick vs. thin crust differences
+
+## Fluid-Rock Interaction {#sec-fluids}
+
+**Can you explain the role of fluids in deformation?**
+
+Consider:
+
+- Reduces effective stress: σ' = σ - P~f~
+- Enables deformation at lower differential stress
+- Facilitates chemical reactions
+- Pressure solution and dissolution creep
+- Vein formation
+- Hydrolytic weakening of minerals
+
+**Can you explain the importance for natural resources?**
+
+Think about:
+
+- Ore genesis: fluids transport metals
+- Hydrocarbon migration and trapping
+- Geothermal systems
+- Groundwater flow
+- Structures control permeability
+
+## Deformation History {#sec-history}
+
+**Can you explain how to determine the sequence of deformation events?**
+
+Consider:
+
+- Cross-cutting relationships
+- Overprinting of structures
+- Fold interference patterns
+- Multiple cleavages
+- Reactivated faults
+- Metamorphic overprinting
+
+**Can you describe common multi-phase deformation scenarios?**
+
+Think about:
+
+- D~1~, D~2~, D~3~ events
+- Progressive deformation vs. distinct events
+- Rotation of stress field
+- Changing tectonic regime
+- Superimposed fold patterns (Type 1, 2, 3 interference)
+
+## Three-Dimensional Thinking {#sec-3d}
+
+**Can you visualize structures in 3D from 2D maps and cross-sections?**
+
+Consider:
+
+- Strike and dip indicate 3D orientation
+- Apparent dip vs. true dip
+- Structure contour maps
+- Down-plunge projection
+- Stereographic projections
+
+**Can you use stereographic projections to solve structural problems?**
+
+Think about:
+
+- Plotting planes (as great circles) and lines
+- Finding intersections
+- Determining fold axis from limb orientations
+- Analyzing fault slip data
+- Identifying preferred orientations
+
+## Practical Applications {#sec-applications}
+
+**Can you explain how structural geology applies to resource exploration?**
+
+Hydrocarbons:
+
+- Anticlines as traps
+- Fault-bounded traps
+- Stratigraphic traps in fold limbs
+- Fracture networks for permeability
+
+Minerals:
+
+- Ore bodies in shear zones
+- Veins in extensional structures
+- Replacement along faults
+- Controls on ore geometry
+
+Geothermal:
+
+- Fracture permeability
+- Heat source proximity
+- Fluid circulation pathways
+
+**Can you explain applications to earthquake hazards?**
+
+Consider:
+
+- Active fault identification
+- Paleoseismology
+- Recurrence intervals
+- Seismic hazard assessment
+- Ground motion prediction
+- Critical facilities siting
+
+**Can you explain applications to engineering and geotechnical work?**
+
+Think about:
+
+- Slope stability
+- Tunnel design
+- Dam foundations
+- Nuclear waste storage
+- Understanding discontinuities (joints, faults)
+- Rock mass strength

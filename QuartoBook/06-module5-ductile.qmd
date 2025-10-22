@@ -1,0 +1,276 @@
+# Module V: Ductile Deformation {#sec-ductile}
+
+## Key Concept Summary
+
+Ductile deformation occurs when rocks flow rather than fracture, producing folds, foliations, and shear zones. Understanding fold geometry, folding mechanisms, and shear sense indicators is essential for interpreting deformation history, predicting structure at depth, and understanding resource distribution.
+
+## Self-Test Questions
+
+### Fold Geometry Fundamentals {#sec-fold-geometry}
+
+**Can you identify and label the basic elements of a fold?**
+
+Consider:
+
+- Hinge line: line of maximum curvature
+- Hinge zone: region around hinge
+- Limb: less curved parts
+- Axial surface: surface connecting hinge lines
+- Axial trace: intersection with map
+- Inflection line: zero curvature
+
+**Can you explain the difference between geometric terms (antiform/synform) and age terms (anticline/syncline)?**
+
+Think about:
+
+- Antiform: upward closing, negative curvature
+- Synform: downward closing, positive curvature
+- Anticline: older rocks in core
+- Syncline: younger rocks in core
+- Why is this distinction important for overturned folds?
+
+**Can you classify folds by interlimb angle?**
+
+Consider:
+
+- Gentle: 180-120°
+- Open: 120-70°
+- Close: 70-30°
+- Tight: 30-10°
+- Isoclinal: <10°
+- How does this relate to deformation intensity?
+
+**Can you classify folds by axial surface orientation?**
+
+Think about:
+
+- Upright: axial surface vertical
+- Inclined: axial surface dipping
+- Recumbent: axial surface horizontal
+- Overturned: one limb overturned
+- What does this tell you about the deformation?
+
+**Can you distinguish cylindrical from non-cylindrical folds?**
+
+Consider:
+
+- Cylindrical: hinge line straight, fold can be "unfolded" to plane
+- Non-cylindrical (conical): hinge line curved
+- Why is this distinction important for structural analysis?
+- What is a periclinal fold?
+
+**Can you describe different fold shapes?**
+
+Think about:
+
+- Chevron: angular hinges, straight limbs
+- Box: flat-topped, angular
+- Kink: narrow hinges, planar limbs
+- Accordion: parallel, similar geometry
+- Rounded vs. angular hinges
+
+**Can you explain fold symmetry and asymmetry?**
+
+Consider:
+
+- Symmetric: equal limb lengths and dips
+- Asymmetric: unequal limbs
+- What does asymmetry tell you about shear sense?
+
+**Can you describe complex fold structures?**
+
+Think about:
+
+- Dome: circular/elliptical antiform
+- Basin: circular/elliptical synform
+- Anticlinorium: large anticline with smaller folds
+- Synclinorium: large syncline with smaller folds
+- Fold interference patterns
+
+**Can you explain fold "facing" and its significance?**
+
+Consider:
+
+- Direction perpendicular to axial surface toward younger rocks
+- Indicates stratigraphic younging
+- Important for identifying overturned limbs
+
+### Folding Mechanisms {#sec-folding-mechanisms}
+
+**Can you describe the buckling mechanism of folding?**
+
+Consider:
+
+- Compressive stress parallel to layering
+- Requires competence contrast
+- Dominant wavelength controlled by layer thickness and stiffness
+- Wavelength fixed, amplitude grows
+- Most common in layered sequences
+
+**Can you describe the bending mechanism?**
+
+Think about:
+
+- External forces or couples
+- Doesn't require competence contrast
+- Flexural slip: slip between layers
+- Flexural flow: internal flow within layers
+- Where do we see this?
+
+**Can you describe passive folding?**
+
+Consider:
+
+- Layers carried along by flow in matrix
+- No competence contrast required
+- Produces similar folds
+- Common in highly sheared rocks
+
+**Can you explain fold tightening and lock-up?**
+
+Think about:
+
+- How folds evolve with progressive deformation
+- Eventually folds can't tighten further
+- New mechanisms activate (thrusting, cleavage)
+
+### Fold Classification by Thickness {#sec-fold-thickness}
+
+**Can you describe and distinguish the Ramsay fold classes?**
+
+Consider:
+
+**Class 1B (Parallel)**: constant layer thickness
+
+- Flexural slip dominant
+- Competent layers
+- Space problems in core
+
+**Class 2 (Similar)**: constant orthogonal thickness
+
+- Flexural flow or passive folding
+- Thickness varies around fold
+
+**Class 1A**: thickening in hinge
+
+**Class 1C**: thinning in hinge
+
+**Class 3**: irregular thickness changes
+
+**Can you explain the relationship between fold mechanism and fold class?**
+
+Think about:
+
+- Which mechanisms produce which classes?
+- What does fold class tell you about deformation?
+- Layer competence and fold style
+
+### Associated Structures {#sec-fold-structures}
+
+**Can you describe axial planar cleavage and explain its formation?**
+
+Consider:
+
+- Parallel to axial surface
+- Forms perpendicular to σ~1~
+- Pressure solution removes material
+- Creates foliation
+- Why is it useful for determining fold geometry?
+
+**Can you explain crenulation cleavage?**
+
+Think about:
+
+- Forms from folding of earlier foliation
+- Multiple deformation events
+- Shows polyphase deformation
+
+**Can you identify and interpret second-order folds (parasitic folds)?**
+
+Think about:
+
+- M-folds: on antiform
+- Z-folds: on synform (Northern Hemisphere sense)
+- S-folds: on synform
+- Indicate sense of shear or fold vergence
+- Asymmetry shows position on larger fold
+
+**Can you describe boudinage and explain its significance?**
+
+Consider:
+
+- Extension of competent layer in incompetent matrix
+- Perpendicular to extension direction
+- Boudin shapes indicate extension amount
+- Where on folds do we find boudins? (outer arc)
+
+**Can you describe tension gashes?**
+
+Think about:
+
+- Extension fractures, often mineral-filled
+- Form in outer arc of folds
+- Show extension direction
+- Often en echelon arrays
+
+**Can you explain the relationship between folds and faults?**
+
+Fold-fault relationships:
+
+- **Fault-propagation folds**: ahead of propagating fault tip
+- **Fault-bend folds**: hanging wall over ramp
+- **Detachment folds**: above weak layer, no throughgoing fault
+- Why is understanding this important for petroleum geology?
+
+### Shear Zones {#sec-shear-zones}
+
+**Can you describe the characteristics of ductile shear zones?**
+
+Consider:
+
+- Distributed deformation
+- Localized zones of high strain
+- Scale from km to mm
+- Gradational boundaries
+- Associated with metamorphism
+
+**Can you identify and interpret shear sense indicators?**
+
+S-C fabrics:
+
+- S: foliation surfaces
+- C: shear planes
+- C cuts S at angle
+- Asymmetry indicates shear sense
+
+Porphyroclast systems:
+
+- **σ-type**: synthetic tails, indicate shear sense
+- **δ-type**: antithetic tails
+- Rotation and tail geometry
+
+Other indicators:
+
+- Mica fish: recrystallized mica grains
+- Shear bands: small-scale C' surfaces
+- Rotated minerals and aggregates
+- Asymmetric folds
+
+**Can you describe mylonites and their classification?**
+
+Consider:
+
+- **Protomylonite**: <50% matrix
+- **Mylonite**: 50-90% matrix
+- **Ultramylonite**: >90% matrix
+- **Blastomylonite**: recrystallized mylonite
+- What does matrix percentage indicate?
+
+**Can you explain shear zone kinematics?**
+
+Think about:
+
+- Simple shear: non-coaxial, W~k~ = 1
+- General shear: combination of pure and simple shear
+- Vorticity analysis: determine W~k~ from fabric
+- Why is this important for understanding deformation?

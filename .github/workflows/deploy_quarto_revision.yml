@@ -1,0 +1,40 @@
+name: deploy-quarto-revision
+
+# Run this when changes are pushed to master or manually triggered
+on:
+  push:
+    branches:
+      - master
+    paths:
+      - 'QuartoBook/**'
+      - '.github/workflows/deploy_quarto_revision.yml'
+
+  workflow_dispatch:
+
+# This job installs Quarto, builds the book, and pushes it to gh-pages in a subdirectory
+jobs:
+  deploy-quarto-revision:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write
+    steps:
+      - name: Check out repository
+        uses: actions/checkout@v4
+
+      - name: Set up Quarto
+        uses: quarto-dev/quarto-actions/setup@v2
+        with:
+          version: 1.4.549
+
+      - name: Render Quarto Book
+        uses: quarto-dev/quarto-actions/render@v2
+        with:
+          path: QuartoBook
+
+      - name: Deploy to GitHub Pages (revision subdirectory)
+        uses: peaceiris/actions-gh-pages@v4
+        with:
+          github_token: ${{ secrets.GITHUB_TOKEN }}
+          publish_dir: ./QuartoBook/_book
+          destination_dir: revision
+          keep_files: true

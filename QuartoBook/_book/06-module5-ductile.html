@@ -1,0 +1,933 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en"><head>
+
+<meta charset="utf-8">
+<meta name="generator" content="quarto-1.6.42">
+
+<meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
+
+
+<title>6&nbsp; MODULE V: DUCTILE DEFORMATION – EMSC 3002 - Structural Geology &amp; Tectonics</title>
+<style>
+code{white-space: pre-wrap;}
+span.smallcaps{font-variant: small-caps;}
+div.columns{display: flex; gap: min(4vw, 1.5em);}
+div.column{flex: auto; overflow-x: auto;}
+div.hanging-indent{margin-left: 1.5em; text-indent: -1.5em;}
+ul.task-list{list-style: none;}
+ul.task-list li input[type="checkbox"] {
+  width: 0.8em;
+  margin: 0 0.8em 0.2em -1em; /* quarto-specific, see https://github.com/quarto-dev/quarto-cli/issues/4556 */ 
+  vertical-align: middle;
+}
+</style>
+
+
+<script src="site_libs/quarto-nav/quarto-nav.js"></script>
+<script src="site_libs/quarto-nav/headroom.min.js"></script>
+<script src="site_libs/clipboard/clipboard.min.js"></script>
+<script src="site_libs/quarto-search/autocomplete.umd.js"></script>
+<script src="site_libs/quarto-search/fuse.min.js"></script>
+<script src="site_libs/quarto-search/quarto-search.js"></script>
+<meta name="quarto:offset" content="./">
+<link href="./07-cross-cutting-themes.html" rel="next">
+<link href="./05-module4-brittle.html" rel="prev">
+<script src="site_libs/quarto-html/quarto.js"></script>
+<script src="site_libs/quarto-html/popper.min.js"></script>
+<script src="site_libs/quarto-html/tippy.umd.min.js"></script>
+<script src="site_libs/quarto-html/anchor.min.js"></script>
+<link href="site_libs/quarto-html/tippy.css" rel="stylesheet">
+<link href="site_libs/quarto-html/quarto-syntax-highlighting-2f5df379a58b258e96c21c0638c20c03.css" rel="stylesheet" id="quarto-text-highlighting-styles">
+<script src="site_libs/bootstrap/bootstrap.min.js"></script>
+<link href="site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
+<link href="site_libs/bootstrap/bootstrap-ac8e65ed7667ce0dca7ff02d84657f5a.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
+<script id="quarto-search-options" type="application/json">{
+  "location": "sidebar",
+  "copy-button": false,
+  "collapse-after": 3,
+  "panel-placement": "start",
+  "type": "textbox",
+  "limit": 50,
+  "keyboard-shortcut": [
+    "f",
+    "/",
+    "s"
+  ],
+  "show-item-context": false,
+  "language": {
+    "search-no-results-text": "No results",
+    "search-matching-documents-text": "matching documents",
+    "search-copy-link-title": "Copy link to search",
+    "search-hide-matches-text": "Hide additional matches",
+    "search-more-match-text": "more match in this document",
+    "search-more-matches-text": "more matches in this document",
+    "search-clear-button-title": "Clear",
+    "search-text-placeholder": "",
+    "search-detached-cancel-button-title": "Cancel",
+    "search-submit-button-title": "Submit",
+    "search-label": "Search"
+  }
+}</script>
+
+
+</head>
+
+<body class="nav-sidebar docked">
+
+<div id="quarto-search-results"></div>
+  <header id="quarto-header" class="headroom fixed-top">
+  <nav class="quarto-secondary-nav">
+    <div class="container-fluid d-flex">
+      <button type="button" class="quarto-btn-toggle btn" data-bs-toggle="collapse" role="button" data-bs-target=".quarto-sidebar-collapse-item" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Toggle sidebar navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
+        <i class="bi bi-layout-text-sidebar-reverse"></i>
+      </button>
+        <nav class="quarto-page-breadcrumbs" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item"><a href="./02-module1-global-tectonics.html">Core Modules</a></li><li class="breadcrumb-item"><a href="./06-module5-ductile.html"><span class="chapter-number">6</span>&nbsp; <span class="chapter-title">Module V: Ductile Deformation</span></a></li></ol></nav>
+        <a class="flex-grow-1" role="navigation" data-bs-toggle="collapse" data-bs-target=".quarto-sidebar-collapse-item" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Toggle sidebar navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">      
+        </a>
+      <button type="button" class="btn quarto-search-button" aria-label="Search" onclick="window.quartoOpenSearch();">
+        <i class="bi bi-search"></i>
+      </button>
+    </div>
+  </nav>
+</header>
+<!-- content -->
+<div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-article">
+<!-- sidebar -->
+  <nav id="quarto-sidebar" class="sidebar collapse collapse-horizontal quarto-sidebar-collapse-item sidebar-navigation docked overflow-auto">
+    <div class="pt-lg-2 mt-2 text-left sidebar-header">
+    <div class="sidebar-title mb-0 py-0">
+      <a href="./">EMSC 3002 - Structural Geology &amp; Tectonics</a> 
+        <div class="sidebar-tools-main">
+    <a href="https://github.com/ANU-RSES-Education/EMSC-3002" title="Source Code" class="quarto-navigation-tool px-1" aria-label="Source Code"><i class="bi bi-github"></i></a>
+</div>
+    </div>
+      </div>
+        <div class="mt-2 flex-shrink-0 align-items-center">
+        <div class="sidebar-search">
+        <div id="quarto-search" class="" title="Search"></div>
+        </div>
+        </div>
+    <div class="sidebar-menu-container"> 
+    <ul class="list-unstyled mt-1">
+        <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./index.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Welcome</span></a>
+  </div>
+</li>
+        <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./01-introduction.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text"><span class="chapter-number">1</span>&nbsp; <span class="chapter-title">How to Use These Revision Notes</span></span></a>
+  </div>
+</li>
+        <li class="sidebar-item sidebar-item-section">
+      <div class="sidebar-item-container"> 
+            <a class="sidebar-item-text sidebar-link text-start" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-1" role="navigation" aria-expanded="true">
+ <span class="menu-text">Core Modules</span></a>
+          <a class="sidebar-item-toggle text-start" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-1" role="navigation" aria-expanded="true" aria-label="Toggle section">
+            <i class="bi bi-chevron-right ms-2"></i>
+          </a> 
+      </div>
+      <ul id="quarto-sidebar-section-1" class="collapse list-unstyled sidebar-section depth1 show">  
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./02-module1-global-tectonics.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text"><span class="chapter-number">2</span>&nbsp; <span class="chapter-title">Module I: Global Tectonics</span></span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./03-module2-structural-geology.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text"><span class="chapter-number">3</span>&nbsp; <span class="chapter-title">Module II: Structural Geology and Crustal Deformation</span></span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./04-module3-theory.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text"><span class="chapter-number">4</span>&nbsp; <span class="chapter-title">Module III: Theoretical Underpinnings</span></span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./05-module4-brittle.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text"><span class="chapter-number">5</span>&nbsp; <span class="chapter-title">Module IV: Brittle Deformation</span></span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./06-module5-ductile.html" class="sidebar-item-text sidebar-link active">
+ <span class="menu-text"><span class="chapter-number">6</span>&nbsp; <span class="chapter-title">Module V: Ductile Deformation</span></span></a>
+  </div>
+</li>
+      </ul>
+  </li>
+        <li class="sidebar-item sidebar-item-section">
+      <div class="sidebar-item-container"> 
+            <a class="sidebar-item-text sidebar-link text-start" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-2" role="navigation" aria-expanded="true">
+ <span class="menu-text">Integration &amp; Practice</span></a>
+          <a class="sidebar-item-toggle text-start" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-2" role="navigation" aria-expanded="true" aria-label="Toggle section">
+            <i class="bi bi-chevron-right ms-2"></i>
+          </a> 
+      </div>
+      <ul id="quarto-sidebar-section-2" class="collapse list-unstyled sidebar-section depth1 show">  
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./07-cross-cutting-themes.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text"><span class="chapter-number">7</span>&nbsp; <span class="chapter-title">Cross-Cutting Themes</span></span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./08-practical-resources.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text"><span class="chapter-number">8</span>&nbsp; <span class="chapter-title">Practical Resources</span></span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./09-exam-preparation.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text"><span class="chapter-number">9</span>&nbsp; <span class="chapter-title">Exam Preparation</span></span></a>
+  </div>
+</li>
+      </ul>
+  </li>
+    </ul>
+    </div>
+</nav>
+<div id="quarto-sidebar-glass" class="quarto-sidebar-collapse-item" data-bs-toggle="collapse" data-bs-target=".quarto-sidebar-collapse-item"></div>
+<!-- margin-sidebar -->
+    <div id="quarto-margin-sidebar" class="sidebar margin-sidebar">
+        <nav id="TOC" role="doc-toc" class="toc-active">
+    <h2 id="toc-title">Table of contents</h2>
+   
+  <ul>
+  <li><a href="#key-concept-summary" id="toc-key-concept-summary" class="nav-link active" data-scroll-target="#key-concept-summary"><span class="header-section-number">6.1</span> Key Concept Summary</a></li>
+  <li><a href="#self-test-questions" id="toc-self-test-questions" class="nav-link" data-scroll-target="#self-test-questions"><span class="header-section-number">6.2</span> Self-Test Questions</a>
+  <ul>
+  <li><a href="#sec-fold-geometry" id="toc-sec-fold-geometry" class="nav-link" data-scroll-target="#sec-fold-geometry"><span class="header-section-number">6.2.1</span> Fold Geometry Fundamentals</a></li>
+  <li><a href="#sec-folding-mechanisms" id="toc-sec-folding-mechanisms" class="nav-link" data-scroll-target="#sec-folding-mechanisms"><span class="header-section-number">6.2.2</span> Folding Mechanisms</a></li>
+  <li><a href="#sec-fold-thickness" id="toc-sec-fold-thickness" class="nav-link" data-scroll-target="#sec-fold-thickness"><span class="header-section-number">6.2.3</span> Fold Classification by Thickness</a></li>
+  <li><a href="#sec-fold-structures" id="toc-sec-fold-structures" class="nav-link" data-scroll-target="#sec-fold-structures"><span class="header-section-number">6.2.4</span> Associated Structures</a></li>
+  <li><a href="#sec-shear-zones" id="toc-sec-shear-zones" class="nav-link" data-scroll-target="#sec-shear-zones"><span class="header-section-number">6.2.5</span> Shear Zones</a></li>
+  </ul></li>
+  </ul>
+<div class="toc-actions"><ul><li><a href="https://github.com/ANU-RSES-Education/EMSC-3002/edit/master/06-module5-ductile.qmd" class="toc-action"><i class="bi bi-github"></i>Edit this page</a></li><li><a href="https://github.com/ANU-RSES-Education/EMSC-3002/issues/new" class="toc-action"><i class="bi empty"></i>Report an issue</a></li></ul></div></nav>
+    </div>
+<!-- main -->
+<main class="content" id="quarto-document-content">
+
+<header id="title-block-header" class="quarto-title-block default"><nav class="quarto-page-breadcrumbs quarto-title-breadcrumbs d-none d-lg-block" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item"><a href="./02-module1-global-tectonics.html">Core Modules</a></li><li class="breadcrumb-item"><a href="./06-module5-ductile.html"><span class="chapter-number">6</span>&nbsp; <span class="chapter-title">Module V: Ductile Deformation</span></a></li></ol></nav>
+<div class="quarto-title">
+<h1 class="title"><span id="sec-ductile" class="quarto-section-identifier"><span class="chapter-number">6</span>&nbsp; <span class="chapter-title">MODULE V: DUCTILE DEFORMATION</span></span></h1>
+</div>
+
+
+
+<div class="quarto-title-meta">
+
+    
+  
+    
+  </div>
+  
+
+
+</header>
+
+
+<section id="key-concept-summary" class="level2" data-number="6.1">
+<h2 data-number="6.1" class="anchored" data-anchor-id="key-concept-summary"><span class="header-section-number">6.1</span> Key Concept Summary</h2>
+<p>Ductile deformation occurs when rocks flow rather than fracture, producing folds, foliations, and shear zones. Understanding fold geometry, folding mechanisms, and shear sense indicators is essential for interpreting deformation history, predicting structure at depth, and understanding resource distribution.</p>
+</section>
+<section id="self-test-questions" class="level2" data-number="6.2">
+<h2 data-number="6.2" class="anchored" data-anchor-id="self-test-questions"><span class="header-section-number">6.2</span> Self-Test Questions</h2>
+<section id="sec-fold-geometry" class="level3" data-number="6.2.1">
+<h3 data-number="6.2.1" class="anchored" data-anchor-id="sec-fold-geometry"><span class="header-section-number">6.2.1</span> Fold Geometry Fundamentals</h3>
+<p><strong>Can you identify and label the basic elements of a fold?</strong></p>
+<p>Consider:</p>
+<ul>
+<li>Hinge line: line of maximum curvature</li>
+<li>Hinge zone: region around hinge</li>
+<li>Limb: less curved parts</li>
+<li>Axial surface: surface connecting hinge lines</li>
+<li>Axial trace: intersection with map</li>
+<li>Inflection line: zero curvature</li>
+</ul>
+<p><strong>Can you explain the difference between geometric terms (antiform/synform) and age terms (anticline/syncline)?</strong></p>
+<p>Think about:</p>
+<ul>
+<li>Antiform: upward closing, negative curvature</li>
+<li>Synform: downward closing, positive curvature</li>
+<li>Anticline: older rocks in core</li>
+<li>Syncline: younger rocks in core</li>
+<li>Why is this distinction important for overturned folds?</li>
+</ul>
+<p><strong>Can you classify folds by interlimb angle?</strong></p>
+<p>Consider:</p>
+<ul>
+<li>Gentle: 180-120°</li>
+<li>Open: 120-70°</li>
+<li>Close: 70-30°</li>
+<li>Tight: 30-10°</li>
+<li>Isoclinal: &lt;10°</li>
+<li>How does this relate to deformation intensity?</li>
+</ul>
+<p><strong>Can you classify folds by axial surface orientation?</strong></p>
+<p>Think about:</p>
+<ul>
+<li>Upright: axial surface vertical</li>
+<li>Inclined: axial surface dipping</li>
+<li>Recumbent: axial surface horizontal</li>
+<li>Overturned: one limb overturned</li>
+<li>What does this tell you about the deformation?</li>
+</ul>
+<p><strong>Can you distinguish cylindrical from non-cylindrical folds?</strong></p>
+<p>Consider:</p>
+<ul>
+<li>Cylindrical: hinge line straight, fold can be “unfolded” to plane</li>
+<li>Non-cylindrical (conical): hinge line curved</li>
+<li>Why is this distinction important for structural analysis?</li>
+<li>What is a periclinal fold?</li>
+</ul>
+<p><strong>Can you describe different fold shapes?</strong></p>
+<p>Think about:</p>
+<ul>
+<li>Chevron: angular hinges, straight limbs</li>
+<li>Box: flat-topped, angular</li>
+<li>Kink: narrow hinges, planar limbs</li>
+<li>Accordion: parallel, similar geometry</li>
+<li>Rounded vs.&nbsp;angular hinges</li>
+</ul>
+<p><strong>Can you explain fold symmetry and asymmetry?</strong></p>
+<p>Consider:</p>
+<ul>
+<li>Symmetric: equal limb lengths and dips</li>
+<li>Asymmetric: unequal limbs</li>
+<li>What does asymmetry tell you about shear sense?</li>
+</ul>
+<p><strong>Can you describe complex fold structures?</strong></p>
+<p>Think about:</p>
+<ul>
+<li>Dome: circular/elliptical antiform</li>
+<li>Basin: circular/elliptical synform</li>
+<li>Anticlinorium: large anticline with smaller folds</li>
+<li>Synclinorium: large syncline with smaller folds</li>
+<li>Fold interference patterns</li>
+</ul>
+<p><strong>Can you explain fold “facing” and its significance?</strong></p>
+<p>Consider:</p>
+<ul>
+<li>Direction perpendicular to axial surface toward younger rocks</li>
+<li>Indicates stratigraphic younging</li>
+<li>Important for identifying overturned limbs</li>
+</ul>
+</section>
+<section id="sec-folding-mechanisms" class="level3" data-number="6.2.2">
+<h3 data-number="6.2.2" class="anchored" data-anchor-id="sec-folding-mechanisms"><span class="header-section-number">6.2.2</span> Folding Mechanisms</h3>
+<p><strong>Can you describe the buckling mechanism of folding?</strong></p>
+<p>Consider:</p>
+<ul>
+<li>Compressive stress parallel to layering</li>
+<li>Requires competence contrast</li>
+<li>Dominant wavelength controlled by layer thickness and stiffness</li>
+<li>Wavelength fixed, amplitude grows</li>
+<li>Most common in layered sequences</li>
+</ul>
+<p><strong>Can you describe the bending mechanism?</strong></p>
+<p>Think about:</p>
+<ul>
+<li>External forces or couples</li>
+<li>Doesn’t require competence contrast</li>
+<li>Flexural slip: slip between layers</li>
+<li>Flexural flow: internal flow within layers</li>
+<li>Where do we see this?</li>
+</ul>
+<p><strong>Can you describe passive folding?</strong></p>
+<p>Consider:</p>
+<ul>
+<li>Layers carried along by flow in matrix</li>
+<li>No competence contrast required</li>
+<li>Produces similar folds</li>
+<li>Common in highly sheared rocks</li>
+</ul>
+<p><strong>Can you explain fold tightening and lock-up?</strong></p>
+<p>Think about:</p>
+<ul>
+<li>How folds evolve with progressive deformation</li>
+<li>Eventually folds can’t tighten further</li>
+<li>New mechanisms activate (thrusting, cleavage)</li>
+</ul>
+</section>
+<section id="sec-fold-thickness" class="level3" data-number="6.2.3">
+<h3 data-number="6.2.3" class="anchored" data-anchor-id="sec-fold-thickness"><span class="header-section-number">6.2.3</span> Fold Classification by Thickness</h3>
+<p><strong>Can you describe and distinguish the Ramsay fold classes?</strong></p>
+<p>Consider:</p>
+<p><strong>Class 1B (Parallel)</strong>: constant layer thickness</p>
+<ul>
+<li>Flexural slip dominant</li>
+<li>Competent layers</li>
+<li>Space problems in core</li>
+</ul>
+<p><strong>Class 2 (Similar)</strong>: constant orthogonal thickness</p>
+<ul>
+<li>Flexural flow or passive folding</li>
+<li>Thickness varies around fold</li>
+</ul>
+<p><strong>Class 1A</strong>: thickening in hinge</p>
+<p><strong>Class 1C</strong>: thinning in hinge</p>
+<p><strong>Class 3</strong>: irregular thickness changes</p>
+<p><strong>Can you explain the relationship between fold mechanism and fold class?</strong></p>
+<p>Think about:</p>
+<ul>
+<li>Which mechanisms produce which classes?</li>
+<li>What does fold class tell you about deformation?</li>
+<li>Layer competence and fold style</li>
+</ul>
+</section>
+<section id="sec-fold-structures" class="level3" data-number="6.2.4">
+<h3 data-number="6.2.4" class="anchored" data-anchor-id="sec-fold-structures"><span class="header-section-number">6.2.4</span> Associated Structures</h3>
+<p><strong>Can you describe axial planar cleavage and explain its formation?</strong></p>
+<p>Consider:</p>
+<ul>
+<li>Parallel to axial surface</li>
+<li>Forms perpendicular to σ<sub>1</sub></li>
+<li>Pressure solution removes material</li>
+<li>Creates foliation</li>
+<li>Why is it useful for determining fold geometry?</li>
+</ul>
+<p><strong>Can you explain crenulation cleavage?</strong></p>
+<p>Think about:</p>
+<ul>
+<li>Forms from folding of earlier foliation</li>
+<li>Multiple deformation events</li>
+<li>Shows polyphase deformation</li>
+</ul>
+<p><strong>Can you identify and interpret second-order folds (parasitic folds)?</strong></p>
+<p>Think about:</p>
+<ul>
+<li>M-folds: on antiform</li>
+<li>Z-folds: on synform (Northern Hemisphere sense)</li>
+<li>S-folds: on synform</li>
+<li>Indicate sense of shear or fold vergence</li>
+<li>Asymmetry shows position on larger fold</li>
+</ul>
+<p><strong>Can you describe boudinage and explain its significance?</strong></p>
+<p>Consider:</p>
+<ul>
+<li>Extension of competent layer in incompetent matrix</li>
+<li>Perpendicular to extension direction</li>
+<li>Boudin shapes indicate extension amount</li>
+<li>Where on folds do we find boudins? (outer arc)</li>
+</ul>
+<p><strong>Can you describe tension gashes?</strong></p>
+<p>Think about:</p>
+<ul>
+<li>Extension fractures, often mineral-filled</li>
+<li>Form in outer arc of folds</li>
+<li>Show extension direction</li>
+<li>Often en echelon arrays</li>
+</ul>
+<p><strong>Can you explain the relationship between folds and faults?</strong></p>
+<p>Fold-fault relationships:</p>
+<ul>
+<li><strong>Fault-propagation folds</strong>: ahead of propagating fault tip</li>
+<li><strong>Fault-bend folds</strong>: hanging wall over ramp</li>
+<li><strong>Detachment folds</strong>: above weak layer, no throughgoing fault</li>
+<li>Why is understanding this important for petroleum geology?</li>
+</ul>
+</section>
+<section id="sec-shear-zones" class="level3" data-number="6.2.5">
+<h3 data-number="6.2.5" class="anchored" data-anchor-id="sec-shear-zones"><span class="header-section-number">6.2.5</span> Shear Zones</h3>
+<p><strong>Can you describe the characteristics of ductile shear zones?</strong></p>
+<p>Consider:</p>
+<ul>
+<li>Distributed deformation</li>
+<li>Localized zones of high strain</li>
+<li>Scale from km to mm</li>
+<li>Gradational boundaries</li>
+<li>Associated with metamorphism</li>
+</ul>
+<p><strong>Can you identify and interpret shear sense indicators?</strong></p>
+<p>S-C fabrics:</p>
+<ul>
+<li>S: foliation surfaces</li>
+<li>C: shear planes</li>
+<li>C cuts S at angle</li>
+<li>Asymmetry indicates shear sense</li>
+</ul>
+<p>Porphyroclast systems:</p>
+<ul>
+<li><strong>σ-type</strong>: synthetic tails, indicate shear sense</li>
+<li><strong>δ-type</strong>: antithetic tails</li>
+<li>Rotation and tail geometry</li>
+</ul>
+<p>Other indicators:</p>
+<ul>
+<li>Mica fish: recrystallized mica grains</li>
+<li>Shear bands: small-scale C’ surfaces</li>
+<li>Rotated minerals and aggregates</li>
+<li>Asymmetric folds</li>
+</ul>
+<p><strong>Can you describe mylonites and their classification?</strong></p>
+<p>Consider:</p>
+<ul>
+<li><strong>Protomylonite</strong>: &lt;50% matrix</li>
+<li><strong>Mylonite</strong>: 50-90% matrix</li>
+<li><strong>Ultramylonite</strong>: &gt;90% matrix</li>
+<li><strong>Blastomylonite</strong>: recrystallized mylonite</li>
+<li>What does matrix percentage indicate?</li>
+</ul>
+<p><strong>Can you explain shear zone kinematics?</strong></p>
+<p>Think about:</p>
+<ul>
+<li>Simple shear: non-coaxial, W<sub>k</sub> = 1</li>
+<li>General shear: combination of pure and simple shear</li>
+<li>Vorticity analysis: determine W<sub>k</sub> from fabric</li>
+<li>Why is this important for understanding deformation?</li>
+</ul>
+
+
+</section>
+</section>
+
+</main> <!-- /main -->
+<script id="quarto-html-after-body" type="application/javascript">
+window.document.addEventListener("DOMContentLoaded", function (event) {
+  const toggleBodyColorMode = (bsSheetEl) => {
+    const mode = bsSheetEl.getAttribute("data-mode");
+    const bodyEl = window.document.querySelector("body");
+    if (mode === "dark") {
+      bodyEl.classList.add("quarto-dark");
+      bodyEl.classList.remove("quarto-light");
+    } else {
+      bodyEl.classList.add("quarto-light");
+      bodyEl.classList.remove("quarto-dark");
+    }
+  }
+  const toggleBodyColorPrimary = () => {
+    const bsSheetEl = window.document.querySelector("link#quarto-bootstrap");
+    if (bsSheetEl) {
+      toggleBodyColorMode(bsSheetEl);
+    }
+  }
+  toggleBodyColorPrimary();  
+  const icon = "";
+  const anchorJS = new window.AnchorJS();
+  anchorJS.options = {
+    placement: 'right',
+    icon: icon
+  };
+  anchorJS.add('.anchored');
+  const isCodeAnnotation = (el) => {
+    for (const clz of el.classList) {
+      if (clz.startsWith('code-annotation-')) {                     
+        return true;
+      }
+    }
+    return false;
+  }
+  const onCopySuccess = function(e) {
+    // button target
+    const button = e.trigger;
+    // don't keep focus
+    button.blur();
+    // flash "checked"
+    button.classList.add('code-copy-button-checked');
+    var currentTitle = button.getAttribute("title");
+    button.setAttribute("title", "Copied!");
+    let tooltip;
+    if (window.bootstrap) {
+      button.setAttribute("data-bs-toggle", "tooltip");
+      button.setAttribute("data-bs-placement", "left");
+      button.setAttribute("data-bs-title", "Copied!");
+      tooltip = new bootstrap.Tooltip(button, 
+        { trigger: "manual", 
+          customClass: "code-copy-button-tooltip",
+          offset: [0, -8]});
+      tooltip.show();    
+    }
+    setTimeout(function() {
+      if (tooltip) {
+        tooltip.hide();
+        button.removeAttribute("data-bs-title");
+        button.removeAttribute("data-bs-toggle");
+        button.removeAttribute("data-bs-placement");
+      }
+      button.setAttribute("title", currentTitle);
+      button.classList.remove('code-copy-button-checked');
+    }, 1000);
+    // clear code selection
+    e.clearSelection();
+  }
+  const getTextToCopy = function(trigger) {
+      const codeEl = trigger.previousElementSibling.cloneNode(true);
+      for (const childEl of codeEl.children) {
+        if (isCodeAnnotation(childEl)) {
+          childEl.remove();
+        }
+      }
+      return codeEl.innerText;
+  }
+  const clipboard = new window.ClipboardJS('.code-copy-button:not([data-in-quarto-modal])', {
+    text: getTextToCopy
+  });
+  clipboard.on('success', onCopySuccess);
+  if (window.document.getElementById('quarto-embedded-source-code-modal')) {
+    const clipboardModal = new window.ClipboardJS('.code-copy-button[data-in-quarto-modal]', {
+      text: getTextToCopy,
+      container: window.document.getElementById('quarto-embedded-source-code-modal')
+    });
+    clipboardModal.on('success', onCopySuccess);
+  }
+    var localhostRegex = new RegExp(/^(?:http|https):\/\/localhost\:?[0-9]*\//);
+    var mailtoRegex = new RegExp(/^mailto:/);
+      var filterRegex = new RegExp('/' + window.location.host + '/');
+    var isInternal = (href) => {
+        return filterRegex.test(href) || localhostRegex.test(href) || mailtoRegex.test(href);
+    }
+    // Inspect non-navigation links and adorn them if external
+ 	var links = window.document.querySelectorAll('a[href]:not(.nav-link):not(.navbar-brand):not(.toc-action):not(.sidebar-link):not(.sidebar-item-toggle):not(.pagination-link):not(.no-external):not([aria-hidden]):not(.dropdown-item):not(.quarto-navigation-tool):not(.about-link)');
+    for (var i=0; i<links.length; i++) {
+      const link = links[i];
+      if (!isInternal(link.href)) {
+        // undo the damage that might have been done by quarto-nav.js in the case of
+        // links that we want to consider external
+        if (link.dataset.originalHref !== undefined) {
+          link.href = link.dataset.originalHref;
+        }
+          // target, if specified
+          link.setAttribute("target", "_blank");
+          if (link.getAttribute("rel") === null) {
+            link.setAttribute("rel", "noopener");
+          }
+      }
+    }
+  function tippyHover(el, contentFn, onTriggerFn, onUntriggerFn) {
+    const config = {
+      allowHTML: true,
+      maxWidth: 500,
+      delay: 100,
+      arrow: false,
+      appendTo: function(el) {
+          return el.parentElement;
+      },
+      interactive: true,
+      interactiveBorder: 10,
+      theme: 'quarto',
+      placement: 'bottom-start',
+    };
+    if (contentFn) {
+      config.content = contentFn;
+    }
+    if (onTriggerFn) {
+      config.onTrigger = onTriggerFn;
+    }
+    if (onUntriggerFn) {
+      config.onUntrigger = onUntriggerFn;
+    }
+    window.tippy(el, config); 
+  }
+  const noterefs = window.document.querySelectorAll('a[role="doc-noteref"]');
+  for (var i=0; i<noterefs.length; i++) {
+    const ref = noterefs[i];
+    tippyHover(ref, function() {
+      // use id or data attribute instead here
+      let href = ref.getAttribute('data-footnote-href') || ref.getAttribute('href');
+      try { href = new URL(href).hash; } catch {}
+      const id = href.replace(/^#\/?/, "");
+      const note = window.document.getElementById(id);
+      if (note) {
+        return note.innerHTML;
+      } else {
+        return "";
+      }
+    });
+  }
+  const xrefs = window.document.querySelectorAll('a.quarto-xref');
+  const processXRef = (id, note) => {
+    // Strip column container classes
+    const stripColumnClz = (el) => {
+      el.classList.remove("page-full", "page-columns");
+      if (el.children) {
+        for (const child of el.children) {
+          stripColumnClz(child);
+        }
+      }
+    }
+    stripColumnClz(note)
+    if (id === null || id.startsWith('sec-')) {
+      // Special case sections, only their first couple elements
+      const container = document.createElement("div");
+      if (note.children && note.children.length > 2) {
+        container.appendChild(note.children[0].cloneNode(true));
+        for (let i = 1; i < note.children.length; i++) {
+          const child = note.children[i];
+          if (child.tagName === "P" && child.innerText === "") {
+            continue;
+          } else {
+            container.appendChild(child.cloneNode(true));
+            break;
+          }
+        }
+        if (window.Quarto?.typesetMath) {
+          window.Quarto.typesetMath(container);
+        }
+        return container.innerHTML
+      } else {
+        if (window.Quarto?.typesetMath) {
+          window.Quarto.typesetMath(note);
+        }
+        return note.innerHTML;
+      }
+    } else {
+      // Remove any anchor links if they are present
+      const anchorLink = note.querySelector('a.anchorjs-link');
+      if (anchorLink) {
+        anchorLink.remove();
+      }
+      if (window.Quarto?.typesetMath) {
+        window.Quarto.typesetMath(note);
+      }
+      if (note.classList.contains("callout")) {
+        return note.outerHTML;
+      } else {
+        return note.innerHTML;
+      }
+    }
+  }
+  for (var i=0; i<xrefs.length; i++) {
+    const xref = xrefs[i];
+    tippyHover(xref, undefined, function(instance) {
+      instance.disable();
+      let url = xref.getAttribute('href');
+      let hash = undefined; 
+      if (url.startsWith('#')) {
+        hash = url;
+      } else {
+        try { hash = new URL(url).hash; } catch {}
+      }
+      if (hash) {
+        const id = hash.replace(/^#\/?/, "");
+        const note = window.document.getElementById(id);
+        if (note !== null) {
+          try {
+            const html = processXRef(id, note.cloneNode(true));
+            instance.setContent(html);
+          } finally {
+            instance.enable();
+            instance.show();
+          }
+        } else {
+          // See if we can fetch this
+          fetch(url.split('#')[0])
+          .then(res => res.text())
+          .then(html => {
+            const parser = new DOMParser();
+            const htmlDoc = parser.parseFromString(html, "text/html");
+            const note = htmlDoc.getElementById(id);
+            if (note !== null) {
+              const html = processXRef(id, note);
+              instance.setContent(html);
+            } 
+          }).finally(() => {
+            instance.enable();
+            instance.show();
+          });
+        }
+      } else {
+        // See if we can fetch a full url (with no hash to target)
+        // This is a special case and we should probably do some content thinning / targeting
+        fetch(url)
+        .then(res => res.text())
+        .then(html => {
+          const parser = new DOMParser();
+          const htmlDoc = parser.parseFromString(html, "text/html");
+          const note = htmlDoc.querySelector('main.content');
+          if (note !== null) {
+            // This should only happen for chapter cross references
+            // (since there is no id in the URL)
+            // remove the first header
+            if (note.children.length > 0 && note.children[0].tagName === "HEADER") {
+              note.children[0].remove();
+            }
+            const html = processXRef(null, note);
+            instance.setContent(html);
+          } 
+        }).finally(() => {
+          instance.enable();
+          instance.show();
+        });
+      }
+    }, function(instance) {
+    });
+  }
+      let selectedAnnoteEl;
+      const selectorForAnnotation = ( cell, annotation) => {
+        let cellAttr = 'data-code-cell="' + cell + '"';
+        let lineAttr = 'data-code-annotation="' +  annotation + '"';
+        const selector = 'span[' + cellAttr + '][' + lineAttr + ']';
+        return selector;
+      }
+      const selectCodeLines = (annoteEl) => {
+        const doc = window.document;
+        const targetCell = annoteEl.getAttribute("data-target-cell");
+        const targetAnnotation = annoteEl.getAttribute("data-target-annotation");
+        const annoteSpan = window.document.querySelector(selectorForAnnotation(targetCell, targetAnnotation));
+        const lines = annoteSpan.getAttribute("data-code-lines").split(",");
+        const lineIds = lines.map((line) => {
+          return targetCell + "-" + line;
+        })
+        let top = null;
+        let height = null;
+        let parent = null;
+        if (lineIds.length > 0) {
+            //compute the position of the single el (top and bottom and make a div)
+            const el = window.document.getElementById(lineIds[0]);
+            top = el.offsetTop;
+            height = el.offsetHeight;
+            parent = el.parentElement.parentElement;
+          if (lineIds.length > 1) {
+            const lastEl = window.document.getElementById(lineIds[lineIds.length - 1]);
+            const bottom = lastEl.offsetTop + lastEl.offsetHeight;
+            height = bottom - top;
+          }
+          if (top !== null && height !== null && parent !== null) {
+            // cook up a div (if necessary) and position it 
+            let div = window.document.getElementById("code-annotation-line-highlight");
+            if (div === null) {
+              div = window.document.createElement("div");
+              div.setAttribute("id", "code-annotation-line-highlight");
+              div.style.position = 'absolute';
+              parent.appendChild(div);
+            }
+            div.style.top = top - 2 + "px";
+            div.style.height = height + 4 + "px";
+            div.style.left = 0;
+            let gutterDiv = window.document.getElementById("code-annotation-line-highlight-gutter");
+            if (gutterDiv === null) {
+              gutterDiv = window.document.createElement("div");
+              gutterDiv.setAttribute("id", "code-annotation-line-highlight-gutter");
+              gutterDiv.style.position = 'absolute';
+              const codeCell = window.document.getElementById(targetCell);
+              const gutter = codeCell.querySelector('.code-annotation-gutter');
+              gutter.appendChild(gutterDiv);
+            }
+            gutterDiv.style.top = top - 2 + "px";
+            gutterDiv.style.height = height + 4 + "px";
+          }
+          selectedAnnoteEl = annoteEl;
+        }
+      };
+      const unselectCodeLines = () => {
+        const elementsIds = ["code-annotation-line-highlight", "code-annotation-line-highlight-gutter"];
+        elementsIds.forEach((elId) => {
+          const div = window.document.getElementById(elId);
+          if (div) {
+            div.remove();
+          }
+        });
+        selectedAnnoteEl = undefined;
+      };
+        // Handle positioning of the toggle
+    window.addEventListener(
+      "resize",
+      throttle(() => {
+        elRect = undefined;
+        if (selectedAnnoteEl) {
+          selectCodeLines(selectedAnnoteEl);
+        }
+      }, 10)
+    );
+    function throttle(fn, ms) {
+    let throttle = false;
+    let timer;
+      return (...args) => {
+        if(!throttle) { // first call gets through
+            fn.apply(this, args);
+            throttle = true;
+        } else { // all the others get throttled
+            if(timer) clearTimeout(timer); // cancel #2
+            timer = setTimeout(() => {
+              fn.apply(this, args);
+              timer = throttle = false;
+            }, ms);
+        }
+      };
+    }
+      // Attach click handler to the DT
+      const annoteDls = window.document.querySelectorAll('dt[data-target-cell]');
+      for (const annoteDlNode of annoteDls) {
+        annoteDlNode.addEventListener('click', (event) => {
+          const clickedEl = event.target;
+          if (clickedEl !== selectedAnnoteEl) {
+            unselectCodeLines();
+            const activeEl = window.document.querySelector('dt[data-target-cell].code-annotation-active');
+            if (activeEl) {
+              activeEl.classList.remove('code-annotation-active');
+            }
+            selectCodeLines(clickedEl);
+            clickedEl.classList.add('code-annotation-active');
+          } else {
+            // Unselect the line
+            unselectCodeLines();
+            clickedEl.classList.remove('code-annotation-active');
+          }
+        });
+      }
+  const findCites = (el) => {
+    const parentEl = el.parentElement;
+    if (parentEl) {
+      const cites = parentEl.dataset.cites;
+      if (cites) {
+        return {
+          el,
+          cites: cites.split(' ')
+        };
+      } else {
+        return findCites(el.parentElement)
+      }
+    } else {
+      return undefined;
+    }
+  };
+  var bibliorefs = window.document.querySelectorAll('a[role="doc-biblioref"]');
+  for (var i=0; i<bibliorefs.length; i++) {
+    const ref = bibliorefs[i];
+    const citeInfo = findCites(ref);
+    if (citeInfo) {
+      tippyHover(citeInfo.el, function() {
+        var popup = window.document.createElement('div');
+        citeInfo.cites.forEach(function(cite) {
+          var citeDiv = window.document.createElement('div');
+          citeDiv.classList.add('hanging-indent');
+          citeDiv.classList.add('csl-entry');
+          var biblioDiv = window.document.getElementById('ref-' + cite);
+          if (biblioDiv) {
+            citeDiv.innerHTML = biblioDiv.innerHTML;
+          }
+          popup.appendChild(citeDiv);
+        });
+        return popup.innerHTML;
+      });
+    }
+  }
+});
+</script>
+<nav class="page-navigation">
+  <div class="nav-page nav-page-previous">
+      <a href="./05-module4-brittle.html" class="pagination-link" aria-label="Module IV: Brittle Deformation">
+        <i class="bi bi-arrow-left-short"></i> <span class="nav-page-text"><span class="chapter-number">5</span>&nbsp; <span class="chapter-title">Module IV: Brittle Deformation</span></span>
+      </a>          
+  </div>
+  <div class="nav-page nav-page-next">
+      <a href="./07-cross-cutting-themes.html" class="pagination-link" aria-label="Cross-Cutting Themes">
+        <span class="nav-page-text"><span class="chapter-number">7</span>&nbsp; <span class="chapter-title">Cross-Cutting Themes</span></span> <i class="bi bi-arrow-right-short"></i>
+      </a>
+  </div>
+</nav>
+</div> <!-- /content -->
+
+
+
+
+<footer class="footer"><div class="nav-footer"><div class="nav-footer-center"><div class="toc-actions d-sm-block d-md-none"><ul><li><a href="https://github.com/ANU-RSES-Education/EMSC-3002/edit/master/06-module5-ductile.qmd" class="toc-action"><i class="bi bi-github"></i>Edit this page</a></li><li><a href="https://github.com/ANU-RSES-Education/EMSC-3002/issues/new" class="toc-action"><i class="bi empty"></i>Report an issue</a></li></ul></div></div></div></footer></body></html>
