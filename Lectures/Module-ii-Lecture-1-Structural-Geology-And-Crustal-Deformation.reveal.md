@@ -39,19 +39,14 @@ corrections._
 
 <--o-->
 
-!<--
-## Intended learning outcomes
--->
-
+<!-- ## Intended learning outcomes -->
 
 
 ## Structural Geology and Crustal deformation
 
 **What is it about?**
 
-Structural geology covers deformation structures formed in the Earth's crust and in the underlying mantle
-in response to tectonic forces, in the cool upper part where the rocks have a tendency to fracture and
-in the hotter lower part where the deformation tends to be ductile.
+Structural geology covers deformation structures formed in the Earth's crust and in the underlying mantle in response to tectonic forces, in the cool upper part where the rocks have a tendency to fracture and in the hotter lower part where the deformation tends to be ductile.
 
 Deformations structures can form almost instantaneously as they do during earthquakes or over millions of years like mountains.
 
@@ -105,11 +100,12 @@ all the way down to micro- or atomic scales.
 ## Structural Geology and Crustal deformation
 
 <div>
-<div style="width:50%; float:left; margin: 0; position: absolute; top: 50%; -ms-transform: translateY(-50%); transform: translateY(-50%)">
+<div style="width:50%; float:left; margin: 0; ">
 
 **Pumpelly's Rule**:
 
 *The geometry and style of small-scale structures usually reflect the geometry and styles of larger structures*
+
 (Raphael Pumpelly, USGS, 1894)
 
 </div>
@@ -124,20 +120,21 @@ all the way down to micro- or atomic scales.
 
 ## Structural Geology and Crustal deformation
 
-<div>
-<div style="width:50%; float:left; margin: 0; position: absolute; top: 50%; -ms-transform: translateY(-50%); transform: translateY(-50%)">
+<div style="width:50%; float:left; margin: 0;">
 
 **Charles Lyell - Principles of Geology**:
 
-*the present is the key to the past*
+**"the present is the key to the past"**
 (Charles Lyell, Principles of Geology, published between 1830-1833)
 
+But sometimes: **"the past is the key to the present"**
+
 </div>
+
 <div style="width:50%; float:right">
 
-![](https://www.geolsoc.org.uk/~/media/shared/images/education%20careers/podcasts/lyell.jpg) <!-- .element style="float: right" height="100%" -->
+![](https://www.geolsoc.org.uk/~/media/shared/images/education%20careers/podcasts/lyell.jpg) <!-- .element style="float: right" height="400px" -->
 
-</div>
 </div>
 
 <--o-->
@@ -337,11 +334,9 @@ Brune, S., Corti, G., and Ranalli, G. Controls of inherited lithospheric heterog
 
 Reconstructing the 3D architecture requires lots of structural measurements.
 
-Structural geologists measure **strikes**, **dip**, **dip direction** of planar features (beeding, cleavage, fault, fold axial surface...),
-and **plunge**, **plunge direction** of linear features (fold axes, lineations...)
+Structural geologists measure **strikes**, **dip**, **dip direction** of planar features (bedding, cleavage, fault, fold axial surface...), and **plunge**, **plunge direction** of linear features (fold axes, lineations...)
 
-When possible, structural geologist can determine the **magnitude** of **strain**, the **stress** orientations.
-They can also determine the **kinematics**, sense of displacement along faults and shear zones.
+When possible, structural geologist can determine the **magnitude** of **strain**, the **stress** orientations. They can also determine the **kinematics**, sense of displacement along faults and shear zones.
 
 **Cross-cutting relationships** are used determine the sequence of geological events.
 

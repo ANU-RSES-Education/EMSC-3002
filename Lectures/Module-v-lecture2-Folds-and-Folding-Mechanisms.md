@@ -17,7 +17,7 @@ At the end of the lecture, students will be able to:
 - identify **folding and faulting in extensional regimes**
 - identify **folding and faulting in compressional regimes**
 
-## Glossary
+<!-- ## Glossary
 
 - **Anticline**
 - **Anticlinorium**
@@ -83,11 +83,11 @@ maximum curvature.
 - **Synclinorium**
 - **Synform
 - **Trough line
-- **Wavelength 
+- **Wavelength
 
 
 ## Links
 
   - Wattle courses
-  - Programmes and courses 
-  - Other ... 
+  - Programmes and courses
+  - Other ...  -->
