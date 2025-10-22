@@ -1,7 +1,6 @@
 # Mapping Exercises with Google Earth
 
-Understanding the relationship between the outcrop pattern and the 3-D geometry of rock bodies can be a challenge.
-Google Earth offers the ability to view topography in 3D, and in areas of good exposure, the interaction between topography and rock bodies can be clearly visualized by manipulating the viewer’s perspective.  Through this user interaction, a much clearer understanding of how outcrop patterns related to rock structure can be gained.
+Understanding the relationship between the outcrop pattern and the 3-D geometry of rock bodies can be a challenge. Google Earth offers the ability to view topography in 3D, and in areas of good exposure, the interaction between topography and rock bodies can be clearly visualized by manipulating the viewer’s perspective.  Through this user interaction, a much clearer understanding of how outcrop patterns related to rock structure can be gained.
 
 This activity is designed as a self-paced exercise for students working individually or in small groups.
 
@@ -31,7 +30,7 @@ Double-click on the **Outcrop Ia placemark**.  Zoom in to about 10 miles eye ele
 
 3. What is the dip direction of bedding?
 
-   Tilt the scene back to vertical and reexamine the pattern of “V’s”.  You may want to go back and forth between tilted and vertical a few times.  
+   Tilt the scene back to vertical and reexamine the pattern of “V’s”.  You may want to go back and forth between tilted and vertical a few times.
 
 4. Describe the relationship between the direction of the “V” and the dip direction.
 
@@ -63,7 +62,7 @@ Double-click on the **Outcrop II placemark**.  Examine the area by zooming, tilt
 
 ### Activity 3: Dip slopes
 
-Double-click on the **Outcrop III placemark**.  Examine the area by zooming, tilting, and rotating.  You are looking at a large dip slope, which is where the ground surface coincides with a single bedding plane.  
+Double-click on the **Outcrop III placemark**.  Examine the area by zooming, tilting, and rotating.  You are looking at a large dip slope, which is where the ground surface coincides with a single bedding plane.
 
 1. What is the dip direction of bedding?
 2. What could explain the distinctive pattern on the prominent dip slope?
