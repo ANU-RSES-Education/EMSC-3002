@@ -1,0 +1,723 @@
+[
+  {
+    "objectID": "index.html",
+    "href": "index.html",
+    "title": "EMSC 3002 - Structural Geology & Tectonics",
+    "section": "",
+    "text": "Welcome",
+    "crumbs": [
+      "Welcome"
+    ]
+  },
+  {
+    "objectID": "index.html#emsc-3002-revision-materials",
+    "href": "index.html#emsc-3002-revision-materials",
+    "title": "EMSC 3002 - Structural Geology & Tectonics",
+    "section": "EMSC 3002 Revision Materials",
+    "text": "EMSC 3002 Revision Materials\nThis is a companion resource for EMSC 3002 - Structure and Tectonic Evolution of the Australian Plate at the Australian National University.\n\nAbout These Materials\nThese revision notes have been developed to help you prepare for exams by:\n\nIdentifying key concepts that appear throughout the course\nGrouping related topics across different modules\nProviding self-test questions to check your understanding\nHighlighting important examples and case studies\nConnecting theoretical concepts to real-world applications\n\n\n\nHow to Use This Resource\nThe revision notes are organized to help you:\n\nReview core concepts - Each module summary covers the fundamental principles\nTest your knowledge - Self-assessment questions help identify gaps\nMake connections - Cross-cutting themes show how topics relate\nPractice skills - Quantitative problems and graphical methods\nLearn from examples - Real-world locations illustrate key concepts\n\n\n\nCourse Structure\nEMSC 3002 is organized into five main modules:\n\nModule I: Global Tectonics - Plate boundaries, motions, and large-scale deformation\nModule II: Structural Geology - Contractional, extensional, and strike-slip regimes\nModule III: Theory - Stress, strain, and rheology fundamentals\nModule IV: Brittle Deformation - Fractures, faults, and earthquakes\nModule V: Ductile Deformation - Folds, shear zones, and flow\n\n\n\nAdditional Resources\nFor the complete course materials, including:\n\nLecture slides and presentations\nPractical exercises and labs\nField trip guides\nBackground reading\n\nPlease visit the main course website at: https://anu-rses-education.github.io/EMSC-3002/\n\n\nAcknowledgments\nCourse materials developed by Louis Moresi, Chengxin Jiang, Romain Beucher, and Stephen Cox.\nThese materials are open source under a Creative Commons licence. We acknowledge contributions from the broader community and endeavour to provide correct attribution and citation.\n\nReady to start? Continue to the Revision Notes to begin your exam preparation.",
+    "crumbs": [
+      "Welcome"
+    ]
+  },
+  {
+    "objectID": "01-introduction.html",
+    "href": "01-introduction.html",
+    "title": "1  How to Use These Revision Notes",
+    "section": "",
+    "text": "1.1 Organization\nThese revision notes are organized into major themes:",
+    "crumbs": [
+      "<span class='chapter-number'>1</span>  <span class='chapter-title'>How to Use These Revision Notes</span>"
+    ]
+  },
+  {
+    "objectID": "01-introduction.html#organization",
+    "href": "01-introduction.html#organization",
+    "title": "1  How to Use These Revision Notes",
+    "section": "",
+    "text": "Modules I-V: Follow the course structure with self-test questions\nCross-Cutting Themes: Integrative concepts that span multiple modules\nPractical Resources: Locations, terminology, and quantitative skills\nExam Preparation: Integration scenarios, common mistakes, and strategies",
+    "crumbs": [
+      "<span class='chapter-number'>1</span>  <span class='chapter-title'>How to Use These Revision Notes</span>"
+    ]
+  },
+  {
+    "objectID": "01-introduction.html#best-practices",
+    "href": "01-introduction.html#best-practices",
+    "title": "1  How to Use These Revision Notes",
+    "section": "1.2 Best Practices",
+    "text": "1.2 Best Practices\nUnderstanding vs. Memorization:\n\nDon’t just memorize facts - understand the WHY behind processes\nBe able to explain concepts to someone else\nDraw connections between different topics\n\nActive Learning:\n\nAnswer questions out loud or in writing\nSketch structures and diagrams\nWork through calculations with pen and paper\nCreate your own examples\n\nRegular Review:\n\nRevisit difficult topics multiple times\nSpace out your study sessions\nTest yourself regularly without looking at answers\nFocus on weak areas identified through self-testing",
+    "crumbs": [
+      "<span class='chapter-number'>1</span>  <span class='chapter-title'>How to Use These Revision Notes</span>"
+    ]
+  },
+  {
+    "objectID": "02-module1-global-tectonics.html",
+    "href": "02-module1-global-tectonics.html",
+    "title": "2  Module I: Global Tectonics",
+    "section": "",
+    "text": "2.1 Key Concept Summary\nPlate tectonics describes Earth’s lithosphere as broken into rigid plates that move relative to each other. The three main types of plate boundaries (divergent, convergent, and transform) produce characteristic geological structures and seismicity patterns. Continental deformation differs fundamentally from oceanic deformation due to the buoyancy and weakness of continental crust.",
+    "crumbs": [
+      "Core Modules",
+      "<span class='chapter-number'>2</span>  <span class='chapter-title'>Module I: Global Tectonics</span>"
+    ]
+  },
+  {
+    "objectID": "02-module1-global-tectonics.html#self-test-questions",
+    "href": "02-module1-global-tectonics.html#self-test-questions",
+    "title": "2  Module I: Global Tectonics",
+    "section": "2.2 Self-Test Questions",
+    "text": "2.2 Self-Test Questions\n\n2.2.1 Earth Structure and Composition\nCan you describe the basic layering of the Earth and give approximate thicknesses?\nThink about:\n\nWhat is the difference between crust and lithosphere?\nWhy is oceanic crust so uniform in thickness (~6-7 km) while continental crust varies (tens of km)?\nHow deep is the lithosphere-asthenosphere boundary (LAB) under oceans vs. continents?\nWhat proportion of Earth’s volume is the mantle vs. the core?\n\nCan you explain the difference between lithosphere and asthenosphere in terms of their physical properties?\nConsider:\n\nWhich layer is rigid and which is weak?\nWhat controls this difference?\nHow does this relate to plate tectonics?\n\n\n\n2.2.2 Plate Motions\nCan you describe how plate motions are measured, both currently and in the past?\nThink about:\n\nWhat role do GPS measurements play?\nHow do magnetic anomalies record past plate motions?\nWhat is an Euler pole and why do plates move at different speeds in different locations?\nWhat is meant by a “No-Net-Rotation” reference frame?\n\nWhat is the typical range of plate velocities worldwide?\n\nCan you give examples of fast-moving and slow-moving plates?\nHow would you explain why the Indo-Australian plate moves at different speeds at different points?\n\n\n\n2.2.3 Divergent Boundaries (Mid-Ocean Ridges)\nCan you identify and explain the major characteristics of mid-ocean ridges?\nConsider:\n\nWhat type of faulting dominates at mid-ocean ridges?\nWhy do we see symmetric magnetic stripe patterns?\nWhat is the relationship between seafloor age and ocean depth?\nWhat is the difference between fast-spreading and slow-spreading ridges in terms of morphology and seismicity?\n\nCan you explain the Vine-Matthews hypothesis and its significance?\nThink about:\n\nHow do magnetic reversals get recorded in oceanic crust?\nWhy was this crucial evidence for seafloor spreading?\n\n\n\n2.2.4 Transform Boundaries\nCan you distinguish between transform faults and fracture zones?\nConsider:\n\nWhich parts are actively slipping and which are passive?\nWhy do we see such prominent bathymetric expression of fracture zones?\nWhy do transform faults form orthogonal to mid-ocean ridges?\n\nCan you explain what happens at “leaky transforms” like the Gulf of California?\nThink about:\n\nWhat produces the staircase geometry?\nWhat does this tell us about oblique plate motions?\n\n\n\n2.2.5 Convergent Boundaries (Subduction Zones)\nCan you explain why subduction zones are more complex than divergent boundaries?\nConsider:\n\nWhy are trenches curved rather than linear?\nWhat is trench rollback and how does it differ from plate convergence?\nWhy do we see normal faulting at outer rises in a convergent setting?\nWhat controls whether a subduction zone dips steeply or shallowly?\n\nCan you describe the different sources of earthquakes at convergent margins?\nThink about:\n\nMegathrust earthquakes on the plate interface\nOuter rise earthquakes (and their mechanism)\nUpper plate seismicity\nIntra-slab earthquakes\nHow did the stress state change in Japan after the 2011 Tohoku earthquake?\n\nCan you explain the role of plate bending in subduction zone dynamics?\nConsider:\n\nWhy do we see outer rise normal faults?\nWhat is the difference between elastic and viscous bending?\nHow does bending affect fluid infiltration into the slab?\nWhat happens when the slab unbends at depth?\n\n\n\n2.2.6 Triple Junctions\nCan you explain why only certain triple junction configurations are stable?\nThink about:\n\nWhat makes a Ridge-Ridge-Ridge junction always stable?\nWhy are some configurations impossible (e.g., three transforms meeting)?\nCan you name a real-world example of a triple junction?\n\n\n\n2.2.7 Continental Deformation\nCan you explain the fundamental differences between oceanic and continental deformation?\nConsider:\n\nWhy don’t continents subduct?\nWhy are continental plate boundaries diffuse rather than sharp?\nWhat is “escape tectonics” and where do we see it?\nHow does the India-Asia collision illustrate these principles?\n\nCan you describe the Himalayan-Tibetan system as an example of continental collision?\nThink about:\n\nWhat structures accommodate the convergence?\nWhy do we see extension in Tibet despite ongoing convergence?\nWhat is the role of gravitational potential energy?\nHow do conjugate strike-slip faults accommodate lateral extrusion?\n\n\n\n2.2.8 Global Datasets and Patterns\nCan you identify the major plate boundaries on a world map and classify them by type?\n\nWhere are the main divergent, convergent, and transform boundaries?\nWhich boundaries are purely oceanic, purely continental, or mixed?\n\nCan you explain what the World Stress Map shows and what controls stress patterns?\nConsider:\n\nWhat are the three stress regime types shown (normal, strike-slip, thrust)?\nWhat forces control the stress field (plate boundary forces, mantle drag, topography)?\nWhy is Australia’s stress field oriented roughly E-W?\n\nCan you explain the relationship between seismicity and plate boundaries?\nThink about:\n\nWhy are plate boundaries seismically active?\nWhat causes intraplate earthquakes?\nHow does earthquake depth reveal slab geometry?",
+    "crumbs": [
+      "Core Modules",
+      "<span class='chapter-number'>2</span>  <span class='chapter-title'>Module I: Global Tectonics</span>"
+    ]
+  },
+  {
+    "objectID": "03-module2-structural-geology.html",
+    "href": "03-module2-structural-geology.html",
+    "title": "3  Module II: Structural Geology and Crustal Deformation",
+    "section": "",
+    "text": "3.1 Key Concept Summary\nStructural geology studies deformation structures at all scales, from microscopic to crustal scale. The three main tectonic regimes (contractional, extensional, and strike-slip) produce characteristic structures controlled by the orientation of principal stresses. Understanding these structures is essential for resource exploration, geotechnical applications, and interpreting Earth’s deformation history.",
+    "crumbs": [
+      "Core Modules",
+      "<span class='chapter-number'>3</span>  <span class='chapter-title'>Module II: Structural Geology and Crustal Deformation</span>"
+    ]
+  },
+  {
+    "objectID": "03-module2-structural-geology.html#self-test-questions",
+    "href": "03-module2-structural-geology.html#self-test-questions",
+    "title": "3  Module II: Structural Geology and Crustal Deformation",
+    "section": "3.2 Self-Test Questions",
+    "text": "3.2 Self-Test Questions\n\n3.2.1 Fundamental Concepts\nCan you explain Pumpelly’s Rule and its significance for structural geology?\nThink about:\n\nHow do small-scale structures relate to large-scale structures?\nWhy is this important for interpreting limited outcrop data?\nWhat are the limitations of this principle?\n\nCan you distinguish between structural geology, tectonics, and geodynamics?\nConsider:\n\nWhat spatial scales does each discipline focus on?\nWhat questions does each try to answer?\nHow do they complement each other?\n\nCan you describe the three main approaches to studying geological structures?\nThink about:\n\nField observations (final product)\nLaboratory experiments (progressive deformation)\nNumerical modeling (forces and interactions)\nWhat are the strengths and limitations of each?\n\n\n\n3.2.2 Contractional Regimes\nCan you identify and describe the major structures formed in contractional settings?\nConsider:\n\nThrust faults vs. reverse faults (what’s the dip angle distinction?)\nNappes and their significance\nWhat is a décollement and why is it important?\nCan you explain the difference between thick-skinned and thin-skinned tectonics?\n\nCan you explain ramp-flat geometry and why it forms?\nThink about:\n\nWhy do thrusts preferentially follow weak layers (flats)?\nWhy do they cut through competent layers (ramps)?\nWhat are frontal vs. lateral vs. oblique ramps?\nHow does this geometry affect fold development?\n\nCan you describe what a duplex structure is and how it forms?\nConsider:\n\nWhat are horses?\nWhat is the difference between floor and roof thrusts?\nWhy do duplexes form?\nWhat is an imbrication zone?\n\nCan you explain the concept of an orogenic wedge and the factors controlling its geometry?\nThink about:\n\nWhat is the critical taper concept?\nWhat controls the angle of the wedge (basal friction, internal strength)?\nHow does surface erosion affect wedge geometry?\nCan you distinguish between bulldozer, gliding, extrusion, and spreading models?\n\nCan you give real-world examples of major thrust systems and describe their characteristics?\nExamples to consider:\n\nThe Alps and their nappe complexes\nThe Himalayas as an active collision zone\nChief Mountain, Montana (older over younger rocks)\n\n\n\n3.2.3 Extensional Regimes\nCan you explain the difference between extension, elongation, and the beta factor?\nConsider:\n\nHow are these quantities defined mathematically?\nHow do we measure extension in the field?\nWhat is the relationship between crustal extension and lithospheric thinning?\n\nCan you identify and describe the major structures formed in extensional settings?\nThink about:\n\nNormal faults and their orientation relative to stress\nGraben vs. horst structures\nHalf-graben and their asymmetry\nDomino systems and block rotation\n\nCan you explain the difference between pure shear and simple shear rift models?\nConsider:\n\nWhich produces symmetric basins and which produces asymmetric?\nWhat is a metamorphic core complex and which model does it support?\nWhat evidence would distinguish between these models?\n\nCan you describe the stages of rift evolution from initial extension to passive margin?\nThink about:\n\nEarly extension phase\nMain stretching and thinning\nSyn-rift sedimentation\nPost-rift thermal subsidence\nBreakup and ocean formation\n\nCan you explain active vs. passive rifting?\nConsider:\n\nWhat drives each type?\nWhich involves mantle plumes?\nHow would you recognize the difference?\n\nCan you explain why extension occurs in convergent settings like the Himalayas?\nThink about:\n\nGravitational collapse model\nSyn-convergent extension\nDelamination processes\nNorth-South Trending Rift System in Tibet\n\nCan you give real-world examples of extensional provinces?\nExamples to consider:\n\nEast African Rift System\nBasin and Range Province\nNorth Sea rift system\nGullfaks Field domino system\n\n\n\n3.2.4 Strike-Slip Regimes\nCan you distinguish between transfer faults, transform faults, and transcurrent faults?\nConsider:\n\nWhat is each type’s function?\nWhere does each typically occur?\nWhich are true plate boundaries?\n\nCan you explain the difference between right-lateral (dextral) and left-lateral (sinistral) faults?\nThink about:\n\nHow do you determine the sense of slip?\nWhat observations help identify slip sense in the field?\n\nCan you describe what happens at restraining bends vs. releasing bends?\nConsider:\n\nWhich produces local shortening and which extension?\nWhat structures form at each (pop-ups, pull-apart basins)?\nWhat are positive and negative flower structures?\nCan you give real-world examples (Dead Sea, Death Valley)?\n\nCan you explain transpression and transtension?\nThink about:\n\nWhat is the kinematic vorticity number (Wk)?\nWhat does Wk = 0, 1, and intermediate values represent?\nHow is strain partitioned in transpressional zones?\nWhere do we see these settings in nature?\n\nCan you describe the San Andreas Fault system as a key example?\nConsider:\n\nTotal offset and age\nSlip rate\nIs it pure strike-slip or transpressional?\nMajor historical earthquakes\nWhy is it slightly oblique to Pacific-North America motion?\n\nCan you explain the role of conjugate strike-slip faults in escape tectonics?\nThink about:\n\nHow do they accommodate lateral extrusion?\nThe Himalayan example\nTapponnier’s plasticine experiments",
+    "crumbs": [
+      "Core Modules",
+      "<span class='chapter-number'>3</span>  <span class='chapter-title'>Module II: Structural Geology and Crustal Deformation</span>"
+    ]
+  },
+  {
+    "objectID": "04-module3-theory.html",
+    "href": "04-module3-theory.html",
+    "title": "4  Module III: Theoretical Underpinnings",
+    "section": "",
+    "text": "4.1 Key Concept Summary\nUnderstanding stress, strain, and rheology is fundamental to interpreting geological structures. Stress (force per unit area) causes strain (deformation), and the relationship between them is controlled by rheology (material properties). The state of stress determines what type of structures form, while material properties control whether deformation is brittle or ductile.",
+    "crumbs": [
+      "Core Modules",
+      "<span class='chapter-number'>4</span>  <span class='chapter-title'>Module III: Theoretical Underpinnings</span>"
+    ]
+  },
+  {
+    "objectID": "04-module3-theory.html#self-test-questions",
+    "href": "04-module3-theory.html#self-test-questions",
+    "title": "4  Module III: Theoretical Underpinnings",
+    "section": "4.2 Self-Test Questions",
+    "text": "4.2 Self-Test Questions\n\n4.2.1 Stress Fundamentals\nCan you explain what stress is and how it differs from force?\nThink about:\n\nDefinition: force per unit area\nUnits: Pascals (Pa)\nWhy is stress a tensor quantity?\nWhat is a traction vector?\n\nCan you describe the stress tensor and its properties?\nConsider:\n\nWhy does it have 9 components but only 6 are independent?\nWhat does symmetry mean (σij = σji)?\nWhat are normal stresses vs. shear stresses?\nHow do you visualize stress on a cubic element?\n\nCan you explain principal stresses and their significance?\nThink about:\n\nDefinition: orientations where shear stresses vanish\nThe three principal stresses: σ1 ≥ σ2 ≥ σ3\nWhy is one principal stress perpendicular to Earth’s surface?\nHow do principal stress orientations control structure type?\n\nCan you describe the three tectonic stress regimes?\nConsider:\n\nNormal faulting: σ1 vertical, σ3 horizontal (extension)\nStrike-slip: σ2 vertical (wrench)\nThrust faulting: σ3 vertical (compression)\nHow do you identify the regime from focal mechanisms?\n\nCan you explain and use the Mohr circle for stress?\nThink about:\n\nWhat does the circle represent?\nHow do you plot stress on any plane?\nWhat is the failure envelope?\nHow does it relate to the Mohr-Coulomb criterion?\n\nCan you describe Anderson’s theory of faulting?\nConsider:\n\nHow does fault orientation relate to principal stresses?\nWhy do faults form at ~30° to σ1?\nRole of friction coefficient\nConjugate fault sets\n\nCan you explain how stress is measured in the Earth?\nThink about:\n\nHydraulic fracturing method\nBorehole breakouts\nEarthquake focal mechanisms\nWhat is effective stress?\n\n\n\n4.2.2 Strain and Strain Rate\nCan you distinguish between the four forms of deformation?\nConsider:\n\nTranslation (change in position)\nRotation (change in orientation, no deformation)\nDistortion (change in shape)\nDilation (change in volume)\nWhich involve actual strain?\n\nCan you explain the strain tensor and its components?\nThink about:\n\nHow is strain defined mathematically?\nNormal strains vs. shear strains\nWhat is volumetric strain (dilatation)?\nWhat does incompressibility mean (δ = 0)?\n\nCan you describe principal strains and the strain ellipsoid?\nConsider:\n\nThree principal strains: ε1 ≥ ε2 ≥ ε3\nRelationship to principal stress directions\nStrain ellipsoid visualization\nShortening vs. extension axes\n\nCan you explain strain invariants and their significance?\nThink about:\n\nFirst invariant (volumetric strain)\nSecond invariant (magnitude of deviatoric strain)\nWhy are they “invariant”?\nTheir use in global strain rate maps\n\nCan you use the Flinn diagram to classify strain types?\nConsider:\n\nAxes: strain ratios\nK-value: (ε1-ε2)/(ε2-ε3)\nUniaxial extension (constriction): K = ∞\nPlane strain: K = 1\nUniaxial shortening (flattening): K = 0\nIntermediate values\n\nCan you distinguish between strain and strain rate?\nThink about:\n\nStrain: cumulative deformation\nStrain rate: rate of deformation (units: s-1)\nRelationship: Dij = ½[∂vi/∂xj + ∂vj/∂xi]\nWhy is strain rate important for understanding active tectonics?\n\nCan you describe methods for measuring strain in rocks?\nConsider:\n\nDeformed fossils\nStretched pebbles\nReduction spots\nDeformed oolites\nBoudin structures\nWhat assumptions are required?\n\n\n\n4.2.3 Rheology\nCan you explain what rheology is and why it matters?\nThink about:\n\nDefinition: study of how materials deform under stress\nControls whether deformation is brittle or ductile\nDetermines the stress-strain or stress-strain rate relationship\n\nCan you describe elastic behavior and the key parameters?\nConsider:\n\nHooke’s Law: σ = E·ε (1D)\nYoung’s modulus (E): stiffness\nPoisson’s ratio (ν): lateral vs. axial strain\nShear modulus (μ or G)\nBulk modulus (K)\nDeformation is reversible\n\nCan you describe viscous behavior and contrast it with elastic?\nThink about:\n\nStress proportional to strain rate, not strain\nNewtonian: τ = η·γ̇\nViscosity (η): resistance to flow (Pa·s)\nDeformation is irreversible\nTime-dependent behavior\n\nCan you explain non-Newtonian viscosity and power-law creep?\nConsider:\n\nPower-law: η = K(IID)n-1\nn &gt; 1: shear thinning (most rocks)\nn &lt; 1: shear thickening\nEffective viscosity depends on strain rate\n\nCan you describe plastic behavior?\nThink about:\n\nYield stress (τY): threshold for deformation\nStress limited after yield\nFrictional: τY ≈ μP (granular materials)\nEffective viscosity: ηeff = τY/IID\n\nCan you identify and explain the major deformation mechanisms in rocks?\nBrittle mechanisms:\n\nFracturing\nCataclastic flow\nDominant in upper crust\n\nDuctile (crystal plastic) mechanisms:\n\nDiffusion creep (Coble, Nabarro-Herring)\nDislocation creep (glide and climb)\nGrain boundary sliding\nDynamic recrystallization\nDominant in lower crust and mantle\n\nCan you explain how physical factors affect rock strength and deformation style?\nConsider:\n\nTemperature: increases ductility, decreases strength\nConfining pressure: increases strength, promotes ductility\nPore fluid pressure: decreases effective stress\nStrain rate: higher rates favor brittle behavior\nGrain size: smaller grains weaken rock\nWater content: weakens minerals\n\nCan you describe the brittle-ductile transition?\nThink about:\n\nDepth-dependent transition\nUpper crust: brittle, strength increases with depth (pressure effect)\nLower crust: ductile, strength decreases with depth (temperature effect)\nByerlee’s Law describes the transition\nWhy is this important for earthquake distribution?\n\nCan you interpret a rock deformation map?\nConsider:\n\nAxes: temperature vs. stress\nFields: elastic, brittle fracture, various crystal plastic mechanisms\nHow does the dominant mechanism change with conditions?",
+    "crumbs": [
+      "Core Modules",
+      "<span class='chapter-number'>4</span>  <span class='chapter-title'>Module III: Theoretical Underpinnings</span>"
+    ]
+  },
+  {
+    "objectID": "05-module4-brittle.html",
+    "href": "05-module4-brittle.html",
+    "title": "5  Module IV: Brittle Deformation",
+    "section": "",
+    "text": "5.1 Key Concept Summary\nBrittle deformation occurs when rocks fracture rather than flow. Understanding fracture mechanics, failure criteria, and fault behavior is essential for predicting earthquakes, interpreting seismic data, and understanding fluid flow in the crust. Joints, veins, and faults record the stress history and fluid-rock interactions.",
+    "crumbs": [
+      "Core Modules",
+      "<span class='chapter-number'>5</span>  <span class='chapter-title'>Module IV: Brittle Deformation</span>"
+    ]
+  },
+  {
+    "objectID": "05-module4-brittle.html#self-test-questions",
+    "href": "05-module4-brittle.html#self-test-questions",
+    "title": "5  Module IV: Brittle Deformation",
+    "section": "5.2 Self-Test Questions",
+    "text": "5.2 Self-Test Questions\n\n5.2.1 Deformation Mechanisms\nCan you describe the major brittle deformation mechanisms?\nConsider:\n\nCataclastic flow: grain-scale fracturing\nGrain crushing and rotation\nPressure solution\nMechanical twinning\nAt what conditions does each dominate?\n\nCan you describe the major ductile deformation mechanisms?\nThink about:\n\nDiffusion creep: temperature and grain-size dependent\nDissolution creep: involves fluids\nDislocation creep: power-law relationship\nRecovery and recrystallization processes\nHow do these differ from brittle mechanisms?\n\n\n\n5.2.2 Fracture Fundamentals\nCan you describe the four modes of fracture?\nConsider:\n\nMode I: Opening (tensile)\nMode II: In-plane shear\nMode III: Out-of-plane shear\nMixed modes\nWhich modes relate to joints, and which to faults?\n\nCan you explain Griffith crack theory and its implications?\nThink about:\n\nWhy are rocks much weaker than theoretical strength?\nRole of pre-existing defects and cracks\nStress concentration at crack tips\nWhy is tensile strength much lower than compressive strength?\n\nCan you distinguish between tensile and shear fractures?\nTensile fractures (joints):\n\nPerpendicular to σ3 (minimum principal stress)\nMode I opening\nNo shear displacement\nExtension fractures\n\nShear fractures (faults):\n\nAt angle to principal stresses\nMode II and/or Mode III\nShear displacement\nAngle controlled by friction\n\n\n\n5.2.3 Failure Criteria\nCan you explain and apply the Mohr-Coulomb failure criterion?\nConsider:\n\nτ = C + σn·tan φ\nC: cohesion\nφ: angle of internal friction\nLinear failure envelope\nHow to use it to predict failure\n\nCan you explain the Coulomb-Navier criterion?\nThink about:\n\nRelates failure to principal stresses\nPredicts fault orientation\nRelationship to Mohr-Coulomb\n\nCan you describe a composite failure envelope?\nConsider:\n\nCombines tensile and shear failure\nWhy is it more realistic for rocks?\nTensile cutoff\nTransition from tensile to shear failure\n\nCan you explain Byerlee’s Law and its significance?\nThink about:\n\nτ = 0.85σn (low pressure, &lt;200 MPa)\nτ = 50 + 0.6σn (high pressure)\nFriction coefficient μ ≈ 0.6-0.85\nRemarkably independent of rock type\nImplications for crustal strength\n\n\n\n5.2.4 Environmental Effects\nCan you explain the role of pore fluid pressure?\nConsider:\n\nEffective stress: σ’n = σn - Pf\nReduces normal stress on faults\nCan trigger failure without changing tectonic stress\nHubbert-Rubey hypothesis for low-angle thrusts\nRole in hydraulic fracturing\n\nCan you describe how temperature affects failure?\nThink about:\n\nReduces rock strength\nPromotes ductile behavior\nBrittle-ductile transition\nWhy are earthquakes limited to certain depths?\n\nCan you explain the effect of strain rate on failure?\nConsider:\n\nFast rates favor brittle behavior\nSlow rates allow ductile deformation\nSame rock can behave differently depending on rate\nLaboratory vs. geological strain rates\n\nCan you describe the effect of confining pressure?\nThink about:\n\nIncreases strength\nSuppresses brittle fracture\nPromotes ductile mechanisms\nWhy does strength increase with depth in upper crust?\n\n\n\n5.2.5 Joints and Veins\nCan you describe the characteristics of joints?\nConsider:\n\nExtension fractures (Mode I)\nNo shear displacement\nPerpendicular to σ3\nOften occur in systematic sets\nPlumose structures indicate propagation direction\n\nCan you interpret plumose structures on joint surfaces?\nThink about:\n\nHackle marks: radial features\nArrest lines: mark pauses in propagation\nPlume axis: initial fracture point\nWhat direction did the joint propagate?\n\nCan you explain joint spacing and its relationship to layer thickness?\nConsider:\n\nThicker layers → wider spacing\nMechanical explanation\nImplications for fracture permeability\n\nCan you distinguish different types of joint systems?\nThink about:\n\nSystematic vs. non-systematic\nOrthogonal sets\nConjugate sets\nCross-cutting relationships for relative age\n\nCan you explain different origins of joints?\nConsider:\n\nTectonic: regional stress\nUnloading: erosion, exhumation\nCooling: thermal contraction (columnar joints)\nHydraulic: fluid pressure\nHow would you distinguish these in the field?\n\nCan you describe vein characteristics and formation?\nThink about:\n\nMineral-filled fractures\nEvidence of fluid flow\nCrack-seal mechanism\nFibrous veins: indicate opening direction\nWhy are veins important for ore deposits?\n\n\n\n5.2.6 Faults and Fault Zones\nCan you describe and use fault terminology?\nConsider:\n\nStrike: horizontal line on fault plane\nDip: angle from horizontal\nDip direction: azimuth of steepest descent\nSlip: total displacement\nRake (pitch): angle of slip vector in fault plane\nThrow and heave components\n\nCan you classify faults by slip direction?\nThink about:\n\nNormal: hanging wall down (extension)\nReverse: hanging wall up (compression)\nStrike-slip: lateral motion (wrench)\nOblique: combination\nHow do you determine sense of slip?\n\nCan you classify faults by dip?\nConsider:\n\nThrust: &lt;30°\nLow-angle: 30-45°\nHigh-angle: &gt;45°\nWhy is the 30° boundary significant?\n\nCan you describe fault zone anatomy?\nThink about:\n\nFault core: principal slip surface\nDamage zone: fractured rock around fault\nFault gouge: fine-grained material\nFault breccia: angular fragments\nMylonite: ductilely deformed fault rock\nWhy does this matter for fluid flow?\n\nCan you identify kinematic indicators on faults?\nConsider:\n\nSlickenlines (striations): parallel to slip\nSlickensides: polished surfaces\nSteps and grooves: indicate slip sense\nOffset markers\nHow do you use these to determine slip direction?\n\nCan you interpret faults on geological maps?\nThink about:\n\nFault trace patterns\nStratigraphic separation\nV-rule for faults in valleys\nHow do dip and topography interact?\n\nCan you interpret faults in seismic sections?\nConsider:\n\nOffset reflectors\nFlower structures (positive and negative)\nFault shadow zones\nGrowth strata (syn-tectonic sediments)\n\nCan you measure and describe fault displacement?\nThink about:\n\nNet slip: total displacement\nThrow: vertical component\nHeave: horizontal component\nStratigraphic separation vs. true slip\nWhy is 3D analysis necessary?\n\n\n\n5.2.7 Faults and Earthquakes\nCan you describe the earthquake cycle?\nConsider:\n\nInterseismic: stress accumulation, fault locked\nCoseismic: rupture and slip\nPostseismic: aftershocks, viscoelastic relaxation\nHow long is a typical cycle?\n\nCan you explain stick-slip behavior?\nThink about:\n\nFault locked during interseismic period\nSudden failure when stress exceeds strength\nStress drop during earthquake\nWhy do some faults creep instead of having earthquakes?\n\nCan you describe earthquake magnitude scales?\nConsider:\n\nMagnitude (M): energy released\nMoment (M0): rigidity × area × slip\nMoment magnitude (Mw): most reliable scale\nWhy are large earthquakes less frequent?\n\nCan you interpret earthquake focal mechanisms?\nThink about:\n\nBeach ball diagrams\nCompressional (black) and tensional (white) quadrants\nP, T, and N axes\nWhat do they tell you about fault orientation and stress?\nAmbiguity between fault plane and auxiliary plane\n\nCan you explain earthquake recurrence intervals?\nConsider:\n\nTime between large earthquakes on same fault\nStatistical vs. characteristic earthquake models\nWhy is this important for hazard assessment?",
+    "crumbs": [
+      "Core Modules",
+      "<span class='chapter-number'>5</span>  <span class='chapter-title'>Module IV: Brittle Deformation</span>"
+    ]
+  },
+  {
+    "objectID": "06-module5-ductile.html",
+    "href": "06-module5-ductile.html",
+    "title": "6  Module V: Ductile Deformation",
+    "section": "",
+    "text": "6.1 Key Concept Summary\nDuctile deformation occurs when rocks flow rather than fracture, producing folds, foliations, and shear zones. Understanding fold geometry, folding mechanisms, and shear sense indicators is essential for interpreting deformation history, predicting structure at depth, and understanding resource distribution.",
+    "crumbs": [
+      "Core Modules",
+      "<span class='chapter-number'>6</span>  <span class='chapter-title'>Module V: Ductile Deformation</span>"
+    ]
+  },
+  {
+    "objectID": "06-module5-ductile.html#self-test-questions",
+    "href": "06-module5-ductile.html#self-test-questions",
+    "title": "6  Module V: Ductile Deformation",
+    "section": "6.2 Self-Test Questions",
+    "text": "6.2 Self-Test Questions\n\n6.2.1 Fold Geometry Fundamentals\nCan you identify and label the basic elements of a fold?\nConsider:\n\nHinge line: line of maximum curvature\nHinge zone: region around hinge\nLimb: less curved parts\nAxial surface: surface connecting hinge lines\nAxial trace: intersection with map\nInflection line: zero curvature\n\nCan you explain the difference between geometric terms (antiform/synform) and age terms (anticline/syncline)?\nThink about:\n\nAntiform: upward closing, negative curvature\nSynform: downward closing, positive curvature\nAnticline: older rocks in core\nSyncline: younger rocks in core\nWhy is this distinction important for overturned folds?\n\nCan you classify folds by interlimb angle?\nConsider:\n\nGentle: 180-120°\nOpen: 120-70°\nClose: 70-30°\nTight: 30-10°\nIsoclinal: &lt;10°\nHow does this relate to deformation intensity?\n\nCan you classify folds by axial surface orientation?\nThink about:\n\nUpright: axial surface vertical\nInclined: axial surface dipping\nRecumbent: axial surface horizontal\nOverturned: one limb overturned\nWhat does this tell you about the deformation?\n\nCan you distinguish cylindrical from non-cylindrical folds?\nConsider:\n\nCylindrical: hinge line straight, fold can be “unfolded” to plane\nNon-cylindrical (conical): hinge line curved\nWhy is this distinction important for structural analysis?\nWhat is a periclinal fold?\n\nCan you describe different fold shapes?\nThink about:\n\nChevron: angular hinges, straight limbs\nBox: flat-topped, angular\nKink: narrow hinges, planar limbs\nAccordion: parallel, similar geometry\nRounded vs. angular hinges\n\nCan you explain fold symmetry and asymmetry?\nConsider:\n\nSymmetric: equal limb lengths and dips\nAsymmetric: unequal limbs\nWhat does asymmetry tell you about shear sense?\n\nCan you describe complex fold structures?\nThink about:\n\nDome: circular/elliptical antiform\nBasin: circular/elliptical synform\nAnticlinorium: large anticline with smaller folds\nSynclinorium: large syncline with smaller folds\nFold interference patterns\n\nCan you explain fold “facing” and its significance?\nConsider:\n\nDirection perpendicular to axial surface toward younger rocks\nIndicates stratigraphic younging\nImportant for identifying overturned limbs\n\n\n\n6.2.2 Folding Mechanisms\nCan you describe the buckling mechanism of folding?\nConsider:\n\nCompressive stress parallel to layering\nRequires competence contrast\nDominant wavelength controlled by layer thickness and stiffness\nWavelength fixed, amplitude grows\nMost common in layered sequences\n\nCan you describe the bending mechanism?\nThink about:\n\nExternal forces or couples\nDoesn’t require competence contrast\nFlexural slip: slip between layers\nFlexural flow: internal flow within layers\nWhere do we see this?\n\nCan you describe passive folding?\nConsider:\n\nLayers carried along by flow in matrix\nNo competence contrast required\nProduces similar folds\nCommon in highly sheared rocks\n\nCan you explain fold tightening and lock-up?\nThink about:\n\nHow folds evolve with progressive deformation\nEventually folds can’t tighten further\nNew mechanisms activate (thrusting, cleavage)\n\n\n\n6.2.3 Fold Classification by Thickness\nCan you describe and distinguish the Ramsay fold classes?\nConsider:\nClass 1B (Parallel): constant layer thickness\n\nFlexural slip dominant\nCompetent layers\nSpace problems in core\n\nClass 2 (Similar): constant orthogonal thickness\n\nFlexural flow or passive folding\nThickness varies around fold\n\nClass 1A: thickening in hinge\nClass 1C: thinning in hinge\nClass 3: irregular thickness changes\nCan you explain the relationship between fold mechanism and fold class?\nThink about:\n\nWhich mechanisms produce which classes?\nWhat does fold class tell you about deformation?\nLayer competence and fold style\n\n\n\n6.2.4 Associated Structures\nCan you describe axial planar cleavage and explain its formation?\nConsider:\n\nParallel to axial surface\nForms perpendicular to σ1\nPressure solution removes material\nCreates foliation\nWhy is it useful for determining fold geometry?\n\nCan you explain crenulation cleavage?\nThink about:\n\nForms from folding of earlier foliation\nMultiple deformation events\nShows polyphase deformation\n\nCan you identify and interpret second-order folds (parasitic folds)?\nThink about:\n\nM-folds: on antiform\nZ-folds: on synform (Northern Hemisphere sense)\nS-folds: on synform\nIndicate sense of shear or fold vergence\nAsymmetry shows position on larger fold\n\nCan you describe boudinage and explain its significance?\nConsider:\n\nExtension of competent layer in incompetent matrix\nPerpendicular to extension direction\nBoudin shapes indicate extension amount\nWhere on folds do we find boudins? (outer arc)\n\nCan you describe tension gashes?\nThink about:\n\nExtension fractures, often mineral-filled\nForm in outer arc of folds\nShow extension direction\nOften en echelon arrays\n\nCan you explain the relationship between folds and faults?\nFold-fault relationships:\n\nFault-propagation folds: ahead of propagating fault tip\nFault-bend folds: hanging wall over ramp\nDetachment folds: above weak layer, no throughgoing fault\nWhy is understanding this important for petroleum geology?\n\n\n\n6.2.5 Shear Zones\nCan you describe the characteristics of ductile shear zones?\nConsider:\n\nDistributed deformation\nLocalized zones of high strain\nScale from km to mm\nGradational boundaries\nAssociated with metamorphism\n\nCan you identify and interpret shear sense indicators?\nS-C fabrics:\n\nS: foliation surfaces\nC: shear planes\nC cuts S at angle\nAsymmetry indicates shear sense\n\nPorphyroclast systems:\n\nσ-type: synthetic tails, indicate shear sense\nδ-type: antithetic tails\nRotation and tail geometry\n\nOther indicators:\n\nMica fish: recrystallized mica grains\nShear bands: small-scale C’ surfaces\nRotated minerals and aggregates\nAsymmetric folds\n\nCan you describe mylonites and their classification?\nConsider:\n\nProtomylonite: &lt;50% matrix\nMylonite: 50-90% matrix\nUltramylonite: &gt;90% matrix\nBlastomylonite: recrystallized mylonite\nWhat does matrix percentage indicate?\n\nCan you explain shear zone kinematics?\nThink about:\n\nSimple shear: non-coaxial, Wk = 1\nGeneral shear: combination of pure and simple shear\nVorticity analysis: determine Wk from fabric\nWhy is this important for understanding deformation?",
+    "crumbs": [
+      "Core Modules",
+      "<span class='chapter-number'>6</span>  <span class='chapter-title'>Module V: Ductile Deformation</span>"
+    ]
+  },
+  {
+    "objectID": "07-cross-cutting-themes.html",
+    "href": "07-cross-cutting-themes.html",
+    "title": "7  Cross-Cutting Themes",
+    "section": "",
+    "text": "7.1 Scale Relationships\nCan you explain how structures at different scales relate to each other?\nThink about:",
+    "crumbs": [
+      "Integration & Practice",
+      "<span class='chapter-number'>7</span>  <span class='chapter-title'>Cross-Cutting Themes</span>"
+    ]
+  },
+  {
+    "objectID": "07-cross-cutting-themes.html#sec-scale",
+    "href": "07-cross-cutting-themes.html#sec-scale",
+    "title": "7  Cross-Cutting Themes",
+    "section": "",
+    "text": "Pumpelly’s Rule: small structures reflect large structures\nSame processes at all scales?\nFractal nature of some structures\nWhen does the rule break down?",
+    "crumbs": [
+      "Integration & Practice",
+      "<span class='chapter-number'>7</span>  <span class='chapter-title'>Cross-Cutting Themes</span>"
+    ]
+  },
+  {
+    "objectID": "07-cross-cutting-themes.html#sec-ssr-triangle",
+    "href": "07-cross-cutting-themes.html#sec-ssr-triangle",
+    "title": "7  Cross-Cutting Themes",
+    "section": "7.2 Stress-Strain-Rheology Triangle",
+    "text": "7.2 Stress-Strain-Rheology Triangle\nCan you explain the fundamental relationship: stress causes strain, rheology controls the relationship?\nConsider:\n\nGiven stress and rheology, can you predict strain?\nGiven structures (strain), can you infer stress and rheology?\nTemperature and pressure effects on rheology\nWhy does the same stress produce different structures in different rocks?",
+    "crumbs": [
+      "Integration & Practice",
+      "<span class='chapter-number'>7</span>  <span class='chapter-title'>Cross-Cutting Themes</span>"
+    ]
+  },
+  {
+    "objectID": "07-cross-cutting-themes.html#sec-brittle-ductile",
+    "href": "07-cross-cutting-themes.html#sec-brittle-ductile",
+    "title": "7  Cross-Cutting Themes",
+    "section": "7.3 Brittle-Ductile Behavior",
+    "text": "7.3 Brittle-Ductile Behavior\nCan you explain what controls whether rocks deform in a brittle or ductile manner?\nThink about:\n\nDepth (pressure and temperature)\nTemperature increases with depth → ductile\nPressure increases with depth → brittle (upper crust)\nResult: brittle-ductile transition at mid-crustal depths\nStrain rate effects\nRock composition differences\n\nCan you describe the strength profile of the lithosphere?\nConsider:\n\nUpper crust: brittle, strength increases with depth (Byerlee’s Law)\nLower crust: ductile, strength decreases with depth (temperature effect)\nMantle lithosphere: strong or weak?\nAsthenosphere: weak (high temperature)\nWhy is this important for plate tectonics?",
+    "crumbs": [
+      "Integration & Practice",
+      "<span class='chapter-number'>7</span>  <span class='chapter-title'>Cross-Cutting Themes</span>"
+    ]
+  },
+  {
+    "objectID": "07-cross-cutting-themes.html#sec-regime",
+    "href": "07-cross-cutting-themes.html#sec-regime",
+    "title": "7  Cross-Cutting Themes",
+    "section": "7.4 Tectonic Regime Recognition",
+    "text": "7.4 Tectonic Regime Recognition\nCan you identify the tectonic regime from principal stress orientations?\nThink about:\n\nNormal faulting: σ1 vertical, σ3 horizontal (extension)\nStrike-slip: σ2 vertical, σ1 and σ3 horizontal\nThrust faulting: σ3 vertical, σ1 horizontal (compression)\n\nCan you predict what structures form in each regime?\nExtensional regime:\n\nNormal faults\nGraben and horst\nDomino systems\nRollover folds\nRift basins\n\nCompressional regime:\n\nReverse and thrust faults\nFolds\nNappes and duplexes\nOrogenic wedges\n\nStrike-slip regime:\n\nVertical strike-slip faults\nFlower structures\nPull-apart basins (releasing bends)\nPop-up structures (restraining bends)",
+    "crumbs": [
+      "Integration & Practice",
+      "<span class='chapter-number'>7</span>  <span class='chapter-title'>Cross-Cutting Themes</span>"
+    ]
+  },
+  {
+    "objectID": "07-cross-cutting-themes.html#sec-boundaries-structures",
+    "href": "07-cross-cutting-themes.html#sec-boundaries-structures",
+    "title": "7  Cross-Cutting Themes",
+    "section": "7.5 Plate Boundaries and Structures",
+    "text": "7.5 Plate Boundaries and Structures\nCan you match plate boundary types with their characteristic structures?\nDivergent boundaries:\n\nNormal faults\nDikes\nSheeted dike complexes (ophiolites)\nSeafloor spreading fabric\n\nConvergent boundaries:\n\nThrust faults and folds\nAccretionary wedges\nMetamorphic belts\nSubduction-related structures\n\nTransform boundaries:\n\nStrike-slip faults\nFlower structures\nEn echelon tension gashes\nRiedel shears\n\nContinental boundaries:\n\nComplex, diffuse zones\nMultiple structure types\nEscape tectonics\nThick vs. thin crust differences",
+    "crumbs": [
+      "Integration & Practice",
+      "<span class='chapter-number'>7</span>  <span class='chapter-title'>Cross-Cutting Themes</span>"
+    ]
+  },
+  {
+    "objectID": "07-cross-cutting-themes.html#sec-fluids",
+    "href": "07-cross-cutting-themes.html#sec-fluids",
+    "title": "7  Cross-Cutting Themes",
+    "section": "7.6 Fluid-Rock Interaction",
+    "text": "7.6 Fluid-Rock Interaction\nCan you explain the role of fluids in deformation?\nConsider:\n\nReduces effective stress: σ’ = σ - Pf\nEnables deformation at lower differential stress\nFacilitates chemical reactions\nPressure solution and dissolution creep\nVein formation\nHydrolytic weakening of minerals\n\nCan you explain the importance for natural resources?\nThink about:\n\nOre genesis: fluids transport metals\nHydrocarbon migration and trapping\nGeothermal systems\nGroundwater flow\nStructures control permeability",
+    "crumbs": [
+      "Integration & Practice",
+      "<span class='chapter-number'>7</span>  <span class='chapter-title'>Cross-Cutting Themes</span>"
+    ]
+  },
+  {
+    "objectID": "07-cross-cutting-themes.html#sec-history",
+    "href": "07-cross-cutting-themes.html#sec-history",
+    "title": "7  Cross-Cutting Themes",
+    "section": "7.7 Deformation History",
+    "text": "7.7 Deformation History\nCan you explain how to determine the sequence of deformation events?\nConsider:\n\nCross-cutting relationships\nOverprinting of structures\nFold interference patterns\nMultiple cleavages\nReactivated faults\nMetamorphic overprinting\n\nCan you describe common multi-phase deformation scenarios?\nThink about:\n\nD1, D2, D3 events\nProgressive deformation vs. distinct events\nRotation of stress field\nChanging tectonic regime\nSuperimposed fold patterns (Type 1, 2, 3 interference)",
+    "crumbs": [
+      "Integration & Practice",
+      "<span class='chapter-number'>7</span>  <span class='chapter-title'>Cross-Cutting Themes</span>"
+    ]
+  },
+  {
+    "objectID": "07-cross-cutting-themes.html#sec-3d",
+    "href": "07-cross-cutting-themes.html#sec-3d",
+    "title": "7  Cross-Cutting Themes",
+    "section": "7.8 Three-Dimensional Thinking",
+    "text": "7.8 Three-Dimensional Thinking\nCan you visualize structures in 3D from 2D maps and cross-sections?\nConsider:\n\nStrike and dip indicate 3D orientation\nApparent dip vs. true dip\nStructure contour maps\nDown-plunge projection\nStereographic projections\n\nCan you use stereographic projections to solve structural problems?\nThink about:\n\nPlotting planes (as great circles) and lines\nFinding intersections\nDetermining fold axis from limb orientations\nAnalyzing fault slip data\nIdentifying preferred orientations",
+    "crumbs": [
+      "Integration & Practice",
+      "<span class='chapter-number'>7</span>  <span class='chapter-title'>Cross-Cutting Themes</span>"
+    ]
+  },
+  {
+    "objectID": "07-cross-cutting-themes.html#sec-applications",
+    "href": "07-cross-cutting-themes.html#sec-applications",
+    "title": "7  Cross-Cutting Themes",
+    "section": "7.9 Practical Applications",
+    "text": "7.9 Practical Applications\nCan you explain how structural geology applies to resource exploration?\nHydrocarbons:\n\nAnticlines as traps\nFault-bounded traps\nStratigraphic traps in fold limbs\nFracture networks for permeability\n\nMinerals:\n\nOre bodies in shear zones\nVeins in extensional structures\nReplacement along faults\nControls on ore geometry\n\nGeothermal:\n\nFracture permeability\nHeat source proximity\nFluid circulation pathways\n\nCan you explain applications to earthquake hazards?\nConsider:\n\nActive fault identification\nPaleoseismology\nRecurrence intervals\nSeismic hazard assessment\nGround motion prediction\nCritical facilities siting\n\nCan you explain applications to engineering and geotechnical work?\nThink about:\n\nSlope stability\nTunnel design\nDam foundations\nNuclear waste storage\nUnderstanding discontinuities (joints, faults)\nRock mass strength",
+    "crumbs": [
+      "Integration & Practice",
+      "<span class='chapter-number'>7</span>  <span class='chapter-title'>Cross-Cutting Themes</span>"
+    ]
+  },
+  {
+    "objectID": "08-practical-resources.html",
+    "href": "08-practical-resources.html",
+    "title": "8  Practical Resources",
+    "section": "",
+    "text": "8.1 Plate Boundaries\nMid-Ocean Ridges:\nSubduction Zones:\nTransform Faults:\nTriple Junctions:",
+    "crumbs": [
+      "Integration & Practice",
+      "<span class='chapter-number'>8</span>  <span class='chapter-title'>Practical Resources</span>"
+    ]
+  },
+  {
+    "objectID": "08-practical-resources.html#sec-location-boundaries",
+    "href": "08-practical-resources.html#sec-location-boundaries",
+    "title": "8  Practical Resources",
+    "section": "",
+    "text": "Juan de Fuca Ridge (offshore Pacific Northwest)\nEast Pacific Rise\nMid-Atlantic Ridge\n\n\n\nTonga-Kermadec\nCascadia\nJapan (Tohoku 2011 M9.0 earthquake)\nChile\nAlaska (2021 M8.2 earthquake)\n\n\n\nSan Andreas Fault (California)\nRomanche and Chain transforms (Mid-Atlantic)\n\n\n\nAfar Depression (Ethiopia)\nMendocino (offshore California)",
+    "crumbs": [
+      "Integration & Practice",
+      "<span class='chapter-number'>8</span>  <span class='chapter-title'>Practical Resources</span>"
+    ]
+  },
+  {
+    "objectID": "08-practical-resources.html#sec-location-collision",
+    "href": "08-practical-resources.html#sec-location-collision",
+    "title": "8  Practical Resources",
+    "section": "8.2 Continental Collision",
+    "text": "8.2 Continental Collision\n\nHimalayas and Tibet: Ongoing India-Asia collision\nAlps: Classic nappe structures\nCaledonides: Ancient orogen, post-orogenic extension",
+    "crumbs": [
+      "Integration & Practice",
+      "<span class='chapter-number'>8</span>  <span class='chapter-title'>Practical Resources</span>"
+    ]
+  },
+  {
+    "objectID": "08-practical-resources.html#sec-location-extension",
+    "href": "08-practical-resources.html#sec-location-extension",
+    "title": "8  Practical Resources",
+    "section": "8.3 Extensional Provinces",
+    "text": "8.3 Extensional Provinces\n\nEast African Rift: Active continental rifting\nBasin and Range Province: Metamorphic core complexes\nNorth Sea: Rift basins, petroleum province\nGullfaks Field: Domino fault system",
+    "crumbs": [
+      "Integration & Practice",
+      "<span class='chapter-number'>8</span>  <span class='chapter-title'>Practical Resources</span>"
+    ]
+  },
+  {
+    "objectID": "08-practical-resources.html#sec-location-strike-slip",
+    "href": "08-practical-resources.html#sec-location-strike-slip",
+    "title": "8  Practical Resources",
+    "section": "8.4 Strike-Slip Systems",
+    "text": "8.4 Strike-Slip Systems\n\nSan Andreas Fault: 1200 km, &gt;300 km offset\nDead Sea Transform: Pull-apart basin\nNorth Anatolian Fault: Major Turkish earthquakes\nAlpine Fault: New Zealand",
+    "crumbs": [
+      "Integration & Practice",
+      "<span class='chapter-number'>8</span>  <span class='chapter-title'>Practical Resources</span>"
+    ]
+  },
+  {
+    "objectID": "08-practical-resources.html#sec-location-special",
+    "href": "08-practical-resources.html#sec-location-special",
+    "title": "8  Practical Resources",
+    "section": "8.5 Special Examples",
+    "text": "8.5 Special Examples\n\nChief Mountain, Montana: Classic thrust, Precambrian over Cretaceous\nCarrizo Plain: San Andreas, visible offset streams\nSheep Mountain Anticline, Wyoming: Spectacular fold",
+    "crumbs": [
+      "Integration & Practice",
+      "<span class='chapter-number'>8</span>  <span class='chapter-title'>Practical Resources</span>"
+    ]
+  },
+  {
+    "objectID": "08-practical-resources.html#plate-tectonics-terms",
+    "href": "08-practical-resources.html#plate-tectonics-terms",
+    "title": "8  Practical Resources",
+    "section": "9.1 Plate Tectonics Terms",
+    "text": "9.1 Plate Tectonics Terms\n\nLithosphere / Asthenosphere / LAB\nEuler pole / Angular velocity\nMagnetic anomaly / Magnetic reversal\nSeafloor spreading / Age-depth relationship\nMegathrust / Outer rise / Slab rollback\nFocal mechanism / P, T, N axes\nTriple junction / Stability\nEscape tectonics / Lateral extrusion",
+    "crumbs": [
+      "Integration & Practice",
+      "<span class='chapter-number'>8</span>  <span class='chapter-title'>Practical Resources</span>"
+    ]
+  },
+  {
+    "objectID": "08-practical-resources.html#structural-geology-terms",
+    "href": "08-practical-resources.html#structural-geology-terms",
+    "title": "8  Practical Resources",
+    "section": "9.2 Structural Geology Terms",
+    "text": "9.2 Structural Geology Terms\n\nStrike / Dip / Dip direction\nPlunge / Trend\nHanging wall / Footwall\nAllochthon / Autochthon\nDécollement / Detachment\nNappe / Klippe / Window\nHorse / Duplex\nGraben / Horst / Half-graben\nFlower structure (positive/negative)\nPull-apart basin / Pop-up structure\nTranspression / Transtension\nRamp / Flat (frontal, lateral, oblique)",
+    "crumbs": [
+      "Integration & Practice",
+      "<span class='chapter-number'>8</span>  <span class='chapter-title'>Practical Resources</span>"
+    ]
+  },
+  {
+    "objectID": "08-practical-resources.html#stress-and-strain-terms",
+    "href": "08-practical-resources.html#stress-and-strain-terms",
+    "title": "8  Practical Resources",
+    "section": "9.3 Stress and Strain Terms",
+    "text": "9.3 Stress and Strain Terms\n\nStress tensor / Traction vector\nPrincipal stress (σ1, σ2, σ3)\nNormal stress / Shear stress\nDeviatoric stress / Mean stress\nMohr circle / Failure envelope\nMohr-Coulomb criterion\nEffective stress / Pore pressure\nStrain tensor / Strain ellipsoid\nVolumetric strain / Deviatoric strain\nStrain rate / Second invariant\nElongation / Beta factor",
+    "crumbs": [
+      "Integration & Practice",
+      "<span class='chapter-number'>8</span>  <span class='chapter-title'>Practical Resources</span>"
+    ]
+  },
+  {
+    "objectID": "08-practical-resources.html#rheology-terms",
+    "href": "08-practical-resources.html#rheology-terms",
+    "title": "8  Practical Resources",
+    "section": "9.4 Rheology Terms",
+    "text": "9.4 Rheology Terms\n\nYoung’s modulus / Poisson’s ratio\nShear modulus / Bulk modulus\nViscosity / Power-law creep\nYield stress / Plastic deformation\nDiffusion creep / Dislocation creep\nDynamic recrystallization\nBrittle-ductile transition",
+    "crumbs": [
+      "Integration & Practice",
+      "<span class='chapter-number'>8</span>  <span class='chapter-title'>Practical Resources</span>"
+    ]
+  },
+  {
+    "objectID": "08-practical-resources.html#fracture-and-fault-terms",
+    "href": "08-practical-resources.html#fracture-and-fault-terms",
+    "title": "8  Practical Resources",
+    "section": "9.5 Fracture and Fault Terms",
+    "text": "9.5 Fracture and Fault Terms\n\nMode I, II, III fracture\nJoint / Vein / Dike\nPlumose structure / Hackle marks\nSystematic / Non-systematic joints\nSlickenlines / Slickensides\nFault gouge / Fault breccia / Mylonite\nThrow / Heave / Rake\nStick-slip / Earthquake cycle\nMagnitude / Moment / Mw\nByerlee’s Law",
+    "crumbs": [
+      "Integration & Practice",
+      "<span class='chapter-number'>8</span>  <span class='chapter-title'>Practical Resources</span>"
+    ]
+  },
+  {
+    "objectID": "08-practical-resources.html#fold-terms",
+    "href": "08-practical-resources.html#fold-terms",
+    "title": "8  Practical Resources",
+    "section": "9.6 Fold Terms",
+    "text": "9.6 Fold Terms\n\nHinge / Hinge zone / Limb\nAxial surface / Axial trace\nInflection line\nAntiform / Synform\nAnticline / Syncline / Monocline\nInterlimb angle\nUpright / Inclined / Recumbent / Overturned\nCylindrical / Non-cylindrical / Periclinal\nChevron / Box / Kink fold\nDome / Basin\nAnticlinorium / Synclinorium\nParallel / Similar folds (Class 1B / Class 2)\nBuckling / Bending / Passive folding\nFlexural slip / Flexural flow",
+    "crumbs": [
+      "Integration & Practice",
+      "<span class='chapter-number'>8</span>  <span class='chapter-title'>Practical Resources</span>"
+    ]
+  },
+  {
+    "objectID": "08-practical-resources.html#cleavage-and-fabric-terms",
+    "href": "08-practical-resources.html#cleavage-and-fabric-terms",
+    "title": "8  Practical Resources",
+    "section": "9.7 Cleavage and Fabric Terms",
+    "text": "9.7 Cleavage and Fabric Terms\n\nAxial planar cleavage\nCrenulation cleavage\nS-C fabric / Shear bands\nFoliation / Lineation\nPorphyroclast (σ-type, δ-type)\nMica fish\nMylonite / Protomylonite / Ultramylonite",
+    "crumbs": [
+      "Integration & Practice",
+      "<span class='chapter-number'>8</span>  <span class='chapter-title'>Practical Resources</span>"
+    ]
+  },
+  {
+    "objectID": "08-practical-resources.html#calculations-you-should-be-able-to-do",
+    "href": "08-practical-resources.html#calculations-you-should-be-able-to-do",
+    "title": "8  Practical Resources",
+    "section": "10.1 Calculations You Should Be Able to Do",
+    "text": "10.1 Calculations You Should Be Able to Do\n\nCalculate extension from elongation:\n\nGiven stretched fossil: original 3 cm, now 5 cm\ne = (l - l0)/l0 = (5-3)/3 = 0.67 (67% extension)\n\nCalculate beta factor:\n\nβ = l/l0 = 5/3 = 1.67\n\nUse Mohr circle to find stress on a plane:\n\nGiven σ1 = 100 MPa, σ3 = 20 MPa\nFind normal and shear stress on plane at 30° to σ1\n\nPredict fault angle from Anderson’s theory:\n\nGiven friction coefficient μ = 0.6\ntan 2θ = ∓1/μ = ∓1.67\nθ ≈ 30° to σ1\n\nCalculate effective stress:\n\nGiven total stress σn = 100 MPa, pore pressure Pf = 40 MPa\nσ’n = σn - Pf = 60 MPa\n\nApply Mohr-Coulomb to predict failure:\n\nτ = C + σn·tan φ\nGiven C = 10 MPa, φ = 30°, σn = 50 MPa\nτ = 10 + 50·tan(30°) ≈ 39 MPa\n\nUse Byerlee’s Law:\n\nAt shallow depth (&lt;2 km): τ = 0.85σn\nAt greater depth: τ = 50 + 0.6σn",
+    "crumbs": [
+      "Integration & Practice",
+      "<span class='chapter-number'>8</span>  <span class='chapter-title'>Practical Resources</span>"
+    ]
+  },
+  {
+    "objectID": "08-practical-resources.html#graphical-skills",
+    "href": "08-practical-resources.html#graphical-skills",
+    "title": "8  Practical Resources",
+    "section": "10.2 Graphical Skills",
+    "text": "10.2 Graphical Skills\n\nInterpret and construct Mohr circles\nUse stereographic projections:\n\nPlot planes and lines\nFind fold axis from limb data\nAnalyze fault slip data\nDetermine true dip from apparent dips\n\nConstruct cross-sections from maps:\n\nMaintain bed thickness (parallel folds)\nOr maintain bed area (similar folds)\nProject faults to depth\nShow fold geometry\n\nUse down-plunge projection\nInterpret seismic reflection data",
+    "crumbs": [
+      "Integration & Practice",
+      "<span class='chapter-number'>8</span>  <span class='chapter-title'>Practical Resources</span>"
+    ]
+  },
+  {
+    "objectID": "09-exam-preparation.html",
+    "href": "09-exam-preparation.html",
+    "title": "9  Exam Preparation",
+    "section": "",
+    "text": "9.1 Scenario 1: Himalayan Orogen\nYou are studying the Himalayan mountain belt. Using your knowledge of plate tectonics, stress, strain, and structures:\nQuestions:",
+    "crumbs": [
+      "Integration & Practice",
+      "<span class='chapter-number'>9</span>  <span class='chapter-title'>Exam Preparation</span>"
+    ]
+  },
+  {
+    "objectID": "09-exam-preparation.html#sec-scenario-himalaya",
+    "href": "09-exam-preparation.html#sec-scenario-himalaya",
+    "title": "9  Exam Preparation",
+    "section": "",
+    "text": "Can you explain why the Himalayas formed (plate tectonic setting)?\nWhat is the orientation of principal stresses in this region?\nWhat types of structures would you expect to find? (Consider contractional structures, escape tectonics)\nWhy do we see normal faults in Tibet despite ongoing convergence?\nHow does the India-Asia collision illustrate the difference between oceanic and continental convergence?\nWhat role do conjugate strike-slip faults play in accommodating deformation?",
+    "crumbs": [
+      "Integration & Practice",
+      "<span class='chapter-number'>9</span>  <span class='chapter-title'>Exam Preparation</span>"
+    ]
+  },
+  {
+    "objectID": "09-exam-preparation.html#sec-scenario-ear",
+    "href": "09-exam-preparation.html#sec-scenario-ear",
+    "title": "9  Exam Preparation",
+    "section": "9.2 Scenario 2: East African Rift",
+    "text": "9.2 Scenario 2: East African Rift\nYou are mapping in the East African Rift System:\nQuestions:\n\nWhat type of plate boundary is this (or is it even a plate boundary yet)?\nWhat is the stress regime and orientation of principal stresses?\nWhat structures would you expect to map? (Normal faults, graben, etc.)\nIs this active or passive rifting? How would you tell?\nWhat might happen if rifting continues?\nHow does volcanism relate to the rifting process?\nWhy are there sedimentary basins forming in the rift?",
+    "crumbs": [
+      "Integration & Practice",
+      "<span class='chapter-number'>9</span>  <span class='chapter-title'>Exam Preparation</span>"
+    ]
+  },
+  {
+    "objectID": "09-exam-preparation.html#sec-scenario-saf",
+    "href": "09-exam-preparation.html#sec-scenario-saf",
+    "title": "9  Exam Preparation",
+    "section": "9.3 Scenario 3: San Andreas Fault System",
+    "text": "9.3 Scenario 3: San Andreas Fault System\nYou are investigating the San Andreas Fault:\nQuestions:\n\nWhat type of plate boundary is this?\nWhat is the relative motion of the Pacific and North American plates?\nWhy is the fault slightly transpressional rather than pure strike-slip?\nWhat structures would you expect to find along the fault? (Pull-apart basins, pop-ups, etc.)\nHow can you determine the total offset on the fault?\nWhat controls earthquake distribution along the fault?\nWhy do some segments creep while others are locked?\nHow does the stick-slip behavior relate to the earthquake cycle?",
+    "crumbs": [
+      "Integration & Practice",
+      "<span class='chapter-number'>9</span>  <span class='chapter-title'>Exam Preparation</span>"
+    ]
+  },
+  {
+    "objectID": "09-exam-preparation.html#sec-scenario-northsea",
+    "href": "09-exam-preparation.html#sec-scenario-northsea",
+    "title": "9  Exam Preparation",
+    "section": "9.4 Scenario 4: North Sea Basin",
+    "text": "9.4 Scenario 4: North Sea Basin\nYou are exploring for hydrocarbons in the North Sea:\nQuestions:\n\nWhat tectonic setting formed this basin (extensional)?\nWhat structures control the geometry of the basin? (Normal faults, half-graben, etc.)\nWhere would you drill for oil (structural traps)?\nHow does the Gullfaks Field domino system work?\nWhat is the relationship between extension, subsidence, and sedimentation?\nHow do growth faults form and what do they tell you about syn-rift sedimentation?",
+    "crumbs": [
+      "Integration & Practice",
+      "<span class='chapter-number'>9</span>  <span class='chapter-title'>Exam Preparation</span>"
+    ]
+  },
+  {
+    "objectID": "09-exam-preparation.html#sec-scenario-ftb",
+    "href": "09-exam-preparation.html#sec-scenario-ftb",
+    "title": "9  Exam Preparation",
+    "section": "9.5 Scenario 5: Fold and Thrust Belt",
+    "text": "9.5 Scenario 5: Fold and Thrust Belt\nYou are mapping in a fold-and-thrust belt:\nQuestions:\n\nWhat is the tectonic setting (convergent, continent-continent or arc-continent)?\nWhat is the orientation of principal stresses?\nCan you identify the transport direction from fold vergence and thrust sense?\nHow do you distinguish thick-skinned from thin-skinned tectonics?\nWhat is the geometry of ramps and flats and why do they form?\nHow do duplexes develop?\nWhat role does a weak décollement layer play?\nHow are folds related to thrusts (fault-bend, fault-propagation, detachment folds)?\nWhat does axial planar cleavage tell you?\nHow would you predict structure at depth?",
+    "crumbs": [
+      "Integration & Practice",
+      "<span class='chapter-number'>9</span>  <span class='chapter-title'>Exam Preparation</span>"
+    ]
+  },
+  {
+    "objectID": "09-exam-preparation.html#sec-scenario-subduction",
+    "href": "09-exam-preparation.html#sec-scenario-subduction",
+    "title": "9  Exam Preparation",
+    "section": "9.6 Scenario 6: Subduction Zone",
+    "text": "9.6 Scenario 6: Subduction Zone\nYou are studying a subduction zone:\nQuestions:\n\nWhy is the subducting plate bending and what stresses result?\nWhy do we see normal faulting at the outer rise?\nWhat is the megathrust and what type of earthquakes occur there?\nHow do you distinguish megathrust earthquakes from outer rise earthquakes from upper plate earthquakes?\nWhat is slab rollback and how does it differ from plate convergence rate?\nHow does the upper plate respond to coupling with the downgoing plate?\nWhat happens when a megathrust earthquake occurs (coseismic deformation)?\nWhat structures form in the accretionary wedge?\nWhy is the geometry of the wedge like it is (critical taper)?",
+    "crumbs": [
+      "Integration & Practice",
+      "<span class='chapter-number'>9</span>  <span class='chapter-title'>Exam Preparation</span>"
+    ]
+  },
+  {
+    "objectID": "09-exam-preparation.html#sec-scenario-shear",
+    "href": "09-exam-preparation.html#sec-scenario-shear",
+    "title": "9  Exam Preparation",
+    "section": "9.7 Scenario 7: Shear Zone",
+    "text": "9.7 Scenario 7: Shear Zone\nYou find a mylonitic shear zone in the field:\nQuestions:\n\nWhat deformation mechanisms produced the mylonite?\nHow can you determine the sense of shear? (S-C fabrics, porphyroclasts, etc.)\nWhat does the degree of recrystallization tell you about temperature?\nIs this simple shear or general shear? How would you determine the vorticity?\nWhat is the relationship between the shear zone and the regional stress field?\nHow does strain vary across the shear zone (strain profile)?\nWhat metamorphic conditions existed during deformation?",
+    "crumbs": [
+      "Integration & Practice",
+      "<span class='chapter-number'>9</span>  <span class='chapter-title'>Exam Preparation</span>"
+    ]
+  },
+  {
+    "objectID": "09-exam-preparation.html#plate-tectonics",
+    "href": "09-exam-preparation.html#plate-tectonics",
+    "title": "9  Exam Preparation",
+    "section": "10.1 Plate Tectonics",
+    "text": "10.1 Plate Tectonics\n\n\n\n\n\n\nCommon Mistakes\n\n\n\n❌ Mistake: Thinking plates are just the crust\n✓ Correct: Plates are lithosphere (crust + upper mantle)\n❌ Mistake: Confusing plate motion with trench motion\n✓ Correct: Slab rollback means these can be different\n❌ Mistake: Thinking all convergent boundaries produce the same structures\n✓ Correct: Ocean-ocean, ocean-continent, continent-continent are very different",
+    "crumbs": [
+      "Integration & Practice",
+      "<span class='chapter-number'>9</span>  <span class='chapter-title'>Exam Preparation</span>"
+    ]
+  },
+  {
+    "objectID": "09-exam-preparation.html#stress-and-strain",
+    "href": "09-exam-preparation.html#stress-and-strain",
+    "title": "9  Exam Preparation",
+    "section": "10.2 Stress and Strain",
+    "text": "10.2 Stress and Strain\n\n\n\n\n\n\nCommon Mistakes\n\n\n\n❌ Mistake: Confusing stress and strain\n✓ Correct: Stress is force/area (cause), strain is deformation (effect)\n❌ Mistake: Thinking high stress always means high strain\n✓ Correct: Rheology controls the relationship; strong rocks can support high stress with little strain\n❌ Mistake: Confusing principal stress directions with fault slip directions\n✓ Correct: Faults form at ~30° to σ1, not parallel to it",
+    "crumbs": [
+      "Integration & Practice",
+      "<span class='chapter-number'>9</span>  <span class='chapter-title'>Exam Preparation</span>"
+    ]
+  },
+  {
+    "objectID": "09-exam-preparation.html#faults",
+    "href": "09-exam-preparation.html#faults",
+    "title": "9  Exam Preparation",
+    "section": "10.3 Faults",
+    "text": "10.3 Faults\n\n\n\n\n\n\nCommon Mistakes\n\n\n\n❌ Mistake: Thinking all faults in convergent settings are thrusts\n✓ Correct: Can have normal faults (outer rise, extensional collapse)\n❌ Mistake: Confusing stratigraphic separation with true slip\n✓ Correct: Need 3D analysis to determine actual displacement\n❌ Mistake: Thinking friction coefficient varies greatly between rock types\n✓ Correct: Byerlee’s Law shows it’s remarkably constant (μ ≈ 0.6-0.85)",
+    "crumbs": [
+      "Integration & Practice",
+      "<span class='chapter-number'>9</span>  <span class='chapter-title'>Exam Preparation</span>"
+    ]
+  },
+  {
+    "objectID": "09-exam-preparation.html#folds",
+    "href": "09-exam-preparation.html#folds",
+    "title": "9  Exam Preparation",
+    "section": "10.4 Folds",
+    "text": "10.4 Folds\n\n\n\n\n\n\nCommon Mistakes\n\n\n\n❌ Mistake: Using anticline/syncline for folds with unknown age relationships\n✓ Correct: Use antiform/synform unless you know which rocks are older\n❌ Mistake: Thinking axial plane cleavage is always vertical\n✓ Correct: It’s parallel to the axial surface, which can have any orientation\n❌ Mistake: Confusing fold axis with axial surface\n✓ Correct: Axis is a line, surface is a plane",
+    "crumbs": [
+      "Integration & Practice",
+      "<span class='chapter-number'>9</span>  <span class='chapter-title'>Exam Preparation</span>"
+    ]
+  },
+  {
+    "objectID": "09-exam-preparation.html#rheology",
+    "href": "09-exam-preparation.html#rheology",
+    "title": "9  Exam Preparation",
+    "section": "10.5 Rheology",
+    "text": "10.5 Rheology\n\n\n\n\n\n\nCommon Mistakes\n\n\n\n❌ Mistake: Thinking temperature and pressure have the same effect\n✓ Correct: Temperature promotes ductile behavior, confining pressure promotes brittle\n❌ Mistake: Thinking brittle-ductile transition is at a fixed depth\n✓ Correct: Depends on rock type, strain rate, and thermal gradient\n❌ Mistake: Confusing elastic with brittle\n✓ Correct: Elastic is reversible deformation; brittle is fracturing (irreversible)",
+    "crumbs": [
+      "Integration & Practice",
+      "<span class='chapter-number'>9</span>  <span class='chapter-title'>Exam Preparation</span>"
+    ]
+  },
+  {
+    "objectID": "09-exam-preparation.html#topic-integration",
+    "href": "09-exam-preparation.html#topic-integration",
+    "title": "9  Exam Preparation",
+    "section": "11.1 Topic Integration",
+    "text": "11.1 Topic Integration\nWhen studying, don’t think of modules in isolation:\n\nConnect stress to structures:\n\nNormal faulting regime → σ1 vertical → normal faults, graben, rifts\n\nLink plate boundaries to stress regimes:\n\nDivergent → extensional → normal faults\nConvergent → compressional → thrusts and folds\nTransform → wrench → strike-slip\n\nConnect deformation style to conditions:\n\nShallow, cold, fast → brittle → fractures, faults\nDeep, hot, slow → ductile → folds, shear zones",
+    "crumbs": [
+      "Integration & Practice",
+      "<span class='chapter-number'>9</span>  <span class='chapter-title'>Exam Preparation</span>"
+    ]
+  },
+  {
+    "objectID": "09-exam-preparation.html#practice-problems",
+    "href": "09-exam-preparation.html#practice-problems",
+    "title": "9  Exam Preparation",
+    "section": "11.2 Practice Problems",
+    "text": "11.2 Practice Problems\nWork through problems that require:\n\nCalculations (stress, strain, fault angles)\nGraphical analysis (Mohr circles, stereonets)\nMap interpretation\nCross-section construction\nStructure identification from photos",
+    "crumbs": [
+      "Integration & Practice",
+      "<span class='chapter-number'>9</span>  <span class='chapter-title'>Exam Preparation</span>"
+    ]
+  },
+  {
+    "objectID": "09-exam-preparation.html#real-world-examples",
+    "href": "09-exam-preparation.html#real-world-examples",
+    "title": "9  Exam Preparation",
+    "section": "11.3 Real-World Examples",
+    "text": "11.3 Real-World Examples\nFor each major structure type, know at least one real example:\n\nCan you locate it?\nDescribe its characteristics?\nExplain its tectonic setting?\nRelate it to theory?",
+    "crumbs": [
+      "Integration & Practice",
+      "<span class='chapter-number'>9</span>  <span class='chapter-title'>Exam Preparation</span>"
+    ]
+  },
+  {
+    "objectID": "09-exam-preparation.html#terminology-precision",
+    "href": "09-exam-preparation.html#terminology-precision",
+    "title": "9  Exam Preparation",
+    "section": "11.4 Terminology Precision",
+    "text": "11.4 Terminology Precision\n\nBe precise with terms (anticline vs. antiform, stress vs. strain)\nUse proper notation (σ1, ε, τ, μ)\nKnow units (Pa for stress, s-1 for strain rate)",
+    "crumbs": [
+      "Integration & Practice",
+      "<span class='chapter-number'>9</span>  <span class='chapter-title'>Exam Preparation</span>"
+    ]
+  },
+  {
+    "objectID": "09-exam-preparation.html#conceptual-understanding",
+    "href": "09-exam-preparation.html#conceptual-understanding",
+    "title": "9  Exam Preparation",
+    "section": "11.5 Conceptual Understanding",
+    "text": "11.5 Conceptual Understanding\nDon’t just memorize - understand:\n\nWHY faults form at 30° to σ1 (minimize work)\nWHY oceanic crust is uniform thickness (spreading center structure)\nWHY Tibet extends despite convergence (gravitational collapse)",
+    "crumbs": [
+      "Integration & Practice",
+      "<span class='chapter-number'>9</span>  <span class='chapter-title'>Exam Preparation</span>"
+    ]
+  },
+  {
+    "objectID": "09-exam-preparation.html#visual-learning",
+    "href": "09-exam-preparation.html#visual-learning",
+    "title": "9  Exam Preparation",
+    "section": "11.6 Visual Learning",
+    "text": "11.6 Visual Learning\n\nStudy photographs and diagrams\nDraw sketches of structures\nVisualize in 3D\nPractice stereographic projections",
+    "crumbs": [
+      "Integration & Practice",
+      "<span class='chapter-number'>9</span>  <span class='chapter-title'>Exam Preparation</span>"
+    ]
+  },
+  {
+    "objectID": "09-exam-preparation.html#global-tectonics",
+    "href": "09-exam-preparation.html#global-tectonics",
+    "title": "9  Exam Preparation",
+    "section": "12.1 Global Tectonics",
+    "text": "12.1 Global Tectonics\n\nDescribe Earth’s layered structure with correct thicknesses\nExplain plate motions and measurement methods\nIdentify and describe all three plate boundary types\nExplain triple junctions and stability\nContrast oceanic and continental deformation\nDescribe the Himalayan collision as a detailed example\nExplain subduction zone complexity (rollback, bending, outer rise)",
+    "crumbs": [
+      "Integration & Practice",
+      "<span class='chapter-number'>9</span>  <span class='chapter-title'>Exam Preparation</span>"
+    ]
+  },
+  {
+    "objectID": "09-exam-preparation.html#structural-geology-regimes",
+    "href": "09-exam-preparation.html#structural-geology-regimes",
+    "title": "9  Exam Preparation",
+    "section": "12.2 Structural Geology Regimes",
+    "text": "12.2 Structural Geology Regimes\n\nPredict structures for each tectonic regime\nDescribe contractional structures (thrusts, folds, nappes, duplexes)\nDescribe extensional structures (normal faults, graben, rifts)\nDescribe strike-slip structures (transforms, flower structures, pull-aparts)\nExplain orogenic wedge geometry and models\nDistinguish pure shear vs. simple shear rift models",
+    "crumbs": [
+      "Integration & Practice",
+      "<span class='chapter-number'>9</span>  <span class='chapter-title'>Exam Preparation</span>"
+    ]
+  },
+  {
+    "objectID": "09-exam-preparation.html#stress-strain-and-rheology",
+    "href": "09-exam-preparation.html#stress-strain-and-rheology",
+    "title": "9  Exam Preparation",
+    "section": "12.3 Stress, Strain, and Rheology",
+    "text": "12.3 Stress, Strain, and Rheology\n\nDefine and distinguish stress and strain\nDescribe the stress and strain tensors\nExplain principal stresses and principal strains\nIdentify tectonic regimes from stress orientations\nUse Mohr circle for stress analysis\nApply Mohr-Coulomb failure criterion\nCalculate extension, elongation, beta factor\nExplain elastic, viscous, and plastic rheology\nDescribe deformation mechanisms (brittle and ductile)\nExplain the brittle-ductile transition",
+    "crumbs": [
+      "Integration & Practice",
+      "<span class='chapter-number'>9</span>  <span class='chapter-title'>Exam Preparation</span>"
+    ]
+  },
+  {
+    "objectID": "09-exam-preparation.html#brittle-deformation",
+    "href": "09-exam-preparation.html#brittle-deformation",
+    "title": "9  Exam Preparation",
+    "section": "12.4 Brittle Deformation",
+    "text": "12.4 Brittle Deformation\n\nDescribe fracture modes (I, II, III)\nExplain Griffith crack theory\nApply failure criteria (Mohr-Coulomb, Byerlee’s Law)\nExplain effective stress and pore pressure effects\nDescribe joint characteristics and origins\nInterpret plumose structures\nClassify faults by slip and dip\nDescribe fault zone anatomy\nIdentify kinematic indicators\nExplain the earthquake cycle",
+    "crumbs": [
+      "Integration & Practice",
+      "<span class='chapter-number'>9</span>  <span class='chapter-title'>Exam Preparation</span>"
+    ]
+  },
+  {
+    "objectID": "09-exam-preparation.html#ductile-deformation",
+    "href": "09-exam-preparation.html#ductile-deformation",
+    "title": "9  Exam Preparation",
+    "section": "12.5 Ductile Deformation",
+    "text": "12.5 Ductile Deformation\n\nLabel fold elements\nClassify folds by all schemes (tightness, orientation, shape, thickness)\nDistinguish antiform/synform from anticline/syncline\nExplain folding mechanisms (buckling, bending, passive)\nDescribe fold classes (parallel vs. similar)\nIdentify second-order folds and interpret them\nExplain axial planar cleavage formation\nDescribe fold-fault relationships\nIdentify shear sense indicators in shear zones\nClassify mylonites",
+    "crumbs": [
+      "Integration & Practice",
+      "<span class='chapter-number'>9</span>  <span class='chapter-title'>Exam Preparation</span>"
+    ]
+  },
+  {
+    "objectID": "09-exam-preparation.html#integration-and-application",
+    "href": "09-exam-preparation.html#integration-and-application",
+    "title": "9  Exam Preparation",
+    "section": "12.6 Integration and Application",
+    "text": "12.6 Integration and Application\n\nConnect stress regimes to plate boundaries to structures\nExplain scale relationships (Pumpelly’s Rule)\nDescribe lithospheric strength profile\nApply structural geology to resource exploration\nApply structural geology to earthquake hazards\nInterpret structures in maps and cross-sections\nUse stereographic projections\nAnalyze multi-phase deformation\nThink in 3D",
+    "crumbs": [
+      "Integration & Practice",
+      "<span class='chapter-number'>9</span>  <span class='chapter-title'>Exam Preparation</span>"
+    ]
+  },
+  {
+    "objectID": "09-exam-preparation.html#real-world-examples-1",
+    "href": "09-exam-preparation.html#real-world-examples-1",
+    "title": "9  Exam Preparation",
+    "section": "12.7 Real-World Examples",
+    "text": "12.7 Real-World Examples\n\nHimalayas (collision, escape tectonics)\nEast African Rift (active rifting)\nSan Andreas Fault (transform, transpression)\nJuan de Fuca (divergent boundary, subduction)\nNorth Sea (rift basins)\nAlps (nappe structures)",
+    "crumbs": [
+      "Integration & Practice",
+      "<span class='chapter-number'>9</span>  <span class='chapter-title'>Exam Preparation</span>"
+    ]
+  }
+]
