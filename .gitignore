@@ -154,3 +154,7 @@ Lectures/static_pdfs/*.pdf
 .DS_Store
 
 Lectures/figures-work
+Lectures/.DS_Store
+Jupyterbook/.DS_Store
+Jupyterbook/.DS_Store
+Lectures/.DS_Store

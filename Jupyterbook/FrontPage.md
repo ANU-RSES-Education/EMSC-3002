@@ -25,11 +25,10 @@ name: "World stress map"
 The World Stress Map (WSM) 2016 displays the contemporary crustal stress orientation in the upper 40 km based on the WSM database release 2016. Lines show the orientation of maximum horizontal stress. ({cite}`heidbach_world_2018`)
 ```
 
-Your instructors for 2023 are:
+Your instructors for 2025 are:
 
   - Louis Moresi (convenor)
   - Chengxin Jiang (lecturer)
-  - Chris Gouramanis (lecturer)
 
 **Course contributors:** Romain Beucher (former lecturer), Stephen Cox (curriculum design)
 

@@ -1,0 +1,196 @@
+# Module II: Structural Geology and Crustal Deformation {#sec-structural-geology}
+
+## Key Concept Summary
+
+Structural geology studies deformation structures at all scales, from microscopic to crustal scale. The three main tectonic regimes (contractional, extensional, and strike-slip) produce characteristic structures controlled by the orientation of principal stresses. Understanding these structures is essential for resource exploration, geotechnical applications, and interpreting Earth's deformation history.
+
+## Self-Test Questions
+
+### Fundamental Concepts {#sec-struct-fundamentals}
+
+**Can you explain Pumpelly's Rule and its significance for structural geology?**
+
+Think about:
+
+- How do small-scale structures relate to large-scale structures?
+- Why is this important for interpreting limited outcrop data?
+- What are the limitations of this principle?
+
+**Can you distinguish between structural geology, tectonics, and geodynamics?**
+
+Consider:
+
+- What spatial scales does each discipline focus on?
+- What questions does each try to answer?
+- How do they complement each other?
+
+**Can you describe the three main approaches to studying geological structures?**
+
+Think about:
+
+- Field observations (final product)
+- Laboratory experiments (progressive deformation)
+- Numerical modeling (forces and interactions)
+- What are the strengths and limitations of each?
+
+### Contractional Regimes {#sec-contractional}
+
+**Can you identify and describe the major structures formed in contractional settings?**
+
+Consider:
+
+- Thrust faults vs. reverse faults (what's the dip angle distinction?)
+- Nappes and their significance
+- What is a décollement and why is it important?
+- Can you explain the difference between thick-skinned and thin-skinned tectonics?
+
+**Can you explain ramp-flat geometry and why it forms?**
+
+Think about:
+
+- Why do thrusts preferentially follow weak layers (flats)?
+- Why do they cut through competent layers (ramps)?
+- What are frontal vs. lateral vs. oblique ramps?
+- How does this geometry affect fold development?
+
+**Can you describe what a duplex structure is and how it forms?**
+
+Consider:
+
+- What are horses?
+- What is the difference between floor and roof thrusts?
+- Why do duplexes form?
+- What is an imbrication zone?
+
+**Can you explain the concept of an orogenic wedge and the factors controlling its geometry?**
+
+Think about:
+
+- What is the critical taper concept?
+- What controls the angle of the wedge (basal friction, internal strength)?
+- How does surface erosion affect wedge geometry?
+- Can you distinguish between bulldozer, gliding, extrusion, and spreading models?
+
+**Can you give real-world examples of major thrust systems and describe their characteristics?**
+
+Examples to consider:
+
+- The Alps and their nappe complexes
+- The Himalayas as an active collision zone
+- Chief Mountain, Montana (older over younger rocks)
+
+### Extensional Regimes {#sec-extensional}
+
+**Can you explain the difference between extension, elongation, and the beta factor?**
+
+Consider:
+
+- How are these quantities defined mathematically?
+- How do we measure extension in the field?
+- What is the relationship between crustal extension and lithospheric thinning?
+
+**Can you identify and describe the major structures formed in extensional settings?**
+
+Think about:
+
+- Normal faults and their orientation relative to stress
+- Graben vs. horst structures
+- Half-graben and their asymmetry
+- Domino systems and block rotation
+
+**Can you explain the difference between pure shear and simple shear rift models?**
+
+Consider:
+
+- Which produces symmetric basins and which produces asymmetric?
+- What is a metamorphic core complex and which model does it support?
+- What evidence would distinguish between these models?
+
+**Can you describe the stages of rift evolution from initial extension to passive margin?**
+
+Think about:
+
+- Early extension phase
+- Main stretching and thinning
+- Syn-rift sedimentation
+- Post-rift thermal subsidence
+- Breakup and ocean formation
+
+**Can you explain active vs. passive rifting?**
+
+Consider:
+
+- What drives each type?
+- Which involves mantle plumes?
+- How would you recognize the difference?
+
+**Can you explain why extension occurs in convergent settings like the Himalayas?**
+
+Think about:
+
+- Gravitational collapse model
+- Syn-convergent extension
+- Delamination processes
+- North-South Trending Rift System in Tibet
+
+**Can you give real-world examples of extensional provinces?**
+
+Examples to consider:
+
+- East African Rift System
+- Basin and Range Province
+- North Sea rift system
+- Gullfaks Field domino system
+
+### Strike-Slip Regimes {#sec-strike-slip}
+
+**Can you distinguish between transfer faults, transform faults, and transcurrent faults?**
+
+Consider:
+
+- What is each type's function?
+- Where does each typically occur?
+- Which are true plate boundaries?
+
+**Can you explain the difference between right-lateral (dextral) and left-lateral (sinistral) faults?**
+
+Think about:
+
+- How do you determine the sense of slip?
+- What observations help identify slip sense in the field?
+
+**Can you describe what happens at restraining bends vs. releasing bends?**
+
+Consider:
+
+- Which produces local shortening and which extension?
+- What structures form at each (pop-ups, pull-apart basins)?
+- What are positive and negative flower structures?
+- Can you give real-world examples (Dead Sea, Death Valley)?
+
+**Can you explain transpression and transtension?**
+
+Think about:
+
+- What is the kinematic vorticity number (Wk)?
+- What does Wk = 0, 1, and intermediate values represent?
+- How is strain partitioned in transpressional zones?
+- Where do we see these settings in nature?
+
+**Can you describe the San Andreas Fault system as a key example?**
+
+Consider:
+
+- Total offset and age
+- Slip rate
+- Is it pure strike-slip or transpressional?
+- Major historical earthquakes
+- Why is it slightly oblique to Pacific-North America motion?
+
+**Can you explain the role of conjugate strike-slip faults in escape tectonics?**
+
+Think about:
+
+- How do they accommodate lateral extrusion?
+- The Himalayan example
+- Tapponnier's plasticine experiments
