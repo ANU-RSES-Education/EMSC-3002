@@ -69,6 +69,35 @@ ul.task-list li input[type="checkbox"] {
   }
 }</script>
 
+  <script src="https://polyfill.io/v3/polyfill.min.js?features=es6"></script>
+  <script src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-chtml-full.js" type="text/javascript"></script>
+
+<script type="text/javascript">
+const typesetMath = (el) => {
+  if (window.MathJax) {
+    // MathJax Typeset
+    window.MathJax.typeset([el]);
+  } else if (window.katex) {
+    // KaTeX Render
+    var mathElements = el.getElementsByClassName("math");
+    var macros = [];
+    for (var i = 0; i < mathElements.length; i++) {
+      var texText = mathElements[i].firstChild;
+      if (mathElements[i].tagName == "SPAN") {
+        window.katex.render(texText.data, mathElements[i], {
+          displayMode: mathElements[i].classList.contains('display'),
+          throwOnError: false,
+          macros: macros,
+          fleqn: false
+        });
+      }
+    }
+  }
+}
+window.Quarto = {
+  typesetMath
+};
+</script>
 
 </head>
 
@@ -286,7 +315,7 @@ ul.task-list li input[type="checkbox"] {
 <p><strong>Can you distinguish between tensile and shear fractures?</strong></p>
 <p>Tensile fractures (joints):</p>
 <ul>
-<li>Perpendicular to σ<sub>3</sub> (minimum principal stress)</li>
+<li>Perpendicular to <span class="math inline">\(\sigma_3\)</span> (minimum principal stress)</li>
 <li>Mode I opening</li>
 <li>No shear displacement</li>
 <li>Extension fractures</li>
@@ -304,9 +333,9 @@ ul.task-list li input[type="checkbox"] {
 <p><strong>Can you explain and apply the Mohr-Coulomb failure criterion?</strong></p>
 <p>Consider:</p>
 <ul>
-<li>τ = C + σ<sub>n</sub>·tan φ</li>
-<li>C: cohesion</li>
-<li>φ: angle of internal friction</li>
+<li><span class="math inline">\(\tau = C + \sigma_n \cdot \tan \phi\)</span></li>
+<li><span class="math inline">\(C\)</span>: cohesion</li>
+<li><span class="math inline">\(\phi\)</span>: angle of internal friction</li>
 <li>Linear failure envelope</li>
 <li>How to use it to predict failure</li>
 </ul>
@@ -328,9 +357,9 @@ ul.task-list li input[type="checkbox"] {
 <p><strong>Can you explain Byerlee’s Law and its significance?</strong></p>
 <p>Think about:</p>
 <ul>
-<li>τ = 0.85σ<sub>n</sub> (low pressure, &lt;200 MPa)</li>
-<li>τ = 50 + 0.6σ<sub>n</sub> (high pressure)</li>
-<li>Friction coefficient μ ≈ 0.6-0.85</li>
+<li><span class="math inline">\(\tau = 0.85\sigma_n\)</span> (low pressure, &lt;200 MPa)</li>
+<li><span class="math inline">\(\tau = 50 + 0.6\sigma_n\)</span> (high pressure)</li>
+<li>Friction coefficient <span class="math inline">\(\mu \approx 0.6\text{-}0.85\)</span></li>
 <li>Remarkably independent of rock type</li>
 <li>Implications for crustal strength</li>
 </ul>
@@ -340,7 +369,7 @@ ul.task-list li input[type="checkbox"] {
 <p><strong>Can you explain the role of pore fluid pressure?</strong></p>
 <p>Consider:</p>
 <ul>
-<li>Effective stress: σ’<sub>n</sub> = σ<sub>n</sub> - P<sub>f</sub></li>
+<li>Effective stress: <span class="math inline">\(\sigma'_n = \sigma_n - P_f\)</span></li>
 <li>Reduces normal stress on faults</li>
 <li>Can trigger failure without changing tectonic stress</li>
 <li>Hubbert-Rubey hypothesis for low-angle thrusts</li>
@@ -378,7 +407,7 @@ ul.task-list li input[type="checkbox"] {
 <ul>
 <li>Extension fractures (Mode I)</li>
 <li>No shear displacement</li>
-<li>Perpendicular to σ<sub>3</sub></li>
+<li>Perpendicular to <span class="math inline">\(\sigma_3\)</span></li>
 <li>Often occur in systematic sets</li>
 <li>Plumose structures indicate propagation direction</li>
 </ul>
@@ -519,9 +548,9 @@ ul.task-list li input[type="checkbox"] {
 <p><strong>Can you describe earthquake magnitude scales?</strong></p>
 <p>Consider:</p>
 <ul>
-<li>Magnitude (M): energy released</li>
-<li>Moment (M<sub>0</sub>): rigidity × area × slip</li>
-<li>Moment magnitude (M<sub>w</sub>): most reliable scale</li>
+<li>Magnitude (<span class="math inline">\(M\)</span>): energy released</li>
+<li>Moment (<span class="math inline">\(M_0\)</span>): rigidity × area × slip</li>
+<li>Moment magnitude (<span class="math inline">\(M_w\)</span>): most reliable scale</li>
 <li>Why are large earthquakes less frequent?</li>
 </ul>
 <p><strong>Can you interpret earthquake focal mechanisms?</strong></p>

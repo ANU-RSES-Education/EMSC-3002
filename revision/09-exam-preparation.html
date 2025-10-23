@@ -68,6 +68,35 @@ ul.task-list li input[type="checkbox"] {
   }
 }</script>
 
+  <script src="https://polyfill.io/v3/polyfill.min.js?features=es6"></script>
+  <script src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-chtml-full.js" type="text/javascript"></script>
+
+<script type="text/javascript">
+const typesetMath = (el) => {
+  if (window.MathJax) {
+    // MathJax Typeset
+    window.MathJax.typeset([el]);
+  } else if (window.katex) {
+    // KaTeX Render
+    var mathElements = el.getElementsByClassName("math");
+    var macros = [];
+    for (var i = 0; i < mathElements.length; i++) {
+      var texText = mathElements[i].firstChild;
+      if (mathElements[i].tagName == "SPAN") {
+        window.katex.render(texText.data, mathElements[i], {
+          displayMode: mathElements[i].classList.contains('display'),
+          throwOnError: false,
+          macros: macros,
+          fleqn: false
+        });
+      }
+    }
+  }
+}
+window.Quarto = {
+  typesetMath
+};
+</script>
 
 </head>
 
@@ -379,12 +408,12 @@ Common Mistakes
 </div>
 </div>
 <div class="callout-body-container callout-body">
-<p>❌ <strong>Mistake:</strong> Thinking plates are just the crust</p>
-<p>✓ <strong>Correct:</strong> Plates are lithosphere (crust + upper mantle)</p>
-<p>❌ <strong>Mistake:</strong> Confusing plate motion with trench motion</p>
-<p>✓ <strong>Correct:</strong> Slab rollback means these can be different</p>
-<p>❌ <strong>Mistake:</strong> Thinking all convergent boundaries produce the same structures</p>
-<p>✓ <strong>Correct:</strong> Ocean-ocean, ocean-continent, continent-continent are very different</p>
+<p>✘ <strong>Mistake:</strong> Thinking plates are just the crust</p>
+<p>✔ <strong>Correct:</strong> Plates are lithosphere (crust + upper mantle)</p>
+<p>✘ <strong>Mistake:</strong> Confusing plate motion with trench motion</p>
+<p>✔ <strong>Correct:</strong> Slab rollback means these can be different</p>
+<p>✘ <strong>Mistake:</strong> Thinking all convergent boundaries produce the same structures</p>
+<p>✔ <strong>Correct:</strong> Ocean-ocean, ocean-continent, continent-continent are very different</p>
 </div>
 </div>
 </section>
@@ -400,12 +429,12 @@ Common Mistakes
 </div>
 </div>
 <div class="callout-body-container callout-body">
-<p>❌ <strong>Mistake:</strong> Confusing stress and strain</p>
-<p>✓ <strong>Correct:</strong> Stress is force/area (cause), strain is deformation (effect)</p>
-<p>❌ <strong>Mistake:</strong> Thinking high stress always means high strain</p>
-<p>✓ <strong>Correct:</strong> Rheology controls the relationship; strong rocks can support high stress with little strain</p>
-<p>❌ <strong>Mistake:</strong> Confusing principal stress directions with fault slip directions</p>
-<p>✓ <strong>Correct:</strong> Faults form at ~30° to σ<sub>1</sub>, not parallel to it</p>
+<p>✘ <strong>Mistake:</strong> Confusing stress and strain</p>
+<p>✔ <strong>Correct:</strong> Stress is force/area (cause), strain is deformation (effect)</p>
+<p>✘ <strong>Mistake:</strong> Thinking high stress always means high strain</p>
+<p>✔ <strong>Correct:</strong> Rheology controls the relationship; strong rocks can support high stress with little strain</p>
+<p>✘ <strong>Mistake:</strong> Confusing principal stress directions with fault slip directions</p>
+<p>✔ <strong>Correct:</strong> Faults form at ~30° to <span class="math inline">\(\sigma_1\)</span>, not parallel to it</p>
 </div>
 </div>
 </section>
@@ -421,12 +450,12 @@ Common Mistakes
 </div>
 </div>
 <div class="callout-body-container callout-body">
-<p>❌ <strong>Mistake:</strong> Thinking all faults in convergent settings are thrusts</p>
-<p>✓ <strong>Correct:</strong> Can have normal faults (outer rise, extensional collapse)</p>
-<p>❌ <strong>Mistake:</strong> Confusing stratigraphic separation with true slip</p>
-<p>✓ <strong>Correct:</strong> Need 3D analysis to determine actual displacement</p>
-<p>❌ <strong>Mistake:</strong> Thinking friction coefficient varies greatly between rock types</p>
-<p>✓ <strong>Correct:</strong> Byerlee’s Law shows it’s remarkably constant (μ ≈ 0.6-0.85)</p>
+<p>✘ <strong>Mistake:</strong> Thinking all faults in convergent settings are thrusts</p>
+<p>✔ <strong>Correct:</strong> Can have normal faults (outer rise, extensional collapse)</p>
+<p>✘ <strong>Mistake:</strong> Confusing stratigraphic separation with true slip</p>
+<p>✔ <strong>Correct:</strong> Need 3D analysis to determine actual displacement</p>
+<p>✘ <strong>Mistake:</strong> Thinking friction coefficient varies greatly between rock types</p>
+<p>✔ <strong>Correct:</strong> Byerlee’s Law shows it’s remarkably constant (<span class="math inline">\(\mu \approx 0.6\text{-}0.85\)</span>)</p>
 </div>
 </div>
 </section>
@@ -442,12 +471,12 @@ Common Mistakes
 </div>
 </div>
 <div class="callout-body-container callout-body">
-<p>❌ <strong>Mistake:</strong> Using anticline/syncline for folds with unknown age relationships</p>
-<p>✓ <strong>Correct:</strong> Use antiform/synform unless you know which rocks are older</p>
-<p>❌ <strong>Mistake:</strong> Thinking axial plane cleavage is always vertical</p>
-<p>✓ <strong>Correct:</strong> It’s parallel to the axial surface, which can have any orientation</p>
-<p>❌ <strong>Mistake:</strong> Confusing fold axis with axial surface</p>
-<p>✓ <strong>Correct:</strong> Axis is a line, surface is a plane</p>
+<p>✘ <strong>Mistake:</strong> Using anticline/syncline for folds with unknown age relationships</p>
+<p>✔ <strong>Correct:</strong> Use antiform/synform unless you know which rocks are older</p>
+<p>✘ <strong>Mistake:</strong> Thinking axial plane cleavage is always vertical</p>
+<p>✔ <strong>Correct:</strong> It’s parallel to the axial surface, which can have any orientation</p>
+<p>✘ <strong>Mistake:</strong> Confusing fold axis with axial surface</p>
+<p>✔ <strong>Correct:</strong> Axis is a line, surface is a plane</p>
 </div>
 </div>
 </section>
@@ -463,12 +492,12 @@ Common Mistakes
 </div>
 </div>
 <div class="callout-body-container callout-body">
-<p>❌ <strong>Mistake:</strong> Thinking temperature and pressure have the same effect</p>
-<p>✓ <strong>Correct:</strong> Temperature promotes ductile behavior, confining pressure promotes brittle</p>
-<p>❌ <strong>Mistake:</strong> Thinking brittle-ductile transition is at a fixed depth</p>
-<p>✓ <strong>Correct:</strong> Depends on rock type, strain rate, and thermal gradient</p>
-<p>❌ <strong>Mistake:</strong> Confusing elastic with brittle</p>
-<p>✓ <strong>Correct:</strong> Elastic is reversible deformation; brittle is fracturing (irreversible)</p>
+<p>✘ <strong>Mistake:</strong> Thinking temperature and pressure have the same effect</p>
+<p>✔ <strong>Correct:</strong> Temperature promotes ductile behavior, confining pressure promotes brittle</p>
+<p>✘ <strong>Mistake:</strong> Thinking brittle-ductile transition is at a fixed depth</p>
+<p>✔ <strong>Correct:</strong> Depends on rock type, strain rate, and thermal gradient</p>
+<p>✘ <strong>Mistake:</strong> Confusing elastic with brittle</p>
+<p>✔ <strong>Correct:</strong> Elastic is reversible deformation; brittle is fracturing (irreversible)</p>
 </div>
 </div>
 <hr>
@@ -482,7 +511,7 @@ Common Mistakes
 <ol type="1">
 <li><strong>Connect stress to structures:</strong>
 <ul>
-<li>Normal faulting regime → σ<sub>1</sub> vertical → normal faults, graben, rifts</li>
+<li>Normal faulting regime → <span class="math inline">\(\sigma_1\)</span> vertical → normal faults, graben, rifts</li>
 </ul></li>
 <li><strong>Link plate boundaries to stress regimes:</strong>
 <ul>
@@ -522,15 +551,15 @@ Common Mistakes
 <h2 data-number="11.4" class="anchored" data-anchor-id="terminology-precision"><span class="header-section-number">11.4</span> Terminology Precision</h2>
 <ul>
 <li>Be precise with terms (anticline vs.&nbsp;antiform, stress vs.&nbsp;strain)</li>
-<li>Use proper notation (σ<sub>1</sub>, ε, τ, μ)</li>
-<li>Know units (Pa for stress, s<sup>-1</sup> for strain rate)</li>
+<li>Use proper notation (<span class="math inline">\(\sigma_1\)</span>, <span class="math inline">\(\varepsilon\)</span>, <span class="math inline">\(\tau\)</span>, <span class="math inline">\(\mu\)</span>)</li>
+<li>Know units (Pa for stress, <span class="math inline">\(s^{-1}\)</span> for strain rate)</li>
 </ul>
 </section>
 <section id="conceptual-understanding" class="level2" data-number="11.5">
 <h2 data-number="11.5" class="anchored" data-anchor-id="conceptual-understanding"><span class="header-section-number">11.5</span> Conceptual Understanding</h2>
 <p>Don’t just memorize - understand:</p>
 <ul>
-<li><strong>WHY</strong> faults form at 30° to σ<sub>1</sub> (minimize work)</li>
+<li><strong>WHY</strong> faults form at 30° to <span class="math inline">\(\sigma_1\)</span> (minimize work)</li>
 <li><strong>WHY</strong> oceanic crust is uniform thickness (spreading center structure)</li>
 <li><strong>WHY</strong> Tibet extends despite convergence (gravitational collapse)</li>
 </ul>

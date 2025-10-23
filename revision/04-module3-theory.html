@@ -69,6 +69,35 @@ ul.task-list li input[type="checkbox"] {
   }
 }</script>
 
+  <script src="https://polyfill.io/v3/polyfill.min.js?features=es6"></script>
+  <script src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-chtml-full.js" type="text/javascript"></script>
+
+<script type="text/javascript">
+const typesetMath = (el) => {
+  if (window.MathJax) {
+    // MathJax Typeset
+    window.MathJax.typeset([el]);
+  } else if (window.katex) {
+    // KaTeX Render
+    var mathElements = el.getElementsByClassName("math");
+    var macros = [];
+    for (var i = 0; i < mathElements.length; i++) {
+      var texText = mathElements[i].firstChild;
+      if (mathElements[i].tagName == "SPAN") {
+        window.katex.render(texText.data, mathElements[i], {
+          displayMode: mathElements[i].classList.contains('display'),
+          throwOnError: false,
+          macros: macros,
+          fleqn: false
+        });
+      }
+    }
+  }
+}
+window.Quarto = {
+  typesetMath
+};
+</script>
 
 </head>
 
@@ -253,7 +282,7 @@ ul.task-list li input[type="checkbox"] {
 <p>Consider:</p>
 <ul>
 <li>Why does it have 9 components but only 6 are independent?</li>
-<li>What does symmetry mean (σ<sub>ij</sub> = σ<sub>ji</sub>)?</li>
+<li>What does symmetry mean (<span class="math inline">\(\sigma_{ij} = \sigma_{ji}\)</span>)?</li>
 <li>What are normal stresses vs.&nbsp;shear stresses?</li>
 <li>How do you visualize stress on a cubic element?</li>
 </ul>
@@ -261,16 +290,16 @@ ul.task-list li input[type="checkbox"] {
 <p>Think about:</p>
 <ul>
 <li>Definition: orientations where shear stresses vanish</li>
-<li>The three principal stresses: σ<sub>1</sub> ≥ σ<sub>2</sub> ≥ σ<sub>3</sub></li>
+<li>The three principal stresses: <span class="math inline">\(\sigma_1 \geq \sigma_2 \geq \sigma_3\)</span></li>
 <li>Why is one principal stress perpendicular to Earth’s surface?</li>
 <li>How do principal stress orientations control structure type?</li>
 </ul>
 <p><strong>Can you describe the three tectonic stress regimes?</strong></p>
 <p>Consider:</p>
 <ul>
-<li>Normal faulting: σ<sub>1</sub> vertical, σ<sub>3</sub> horizontal (extension)</li>
-<li>Strike-slip: σ<sub>2</sub> vertical (wrench)</li>
-<li>Thrust faulting: σ<sub>3</sub> vertical (compression)</li>
+<li>Normal faulting: <span class="math inline">\(\sigma_1\)</span> vertical, <span class="math inline">\(\sigma_3\)</span> horizontal (extension)</li>
+<li>Strike-slip: <span class="math inline">\(\sigma_2\)</span> vertical (wrench)</li>
+<li>Thrust faulting: <span class="math inline">\(\sigma_3\)</span> vertical (compression)</li>
 <li>How do you identify the regime from focal mechanisms?</li>
 </ul>
 <p><strong>Can you explain and use the Mohr circle for stress?</strong></p>
@@ -285,17 +314,17 @@ ul.task-list li input[type="checkbox"] {
 <p>Consider:</p>
 <ul>
 <li>How does fault orientation relate to principal stresses?</li>
-<li>Why do faults form at ~30° to σ<sub>1</sub>?</li>
+<li>Why do faults form at ~30° to <span class="math inline">\(\sigma_1\)</span>?</li>
 <li>Role of friction coefficient</li>
 <li>Conjugate fault sets</li>
 </ul>
 <p><strong>Can you explain how stress is measured in the Earth?</strong></p>
 <p>Think about:</p>
 <ul>
-<li>Hydraulic fracturing method</li>
+<li>Hydraulic fracturing</li>
 <li>Borehole breakouts</li>
 <li>Earthquake focal mechanisms</li>
-<li>What is effective stress?</li>
+<li>Over-coring</li>
 </ul>
 </section>
 <section id="sec-strain" class="level3" data-number="4.2.2">
@@ -315,17 +344,17 @@ ul.task-list li input[type="checkbox"] {
 <li>How is strain defined mathematically?</li>
 <li>Normal strains vs.&nbsp;shear strains</li>
 <li>What is volumetric strain (dilatation)?</li>
-<li>What does incompressibility mean (δ = 0)?</li>
+<li>What does incompressibility mean (<span class="math inline">\(\delta = 0\)</span>)?</li>
 </ul>
 <p><strong>Can you describe principal strains and the strain ellipsoid?</strong></p>
 <p>Consider:</p>
 <ul>
-<li>Three principal strains: ε<sub>1</sub> ≥ ε<sub>2</sub> ≥ ε<sub>3</sub></li>
+<li>Three principal strains: <span class="math inline">\(\varepsilon_1 \geq \varepsilon_2 \geq \varepsilon_3\)</span></li>
 <li>Relationship to principal stress directions</li>
 <li>Strain ellipsoid visualization</li>
 <li>Shortening vs.&nbsp;extension axes</li>
 </ul>
-<p><strong>Can you explain strain invariants and their significance?</strong></p>
+<p><strong>Can you broadly explain strain invariants and their significance?</strong></p>
 <p>Think about:</p>
 <ul>
 <li>First invariant (volumetric strain)</li>
@@ -333,22 +362,22 @@ ul.task-list li input[type="checkbox"] {
 <li>Why are they “invariant”?</li>
 <li>Their use in global strain rate maps</li>
 </ul>
-<p><strong>Can you use the Flinn diagram to classify strain types?</strong></p>
-<p>Consider:</p>
+<p><strong>Do you know that people use the Flinn diagram to classify strain types?</strong></p>
+<p>(We didn’t spend time on this, so a broad overview is OK)</p>
 <ul>
 <li>Axes: strain ratios</li>
-<li>K-value: (ε<sub>1</sub>-ε<sub>2</sub>)/(ε<sub>2</sub>-ε<sub>3</sub>)</li>
-<li>Uniaxial extension (constriction): K = ∞</li>
-<li>Plane strain: K = 1</li>
-<li>Uniaxial shortening (flattening): K = 0</li>
+<li>K-value: <span class="math inline">\((\varepsilon_1-\varepsilon_2)/(\varepsilon_2-\varepsilon_3)\)</span></li>
+<li>Uniaxial extension (constriction): <span class="math inline">\(K = \infty\)</span></li>
+<li>Plane strain: <span class="math inline">\(K = 1\)</span></li>
+<li>Uniaxial shortening (flattening): <span class="math inline">\(K = 0\)</span></li>
 <li>Intermediate values</li>
 </ul>
 <p><strong>Can you distinguish between strain and strain rate?</strong></p>
 <p>Think about:</p>
 <ul>
 <li>Strain: cumulative deformation</li>
-<li>Strain rate: rate of deformation (units: s<sup>-1</sup>)</li>
-<li>Relationship: D<sub>ij</sub> = ½[∂v<sub>i</sub>/∂x<sub>j</sub> + ∂v<sub>j</sub>/∂x<sub>i</sub>]</li>
+<li>Strain rate: rate of deformation (units: <span class="math inline">\(s^{-1}\)</span>)</li>
+<li>Relationship: <span class="math inline">\(D_{ij} = \frac{1}{2}[\frac{\partial v_i}{\partial x_j} + \frac{\partial v_j}{\partial x_i}]\)</span></li>
 <li>Why is strain rate important for understanding active tectonics?</li>
 </ul>
 <p><strong>Can you describe methods for measuring strain in rocks?</strong></p>
@@ -374,37 +403,37 @@ ul.task-list li input[type="checkbox"] {
 <p><strong>Can you describe elastic behavior and the key parameters?</strong></p>
 <p>Consider:</p>
 <ul>
-<li>Hooke’s Law: σ = E·ε (1D)</li>
-<li>Young’s modulus (E): stiffness</li>
-<li>Poisson’s ratio (ν): lateral vs.&nbsp;axial strain</li>
-<li>Shear modulus (μ or G)</li>
-<li>Bulk modulus (K)</li>
+<li>Hooke’s Law: <span class="math inline">\(\sigma = E \cdot \varepsilon\)</span> (1D)</li>
+<li>Young’s modulus (<span class="math inline">\(E\)</span>): stiffness</li>
+<li>Poisson’s ratio (<span class="math inline">\(\nu\)</span>): lateral vs.&nbsp;axial strain</li>
+<li>Shear modulus (<span class="math inline">\(\mu\)</span> or <span class="math inline">\(G\)</span>)</li>
+<li>Bulk modulus (<span class="math inline">\(K\)</span>)</li>
 <li>Deformation is reversible</li>
 </ul>
 <p><strong>Can you describe viscous behavior and contrast it with elastic?</strong></p>
 <p>Think about:</p>
 <ul>
 <li>Stress proportional to strain rate, not strain</li>
-<li>Newtonian: τ = η·γ̇</li>
-<li>Viscosity (η): resistance to flow (Pa·s)</li>
+<li>Newtonian: <span class="math inline">\(\tau = \eta \cdot \dot{\gamma}\)</span></li>
+<li>Viscosity (<span class="math inline">\(\eta\)</span>): resistance to flow (Pa·s)</li>
 <li>Deformation is irreversible</li>
 <li>Time-dependent behavior</li>
 </ul>
 <p><strong>Can you explain non-Newtonian viscosity and power-law creep?</strong></p>
 <p>Consider:</p>
 <ul>
-<li>Power-law: η = K(II<sub>D</sub>)<sup>n-1</sup></li>
-<li>n &gt; 1: shear thinning (most rocks)</li>
-<li>n &lt; 1: shear thickening</li>
+<li>Power-law: <span class="math inline">\(\eta = K(II_D)^{n-1}\)</span></li>
+<li><span class="math inline">\(n &gt; 1\)</span>: shear thinning (most rocks)</li>
+<li><span class="math inline">\(n &lt; 1\)</span>: shear thickening</li>
 <li>Effective viscosity depends on strain rate</li>
 </ul>
 <p><strong>Can you describe plastic behavior?</strong></p>
 <p>Think about:</p>
 <ul>
-<li>Yield stress (τ<sub>Y</sub>): threshold for deformation</li>
+<li>Yield stress (<span class="math inline">\(\tau_Y\)</span>): threshold for deformation</li>
 <li>Stress limited after yield</li>
-<li>Frictional: τ<sub>Y</sub> ≈ μP (granular materials)</li>
-<li>Effective viscosity: η<sub>eff</sub> = τ<sub>Y</sub>/II<sub>D</sub></li>
+<li>Frictional: <span class="math inline">\(\tau_Y \approx \mu P\)</span> (granular materials)</li>
+<li>Effective viscosity: <span class="math inline">\(\eta_{\text{eff}} = \tau_Y/II_D\)</span></li>
 </ul>
 <p><strong>Can you identify and explain the major deformation mechanisms in rocks?</strong></p>
 <p>Brittle mechanisms:</p>

@@ -69,6 +69,35 @@ ul.task-list li input[type="checkbox"] {
   }
 }</script>
 
+  <script src="https://polyfill.io/v3/polyfill.min.js?features=es6"></script>
+  <script src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-chtml-full.js" type="text/javascript"></script>
+
+<script type="text/javascript">
+const typesetMath = (el) => {
+  if (window.MathJax) {
+    // MathJax Typeset
+    window.MathJax.typeset([el]);
+  } else if (window.katex) {
+    // KaTeX Render
+    var mathElements = el.getElementsByClassName("math");
+    var macros = [];
+    for (var i = 0; i < mathElements.length; i++) {
+      var texText = mathElements[i].firstChild;
+      if (mathElements[i].tagName == "SPAN") {
+        window.katex.render(texText.data, mathElements[i], {
+          displayMode: mathElements[i].classList.contains('display'),
+          throwOnError: false,
+          macros: macros,
+          fleqn: false
+        });
+      }
+    }
+  }
+}
+window.Quarto = {
+  typesetMath
+};
+</script>
 
 </head>
 
@@ -242,21 +271,21 @@ ul.task-list li input[type="checkbox"] {
 <h2 data-number="3.2" class="anchored" data-anchor-id="self-test-questions"><span class="header-section-number">3.2</span> Self-Test Questions</h2>
 <section id="sec-struct-fundamentals" class="level3" data-number="3.2.1">
 <h3 data-number="3.2.1" class="anchored" data-anchor-id="sec-struct-fundamentals"><span class="header-section-number">3.2.1</span> Fundamental Concepts</h3>
-<p><strong>Can you explain Pumpelly’s Rule and its significance for structural geology?</strong></p>
+<p><strong>Can you explain “Pumpelly’s Rule” and its significance for structural geology ?</strong></p>
 <p>Think about:</p>
 <ul>
 <li>How do small-scale structures relate to large-scale structures?</li>
 <li>Why is this important for interpreting limited outcrop data?</li>
 <li>What are the limitations of this principle?</li>
 </ul>
-<p><strong>Can you distinguish between structural geology, tectonics, and geodynamics?</strong></p>
+<p><strong>Can you distinguish between structural geology, tectonics, and geodynamics ?</strong></p>
 <p>Consider:</p>
 <ul>
 <li>What spatial scales does each discipline focus on?</li>
 <li>What questions does each try to answer?</li>
 <li>How do they complement each other?</li>
 </ul>
-<p><strong>Can you describe the three main approaches to studying geological structures?</strong></p>
+<p><strong>Can you describe the three main approaches to studying geological structures ?</strong></p>
 <p>Think about:</p>
 <ul>
 <li>Field observations (final product)</li>
@@ -299,17 +328,18 @@ ul.task-list li input[type="checkbox"] {
 <li>How does surface erosion affect wedge geometry?</li>
 <li>Can you distinguish between bulldozer, gliding, extrusion, and spreading models?</li>
 </ul>
-<p><strong>Can you give real-world examples of major thrust systems and describe their characteristics?</strong></p>
+<p><strong>Can you give real-world examples of major thrust systems and describe their characteristics ?</strong></p>
 <p>Examples to consider:</p>
 <ul>
 <li>The Alps and their nappe complexes</li>
 <li>The Himalayas as an active collision zone</li>
 <li>Chief Mountain, Montana (older over younger rocks)</li>
+<li>Your favorite example here (remember some key facts to bring up in questions)</li>
 </ul>
 </section>
 <section id="sec-extensional" class="level3" data-number="3.2.3">
 <h3 data-number="3.2.3" class="anchored" data-anchor-id="sec-extensional"><span class="header-section-number">3.2.3</span> Extensional Regimes</h3>
-<p><strong>Can you explain the difference between extension, elongation, and the beta factor?</strong></p>
+<p><strong>Can you explain the difference between extension, elongation, and the beta factor ?</strong></p>
 <p>Consider:</p>
 <ul>
 <li>How are these quantities defined mathematically?</li>
@@ -340,20 +370,12 @@ ul.task-list li input[type="checkbox"] {
 <li>Post-rift thermal subsidence</li>
 <li>Breakup and ocean formation</li>
 </ul>
-<p><strong>Can you explain active vs.&nbsp;passive rifting?</strong></p>
+<p><strong>Can you explain active vs.&nbsp;passive rifting ?</strong></p>
 <p>Consider:</p>
 <ul>
 <li>What drives each type?</li>
 <li>Which involves mantle plumes?</li>
 <li>How would you recognize the difference?</li>
-</ul>
-<p><strong>Can you explain why extension occurs in convergent settings like the Himalayas?</strong></p>
-<p>Think about:</p>
-<ul>
-<li>Gravitational collapse model</li>
-<li>Syn-convergent extension</li>
-<li>Delamination processes</li>
-<li>North-South Trending Rift System in Tibet</li>
 </ul>
 <p><strong>Can you give real-world examples of extensional provinces?</strong></p>
 <p>Examples to consider:</p>
@@ -378,6 +400,7 @@ ul.task-list li input[type="checkbox"] {
 <ul>
 <li>How do you determine the sense of slip?</li>
 <li>What observations help identify slip sense in the field?</li>
+<li>Can you think of a couple of examples of each ?</li>
 </ul>
 <p><strong>Can you describe what happens at restraining bends vs.&nbsp;releasing bends?</strong></p>
 <p>Consider:</p>
@@ -390,8 +413,8 @@ ul.task-list li input[type="checkbox"] {
 <p><strong>Can you explain transpression and transtension?</strong></p>
 <p>Think about:</p>
 <ul>
-<li>What is the kinematic vorticity number (Wk)?</li>
-<li>What does Wk = 0, 1, and intermediate values represent?</li>
+<li>What is the kinematic vorticity number (<span class="math inline">\(W_k\)</span>)?</li>
+<li>What does <span class="math inline">\(W_k = 0\)</span>, <span class="math inline">\(1\)</span>, and intermediate values represent?</li>
 <li>How is strain partitioned in transpressional zones?</li>
 <li>Where do we see these settings in nature?</li>
 </ul>

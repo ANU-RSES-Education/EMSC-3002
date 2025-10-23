@@ -69,6 +69,35 @@ ul.task-list li input[type="checkbox"] {
   }
 }</script>
 
+  <script src="https://polyfill.io/v3/polyfill.min.js?features=es6"></script>
+  <script src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-chtml-full.js" type="text/javascript"></script>
+
+<script type="text/javascript">
+const typesetMath = (el) => {
+  if (window.MathJax) {
+    // MathJax Typeset
+    window.MathJax.typeset([el]);
+  } else if (window.katex) {
+    // KaTeX Render
+    var mathElements = el.getElementsByClassName("math");
+    var macros = [];
+    for (var i = 0; i < mathElements.length; i++) {
+      var texText = mathElements[i].firstChild;
+      if (mathElements[i].tagName == "SPAN") {
+        window.katex.render(texText.data, mathElements[i], {
+          displayMode: mathElements[i].classList.contains('display'),
+          throwOnError: false,
+          macros: macros,
+          fleqn: false
+        });
+      }
+    }
+  }
+}
+window.Quarto = {
+  typesetMath
+};
+</script>
 
 </head>
 
@@ -285,9 +314,9 @@ ul.task-list li input[type="checkbox"] {
 <p><strong>Can you identify the tectonic regime from principal stress orientations?</strong></p>
 <p>Think about:</p>
 <ul>
-<li>Normal faulting: σ<sub>1</sub> vertical, σ<sub>3</sub> horizontal (extension)</li>
-<li>Strike-slip: σ<sub>2</sub> vertical, σ<sub>1</sub> and σ<sub>3</sub> horizontal</li>
-<li>Thrust faulting: σ<sub>3</sub> vertical, σ<sub>1</sub> horizontal (compression)</li>
+<li>Normal faulting: <span class="math inline">\(\sigma_1\)</span> vertical, <span class="math inline">\(\sigma_3\)</span> horizontal (extension)</li>
+<li>Strike-slip: <span class="math inline">\(\sigma_2\)</span> vertical, <span class="math inline">\(\sigma_1\)</span> and <span class="math inline">\(\sigma_3\)</span> horizontal</li>
+<li>Thrust faulting: <span class="math inline">\(\sigma_3\)</span> vertical, <span class="math inline">\(\sigma_1\)</span> horizontal (compression)</li>
 </ul>
 <p><strong>Can you predict what structures form in each regime?</strong></p>
 <p>Extensional regime:</p>
@@ -350,7 +379,7 @@ ul.task-list li input[type="checkbox"] {
 <p><strong>Can you explain the role of fluids in deformation?</strong></p>
 <p>Consider:</p>
 <ul>
-<li>Reduces effective stress: σ’ = σ - P<sub>f</sub></li>
+<li>Reduces effective stress: <span class="math inline">\(\sigma' = \sigma - P_f\)</span></li>
 <li>Enables deformation at lower differential stress</li>
 <li>Facilitates chemical reactions</li>
 <li>Pressure solution and dissolution creep</li>
@@ -382,7 +411,7 @@ ul.task-list li input[type="checkbox"] {
 <p><strong>Can you describe common multi-phase deformation scenarios?</strong></p>
 <p>Think about:</p>
 <ul>
-<li>D<sub>1</sub>, D<sub>2</sub>, D<sub>3</sub> events</li>
+<li><span class="math inline">\(D_1\)</span>, <span class="math inline">\(D_2\)</span>, <span class="math inline">\(D_3\)</span> events</li>
 <li>Progressive deformation vs.&nbsp;distinct events</li>
 <li>Rotation of stress field</li>
 <li>Changing tectonic regime</li>

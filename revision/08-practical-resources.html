@@ -69,6 +69,35 @@ ul.task-list li input[type="checkbox"] {
   }
 }</script>
 
+  <script src="https://polyfill.io/v3/polyfill.min.js?features=es6"></script>
+  <script src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-chtml-full.js" type="text/javascript"></script>
+
+<script type="text/javascript">
+const typesetMath = (el) => {
+  if (window.MathJax) {
+    // MathJax Typeset
+    window.MathJax.typeset([el]);
+  } else if (window.katex) {
+    // KaTeX Render
+    var mathElements = el.getElementsByClassName("math");
+    var macros = [];
+    for (var i = 0; i < mathElements.length; i++) {
+      var texText = mathElements[i].firstChild;
+      if (mathElements[i].tagName == "SPAN") {
+        window.katex.render(texText.data, mathElements[i], {
+          displayMode: mathElements[i].classList.contains('display'),
+          throwOnError: false,
+          macros: macros,
+          fleqn: false
+        });
+      }
+    }
+  }
+}
+window.Quarto = {
+  typesetMath
+};
+</script>
 
 </head>
 
@@ -346,7 +375,7 @@ ul.task-list li input[type="checkbox"] {
 <h2 data-number="9.3" class="anchored" data-anchor-id="stress-and-strain-terms"><span class="header-section-number">9.3</span> Stress and Strain Terms</h2>
 <ul>
 <li>Stress tensor / Traction vector</li>
-<li>Principal stress (σ<sub>1</sub>, σ<sub>2</sub>, σ<sub>3</sub>)</li>
+<li>Principal stress (<span class="math inline">\(\sigma_1\)</span>, <span class="math inline">\(\sigma_2\)</span>, <span class="math inline">\(\sigma_3\)</span>)</li>
 <li>Normal stress / Shear stress</li>
 <li>Deviatoric stress / Mean stress</li>
 <li>Mohr circle / Failure envelope</li>
@@ -381,7 +410,7 @@ ul.task-list li input[type="checkbox"] {
 <li>Fault gouge / Fault breccia / Mylonite</li>
 <li>Throw / Heave / Rake</li>
 <li>Stick-slip / Earthquake cycle</li>
-<li>Magnitude / Moment / M<sub>w</sub></li>
+<li>Magnitude / Moment / <span class="math inline">\(M_w\)</span></li>
 <li>Byerlee’s Law</li>
 </ul>
 </section>
@@ -427,38 +456,38 @@ ul.task-list li input[type="checkbox"] {
 <li><strong>Calculate extension from elongation:</strong>
 <ul>
 <li>Given stretched fossil: original 3 cm, now 5 cm</li>
-<li>e = (l - l<sub>0</sub>)/l<sub>0</sub> = (5-3)/3 = 0.67 (67% extension)</li>
+<li><span class="math inline">\(e = (l - l_0)/l_0 = (5-3)/3 = 0.67\)</span> (67% extension)</li>
 </ul></li>
 <li><strong>Calculate beta factor:</strong>
 <ul>
-<li>β = l/l<sub>0</sub> = 5/3 = 1.67</li>
+<li><span class="math inline">\(\beta = l/l_0 = 5/3 = 1.67\)</span></li>
 </ul></li>
 <li><strong>Use Mohr circle to find stress on a plane:</strong>
 <ul>
-<li>Given σ<sub>1</sub> = 100 MPa, σ<sub>3</sub> = 20 MPa</li>
-<li>Find normal and shear stress on plane at 30° to σ<sub>1</sub></li>
+<li>Given <span class="math inline">\(\sigma_1 = 100\)</span> MPa, <span class="math inline">\(\sigma_3 = 20\)</span> MPa</li>
+<li>Find normal and shear stress on plane at 30° to <span class="math inline">\(\sigma_1\)</span></li>
 </ul></li>
 <li><strong>Predict fault angle from Anderson’s theory:</strong>
 <ul>
-<li>Given friction coefficient μ = 0.6</li>
-<li>tan 2θ = ∓1/μ = ∓1.67</li>
-<li>θ ≈ 30° to σ<sub>1</sub></li>
+<li>Given friction coefficient <span class="math inline">\(\mu = 0.6\)</span></li>
+<li><span class="math inline">\(\tan 2\theta = \mp 1/\mu = \mp 1.67\)</span></li>
+<li><span class="math inline">\(\theta \approx 30°\)</span> to <span class="math inline">\(\sigma_1\)</span></li>
 </ul></li>
 <li><strong>Calculate effective stress:</strong>
 <ul>
-<li>Given total stress σ<sub>n</sub> = 100 MPa, pore pressure P<sub>f</sub> = 40 MPa</li>
-<li>σ’<sub>n</sub> = σ<sub>n</sub> - P<sub>f</sub> = 60 MPa</li>
+<li>Given total stress <span class="math inline">\(\sigma_n = 100\)</span> MPa, pore pressure <span class="math inline">\(P_f = 40\)</span> MPa</li>
+<li><span class="math inline">\(\sigma'_n = \sigma_n - P_f = 60\)</span> MPa</li>
 </ul></li>
 <li><strong>Apply Mohr-Coulomb to predict failure:</strong>
 <ul>
-<li>τ = C + σ<sub>n</sub>·tan φ</li>
-<li>Given C = 10 MPa, φ = 30°, σ<sub>n</sub> = 50 MPa</li>
-<li>τ = 10 + 50·tan(30°) ≈ 39 MPa</li>
+<li><span class="math inline">\(\tau = C + \sigma_n \cdot \tan \phi\)</span></li>
+<li>Given <span class="math inline">\(C = 10\)</span> MPa, <span class="math inline">\(\phi = 30°\)</span>, <span class="math inline">\(\sigma_n = 50\)</span> MPa</li>
+<li><span class="math inline">\(\tau = 10 + 50 \cdot \tan(30°) \approx 39\)</span> MPa</li>
 </ul></li>
 <li><strong>Use Byerlee’s Law:</strong>
 <ul>
-<li>At shallow depth (&lt;2 km): τ = 0.85σ<sub>n</sub></li>
-<li>At greater depth: τ = 50 + 0.6σ<sub>n</sub></li>
+<li>At shallow depth (&lt;2 km): <span class="math inline">\(\tau = 0.85\sigma_n\)</span></li>
+<li>At greater depth: <span class="math inline">\(\tau = 50 + 0.6\sigma_n\)</span></li>
 </ul></li>
 </ol>
 </section>
