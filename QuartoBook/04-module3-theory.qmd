@@ -22,7 +22,7 @@ Think about:
 Consider:
 
 - Why does it have 9 components but only 6 are independent?
-- What does symmetry mean (σ~ij~ = σ~ji~)?
+- What does symmetry mean ($\sigma_{ij} = \sigma_{ji}$)?
 - What are normal stresses vs. shear stresses?
 - How do you visualize stress on a cubic element?
 
@@ -31,7 +31,7 @@ Consider:
 Think about:
 
 - Definition: orientations where shear stresses vanish
-- The three principal stresses: σ~1~ ≥ σ~2~ ≥ σ~3~
+- The three principal stresses: $\sigma_1 \geq \sigma_2 \geq \sigma_3$
 - Why is one principal stress perpendicular to Earth's surface?
 - How do principal stress orientations control structure type?
 
@@ -39,9 +39,9 @@ Think about:
 
 Consider:
 
-- Normal faulting: σ~1~ vertical, σ~3~ horizontal (extension)
-- Strike-slip: σ~2~ vertical (wrench)
-- Thrust faulting: σ~3~ vertical (compression)
+- Normal faulting: $\sigma_1$ vertical, $\sigma_3$ horizontal (extension)
+- Strike-slip: $\sigma_2$ vertical (wrench)
+- Thrust faulting: $\sigma_3$ vertical (compression)
 - How do you identify the regime from focal mechanisms?
 
 **Can you explain and use the Mohr circle for stress?**
@@ -58,7 +58,7 @@ Think about:
 Consider:
 
 - How does fault orientation relate to principal stresses?
-- Why do faults form at ~30° to σ~1~?
+- Why do faults form at ~30° to $\sigma_1$?
 - Role of friction coefficient
 - Conjugate fault sets
 
@@ -66,10 +66,10 @@ Consider:
 
 Think about:
 
-- Hydraulic fracturing method
+- Hydraulic fracturing
 - Borehole breakouts
 - Earthquake focal mechanisms
-- What is effective stress?
+- Over-coring
 
 ### Strain and Strain Rate {#sec-strain}
 
@@ -90,18 +90,18 @@ Think about:
 - How is strain defined mathematically?
 - Normal strains vs. shear strains
 - What is volumetric strain (dilatation)?
-- What does incompressibility mean (δ = 0)?
+- What does incompressibility mean ($\delta = 0$)?
 
 **Can you describe principal strains and the strain ellipsoid?**
 
 Consider:
 
-- Three principal strains: ε~1~ ≥ ε~2~ ≥ ε~3~
+- Three principal strains: $\varepsilon_1 \geq \varepsilon_2 \geq \varepsilon_3$
 - Relationship to principal stress directions
 - Strain ellipsoid visualization
 - Shortening vs. extension axes
 
-**Can you explain strain invariants and their significance?**
+**Can you broadly explain strain invariants and their significance?**
 
 Think about:
 
@@ -110,15 +110,15 @@ Think about:
 - Why are they "invariant"?
 - Their use in global strain rate maps
 
-**Can you use the Flinn diagram to classify strain types?**
+**Do you know that people use the Flinn diagram to classify strain types?**
 
-Consider:
+(We didn't spend time on this, so a broad overview is OK)
 
 - Axes: strain ratios
-- K-value: (ε~1~-ε~2~)/(ε~2~-ε~3~)
-- Uniaxial extension (constriction): K = ∞
-- Plane strain: K = 1
-- Uniaxial shortening (flattening): K = 0
+- K-value: $(\varepsilon_1-\varepsilon_2)/(\varepsilon_2-\varepsilon_3)$
+- Uniaxial extension (constriction): $K = \infty$
+- Plane strain: $K = 1$
+- Uniaxial shortening (flattening): $K = 0$
 - Intermediate values
 
 **Can you distinguish between strain and strain rate?**
@@ -126,8 +126,8 @@ Consider:
 Think about:
 
 - Strain: cumulative deformation
-- Strain rate: rate of deformation (units: s^-1^)
-- Relationship: D~ij~ = ½[∂v~i~/∂x~j~ + ∂v~j~/∂x~i~]
+- Strain rate: rate of deformation (units: $s^{-1}$)
+- Relationship: $D_{ij} = \frac{1}{2}[\frac{\partial v_i}{\partial x_j} + \frac{\partial v_j}{\partial x_i}]$
 - Why is strain rate important for understanding active tectonics?
 
 **Can you describe methods for measuring strain in rocks?**
@@ -155,11 +155,11 @@ Think about:
 
 Consider:
 
-- Hooke's Law: σ = E·ε (1D)
-- Young's modulus (E): stiffness
-- Poisson's ratio (ν): lateral vs. axial strain
-- Shear modulus (μ or G)
-- Bulk modulus (K)
+- Hooke's Law: $\sigma = E \cdot \varepsilon$ (1D)
+- Young's modulus ($E$): stiffness
+- Poisson's ratio ($\nu$): lateral vs. axial strain
+- Shear modulus ($\mu$ or $G$)
+- Bulk modulus ($K$)
 - Deformation is reversible
 
 **Can you describe viscous behavior and contrast it with elastic?**
@@ -167,8 +167,8 @@ Consider:
 Think about:
 
 - Stress proportional to strain rate, not strain
-- Newtonian: τ = η·γ̇
-- Viscosity (η): resistance to flow (Pa·s)
+- Newtonian: $\tau = \eta \cdot \dot{\gamma}$
+- Viscosity ($\eta$): resistance to flow (Pa·s)
 - Deformation is irreversible
 - Time-dependent behavior
 
@@ -176,19 +176,19 @@ Think about:
 
 Consider:
 
-- Power-law: η = K(II~D~)^n-1^
-- n > 1: shear thinning (most rocks)
-- n < 1: shear thickening
+- Power-law: $\eta = K(II_D)^{n-1}$
+- $n > 1$: shear thinning (most rocks)
+- $n < 1$: shear thickening
 - Effective viscosity depends on strain rate
 
 **Can you describe plastic behavior?**
 
 Think about:
 
-- Yield stress (τ~Y~): threshold for deformation
+- Yield stress ($\tau_Y$): threshold for deformation
 - Stress limited after yield
-- Frictional: τ~Y~ ≈ μP (granular materials)
-- Effective viscosity: η~eff~ = τ~Y~/II~D~
+- Frictional: $\tau_Y \approx \mu P$ (granular materials)
+- Effective viscosity: $\eta_{\text{eff}} = \tau_Y/II_D$
 
 **Can you identify and explain the major deformation mechanisms in rocks?**
 

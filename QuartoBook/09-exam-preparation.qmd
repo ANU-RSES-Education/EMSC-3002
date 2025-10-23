@@ -115,17 +115,17 @@ Be aware of these common pitfalls:
 ::: {.callout-warning}
 ## Common Mistakes
 
-❌ **Mistake:** Thinking plates are just the crust
+✘ **Mistake:** Thinking plates are just the crust
 
-✓ **Correct:** Plates are lithosphere (crust + upper mantle)
+✔ **Correct:** Plates are lithosphere (crust + upper mantle)
 
-❌ **Mistake:** Confusing plate motion with trench motion
+✘ **Mistake:** Confusing plate motion with trench motion
 
-✓ **Correct:** Slab rollback means these can be different
+✔ **Correct:** Slab rollback means these can be different
 
-❌ **Mistake:** Thinking all convergent boundaries produce the same structures
+✘ **Mistake:** Thinking all convergent boundaries produce the same structures
 
-✓ **Correct:** Ocean-ocean, ocean-continent, continent-continent are very different
+✔ **Correct:** Ocean-ocean, ocean-continent, continent-continent are very different
 :::
 
 ## Stress and Strain
@@ -133,17 +133,17 @@ Be aware of these common pitfalls:
 ::: {.callout-warning}
 ## Common Mistakes
 
-❌ **Mistake:** Confusing stress and strain
+✘ **Mistake:** Confusing stress and strain
 
-✓ **Correct:** Stress is force/area (cause), strain is deformation (effect)
+✔ **Correct:** Stress is force/area (cause), strain is deformation (effect)
 
-❌ **Mistake:** Thinking high stress always means high strain
+✘ **Mistake:** Thinking high stress always means high strain
 
-✓ **Correct:** Rheology controls the relationship; strong rocks can support high stress with little strain
+✔ **Correct:** Rheology controls the relationship; strong rocks can support high stress with little strain
 
-❌ **Mistake:** Confusing principal stress directions with fault slip directions
+✘ **Mistake:** Confusing principal stress directions with fault slip directions
 
-✓ **Correct:** Faults form at ~30° to σ~1~, not parallel to it
+✔ **Correct:** Faults form at ~30° to $\sigma_1$, not parallel to it
 :::
 
 ## Faults
@@ -151,17 +151,17 @@ Be aware of these common pitfalls:
 ::: {.callout-warning}
 ## Common Mistakes
 
-❌ **Mistake:** Thinking all faults in convergent settings are thrusts
+✘ **Mistake:** Thinking all faults in convergent settings are thrusts
 
-✓ **Correct:** Can have normal faults (outer rise, extensional collapse)
+✔ **Correct:** Can have normal faults (outer rise, extensional collapse)
 
-❌ **Mistake:** Confusing stratigraphic separation with true slip
+✘ **Mistake:** Confusing stratigraphic separation with true slip
 
-✓ **Correct:** Need 3D analysis to determine actual displacement
+✔ **Correct:** Need 3D analysis to determine actual displacement
 
-❌ **Mistake:** Thinking friction coefficient varies greatly between rock types
+✘ **Mistake:** Thinking friction coefficient varies greatly between rock types
 
-✓ **Correct:** Byerlee's Law shows it's remarkably constant (μ ≈ 0.6-0.85)
+✔ **Correct:** Byerlee's Law shows it's remarkably constant ($\mu \approx 0.6\text{-}0.85$)
 :::
 
 ## Folds
@@ -169,17 +169,17 @@ Be aware of these common pitfalls:
 ::: {.callout-warning}
 ## Common Mistakes
 
-❌ **Mistake:** Using anticline/syncline for folds with unknown age relationships
+✘ **Mistake:** Using anticline/syncline for folds with unknown age relationships
 
-✓ **Correct:** Use antiform/synform unless you know which rocks are older
+✔ **Correct:** Use antiform/synform unless you know which rocks are older
 
-❌ **Mistake:** Thinking axial plane cleavage is always vertical
+✘ **Mistake:** Thinking axial plane cleavage is always vertical
 
-✓ **Correct:** It's parallel to the axial surface, which can have any orientation
+✔ **Correct:** It's parallel to the axial surface, which can have any orientation
 
-❌ **Mistake:** Confusing fold axis with axial surface
+✘ **Mistake:** Confusing fold axis with axial surface
 
-✓ **Correct:** Axis is a line, surface is a plane
+✔ **Correct:** Axis is a line, surface is a plane
 :::
 
 ## Rheology
@@ -187,17 +187,17 @@ Be aware of these common pitfalls:
 ::: {.callout-warning}
 ## Common Mistakes
 
-❌ **Mistake:** Thinking temperature and pressure have the same effect
+✘ **Mistake:** Thinking temperature and pressure have the same effect
 
-✓ **Correct:** Temperature promotes ductile behavior, confining pressure promotes brittle
+✔ **Correct:** Temperature promotes ductile behavior, confining pressure promotes brittle
 
-❌ **Mistake:** Thinking brittle-ductile transition is at a fixed depth
+✘ **Mistake:** Thinking brittle-ductile transition is at a fixed depth
 
-✓ **Correct:** Depends on rock type, strain rate, and thermal gradient
+✔ **Correct:** Depends on rock type, strain rate, and thermal gradient
 
-❌ **Mistake:** Confusing elastic with brittle
+✘ **Mistake:** Confusing elastic with brittle
 
-✓ **Correct:** Elastic is reversible deformation; brittle is fracturing (irreversible)
+✔ **Correct:** Elastic is reversible deformation; brittle is fracturing (irreversible)
 :::
 
 ---
@@ -209,7 +209,7 @@ Be aware of these common pitfalls:
 When studying, don't think of modules in isolation:
 
 1. **Connect stress to structures:**
-   - Normal faulting regime → σ~1~ vertical → normal faults, graben, rifts
+   - Normal faulting regime → $\sigma_1$ vertical → normal faults, graben, rifts
 
 2. **Link plate boundaries to stress regimes:**
    - Divergent → extensional → normal faults
@@ -242,14 +242,14 @@ For each major structure type, know at least one real example:
 ## Terminology Precision
 
 - Be precise with terms (anticline vs. antiform, stress vs. strain)
-- Use proper notation (σ~1~, ε, τ, μ)
-- Know units (Pa for stress, s^-1^ for strain rate)
+- Use proper notation ($\sigma_1$, $\varepsilon$, $\tau$, $\mu$)
+- Know units (Pa for stress, $s^{-1}$ for strain rate)
 
 ## Conceptual Understanding
 
 Don't just memorize - understand:
 
-- **WHY** faults form at 30° to σ~1~ (minimize work)
+- **WHY** faults form at 30° to $\sigma_1$ (minimize work)
 - **WHY** oceanic crust is uniform thickness (spreading center structure)
 - **WHY** Tibet extends despite convergence (gravitational collapse)
 

@@ -53,7 +53,7 @@ Think about:
 
 Tensile fractures (joints):
 
-- Perpendicular to σ~3~ (minimum principal stress)
+- Perpendicular to $\sigma_3$ (minimum principal stress)
 - Mode I opening
 - No shear displacement
 - Extension fractures
@@ -71,9 +71,9 @@ Shear fractures (faults):
 
 Consider:
 
-- τ = C + σ~n~·tan φ
-- C: cohesion
-- φ: angle of internal friction
+- $\tau = C + \sigma_n \cdot \tan \phi$
+- $C$: cohesion
+- $\phi$: angle of internal friction
 - Linear failure envelope
 - How to use it to predict failure
 
@@ -98,9 +98,9 @@ Consider:
 
 Think about:
 
-- τ = 0.85σ~n~ (low pressure, <200 MPa)
-- τ = 50 + 0.6σ~n~ (high pressure)
-- Friction coefficient μ ≈ 0.6-0.85
+- $\tau = 0.85\sigma_n$ (low pressure, <200 MPa)
+- $\tau = 50 + 0.6\sigma_n$ (high pressure)
+- Friction coefficient $\mu \approx 0.6\text{-}0.85$
 - Remarkably independent of rock type
 - Implications for crustal strength
 
@@ -110,7 +110,7 @@ Think about:
 
 Consider:
 
-- Effective stress: σ'~n~ = σ~n~ - P~f~
+- Effective stress: $\sigma'_n = \sigma_n - P_f$
 - Reduces normal stress on faults
 - Can trigger failure without changing tectonic stress
 - Hubbert-Rubey hypothesis for low-angle thrusts
@@ -151,7 +151,7 @@ Consider:
 
 - Extension fractures (Mode I)
 - No shear displacement
-- Perpendicular to σ~3~
+- Perpendicular to $\sigma_3$
 - Often occur in systematic sets
 - Plumose structures indicate propagation direction
 
@@ -306,9 +306,9 @@ Think about:
 
 Consider:
 
-- Magnitude (M): energy released
-- Moment (M~0~): rigidity × area × slip
-- Moment magnitude (M~w~): most reliable scale
+- Magnitude ($M$): energy released
+- Moment ($M_0$): rigidity × area × slip
+- Moment magnitude ($M_w$): most reliable scale
 - Why are large earthquakes less frequent?
 
 **Can you interpret earthquake focal mechanisms?**

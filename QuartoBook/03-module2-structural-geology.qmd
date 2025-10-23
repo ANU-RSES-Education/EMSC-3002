@@ -8,7 +8,7 @@ Structural geology studies deformation structures at all scales, from microscopi
 
 ### Fundamental Concepts {#sec-struct-fundamentals}
 
-**Can you explain Pumpelly's Rule and its significance for structural geology?**
+**Can you explain "Pumpelly's Rule" and its significance for structural geology ?**
 
 Think about:
 
@@ -16,7 +16,7 @@ Think about:
 - Why is this important for interpreting limited outcrop data?
 - What are the limitations of this principle?
 
-**Can you distinguish between structural geology, tectonics, and geodynamics?**
+**Can you distinguish between structural geology, tectonics, and geodynamics ?**
 
 Consider:
 
@@ -24,7 +24,7 @@ Consider:
 - What questions does each try to answer?
 - How do they complement each other?
 
-**Can you describe the three main approaches to studying geological structures?**
+**Can you describe the three main approaches to studying geological structures ?**
 
 Think about:
 
@@ -71,17 +71,18 @@ Think about:
 - How does surface erosion affect wedge geometry?
 - Can you distinguish between bulldozer, gliding, extrusion, and spreading models?
 
-**Can you give real-world examples of major thrust systems and describe their characteristics?**
+**Can you give real-world examples of major thrust systems and describe their characteristics ?**
 
 Examples to consider:
 
 - The Alps and their nappe complexes
 - The Himalayas as an active collision zone
 - Chief Mountain, Montana (older over younger rocks)
+- Your favorite example here (remember some key facts to bring up in questions)
 
 ### Extensional Regimes {#sec-extensional}
 
-**Can you explain the difference between extension, elongation, and the beta factor?**
+**Can you explain the difference between extension, elongation, and the beta factor ?**
 
 Consider:
 
@@ -116,22 +117,13 @@ Think about:
 - Post-rift thermal subsidence
 - Breakup and ocean formation
 
-**Can you explain active vs. passive rifting?**
+**Can you explain active vs. passive rifting ?**
 
 Consider:
 
 - What drives each type?
 - Which involves mantle plumes?
 - How would you recognize the difference?
-
-**Can you explain why extension occurs in convergent settings like the Himalayas?**
-
-Think about:
-
-- Gravitational collapse model
-- Syn-convergent extension
-- Delamination processes
-- North-South Trending Rift System in Tibet
 
 **Can you give real-world examples of extensional provinces?**
 
@@ -158,6 +150,7 @@ Think about:
 
 - How do you determine the sense of slip?
 - What observations help identify slip sense in the field?
+- Can you think of a couple of examples of each ?
 
 **Can you describe what happens at restraining bends vs. releasing bends?**
 
@@ -172,8 +165,8 @@ Consider:
 
 Think about:
 
-- What is the kinematic vorticity number (Wk)?
-- What does Wk = 0, 1, and intermediate values represent?
+- What is the kinematic vorticity number ($W_k$)?
+- What does $W_k = 0$, $1$, and intermediate values represent?
 - How is strain partitioned in transpressional zones?
 - Where do we see these settings in nature?
 
