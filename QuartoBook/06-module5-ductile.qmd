@@ -172,7 +172,7 @@ Think about:
 Consider:
 
 - Parallel to axial surface
-- Forms perpendicular to σ~1~
+- Forms perpendicular to $\sigma_1$
 - Pressure solution removes material
 - Creates foliation
 - Why is it useful for determining fold geometry?
@@ -270,7 +270,7 @@ Consider:
 
 Think about:
 
-- Simple shear: non-coaxial, W~k~ = 1
+- Simple shear: non-coaxial, $W_k = 1$
 - General shear: combination of pure and simple shear
-- Vorticity analysis: determine W~k~ from fabric
+- Vorticity analysis: determine $W_k$ from fabric
 - Why is this important for understanding deformation?

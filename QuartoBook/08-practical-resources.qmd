@@ -89,7 +89,7 @@ Can you define and explain the significance of each of these terms?
 ## Stress and Strain Terms
 
 - Stress tensor / Traction vector
-- Principal stress (σ~1~, σ~2~, σ~3~)
+- Principal stress ($\sigma_1$, $\sigma_2$, $\sigma_3$)
 - Normal stress / Shear stress
 - Deviatoric stress / Mean stress
 - Mohr circle / Failure envelope
@@ -120,7 +120,7 @@ Can you define and explain the significance of each of these terms?
 - Fault gouge / Fault breccia / Mylonite
 - Throw / Heave / Rake
 - Stick-slip / Earthquake cycle
-- Magnitude / Moment / M~w~
+- Magnitude / Moment / $M_w$
 - Byerlee's Law
 
 ## Fold Terms
@@ -160,32 +160,32 @@ Can you apply these concepts quantitatively?
 
 1. **Calculate extension from elongation:**
    - Given stretched fossil: original 3 cm, now 5 cm
-   - e = (l - l~0~)/l~0~ = (5-3)/3 = 0.67 (67% extension)
+   - $e = (l - l_0)/l_0 = (5-3)/3 = 0.67$ (67% extension)
 
 2. **Calculate beta factor:**
-   - β = l/l~0~ = 5/3 = 1.67
+   - $\beta = l/l_0 = 5/3 = 1.67$
 
 3. **Use Mohr circle to find stress on a plane:**
-   - Given σ~1~ = 100 MPa, σ~3~ = 20 MPa
-   - Find normal and shear stress on plane at 30° to σ~1~
+   - Given $\sigma_1 = 100$ MPa, $\sigma_3 = 20$ MPa
+   - Find normal and shear stress on plane at 30° to $\sigma_1$
 
 4. **Predict fault angle from Anderson's theory:**
-   - Given friction coefficient μ = 0.6
-   - tan 2θ = ∓1/μ = ∓1.67
-   - θ ≈ 30° to σ~1~
+   - Given friction coefficient $\mu = 0.6$
+   - $\tan 2\theta = \mp 1/\mu = \mp 1.67$
+   - $\theta \approx 30°$ to $\sigma_1$
 
 5. **Calculate effective stress:**
-   - Given total stress σ~n~ = 100 MPa, pore pressure P~f~ = 40 MPa
-   - σ'~n~ = σ~n~ - P~f~ = 60 MPa
+   - Given total stress $\sigma_n = 100$ MPa, pore pressure $P_f = 40$ MPa
+   - $\sigma'_n = \sigma_n - P_f = 60$ MPa
 
 6. **Apply Mohr-Coulomb to predict failure:**
-   - τ = C + σ~n~·tan φ
-   - Given C = 10 MPa, φ = 30°, σ~n~ = 50 MPa
-   - τ = 10 + 50·tan(30°) ≈ 39 MPa
+   - $\tau = C + \sigma_n \cdot \tan \phi$
+   - Given $C = 10$ MPa, $\phi = 30°$, $\sigma_n = 50$ MPa
+   - $\tau = 10 + 50 \cdot \tan(30°) \approx 39$ MPa
 
 7. **Use Byerlee's Law:**
-   - At shallow depth (<2 km): τ = 0.85σ~n~
-   - At greater depth: τ = 50 + 0.6σ~n~
+   - At shallow depth (<2 km): $\tau = 0.85\sigma_n$
+   - At greater depth: $\tau = 50 + 0.6\sigma_n$
 
 ## Graphical Skills
 

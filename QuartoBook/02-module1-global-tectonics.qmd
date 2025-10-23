@@ -21,7 +21,7 @@ Think about:
 
 Consider:
 
-- Which layer is rigid and which is weak?
+- Which layer is "rigid" and which is weak?
 - What controls this difference?
 - How does this relate to plate tectonics?
 
@@ -58,6 +58,7 @@ Think about:
 
 - How do magnetic reversals get recorded in oceanic crust?
 - Why was this crucial evidence for seafloor spreading?
+- How do we determine the age of the seafloor
 
 ### Transform Boundaries {#sec-transform}
 
@@ -67,7 +68,7 @@ Consider:
 
 - Which parts are actively slipping and which are passive?
 - Why do we see such prominent bathymetric expression of fracture zones?
-- Why do transform faults form orthogonal to mid-ocean ridges?
+- Are transform faults orthogonal to mid-ocean ridges, do we know why ?
 
 **Can you explain what happens at "leaky transforms" like the Gulf of California?**
 
@@ -75,6 +76,7 @@ Think about:
 
 - What produces the staircase geometry?
 - What does this tell us about oblique plate motions?
+- What does this highlight about oceanic v. continental deformation
 
 ### Convergent Boundaries (Subduction Zones) {#sec-convergent}
 
@@ -114,7 +116,7 @@ Think about:
 
 - What makes a Ridge-Ridge-Ridge junction always stable?
 - Why are some configurations impossible (e.g., three transforms meeting)?
-- Can you name a real-world example of a triple junction?
+- Can you name one (or two) real-world example(s) of a triple junction?
 
 ### Continental Deformation {#sec-continental-deformation}
 
@@ -124,8 +126,9 @@ Consider:
 
 - Why don't continents subduct?
 - Why are continental plate boundaries diffuse rather than sharp?
-- What is "escape tectonics" and where do we see it?
+- What is "escape tectonics" and where do we see it ?
 - How does the India-Asia collision illustrate these principles?
+- Where else do we see it ?
 
 **Can you describe the Himalayan-Tibetan system as an example of continental collision?**
 
