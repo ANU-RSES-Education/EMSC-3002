@@ -8,6 +8,11 @@ Jupyterbook/_build
 Jupyterbook/static_slides
 Jupyterbook/static_pdfs
 
+# Pixi environment + MyST / MkSlides build outputs (JB2 migration)
+.pixi/
+_build/
+node_modules/
+
 # IDE files
 
 /.vscode

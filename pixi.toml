@@ -1,0 +1,22 @@
+[workspace]
+authors = ["Louis Moresi <louis.moresi@anu.edu.au>"]
+channels = ["conda-forge"]
+name = "EMSC-3002"
+platforms = ["osx-arm64"]   # add "linux-64" when wiring CI
+version = "0.1.0"
+
+# Toolchain for the Jupyter Book 2 (MyST) + MkSlides system.
+# mystmd  -> the Jupyter Book 2 engine (book/site build)
+# mkslides -> reveal.js slide builder, the reveal-md successor (pip only)
+
+[dependencies]
+python = ">=3.11,<3.13"
+mystmd = ">=1.10,<2"
+
+[pypi-dependencies]
+mkslides = ">=0.1"
+
+[tasks]
+# Filled in as the migration firms up. Placeholders:
+book = "myst build --html"
+slides = "mkslides build Lectures --config-file Lectures/mkslides.yml"
