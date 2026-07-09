@@ -6,7 +6,10 @@
 
 if ! command -v reveal-md &> /dev/null
 then
-    npm install -g reveal-md 
+    # Pinned: reveal-md is unmaintained (last release 6.1.4). Pin so an npm change
+    # cannot break slide generation mid-term. reveal-md is being replaced by MkSlides
+    # in the Jupyter Book 2 migration; this pin keeps the current site stable until then.
+    npm install -g reveal-md@6.1.4
 fi
 
 mkdir -p static_slides
