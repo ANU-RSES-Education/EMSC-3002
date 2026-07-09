@@ -1,11 +1,10 @@
 name: test-build-jupyter-book
 
-# Only run this when the master branch changes (or by hand)
+# Test that the book builds. Runs on pull requests (and by hand) only — the deploy
+# workflow already full-builds on pushes to master, so building here too would just
+# double the work on every master push.
 on:
-  push:
-    branches:
-      - master
-      - jupyterbook
+  pull_request:
 
   workflow_dispatch:
 
