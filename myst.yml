@@ -1,0 +1,50 @@
+version: 1
+
+# EMSC 3002 — Jupyter Book 2 (MyST) configuration.
+# Translated from the legacy Jupyterbook/_config.yml + _toc.yml. Content files stay in
+# their existing locations (Jupyterbook/ front matter + glossary/bib; Lectures/ module
+# pages); this config just references them. Slides are built separately by MkSlides and
+# copied into the site at /slideshows/ (see build.sh).
+
+project:
+  title: EMSC 3002
+  github: https://github.com/ANU-RSES-Education/EMSC-3002
+  bibliography:
+    - Jupyterbook/JupyterBook.bib
+  toc:
+    - file: Jupyterbook/FrontPage.md
+
+    - title: Introduction
+      children:
+        - file: Jupyterbook/Introductory_Remarks.md
+        - file: Jupyterbook/Background_Reading.md
+        - file: Jupyterbook/Practical_Exercises.md
+        - file: Jupyterbook/Project_Ideas.md
+
+    - title: Lecture Notes
+      children:
+        - file: Lectures/Lecture-1-Introduction.md
+        - file: Lectures/Module-i-GlobalTectonics.md
+        - file: Lectures/Module-ii-Structural-Geology-And-Crustal-Deformation.md
+        - file: Lectures/Module-iii-Theory.md
+        - file: Lectures/Module-iv-BrittleDeformation.md
+        - file: Lectures/Module-v-lecture1-Fold-Geometry.md
+          children:
+            - file: Lectures/Module-v-lecture2-Folds-and-Folding-Mechanisms.md
+            - file: Lectures/Module-v-lecture3-Structures-Associated-with-Folding.md
+            - file: Lectures/Module-v-lecture4-Shear-Zones.md
+
+    - title: Glossary
+      children:
+        - file: Jupyterbook/Glossary.md
+
+    - title: Bibliography
+      children:
+        - file: Jupyterbook/Bibliography.md
+
+site:
+  template: book-theme
+  title: EMSC 3002
+  options:
+    logo: Jupyterbook/Figures/AuWorldEQ.jpg
+  nav: []

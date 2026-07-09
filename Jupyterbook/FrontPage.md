@@ -3,7 +3,6 @@
 EMSC 3002 is an intermediate-level course in Tectonics and Structural Geology / Geophysics  from the Research School of Earth Sciences at ANU. It focuses on the tectonic evolution of the Australian plate to teach general principles of tectonics and structure.
 
 ::::{grid} 1 1 2 2
-:gutter: 3
 
 :::{grid-item-card} Course Materials
 :link: Introductory_Remarks.html

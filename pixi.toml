@@ -17,6 +17,6 @@ mystmd = ">=1.10,<2"
 mkslides = ">=0.1"
 
 [tasks]
-# Filled in as the migration firms up. Placeholders:
-book = "myst build --html"
-slides = "mkslides build Lectures --config-file Lectures/mkslides.yml"
+build = "bash build.sh"          # full site: MyST book + MkSlides decks -> _build/html
+book = "myst build --html"        # book only
+serve = "myst start"              # live preview of the book
