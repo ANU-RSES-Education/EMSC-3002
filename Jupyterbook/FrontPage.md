@@ -5,7 +5,7 @@ EMSC 3002 is an intermediate-level course in Tectonics and Structural Geology / 
 ::::{grid} 1 1 2 2
 
 :::{grid-item-card} Course Materials
-:link: Introductory_Remarks.html
+:link: ./Introductory_Remarks.md
 Main lecture notes, exercises, and practicals
 :::
 

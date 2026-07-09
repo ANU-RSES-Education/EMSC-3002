@@ -32,6 +32,9 @@ jobs:
           cache: true
 
       - name: Build site (MyST book + MkSlides decks)
+        env:
+          # MyST is an SPA; a subpath deploy needs the base path so asset/link URLs resolve.
+          BASE_URL: /EMSC-3002/staging
         run: pixi run build
 
       - name: Deploy to GitHub Pages (/staging)
