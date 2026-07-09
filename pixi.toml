@@ -2,7 +2,7 @@
 authors = ["Louis Moresi <louis.moresi@anu.edu.au>"]
 channels = ["conda-forge"]
 name = "EMSC-3002"
-platforms = ["osx-arm64"]   # add "linux-64" when wiring CI
+platforms = ["osx-arm64", "linux-64"]   # linux-64 for GitHub Actions CI
 version = "0.1.0"
 
 # Toolchain for the Jupyter Book 2 (MyST) + MkSlides system.

@@ -1,0 +1,43 @@
+name: deploy-myst-staging
+
+# Builds the new Jupyter Book 2 (MyST) + MkSlides site and deploys it to the
+# gh-pages /staging/ subdirectory for side-by-side comparison with the live JB1 site.
+# keep_files: true so it does NOT touch the JB1 root.
+#
+# URL: https://anu-rses-education.github.io/EMSC-3002/staging/
+#
+# NOTE: the JB1 deploy (deploy_to_gh_pages.yml, on master) currently uses the peaceiris
+# default keep_files:false and would wipe /staging on the next master push. Re-run this
+# workflow after any master deploy, or set keep_files:true there once we commit to staging.
+
+on:
+  push:
+    branches:
+      - migrate-jb2
+  workflow_dispatch:
+
+jobs:
+  build-deploy:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write
+    steps:
+      - name: Check out repository
+        uses: actions/checkout@v4
+
+      - name: Set up pixi environment
+        uses: prefix-dev/setup-pixi@v0.8.10
+        with:
+          pixi-version: v0.59.0
+          cache: true
+
+      - name: Build site (MyST book + MkSlides decks)
+        run: pixi run build
+
+      - name: Deploy to GitHub Pages (/staging)
+        uses: peaceiris/actions-gh-pages@v4
+        with:
+          github_token: ${{ secrets.GITHUB_TOKEN }}
+          publish_dir: ./_build/html
+          destination_dir: staging
+          keep_files: true
