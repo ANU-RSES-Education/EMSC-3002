@@ -4,10 +4,13 @@ channels:
 dependencies:
   - python=3.10
   - numpy
-  - nodejs
+  - nodejs=18   # pinned: reveal-md 6.1.4 needs a stable Node LTS
   - jupyter_core
   - jupytext
   - pip
 
   - pip:
-      - jupyter-book
+      # Pinned to Jupyter Book 1.x. Without this, pip can resolve Jupyter Book 2
+      # (the MyST-engine rewrite) which does NOT read the classic _toc.yml/_config.yml
+      # and would break this build. The JB2 migration is a deliberate, separate effort.
+      - jupyter-book>=1.0,<2
