@@ -9,6 +9,8 @@ version: 1
 project:
   title: EMSC 3002
   github: https://github.com/ANU-RSES-Education/EMSC-3002
+  plugins:
+    - ./_plugins/binder-button.mjs   # reusable {binder} launch-button directive
   bibliography:
     - Jupyterbook/JupyterBook.bib
   toc:

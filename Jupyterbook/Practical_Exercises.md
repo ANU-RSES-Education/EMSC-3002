@@ -2,6 +2,12 @@
 
 These are demonstrations of core concepts in the course for students to explore in practical classes or tutorials.
 
+Several exercises use Jupyter notebooks. You can run them in your browser with Binder:
+
+:::{binder} Launch the course notebooks
+:path: Notebooks/Index.md
+:::
+
 ## Exercise 1, GPlates Tutorial
 
 An important tool for modern tectonics research is [GPlates](https://www.gplates.org) from the EarthByte group. We suggest spending some time with GPlates exploring the [GPlates Portal](https://portal.gplates.org) and running through one of the available demonstrations / tutorials.
