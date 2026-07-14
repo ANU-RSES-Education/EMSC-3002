@@ -925,7 +925,7 @@ The SAF is associated with other subparallel faults and the transform plate boun
 - Transform fault
 - Associated with major earthquakes
 - Contains central aseismically creeping section
-- 1906 San Francisco (M 8.7) most famous quake.
+- 1906 San Francisco (M 7.9) most famous quake.
 - Large Earthquake recurrence interval: 150 years
 - Last large quake on southern segment: 1857
 - Southern segment overdue for large quake...

@@ -370,7 +370,7 @@ Shipboard multibeam bathymetry provides this closeup 3D view of the ocean floor.
 
 Map of the equatorial Mid-Atlantic Ridge, showing the Romanche and Chain transform faults and bathymetry.
 
-The depth of seismic slip on oceanic transform faults is controlled by temperature and is limited by the ,600 8C isotherm. The focal mechanisms of earthquakes of the two transform faults show impressive consistency, indicating that the faults are highly planar.
+The depth of seismic slip on oceanic transform faults is controlled by temperature and is limited by the ~600 °C isotherm. The focal mechanisms of earthquakes of the two transform faults show impressive consistency, indicating that the faults are highly planar.
 
 <small>
 
@@ -744,7 +744,7 @@ Wang, K., Brown, L., Hu, Y., Yoshida, K., He, J., & Sun, T. (2019). Stable Forea
 
 ## Topical Case Study
 
-A magnitude 8.8 earthquake struck 50 miles south of the Alaska Peninsula on July 29, 2025  Seismic instruments indicate the earthquake originated at a depth of 35 kilometers.
+A magnitude 8.8 earthquake struck off the east coast of the Kamchatka Peninsula, Russia, on July 29, 2025  Seismic instruments indicate the earthquake originated at a depth of 35 kilometers.
 
 [USGS News Page / Analysis](https://earthquake.usgs.gov/earthquakes/eventpage/pt25210002/executive)
 
