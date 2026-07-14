@@ -33,7 +33,7 @@ The last part of the module explores the relationship between stress and strain,
 
 ## Resources
 
-  - [Notes by Jean-Pierre Bug (ETH)](https://www.files.ethz.ch/structuralgeology/JPB/files/English/1stress.pdf) on more detailed and quantitative aspects of stress analysis.
+  - [Notes by Jean-Pierre Burg (ETH)](https://www.files.ethz.ch/structuralgeology/JPB/files/English/1stress.pdf) on more detailed and quantitative aspects of stress analysis.
 
   - [E-learning modules associated with the textbook of Fossen, 2011](https://folk.uib.no/nglhe/StructuralGeoBookEmodules2ndEd.html) provide some intuitive movies and interactive functionality that would help you understand the theoretical underpinnings.
 

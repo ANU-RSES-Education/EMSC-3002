@@ -226,7 +226,7 @@ This makes the term **Brittle shear zone** a bit ambiguous unless the meaning of
 
 ### Brittle versus plastic shear zones
 
-Elements within a shear zone can deform plastically and brittely at the same time.
+Elements within a shear zone can deform plastically and in a brittle manner at the same time.
 
 The deformation mechanism depends on temperature, pressure, strain rate, mineralogy, heterogeneities,
 amount of fluid available etc. and can vary through space and time.
@@ -508,7 +508,7 @@ Ductility is different than plasticity in the sense that it relates to continuit
 **continuous deformation / strain**: marker layers can be traced through the zone at the mesoscopic scale.
 
 Most plastic shear zone preserve continuity, some brittle shear zones too.
-A **ductile shear zone** can deform brittelly and plastically.
+A **ductile shear zone** can deform in a brittle manner and plastically.
 
 </div>
 
@@ -530,7 +530,7 @@ Ductility is different than plasticity in the sense that it relates to continuit
 **continuous deformation / strain**: marker layers can be traced through the zone at the mesoscopic scale.
 
 Most plastic shear zone preserve continuity, some brittle shear zones too.
-A **ductile shear zone** can deform britlely and plastically.
+A **ductile shear zone** can deform in a brittle manner and plastically.
 
 </div>
 

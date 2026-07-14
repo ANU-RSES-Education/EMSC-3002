@@ -277,7 +277,7 @@ When rocks undergo rapid, localised deformation, we refer to the process as “b
 
 <small>
 
-*San Andreas Fault as it passes through the Carizzo Plain in Southern California
+*San Andreas Fault as it passes through the Carrizo Plain in Southern California
 Nelson Saarni, CC BY-SA 4.0 <https://creativecommons.org/licenses/by-sa/4.0>, via Wikimedia Commons*
 
 </small>

@@ -868,7 +868,7 @@ Bending means the layers are forced to fold. The way they deform depends on thei
 
 Always more complicated in nature! Folds may have complex histories with changing stress fields etc.
 
-Always require to compile and synthesize other relevant pieces of information to reconstruct the strain / stress history.
+One must always compile and synthesise other relevant pieces of information to reconstruct the strain / stress history.
 
 <--o-->
 ## Superposed folds - fold interference patterns

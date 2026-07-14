@@ -114,7 +114,7 @@ The 2 blocks move sideways.
 - A strike-slip transfer fault transfers slip from one structure to another.
 - The linked structures can be any type of faults (reverse, normal, oblique), extension fractures or folds.
 - On a large scale, transfer faults may segment extensional basins or rifts.
-- As a rift develops and develop oceanic crust, the transfer faults develop into **transform faults** along the rift axis.
+- As a rift develops and forms oceanic crust, the transfer faults develop into **transform faults** along the rift axis.
 
 Transfer faults are also sometimes called **tear faults**
 
@@ -277,7 +277,7 @@ The longest fracture zones are found in the Pacific ocean. Significant parts of 
 
 Oceanic Fracture Zones are as old as the crust they occur in, increasing in age away from the ridge.
 
-The fact that fracture zones are inactive fault is evident from the way they offset magnetic anomalies and isochrons (line of constant age).
+The fact that fracture zones are inactive faults is evident from the way they offset magnetic anomalies and isochrons (line of constant age).
 The faults have more or less constant offset along them which is unusual for faults.
 
 </div>
