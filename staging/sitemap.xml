@@ -14,6 +14,33 @@
     <loc>http://localhost:3000/practical-exercises</loc>
   </url>
   <url>
+    <loc>http://localhost:3000/platekinematics</loc>
+  </url>
+  <url>
+    <loc>http://localhost:3000/sandboxcompression</loc>
+  </url>
+  <url>
+    <loc>http://localhost:3000/mappingwithgoogleearth</loc>
+  </url>
+  <url>
+    <loc>http://localhost:3000/stressanalysis</loc>
+  </url>
+  <url>
+    <loc>http://localhost:3000/internalfrictionangle</loc>
+  </url>
+  <url>
+    <loc>http://localhost:3000/stereonet</loc>
+  </url>
+  <url>
+    <loc>http://localhost:3000/stereographicprojections</loc>
+  </url>
+  <url>
+    <loc>http://localhost:3000/stereonetbrittle</loc>
+  </url>
+  <url>
+    <loc>http://localhost:3000/crosssection</loc>
+  </url>
+  <url>
     <loc>http://localhost:3000/project-ideas</loc>
   </url>
   <url>
@@ -42,6 +69,15 @@
   </url>
   <url>
     <loc>http://localhost:3000/module-v-lecture4-shear-zones</loc>
+  </url>
+  <url>
+    <loc>http://localhost:3000/index-1</loc>
+  </url>
+  <url>
+    <loc>http://localhost:3000/example1</loc>
+  </url>
+  <url>
+    <loc>http://localhost:3000/example2</loc>
   </url>
   <url>
     <loc>http://localhost:3000/glossary</loc>
