@@ -34,9 +34,9 @@ What you will learn in this lecture
 
 - Basic concepts related to earthquakes
 - Characteristics of the two earthquakes
-- Important geophyiscal measurements to study earthquakes
-- Why Tohoku earthquake is such massive?
-- Why deep earthquake like Tohoku triggers huge Tsunami?
+- Important geophysical measurements to study earthquakes
+- Why is the Tohoku earthquake so massive?
+- Why does a deep earthquake like Tohoku trigger a huge tsunami?
 
 <--o-->
 

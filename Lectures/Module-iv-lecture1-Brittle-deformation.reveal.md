@@ -31,7 +31,7 @@ corrections._
 ## Resources
 
 1. **Fossen, H, 2011.** *Structural Geology.* Cambridge University Press, 2nd Edition.
-1. **van der Pluijm, B.A. and Marshak, S., 2003.** *Earth Strcture: an introduction to structural geology and tectonics.* W. W. Norton & Company, Ltd.
+1. **van der Pluijm, B.A. and Marshak, S., 2003.** *Earth Structure: an introduction to structural geology and tectonics.* W. W. Norton & Company, Ltd.
 1. **Davis, G.H. and Reynolds, S.J., 1996.** *Structural Geology of Rocks and Regions.* 2nd Edition, John Wiley & Sons.
 1. **McClay, K.R. 1991.** *The Mapping of Geological Structures.* John Wiley & Sons. 
 
@@ -42,11 +42,11 @@ corrections._
 What you will learn about the brittle deformation
 
 - Concepts of fractures and brittle deformation
-- Four modes of fracture and its relation to stress state
+- Four modes of fracture and their relation to stress state
 - The effects of internal defects on material strength
 - The development of tensile and shear fractures
-- Mohr failure envelope and a composte failure criterion
-- Fricitional sliding: concepts and implications
+- Mohr failure envelope and a composite failure criterion
+- Frictional sliding: concepts and implications
 - Effect of environmental factors on failure
 
 <--o-->

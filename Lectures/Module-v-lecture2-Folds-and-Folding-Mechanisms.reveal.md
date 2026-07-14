@@ -48,7 +48,7 @@ corrections.
 Students will be able to:
 
 - **Classify folds** according to fold terminology.
-- Understand **Folding Mechanims**
+- Understand **Folding Mechanisms**
 - Find second order folds and cleavage
 
 <--o-->
@@ -59,7 +59,7 @@ Students will be able to:
 ## Introduction
 
 Folds are spectacular structures. They are great evidence of how the original shape of rocks can evolve during deformation.
-The shape and orientations of folds seems almost limitless, yet there are some patterns that stands out.
+The shape and orientations of folds seem almost limitless, yet there are some patterns that stand out.
 
 In the following lecture we will observe and describe folds and we will attempt to understand folding mechanisms and history.
 
@@ -73,7 +73,7 @@ In the following lecture we will observe and describe folds and we will attempt 
 
 Folds may form **actively** and originate from mechanical or rheological properties of the
 layering relative to the properties of the surrounding material.
-We talk about about **contrast in competence or viscosity**
+We talk about a **contrast in competence or viscosity**
 
 **Active folds** nucleate and grow as competent layers are shortened. This process is called **buckling**
 
@@ -164,7 +164,7 @@ Buckling occurs when a competent layer in a less competent matrix is shortened p
 Buckling implies that there is:
 
 1. Layer parallel shortening
-1. Viscosity constrast
+1. Viscosity contrast
 1. Irregularities on which folds can initiate
 
 </div>
@@ -195,12 +195,12 @@ Buckling implies that there is:
 ## Active Folding or Buckling
 ### Effect of layer obliquity
 
-This layer probably buckled because the it has a higher comtence or viscosity than the surrounding matrix and could defom in a plastic manner.
+This layer probably buckled because it has a higher competence or viscosity than the surrounding matrix and could deform in a plastic manner.
 
 ![Buckling example](Module-v-Ductile-Deformation/Figures-Folds-and-Folding-Mechanisms/gifs/Buckling_animation3.gif) <!-- .element style="float: center" width="85%" -->
 
 The layer-parallel shortening is difficult to affirm. The other vein gives us useful information. It is older (cross cut by the folded vein), but not
-folder which indicates that the shortening direction was at high angle to this unfolded vein.
+folded which indicates that the shortening direction was at high angle to this unfolded vein.
 
 
 <--o-->
@@ -257,7 +257,7 @@ The following animation shows the role of thickness, keeping the competency cont
 
 Different layer thicknesses and/or rheologies produce different wavelengths of folds.
 
-The geometry of the 2nd and 3rd order of folds show where the large structures are!
+The geometry of the 2nd and 3rd order of folds shows where the large structures are!
 
 
 <--o-->
@@ -269,11 +269,11 @@ The geometry of the 2nd and 3rd order of folds show where the large structures a
 
 Keeping the layer thickness constant shows the influence of competence contrast.
 
-**High contrast** create large wave lengths and amplitudes.
+**High contrast** creates large wave lengths and amplitudes.
 **Low contrast** create small wave lengths and amplitudes.
 
 The least competent layer ends up much thicker than prior to deformation, more competent
-layer show less thickness changes.
+layer shows less thickness changes.
 
 </div>
 <div style="width:50%; float:right">
@@ -294,11 +294,11 @@ layer show less thickness changes.
 
 Keeping the layer thickness constant shows the influence of competence contrast.
 
-**High contrast** create large wave lengths and amplitudes.
+**High contrast** creates large wave lengths and amplitudes.
 **Low contrast** create small wave lengths and amplitudes.
 
 The least competent layer ends up much thicker than prior to deformation, more competent
-layer show less thickness changes.
+layer shows less thickness changes.
 
 </div>
 <div style="width:50%; float:right">
@@ -316,7 +316,7 @@ layer show less thickness changes.
 
 ### Multilayers
 
-When layer are spread apart they behave as **single layers**.
+When layers are spread apart they behave as **single layers**.
 
 When they get close, they start to behave more like **a single layer** whose thickness is the sum of
 the individual layer thicknesses.
@@ -341,9 +341,9 @@ Thick layers tend to go through a phase of layer thickening prior to folding.
 
 Thin layers produce small folds that are later folded by the thick layer.
 
-This result in two orders folds. The largest fold is first order, smaller folds are second order folds.
+This results in two orders of folds. The largest fold is first order, smaller folds are second order folds.
 
-Small folds become asymmetric along the limbs because of shear. Their assymetry reflects their position within
+Small folds become asymmetric along the limbs because of shear. Their asymmetry reflects their position within
 the first order structure.
 
 </div>
@@ -363,14 +363,14 @@ the first order structure.
 <div>
 <div style="width:50%; float:left">
 
-**Flexural Flow** and **Flexural slip** easily ocur during multilayer buckling.
+**Flexural Flow** and **Flexural slip** easily occur during multilayer buckling.
 
 **Flexural slip** is similar to bending a pile of paper sheets.
 
 Flexural slip may leave evidence for bedding parallel slip such as slickenlines, shear fractures or
 shear deformation bands on the surface of bedding planes.
 
-Flexural slip maintain layer thickness. Slip increase down the limb from zero at the hinge points.
+Flexural slip maintains layer thickness. Slip increases down the limb from zero at the hinge points.
 Lines originally parallel do not remain so.
 
 </div>
@@ -531,7 +531,7 @@ inner arc of the one above (Chevron Folds, North Norway, Credit: Haakon Fossen.)
 
 Keep in mind that additional strain can be added before, during or after folding.
 
-In particular, there is commonly a phase of shortening prior to foding that may need to
+In particular, there is commonly a phase of shortening prior to folding that may need to
 be accounted for when constructing a model.
 
 </div>
@@ -552,10 +552,10 @@ be accounted for when constructing a model.
 
 Orthogonal flexure can be modified by allowing for volume reduction in the inner arc.
 
-In the following model, the outer arc maintain its length while the inner arc is highly shortened.
+In the following model, the outer arc maintains its length while the inner arc is highly shortened.
 The neutral surface can disappear for pure inner arc collapse.
 
-You would usually see evidence of inner arc bucling, dissolution features in the inner arc and no evidence of extension
+You would usually see evidence of inner arc buckling, dissolution features in the inner arc and no evidence of extension
 in the outer arc.
 
 </div>
@@ -575,7 +575,7 @@ in the outer arc.
 
 ### Multilayer Hinges
 
-Stacking several folded competent layers create a space problem.
+Stacking several folded competent layers creates a space problem.
 
 This requires flexural flow within the incompetent layers.
 
@@ -596,14 +596,14 @@ We also see squeezing of fold hinges and faults that result from hinge space pro
 ![Fold](Module-v-Ductile-Deformation/Figures-Folds-and-Folding-Mechanisms/figures/Contrast_mechanical_behavior.svg) <!-- .element width="95%" -->
 
 <--o-->
-## Active Fodling or Buckling
+## Active Folding or Buckling
 <div>
 
 <div style="width:50%; float:left">
 
 ### Shearing
 
-Bucking also occurs during non-coaxial deformation, such as in shear zones.
+Buckling also occurs during non-coaxial deformation, such as in shear zones.
 
 When the contrast in viscosity is sufficient, layers will fold in response to layer parallel
 shortening.
@@ -661,7 +661,7 @@ When temperature gets high the competence contrast between rock layers can be re
 <div style="width:50%; float:left">
 
 The card deck model implies opposite sense of shear on each side of the axial trace of the fold.
-If we starts out with a non-planar layering we can make passive folds in homogeneous simple shear.
+If we start out with a non-planar layering we can make passive folds in homogeneous simple shear.
 
 </div>
 <div style="width:50%; float:right">
@@ -678,8 +678,8 @@ If we starts out with a non-planar layering we can make passive folds in homogen
 
 <div style="width:50%; float:left">
 
-If we starts out the same non-planar layer we can equally make passive folds in homogeneous pure shear.
-However, the resulting passive fold will always be a similar fold with contsant thickness along the axial plane (see red lines).
+If we start out with the same non-planar layer we can equally make passive folds in homogeneous pure shear.
+However, the resulting passive fold will always be a similar fold with constant thickness along the axial plane (see red lines).
 
 </div>
 <div style="width:50%; float:right">
@@ -697,7 +697,7 @@ However, the resulting passive fold will always be a similar fold with contsant 
 <div style="width:70%; float:left">
 
 Bending or *forced folding* is passive in the sense that folding is not a consequence of competency contrasts.
-However, it commonly involves layer of contrasting competences
+However, it commonly involves layers of contrasting competence
 
 Examples of bending in various settings
 - (a) between boudins
@@ -720,7 +720,7 @@ Examples of bending in various settings
 <div>
 <div style="width:50%; float:left">
 
-Example are found where faults become buried under sediments and sedimentary rocks and are then reactivated.
+Examples are found where faults become buried under sediments and sedimentary rocks and are then reactivated.
 
 The resulting structure is a **monocline**. It can occur in normal and reverse sense of motion.
 
@@ -741,7 +741,7 @@ If there is a contrast in competence, Flexural Slip and Flexural Flow can occur
 <div>
 <div style="width:50%; float:left">
 
-Example are found where faults become buried under sediments and sedimentary rocks and are then reactivated.
+Examples are found where faults become buried under sediments and sedimentary rocks and are then reactivated.
 
 The resulting structure is a **monocline**. It can occur in normal and reverse sense of motion.
 
@@ -790,7 +790,7 @@ Bending does not result in folds with regular wave lengths because they are side
 
 ### Diapir
 
-Large-scale bending can occur when salt or magma diapir rise toward the surface.
+Large-scale bending can occur when salt or magma diapirs rise toward the surface.
 
 </div>
 <div style="width:50%; float:right">
@@ -829,7 +829,7 @@ Boudinage also generates forces that act across the layering. This happens where
 
 Strongly foliated rocks like schists commonly display kink folds that deform a pre-existing foliation.
 
-There are a several models to explain how kink band initiate. The simple shear example on the right is just one example.
+There are several models to explain how kink bands initiate. The simple shear example on the right is just one example.
 
 </div>
 <div style="width:50%; float:right">
@@ -854,13 +854,13 @@ There are a several models to explain how kink band initiate. The simple shear e
 <--o-->
 # Conclusion
 
-The 3 mains mechanisms or folding are:
+The 3 main mechanisms of folding are:
 
 - Buckling
 - Passive Folding
 - Bending
 
-It is common to find combination of the 3. For example, passive folding in shear zones may show local buckling.
+It is common to find a combination of the 3. For example, passive folding in shear zones may show local buckling.
 
 Mechanism listed under buckling such as Flexural flow and Flexural slip can also occur during bending.
 
@@ -876,7 +876,7 @@ Always require to compile and synthesize other relevant pieces of information to
 <div>
 <div style="width:50%; float:left">
 
-Successive deformation phases (**$P_1$**, **$P_2$** etc.) can results in 
+Successive deformation phases (**$P_1$**, **$P_2$** etc.) can result in 
 superimposition of fold generations (**$F_1$**, **$F_2$** etc.).
 
 Folds modified by a later phase are known as **refolded folds** and the resulting pattern is known as **fold interference patterns**.
@@ -922,8 +922,8 @@ There are 4 main patterns (0, 1, 2, 3) based on the angle between the fold axes 
 ## Vergence concepts
 
 The facing of a fold system refers to the geographic direction of younging (shown with an arrow) of the long limbs of its parasitic folds. In a fold system, such as the one presented below, the facing is changing as one crosses major fold hinges. Indeed from west to east, this fold system is facing west upward, then east downward, then west upward, and east.
-The concept of vergence refers to the general sense of shear involved in the development of asymmetric folds. The fold systems shown below is verging east as the asymmetry is the result of a shearing toward the east. Unfortunately the world vergence is also used to refer to the direction of the next anticlinal closure.
-Changes in fold asymmetry, cleavage-bedding relationships, facing, and shear vergence occurs across fold hinges. Determination of two of these criteria constrain the two others.
+The concept of vergence refers to the general sense of shear involved in the development of asymmetric folds. The fold system shown below is verging east as the asymmetry is the result of a shearing toward the east. Unfortunately the word vergence is also used to refer to the direction of the next anticlinal closure.
+Changes in fold asymmetry, cleavage-bedding relationships, facing, and shear vergence occurs across fold hinges. Determination of two of these criteria constrains the two others.
 
 <--o-->
 

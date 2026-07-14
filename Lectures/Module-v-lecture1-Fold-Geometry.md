@@ -1,6 +1,6 @@
 # Fold Geometry 1
 
-This lecture introduces folds morphology, their classifications and the folding mechanisms.
+This lecture introduces fold morphology, its classification and the folding mechanisms.
 
 <iframe src="../slideshows/Module-v-lecture1-Fold-Geometry.reveal.html" title="Slideshow" width=100%, height=500 allowfullscreen></iframe>
 

@@ -131,7 +131,7 @@ This course is designed to develop an advanced understanding of deformation proc
 
 ## EMSC 3034 v EMSC 3002
 
-*Dynamic Earth: Plates, Plumes and Mantle Convection* deals with global scale dynamics of the Earth as a planet. The focus is on how plate tectonics works as a by-produce of mantle convection, and how we use that knowledge to understand the geological record.
+*Dynamic Earth: Plates, Plumes and Mantle Convection* deals with global scale dynamics of the Earth as a planet. The focus is on how plate tectonics works as a by-product of mantle convection, and how we use that knowledge to understand the geological record.
 
 *Structural & Tectonic Evolution of the Australian Plate* focuses on the dynamics of the lithosphere and the emergence of geological structure from the forces at work in the crust. We will delve deeply into the mechanical behaviour of the lithosphere and how we can interpret and predict geological structures by knowing something about the energy / force balance.
 
@@ -145,13 +145,13 @@ This course is designed to develop an advanced understanding of deformation proc
 
 **Louis Moresi**
 
-I am a professor of geophysics / geodynamics and I am interested in understanding the evolution of the deep Earth over geological time, how this evolution is recorded in the superficial geological record,and how to build computation modelling tools to simulate the Earth.
+I am a professor of geophysics / geodynamics and I am interested in understanding the evolution of the deep Earth over geological time, how this evolution is recorded in the superficial geological record,and how to build computational modelling tools to simulate the Earth.
 
 I also work (and can supervise projects) in planetary science, groundwater models, surface processes (river systems, erosion, deposition), lithospheric dynamics ...
 
 The tools of my trade are computational programs and numerical algorithms. I am a strong supporter of open source code so my publications will also find links to repositories where the source code is available with examples of how to reproduce peer-reviewed benchmarks and published results.
 
-For more information my work and some blog posts see [https://www.geo-down-under.org.au/author/louis](https://www.geo-down-under.org.au/author/louis/)
+For more information on my work and some blog posts see [https://www.geo-down-under.org.au/author/louis](https://www.geo-down-under.org.au/author/louis/)
 </div>
 
 <--v-->
@@ -165,7 +165,7 @@ For more information my work and some blog posts see [https://www.geo-down-under
 
 **Chengxin Jiang**
 
-I am a seismologist broadly interested in tectonic, magmatic and near surface geological processes, and I address these problems with seismic tomography, monitoring and numerical modeling tools.  My recent research focus on studying lithosphere deformation of continent and subduction zones by illuminating anisotropic properties of the Earth's interior and monitoring volcanic and groundwater processes with the technique of ambient noise interferometry.
+I am a seismologist broadly interested in tectonic, magmatic and near surface geological processes, and I address these problems with seismic tomography, monitoring and numerical modeling tools.  My recent research focuses on studying lithosphere deformation of continent and subduction zones by illuminating anisotropic properties of the Earth's interior and monitoring volcanic and groundwater processes with the technique of ambient noise interferometry.
 
 </div>
 
@@ -271,7 +271,7 @@ In order to understand geological structures in more detail, we need some backgr
 
 ### Module iv - Brittle Deformation
 
-When rocks undergo rapid, localised deformation, refer to the process as “brittle deformation”. Typically brittle features in the Earth’s crust are faults and we can understand much about the stress and deformation if we understand faults, their rupture and associated seismic energy release.
+When rocks undergo rapid, localised deformation, we refer to the process as “brittle deformation”. Typically brittle features in the Earth’s crust are faults and we can understand much about the stress and deformation if we understand faults, their rupture and associated seismic energy release.
 
 **Chengxin Jiang** will lead this part of the course.
 

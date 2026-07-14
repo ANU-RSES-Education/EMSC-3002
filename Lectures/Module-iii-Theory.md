@@ -4,7 +4,7 @@ This section of the course covers the theoretical background of structural geolo
 
 ## Lecture Slides
 
-The slides are originally made using PowerPoint and then convert to html / javascript format through stacking a series of snapshots. Therefore it does not work well if printing them from your browser. But a pdf version of the original format is provided in the Wattle to have three slides each page on the left with space for notes on the right.
+The slides are originally made using PowerPoint and then converted to html / javascript format through stacking a series of snapshots. Therefore it does not work well if printing them from your browser. But a pdf version of the original format is provided in the Wattle to have three slides each page on the left with space for notes on the right.
 
 ### Stress
 
@@ -33,8 +33,8 @@ The last part of the module explores the relationship between stress and strain,
 
 ## Resources
 
-  - [Notes by Jean-Pierre Bug (ETH)](https://www.files.ethz.ch/structuralgeology/JPB/files/English/1stress.pdf) on more detailed and quantatively aspect of stress analysis.
+  - [Notes by Jean-Pierre Bug (ETH)](https://www.files.ethz.ch/structuralgeology/JPB/files/English/1stress.pdf) on more detailed and quantitative aspects of stress analysis.
 
-  - [E-learning modules associated with the textbook of Fossen, 2011](https://folk.uib.no/nglhe/StructuralGeoBookEmodules2ndEd.html) provide some intutive movies and interactive funcationality that would help you understand the theretical underpinnings.
+  - [E-learning modules associated with the textbook of Fossen, 2011](https://folk.uib.no/nglhe/StructuralGeoBookEmodules2ndEd.html) provide some intuitive movies and interactive functionality that would help you understand the theoretical underpinnings.
 
   - [Article by Magali Billen (UC Davis)](https://geo.libretexts.org/Courses/University_of_California_Davis/UCD_GEL_56_-_Introduction_to_Geophysics/Geophysics_is_everywhere_in_geology.../01%3A_Rheology_of_Rocks/1.04%3A_Failure_of_Rocks) on Rock Failure which you will find helpful when we address stresses, strains and Faulting.

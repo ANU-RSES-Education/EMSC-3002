@@ -31,7 +31,7 @@ corrections._
 ## Resources
 
 1. **Fossen, H, 2011.** *Structural Geology.* Cambridge University Press, 2nd Edition.
-1. **van der Pluijm, B.A. and Marshak, S., 2003.** *Earth Strcture: an introduction to structural geology and tectonics.* W. W. Norton & Company, Ltd.
+1. **van der Pluijm, B.A. and Marshak, S., 2003.** *Earth Structure: an introduction to structural geology and tectonics.* W. W. Norton & Company, Ltd.
 1. **Davis, G.H. and Reynolds, S.J., 1996.** *Structural Geology of Rocks and Regions.* 2nd Edition, John Wiley & Sons.
 1. **McClay, K.R. 1991.** *The Mapping of Geological Structures.* John Wiley & Sons. 
 
@@ -43,7 +43,7 @@ What you will learn in this lecture
 
 - Crystalline structures
 - Slip systems and crystal defects
-- Brittle deoformation mechanisms
+- Brittle deformation mechanisms
 - Mechanical twinning
 - Diffusion, dissolution and dislocation creep
 - Crystal recovery processes

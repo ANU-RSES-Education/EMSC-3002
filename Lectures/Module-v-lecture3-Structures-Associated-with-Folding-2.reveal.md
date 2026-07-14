@@ -54,7 +54,7 @@ A *lineation* is a fabric element in which one dimension is significantly larger
 
 - Very common in Metamorphic Rocks
 - Closely associated with strain and transport or shear direction and in
-such useful to determine paleostresses orientations and kinematics.
+such useful to determine paleostress orientations and kinematics.
 
 Different types of lineations, different origins and implications for the history of deformation
 
@@ -81,7 +81,7 @@ Can occur in both deformed and non-deformed rocks.
 examples:
 
 - Flow lineations and columns in basalts and magmatic rocks.
-- Alignements of non spherical pebbles, fossils etc.
+- Alignments of non-spherical pebbles, fossils etc.
 
 </div>
 
@@ -98,7 +98,7 @@ examples:
 Linear structures resulting from the deformation of a rock under tectonic stresses.
 
 - **Penetrative lineation**: build-up a linear fabric or **L-Fabric**
-- **Surface lineation**: Restricted to a surface (e.g. *Slikenslides*)
+- **Surface lineation**: Restricted to a surface (e.g. *Slickensides*)
 - **Geometric lineation**: fold axes, intersection lineations
 
 
@@ -152,7 +152,7 @@ Note that relatively high strain is required to rotate minerals of various lengt
 parallelism. You should always consider the possibility of recrystallization.
 
 Rotations of minerals in a partial melt is possible (during solidification for example).
-Tectonic strain and strain related to the emplacemnent of a pluton can produce linear fabrics
+Tectonic strain and strain related to the emplacement of a pluton can produce linear fabrics
 
 </div>
 
@@ -174,7 +174,7 @@ Tectonic strain and strain related to the emplacemnent of a pluton can produce l
 As metamorphic conditions evolve (pressure, temperature, fluids), some minerals become unstable and
 new ones crystallize.
 
-If the new mineral are elongated (e.g. pyroxene, tourmaline) and grow in a preferred direction they can define a
+If the new minerals are elongated (e.g. pyroxene, tourmaline) and grow in a preferred direction they can define a
 mineral lineation.
 
 Growth can be directed by the external stress field and/or existing fabric in the rock.
@@ -259,7 +259,7 @@ If there are many objects we can end up with a linear fabric.
 Constrictional strains give the most pronounced linear shapes while flattening
 strains do not produce strong linear fabrics.
 
-Lineation of this type are called **stretching lineations**.
+Lineations of this type are called **stretching lineations**.
 The stretching direction defines the lineation direction.
 
 </div>
@@ -294,7 +294,7 @@ The stretching direction defines the lineation direction.
 
 Fractures may give objects more linear shapes.
 
-This can happened when minerals are fractured and pulled apart (i.e. boudinaged)
+This can happen when minerals are fractured and pulled apart (i.e. boudinaged)
 
 Outcrop-scale boudinage tends to transform planar layers into elongated objects.
 Occurs at micro- and macroscopic scales.
@@ -321,7 +321,7 @@ Occurs at micro- and macroscopic scales.
 
 Fractures may give objects more linear shapes.
 
-This can happened when minerals are fractured and pulled apart (i.e. boudinaged)
+This can happen when minerals are fractured and pulled apart (i.e. boudinaged)
 
 Outcrop-scale boudinage tends to transform planar layers into elongated objects.
 Occurs at micro- and macroscopic scales.
@@ -374,7 +374,7 @@ Mineral can grow well-aligned fibrous elements in the direction of stretching or
 
 Minerals and mineral aggregates can form a linear fabric via recrystallisation, dissolution / precipitation or rigid rotation.
 
-Cataclasis (crushing) of minerals can also lead to the formation of linerations (example in shear-zones).
+Cataclasis (crushing) of minerals can also lead to the formation of lineations (example in shear-zones).
 
 *Mineral lineation in granitic gneiss defined by elongated feldspar grains. The lineation is also a stretching lineation.*
 
@@ -398,7 +398,7 @@ Cataclasis (crushing) of minerals can also lead to the formation of linerations 
 
 Fold axes are theoretical or geometric lines rather than actual physical objects.
 
-High densities of parallel fold axis can constitue a fabric and create a **crenulation lineation**.
+High densities of parallel fold axis can constitute a fabric and create a **crenulation lineation**.
 
 </div>
 <div style='width:50%; float:right'>
@@ -419,7 +419,7 @@ High densities of parallel fold axis can constitue a fabric and create a **crenu
 
 Intersection of planar structures in deformed rocks can define an **intersection lineation**.
 
-When the first tectonic cleavage (S1) intersect the bedding (S0), the resulting lineation (L1) can
+When the first tectonic cleavage (S1) intersects the bedding (S0), the resulting lineation (L1) can
 be observed on the bedding planes.
 
 **Intersection lineations** can also result from the intersection of two tectonic foliations/cleavages.
@@ -443,7 +443,7 @@ be observed on the bedding planes.
 #### Intersection lineation
 
 *Stereoplot showing bedding orientation in green and cleavage of the fold to the left.
-The intersection lineation is the point of interesection between $S_0$ and the cleavage (square)*
+The intersection lineation is the point of intersection between $S_0$ and the cleavage (square)*
 
 </div>
 
@@ -659,7 +659,7 @@ Pure shear deformation produces a lineation that remains parallel to the deforma
 Boudins are competent rock layers that have been stretched into segments.
 As they are commonly much longer in one direction, they can define a lineation.
 
-Lineations formed by boudinage form along Y. i.e. perpendicula to X.
+Lineations formed by boudinage form along Y. i.e. perpendicular to X.
 
 </div>
 
@@ -682,9 +682,9 @@ Lineations formed by boudinage form along Y. i.e. perpendicula to X.
 Surface lineations have a much more indirect relationship with strain since they are bound by the fracture surface on which they occur.
 
 **Slickenlines**, **striae** and other lineations associated with faults are parallel to the direction of movement but do not
-reveal the sense of shear which need to be determined via observation of other markers.
+reveal the sense of shear which needs to be determined via observation of other markers.
 
-The exception is fiber linearions on extension fractures where the fibers tend to be parallel to X (direction of opening)
+The exception is fiber lineations on extension fractures where the fibers tend to be parallel to X (direction of opening)
 
 </div>
 
@@ -702,9 +702,9 @@ The exception is fiber linearions on extension fractures where the fibers tend t
 <div>
 <div style='width:50%; float:left'>
 
-Lineations have been used to interpet strain and movement pattern related to orogeny.
+Lineations have been used to interpret strain and movement patterns related to orogeny.
 
-*Stretching lineations map related to the Caledonian orogeny in S Norway. The lineations are generally intrepretated as the direction of thrusting*
+*Stretching lineations map related to the Caledonian orogeny in S Norway. The lineations are generally interpreted as the direction of thrusting*
 
 </div>
 

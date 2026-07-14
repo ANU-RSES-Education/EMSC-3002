@@ -42,13 +42,13 @@ corrections._
 
 ## Intended learning outcomes
 
-- Understand he concept of shear zones and how they form
+- Understand the concept of shear zones and how they form
 - Being able to differentiate between different types of shear zones
 - Understand theoretical aspects of plastic shear zones and what information they may contain
 
 <--o-->
 
-## Transition from brittle to ductile beahviour with increasing depth
+## Transition from brittle to ductile behaviour with increasing depth
 
 <div>
 <div style='width:50%; float:left'>
@@ -342,7 +342,7 @@ In this case compaction.
 - Ductile, meaning that passive markers can be traced continuously through the zone.
 - Form in middle and lower crust.
 - In evaporites at shallow depths.
-- Can me many km thick.
+- Can be many km thick.
 
 </div>
 
@@ -365,7 +365,7 @@ Plastic deformation strains mineral without microfracture.
 
 Grains deform by the movement of imperfections known as **dislocation vacancies**
 
-Vacancy movement is diffusion, while dislocations move as atomic bounds are rearranged.
+Vacancy movement is diffusion, while dislocations move as atomic bonds are rearranged.
 
 Some important plastic processes:
 
@@ -387,7 +387,7 @@ Some important plastic processes:
 <div>
 <div style='width:50%; float:left'>
 
-*Example of plastic defromation of impoure quartzite (ruby Gap, Australia). Large quartz (graish) are remnants of the original texture. Dark shadows are expressions of intracrystalline strain (dislocation accumulations). New grains are much smaller. Credit: W. James Dunlap*
+*Example of plastic deformation of impure quartzite (ruby Gap, Australia). Large quartz (grayish) are remnants of the original texture. Dark shadows are expressions of intracrystalline strain (dislocation accumulations). New grains are much smaller. Credit: W. James Dunlap*
 
 </div>
 <div style='width:50%; float:right'>
@@ -405,7 +405,7 @@ Some important plastic processes:
 <div>
 <div style='width:50%; float:left'>
 
-Brittle deformation dominates: **cataclasic flow** which involves micro-fracturing, frictional sliding, rigid rotations.
+Brittle deformation dominates: **cataclastic flow** which involves micro-fracturing, frictional sliding, rigid rotations.
 We talk about **brittle** or **frictional shear zones**.
 
 - Markers are displaced by sharp discontinuities
@@ -455,7 +455,7 @@ rock (e.g. layers rich in micas in gneiss)
 
 - The offset of brittle components is comparable to the offset of ductile strain.
 - brittle components include Extension fractures, Veins, Slip surfaces
-- Some brittle-ductile shear zones involve a combination of plastic and brittle deformation mechanims. Others deform by means of brittle deformation only.
+- Some brittle-ductile shear zones involve a combination of plastic and brittle deformation mechanisms. Others deform by means of brittle deformation only.
 
 </div>
 
@@ -580,7 +580,7 @@ Ideal plastic shear zones are found in more or less isotropic rocks.
 
 ## The ideal plastic shear zone
 
-The **foliation** initiate at a 45 degrees angle to the shear plane, perpendicular to the fastest shortening direction of the strain ellipsoid.
+The **foliation** initiates at a 45 degree angle to the shear plane, perpendicular to the fastest shortening direction of the strain ellipsoid.
 It then rotates as the deformation increases and becomes parallel to the shear plane.
 
 A **stretching lineation** can develop and can be used to determine the X-axis.
@@ -595,7 +595,7 @@ A **stretching lineation** can develop and can be used to determine the X-axis.
 - Plane strain deformation with $$W_k = 1$$
 - No shortening nor stretching along or normal to the zone
 - ISA1 oriented at 45 degrees to the shear plane
-- Strain ellipsoid X-axis initiate at 45 degrees to the walls and progressively rotates towards parralelism
+- Strain ellipsoid X-axis initiate at 45 degrees to the walls and progressively rotates towards parallelism
 
 </div>
 
@@ -698,7 +698,7 @@ The deformation is planar and co-axial with zero vorticity.
 
 Compaction can combine with Simple shear.
 
-The compaction conponent will close walls as the zone develops but this will be counteracted by general widening of the zone as strain accumulates.
+The compaction component will close walls as the zone develops but this will be counteracted by general widening of the zone as strain accumulates.
 
 </div>
 
@@ -716,7 +716,7 @@ The compaction conponent will close walls as the zone develops but this will be 
 <div>
 <div style='width:50%; float:left'>
 
-- Compaction Rotates ISA so that ISA max (The direction of fastest stretching) makes an angle $\theta$ withthe shear plane that is les tham 45 degrees.
+- Compaction Rotates ISA so that ISA max (The direction of fastest stretching) makes an angle $\theta$ with the shear plane that is less than 45 degrees.
 - The stronger the compaction, the larger the deviation from 45 degrees.
 - For dilational simple shear the angle $\theta$ is larger than 45 degrees.
 
@@ -736,7 +736,7 @@ The compaction conponent will close walls as the zone develops but this will be 
 <div>
 <div style='width:50%; float:left'>
 
-- Compaction Rotates ISA so that ISA max (The direction of fastest strecthing) makes an angle $\theta$ withthe shear plane that is les tham 45 degrees.
+- Compaction Rotates ISA so that ISA max (The direction of fastest stretching) makes an angle $\theta$ with the shear plane that is less than 45 degrees.
 - The stronger the compaction, the larger the deviation from 45 degrees.
 - For dilational simple shear the angle $\theta$ is larger than 45 degrees.
 
@@ -756,7 +756,7 @@ The compaction conponent will close walls as the zone develops but this will be 
 <div>
 <div style='width:50%; float:left'>
 
-Can have curved and non-parallel walls, their displacement profile vary as we move along the zone.
+Can have curved and non-parallel walls, their displacement profile varies as we move along the zone.
 
 **Extrusion** of material along the zone causes a compatibility problem.
 This can be solved if the shear zone thins or thickens laterally during deformation.
@@ -862,7 +862,7 @@ Technically, passive markers become discontinuous along the margins of a subsimp
 <div>
 <div style='width:50%; float:left'>
 
-Shear zones grow from small shear bands just as fault grow from small fractures.
+Shear zones grow from small shear bands just as faults grow from small fractures.
 
 We usually find that long and thick shear zones show more displacements than short and narrow ones.
 
@@ -1085,7 +1085,7 @@ Result of 2 competing effects:
 - strain produced by grain elongation
 - dynamic recristallisation
 
-The oblique foliation reflect the last increment of deformation while the foliation integrates the entire deformation history.
+The oblique foliation reflects the last increment of deformation while the foliation integrates the entire deformation history.
 
 Any angle with the foliation indicates that the deformation is non coaxial and can help in determining the degree of non coaxiality.
 It can also help to determine the sense of shear.
@@ -1101,7 +1101,7 @@ It can also help to determine the sense of shear.
 
 Type of S-C structure
 
-- Tails curve away from the genral orientation
+- Tails curve away from the general orientation
 - The asymmetry indicates the sense of shear
 
 </div>
@@ -1154,7 +1154,7 @@ Rotated boudins can be used to determine the sense of shear.
 
 Recrystallised material around large mineral can form tails.
 
-Asymmetry highlight non-coaxial deformation with the final shape being a function of Wk.
+Asymmetry highlights non-coaxial deformation with the final shape being a function of Wk.
 
 </div>
 
@@ -1170,7 +1170,7 @@ Asymmetry highlight non-coaxial deformation with the final shape being a functio
 
 <--v-->
 
-$\delta$-type porphyroclast indicating roattion during top-to-the-left shearing, consistent with the asymmetry of the small scale folds to the right**
+$\delta$-type porphyroclast indicating rotation during top-to-the-left shearing, consistent with the asymmetry of the small scale folds to the right**
 
 <--o-->
 
@@ -1187,7 +1187,7 @@ The mylonitic foliation is often folded.
 
 Pre-existing structures (eg dikes)
 
-*Fold formed in non-coaxial deformation in gneisses. The vergence of teh asymmetric folds indicate top-to-the-left transport**
+*Fold formed in non-coaxial deformation in gneisses. The vergence of the asymmetric folds indicates top-to-the-left transport**
 
 </div>
 
@@ -1252,7 +1252,7 @@ Asymmetry with respect to foliation gives sense of shear.
 
 Orientation of extensional veins indicate the sense of shear.
 Fibers are usually more reliable.
-If the deformation is non-coaxial, the veins rotate and become sygmoides that can be used to determine the sense of shear.
+If the deformation is non-coaxial, the veins rotate and become sigmoids that can be used to determine the sense of shear.
 
 </div>
 
@@ -1275,11 +1275,11 @@ If the deformation is non-coaxial, the veins rotate and become sygmoides that ca
 
 ## Summary
 
-- Shear zones occur at all scale and crutal depths.
+- Shear zones occur at all scales and crustal depths.
 - Shallow shear zones deform by brittle mechanisms.
-- Deeper shear zones deform by plastic mechanims.
-- The ideal shear zones involves simple shear and perhaps volume change but this is a very simplified view.
+- Deeper shear zones deform by plastic mechanisms.
+- The ideal shear zone involves simple shear and perhaps volume change but this is a very simplified view.
 - Sub-simple shear zones are (most?) common.
 - Most shear zones show an increase in strain from the margin to the center.
-- Several growth pattern can be envisaged.
+- Several growth patterns can be envisaged.
 - Most shear zones grow wider... but strain softening may lead to a narrowing of the zone over time.

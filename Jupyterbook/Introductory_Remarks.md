@@ -57,7 +57,7 @@ In order to understand geological structures in more detail, we need some backgr
 
  - [Brittle Deformation](Lectures/Module-iv-BrittleDeformation)
 
-When rocks undergo rapid, localised deformation, refer to the process as "brittle deformation". Typically brittle features in the Earth's crust are faults and we can understand much about the stress and deformation if we understand faults, their rupture and associated seismic energy release.
+When rocks undergo rapid, localised deformation, we refer to the process as "brittle deformation". Typically brittle features in the Earth's crust are faults and we can understand much about the stress and deformation if we understand faults, their rupture and associated seismic energy release.
 
 ### Module v - Ductile Deformation
 
@@ -67,6 +67,6 @@ We will see how folds represent important windows into local and regional deform
 
 We will first look at the geometric aspects of folds then will pay attention to the mechanisms at work during folding of rock layers.
 
-We will then look at the relationships with other structural features such as cleavages, lineations, shistosities, boudinages and how we can retrieve kinematic and paleostress information from them.
+We will then look at the relationships with other structural features such as cleavages, lineations, schistosities, boudinages and how we can retrieve kinematic and paleostress information from them.
 
 We will look at the formation of shear zones and will learn how to recognise important kinematic indicators.

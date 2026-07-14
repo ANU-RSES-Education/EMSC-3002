@@ -41,7 +41,7 @@ corrections._
 
 What you will learn in this lecture
 
-- Plumose structures and its formation mechanism
+- Plumose structures and their formation mechanism
 - Joint arrays, joint spacing and cross-cutting relations
 - Origin of joints
 - Veins and Vein arrays

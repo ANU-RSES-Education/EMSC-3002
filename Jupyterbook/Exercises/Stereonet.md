@@ -22,7 +22,7 @@ You will need:
 ## Problem 1
 
 Plot planes and lines with an equal angle stereonet on separate sheets of
-tracing paper and with the Stereonet program. Print the Steronet results. On tracing paper
+tracing paper and with the Stereonet program. Print the Stereonet results. On tracing paper
 and printed results label each plane and pole as 1a, 1b, 1c, etc.
 
 ### Plotting planes
@@ -109,7 +109,7 @@ estimate from intersection.
 
 Calculating true dip from apparent dip Complete exercise with software using
 an equal angle stereonet. Print results and show calculation on a separate paper.
-Interesting outcrops of are exposed in the walls created during the excavation done for the foundations. You are asks for the strike and dip of the formation. Unfortunately, you can't get a good measurement of the strike or dip. Instead, you measure the apparent dip in two vertical walls. What is the true dip of the formation?
+Interesting outcrops are exposed in the walls created during the excavation done for the foundations. You are asked for the strike and dip of the formation. Unfortunately, you can't get a good measurement of the strike or dip. Instead, you measure the apparent dip in two vertical walls. What is the true dip of the formation?
 
 - Wall 1: Strike: S48°W. Dip: Vertical. Apparent dip of Chert: 23°.
 - Wall 2: Strike: N55°W, Dip: Vertical. Apparent dip of Chert: 34°.

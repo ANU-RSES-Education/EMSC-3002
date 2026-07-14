@@ -149,7 +149,7 @@ structural geology information (maps, cross section, measurements etc.) and othe
 geochemistry, geophysics, geochronology etc.). It typically operates at scales ranging from 100m to 1000km.
 It focuses on processes such as **continental rifting**, **subduction**, **collision** etc.
 
-**Geodynamics** focuses on the forces that drives mantle convection, plate tectonics and the deformation of Earth's material.
+**Geodynamics** focuses on the forces that drive mantle convection, plate tectonics and the deformation of Earth's material.
 Geodynamics is interested in deep mantle and lithospheric processes and their link to plate motion and deformation.
 Geodynamics operates on scales greater than 100km.
 
@@ -298,9 +298,9 @@ This can be used to infer the direction of the maximum and minimum **stress dire
 
 **Design of tectonic models (Tectonics)**
 
-Propose a model that explain the deformation history and let to the observed 3D strain and stress fields.
+Propose a model that explains the deformation history and led to the observed 3D strain and stress fields.
 
-Synthesis a broad range of information from other disciplines.
+Synthesise a broad range of information from other disciplines.
 
 - Must obey **physical** laws.
 - Must be **testable**.
@@ -338,7 +338,7 @@ Structural geologists measure **strikes**, **dip**, **dip direction** of planar 
 
 When possible, structural geologist can determine the **magnitude** of **strain**, the **stress** orientations. They can also determine the **kinematics**, sense of displacement along faults and shear zones.
 
-**Cross-cutting relationships** are used determine the sequence of geological events.
+**Cross-cutting relationships** are used to determine the sequence of geological events.
 
 <--o-->
 ## Methods of Tectonics and Structural Geology
@@ -361,12 +361,12 @@ Spectral images at various wavelengths can be used to map the distribution of mi
 ![](Module-ii-Figures-Structural-Geology-And-Crustal-Deformation/StructuralGeology/Geophysics_Seismic_profile.jpg) <!-- .element style="float: right" width="40%" -->
 
 Information about structures at depth can be gathered *directly* via **drilling** and *indirectly* via geophysical
-method such as gravimetry annd seismic surveys.
+method such as gravimetry and seismic surveys.
 
-Gravimetry gives information about the distribution of **densities** whereas seismology reveal variation in **elastic properties**.
+Gravimetry gives information about the distribution of **densities** whereas seismology reveals variations in **elastic properties**.
 
-Active seismic methods include seismic refraction and reflection and involve artificially induces elastic waves (explosive, air canon, vibration truck).
-Passive seimic uses earthquakes to image the structures and interfaces at depth (e.g., Moho).
+Active seismic methods include seismic refraction and reflection and involve artificially induced elastic waves (explosive, air cannon, vibration truck).
+Passive seismic uses earthquakes to image the structures and interfaces at depth (e.g., Moho).
 
 <--v-->
 
@@ -384,7 +384,7 @@ Faults and graben structure, offshore Tunisia (Riv Butler, Seismic Atlas https:/
 Structural data and analysis are summarized in various documents:
 
 - Geological Maps and Cross sections
-- Tectonic maps and strcutural profiles:  Deformation related structures (faults, lineations, shear zones, fold axes etc.)
+- Tectonic maps and structural profiles:  Deformation related structures (faults, lineations, shear zones, fold axes etc.)
 - Structural Sketch maps: simplified geological map in which rock formations are grouped in packages that share the same deformation history.
 - Block Diagrams: 3D illustrations of structures.
 
@@ -425,7 +425,7 @@ Structural data and analysis are summarized in various documents:
  - Structural geology is the first stage to any regional geophysical and geochemical surveys aiming at identifying new mineralized provinces.
 
 It is also critical for the interpretation of geophysical, geochemical, and geochronological data.
-At the mine camp scale, structural geology guide the mining process.
+At the mine camp scale, structural geology guides the mining process.
 
 
 
@@ -435,8 +435,8 @@ At the mine camp scale, structural geology guide the mining process.
 **Geotechnical Research and Applications**
 
 Structural geology / tectonics is at the core of geotechnical site assessment for bridges, dams, tunnels, nuclear reactors,
-waste disposals etc. Because of the obvious relationship between faults and earthquake,
-structural geology is that core of earthquake prevention and earthquake seismology.
+waste disposals etc. Because of the obvious relationship between faults and earthquakes,
+structural geology is at the core of earthquake prevention and earthquake seismology.
 
 At the engineering-scale, structural geology
 guides the construction of underground structures and open excavations / slopes.
@@ -455,15 +455,15 @@ Structural geology is central to any study of past and present mountain belts an
 
 ![Plates-USGS](https://upload.wikimedia.org/wikipedia/commons/thumb/8/8a/Plates_tect2_en.svg/2560px-Plates_tect2_en.svg.png) <!-- .element style="float:right; width:30%"-->
 
-The Theory of Plate Tectonics describe how Earth's crust is broken into tectonic plates that move about the surface.
+The Theory of Plate Tectonics describes how Earth's crust is broken into tectonic plates that move about the surface.
 The interactions between those plates essentially occur at the boundaries.
 
-We typically distinguished between:
+We typically distinguish between:
 - Convergent boundaries
 - Divergent boundaries
 - Transform boundaries
 
-Each of these different kind of plate boundaries produces unique features on the surface, including, faults, trenches,
+Each of these different kinds of plate boundaries produces unique features on the surface, including, faults, trenches,
 volcanoes, mountains, ridges and rift valleys.
 
 <--o-->
@@ -533,7 +533,7 @@ However, being able to recognize tectonic deformation depends on our knowledge o
 
 <--o-->
 
-Deformation structures depends on the material, its texture and structure.
+Deformation structures depend on the material, its texture and structure.
 
 Different materials, such as sandstones, limestones, granites respond differently to deformation and produce
 different structures.
