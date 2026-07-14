@@ -10,8 +10,7 @@ Main lecture notes, exercises, and practicals
 :::
 
 :::{grid-item-card} Exam Revision Notes
-:link: https://anu-rses-education.github.io/EMSC-3002/revision/
-Self-test questions, key concepts, and exam preparation strategies
+Self-test questions, key concepts, and exam preparation strategies _(revision materials are being updated for this year)._
 :::
 
 ::::

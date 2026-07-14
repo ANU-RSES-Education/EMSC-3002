@@ -21,6 +21,16 @@ project:
         - file: Jupyterbook/Introductory_Remarks.md
         - file: Jupyterbook/Background_Reading.md
         - file: Jupyterbook/Practical_Exercises.md
+          children:
+            - file: Jupyterbook/Exercises/PlateKinematics.md
+            - file: Jupyterbook/Exercises/SandboxCompression.md
+            - file: Jupyterbook/Exercises/MappingWithGoogleEarth.md
+            - file: Jupyterbook/Exercises/StressAnalysis.md
+            - file: Jupyterbook/Exercises/InternalFrictionAngle.md
+            - file: Jupyterbook/Exercises/Stereonet.md
+            - file: Jupyterbook/Exercises/StereographicProjections.md
+            - file: Jupyterbook/Exercises/StereonetBrittle.md
+            - file: Jupyterbook/Exercises/CrossSection.md
         - file: Jupyterbook/Project_Ideas.md
 
     - title: Lecture Notes
@@ -35,6 +45,12 @@ project:
             - file: Lectures/Module-v-lecture2-Folds-and-Folding-Mechanisms.md
             - file: Lectures/Module-v-lecture3-Structures-Associated-with-Folding.md
             - file: Lectures/Module-v-lecture4-Shear-Zones.md
+
+    - title: Notebooks
+      children:
+        - file: Notebooks/Index.md
+        - file: Notebooks/Example1.ipynb
+        - file: Notebooks/Example2.md
 
     - title: Glossary
       children:
