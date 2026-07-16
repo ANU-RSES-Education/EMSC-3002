@@ -323,3 +323,34 @@ section.has-dark-background, section.has-dark-background h1, section.has-dark-ba
 @media print {
   .backgrounds {
     background-color: #fff; } }
+
+/*********************************************
+ * LAYOUT UTILITIES  (added for the reveal templates)
+ * Lets slide templates carry the layout instead of per-image inline styles.
+ *********************************************/
+.reveal .cols {
+  display: flex;
+  gap: 1.2em;
+  align-items: center;
+  justify-content: center;
+  width: 100%; }
+.reveal .cols > * { flex: 1 1 0; min-width: 0; }
+.reveal .cols > .wide   { flex: 1.7 1 0; }
+.reveal .cols > .narrow { flex: 0.7 1 0; }
+/* Images inside a column fill its width, capped in height, and centre. */
+.reveal .cols img {
+  max-width: 100%;
+  max-height: 78vh;
+  object-fit: contain;
+  margin: 0 auto;
+  display: block; }
+/* Bullet lists read better left-aligned inside a centred column. */
+.reveal .cols ul,
+.reveal .cols ol { display: inline-block; text-align: left; }
+/* Captions / attributions under a figure. */
+.reveal .caption,
+.reveal figcaption {
+  font-size: 0.6em;
+  opacity: 0.8;
+  font-style: italic;
+  margin-top: 0.2em; }

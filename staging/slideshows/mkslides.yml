@@ -5,6 +5,7 @@ slides:
   highlight_theme: github
   separator: "<--o-->"       # was reveal-md --separator
   separator_vertical: "<--v-->"   # was reveal-md --vertical-separator
+  separator_notes: "^Note:"  # a "Note:" line starts reveal speaker notes
 
 revealjs:
   width: 1200
