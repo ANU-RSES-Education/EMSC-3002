@@ -5,48 +5,47 @@ verticalSeparator: '<--v-->'
 revealOptions:
     transition: 'fade'
     slideNumber: true
-    width: 1200
+    width:  1200
     height: 800
-    margin: 0.07
+    margin: 0.07 # Factor of the display size that should remain empty around the content (7% typically)
 ---
 
-<!-- source: Lecture1_Stress.pptx slide 1 · template: T3-text-and-image -->
-<div class="cols">
-<div>
+# EMSC 3002
 
-![](Module-iii-Theory/Lecture1-extracted/slide001_img1.png)
+## Module3.1 - Stress
 
-</div>
-<div class="wide">
+  - Louis Moresi (convenor)
+  - Romain Beucher (lecturer)
+  - **Chengxin Jiang** (lecturer)
+  - Stephen Cox (curriculum advisor)
 
-Louis Moresi (convenor)
-Chengxin Jiang (lecturer)
-Romain Beucher (former lecturer)
-Stephen Cox (curriculum advisor)
+Australian National University
 
-NB: the course materials provided by the authors are open source under a creative commons licence. We acknowledge the contribution of the community in providing other materials and we endeavour to provide the correct attribution and citation. Please contact louis.moresi@anu.edu.au for updates and corrections.
-
-</div>
-</div>
+_**NB:** the course materials provided by the authors are open source under a creative commons licence. 
+We acknowledge the contribution of the community in providing other materials and we endeavour to 
+provide the correct attribution and citation. Please contact louis.moresi@anu.edu.au for updates and 
+corrections._
 
 <--o-->
 
-<!-- source: Lecture1_Stress.pptx slide 2 · template: T3-text-and-image -->
-<div class="cols">
-<div>
+## Resources
 
-![](Module-iii-Theory/Lecture1-extracted/slide002_img1.png)
+1. **Fossen, H, 2011.** *Structural Geology.* Cambridge University Press, 2nd Edition. [E-learning modules](https://folk.uib.no/nglhe/module4/Chapt4module.html)
+1. **van der Pluijm, B.A. and Marshak, S., 2003.** *Earth Structure: an introduction to structural geology and tectonics.* W. W. Norton & Company, Ltd.
+1. **Davis, G.H. and Reynolds, S.J., 1996.** *Structural Geology of Rocks and Regions.* 2nd Edition, John Wiley & Sons. 
+1. **Park, R.G., 1995.** *Foundations of Structural Geology.* Blackie & Sons Ltd. 
 
-</div>
-<div class="wide">
+<--o-->
 
-Fossen, H, 2011. Structural Geology. Cambridge University Press, 2nd Edition. E-learning modules.
-van der Pluijm, B.A. and Marshak, S., 2003. Earth Structure: an introduction to structural geology and tectonics. W. W. Norton & Company, Ltd.
-Davis, G.H. and Reynolds, S.J., 1996. Structural Geology of Rocks and Regions. 2nd Edition, John Wiley & Sons.
-Park, R.G., 1995. Foundations of Structural Geology. Blackie & Sons Ltd.
+## Intended learning outcomes
 
-</div>
-</div>
+What you will learn about stress.
+
+- The general concept of force and stress
+- Express the stress state in 2D and 3D
+- Computing traction vector along a plane using stress tensor
+- Derivation and usage of the Mohr circle
+- How we measure stress inside the Earth
 
 <--o-->
 
@@ -245,3 +244,46 @@ The stress components acting on the faces of a small cube
 
 </div>
 </div>
+
+<--o-->
+
+<!-- source: Lecture1_Stress.pptx slide 13 · template: T3-text-and-image -->
+## Stress on a Plane via Stress Tensor
+<div class="cols">
+<div class="wide">
+
+The stress components acting on the faces of a small cube
+
+</div>
+<div>
+
+![](Module-iii-Theory/Lecture1-extracted/slide013_img1.png)
+
+<p class="caption">Fossen, 2010</p>
+
+</div>
+</div>
+
+<--o-->
+
+<!-- source: Lecture1_Stress.pptx slide 14 · template: T3-text-and-image -->
+## Example: Computing Traction Vector
+<div class="cols">
+<div>
+
+![](Module-iii-Theory/Lecture1-extracted/slide014_img1.png)
+
+<p class="caption">Wikipedia · 4x2 · 2x3 · C · 4x3</p>
+
+</div>
+<div class="wide">
+
+N (y)
+
+E (x)
+
+Fault
+
+</div>
+</div>
+
