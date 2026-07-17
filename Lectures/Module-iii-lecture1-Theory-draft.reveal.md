@@ -19,15 +19,12 @@ revealOptions:
 </div>
 <div class="wide">
 
-NB: the course materials provided by the authors are open source under a creative commons licence. We acknowledge the contribution of the community in providing other materials and we endeavour to provide the correct attribution and citation. Please contact louis.moresi@anu.edu.au for updates and corrections.
-
 Louis Moresi (convenor)
-
 Chengxin Jiang (lecturer)
-
 Romain Beucher (former lecturer)
-
 Stephen Cox (curriculum advisor)
+
+NB: the course materials provided by the authors are open source under a creative commons licence. We acknowledge the contribution of the community in providing other materials and we endeavour to provide the correct attribution and citation. Please contact louis.moresi@anu.edu.au for updates and corrections.
 
 </div>
 </div>
@@ -44,11 +41,8 @@ Stephen Cox (curriculum advisor)
 <div class="wide">
 
 Fossen, H, 2011. Structural Geology. Cambridge University Press, 2nd Edition. E-learning modules.
-
 van der Pluijm, B.A. and Marshak, S., 2003. Earth Structure: an introduction to structural geology and tectonics. W. W. Norton & Company, Ltd.
-
 Davis, G.H. and Reynolds, S.J., 1996. Structural Geology of Rocks and Regions. 2nd Edition, John Wiley & Sons.
-
 Park, R.G., 1995. Foundations of Structural Geology. Blackie & Sons Ltd.
 
 </div>
@@ -61,14 +55,10 @@ Park, R.G., 1995. Foundations of Structural Geology. Blackie & Sons Ltd.
 
 <--o-->
 
-<!-- source: Lecture1_Stress.pptx slide 4 · template: T6-two-image -->
+<!-- source: Lecture1_Stress.pptx slide 4 · template: T5-figure-focus -->
 ## Faults
-<div class="cols">
-![](Module-iii-Theory/Lecture1-extracted/slide004_img2.png)
-![](Module-iii-Theory/Lecture1-extracted/slide004_img1.jpg)
-</div>
-*FOLDS*
-*Fossen, 2010*
+![](Module-iii-Theory/Lecture1-extracted/slide004_img1.jpg) <!-- .element class="r-stretch" -->
+<p class="caption">FOLDS · Fossen, 2010</p>
 
 <--o-->
 
@@ -78,19 +68,16 @@ Park, R.G., 1995. Foundations of Structural Geology. Blackie & Sons Ltd.
 <div class="wide">
 
 Structural geology is concerned with the permanent deformation that produces structures such as folds and faults in rocks.
-
 If a rock fails by fracturing and loses cohesion, it is brittle.
-
 If the rock deforms without losing cohesion and retains intricate shapes when forces stop acting, the rock displays a permanent strain and is ductile.
-
-All results of applied stress -> Dynamic analysis.
-
-Source: Prof. Jean-Pierre Bug (JPB), ETH
+All results of applied stress → Dynamic analysis.
 
 </div>
 <div>
 
 ![](Module-iii-Theory/Lecture1-extracted/slide005_img1.png)
+
+<p class="caption">Source: Prof. Jean-Pierre Bug (JPB), ETH</p>
 
 </div>
 </div>
@@ -105,17 +92,16 @@ Source: Prof. Jean-Pierre Bug (JPB), ETH
 ![](Module-iii-Theory/Lecture1-extracted/slide006_img1.jpg)
 ![](Module-iii-Theory/Lecture1-extracted/slide006_img2.jpg)
 
+<p class="caption">Image: M. S. Paterson</p>
+
 </div>
 <div class="wide">
 
+- Predicting when, where and how a failure happens (with detailed knowledge of other physical properties, such as composition, temperature etc).
 - Geotechnical engineering, e.g., building tunnels and highways
 - Earthquake hazards …
 
-Predicting when, where and how a failure happens (with detailed knowledge of other physical properties, such as composition, temperature etc).
-
 ANU Tunnel
-
-Image: M. S. Paterson
 
 </div>
 </div>
@@ -131,14 +117,12 @@ Image: M. S. Paterson
 ![](Module-iii-Theory/Lecture1-extracted/slide007_img2.jpg)
 ![](Module-iii-Theory/Lecture1-extracted/slide007_img3.jpg)
 
+
 </div>
 <div class="wide">
 
 Body force: a force that acts throughout the volume of a body, e.g., gravity force, electro-magnetic force etc.
-
 Surface force: acts across an internal or external surface element in a material body.
-
-pinterest.com.au
 
 Body force
 
@@ -154,31 +138,27 @@ Surface force
 <div class="cols">
 <div class="wide">
 
+Stress arises from a force applied to a given area
+Stress = Force/Area (N/m2 = Pa)
+Mechanical properties of a material are expressed in terms of the three independent, physical dimensions, length [L], mass [M], and time [T].
+
+- Other useful stress units:
 - 1 Pa = 1 N/m2 = 1 kg/(ms2)
 - 1 bar = 105 Pa = 0.1 MPa ≈ 1 atmosphere
 - 1 kbar = 1000 bar = 108 Pa = 100 MPa
 - = 0.1 GPa
-
-Stress arises from a force applied to a given area
-
-Stress = Force/Area (N/m2 = Pa)
-
-Mechanical properties of a material are expressed in terms of the three independent, physical dimensions, length [L], mass [M], and time [T].
-
-Davis and Reynolds, 2011
+- Sign convention.
 
 Positive
 
 Negative
 
-Other useful stress units:
-
-Sign convention.
-
 </div>
 <div>
 
 ![](Module-iii-Theory/Lecture1-extracted/slide008_img1.png)
+
+<p class="caption">Davis and Reynolds, 2011</p>
 
 </div>
 </div>
@@ -187,13 +167,14 @@ Sign convention.
 
 <!-- source: Lecture1_Stress.pptx slide 9 · template: T1-prose -->
 ## Stress Inside the Earth
-D-DIA
+**D-DIA**
+
 Diamond-anvil cells
 
 <--o-->
 
 <!-- source: Lecture1_Stress.pptx slide 10 · template: T3-text-and-image -->
-## D-dia
+## Stress Inside the Earth
 <div class="cols">
 <div>
 
@@ -201,16 +182,12 @@ Diamond-anvil cells
 ![](Module-iii-Theory/Lecture1-extracted/slide010_img2.jpg)
 ![](Module-iii-Theory/Lecture1-extracted/slide010_img3.jpg)
 
+<p class="caption">D-DIA · Diamond-anvil cells · Fossen, 2010</p>
+
 </div>
 <div class="wide">
 
-http://www.physics.nmsu.edu/~kanani
-
-Diamond-anvil cells
-
-Fossen, 2010
-
-STRESS INSIDE THE EARTH
+&nbsp;
 
 </div>
 </div>
@@ -225,20 +202,17 @@ STRESS INSIDE THE EARTH
 ![](Module-iii-Theory/Lecture1-extracted/slide011_img1.png)
 ![](Module-iii-Theory/Lecture1-extracted/slide011_img2.png)
 
+<p class="caption">Fossen, 2010</p>
+
 </div>
 <div class="wide">
 
-Like force, stress is also a vector quantity -> magnitude and direction.
-
+Like force, stress is also a vector quantity → magnitude and direction.
 An oblique force (F) acting on a small area may be resolved into a normal stress (sn) and a shear stress (ss).
-
 Shear stress and normal stress vary as a function of plane orientation.
-
 Stress ellipse (including its orientation) describes everything about 2D stress state
 
 Two-dimensional illustration of stress at a point.
-
-Fossen, 2010
 
 </div>
 </div>
@@ -250,24 +224,24 @@ Fossen, 2010
 <div class="cols">
 <div class="wide">
 
-The stress components acting on the faces of a small cube
+**Z**
 
-X
+[x0, y0, z0]
 
-Y
+**Y**
 
-Z
+**X**
 
 A vector in 3D space
 
-Fossen, 2010
-
-[x0, y0, z0]
+The stress components acting on the faces of a small cube
 
 </div>
 <div>
 
 ![](Module-iii-Theory/Lecture1-extracted/slide012_img1.png)
+
+<p class="caption">Fossen, 2010</p>
 
 </div>
 </div>
