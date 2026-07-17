@@ -280,3 +280,812 @@ Fault
 
 </div>
 </div>
+
+<--o-->
+
+<!-- source: Lecture1_Stress.pptx slide 15 · template: T1-prose -->
+## Example: Computing Traction Vector
+N (y)
+
+45º
+
+E (x)
+
+Fault
+
+y
+
+x
+
+<--o-->
+
+<!-- source: Lecture1_Stress.pptx slide 16 · template: T1-prose -->
+## Example: Computing Traction Vector
+N (y)
+
+45º
+
+E (x)
+
+Fault
+
+y
+
+x
+
+<--o-->
+
+<!-- source: Lecture1_Stress.pptx slide 17 · template: T3-text-and-image -->
+## Principal Stress
+<div class="cols">
+<div class="wide">
+
+A stress ellipsoid
+
+Matlab function to calculate the eigenvalues/eigenfunctions; Wikipedia
+
+</div>
+<div>
+
+![](Module-iii-Theory/Lecture1-extracted/slide017_img1.jpg)
+![](Module-iii-Theory/Lecture1-extracted/slide017_img2.png)
+
+<p class="caption">Kaliakin, 2017 · Fossen, 2010</p>
+
+</div>
+</div>
+
+<--o-->
+
+<!-- source: Lecture1_Stress.pptx slide 18 · template: T1-prose -->
+## Deviatoric Stress and Mean Stress
+
+<--o-->
+
+<!-- source: Lecture1_Stress.pptx slide 19 · template: T3-text-and-image -->
+## Scalar, Vector & Tensor
+<div class="cols">
+<div class="wide">
+
+Temperature field
+
+Scalar: a quantity with magnitude only (i.e. a real number, such as for mass, temperature, time).
+Vector: a geometrical object with magnitude and one direction (e.g. force, velocity, acceleration).
+Tensor (second-order): a mathematical structure with magnitude and two directions (two vectors), one (a unit vector) specifying a plane of action (e.g. permeability, strain, stress).
+Advanced: Scalar is regarded as a zero-order tensor; vector as first-order tensor. Gradient of a scalar field is a vector field; divergent of a vector field is a scalar field.
+
+Temperature gradient field
+
+</div>
+<div>
+
+![](Module-iii-Theory/Lecture1-extracted/slide019_img1.png)
+![](Module-iii-Theory/Lecture1-extracted/slide019_img2.png)
+
+</div>
+</div>
+
+<--o-->
+
+<!-- source: Lecture1_Stress.pptx slide 20 · template: T1-prose -->
+## Invariants of the Tensor (advanced)
+
+<--o-->
+
+<!-- source: Lecture1_Stress.pptx slide 21 · template: T3-text-and-image -->
+## Structural Geology Involves Quantitative Understanding of the Underlying Physical Principles
+<div class="cols">
+<div>
+
+![](Module-iii-Theory/Lecture1-extracted/slide021_img1.jpg)
+![](Module-iii-Theory/Lecture1-extracted/slide021_img2.jpg)
+![](Module-iii-Theory/Lecture1-extracted/slide021_img3.png)
+![](Module-iii-Theory/Lecture1-extracted/slide021_img4.jpg)
+
+<p class="caption">John G. Ramsay 1931-2021</p>
+
+</div>
+<div class="wide">
+
+307 p
+
+391 p
+
+1061 p
+
+</div>
+</div>
+
+<--o-->
+
+<!-- source: Lecture1_Stress.pptx slide 22 · template: T3-text-and-image -->
+## Summary of the Last Lecture
+<div class="cols">
+<div>
+
+![](Module-iii-Theory/Lecture1-extracted/slide022_img1.png)
+![](Module-iii-Theory/Lecture1-extracted/slide022_img2.jpg)
+
+<p class="caption">Fossen, 2010 · General case · Same stress state</p>
+
+</div>
+<div class="wide">
+
+Stress = Force/Area (N/m2 = Pa)
+Stress state in 2D/3D
+Principle stress (eigenvalues/eigenvectors)
+
+Calculate traction/stress along a surface given a stress matrix
+
+Special case
+
+A stress ellipsoid
+
+</div>
+</div>
+
+<--o-->
+
+<!-- source: Lecture1_Stress.pptx slide 23 · template: T3-text-and-image -->
+## Review of Matrix Multiplication
+<div class="cols">
+<div>
+
+![](Module-iii-Theory/Lecture1-extracted/slide023_img1.png)
+
+<p class="caption">Wikipedia · 2x3 · C · 4x3 · 4x2</p>
+
+</div>
+<div class="wide">
+
+Calculate traction/stress along a surface given a stress matrix
+
+</div>
+</div>
+
+<--o-->
+
+<!-- source: Lecture1_Stress.pptx slide 24 · template: T3-text-and-image -->
+## Review of Matrix Multiplication
+<div class="cols">
+<div>
+
+![](Module-iii-Theory/Lecture1-extracted/slide024_img1.png)
+
+<p class="caption">Wikipedia · 2x3 · C · 4x3 · 4x2</p>
+
+</div>
+<div class="wide">
+
+Calculate traction/stress along a surface given a stress matrix
+
+</div>
+</div>
+
+<--o-->
+
+<!-- source: Lecture1_Stress.pptx slide 25 · template: T3-text-and-image -->
+## Deriving Some Stress Relationships
+<div class="cols">
+<div>
+
+![](Module-iii-Theory/Lecture1-extracted/slide025_img1.png)
+
+<p class="caption">Fossen, 2010</p>
+
+</div>
+<div class="wide">
+
+- How normal / shear stress vary with the plane orientation it acting upon.
+- Starting with uniaxial compression.
+- Prior knowledge
+- Stress = Force/Area
+- Trigonometric functions
+
+**A**
+
+**C**
+
+**B**
+
+</div>
+</div>
+
+Note:
+Ellipsoid is useful in some case if you want to know the traction vector directly. But in more occasions, we want to know both the normal and shear stress acting along a surface. 
+For uniaxial compression, we only have the normal force applied along the main axis of the cylinder. You can regard the resulted stress as sigma 1. We derive the trigonometric expressions for the normal and shear stress here. 
+A force vector F acting on a surface can be decomposed into a normal (Fn) and a shear (Fs) component by simple vector addition. The stress vector s cannot be decomposed in this way, because it depends on the area across which the force acts. 
+Recall some trigonometric functions for a right-angled triangle [opposite/hypotenuse/adjacent].  
+Before we put the normal and shear stress together, let’s look at how they vary with the theta angle individually.
+
+<--o-->
+
+<!-- source: Lecture1_Stress.pptx slide 26 · template: T3-text-and-image -->
+## Stress State at An Internal Surface
+<div class="cols">
+<div>
+
+![](Module-iii-Theory/Lecture1-extracted/slide026_img1.png)
+
+<p class="caption">Fossen, 2010</p>
+
+</div>
+<div class="wide">
+
+Shear and normal stress show different pattens of change as a function of the orientation of the plane.
+Stress and force behave differently. Note that the shear stress is at its maximum at 45º to the surface while maximum normal force is obtained parallel to the surface.
+
+</div>
+</div>
+
+<--o-->
+
+<!-- source: Lecture1_Stress.pptx slide 27 · template: T3-text-and-image -->
+## Deriving the Mohr Circle
+<div class="cols">
+<div class="wide">
+
+y
+
+(0, 0)
+
+x
+
+</div>
+<div>
+
+![](Module-iii-Theory/Lecture1-extracted/slide027_img1.png)
+
+</div>
+</div>
+
+Note:
+Published a book on graphical methods in engineering in 1865.
+
+<--o-->
+
+<!-- source: Lecture1_Stress.pptx slide 28 · template: T3-text-and-image -->
+## The Mohr Circle
+<div class="cols">
+<div class="wide">
+
+&nbsp;
+
+</div>
+<div>
+
+![](Module-iii-Theory/Lecture1-extracted/slide028_img1.png)
+![](Module-iii-Theory/Lecture1-extracted/slide028_img2.jpg)
+![](Module-iii-Theory/Lecture1-extracted/slide028_img3.png)
+
+<p class="caption">Christian Otto Mohr · Fossen, 2010</p>
+
+</div>
+</div>
+
+Note:
+Mohr builds upon Karl’s previous work and expand into 2D and 3D. There are complex derivation processed involved into 3D stresses. But a simple to work it out is to look at the three orthogonal principal plane. Here is the formula for the plane along the sigma 1 and sigma 3. If you convert the mathematically language into graphical view, you will get the typical Mohr circle, which looks like pretty much the one we have derived. Along this x axis, you have the sigma 1 and sigma 3, so the intermediate sigma 2 is lying between the two points.
+
+<--o-->
+
+<!-- source: Lecture1_Stress.pptx slide 29 · template: T3-text-and-image -->
+## Mohr Circle & the Angle ⍬
+<div class="cols">
+<div>
+
+![](Module-iii-Theory/Lecture1-extracted/slide029_img1.png)
+
+</div>
+<div class="wide">
+
+&nbsp;
+
+</div>
+</div>
+
+<--o-->
+
+<!-- source: Lecture1_Stress.pptx slide 30 · template: T6-two-image -->
+## Some 3D Stress States in Mohr Circle
+<div class="cols">
+![](Module-iii-Theory/Lecture1-extracted/slide030_img1.png)
+![](Module-iii-Theory/Lecture1-extracted/slide030_img2.png)
+</div>
+<p class="caption">Fossen, 2010</p>
+
+Note:
+You can also derive the similar formula along the other two principal planes, along sigma1 and sigma2 and sigma2 and sigma 3. All of them will be represented in a circle. So putting them together, you can described the more general 3D case, called triaxial state of stress.
+
+<--o-->
+
+<!-- source: Lecture1_Stress.pptx slide 31 · template: T3-text-and-image -->
+## The Coulomb-mohr Failure Criteria
+<div class="cols">
+<div class="wide">
+
+&nbsp;
+
+</div>
+<div>
+
+![](Module-iii-Theory/Lecture1-extracted/slide031_img1.jpg)
+
+</div>
+</div>
+
+Note:
+The main application of the Mohr circle or diagram is to predict failure. One of the most popular criteria is the Coulomb-Mohr failure criteria. The critera describes the critical conditions at which a rock fractures. 
+This criteria builds upon the theory firstly derived by the French physicist Charles Augustin de Coulomb in the 17th century. Mohr later developed a more generalized form in 19th century.
+
+<--o-->
+
+<!-- source: Lecture1_Stress.pptx slide 32 · template: T1-prose -->
+## Example: Will the Fault Fail?
+
+Note:
+Let us see a real example to use this criteria to predict whether a fault plane under certain stress will fail.
+
+<--o-->
+
+<!-- source: Lecture1_Stress.pptx slide 33 · template: T1-prose -->
+## Example: Will the Fault Fail?
+
+<--o-->
+
+<!-- source: Lecture1_Stress.pptx slide 34 · template: T3-text-and-image -->
+## Anderson’s Theory of Faulting (1905)
+<div class="cols">
+<div>
+
+![](Module-iii-Theory/Lecture1-extracted/slide034_img1.png)
+
+<p class="caption">Fossen, 2010</p>
+
+</div>
+<div class="wide">
+
+Assume no shear stress at the Earth’s surface, so one of the principal stresses must be vertical. This implies that the other two are horizontal.
+Assumptions: 1) coaxial deformational regimes (no rotation); 2) the deforming rocks must be isotropic.
+
+</div>
+</div>
+
+Note:
+Since we are discussing the Mohr circle and the failing criteria, let’s revisit the Anderson’s theory of faulting, which describes the various stress condition with the focal mechanism. Louis brief touched on this topic in the first module. But now we may have a bit more background knowledge to understand it.
+
+<--o-->
+
+<!-- source: Lecture1_Stress.pptx slide 35 · template: T6-two-image -->
+## Implication to Normal/reverse Faulting
+<div class="cols">
+![](Module-iii-Theory/Lecture1-extracted/slide035_img1.jpg)
+![](Module-iii-Theory/Lecture1-extracted/slide035_img2.jpg)
+</div>
+<p class="caption">Fossen, 2011</p>
+
+<--o-->
+
+<!-- source: Lecture1_Stress.pptx slide 36 · template: T6-two-image -->
+## Stress Effects from Free Surface
+<div class="cols">
+![](Module-iii-Theory/Lecture1-extracted/slide036_img1.png)
+![](Module-iii-Theory/Lecture1-extracted/slide036_img2.png)
+</div>
+<p class="caption">Fossen, 2010</p>
+
+Note:
+One of the principal stresses will always be perpendicular to the free surface of the Earth, because the shear stress is zero along any free surface. Thus, a non-planar surface causes the orientation of the stresses to rotate as shown on the figure. Note that these deviations occur near the surface only. 
+The structure is weaker than the surrounding rock and can support lower shear stresses than its surroundings. The situation is similar to that where an open surface exists, e.g. the free surface of the Earth
+
+<--o-->
+
+<!-- source: Lecture1_Stress.pptx slide 37 · template: T3-text-and-image -->
+## Lithostatic and Hydrostaic Stress
+<div class="cols">
+<div class="wide">
+
+&nbsp;
+
+</div>
+<div>
+
+![](Module-iii-Theory/Lecture1-extracted/slide037_img1.png)
+
+<p class="caption">Fossen, 2010</p>
+
+</div>
+</div>
+
+Note:
+I want to talk about a few more concept before we explore how to measure the stress inside of the Earth: lithostatic stress and hydrostatic stress. I mentioned them in some of the slides without definition. 
+When we normally talk about pressure, we are talking about pressure in a gas (air pressure) or a liquid (the pressure at the bottom of the ocean). In this special case there are no shear stresses, only normal stresses. Over long periods of time the deep interior of the planet behaves as a fluid, so just like in the ocean we can think about the pressure at a point inside the earth.
+This lithostatic pressure can be regarded as a reference stress-state (average point of view), in which other tectonic forces are added. The normal stresses in the horizontal directions will normally not be equal to the lithostatic stress. 
+Hydrostatic stress is another term often used, it also represents the isotropic component of the stress and representing the stress at the base of a water column.
+
+<--o-->
+
+<!-- source: Lecture1_Stress.pptx slide 38 · template: T3-text-and-image -->
+## Pore Pressure Effect
+<div class="cols">
+<div>
+
+![](Module-iii-Theory/Lecture1-extracted/slide038_img1.png)
+
+<p class="caption">Pf</p>
+
+</div>
+<div class="wide">
+
+Figure: Roderick Brown, U Glasgow
+
+If the Mohr circle does not intersect the Mohr-Coulomb failure criteria, then the rock will not fail. Increasing the fluid pressure moves the circle to the left (reduces effective normal stress) and so can lead to failure.
+
+</div>
+</div>
+
+<--o-->
+
+<!-- source: Lecture1_Stress.pptx slide 39 · template: T6-two-image -->
+## Summary of Previous Lecture
+<div class="cols">
+![](Module-iii-Theory/Lecture1-extracted/slide039_img2.png)
+![](Module-iii-Theory/Lecture1-extracted/slide039_img1.png)
+</div>
+<p class="caption">Uniaxial compression · Biaxial compression</p>
+
+Note:
+There are also other failure criteria and will be introduced when we discuss the brittle deformation after the mid-term break. 
+Anderson’s theory of faulting shows three different kinds of faults arising from three different stress-states. The stress state is described by the maximum, intermediate and minimum magnitude principal stresses. You should be faimilar with the stress condition for each fault type and know the assumptions, thus limitation behind this theory. 
+Two important reference stress state of lithostatic stress and hydrostatic stress. Stress is purely due to the overburden, which is continental rock and water column for them respectively.
+
+<--o-->
+
+<!-- source: Lecture1_Stress.pptx slide 40 · template: T3-text-and-image -->
+## How We Measure Stress
+<div class="cols">
+<div>
+
+![](Module-iii-Theory/Lecture1-extracted/slide040_img1.png)
+![](Module-iii-Theory/Lecture1-extracted/slide040_img2.png)
+
+</div>
+<div class="wide">
+
+The Use of Borehole Breakout for Geotechnical Investigation of an Open Pit Mine by Fowler and Weir, 2008 (link).
+
+a 3D image of the borehole and cross-section
+
+</div>
+</div>
+
+Note:
+The figures here show a study to measure the local stress field in an Open Pit Mine with the Olympic dam deposit. They use acoustic televiewer borehole images (ATV) to construct the 3D image of the borehole. 
+Samples of the core and have a good understanding of some physical parameters, including some useful moduli. Then they model the shape of the borehole breakout to produce a maximum and minimum horizontal stress that gives the best fit. 
+They collected the data from 38 boreholes and average them to get the final stress direction. The overall trend of the principal stress orientation at Olympic Dam is presented on the Australian stress map and indicates a reasonable comparison with other proximal measurements (Figure 7).
+
+<--o-->
+
+<!-- source: Lecture1_Stress.pptx slide 41 · template: T3-text-and-image -->
+## How We Measure Stress
+<div class="cols">
+<div class="wide">
+
+&nbsp;
+
+</div>
+<div>
+
+![](Module-iii-Theory/Lecture1-extracted/slide041_img1.png)
+![](Module-iii-Theory/Lecture1-extracted/slide041_img2.png)
+![](Module-iii-Theory/Lecture1-extracted/slide041_img3.jpg)
+
+<p class="caption">Fossen, 2010 · overcored specimen</p>
+
+</div>
+</div>
+
+Note:
+Overcoring is another method used in a borehole setting. The main idea behind it is to isolate partially or wholly a rock sample from the stress field in the surrounding rock mass and monitor its re-equilibrium deformation response. It involves installing strain-measuring instruments bonded in a small-diameter pilot borehole drilled at the base of the large drill hole. The instrument is then overcored using a larger coring bit to effectively relieves the stress acting on the hollow rock cylinder. The induced strains are measured by the strain cell before, during, and after overcoring. The strain difference are used to back-calculate the stresses acting on the rock cylinder prior to overcoring assuming continuous, homogeneous, isotropic, and linear-elastic rock behaviour. This needs the knowledge of the elastic properties of the rock (Young's modulus and Poisson's ratio), usually determined by biaxial pressure tests on the overcored rock cylinder on-site.
+
+<--o-->
+
+<!-- source: Lecture1_Stress.pptx slide 42 · template: T3-text-and-image -->
+## How We Measure Stress
+<div class="cols">
+<div class="wide">
+
+Hydraulic fracturing:
+The technique is frequently applied to petroleum reservoirs to increase the near-well permeability.
+Relying on the theory that pore fluid pressure reduces the effective stress by increasing the stress at grain contacts in porous rocks.
+
+National Geographic Society
+
+A cool video on hydraulic fracturing process
+
+</div>
+<div>
+
+![](Module-iii-Theory/Lecture1-extracted/slide042_img1.jpg)
+
+</div>
+</div>
+
+Note:
+In this case the interval of the wellbore that is to be fractured is sealed off and pressure is pumped up until tensile fractures form. The pressure that is just enough to keep the fracture(s) open equals sh in the formation. Knowing the tensile strength of the rock, it is possible to calculate sH. Furthermore, the vertical stress is assumed to be a principal stress and equal to rgz. Petroleum engineers use knowledge of the stress field to plan hydrofracturing of reservoir units to take advantage of the predicted direction of fracture propagation.
+
+<--o-->
+
+<!-- source: Lecture1_Stress.pptx slide 43 · template: T3-text-and-image -->
+## Injection Induced (?) Earthquakes
+<div class="cols">
+<div class="wide">
+
+Myths and misconceptions about induced earthquakes (USGS link).
+
+Figure shows the M3.0+ earthquakes /year in the central and eastern United States, 1973–2020.
+The long-term rate of approximately 25 earthquakes per year increased sharply starting around 2009.
+>58 earthquakes since 2009 each year; >100 earthquakes since 2013.
+The rate peaked in 2015 with 1010 M3+ earthquakes.
+130 M3+ earthquakes in 2019.
+
+</div>
+<div>
+
+![](Module-iii-Theory/Lecture1-extracted/slide043_img1.png)
+
+</div>
+</div>
+
+<--o-->
+
+<!-- source: Lecture1_Stress.pptx slide 44 · template: T3-text-and-image -->
+## Stress Estimates from Focal Mechanism
+<div class="cols">
+<div class="wide">
+
+The indirect method for stress estimation at depth below 4–5 km;
+The estimation is made with the assumption of Anderson’s theory of faulting;
+In many cases, the P- and T-axes do not necessarily parallel principal stress axes.
+Combining focal mechanisms of faults of different orientation helps reduce this biased assumption.
+
+Focal mechanism
+
+Focal sphere side-view
+
+**P**
+
+**T**
+
+Yang and Hauksson, GJI, 2013
+Doi: 10.1093/gji/ggt113
+
+</div>
+<div>
+
+![](Module-iii-Theory/Lecture1-extracted/slide044_img1.png)
+
+</div>
+</div>
+
+<--o-->
+
+<!-- source: Lecture1_Stress.pptx slide 45 · template: T6-two-image -->
+## Stress Estimates in South California
+<div class="cols">
+![](Module-iii-Theory/Lecture1-extracted/slide045_img1.png)
+![](Module-iii-Theory/Lecture1-extracted/slide045_img2.png)
+</div>
+<p class="caption">(a) · (b)</p>
+
+Note:
+The location of LA, the SAF a right-lateral strike-slip fault, which is the plate boundary between Pacific and North-American plate. The fault can be well illustrated by the seismicity, indicating a very active state. The strain rate (plotted as the 2nd invariant -> indicating the shear) tells the same thing.
+
+<--o-->
+
+<!-- source: Lecture1_Stress.pptx slide 46 · template: T3-text-and-image -->
+## Global Stress Map
+<div class="cols">
+<div>
+
+![](Module-iii-Theory/Lecture1-extracted/slide046_img1.jpg)
+
+<p class="caption">Fossen, 2010</p>
+
+</div>
+<div class="wide">
+
+The World Stress Map Project is based on stress measurements from around the world from (1) earthquake focal mechanisms, (2) bore-hole breakouts and drilling-induced fractures, (3) in situ stress measurements (e.g., hydraulic fracturing) and (4) neotectonic geologic structural data (from fault-slip analysis and volcanic vent alignments).
+
+</div>
+</div>
+
+Note:
+The data are ranked according to reliability. Focal mechanism data completely dominate the data set, particularly the deeper (4–20 km) portion of the data, and are most frequent where earthquakes are common, i.e. along plate boundaries. At shallower levels there is a dominance of data from breakouts, hydrofractures and overcoring. 
+The figure shows that there are large areas of little or no stress information, onshore as well as offshore. The correlation between the orientation of sH and plate motion is also obvious many places, but with many deviations that tell us that the current stress field is influenced by many different mechanisms and sources of stress. Regardless, tectonic processes at plate margins are thought to have a significant influence on the regional stress pattern
+
+<--o-->
+
+<!-- source: Lecture1_Stress.pptx slide 47 · template: T3-text-and-image -->
+## Major Tectonic Forces
+<div class="cols">
+<div>
+
+![](Module-iii-Theory/Lecture1-extracted/slide047_img1.png)
+
+<p class="caption">Fossen, 2010</p>
+
+</div>
+<div class="wide">
+
+The maximum stress axis in continental plates is expected to be horizontal except for the upper part of rift zones (continental rift not shown), passive margins and elevated parts of orogenic belts.
+Slab pull is the gravitational pull exerted by the sinking slab on the rest of the plate.
+Ridge push is simply the push from the topographically high oceanic ridge that marks divergent plate boundaries.
+Basal drag is the frictional resistance or shear force acting at the base of the lithosphere.
+
+</div>
+</div>
+
+Note:
+In the subduction zone, the slab pull is the major thing. Louis gave a detailed overview on subduction zone stresses (W2-1), so you can revisit that materials to refresh the mind. But for the oceanic crust, there will be regions of extentional and compressional stress. Faulting happens during the bending zone of the outmost shell. Carry fluids to the deep Earth.
+
+<--o-->
+
+<!-- source: Lecture1_Stress.pptx slide 48 · template: T1-prose -->
+## Summary
+Stress = Force/Area (N/m2 or Pa).
+Pressure gradient approximate 27 MPa / km, at least in the shallow crust.
+Concept of normal and shear stress, stress tensor, principal stress, mean stress, deviatoric stress.
+Derivation of the Mohr circle /diagram → reflect the normal and shear stress variation as a function of plane orientation.
+Use the Coulomb-Mohr failure criteria to predict when rock fails.
+Anderson’s theory of faulting: classification of tectonic stress.
+How can we get information about the stress field near the surface? Some kilometers down? Even deeper down?
+
+<--o-->
+
+<!-- source: Lecture1_Stress.pptx slide 49 · template: T1-prose -->
+## Exercise five summary I
+Dot product of two vectors
+
+y
+
+2D stress tensor
+
+Traction vector
+
+(a, b)
+
+Mathematic form
+
+Unit vector along x axis
+
+x
+
+0
+
+(1, 0)
+
+y
+
+This dot product gives you the projection of T along the x axis.
+
+Graphic form
+
+y
+
+x
+
+(a, b)
+
+Significantly simplify the process to project a vector along a dipping surface
+
+Two ways to describe stress along a surface:
+Vector
+Two orthogonal components
+
+x
+
+0
+
+<--o-->
+
+<!-- source: Lecture1_Stress.pptx slide 50 · template: T6-two-image -->
+## Exercise five summary II
+<div class="cols">
+![](Module-iii-Theory/Lecture1-extracted/slide050_img1.png)
+![](Module-iii-Theory/Lecture1-extracted/slide050_img2.png)
+</div>
+
+<--o-->
+
+<!-- source: Lecture1_Stress.pptx slide 51 · template: T3-text-and-image -->
+## Figures for exercise 5.
+<div class="cols">
+<div class="wide">
+
+Depth [km]
+
+Lake George fault
+
+**E**
+
+0
+
+120
+
+90
+
+60º
+
+5
+
+5 km
+
+2 km
+
+Figure 2.
+
+60
+
+30
+
+6 km
+
+100
+
+150
+
+200
+
+50
+
+0
+
+Figure 1.
+
+Figure 3.
+
+</div>
+<div>
+
+![](Module-iii-Theory/Lecture1-extracted/slide051_img1.jpg)
+
+</div>
+</div>
+
+<--o-->
+
+<!-- source: Lecture1_Stress.pptx slide 52 · template: T1-prose -->
+## Figures for exercise 5.
+Depth [km]
+
+120
+
+90
+
+Lake George fault
+
+**E**
+
+60
+
+0
+
+30
+
+45º
+
+-5
+
+100
+
+150
+
+200
+
+0
+
+50
+
+Figure 2.
+
+Figure 3.
