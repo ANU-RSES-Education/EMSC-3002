@@ -12,6 +12,9 @@ version = "0.1.0"
 [dependencies]
 python = ">=3.11,<3.13"
 mystmd = ">=1.10,<2"
+python-pptx = ">=1.0.2,<2"
+lxml = ">=6.1.1,<7"
+pillow = ">=12.3.0,<13"
 
 [pypi-dependencies]
 mkslides = ">=0.1"

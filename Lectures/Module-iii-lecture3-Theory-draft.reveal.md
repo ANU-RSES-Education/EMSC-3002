@@ -49,7 +49,7 @@ Australian National University
 
 <!-- source: Lecture3_Rheology.pptx slide 4 · template: T5-figure-focus -->
 ## Rheology
-![](Module-iii-Theory/Lecture3-extracted/slide004_img1.jpg) <!-- .element class="r-stretch" -->
+![](Module-iii-Theory/Lecture3-extracted/slide004_img1.jpeg) <!-- .element class="r-stretch" -->
 <p class="caption">ROCK · ICE</p>
 
 Note:
@@ -88,9 +88,9 @@ While elastic theory may work well for very small strains in the upper crust, he
 </div>
 <div class="wide">
 
-Rock A has relatively little deformation when undergoing large amounts of stress, before undergoing plastic deformation, and finally brittlely failing.
-Rock B only elastically deforms before brittlely failing.
-Rock C undergoes significant plastic deformation before finally failing brittlely.
+- Rock A has relatively little deformation when undergoing large amounts of stress, before undergoing plastic deformation, and finally brittlely failing.
+- Rock B only elastically deforms before brittlely failing.
+- Rock C undergoes significant plastic deformation before finally failing brittlely.
 
 </div>
 </div>
@@ -104,7 +104,7 @@ Distinguish plastic deformation and viscous deformation
 ## Elastic Deformation
 <div class="cols">
 ![](Module-iii-Theory/Lecture3-extracted/slide007_img1.png)
-![](Module-iii-Theory/Lecture3-extracted/slide007_img2.jpg)
+![](Module-iii-Theory/Lecture3-extracted/slide007_img2.jpeg)
 </div>
 <p class="caption">Source: Taryn Lausch · State 0 · State 1 · State 2</p>
 
@@ -113,13 +113,28 @@ Note that when the stress is removed in the last increment, the material popped 
 
 <--o-->
 
-<!-- source: Lecture3_Rheology.pptx slide 8 · template: T6-two-image -->
+<!-- source: Lecture3_Rheology.pptx slide 8 · template: T3-text-and-image -->
 ## Young’s Modulus
 <div class="cols">
+<div class="wide">
+
+- The Young’s Modulus (E) quantifies the relationship between stress and strain occurring in the same orientation (no other stresses). It has the same units as stress (Pa). It shows the general form of a modulus.
+- The Young's modulus quantifies the ability of an object to resist deformation through the elastic strength arising from the crystal structure of the rock. Typical values are in the range of 10 MPa to 70 GPa.
+- Stiffness is an indicator of the tendency for an element to return to its original form with stress applied.
+- Strength measures how much stress can be applied to an element before it deforms permanently or fractures.
+
+$E= \frac{\sigma n}{\epsilon n}$
+
+</div>
+<div>
+
 ![](Module-iii-Theory/Lecture3-extracted/slide008_img1.png)
 ![](Module-iii-Theory/Lecture3-extracted/slide008_img2.png)
-</div>
+
 <p class="caption">Magali Billen, UC Davis · Fossen, 2011</p>
+
+</div>
+</div>
 
 Note:
 Although Young's modulus is named after the 19th-century British scientist Thomas Young, the concept was developed in 1727 by Leonhard Euler, somewhat 80 years before Thomas Young’s related paper in 1807. The first use of the concept of Young's modulus in experiments was by Giordano Riccati in 1782—predating Young by 25 years. History problem or people did not realize that. 
@@ -144,9 +159,9 @@ The ratio of stress to strain is the elastic modulus—stiffness, but the stress
 </div>
 <div class="wide">
 
-Some minerals and rocks show linear elasticity – meaning one constant Young’s modulus (e.g., quartz, limestone, dolomite).
-However, most elastic materials do not, implying no constant stress–strain relationship. Perfect elasticity: the material perfectly recovers to its original shape.
-Hysteresis: the stress–strain curves during elastic loading and unloading differ.
+- Some minerals and rocks show linear elasticity – meaning one constant Young’s modulus (e.g., quartz, limestone, dolomite).
+- However, most elastic materials do not, implying no constant stress–strain relationship. Perfect elasticity: the material perfectly recovers to its original shape.
+- Hysteresis: the stress–strain curves during elastic loading and unloading differ.
 
 </div>
 </div>
@@ -158,13 +173,13 @@ Hysteresis: the stress–strain curves during elastic loading and unloading diff
 <div class="cols">
 <div class="wide">
 
-Poisson’s ratio quantifies the amount that a material deforms in one direction relative to the amount it deforms in the perpendicular direction:
-The minus sign in the equation for Poisson's ratio means either the lateral or longitudinal strain will be negative → they have opposite sign.
+- Poisson’s ratio quantifies the amount that a material deforms in one direction relative to the amount it deforms in the perpendicular direction:
+- The minus sign in the equation for Poisson's ratio means either the lateral or longitudinal strain will be negative → they have opposite sign.
 
 Magali Billen, UC Davis
 
-The range of expected values for Poisson's ratio for Earth materials is 0 to 0.5, with typical values of 0.15-0.35.
-A value of 0.5 corresponds to a perfectly incompressible material (there is not internal compression, so the strain in two perpendicular directions exactly compensates for the applied strain).
+- The range of expected values for Poisson's ratio for Earth materials is 0 to 0.5, with typical values of 0.15-0.35.
+- A value of 0.5 corresponds to a perfectly incompressible material (there is not internal compression, so the strain in two perpendicular directions exactly compensates for the applied strain).
 
 </div>
 <div>
@@ -185,10 +200,16 @@ How to get the ratio of 0.5
 <div class="cols">
 <div class="wide">
 
-Only consider the normal (linear) components of strain and stress for simplicity.
-The Poisson’s ratio (v) indicates that for an elastic solid, a stress applied in one direction will also cause a strain in the perpendicular directions.
+- Only consider the normal (linear) components of strain and stress for simplicity.
+- The Poisson’s ratio (v) indicates that for an elastic solid, a stress applied in one direction will also cause a strain in the perpendicular directions.
 
-The linear strain in the Z directions depends on the strain caused by the stress in the z direction, but it also depends on the strain caused by the stresses acting in the x and y directions.
+- The linear strain in the Z directions depends on the strain caused by the stress in the z direction, but it also depends on the strain caused by the stresses acting in the x and y directions.
+
+$E= \frac{\sigma n}{\epsilon n}$
+
+Effective strain from $\sigma yy$: $\epsilon zz′$ = -$v$ $∙\epsilon xx$ = - $v$ $∙$ $\frac{\sigma xx}{E}$
+Effective strain from $\sigma xx$: $\epsilon zz′′$= -$v$ $∙\epsilon yy$ = - $v$ $∙$ $\frac{\sigma yy}{E}$
+Normal strain from $\sigma zz$:  $\sigma zz=E∙(\epsilon zz-\epsilon zz′-\epsilon zz′′$<sub> </sub>)
 
 Young’s modulus
 
@@ -199,6 +220,8 @@ Poisson’s ratio
 
 ![](Module-iii-Theory/Lecture3-extracted/slide011_img1.png)
 ![](Module-iii-Theory/Lecture3-extracted/slide011_img2.png)
+
+<p class="caption">$\sigma xx$</p>
 
 </div>
 </div>
@@ -214,13 +237,21 @@ For a linear isotropic material subjected only to compressive (i.e. normal) forc
 <div class="cols">
 <div class="wide">
 
-Only consider the normal (linear) components of strain and stress for simplicity.
-The Poisson’s ratio (v) indicates that for an elastic solid, a stress applied in one direction will also cause a strain in the perpendicular directions.
+- Only consider the normal (linear) components of strain and stress for simplicity.
+- The Poisson’s ratio (v) indicates that for an elastic solid, a stress applied in one direction will also cause a strain in the perpendicular directions.
 
-The linear strain in the Z directions depends on the strain caused by the stress in the z direction, but it also depends on the strain caused by the stresses acting in the x and y directions.
-Similarly, we can write normal strain for x and y direction:
+- The linear strain in the Z directions depends on the strain caused by the stress in the z direction, but it also depends on the strain caused by the stresses acting in the x and y directions.
+- Similarly, we can write normal strain for x and y direction:
+
+$E= \frac{\sigma n}{\epsilon n}$
+
+$$\left( \sigma zz -v\left( \sigma yy+\sigma xx \right) \right)=E∙\epsilon zz$$
 
 Young’s modulus
+
+$$\left( \sigma xx -v\left( \sigma yy+\sigma zz \right) \right)=E∙\epsilon xx$$
+
+$$\left( \sigma yy -v\left( \sigma xx+\sigma zz \right) \right)=E∙\epsilon yy$$
 
 Poisson’s ratio
 
@@ -229,6 +260,8 @@ Poisson’s ratio
 
 ![](Module-iii-Theory/Lecture3-extracted/slide012_img1.png)
 ![](Module-iii-Theory/Lecture3-extracted/slide012_img2.png)
+
+<p class="caption">$\sigma xx$</p>
 
 </div>
 </div>
@@ -244,9 +277,9 @@ For a linear isotropic material subjected only to compressive (i.e. normal) forc
 <div class="cols">
 <div class="wide">
 
-Mt. Vesuvius is the only volcano on European mainland to have erupted within the last hundred years.
-The crater of Mt. Vesuvius has a wall of 305 meters high. Its andesitic in composition with density in the range of 2.4 – 2.8 g/cm3.
-Question: how much has the rock been shortened at the base of the wall due to the weight of the rock above? Assuming the Young's modulus (40 GPa), Poisson's ratio (0.2) and an averaged density of 2.6 g/cm3.
+- Mt. Vesuvius is the only volcano on European mainland to have erupted within the last hundred years.
+- The crater of Mt. Vesuvius has a wall of 305 meters high. Its andesitic in composition with density in the range of 2.4 – 2.8 g/cm<sup>3</sup>.
+- Question: how much has the rock been shortened at the base of the wall due to the weight of the rock above? Assuming the Young's modulus (40 GPa), Poisson's ratio (0.2) and an averaged density of 2.6 g/cm<sup>3</sup><sub>.</sub>
 
 </div>
 <div>
@@ -268,7 +301,14 @@ Today, it is regarded as one of the most dangerous volcanoes in the world becaus
 <div class="cols">
 <div class="wide">
 
-&nbsp;
+- Question: how much shortening at the base of the wall? Assuming the Young's modulus (40 GPa), Poisson's ratio (0.2) and an averaged density of 2.6 g/cm<sup>3</sup><sub>.</sub>
+- Solutions:
+- Lithostatic stress $\sigma z$ = 𝜌(𝑧𝐴)𝑔/A = 𝜌z𝑔 = 2.6 $\times 103 \times 305 \times$9.8 = 7.8 MPa.
+- Since only air exists in Y direction, $\sigma y$ = 0.
+- No-support in Y direction is compensated by the twice lithostatic stress in X direction, so we can assume $\sigma x$ = 2 $\sigma z$.
+- Recall the relation of  $\left( \sigma zz-v\left( \sigma yy+\sigma xx \right) \right)=E∙\epsilon zz$, plug in the numbers
+- $\epsilon zz$ = $\frac{7.8 \times 106-2 \times 7.8 \times {10}^{6} \times 0.2}{40 \times 109}$ = 1.2 $\times$ 10<sup>-4</sup>
+- Recall $\Delta z$= $\epsilon zz \times Z$ =1.2$\times$10<sup>-4 </sup>$\times$305 = 0.035 m
 
 </div>
 <div>
@@ -287,6 +327,16 @@ Today, it is regarded as one of the most dangerous volcanoes in the world becaus
 <div class="cols">
 <div class="wide">
 
+- More general form of stress and strain relations:
+- The coefficients should be (rank 4; elastic) tensors because there is no particular reason to expect all the stress and strain directions to respond the same way.
+- A rank 4 tensor means the four subscripts can have values of 1, 2 and 3, indicating 81 separate components. But symmetry is helpful and usually we work with simplifications (21).
+- Isotropic and anisotropic cases:
+- Two Lamé parameters of $\lambda$and $\mu$ (E and v).
+- Different levels of crystal symmetry: cubic, hexagonal, Tetragonal, orthorhombic, Monoclinic and Triclinic.
+- Shear modulus $\mu$ = $\frac{\sigma s}{\gamma}$; bulk modulus $K$ = $\frac{E}{3(1-2\mu )}$
+
+$\sigma ij ={C}_{ijkl}∙\epsilon kl$
+
 A hexagonal prism
 
 </div>
@@ -299,13 +349,31 @@ A hexagonal prism
 
 <--o-->
 
-<!-- source: Lecture3_Rheology.pptx slide 16 · template: T6-two-image -->
+<!-- source: Lecture3_Rheology.pptx slide 16 · template: T3-text-and-image -->
 ## Viscous Deformation
 <div class="cols">
-![](Module-iii-Theory/Lecture3-extracted/slide016_img2.gif)
-![](Module-iii-Theory/Lecture3-extracted/slide016_img1.jpg)
+<div class="wide">
+
+- The flow of liquids, like water, honey, oil, and magma, is described as viscous flow or viscous deformation. Heated rocks tend to flow and accumulate permanent deformation and behave like fluids over geological time.
+- Viscous deformation implies dependence of stress on strain rate: higher stress means faster flow or more rapid strain accumulation.
+- $\eta$ is the viscosity constant, and $\dot{e}$ is the elongation rate and $\dot{\gamma}$ is the shear strain rate. Unit of Pa s.
+- Linear (Newtonian) and non-linear (power-law) viscous rheology in stress–strain rate space.
+
+Wikipedia
+
+$\sigma n=\eta \dot{e}$
+$\sigma s=\eta \dot{\gamma}$
+
 </div>
+<div>
+
+![](Module-iii-Theory/Lecture3-extracted/slide016_img1.jpeg)
+![](Module-iii-Theory/Lecture3-extracted/slide016_img2.gif)
+
 <p class="caption">Newtonian · Fossen, 2011 · Power-law</p>
+
+</div>
+</div>
 
 Note:
 Viscous deformation can therefore be said to be time-dependent deformation; strain is not instant but accumulates over time 
@@ -317,6 +385,10 @@ When pulling a stick out of a very viscous fluid like honey or tar, the slower y
 
 <!-- source: Lecture3_Rheology.pptx slide 17 · template: T1-prose -->
 ## Some Viscous Materials
+- The table on the right lists the viscosity of some common liquids at room temperature. Notice that the viscosity ranges over five orders of magnitude (0.001 to 100 Pa s) for these familiar liquids.
+- Viscosity is typically dependent on temperature and composition.
+- The viscosity of ice is typically in the range around  10<sup>13</sup>  Pa s at  0$°$𝐶  to  10<sup>14</sup> Pa s at  −10°𝐶.
+- Mantle flow occurs at velocities of 1-20 cm/y, and typical values of viscosity in the mantle are  10<sup>18</sup>  to  10<sup>24</sup>  Pa s.
 
 <--o-->
 
@@ -325,18 +397,18 @@ When pulling a stick out of a very viscous fluid like honey or tar, the slower y
 <div class="cols">
 <div>
 
-![](Module-iii-Theory/Lecture3-extracted/slide018_img1.jpg)
+![](Module-iii-Theory/Lecture3-extracted/slide018_img1.jpeg)
 
 
 </div>
 <div class="wide">
 
-Pitch Drop experiment at the University of Queensland, Australia.
-Created in 1927 by UQ’s first Professor of Physics: Thomas Parnell.
-Second custodian Prof. John Mainstone.
-Current and third custodian Prof. Andrew White.
-Only nine drops in 87 years.
-More images and web cam at http://smp.uq.edu.au/content/pitch-drop-experiment .
+- Pitch Drop experiment at the University of Queensland, Australia.
+- Created in 1927 by UQ’s first Professor of Physics: Thomas Parnell.
+- Second custodian Prof. John Mainstone.
+- Current and third custodian Prof. Andrew White.
+- Only nine drops in 87 years.
+- More images and web cam at http://smp.uq.edu.au/content/pitch-drop-experiment .
 
 </div>
 </div>
@@ -348,13 +420,19 @@ More images and web cam at http://smp.uq.edu.au/content/pitch-drop-experiment 
 <div class="cols">
 <div class="wide">
 
-Couette flow is the flow of a viscous fluid in the space between two surfaces, but one of the boundaries is moving at a fixed velocity (shearing). The boundary condition gives:
-Next, we can find the strain rate in the fluid:
-Based on flow law, we then have:
+- Couette flow is the flow of a viscous fluid in the space between two surfaces, but one of the boundaries is moving at a fixed velocity (shearing). The boundary condition gives:
+- Next, we can find the strain rate in the fluid:
+- Based on flow law, we then have:
+
+$u=u0 (1-\frac{y}{h})$
+
+$\dot{\epsilon}=\frac{du}{dy}=-\frac{u0}{h}$
 
 Magali Billen, UC Davis
 
-Couette flow can be used to approximate the flow in the mantle be dragged (basal drag) by a moving tectonic plate at the surface above. Its solution provides strain-rate and shear stress below pate.
+$\sigma =\eta \dot{\epsilon}=-\frac{\eta u0}{h}$
+
+- Couette flow can be used to approximate the flow in the mantle be dragged (basal drag) by a moving tectonic plate at the surface above. Its solution provides strain-rate and shear stress below pate.
 
 </div>
 <div>
@@ -374,13 +452,17 @@ Couette flow can be used to approximate the flow in the mantle be dragged (basal
 <div class="cols">
 <div class="wide">
 
-Considering a layer of flowing fluid with thickness, h, flowing down plane inclined at an angle 𝛼.
-Fluid flow is purely driven by the gravity component parallel to the surface.
-Boundary conditions: shear stress zero at top of the fluid (free surface) and velocity zero at base of fluid.
-One can work out the velocity profile in the inclined plane:
-The strain-rate can be further derived from the velocity
+- Considering a layer of flowing fluid with thickness, h, flowing down plane inclined at an angle 𝛼.
+- Fluid flow is purely driven by the gravity component parallel to the surface.
+- Boundary conditions: shear stress zero at top of the fluid (free surface) and velocity zero at base of fluid.
+- One can work out the velocity profile in the inclined plane:
+- The strain-rate can be further derived from the velocity
 
-Article by Magali Billen (UC Davis) on viscous flow.
+$u=\frac{\rho g\sin \alpha}{\eta}(h2-y2)$
+
+$$\dot{\epsilon}=\frac{du}{dy}=-\frac{\rho g\sin \alpha}{\eta}y$$
+
+- Article by Magali Billen (UC Davis) on viscous flow.
 
 </div>
 <div>
@@ -400,11 +482,13 @@ Article by Magali Billen (UC Davis) on viscous flow.
 <div class="cols">
 <div class="wide">
 
-Elastic and viscous materials show different history of strain given applied stress.
-The Maxwell time describes the relative importance of elastic and viscous behavior:
-For a typical time range larger than the Maxwell time, the material deforms mainly in a viscous way. For typical values for the mantle (η ≈ 1021 Pa s and E ≈ 1011 Pa), the Maxwell time is on the order of 1000 years, so on geological timescales, the mantle behaves as a viscous fluid.
+- Elastic and viscous materials show different history of strain given applied stress.
+- The Maxwell time describes the relative importance of elastic and viscous behavior:
+- For a typical time range larger than the Maxwell time, the material deforms mainly in a viscous way. For typical values for the mantle (η ≈ 10<sup>21</sup> Pa s and E ≈ 10<sup>11</sup> Pa), the Maxwell time is on the order of 1000 years, so on geological timescales, the mantle behaves as a viscous fluid.
 
 Elastic deformation
+
+$tM=\frac{\eta}{E}$
 
 </div>
 <div>
@@ -425,9 +509,9 @@ For a viscous material, consider that the stress is increased instantaneously, t
 
 <!-- source: Lecture3_Rheology.pptx slide 22 · template: T1-prose -->
 ## Strain Hardening and Softening
-Plastic material is still cohesive (holds together) after the yield point. Plastic deformation may occur without a further change in stress: perfect plastic.
-Strain hardening means that an increase in stress is needed for further deformation because the rock becomes stronger and harder to deform.
-Strain softening means that less stress is needed to keep the deformation going (creep process).
+- Plastic material is still cohesive (holds together) after the yield point. Plastic deformation may occur without a further change in stress: perfect plastic.
+- Strain hardening means that an increase in stress is needed for further deformation because the rock becomes stronger and harder to deform.
+- Strain softening means that less stress is needed to keep the deformation going (creep process).
 
 
 
@@ -505,7 +589,7 @@ Strain history curves
 <div class="cols">
 <div>
 
-![](Module-iii-Theory/Lecture3-extracted/slide025_img1.jpg)
+![](Module-iii-Theory/Lecture3-extracted/slide025_img1.jpeg)
 ![](Module-iii-Theory/Lecture3-extracted/slide025_img2.png)
 
 <p class="caption">Jaeger and Cook, 1979 (Wiley) · Brittle failure · Plastic flow · Fossen, 2011 · Marble</p>
@@ -513,8 +597,8 @@ Strain history curves
 </div>
 <div class="wide">
 
-An increase in temperature lowers the yield stress or weakens the rock.
-Both marble and granite can sustain less differential stress when the temperature goes up. This is due to the activation of microscale crystal-plastic due to the temperature increase.
+- An increase in temperature lowers the yield stress or weakens the rock.
+- Both marble and granite can sustain less differential stress when the temperature goes up. This is due to the activation of microscale crystal-plastic due to the temperature increase.
 
 Granite
 
@@ -528,16 +612,16 @@ Granite
 <div class="cols">
 <div>
 
-![](Module-iii-Theory/Lecture3-extracted/slide026_img1.jpg)
+![](Module-iii-Theory/Lecture3-extracted/slide026_img1.jpeg)
 
 <p class="caption">Marble · Jaeger and Cook, 1979 (Wiley) · Strain hardening · Strain softening</p>
 
 </div>
 <div class="wide">
 
-At condition of high confining pressure, it is more difficult to open fractures, making the rock stronger. This leads to strain hardening compared to strain softening at low confining pressure condition (move arms in water compared to in air).
-Also, the reduce of open fractures expels fluids outside of a rock, which further strengthen the material.
-Increasing the confining pressure allows for larger strain to accumulate before failure and thus favors crystal-plastic deformation mechanisms (deeper depth of the Earth).
+- At condition of high confining pressure, it is more difficult to open fractures, making the rock stronger. This leads to strain hardening compared to strain softening at low confining pressure condition (move arms in water compared to in air).
+- Also, the reduce of open fractures expels fluids outside of a rock, which further strengthen the material.
+- Increasing the confining pressure allows for larger strain to accumulate before failure and thus favors crystal-plastic deformation mechanisms (deeper depth of the Earth).
 
 </div>
 </div>
@@ -550,7 +634,7 @@ Increasing the confining pressure allows for larger strain to accumulate before 
 ![](Module-iii-Theory/Lecture3-extracted/slide027_img2.png)
 ![](Module-iii-Theory/Lecture3-extracted/slide027_img1.png)
 </div>
-<p class="caption">Marble 5 kbars, 500oC · Fossen, 2011</p>
+<p class="caption">Marble 5 kbars, 500<sup>o</sup>C · Fossen, 2011</p>
 
 <--o-->
 
@@ -559,10 +643,10 @@ Increasing the confining pressure allows for larger strain to accumulate before 
 <div class="cols">
 <div class="wide">
 
-Increased presence of fluids tends to weaken rocks, lower the yield stress and enhance crystal-plastic deformation. Effectively, it lowers the confining pressure through increasing the pore fluid pressure.
-Fluid composition may however also influence rock rheological properties.
+- Increased presence of fluids tends to weaken rocks, lower the yield stress and enhance crystal-plastic deformation. Effectively, it lowers the confining pressure through increasing the pore fluid pressure.
+- Fluid composition may however also influence rock rheological properties.
 
-950oC, Dry Quartz
+950<sup>o</sup>C, Dry Quartz
 
 20
 
@@ -570,7 +654,7 @@ Stress kbars
 
 10
 
-950oC, Wet Quartz
+950<sup>o</sup>C, Wet Quartz
 
 Griggs, GJI. 1967
 
@@ -585,7 +669,7 @@ Strain %
 </div>
 <div>
 
-![](Module-iii-Theory/Lecture3-extracted/slide028_img1.jpg)
+![](Module-iii-Theory/Lecture3-extracted/slide028_img1.jpeg)
 
 <p class="caption">Fossen, 2011</p>
 
@@ -603,15 +687,15 @@ Pore fluid pressure reduces the effective stress by creating stress at grain con
 <div>
 
 ![](Module-iii-Theory/Lecture3-extracted/slide029_img1.png)
-![](Module-iii-Theory/Lecture3-extracted/slide029_img2.jpg)
+![](Module-iii-Theory/Lecture3-extracted/slide029_img2.jpeg)
 
 <p class="caption">Fossen, 2011 · Marble</p>
 
 </div>
 <div class="wide">
 
-Experiment 1: foliations in the Marble perpendicular and parallel to stress direction.
-Experiment 2: different directions of olivine crystals.
+- Experiment 1: foliations in the Marble perpendicular and parallel to stress direction.
+- Experiment 2: different directions of olivine crystals.
 
 Olivine
 
@@ -629,7 +713,12 @@ Stress–strain rate curves for dry olivine single crystals compressed in three 
 <div class="cols">
 <div class="wide">
 
-Rocks and minerals react differently to stress and depend on crystallographic fabrics, temperature, presence of fluids, strain rate and pressure.
+- Rocks and minerals react differently to stress and depend on crystallographic fabrics, temperature, presence of fluids, strain rate and pressure.
+
+- Quartz and feldspar are dominate minerals in the crust, and olivine controls the rheology of the upper mantle.
+- Quartz deforms by brittle mechanisms up to about 300–350 $°$𝐶, which for typical continental temperature gradients corresponds to crustal depths of around 10–12 km.
+- Feldspar deforms in a brittle manner up to 500 $°$𝐶 and depths of 20–30 km.
+- Olivine is brittle down to about 50 km depth.
 
 </div>
 <div>
@@ -660,8 +749,8 @@ While elastic theory may work well for very small strains in the upper crust, he
 </div>
 <div class="wide">
 
-Brittle-plastic (ductile) transition: a zone located between the shallow elastic region and deeper viscous region where deformation occur through both mechanisms.
-The brittle–plastic transition is generally gradual or recurring over a wide zone in the continental crust and reflect a combined effect of composition, temperature and confining pressure and presence of fluids.
+- Brittle-plastic (ductile) transition: a zone located between the shallow elastic region and deeper viscous region where deformation occur through both mechanisms.
+- The brittle–plastic transition is generally gradual or recurring over a wide zone in the continental crust and reflect a combined effect of composition, temperature and confining pressure and presence of fluids.
 
 </div>
 </div>
@@ -716,12 +805,14 @@ Viscous and plastic deformation typically occur deeper and at higher pressures a
 <div class="cols">
 <div>
 
-![](Module-iii-Theory/Lecture3-extracted/slide035_img1.jpg)
+![](Module-iii-Theory/Lecture3-extracted/slide035_img1.jpeg)
 
 </div>
 <div class="wide">
 
-&nbsp;
+- Plastic deformation is the permanent change in shape or size of a body without fracture, accumulated over time by a sustained stress beyond the elastic limit (yield point) of the material.
+- Different expression in $\sigma -\epsilon$ and $\sigma -\dot{\epsilon}$ plots.
+- When the stress is removed after a history of elastic–plastic deformation only the plastic strain will remain.
 
 </div>
 </div>
@@ -733,7 +824,7 @@ Viscous and plastic deformation typically occur deeper and at higher pressures a
 <div class="cols">
 <div>
 
-![](Module-iii-Theory/Lecture3-extracted/slide036_img1.jpg)
+![](Module-iii-Theory/Lecture3-extracted/slide036_img1.jpeg)
 
 </div>
 <div class="wide">
@@ -750,19 +841,19 @@ Viscous and plastic deformation typically occur deeper and at higher pressures a
 <div class="cols">
 <div class="wide">
 
-Increasing the temperature, increasing the amount of fluid, lowering the strain rate and, in plastically deforming rocks, reducing the grain size all tend to cause strain weakening.
+- Increasing the temperature, increasing the amount of fluid, lowering the strain rate and, in plastically deforming rocks, reducing the grain size all tend to cause strain weakening.
 
-Experiments on Mars Bar:
-High temperature favors ductile deformation (folding).
-Low temperature favors brittle deformation (fractures).
-Different materials have different strengths.
+- Experiments on Mars Bar:
+- High temperature favors ductile deformation (folding).
+- Low temperature favors brittle deformation (fractures).
+- Different materials have different strengths.
 
 Roderick Brown, U Glasgow
 
 </div>
 <div>
 
-![](Module-iii-Theory/Lecture3-extracted/slide037_img1.jpg)
+![](Module-iii-Theory/Lecture3-extracted/slide037_img1.jpeg)
 ![](Module-iii-Theory/Lecture3-extracted/slide037_img2.png)
 
 </div>
