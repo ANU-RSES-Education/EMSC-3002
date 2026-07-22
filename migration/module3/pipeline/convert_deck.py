@@ -117,7 +117,13 @@ def convert_slide(s, prefix, course="EMSC 3002", module="Module 3"):
     elif tmpl == "T6-two-image" and len(imgs) >= 2:
         if H: out.append(H)
         a, b = sorted(imgs, key=lambda i: i["x"])[:2]
-        out += ['<div class="cols">', img(prefix, a), img(prefix, b), '</div>']
+        # each image wrapped in its own <div> with surrounding blank lines, so
+        # reveal's markdown pass parses the ![](...) (bare images directly inside
+        # a block-level <div> are treated as raw HTML and left unrendered).
+        out.append('<div class="cols">')
+        for im in (a, b):
+            out += ['<div>', '', img(prefix, im), '', '</div>']
+        out.append('</div>')
         out += caption_block(caps)
 
     elif tmpl == "T5-figure-focus" and imgs:

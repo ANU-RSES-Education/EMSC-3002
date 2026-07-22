@@ -173,8 +173,16 @@ National Geophysical Data Center/USGS
 <!-- source: Lecture2_Strain_StrainRate.pptx slide 9 · template: T6-two-image -->
 ## Displacement Vector
 <div class="cols">
+<div>
+
 ![](Module-iii-Theory/Lecture2-extracted/slide009_img2.png)
+
+</div>
+<div>
+
 ![](Module-iii-Theory/Lecture2-extracted/slide009_img1.png)
+
+</div>
 </div>
 <p class="caption">Fossen, 2010</p>
 
@@ -1072,8 +1080,16 @@ Note:
 <!-- source: Lecture2_Strain_StrainRate.pptx slide 40 · template: T6-two-image -->
 ## Progressive Deformation
 <div class="cols">
+<div>
+
 ![](Module-iii-Theory/Lecture2-extracted/slide040_img1.png)
+
+</div>
+<div>
+
 ![](Module-iii-Theory/Lecture2-extracted/slide040_img2.png)
+
+</div>
 </div>
 <p class="caption">Fossen, 2010</p>
 

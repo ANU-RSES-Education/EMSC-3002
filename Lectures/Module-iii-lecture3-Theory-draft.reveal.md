@@ -103,8 +103,16 @@ Distinguish plastic deformation and viscous deformation
 <!-- source: Lecture3_Rheology.pptx slide 7 · template: T6-two-image -->
 ## Elastic Deformation
 <div class="cols">
+<div>
+
 ![](Module-iii-Theory/Lecture3-extracted/slide007_img1.png)
+
+</div>
+<div>
+
 ![](Module-iii-Theory/Lecture3-extracted/slide007_img2.jpeg)
+
+</div>
 </div>
 <p class="caption">Source: Taryn Lausch · State 0 · State 1 · State 2</p>
 
@@ -631,8 +639,16 @@ Granite
 <!-- source: Lecture3_Rheology.pptx slide 27 · template: T6-two-image -->
 ## Effect of Strain Rate
 <div class="cols">
+<div>
+
 ![](Module-iii-Theory/Lecture3-extracted/slide027_img2.png)
+
+</div>
+<div>
+
 ![](Module-iii-Theory/Lecture3-extracted/slide027_img1.png)
+
+</div>
 </div>
 <p class="caption">Marble 5 kbars, 500<sup>o</sup>C · Fossen, 2011</p>
 

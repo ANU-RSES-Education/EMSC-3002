@@ -807,8 +807,16 @@ $\theta$
 <!-- source: Lecture1_Stress.pptx slide 30 · template: T6-two-image -->
 ## Some 3D Stress States in Mohr Circle
 <div class="cols">
+<div>
+
 ![](Module-iii-Theory/Lecture1-extracted/slide030_img1.png)
+
+</div>
+<div>
+
 ![](Module-iii-Theory/Lecture1-extracted/slide030_img2.png)
+
+</div>
 </div>
 <p class="caption">Fossen, 2010</p>
 
@@ -945,8 +953,16 @@ ${\sigma}_{1}$
 <!-- source: Lecture1_Stress.pptx slide 36 · template: T6-two-image -->
 ## Stress Effects from Free Surface
 <div class="cols">
+<div>
+
 ![](Module-iii-Theory/Lecture1-extracted/slide036_img1.png)
+
+</div>
+<div>
+
 ![](Module-iii-Theory/Lecture1-extracted/slide036_img2.png)
+
+</div>
 </div>
 <p class="caption">Fossen, 2010</p>
 
