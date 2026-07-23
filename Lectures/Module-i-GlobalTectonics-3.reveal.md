@@ -1,5 +1,5 @@
 ---
-title: EMSC 3002 - Plate Tectonics 
+title: EMSC 3002 - 1.3 Stress, Strain and Strength
 separator: '<--o-->'
 verticalSeparator: '<--v-->'
 revealOptions:
@@ -46,7 +46,7 @@ This will be a brief introduction and we will return to details once you have co
 
 Consider what happens when we build an underground structure - a basement, a trench, a tunnel or a mine. What is the most important thing we have to do to remain safe ? 
 
-![Collapse](https://i.imgur.com/yOK9Vsi.jpg) <!-- .element style="display:block; margin-left:auto; margin-right:auto; width:50%" -->
+![Collapse](images/GlobalTectonics/MountWaverleyCollapse.jpg) <!-- .element style="display:block; margin-left:auto; margin-right:auto; width:50%" -->
 
 In the shallowest parts of the crust, confining pressure is low and the strength of the soil is correspondingly weak. It fails by collapsing sideways.
 
@@ -102,7 +102,7 @@ Of course, the **magnitude** of those forces is also much larger and there is a 
 
 <center>
 
-![CaveIn](https://upload.wikimedia.org/wikipedia/commons/f/fd/Cave-in_%28indust%29.jpg)
+![CaveIn](images/GlobalTectonics/Cave-in_indust.jpg)
 <!-- .element style="width:66%" -->
 
 </center>

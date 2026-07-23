@@ -1,5 +1,5 @@
 ---
-title: EMSC 3002 - Plate Tectonics
+title: EMSC 3002 - 1.2 Plate Boundaries
 separator: '<--o-->'
 verticalSeparator: '<--v-->'
 revealOptions:

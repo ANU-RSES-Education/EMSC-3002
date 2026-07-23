@@ -40,6 +40,20 @@ The different way rocks respond to stress.
 <a href="../slideshows/Module-i-GlobalTectonics-3.reveal.html?print-pdf">Build your own PDF</a>
 
 
+### Interpreting Australian Structure
+
+This course is about the structure and tectonic evolution of the Australian plate, so this
+part of the module is a reference you will return to all term: the names of the continent's
+building blocks, when they came together, where Australia sat in plate reconstructions through
+geological time, and the continent-scale datasets (Moho depth, lithospheric thickness,
+sediment thickness, potential fields, stress and seismicity) that let us interpret structure
+beneath the surface.
+
+<iframe src="../slideshows/Module-i-GlobalTectonics-4.reveal.html" title="Slideshow" width=100%, height=500, allowfullscreen></iframe>
+
+<a href="../slideshows/Module-i-GlobalTectonics-4.reveal.html?print-pdf">Build your own PDF</a>
+
+
 ### Plate Kinematics and reconstruction
 
 If we understand the *kinematics* of plate boundary evolution,
@@ -68,7 +82,8 @@ There is a portal where you can [browse interactive movies](http://portal.gplate
 of plates moving over hundreds of millions of years with various data visualised
 on the moving plates.
 
-This is the link to the USGS page on a recent M8.2 Earthquake in Alaska:
+This is the link to the USGS page on the 2021 M8.2 Chignik earthquake in Alaska
+(one of the case studies in lecture 1.2):
 [USGS News and Analysis](https://www.usgs.gov/news/magnitude-82-earthquake-alaska)
 
 

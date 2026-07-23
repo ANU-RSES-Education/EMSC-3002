@@ -1,5 +1,5 @@
 ---
-title: EMSC 3002 - Interpreting Australian Structure
+title: EMSC 3002 - 1.4 Interpreting Australian Structure
 separator: '<--o-->'
 verticalSeparator: '<--v-->'
 revealOptions:
