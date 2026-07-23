@@ -37,7 +37,7 @@ _**NB:** the course materials provided by the authors are open source under a cr
 <--o-->
 
 <!-- ILO placeholder — not in the pptx; fill in -->
-## Intended learning outcomes
+## What you will learn in this module
 
 <!-- TODO: add the intended learning outcomes for this module -->
 

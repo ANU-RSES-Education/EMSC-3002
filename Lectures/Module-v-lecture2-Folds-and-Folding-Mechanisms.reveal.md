@@ -43,7 +43,7 @@ corrections.
 
 <--o-->
 
-## Intended learning outcomes
+## What you will learn in this module
 
 Students will be able to:
 

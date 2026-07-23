@@ -40,7 +40,7 @@ corrections._
 
 <--o-->
 
-## Intended learning outcomes
+## What you will learn in this module
 
 
 The students will learn about the structural style of strike-slip, transpression and transtension regimes.

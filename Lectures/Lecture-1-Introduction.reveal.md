@@ -101,7 +101,7 @@ Read more on [Wikipedia](https://en.wikipedia.org/wiki/Structural_geology).
 
 
 
-## Learning Outcomes
+## What you will learn
 
 This course is designed to develop an advanced understanding of deformation processes and structures produced by displacement and deformation in the Earth's lithosphere at scales ranging from the tectonic plate scale, down to the crystal lattice scale. Emphasis is placed on understanding
 
@@ -117,7 +117,7 @@ This course is designed to develop an advanced understanding of deformation proc
 
 <--v-->
 
-## Learning Outcomes
+## What you will learn
 
   - Recognise, map and interpret the geological structure of deformed continental regimes, from mildly deformed upper crustal regimes to complexly deformed, deeper crustal regimes.
 

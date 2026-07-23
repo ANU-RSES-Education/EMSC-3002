@@ -60,7 +60,7 @@ Earthquakes, volcanic activity, mountain-building, and oceanic trench formation 
 
 <--o-->
 
-## Learning Outcomes for this module
+## What you will learn in this module
 
 What you will learn about global tectonics.
 

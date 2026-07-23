@@ -28,7 +28,7 @@ corrections._
 
 <--o-->
 
-## Intended learning outcomes
+## What you will learn in this module
 
 What you will learn in this lecture
 

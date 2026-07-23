@@ -172,8 +172,8 @@ def main():
     idxs = [i for i, s in enumerate(slides) if s["n"] == 2]
     if idxs:
         ilo = ("<!-- ILO placeholder — not in the pptx; fill in -->\n"
-               "## Intended learning outcomes\n\n"
-               "<!-- TODO: add the intended learning outcomes for this module -->")
+               "## What you will learn in this module\n\n"
+               "<!-- TODO: add what you will learn in this module -->")
         parts.insert(idxs[0] + 1, ilo)
     body = "\n\n<--o-->\n\n".join(parts)
     pathlib.Path(outpath).write_text(fm + "\n" + body + "\n")

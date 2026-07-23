@@ -40,7 +40,7 @@ corrections._
 
 <--o-->
 
-## Intended learning outcomes
+## What you will learn in this module
 
 - Understand the concept of shear zones and how they form
 - Being able to differentiate between different types of shear zones

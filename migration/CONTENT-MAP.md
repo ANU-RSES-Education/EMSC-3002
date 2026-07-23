@@ -27,6 +27,35 @@ draft decks against that structure.
 
 ---
 
+## 0. Course direction (stated 2026-07, Moresi)
+
+**Where the course has come from and where it is going.** The material has
+evolved from *structural-geology-heavy* content towards **more tectonics with a
+broader structural focus** — e.g. *structures found in the Australian Plate* —
+and the trajectory is to add **more Australian examples, geophysical-imaging
+content, and applications**. The course is already *titled* "Structure and
+Tectonic Evolution of the Australian Plate"; the content needs to catch up with
+the title (see §9: outside Module i, Australian examples are nearly absent).
+
+**Pedagogy:** repetition is fine *per se* (spiral curriculum), but every revisit
+after the first full treatment must be **shorter** and must **acknowledge where
+the concept was originally taught** (module + link). See §6.
+
+**Learning outcomes style:** module openers say **"What you will learn in this
+module"** — plain language, not formal ILO boilerplate.
+
+### This year's priorities (2026 delivery, starts 28 July)
+1. **More viscous flow** — not just brittle structures. Anchors exist (iii-3
+   Couette/inclined-plane/Maxwell; v-2 Biot wavelength); see §11 for the
+   specific attach-points and gaps.
+2. **Cut the brittle repetition** — the worst duplication in the course is in
+   brittle content (Mohr/failure criteria/Anderson across iii-1, iv-4, iv-6;
+   see §10).
+3. **Australian examples across the board** — every module should carry them,
+   not just Module i (see §9 for the per-deck gap list).
+
+---
+
 ## 1. Course structure & teaching order
 
 Delivery order is **i → ii → iii → (mid-term) → iv → v** — descriptive first,
@@ -209,8 +238,108 @@ Decisions to make (feed the next planning step):
 
 ---
 
-## 8. Provenance
+## 9. Australian-examples inventory (gap: everywhere except Module i)
 
-Built 2026-07-22 from a parallel read of all five modules' decks + book pages.
-Modules 1–3 verified at slide-title granularity; 4–5 at topic/ILO level (iv is
-image-only). Companion to the Module-3 conversion work in `migration/module3/`.
+Full sweep of decks, book pages and exercises (2026-07-23). Concrete Australian
+geological examples per unit:
+
+| Unit | Count | What's there |
+|---|---|---|
+| Module i | ~5 | Australian stress map ×2 (i-1); Mount Waverley collapse, WA M5.6 2023 quake (i-3) — the only well-integrated module |
+| Module ii | 1 | Australia TMI magnetic-anomaly grid (ii-1); **ii-2/3/4 have zero** |
+| Module iii (drafts) | 2 | Olympic Dam borehole stress; Lake George fault (exercise figures) — deck 1 only; **decks 2/3 zero** |
+| Module iv (drafts) | 4 | Kangaroo Island joints (iv-5); Canberra Camp Hill normal faults + Lake George Fault Zone (iv-6); Earthquakes-in-Australia + Mansfield 2021 (iv-7, one slide) |
+| Module v | 1 | Ruby Gap quartzite mylonite (v-4); **v-1/2/3 zero** |
+| Exercises | 1 strong | Lake George stress/Mohr exercise (built around RSES/GA 2020 drilling) |
+
+**Gaps to fill** (decks with zero): ii-Contractional, ii-Extensional,
+ii-Strike-Slip, iii-Strain, iii-Rheology, v-Folds (1/2/3). Natural candidates to
+consider: Flinders/Adelaide fold belt (v folds — perfect fit), Mt Isa / Broken
+Hill shear zones (v-4), Petermann/Alice Springs orogens (ii contraction),
+Otway/Gippsland rift margins (ii extension), seismic reflection lines across
+Australian basins (the geophysical-imaging thread, §0).
+
+Note: the Mansfield 2021 case study is *named* in iv-7 and the book page but has
+no developed body — an easy win to expand with GA material.
+
+---
+
+## 10. Brittle repetition — slide-level (the worst duplication in the course)
+
+Ranked by number of independent FULL treatments (2026-07-23 sweep of ii-2/3/4,
+iii-1, iv-4/5/6/7 drafts):
+
+1. **Coulomb–Mohr / failure criteria — WORST.** Full in iii-1 (criterion +
+   "Will the Fault Fail?" worked example) AND iv-4 (near-verbatim criterion
+   slide + Mohr envelope + Griffith + composite envelope). Also re-summarised
+   3× within iii-1 itself.
+2. **Mohr circle.** Fully derived in iii-1 (4 slides) and **re-derived** in
+   iv-4 ("Revisiting the Mohr Circle" ×2 — same σₙ=σcos²θ derivation).
+3. **Anderson / fault classification.** FULL ×3+: iii-1, iv-4 (verbatim
+   "Implication to Normal/reverse Faulting"), iv-6 (twice!). Fault-type
+   definitions also full in ii-2, ii-4, iv-6.
+4. **Earthquake phenomenology.** iv-6 ↔ iv-7 duplicate whole slides
+   ("Different Types of Eq Magnitude"; Omori/Gutenberg-Richter/Båth aftershock
+   laws appear verbatim in both).
+5. **Pore pressure / effective stress.** Full in iii-1 (×2 + hydraulic
+   fracturing) and iv-4 (repeats the effective-stress text), third take in
+   iv-5 (beer-can experiment).
+6. Within-deck duplicate: iv-6 has "Fault Vs. Fault Zone" twice (slides 16 & 59).
+
+Near-verbatim slide pairs to resolve first: Coulomb–Mohr criterion (iii-1↔iv-4),
+"Implication to Normal/reverse Faulting" (iii-1↔iv-4), Eq-magnitude and
+aftershock-laws slides (iv-6↔iv-7).
+
+**Treatment under the §6 model:** iii-1 keeps the full Mohr/failure/Anderson
+treatment (pre-midterm theory home). iv-4's re-derivations become *short recaps
+with back-links* — but iv-4 legitimately *extends* the theory (Griffith,
+composite envelope, friction/Byerlee): keep those as the module's new content.
+iv-6's Anderson slides → recap + link. iv-6/iv-7 shared earthquake slides →
+keep in one deck, link from the other. Low-priority: ii's fault-geometry
+treatments are regime-specific and mostly non-redundant.
+
+---
+
+## 11. Viscous flow — inventory & growth plan (this-year priority #1)
+
+**Existing anchors** (all quantitative): iii-3 Viscous Deformation (σ=ηε̇,
+Newtonian vs power-law) · Couette flow · inclined-plane gravity flow · Maxwell
+time (t_M=η/E, mantle ~1000 yr) · viscosity table (ice → mantle) · i-3 power-law
+η=K·II_D^(n−1) + plasticity-as-viscosity · v-2 **Biot dominant wavelength**
+λ=2πH·∛(μ₁/6μ₂) (the only flow-instability equation in the course) · v-4
+shear-zone kinematics (ISA, velocity profiles) · iii-2 strain-rate tensor.
+
+**Missing for a coherent viscous thread:** Stokes/buoyancy-driven flow;
+Rayleigh–Taylor / diapir growth; post-glacial rebound → mantle-viscosity
+estimation; channel (Poiseuille) / lower-crustal flow; folding growth-*rate*
+theory (Biot slide gives wavelength only); boudinage as the dual extensional
+instability; creep-law microphysics (ε̇=Aσⁿexp(−Q/RT), grain size); glacier /
+lava / salt as worked analogues; corner flow; shear heating; **any notebook /
+computational flow exercise** (the computational track
+`Theory_Computational_Exercises.md` is commented out of the toc).
+
+**Attach-points (grow from existing slides, minimal restructuring):**
+| Anchor (existing) | Add |
+|---|---|
+| iii-3 Couette flow | Channel/Poiseuille companion → lower-crustal channel flow |
+| iii-3 Inclined plane | Name it as the glacier/lava/salt equation + photos (it already *is* the glacier equation) |
+| iii-3 viscosity table (mantle 10¹⁸–10²⁴) | Post-glacial rebound: relaxation time → η estimate (closes the loop on the quoted numbers) |
+| iii-3 power-law / i-3 power-law | Creep-law microphysics (Arrhenius, n, diffusion vs dislocation) |
+| iii-3 Maxwell time | Stokes / Rayleigh–Taylor timescale of diapiric rise |
+| v-2 Biot wavelength | Growth-rate curve (amplification vs λ) + boudinage dual instability |
+| v-4 creep-mechanisms slide (names only) | The flow-law equations it currently only names |
+| Notebooks/Exercises (empty of flow) | First computational flow exercise (inclined-plane or Biot λ vs μ-contrast); re-enable the computational-exercises page; promote the syrup/oil diapir project idea to a practical |
+
+Australian tie-ins for the new flow content (§9 synergy): salt structures
+(Amadeus/Canning basins), lower-crustal flow in Proterozoic orogens,
+post-glacial signals, Flinders folding for the Biot instability.
+
+---
+
+## 12. Provenance
+
+Built 2026-07-22 from a parallel read of all five modules' decks + book pages;
+§§9–11 added 2026-07-23 from three targeted inventory sweeps (Australian
+examples, brittle repetition, viscous flow). Modules 1–3 verified at slide-title
+granularity; iv at draft-deck level. Companion to the conversion pipeline in
+`migration/module3/`.
