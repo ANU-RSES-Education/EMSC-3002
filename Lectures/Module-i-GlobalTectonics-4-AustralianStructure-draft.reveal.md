@@ -1,0 +1,192 @@
+---
+title: EMSC 3002 - Interpreting Australian Structure
+separator: '<--o-->'
+verticalSeparator: '<--v-->'
+revealOptions:
+#    transition: 'fade'
+    slideNumber: true
+    width:  1100
+    height: 750
+    margin: 0.07
+---
+
+# EMSC 3002
+
+## Module 1.4 - Interpreting Australian Structure
+
+  - **Louis Moresi** (convenor)
+  - Chengxin Jiang (lecturer)
+  - Romain Beucher (former lecturer)
+  - Stephen Cox (curriculum advisor)
+
+Australian National University
+
+_**NB:** the course materials provided by the authors are open source under a creative commons licence.  We acknowledge the contribution of the community in providing other materials and we endeavour to provide the correct attribution and citation. Please contact louis.moresi@anu.edu.au for updates and corrections._
+
+
+<--o-->
+
+## About this section
+
+<!-- DRAFT SKELETON — N3 in migration/CONTENT-MAP.md §7. Every figure slot is a
+     TODO with its public data source named. This deck is the *base layer* that
+     the Australian examples in every other module refer back to. -->
+
+This course is about the *structure and tectonic evolution of the Australian plate* — so you need to be able to read the Australian continent the way you read a map of a field area: know the **names of the pieces**, **when they came together**, and **which datasets** reveal the structure beneath the surface.
+
+This section is a reference you will come back to throughout the course. Each later module uses Australian examples that sit somewhere on the maps you see here.
+
+<--o-->
+
+## What you will learn in this module
+
+- The **major building blocks** of the Australian continent — cratons, orogens, basins — and their names.
+- **When the pieces came together**: the assembly of Australia from the Archean to the present day.
+- Where Australia sat in **plate reconstructions** through geological time.
+- The key **continental datasets** — Moho depth, sediment thickness, lithospheric thickness, potential fields, stress and seismicity — what they show and where to find them.
+- How to use these together to **interpret a structure** in its lithospheric context.
+
+<--o-->
+
+## The names of things
+
+<!-- TODO figure: geological provinces / crustal elements map of Australia.
+     Source: Geoscience Australia "Australian Crustal Elements" or the
+     GA Geological Provinces database (public). -->
+
+The continent divides into three broad crustal super-provinces:
+
+- **West Australian Craton** — the Archean **Yilgarn** and **Pilbara** cratons, joined by the Capricorn Orogen.
+- **North Australian Craton** — Kimberley, Arunta, Mount Isa, Tennant Creek …
+- **South Australian Craton** — the **Gawler Craton**, Curnamona Province.
+
+East of these, the Phanerozoic **Tasmanides** (Delamerian, Lachlan, Thomson, Mossman, New England orogens) — the accreted eastern third of the continent.
+
+<small>
+
+The boundary zone is often drawn as the **"Tasman Line"** — useful shorthand, actively debated in detail.
+
+</small>
+
+<--o-->
+
+## When the pieces came together
+
+<!-- TODO figure: assembly timeline / cartoon sequence. Candidate basis:
+     published reconstructions (e.g. Cawood & Korsch 2008; Myers et al. 1996). -->
+
+| Era | What happened |
+|---|---|
+| **Archean** (> 2.5 Ga) | Yilgarn, Pilbara, Gawler nuclei form |
+| **Paleo–Mesoproterozoic** | Cratons sutured: Capricorn, Albany–Fraser, Musgrave, Arunta orogens — Australia assembles inside **Nuna / Rodinia** |
+| **Neoproterozoic** | Rodinia break-up; rifted margin faces the Pacific |
+| **Paleozoic** | The **Tasmanides** accrete along the Gondwana margin — Delamerian → Lachlan → New England |
+| **Mesozoic** | Gondwana break-up; rifted southern & western margins form |
+| **Cenozoic** | Rapid northward drift; collision with the Banda Arc / PNG begins at the northern margin |
+
+Intraplate reactivation continues today: Petermann and Alice Springs orogens record Paleozoic *intracontinental* mountain building — and the modern stress field (Module 1.3) still reactivates these structures.
+
+<--o-->
+
+## Australia through time — plate reconstructions
+
+<!-- TODO figure/animation: GPlates reconstruction frames (EarthByte, public);
+     the book page for Module 1 already links the GPlates portal. Show e.g.
+     500 Ma (Gondwana), 250 Ma (Pangea), 100 Ma (break-up), 45 Ma -> now. -->
+
+- Australia's position through time comes from **plate reconstructions** — palaeomagnetism, ocean-floor magnetic anomalies (Module 1.2), and geological piercing points.
+- Explore this yourself with **GPlates** (EarthByte, University of Sydney) — the same tool used in the plate-kinematics exercise.
+- Since ~45 Ma Australia has been the **fastest-moving continent**, heading north at ~7 cm/yr — which is why its northern margin is colliding while its other margins are passive.
+
+<small>
+
+→ The subduction–accretion story that built the eastern margin is taken up in the *continental accretion* lecture.
+
+</small>
+
+<--o-->
+
+## Datasets: Moho depth
+
+<!-- TODO figure: AusMoho map (Kennett et al., ANU seismology; public). -->
+
+- **AusMoho / AuSREM** — continent-wide Moho-depth model from decades of seismic refraction, reflection and receiver-function data.
+- Crustal thickness ranges from **~25 km** (thinned margins, some Proterozoic regions) to **> 50 km** under parts of the cratons.
+- Reading it: sharp Moho steps often coincide with province boundaries — the sutures of the assembly story above.
+
+<--o-->
+
+## Datasets: lithospheric thickness (LAB)
+
+<!-- TODO figure: LAB depth from AusLAMP MT and/or seismic tomography
+     (e.g. FR12/AuSREM LAB). Module 1.1 already shows a global LAB map — link it. -->
+
+- **AusLAMP** (magnetotellurics) and seismic tomography image the **lithosphere–asthenosphere boundary**.
+- Cratonic Australia has some of the **thickest lithosphere on Earth** (> 200 km); the eastern Tasmanides are much thinner (~100 km or less).
+- This thick/thin contrast controls where heat, magmatism and deformation localise — and echoes the Tasman Line.
+
+<small>
+
+↩ You saw the global version of this map in [Module 1.1 — thickness of the lithosphere](Module-i-GlobalTectonics-1.reveal.html).
+
+</small>
+
+<--o-->
+
+## Datasets: sediment thickness & basins
+
+<!-- TODO figure: OZ SEEBASE depth-to-basement (Frogtech/GA, public version),
+     or GA's sediment-thickness grid. Label the major basins. -->
+
+- **OZ SEEBASE** and GA basin studies map **depth to basement** — the thickness of the sedimentary cover.
+- Major basins: **Canning, Amadeus, Officer, Cooper–Eromanga, Great Artesian, Otway–Gippsland** (rifted southern margin), **North West Shelf**.
+- Reading it: basins record the *subsidence* half of the tectonic story — rifting, sag, foreland loading — and host the resources (and the hydrogen prospects) we return to in Module 4.
+
+<--o-->
+
+## Datasets: potential fields, stress & seismicity
+
+<!-- TODO figures: (a) TMI magnetic grid — already shown in Module 2.1, link
+     rather than repeat; (b) gravity anomaly grid (GA); (c) Australian Stress
+     Map; (d) GA neotectonics / NSHA seismicity map. -->
+
+- **Magnetics (TMI)** — the structural X-ray of the covered continent. <small>↩ First shown in [Module 2.1](Module-ii-Lecture-1-Structural-Geology-And-Crustal-Deformation.reveal.html).</small>
+- **Gravity** — density structure; craton edges and thick basins stand out.
+- **Stress** — the Australian Stress Map. <small>↩ [Module 1.1 & 1.3](Module-i-GlobalTectonics-3.reveal.html).</small>
+- **Seismicity & neotectonics** — GA catalogues; intraplate earthquakes concentrate in the Flinders, SW seismic zone, SE highlands — *where stress meets inherited structure*.
+
+<--o-->
+
+## Putting it together: reading one structure
+
+<!-- TODO worked example — pick ONE and show it in every dataset above.
+     Strong candidates: Lake George fault (ties to the Module 3 stress
+     exercise + Module 4 fault-zone lecture) or the Flinders Ranges
+     (ties to Module 5 folding + neotectonic reactivation). -->
+
+For any Australian structure, ask:
+
+1. **Which piece is it in?** (province / orogen — the names)
+2. **When did that piece form, and when did it last move?** (assembly history)
+3. **What do the datasets show beneath it?** (Moho, LAB, basement depth, magnetics, gravity)
+4. **What is the modern loading?** (stress field, seismicity)
+
+*Worked example to be added here — Lake George fault or Flinders Ranges.*
+
+<--o-->
+
+## Where this thread runs through the course
+
+This deck is the base layer. The Australian examples in each module sit on it:
+
+- **Module 1** — stress field, WA M5.6 earthquake, lithospheric maps
+- **Module 2** — TMI magnetics; <!-- TODO --> contractional / extensional Australian examples to come
+- **Module 3** — Olympic Dam stress measurement; Lake George fault exercise
+- **Module 4** — Kangaroo Island joints; Canberra faults; Lake George Fault Zone; Mansfield 2021 earthquake; hydrogen fault-modelling application
+- **Module 5** — Ruby Gap mylonites; <!-- TODO --> Flinders folding example to come
+
+<small>
+
+Datasets & portals: GA Portal (portal.ga.gov.au) · AusMoho/AuSREM (ANU) · AusLAMP (GA/AuScope) · OZ SEEBASE · Australian Stress Map · GPlates (EarthByte)
+
+</small>
