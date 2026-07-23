@@ -1,0 +1,220 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg version="1.1" xmlns:xl="http://www.w3.org/1999/xlink" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns="http://www.w3.org/2000/svg" viewBox="87.4655 77.576 396.1495 215.003" width="396.1495" height="215.003">
+  <defs>
+    <marker orient="auto" overflow="visible" markerUnits="strokeWidth" id="FilledArrow_Marker" stroke-linejoin="miter" stroke-miterlimit="10" viewBox="-1 -3 8 6" markerWidth="8" markerHeight="6" color="black">
+      <g>
+        <path d="M 5.257143 0 L 0 -1.9714286 L 0 1.9714286 Z" fill="currentColor" stroke="currentColor" stroke-width="1"/>
+      </g>
+    </marker>
+    <marker orient="auto" overflow="visible" markerUnits="strokeWidth" id="FilledArrow_Marker_2" stroke-linejoin="miter" stroke-miterlimit="10" viewBox="-7 -3 8 6" markerWidth="8" markerHeight="6" color="black">
+      <g>
+        <path d="M -5.257143 0 L 0 1.9714286 L 0 -1.9714286 Z" fill="currentColor" stroke="currentColor" stroke-width="1"/>
+      </g>
+    </marker>
+    <font-face font-family="Helvetica" font-size="24" units-per-em="1000" underline-position="-75.68359" underline-thickness="49.316406" slope="0" x-height="532.22656" cap-height="719.7266" ascent="770.0195" descent="-229.98047" font-weight="700">
+      <font-face-src>
+        <font-face-name name="Helvetica-Bold"/>
+      </font-face-src>
+    </font-face>
+    <marker orient="auto" overflow="visible" markerUnits="strokeWidth" id="HalfStickArrow_Marker" stroke-linejoin="miter" stroke-miterlimit="10" viewBox="-1 -1 8 4" markerWidth="8" markerHeight="4" color="black">
+      <g>
+        <path d="M 5.257143 0 L 0 0 M 0 1.9714286 L 5.257143 0" fill="none" stroke="currentColor" stroke-width="1"/>
+      </g>
+    </marker>
+    <font-face font-family="Helvetica" font-size="18" units-per-em="1000" underline-position="-75.68359" underline-thickness="49.316406" slope="0" x-height="522.9492" cap-height="717.28516" ascent="770.0195" descent="-229.98047" font-weight="400">
+      <font-face-src>
+        <font-face-name name="Helvetica"/>
+      </font-face-src>
+    </font-face>
+    <font-face font-family="Helvetica" font-size="10" units-per-em="1000" underline-position="-75.68359" underline-thickness="49.316406" slope="0" x-height="522.9492" cap-height="717.28516" ascent="770.0195" descent="-229.98047" font-weight="400">
+      <font-face-src>
+        <font-face-name name="Helvetica"/>
+      </font-face-src>
+    </font-face>
+    <marker orient="auto" overflow="visible" markerUnits="strokeWidth" id="Ball_Marker" stroke-linejoin="miter" stroke-miterlimit="10" viewBox="-1 -4 8 8" markerWidth="8" markerHeight="8" color="#7c1f0f">
+      <g>
+        <circle cx="2.9999986" cy="0" r="2.99999734868332" fill="none" stroke="currentColor" stroke-width="1"/>
+      </g>
+    </marker>
+    <marker orient="auto" overflow="visible" markerUnits="strokeWidth" id="Ball_Marker_2" stroke-linejoin="miter" stroke-miterlimit="10" viewBox="-7 -4 8 8" markerWidth="8" markerHeight="8" color="#7c1f0f">
+      <g>
+        <circle cx="-2.9999986" cy="0" r="2.99999734868332" fill="none" stroke="currentColor" stroke-width="1"/>
+      </g>
+    </marker>
+    <font-face font-family="Helvetica" font-size="12" units-per-em="1000" underline-position="-75.68359" underline-thickness="49.316406" slope="0" x-height="522.9492" cap-height="717.28516" ascent="770.0195" descent="-229.98047" font-weight="400">
+      <font-face-src>
+        <font-face-name name="Helvetica"/>
+      </font-face-src>
+    </font-face>
+  </defs>
+  <metadata> Produced by OmniGraffle 7.18.5\n2006-08-23 02:13:49 +0000</metadata>
+  <g id="Question_5" stroke-opacity="1" fill="none" stroke="none" stroke-dasharray="none" fill-opacity="1">
+    <title>Question 5</title>
+    <rect fill="white" x="87.4655" y="77.576" width="396.1495" height="215.003"/>
+    <g id="Question_5_Layer_1">
+      <title>Layer 1</title>
+      <g id="Line_124">
+        <line x1="361.856" y1="185.144" x2="450.941" y2="185.144" marker-end="url(#FilledArrow_Marker)" marker-start="url(#FilledArrow_Marker_2)" stroke="black" stroke-linecap="butt" stroke-linejoin="round" stroke-width="1.75"/>
+      </g>
+      <g id="Line_123">
+        <line x1="213.048" y1="185.286" x2="228.898" y2="185.286" marker-start="url(#FilledArrow_Marker_2)" stroke="black" stroke-linecap="butt" stroke-linejoin="round" stroke-width="1.75"/>
+      </g>
+      <g id="Graphic_106">
+        <text transform="translate(101.5673 106.839)" fill="black">
+          <tspan font-family="Helvetica" font-size="24" font-weight="700" fill="black" x="0" y="23">A</tspan>
+        </text>
+      </g>
+      <g id="Graphic_105">
+        <text transform="translate(100.5673 261.288)" fill="black">
+          <tspan font-family="Helvetica" font-size="24" font-weight="700" fill="black" x=".33398438" y="23">B</tspan>
+        </text>
+      </g>
+      <g id="Line_117">
+        <line x1="88.9655" y1="233.737" x2="201.62" y2="233.737" stroke="black" stroke-linecap="butt" stroke-linejoin="round" stroke-width="3"/>
+      </g>
+      <g id="Line_118">
+        <line x1="199.898" y1="139" x2="199.898" y2="232.288" stroke="black" stroke-linecap="butt" stroke-linejoin="round" stroke-width="3"/>
+      </g>
+      <g id="Line_119">
+        <line x1="405.898" y1="140.288" x2="405.898" y2="281.088" stroke="black" stroke-linecap="butt" stroke-linejoin="round" stroke-width="6"/>
+      </g>
+      <g id="Line_120">
+        <line x1="201.315" y1="140.288" x2="313.969" y2="140.288" stroke="black" stroke-linecap="butt" stroke-linejoin="round" stroke-width="3"/>
+      </g>
+      <g id="Line_121">
+        <line x1="408.115" y1="279.642" x2="482.115" y2="279.642" stroke="black" stroke-linecap="butt" stroke-linejoin="round" stroke-width="3"/>
+      </g>
+      <g id="Line_244">
+        <line x1="315.599" y1="78.576" x2="315.599" y2="141.576" stroke="black" stroke-linecap="butt" stroke-linejoin="round" stroke-dasharray="4.0,4.0" stroke-width="2"/>
+      </g>
+      <g id="Line_237">
+        <line x1="317.182" y1="140.275" x2="404.254" y2="140.275" stroke="black" stroke-linecap="butt" stroke-linejoin="round" stroke-width="3"/>
+      </g>
+      <g id="Line_242">
+        <line x1="236.786" y1="147.983" x2="264.636" y2="147.983" marker-end="url(#HalfStickArrow_Marker)" stroke="black" stroke-linecap="butt" stroke-linejoin="round" stroke-width="1.75"/>
+      </g>
+      <g id="Line_241">
+        <line x1="274.203" y1="132.567" x2="246.352" y2="132.567" marker-end="url(#HalfStickArrow_Marker)" stroke="black" stroke-linecap="butt" stroke-linejoin="round" stroke-width="1.75"/>
+      </g>
+      <g id="Graphic_240">
+        <text transform="translate(442.398 106.839)" fill="black">
+          <tspan font-family="Helvetica" font-size="24" font-weight="700" fill="black" x=".33398438" y="23">C</tspan>
+        </text>
+      </g>
+      <g id="Graphic_243">
+        <text transform="translate(251.78063 109.213)" fill="black">
+          <tspan font-family="Helvetica" font-size="18" font-weight="400" fill="black" x="0" y="18">?</tspan>
+        </text>
+      </g>
+      <g id="Group_206">
+        <g id="Line_208">
+          <path d="M 464.872 287.579 L 425.188 287.579 L 432.189 291.579" stroke="black" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"/>
+        </g>
+        <g id="Line_207">
+          <path d="M 425.357 272.704 L 465.04 272.704 L 458.04 268.704" stroke="black" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"/>
+        </g>
+      </g>
+      <g id="Group_248">
+        <g id="Line_250">
+          <path d="M 381.007 148.212 L 341.322 148.212 L 348.323 152.212" stroke="black" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"/>
+        </g>
+        <g id="Line_249">
+          <path d="M 341.491 133.337 L 381.174 133.337 L 374.174 129.337" stroke="black" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"/>
+        </g>
+      </g>
+      <g id="Group_251">
+        <g id="Line_253">
+          <path d="M 141.241 241.675 L 101.557 241.675 L 108.558 245.675" stroke="black" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"/>
+        </g>
+        <g id="Line_252">
+          <path d="M 101.726 226.8 L 141.409 226.8 L 134.41 222.8" stroke="black" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"/>
+        </g>
+      </g>
+      <g id="Group_216">
+        <g id="Graphic_222">
+          <path d="M 198.47 231.43 L 184.47 224.43 L 198.47 217.43 Z" fill="black"/>
+          <path d="M 198.47 231.43 L 184.47 224.43 L 198.47 217.43 Z" stroke="black" stroke-linecap="round" stroke-linejoin="round" stroke-width="1"/>
+        </g>
+        <g id="Graphic_221">
+          <path d="M 198.47 212.23 L 184.47 205.23 L 198.47 198.23 Z" fill="black"/>
+          <path d="M 198.47 212.23 L 184.47 205.23 L 198.47 198.23 Z" stroke="black" stroke-linecap="round" stroke-linejoin="round" stroke-width="1"/>
+        </g>
+        <g id="Graphic_220">
+          <path d="M 198.47 193.031 L 184.47 186.031 L 198.47 179.031 Z" fill="black"/>
+          <path d="M 198.47 193.031 L 184.47 186.031 L 198.47 179.031 Z" stroke="black" stroke-linecap="round" stroke-linejoin="round" stroke-width="1"/>
+        </g>
+        <g id="Graphic_219">
+          <path d="M 198.47 154.632 L 184.47 147.632 L 198.47 140.632 Z" fill="black"/>
+          <path d="M 198.47 154.632 L 184.47 147.632 L 198.47 140.632 Z" stroke="black" stroke-linecap="round" stroke-linejoin="round" stroke-width="1"/>
+        </g>
+        <g id="Graphic_218">
+          <path d="M 198.47 173.831 L 184.47 166.831 L 198.47 159.831 Z" fill="black"/>
+          <path d="M 198.47 173.831 L 184.47 166.831 L 198.47 159.831 Z" stroke="black" stroke-linecap="round" stroke-linejoin="round" stroke-width="1"/>
+        </g>
+        <g id="Line_217">
+          <line x1="199.47" y1="139.632" x2="199.47" y2="231.949" stroke="black" stroke-linecap="butt" stroke-linejoin="round" stroke-width="3"/>
+        </g>
+      </g>
+      <g id="Graphic_254">
+        <text transform="translate(319.18963 78.576)" fill="black">
+          <tspan font-family="Helvetica" font-size="18" font-weight="400" fill="black" x="0" y="18">?</tspan>
+        </text>
+      </g>
+      <g id="Graphic_255">
+        <text transform="translate(231.427 177.851)" fill="black">
+          <tspan font-family="Helvetica" font-size="10" font-weight="400" fill="black" x="0" y="10">4cm/yr</tspan>
+        </text>
+      </g>
+      <g id="Graphic_256">
+        <text transform="translate(350.884 165.545)" fill="black">
+          <tspan font-family="Helvetica" font-size="10" font-weight="400" fill="black" x="0" y="10">8cm/yr</tspan>
+        </text>
+      </g>
+      <g id="Graphic_257">
+        <text transform="translate(440.155 165.545)" fill="black">
+          <tspan font-family="Helvetica" font-size="10" font-weight="400" fill="black" x="0" y="10">8cm/yr</tspan>
+        </text>
+      </g>
+      <g id="Line_259">
+        <line x1="171.26795" y1="220.289" x2="418.35405" y2="219.339" marker-end="url(#Ball_Marker)" marker-start="url(#Ball_Marker_2)" stroke="#7c1f0f" stroke-linecap="round" stroke-linejoin="round" stroke-dasharray="4.0,4.0" stroke-width="1"/>
+      </g>
+      <g id="Line_260">
+        <line x1="171.26795" y1="245.399" x2="418.35405" y2="244.449" marker-end="url(#Ball_Marker)" marker-start="url(#Ball_Marker_2)" stroke="#7c1f0f" stroke-linecap="round" stroke-linejoin="round" stroke-dasharray="4.0,4.0" stroke-width="1"/>
+      </g>
+      <g id="Line_261">
+        <line x1="171.268" y1="196.203" x2="371.143" y2="196.203" marker-end="url(#Ball_Marker)" marker-start="url(#Ball_Marker_2)" stroke="#7c1f0f" stroke-linecap="round" stroke-linejoin="round" stroke-dasharray="4.0,4.0" stroke-width="1"/>
+      </g>
+      <g id="Graphic_262">
+        <text transform="translate(155.76809 189.703)" fill="#7d1f0f">
+          <tspan font-family="Helvetica" font-size="12" font-weight="400" fill="#7d1f0f" x="0" y="11">p</tspan>
+        </text>
+      </g>
+      <g id="Graphic_263">
+        <text transform="translate(382.6606 189.703)" fill="#7d1f0f">
+          <tspan font-family="Helvetica" font-size="12" font-weight="400" fill="#7d1f0f" x="0" y="11">p&apos;</tspan>
+        </text>
+      </g>
+      <g id="Graphic_264">
+        <text transform="translate(155.76809 211.72)" fill="#7d1f0f">
+          <tspan font-family="Helvetica" font-size="12" font-weight="400" fill="#7d1f0f" x="0" y="11">q</tspan>
+        </text>
+      </g>
+      <g id="Graphic_265">
+        <text transform="translate(157.10695 237.924)" fill="#7d1f0f">
+          <tspan font-family="Helvetica" font-size="12" font-weight="400" fill="#7d1f0f" x="0" y="11">r</tspan>
+        </text>
+      </g>
+      <g id="Graphic_266">
+        <text transform="translate(428.8716 211.72)" fill="#7d1f0f">
+          <tspan font-family="Helvetica" font-size="12" font-weight="400" fill="#7d1f0f" x="0" y="11">q&apos;</tspan>
+        </text>
+      </g>
+      <g id="Graphic_267">
+        <text transform="translate(430.21045 237.924)" fill="#7d1f0f">
+          <tspan font-family="Helvetica" font-size="12" font-weight="400" fill="#7d1f0f" x="0" y="11">r&apos;</tspan>
+        </text>
+      </g>
+    </g>
+  </g>
+</svg>
