@@ -1,0 +1,134 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   width="77.371529mm"
+   height="26.484596mm"
+   viewBox="0 0 77.371529 26.484596"
+   version="1.1"
+   id="svg5"
+   inkscape:version="1.1.1 (3bf5ae0d25, 2021-09-20)"
+   sodipodi:docname="ControlPoints.svg"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg">
+  <sodipodi:namedview
+     id="namedview7"
+     pagecolor="#ffffff"
+     bordercolor="#cccccc"
+     borderopacity="1"
+     inkscape:pageshadow="0"
+     inkscape:pageopacity="1"
+     inkscape:pagecheckerboard="0"
+     inkscape:document-units="mm"
+     showgrid="false"
+     fit-margin-top="2"
+     fit-margin-left="2"
+     fit-margin-right="2"
+     fit-margin-bottom="2"
+     inkscape:zoom="2.7652076"
+     inkscape:cx="111.0224"
+     inkscape:cy="99.0884"
+     inkscape:window-width="1920"
+     inkscape:window-height="1011"
+     inkscape:window-x="0"
+     inkscape:window-y="0"
+     inkscape:window-maximized="1"
+     inkscape:current-layer="layer1" />
+  <defs
+     id="defs2" />
+  <g
+     inkscape:label="Layer 1"
+     inkscape:groupmode="layer"
+     id="layer1"
+     transform="translate(-146.69377,-85.668557)">
+    <circle
+       style="fill:#000000;stroke:#000000;stroke-width:0.499999;stroke-linecap:square;stroke-linejoin:round"
+       id="path858"
+       cx="173.46426"
+       cy="92.296768"
+       r="1.4447757" />
+    <circle
+       style="fill:#000000;stroke:#000000;stroke-width:0.499999;stroke-linecap:square;stroke-linejoin:round"
+       id="circle984"
+       cx="196.9021"
+       cy="91.888992"
+       r="1.4447757" />
+    <path
+       style="fill:none;stroke:#000000;stroke-width:0.264583px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       d="m 160.32,96.650156 13.41693,-4.521022"
+       id="path1019" />
+    <path
+       style="fill:none;stroke:#000000;stroke-width:0.264583px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       d="m 197.21103,91.997197 9.0839,7.349649"
+       id="path1021" />
+    <path
+       style="fill:none;stroke:#000000;stroke-width:1;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:2, 1;stroke-dashoffset:0;stroke-opacity:1"
+       d="M 186.41455,87.76771 181.90549,110.054"
+       id="path1023" />
+    <path
+       style="fill:none;stroke:#000000;stroke-width:0.264583;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:0.793749, 0.264583;stroke-dashoffset:0;stroke-opacity:1"
+       d="m 173.73693,92.129134 23.4741,-0.131937"
+       id="path1058" />
+    <path
+       style="fill:none;stroke:#000000;stroke-width:0.264583px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       d="m 171.75151,97.347969 13.5283,-4.48813 10.69706,7.949161"
+       id="path1060" />
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-weight:normal;font-size:3.52778px;line-height:1.25;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.264583"
+       x="199.51714"
+       y="90.889366"
+       id="text2230"><tspan
+         sodipodi:role="line"
+         id="tspan2228"
+         style="font-size:3.52778px;stroke-width:0.264583"
+         x="199.51714"
+         y="90.889366">Control Point</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-weight:normal;font-size:3.52778px;line-height:1.25;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.264583"
+       x="148.49568"
+       y="90.877029"
+       id="text3188"><tspan
+         sodipodi:role="line"
+         id="tspan3186"
+         style="font-size:3.52778px;stroke-width:0.264583"
+         x="148.49568"
+         y="90.877029">Control Point</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-weight:normal;font-size:3.52778px;line-height:1.25;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.264583"
+       x="189.27159"
+       y="103.65594"
+       id="text3192"><tspan
+         sodipodi:role="line"
+         id="tspan3190"
+         style="font-size:3.52778px;stroke-width:0.264583"
+         x="189.27159"
+         y="103.65594">Axial Plane Trace</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-weight:normal;font-size:3.8184px;line-height:1.25;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.0954602"
+       x="180.8443"
+       y="97.094872"
+       id="text14394"><tspan
+         sodipodi:role="line"
+         id="tspan14392"
+         style="stroke-width:0.0954602"
+         x="180.8443"
+         y="97.094872">γ</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-weight:normal;font-size:3.8184px;line-height:1.25;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.0954602"
+       x="185.73759"
+       y="97.362488"
+       id="text17638"><tspan
+         sodipodi:role="line"
+         id="tspan17636"
+         style="stroke-width:0.0954602"
+         x="185.73759"
+         y="97.362488">γ</tspan></text>
+  </g>
+</svg>
