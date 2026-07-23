@@ -23,10 +23,11 @@ mkdir -p "$STAGE"
 cp Lectures/*.reveal.md "$STAGE/"
 cp Lectures/mkslides.yml "$STAGE/"
 cp -R Lectures/css Lectures/data Lectures/images Lectures/movies "$STAGE/" 2>/dev/null || true
-cp -R Lectures/Module-ii-Figures-Structural-Geology-And-Crustal-Deformation \
-      Lectures/Module-iii-Theory \
-      Lectures/Module-iv-Brittle-Deformation \
-      Lectures/Module-v-Ductile-Deformation "$STAGE/" 2>/dev/null || true
+# every Module-* asset DIRECTORY (figures, extracted images, ...) — directories only,
+# so book-page .md files are not swept in and built as bogus slideshows
+for d in Lectures/Module-*/; do
+  cp -R "${d%/}" "$STAGE/" 2>/dev/null || true   # strip trailing slash: BSD cp -R dir/ copies contents, not dir
+done
 ( cd "$STAGE" && mkslides build . -f mkslides.yml -d "$SLIDES_OUT" )
 rm -rf "$STAGE"
 
