@@ -1,0 +1,846 @@
+---
+title: Brittle deformation (draft — reveal conversion)
+separator: '<--o-->'
+verticalSeparator: '<--v-->'
+revealOptions:
+    transition: 'fade'
+    slideNumber: true
+    width: 1200
+    height: 800
+    margin: 0.07
+---
+
+<!-- source: Lecture4_Brittle_deformation.pptx slide 1 · template: T-title -->
+# EMSC 3002
+
+## Module 4 - Brittle deformation
+
+Australian National University
+
+
+<--o-->
+
+<!-- source: Lecture4_Brittle_deformation.pptx slide 2 · template: T-resources -->
+## Resources
+
+1. Stress: Force/Area (N/m<sup>2</sup> = Pa)
+1. Strain: the amount of movement caused by stresses between parts of a body
+1. Rheology studies how materials deform/flow in response to stress (solids, fluids, gases).
+1. Elastic (E), plastic, viscous ($\eta$) and brittle deformation
+1. SUMMARY OF MODULE 3
+1. $$\sigma =\left[ \begin{matrix} \sigma 1 & 0 & 0 \cr 0 & \sigma 2 & 0 \cr 0 & 0 & \sigma 3 \end{matrix} \right]$$
+1. $$\epsilon ij= \frac{1}{2}\left[ \frac{{\partial u}_{i}}{{\partial x}_{j}}+\frac{{\partial u}_{j}}{{\partial x}_{i}} \right]$$
+
+<--o-->
+
+<!-- ILO placeholder — not in the pptx; fill in -->
+## Intended learning outcomes
+
+<!-- TODO: add the intended learning outcomes for this module -->
+
+<--o-->
+
+<!-- source: Lecture4_Brittle_deformation.pptx slide 3 · template: T3-text-and-image -->
+## Module 4.1 – Processes and Mechanisms of Brittle Deformation
+<div class="cols">
+<div>
+
+![](Module-iv-Brittle-Deformation/Lecture4-extracted/slide003_img1.jpg)
+
+</div>
+<div class="wide">
+
+- Louis Moresi (convenor)
+- Chengxin Jiang (lecturer)
+- Romain Beucher (former lecturer)
+- Stephen Cox (curriculum advisor)
+
+</div>
+</div>
+
+<--o-->
+
+<!-- source: Lecture4_Brittle_deformation.pptx slide 4 · template: T4-full-figure -->
+<!-- .slide: data-background="Module-iv-Brittle-Deformation/Lecture4-extracted/slide004_img1.jpg" -->
+
+<--o-->
+
+<!-- source: Lecture4_Brittle_deformation.pptx slide 5 · template: T4-full-figure -->
+<!-- .slide: data-background="Module-iv-Brittle-Deformation/Lecture4-extracted/slide005_img1.jpg" -->
+
+<--o-->
+
+<!-- source: Lecture4_Brittle_deformation.pptx slide 6 · template: T3-text-and-image -->
+## Brittle Deformation
+<div class="cols">
+<div>
+
+![](Module-iv-Brittle-Deformation/Lecture4-extracted/slide006_img1.jpg)
+![](Module-iv-Brittle-Deformation/Lecture4-extracted/slide006_img2.jpg)
+![](Module-iv-Brittle-Deformation/Lecture4-extracted/slide006_img3.jpg)
+
+<p class="caption">Fault · Dike · Fossen, 2011 · Veins · Google map</p>
+
+</div>
+<div class="wide">
+
+- The permanent change occurs in a solid material due to the growth of fractures and/or due to sliding on previous fractures.
+
+</div>
+</div>
+
+Note:
+Brittle deformation is observable in practically all rock outcrops. Several examples: fault zones. Magma-filled fractures as dikes: it is tougher for the weathering than the older rock it is cutting through. Mineral-filled extension fractures are called veins. 
+
+This deformation plays a major role in the permeability, strength and erosional resistance of a rock.
+
+<--o-->
+
+<!-- source: Lecture4_Brittle_deformation.pptx slide 7 · template: T3-text-and-image -->
+## Fractures
+<div class="cols">
+<div class="wide">
+
+- Discontinuities in displacement and mechanical properties where rocks or minerals are broken, and reduction or loss of cohesion characterizes most fractures.
+- It does not extend infinitely in all directions and can be characterized by the fracture trace, fracture front and fracture tip.
+
+van der Pluijm & Marshall (2003)
+
+</div>
+<div>
+
+![](Module-iv-Brittle-Deformation/Lecture4-extracted/slide007_img1.jpg)
+![](Module-iv-Brittle-Deformation/Lecture4-extracted/slide007_img2.jpg)
+![](Module-iv-Brittle-Deformation/Lecture4-extracted/slide007_img3.jpg)
+
+<p class="caption">Half Dome, Yosemite · Exfoliation joints</p>
+
+</div>
+</div>
+
+Note:
+Some fractures intersect the surface of a body of rock, and others terminate within the body. Fracture trace is the intersection of the fracture with the surface of a rock body. The line that separates the region of the fractures rocks from the unfractured rocks is the fracture front. The point where the fracture trace terminates on the fracture trace is the fracture tip. 
+
+The photo on the right shows the famous scenery in Yosemite national park in California, the Half dome. It is a challenge that draws mountain climbers there (~25 km hiking from trail head and the mountain is 2.6 km above the sea level). It is a result of brittle deformation, or more specifically, the joints. The dome is composed of granodiorite, and is the remains of a magma chamber that cooled slowly and crystallized thousands of feet beneath the Earth's surface. The solidified magma chamber was then exposed by uplift and erosion of the overlying rock. As the overlying rock eroded, the confining pressure on the pluton was removed and a type of weathering called exfoliation slowly created the more rounded appearance of the dome.
+
+<--o-->
+
+<!-- source: Lecture4_Brittle_deformation.pptx slide 8 · template: T3-text-and-image -->
+<div class="cols">
+<div>
+
+![](Module-iv-Brittle-Deformation/Lecture4-extracted/slide008_img1.jpeg)
+![](Module-iv-Brittle-Deformation/Lecture4-extracted/slide008_img2.jpg)
+![](Module-iv-Brittle-Deformation/Lecture4-extracted/slide008_img3.jpg)
+![](Module-iv-Brittle-Deformation/Lecture4-extracted/slide008_img4.jpg)
+
+<p class="caption">FRACTURES · Half Dome, Yosemite · van der Pluijm & Marshall (2003) · Sorkhabi, GeoExpro, 2014</p>
+
+</div>
+<div class="wide">
+
+- Discontinuities in displacement and mechanical properties where rocks or minerals are broken, and reduction or loss of cohesion characterizes most fractures.
+- It does not extend infinitely in all directions and can be characterized by the fracture trace, fracture front and fracture tip.
+
+</div>
+</div>
+
+Note:
+It is smoothly rounded on three sides and a sheer vertical face on the fourth. At the same time, weathering along vertical joints created the steep northwest face. Later glaciation continued the process by undercutting and plucking rock from the already steep face. The processes of weathering continues to this day as shown by the many rock falls which occur within Yosemite Valley.
+
+<--o-->
+
+<!-- source: Lecture4_Brittle_deformation.pptx slide 9 · template: T3-text-and-image -->
+## Closer Look at Fractures
+<div class="cols">
+<div>
+
+![](Module-iv-Brittle-Deformation/Lecture4-extracted/slide009_img1.jpg)
+![](Module-iv-Brittle-Deformation/Lecture4-extracted/slide009_img2.jpg)
+
+<p class="caption">Fossen, 2011</p>
+
+</div>
+<div class="wide">
+
+- They are very narrow zones and are often thought of as surfaces if zoom-out.
+- They are not necessarily smooth and planar surfaces but can be deformation bands.
+- Different from fault on the size of displacement.
+
+Navajo Sandstone
+
+Fracture bands in outcrop and thin section
+
+</div>
+</div>
+
+Note:
+Cataclastic deformation band in outcrop (left) and thin section (right) of a Sandstone. Note the extensive crushing of grains and reduction of porosity 
+
+The term shear fracture is used for fractures with small (mm- to dm-scale) displacements, while the term fault is more commonly restricted to discontinuities with larger offset.
+
+<--o-->
+
+<!-- source: Lecture4_Brittle_deformation.pptx slide 10 · template: T3-text-and-image -->
+## Four Modes of Fracturing
+<div class="cols">
+<div>
+
+![](Module-iv-Brittle-Deformation/Lecture4-extracted/slide010_img1.jpg)
+
+<p class="caption">Sorkhabi, GeoExpro, 2014</p>
+
+</div>
+<div class="wide">
+
+- Based on the relative displacement (infinitesimal) at the tip of fracture surfaces
+- Mode I fractures are tensile ones → perpendicular to σ<sub>3</sub> direction
+- Mode II and III fractures are both shear ones → parallel to surface and fracture front
+- Combinations of the three modes form the hybrid mode.
+- Mode IV is sometimes used for contractional features such as stylolite.
+
+</div>
+</div>
+
+Note:
+Three configurations of crack loading, which result in three different modes of crack-surface displacement. This displacement refers to only the infinitesimal movement initiating at the crack tip and is not measurable mesoscopic displacement as in faults. During Mode I displacement, a facture (crack) open very slightly in the direction perpendicular to the fracture surface, so they are tensile cracks. They form parallel to the principal plane of stress that is perpendicular to the sigma3 direction. During Mode II displacement, rock on one side of the fracture surface moves slightly in the direction parallel to the fracture surface and perpendicular to the fracture front. During Mode III displacement, rocks on one side of the fracture slides slightly parallel to the direction of the fracture front. 
+Shear-mode fracture and faults are not simply microscopic equivalents. Difference on the propagation of shear-mode cracks.
+
+<--o-->
+
+<!-- source: Lecture4_Brittle_deformation.pptx slide 11 · template: T3-text-and-image -->
+## Geometrical Relations with Stress
+<div class="cols">
+<div>
+
+![](Module-iv-Brittle-Deformation/Lecture4-extracted/slide011_img1.jpg)
+![](Module-iv-Brittle-Deformation/Lecture4-extracted/slide011_img2.jpg)
+![](Module-iv-Brittle-Deformation/Lecture4-extracted/slide011_img3.jpg)
+
+<p class="caption">Fossen, 2011</p>
+
+</div>
+<div class="wide">
+
+- Extension fracture
+- Perpendicular to the minimum stress direction and stretching direction
+- Shear fracture
+- Typically develop at 20-30º to the maximum stress direction and often in conjugate pairs
+- Why this is the case (Mohr circle)?
+- Stylolite
+- Perpendicular to the maximum stress direction
+
+Callan Bentley, AGU blog
+
+</div>
+</div>
+
+Note:
+Let’s put the different modes/types of factures under a context of a known stress state and analysis their geometrical relations with the stress direction. 
+
+Stylolites are serrated surfaces within a rock mass where mineral material has been removed by pressure dissolution. Minerals which are insoluble in water, such as clays, pyrite and oxides, as well as insoluble organic matter, remain within the stylolites and make them visible. 
+
+Outcrop in Devonian-aged Helderberg formation around the New York state. 
+You can see both bedding-parallel and non-bedding-parallel stylolites overprinting the limestone. Bedding-parallel stylolites can be understood readily in terms of sedimentary loading (compression from above), but non-bedding-parallel stylolites imply a maximum pressure direction that came not from above — but instead, from the sides. In other words, it’s a tectonic stress.
+Interestingly, this same outcrop includes extensional veins filled with white calcite – these rocks have been both squeezed and stretched in the same direction.
+
+<--o-->
+
+<!-- source: Lecture4_Brittle_deformation.pptx slide 12 · template: T6-two-image -->
+## Real Examples
+<div class="cols">
+<div>
+
+![](Module-iv-Brittle-Deformation/Lecture4-extracted/slide012_img1.jpg)
+
+</div>
+<div>
+
+![](Module-iv-Brittle-Deformation/Lecture4-extracted/slide012_img2.jpg)
+
+</div>
+</div>
+<p class="caption">Photo (a) shows a set of approximately parallel veins filled with calcite in a limestone. Note also a different generation of joints that do not contain minerals (?). Photo (b) shows a set of hybrid extensional-shear veins. The two very thick veins are shear veins, and the thinner associated veins are extension veins. · (a) · (b)</p>
+
+Note:
+(a) What is the likely direction of the sigma-3 principal stress direction? Note also a different generation of joints which do not appear to contain minerals. How did this happen? The veins extend across the joints, meaning it is relatively older. 
+
+(b) Which of the two veins sets is older? The extensional set of veins formed earlier, and the shear veins are later, and probably formed in response to increased stress and a change in orientation of the sigma-1 and sigma-3 stress fields, relative to the stress forming the first set.
+
+<--o-->
+
+<!-- source: Lecture4_Brittle_deformation.pptx slide 13 · template: T6-two-image -->
+## Brittle Deformation in Nature
+<div class="cols">
+<div>
+
+![](Module-iv-Brittle-Deformation/Lecture4-extracted/slide013_img1.jpg)
+
+</div>
+<div>
+
+![](Module-iv-Brittle-Deformation/Lecture4-extracted/slide013_img2.jpg)
+
+</div>
+</div>
+<p class="caption">van der Pluijm & Marshall (2003)</p>
+
+Note:
+is at equilibrium state. (b) as a consequence of stretching of the lattice, some bonds stretch and some shorten, and the angle between pairs of bonds also change. (c) if bonds are stretched too far, they break, and the elastic strain is released. The break may irregularly crosscut the lattice producing a fracture, or it may follow a crystallographic plane of weakness, producing a mineral cleavage. Whether a crystal deforms by discrete fracture or by slip along a crystallographic plane depends on whether the stress required for fracture is greater or less than the stress required for slip.
+
+<--o-->
+
+<!-- source: Lecture4_Brittle_deformation.pptx slide 14 · template: T3-text-and-image -->
+## Internal Defects
+<div class="cols">
+<div class="wide">
+
+- Tensile strength of 1-10 GPa by theory but only 10 MPa in experiments.
+- A paradox: how can natural rocks fracture at stresses so much lower than the theoretical strength?
+- The first step is the realization that defects are everywhere, and remote stress gets concentrated at the sides of flaws inside a material, resulting in a large local stress.
+- A crack does not form instantaneously but rather a crack initiates at a small flaw and grow outwards.
+
+van der Pluijm & Marshall (2003)
+
+</div>
+<div>
+
+![](Module-iv-Brittle-Deformation/Lecture4-extracted/slide014_img1.jpg)
+![](Module-iv-Brittle-Deformation/Lecture4-extracted/slide014_img2.jpg)
+![](Module-iv-Brittle-Deformation/Lecture4-extracted/slide014_img3.jpg)
+
+<p class="caption">Fossen, 2011</p>
+
+</div>
+</div>
+
+Note:
+Based on what we learned in the theoretical module, we know that the stress equals the Young’s modulus times the strain. Using realistic values, one would get a theoretical strength of rock that is on the order of thousands of Mpa.
+Remote stress: the stress that is far from your region of interests. Local stress: the stress at the point of interest. 
+
+We can examine how preexisting cracks affect the magnitude of stress necessary for tensile cracking in a simple experiment. Take a sheet of paper and pull at both ends. You have to pull quite hard in order to tear the paper. But when you make two cuts in the edge of the sheet near its center and pull again. You will find it takes much less force to tear the paper, and it tears apart by growth of the longer preexisting cut.
+
+<--o-->
+
+<!-- source: Lecture4_Brittle_deformation.pptx slide 15 · template: T3-text-and-image -->
+## How Cracks Weaken a Material?
+<div class="cols">
+<div class="wide">
+
+- Charles Inglis provides a linear elastic solution in 1913 to show the concentration increases with decreasing thickness/length ratio (ellipticity) of the microfracture.
+- where ${\sigma}_{r}$ is remote stress, a/c is ellipticity.
+- Alan A. Griffith in the 1920s applies the concept of stress concentration at the ends of elliptical holes to fracture development (Griffith cracks).
+- Useful insight into the nature of cracking, but not adequately considering how crack shape, length and orientation affect the process → Linear Elastic Fracture Mechanics.
+
+$${\sigma}_{tip}={\sigma}_{r}(1+\left( \frac{2a}{c} \right))$$
+
+Sir Charles Edward Inglis
+
+Alan Arnold Griffith
+
+Wikipedia
+
+</div>
+<div>
+
+![](Module-iv-Brittle-Deformation/Lecture4-extracted/slide015_img1.jpg)
+![](Module-iv-Brittle-Deformation/Lecture4-extracted/slide015_img2.jpg)
+![](Module-iv-Brittle-Deformation/Lecture4-extracted/slide015_img3.jpg)
+
+<p class="caption">www.npg.org.uk · Fossen, 2011</p>
+
+</div>
+</div>
+
+Note:
+He was a British civil engineer. Worked two years in an engineering firm before returning to King’s college as a lecturer. During the war, he worked for the army. Main contribution is inventing the Inglis Bridge, a reusable steel bridging system for military. Return to Cambridge University as a professor after the second war. 
+
+Alan Griffith was another British engineer. He took the next step toward solving the strength paradox when he applied the concept of stress concentration at the ends of elliptical holes to fracture development. He considered the stress concentrations associated with these microfractures and the energy that it takes for them to grow and connect. He then obtained much more realistic (although not perfect) estimates of tensile strength.
+
+<--o-->
+
+<!-- source: Lecture4_Brittle_deformation.pptx slide 16 · template: T3-text-and-image -->
+## Tensile Crack Development
+<div class="cols">
+<div>
+
+![](Module-iv-Brittle-Deformation/Lecture4-extracted/slide016_img1.jpg)
+![](Module-iv-Brittle-Deformation/Lecture4-extracted/slide016_img2.jpg)
+
+<p class="caption">Axial stretching · Axial compression</p>
+
+</div>
+<div class="wide">
+
+- Axial stretching: preexisting microcracks in the sample open slightly once remote tensile stress applied and magnified to create larger local stress at the crack tips. The largest, properly oriented cracks propagate to from a throughgoing crack.
+- Axial compression: mesoscopic tensile fractures develop parallel to the cylinder axis to form longitudinal splitting. It is like tensile cracking except that the cracks not parallel to the $\sigma 1$ direction are closed in uniaxial compression (low confining pressure).
+
+An “envelope” model of longitudinal splitting
+
+</div>
+</div>
+
+Note:
+Not all extensional features are results of extensional stress. The differential stress under totally compressive states can lead to the same structures.
+
+<--o-->
+
+<!-- source: Lecture4_Brittle_deformation.pptx slide 17 · template: T3-text-and-image -->
+## Hydraulic Fracturing
+<div class="cols">
+<div class="wide">
+
+- The technique is frequently applied to petroleum reservoirs to increase the near-well permeability and it means increasing the fluid pressure until the rock fractures.
+- Relying on the theory that pore fluid pressure reduces the effective stress by increasing the stress at grain contacts in porous rocks, as the pore pressure is an outward push that opposes inward compression from the rock.
+
+</div>
+<div>
+
+![](Module-iv-Brittle-Deformation/Lecture4-extracted/slide017_img1.jpg)
+![](Module-iv-Brittle-Deformation/Lecture4-extracted/slide017_img2.jpg)
+![](Module-iv-Brittle-Deformation/Lecture4-extracted/slide017_img3.jpg)
+
+<p class="caption">National Geographic Society · Fossen, 2011 · Why in horizontal direction?</p>
+
+</div>
+</div>
+
+Note:
+How does pore pressure affect the tensile failure strength of rock? The pore pressure is an outward push that opposes inward compression from the rock, so the fluid can support part of the applied load. If pore pressure exceeds the least compressive stress in the rock, tensile stresses at the tips of cracks oriented perpendicularly to the sigma 3 direction become sufficient for the crack to propagate. In other words, pore pressure in a rock can cause tensile cracks to propagate.
+
+<--o-->
+
+<!-- source: Lecture4_Brittle_deformation.pptx slide 18 · template: T6-two-image -->
+## Shear Fractures Vs. Mode Ii Cracks
+<div class="cols">
+<div>
+
+![](Module-iv-Brittle-Deformation/Lecture4-extracted/slide018_img2.jpg)
+
+</div>
+<div>
+
+![](Module-iv-Brittle-Deformation/Lecture4-extracted/slide018_img1.jpg)
+
+</div>
+</div>
+
+Note:
+Figure on the left: Simplified illustration of growth and propagation of extension (left) and shear fractures (right) by propagation and linkage of tensile microfractures (flaws). Propagation occurs in a process zone in front of the fracture tip. Circled figures are centimeter-scale views, while rectangular views illustrate the microscale structure. 
+
+Figure on the right: (a) Griffith crack modeled as an elliptical void. Tensile stress concentrates near the crack tips. (b) A critically stressed Griffith crack at the tip of a shear fracture. The Griffith crack is oriented between 0 and 45 with respect to s1, depending on the ratio s1/s3. Note that tensile stress develops near the crack tips in spite of the overall compressional stress, that crack growth is accommodated by sliding along the main crack, and that the crack grows toward parallelism with s1.
+
+<--o-->
+
+<!-- source: Lecture4_Brittle_deformation.pptx slide 19 · template: T3-text-and-image -->
+## Summary of Lecture 9.2
+<div class="cols">
+<div>
+
+![](Module-iv-Brittle-Deformation/Lecture4-extracted/slide019_img1.jpg)
+![](Module-iv-Brittle-Deformation/Lecture4-extracted/slide019_img2.jpg)
+![](Module-iv-Brittle-Deformation/Lecture4-extracted/slide019_img3.jpg)
+![](Module-iv-Brittle-Deformation/Lecture4-extracted/slide019_img4.jpg)
+
+
+</div>
+<div class="wide">
+
+Geometrical relations of fractures with 3D stress state
+
+Development of tensile and shear fractures: defects (Griffith cracks) make rupture easy
+
+Propagating shear-mode cracks spawn new tensile cracks
+
+</div>
+</div>
+
+Note:
+This figure is usually what in my head when thinking about the stress state when a certain fractures are generated.
+
+<--o-->
+
+<!-- source: Lecture4_Brittle_deformation.pptx slide 20 · template: T3-text-and-image -->
+## Shear Fractures
+<div class="cols">
+<div class="wide">
+
+- Differ significantly from tensile cracks development with both shear stress and normal stress applied (recall prac 5).
+- Triaxial loading experiment shows four stages of development:
+- I. Closure of existing cracks; II. Elastic response;
+- III. New crack development; IV. Crack coalescence.
+- Most shear fractures dipping ~60º (why?)
+
+</div>
+<div>
+
+![](Module-iv-Brittle-Deformation/Lecture4-extracted/slide020_img1.jpg)
+![](Module-iv-Brittle-Deformation/Lecture4-extracted/slide020_img2.jpg)
+![](Module-iv-Brittle-Deformation/Lecture4-extracted/slide020_img3.jpg)
+
+<p class="caption">van der Pluijm & Marshall (2003) · I · II · III · IV</p>
+
+</div>
+</div>
+
+<--o-->
+
+<!-- source: Lecture4_Brittle_deformation.pptx slide 21 · template: T3-text-and-image -->
+## Revisiting the Mohr Circle
+<div class="cols">
+<div>
+
+![](Module-iv-Brittle-Deformation/Lecture4-extracted/slide021_img1.jpg)
+![](Module-iv-Brittle-Deformation/Lecture4-extracted/slide021_img2.jpg)
+
+<p class="caption">Fossen, 2011</p>
+
+</div>
+<div class="wide">
+
+- How normal/shear stress vary with the plane orientation it acting upon (start with uniaxial compression).
+- Prior knowledge:
+- stress = Force/Area & Trigonometric functions
+
+${\sigma}_{n}$= $\sigma \cos 2\theta$
+
+${\sigma}_{s}=\sigma /2\sin 2\theta$
+
+</div>
+</div>
+
+<--o-->
+
+<!-- source: Lecture4_Brittle_deformation.pptx slide 22 · template: T3-text-and-image -->
+## Revisiting the Mohr Circle
+<div class="cols">
+<div>
+
+![](Module-iv-Brittle-Deformation/Lecture4-extracted/slide022_img1.jpg)
+![](Module-iv-Brittle-Deformation/Lecture4-extracted/slide022_img2.jpg)
+![](Module-iv-Brittle-Deformation/Lecture4-extracted/slide022_img3.jpg)
+
+<p class="caption">Fossen, 2011</p>
+
+</div>
+<div class="wide">
+
+- How normal/shear stress vary with the plane orientation it acting upon (start with uniaxial compression).
+- Prior knowledge: stress = Force/Area & Trigonometric functions
+
+${\sigma}_{n}$= $\sigma \cos 2\theta =\sigma (\cos 2\theta +1)/2$
+
+${\sigma}_{s}=\sigma /2\sin 2\theta$
+
+</div>
+</div>
+
+<--o-->
+
+<!-- source: Lecture4_Brittle_deformation.pptx slide 23 · template: T3-text-and-image -->
+## The Coulomb-mohr Failure Criteria
+<div class="cols">
+<div class="wide">
+
+- A fracture criterion describes the critical condition at which a rock fractures.
+- The Coulomb-Mohr failure criteria indicates a linear relationship between the shear stress and normal stress to initiate a shear fracture.
+- It is shown as straight lines in the Mohr circle.
+- where C is the cohesive strength;
+- $\phi$ is the angle of internal friction;
+- $u$ is the coefficient of friction (0.47-0.7).
+
+${\sigma}_{s}=C+{\sigma}_{n}\tan \phi =C+$ ${\sigma}_{n}u$
+
+${\sigma}_{3}$
+
+${\sigma}_{n}$
+
+${\sigma}_{1}$
+
+</div>
+<div>
+
+![](Module-iv-Brittle-Deformation/Lecture4-extracted/slide023_img1.jpg)
+
+</div>
+</div>
+
+Note:
+When the Mohr circles move to the right, you need much larger differential stress, denoted by the radius of the circle, if you want to rupture the same materials. The reason for this movement could be the burial process, where the confining pressure is increasing, thus moving to deeper depth.
+
+<--o-->
+
+<!-- source: Lecture4_Brittle_deformation.pptx slide 24 · template: T3-text-and-image -->
+## Implication to Normal/reverse Faulting
+<div class="cols">
+<div>
+
+![](Module-iv-Brittle-Deformation/Lecture4-extracted/slide024_img1.jpg)
+![](Module-iv-Brittle-Deformation/Lecture4-extracted/slide024_img2.jpg)
+
+<p class="caption">Fossen, 2011</p>
+
+</div>
+<div class="wide">
+
+- Based on the Coulomb-Mohr failure criteria, Anderson’s theory of faulting predicts a conjugate fault system for different stress conditions.
+- The theory also predicts that normal and reverse faults dip at about 60º and 30º, respectively. In other words, one can use the dipping angle to refer stress directions.
+
+${\sigma}_{1}$
+
+</div>
+</div>
+
+<--o-->
+
+<!-- source: Lecture4_Brittle_deformation.pptx slide 25 · template: T3-text-and-image -->
+## The Mohr Failure Envelope
+<div class="cols">
+<div>
+
+![](Module-iv-Brittle-Deformation/Lecture4-extracted/slide025_img1.jpg)
+![](Module-iv-Brittle-Deformation/Lecture4-extracted/slide025_img2.jpg)
+![](Module-iv-Brittle-Deformation/Lecture4-extracted/slide025_img3.jpg)
+![](Module-iv-Brittle-Deformation/Lecture4-extracted/slide025_img4.jpg)
+
+<p class="caption">Fossen, 2011</p>
+
+</div>
+<div class="wide">
+
+- The Mohr failure envelope describes the critical stress state over a range of differential stresses to initiate fractures and is an empirical relationship.
+- Not a perfect straight line and the slope of the envelope steepens towards $\sigma$<sub>s </sub>axis, indicating the actual fracture plane does depend on the stress state.
+
+- It separates the field into stable, critical and unstable state.
+
+Stable
+
+Critical
+
+Unstable
+
+</div>
+</div>
+
+Note:
+So far so good, right. But as Mohr conducted further studies of shear-fracture criteria, he found the straight-line relationship only works for a limited range of confining pressure. He noted that at lower confining pressure, the line representing the stress state at failure curved with a steeper slope and that at higher confining pressure, the line curved with a shallower slope. Mohr concluded that over a range of confining pressure, the failure criteria for shear rupture resembles a portion of a parabola lying on its side.
+
+<--o-->
+
+<!-- source: Lecture4_Brittle_deformation.pptx slide 26 · template: T3-text-and-image -->
+## Griffith’s Failing Criteria
+<div class="cols">
+<div class="wide">
+
+Alan Arnold Griffith
+
+- Griffith found a non-linear relationship between the principal stresses for a critically stressed rock, a relationship called the Griffith’s fracture criterion.
+- Mathematically, it is defined as
+- Where T is the tensile strength.
+- Major difference of the Griffith and Coulomb criteria lie in tensile regime and compressional regime of large confining pressure.
+- It models the Griffith cracks and predicts tensile cracking very well and is also a reasonable approximation for some non-porous rocks under compressional regime.
+
+${\sigma 2}_{s}+4T{\sigma}_{n}-4T2=0$
+
+</div>
+<div>
+
+![](Module-iv-Brittle-Deformation/Lecture4-extracted/slide026_img1.jpg)
+![](Module-iv-Brittle-Deformation/Lecture4-extracted/slide026_img2.jpg)
+
+<p class="caption">www.npg.org.uk · Fossen, 2011</p>
+
+</div>
+</div>
+
+Note:
+The parabola still increase too fast for conditions of large confining pressure,
+
+<--o-->
+
+<!-- source: Lecture4_Brittle_deformation.pptx slide 27 · template: T6-two-image -->
+## A Composite Failure Envelope
+<div class="cols">
+<div>
+
+![](Module-iv-Brittle-Deformation/Lecture4-extracted/slide027_img2.jpg)
+
+</div>
+<div>
+
+![](Module-iv-Brittle-Deformation/Lecture4-extracted/slide027_img1.jpg)
+
+</div>
+</div>
+<p class="caption">van der Pluijm & Marshall (2003)</p>
+
+Note:
+We can construct a composite failure envelope by taking all of the above empirical criteria into account. It represents the boundary between stable and unstable stress states for a wide range of confining pressures and for conditions for which one of the principal stresses is tensile. 
+
+On the left side, the parabolic envelope with steep slopes specifies failure criteria for supposed transitional-tensile fractures formed at a very small angle relative to sigma-1. But its existence is still controversial. 
+Closer to the sigma-s axis, the slope of the envelope becomes gentle as a continuation of a parabola, representing the Mohr’s criterion. For failure in the region, the decrease in the angle between the fracture and the sigma-1 direction depends on how far to the left the Mohr circle touches the failure curve. 
+The straight sloping lines represent the Coulomb’s criterion for shear rupturing, where the angle of the fracture surface is independent on the confining pressure.  
+The lines begin to slope effectively represents the brittle-plastic transition. 
+On the right side of the diagram, we have Von Mises criteria shown as horizontal lines. It is a plastic yield criterion rather than a brittle failure criterion.
+
+<--o-->
+
+<!-- source: Lecture4_Brittle_deformation.pptx slide 28 · template: T3-text-and-image -->
+## Frictional Sliding
+<div class="cols">
+<div class="wide">
+
+- Frictional sliding refers to the movement on a surface when shear stress parallel to surface exceeds the frictional resistance to sliding (static and dynamic friction).
+- Friction exists due to no perfect smooth surface. Asperities are the rough surfaces and the real area of contact. The friction is mostly dependent on the normal stress rather than the contact area and rock materials.
+- Byerlee’s law: it describes the vertical increase in critical shear stress (stress required for faulting) through the frictional upper crust. Two straight lines in $\sigma s-\sigma n$ space.
+
+</div>
+<div>
+
+![](Module-iv-Brittle-Deformation/Lecture4-extracted/slide028_img1.jpg)
+![](Module-iv-Brittle-Deformation/Lecture4-extracted/slide028_img2.jpg)
+![](Module-iv-Brittle-Deformation/Lecture4-extracted/slide028_img3.jpg)
+
+<p class="caption">van der Pluijm & Marshall (2003)</p>
+
+</div>
+</div>
+
+Note:
+So far, what we have discussed are the process and the related criterion to develop new fractures. But there are many occasions that the failure will propagate along existing fractures. In this case, the concept of frictional sliding is of great importance.
+
+<--o-->
+
+<!-- source: Lecture4_Brittle_deformation.pptx slide 29 · template: T3-text-and-image -->
+## New Crack or Existing Fracture Slide?
+<div class="cols">
+<div>
+
+![](Module-iv-Brittle-Deformation/Lecture4-extracted/slide029_img1.jpg)
+
+<p class="caption">van der Pluijm & Marshall (2003)</p>
+
+</div>
+<div class="wide">
+
+- Mohr circle and the failure envelopes provide perfect tools to answer this question.
+- One Mohr circle indicate the same stress conditions, but it can intersect with different straight lines to describe various fracturing criterions.
+- One example based on experiments with Blair dolomite (new fracture but not always the case).
+
+</div>
+</div>
+
+Note:
+Mohr diagram based on experiments with dolomite, showing how a single stress state would contact the frictional sliding envelope before it would contact the Coulomb envelope. Surface A is the Coulomb shear fracture that would form in an intact rock. However, you will find that the sliding would occur on surface between the intersections with the friction envelope (as shown by the shaded area for friction envelope 0.85) before new fracture initiation. Preexisting surfaces B-E are surfaces that will slide with decreasing friction coefficients.
+
+<--o-->
+
+<!-- source: Lecture4_Brittle_deformation.pptx slide 30 · template: T3-text-and-image -->
+## Marble Deformation
+<div class="cols">
+<div>
+
+![](Module-iv-Brittle-Deformation/Lecture4-extracted/slide030_img1.jpg)
+![](Module-iv-Brittle-Deformation/Lecture4-extracted/slide030_img2.jpg)
+![](Module-iv-Brittle-Deformation/Lecture4-extracted/slide030_img3.jpg)
+
+<p class="caption">Brittle failure (low confining P) · Ductile flow (high confining P) · Paterson, 1958</p>
+
+</div>
+<div class="wide">
+
+&nbsp;
+
+</div>
+</div>
+
+Note:
+Uniaxial and triaxial testing apparatus.
+
+<--o-->
+
+<!-- source: Lecture4_Brittle_deformation.pptx slide 31 · template: T3-text-and-image -->
+## Revisiting Stress-strain Relations
+<div class="cols">
+<div>
+
+![](Module-iv-Brittle-Deformation/Lecture4-extracted/slide031_img1.jpg)
+
+</div>
+<div class="wide">
+
+- Extension regime and contraction regime result in different shape of deformation, but they could show similar stress-strain evolution.
+- Temperature and confining pressure can reduce the elastic domain, increase the plastic deformation and eventually brittle failure.
+
+</div>
+</div>
+
+<--o-->
+
+<!-- source: Lecture4_Brittle_deformation.pptx slide 32 · template: T6-two-image -->
+## Confining Pressure and Temperature
+<div class="cols">
+<div>
+
+![](Module-iv-Brittle-Deformation/Lecture4-extracted/slide032_img1.jpg)
+
+</div>
+<div>
+
+![](Module-iv-Brittle-Deformation/Lecture4-extracted/slide032_img2.jpg)
+
+</div>
+</div>
+<p class="caption">Fossen, 2011</p>
+
+<--o-->
+
+<!-- source: Lecture4_Brittle_deformation.pptx slide 33 · template: T3-text-and-image -->
+## Other Important Factors
+<div class="cols">
+<div>
+
+![](Module-iv-Brittle-Deformation/Lecture4-extracted/slide033_img1.jpg)
+![](Module-iv-Brittle-Deformation/Lecture4-extracted/slide033_img2.jpg)
+![](Module-iv-Brittle-Deformation/Lecture4-extracted/slide033_img3.jpg)
+
+<p class="caption">Fossen, 2011</p>
+
+</div>
+<div class="wide">
+
+- Increasing strain rates increases the flow stress level → rock becomes stronger.
+- Presence of fluids lowers confining pressure by increasing pore fluid pressure.
+- Foliations perpendicular (weaker) and parallel to stress direction.
+- Grain sizes: larger rock samples are weaker as it more likely to contain appropriately oriented and larger Griffith cracks.
+
+$\sigma diff$ (MPa)
+
+Marble 5 kbars, 500<sup>o</sup>C
+
+Natural quartz
+
+Marble
+
+</div>
+</div>
+
+Note:
+Increasing the strain rate means increasing the flow stress level, and this is clearly seen from the curves. Since laboratory strain rates must be considerably lower than natural strain rates in most cases, this means that we must apply higher stresses to deform a rock in the laboratory, even if the temperature is the same in the laboratory experiment as in the natural setting we want to explore. Parts of the Earth behave in a viscous manner because of low strain rates. Increasing the strain rate also makes the rock stronger. Conversely, rocks are weaker at lower strain rates because crystal-plastic processes can then more easily keep up with the applied stress. 
+
+Presence of fluids: the pore pressure is an outward push that opposes inward compression from the rock, so the fluid can support part of the applied load. 
+
+The reaction to stress depends on the orientation of the applied forces relative to the dominant slip systems in olivine. Penetrative crystallographic fabrics may exist in the mantle, which may give the mantle a significant mechanical anisotropy that can influence location of rifting, strike-slip zones and orogeny.
+
+<--o-->
+
+<!-- source: Lecture4_Brittle_deformation.pptx slide 34 · template: T1-prose -->
+## Summary
+- Brittle deformation: concepts and fractures
+- Four modes of fracturing and its geometrical relations with stress state
+- Griffith cracks and its effects on rock mechanics
+- Tensile crack development
+- Shear crack development
+- Mohr circle and composite failure envelope
+- Frictional sliding: an important concept for preexisting fractures
+- Effect of environmental factors on failure.

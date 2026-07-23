@@ -10,10 +10,53 @@ normal text runs (plus text super/subscripts -> <sup>/<sub>).
 
 Emits the same manifest schema as extract_pptx.py so convert_deck.py is unchanged.
 Usage: extract_pptx2.py <pptx> <out_dir>"""
-import sys, json, re, pathlib
+import sys, json, re, pathlib, io
 from pptx import Presentation
+from PIL import Image
 sys.path.insert(0, str(pathlib.Path(__file__).parent))
 from omml2tex import omml_to_latex
+
+MAXPX = 1600          # cap long side (slides never need more)
+JPEG_Q = 85
+
+def optimize_image(blob, ext):
+    """Return (new_ext, bytes): downscale oversized images, convert TIFF/BMP to a
+    web format, recompress. Keeps PNG (line art / transparency) as PNG; everything
+    else becomes JPEG. Falls back to the original blob on any failure."""
+    ext = ext.lower().lstrip(".")
+    if ext in ("gif", "svg"):            # leave animations / vectors alone
+        return ext, blob
+    try:
+        im = Image.open(io.BytesIO(blob))
+        im.load()
+    except Exception:
+        return ext, blob
+    # alpha only counts if it is actually used (many pptx PNGs are opaque RGBA)
+    has_alpha = False
+    if im.mode in ("RGBA", "LA"):
+        has_alpha = im.getchannel("A").getextrema()[0] < 255
+    elif im.mode == "P" and "transparency" in im.info:
+        has_alpha = True
+    w, h = im.size
+    scale = min(1.0, MAXPX / max(w, h))
+    if scale < 1.0:
+        im = im.resize((max(1, int(w * scale)), max(1, int(h * scale))), Image.LANCZOS)
+
+    if has_alpha:                       # transparency must stay PNG
+        if im.mode not in ("RGBA", "LA", "P"):
+            im = im.convert("RGBA")
+        buf = io.BytesIO(); im.save(buf, format="PNG", optimize=True)
+        cand = [("png", buf.getvalue())]
+    else:                               # opaque: pick the smaller of JPEG / PNG
+        rgb = im.convert("RGB") if im.mode != "RGB" else im
+        jb = io.BytesIO(); rgb.save(jb, format="JPEG", quality=JPEG_Q, optimize=True, progressive=True)
+        pb = io.BytesIO(); (im if im.mode in ("P", "L") else rgb).save(pb, format="PNG", optimize=True)
+        cand = [("jpg", jb.getvalue()), ("png", pb.getvalue())]
+    new_ext, out = min(cand, key=lambda c: len(c[1]))
+    # if the source was already a web format and we didn't shrink it, keep the original
+    if ext in ("png", "jpg", "jpeg") and scale == 1.0 and len(out) >= len(blob):
+        return ext, blob
+    return new_ext, out
 
 P  = "{http://schemas.openxmlformats.org/presentationml/2006/main}"
 A  = "{http://schemas.openxmlformats.org/drawingml/2006/main}"
@@ -217,6 +260,7 @@ def extract(pptx_path, out_dir):
                         image_part = part.related_part(rid)
                         blob = image_part.blob
                         ext = image_part.partname.ext.lstrip(".")
+                        ext, blob = optimize_image(blob, ext)   # downscale / convert TIFF / recompress
                         fn = f"slide{idx:03d}_img{imgn}.{ext}"
                         (img_dir / fn).write_bytes(blob)
                         images.append({"file": fn, "x": pct(gx, W), "y": pct(gy, H),

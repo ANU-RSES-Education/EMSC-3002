@@ -17,7 +17,7 @@ scrambles every equation**. This pipeline walks the slide XML directly, takes th
 | file | role |
 |------|------|
 | `omml2tex.py`     | OMML (`<m:oMath>`) → LaTeX. Handles fractions, sub/superscripts, radicals, delimiters, n-ary (∑/∫), matrices, accents (vec/hat/dot/bar), functions; NFKC-folds math-italic Unicode and maps Greek → `\command`. Matrix rows use `\cr` (not `\\`, which reveal's markdown pass mangles). |
-| `extract_pptx2.py`| XML-level extractor. Descends into `mc:Choice`, interleaves text runs with inline `$…$` / display `$$…$$`, converts text super/subscripts to `<sup>`/`<sub>`, extracts images with position. Emits `manifest.json`. |
+| `extract_pptx2.py`| XML-level extractor. Descends into `mc:Choice`, interleaves text runs with inline `$…$` / display `$$…$$`, converts text super/subscripts to `<sup>`/`<sub>`, extracts + **optimizes** images (downscale to ≤1600 px, TIFF→web, opaque RGBA→JPEG, pick smaller of JPEG/PNG). Emits `manifest.json`. |
 | `convert_deck.py` | manifest → `*.reveal.md` using the T0–T6 templates (see `../TEMPLATES.md`). |
 | `validate_math.py`| static check: brace balance, empty spans, matrix pairing. |
 | `katex_check.mjs` | parses every `$…$`/`$$…$$` span with KaTeX (needs `npm i katex`). |

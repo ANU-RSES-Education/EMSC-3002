@@ -1,0 +1,723 @@
+---
+title: The Tohoku earthquake (draft — reveal conversion)
+separator: '<--o-->'
+verticalSeparator: '<--v-->'
+revealOptions:
+    transition: 'fade'
+    slideNumber: true
+    width: 1200
+    height: 800
+    margin: 0.07
+---
+
+<!-- source: Lecture7_Tohoku_EQ.pptx slide 1 · template: T-title -->
+# EMSC 3002
+
+## Module 4 - The Tohoku earthquake
+
+  - Louis Moresi (convenor)
+  - Chengxin Jiang (lecturer)
+  - Romain Beucher (former lecturer)
+  - Stephen Cox (curriculum advisor)
+
+Australian National University
+
+
+<--o-->
+
+<!-- source: Lecture7_Tohoku_EQ.pptx slide 2 · template: T-resources -->
+## Resources
+
+1. 2021 WOODS POINT EARTHQUAKE (Sep/22/21)
+
+<--o-->
+
+<!-- ILO placeholder — not in the pptx; fill in -->
+## Intended learning outcomes
+
+<!-- TODO: add the intended learning outcomes for this module -->
+
+<--o-->
+
+<!-- source: Lecture7_Tohoku_EQ.pptx slide 3 · template: T3-text-and-image -->
+## Earthquakes in Australia
+<div class="cols">
+<div>
+
+![](Module-iv-Brittle-Deformation/Lecture7-extracted/slide003_img1.jpg)
+
+<p class="caption">Eakin & Miller, Temblor, 2021. http://doi.org/10.32858/temblor.208</p>
+
+</div>
+<div class="wide">
+
+- Several active zones including Flinders Range, the highlands of Australia’s SE and the southwest of the continent in Western Australia. No surprise to see the occurrence of the Mansfield earthquake if looking at the all-recorded earthquakes.
+- According to Geoscience Australia, magnitude-5 earthquakes usually occur every one-to-two years, and magnitude 6.0 earthquakes every 10 years or so.
+
+</div>
+</div>
+
+<--o-->
+
+<!-- source: Lecture7_Tohoku_EQ.pptx slide 4 · template: T4-full-figure -->
+<!-- .slide: data-background="Module-iv-Brittle-Deformation/Lecture7-extracted/slide004_img1.jpg" -->
+
+<--o-->
+
+<!-- source: Lecture7_Tohoku_EQ.pptx slide 5 · template: T6-two-image -->
+## Reported & Modelled Ground Motion
+<div class="cols">
+<div>
+
+![](Module-iv-Brittle-Deformation/Lecture7-extracted/slide005_img2.jpg)
+
+</div>
+<div>
+
+![](Module-iv-Brittle-Deformation/Lecture7-extracted/slide005_img1.jpg)
+
+</div>
+</div>
+<p class="caption">Shake intensity</p>
+
+<--o-->
+
+<!-- source: Lecture7_Tohoku_EQ.pptx slide 6 · template: T3-text-and-image -->
+## Intensity as a Function of Distance
+<div class="cols">
+<div>
+
+![](Module-iv-Brittle-Deformation/Lecture7-extracted/slide006_img1.jpg)
+![](Module-iv-Brittle-Deformation/Lecture7-extracted/slide006_img2.jpg)
+![](Module-iv-Brittle-Deformation/Lecture7-extracted/slide006_img3.png)
+![](Module-iv-Brittle-Deformation/Lecture7-extracted/slide006_img4.png)
+![](Module-iv-Brittle-Deformation/Lecture7-extracted/slide006_img5.jpg)
+![](Module-iv-Brittle-Deformation/Lecture7-extracted/slide006_img6.jpg)
+
+<p class="caption">Hypocentral distance [km] · Intensity [mm] · Soft sediments · A · B · U<sub>B</sub></p>
+
+</div>
+<div class="wide">
+
+One article on The Conversation about raising the awareness of improving building structures in AU
+
+Site amplifications
+
+U<sub>A</sub>
+
+</div>
+</div>
+
+<--o-->
+
+<!-- source: Lecture7_Tohoku_EQ.pptx slide 7 · template: T3-text-and-image -->
+## Different Types of Eq Magnitude
+<div class="cols">
+<div class="wide">
+
+- Moment magnitude (Mw) accounts for the seismic moment (energy) radiated in an earthquake. Seismic moment can be estimated as M<sub>o</sub> = fault area $\times$ displacement $\times$ rigidity. Then Mw can be defined as:
+- M<sub>L</sub><sub> </sub>denotes local magnitude or Richer magnitude (limited to certain frequency and distance range). Extension magnitude include body wave magnitude (Mb) and surface wave magnitude (Ms), which are equivalent to M<sub>L</sub> using certain portion energy of the signals.
+- Difference between magnitude and intensity, which is a measure of the strength of shaking experienced in an earthquake.
+
+M<sub>w</sub> = log M<sub>0</sub>/1.5 – 10.7
+
+</div>
+<div>
+
+![](Module-iv-Brittle-Deformation/Lecture7-extracted/slide007_img1.jpg)
+![](Module-iv-Brittle-Deformation/Lecture7-extracted/slide007_img2.png)
+![](Module-iv-Brittle-Deformation/Lecture7-extracted/slide007_img3.png)
+
+</div>
+</div>
+
+<--o-->
+
+<!-- source: Lecture7_Tohoku_EQ.pptx slide 8 · template: T3-text-and-image -->
+## Aftershocks & Stations
+<div class="cols">
+<div>
+
+![](Module-iv-Brittle-Deformation/Lecture7-extracted/slide008_img1.jpg)
+![](Module-iv-Brittle-Deformation/Lecture7-extracted/slide008_img2.jpg)
+![](Module-iv-Brittle-Deformation/Lecture7-extracted/slide008_img3.jpg)
+
+<p class="caption">Time · Magnitude · eqServer</p>
+
+</div>
+<div class="wide">
+
+Inactive
+
+Active
+
+</div>
+</div>
+
+Note:
+Seismology research center of AU
+
+<--o-->
+
+<!-- source: Lecture7_Tohoku_EQ.pptx slide 9 · template: T3-text-and-image -->
+## Fault Plane & Regional Stress
+<div class="cols">
+<div>
+
+![](Module-iv-Brittle-Deformation/Lecture7-extracted/slide009_img1.jpg)
+![](Module-iv-Brittle-Deformation/Lecture7-extracted/slide009_img2.png)
+![](Module-iv-Brittle-Deformation/Lecture7-extracted/slide009_img3.jpg)
+![](Module-iv-Brittle-Deformation/Lecture7-extracted/slide009_img4.jpg)
+
+<p class="caption">Ninis et al, Temblor, 2021. http://doi.org/10.32858/temblor.207 · USGS · RHR · Mousavi et al., 2023. https://doi.org/10.1785/0220220348 · Hypocenter · Centroid · USGS</p>
+
+</div>
+<div class="wide">
+
+&nbsp;
+
+</div>
+</div>
+
+<--o-->
+
+<!-- source: Lecture7_Tohoku_EQ.pptx slide 10 · template: T6-two-image -->
+## Fault Plane & Regional Stress
+<div class="cols">
+<div>
+
+![](Module-iv-Brittle-Deformation/Lecture7-extracted/slide010_img1.jpg)
+
+</div>
+<div>
+
+![](Module-iv-Brittle-Deformation/Lecture7-extracted/slide010_img2.jpg)
+
+</div>
+</div>
+<p class="caption">Ninis et al, Temblor, 2021. http://doi.org/10.32858/temblor.207</p>
+
+<--o-->
+
+<!-- source: Lecture7_Tohoku_EQ.pptx slide 11 · template: T3-text-and-image -->
+## Several Laws on Aftershocks
+<div class="cols">
+<div class="wide">
+
+- Omori law shows the exponential decay of aftershock seismicity rate (number vs. time).
+- Gutenberg-Richter law shows the frequency vs. size statistics of aftershocks.
+- Båth law: magnitude of largest aftershock is ~1-1.5 units below that of mainshock
+
+**SCEC**
+
+</div>
+<div>
+
+![](Module-iv-Brittle-Deformation/Lecture7-extracted/slide011_img1.jpg)
+![](Module-iv-Brittle-Deformation/Lecture7-extracted/slide011_img2.jpg)
+
+</div>
+</div>
+
+<--o-->
+
+<!-- source: Lecture7_Tohoku_EQ.pptx slide 12 · template: T3-text-and-image -->
+## 2019 Ridgecrest Earthqquake, Ca
+<div class="cols">
+<div>
+
+![](Module-iv-Brittle-Deformation/Lecture7-extracted/slide012_img1.jpg)
+
+<p class="caption">Liu et al, GRL, 2019. ﻿https://doi.org/10.1029/2019GL086189</p>
+
+</div>
+<div class="wide">
+
+&nbsp;
+
+</div>
+</div>
+
+<--o-->
+
+<!-- source: Lecture7_Tohoku_EQ.pptx slide 13 · template: T3-text-and-image -->
+## 2011 Tohoku-oki Earthquake
+<div class="cols">
+<div>
+
+![](Module-iv-Brittle-Deformation/Lecture7-extracted/slide013_img1.jpeg)
+
+</div>
+<div class="wide">
+
+- Some fast facts
+- Geophysical observations
+- How such large earthquake is generated?
+- The association of huge tsunami
+- Summary and remaining questions
+
+</div>
+</div>
+
+<--o-->
+
+<!-- source: Lecture7_Tohoku_EQ.pptx slide 14 · template: T6-two-image -->
+## Facts About the Earthquake
+<div class="cols">
+<div>
+
+![](Module-iv-Brittle-Deformation/Lecture7-extracted/slide014_img2.png)
+
+</div>
+<div>
+
+![](Module-iv-Brittle-Deformation/Lecture7-extracted/slide014_img1.jpg)
+
+</div>
+</div>
+<p class="caption">Duputel et al., 2011 · Okhotsk Plate · Pacific Plate</p>
+
+<--o-->
+
+<!-- source: Lecture7_Tohoku_EQ.pptx slide 15 · template: T1-prose -->
+## Financial Cost of Damage
+- Total = >$200 billion (16.9 trillion yen)
+- Damage estimate as of June 2011
+- Subsequent estimates are as high as $300 billion
+<p class="caption">Source: Cabinet Office of Japan, 24 June 2011</p>
+
+Note:
+Potential questions:
+Start by NOT showing the graph and asking students to predict the most costly type of damage from the earthquake and tsunami.
+Discuss briefly and then show the graph. Were they correct or not?
+
+Data from Cabinet Office of Japan.
+Figure modified from http://www.bbc.com/news/world-asia-17219008
+Additional details can be found at https://en.wikipedia.org/wiki/Aftermath_of_the_2011_T%C5%8Dhoku_earthquake_and_tsunami#Economic_impact
+
+<--o-->
+
+<!-- source: Lecture7_Tohoku_EQ.pptx slide 16 · template: T3-text-and-image -->
+## Fukushima Nuclear Disaster
+<div class="cols">
+<div>
+
+![](Module-iv-Brittle-Deformation/Lecture7-extracted/slide016_img1.jpg)
+![](Module-iv-Brittle-Deformation/Lecture7-extracted/slide016_img2.jpg)
+![](Module-iv-Brittle-Deformation/Lecture7-extracted/slide016_img3.jpg)
+
+</div>
+<div class="wide">
+
+&nbsp;
+
+</div>
+</div>
+
+Note:
+Potential questions:
+How many times higher than natural background radiation was the average for the 20 km evacuation area?
+What type of health effects could have occurred for unprotected people on the Fukushima plant grounds?
+
+Left image: "Towns evacuated around Fukushima on April 11th, 2011" by User:Mayhewderivative work: derived from original work by User:Lincun - File:Iitate_vs_Fukushima_evacuation_zones_large.svgderivative work: original source is File:Iitate_in_Fukushima_Prefecture_Ja.svg. Licensed under CC BY-SA 3.0 via Commons - https://commons.wikimedia.org/wiki/File:Towns_evacuated_around_Fukushima_on_April_11th,_2011.png#/media/File:Towns_evacuated_around_Fukushima_on_April_11th,_2011.png
+
+Right image: "Fukushima7" by Rama C. Hoetzlein (Rchoetzlein at en.wikipedia) - Own work. Released in public domain.. Licensed under CC0 via Commons - https://commons.wikimedia.org/wiki/File:Fukushima7.png#/media/File:Fukushima7.png
+
+<--o-->
+
+<!-- source: Lecture7_Tohoku_EQ.pptx slide 17 · template: T3-text-and-image -->
+## Strong Ground Motions Across Japan
+<div class="cols">
+<div>
+
+![](Module-iv-Brittle-Deformation/Lecture7-extracted/slide017_img1.jpg)
+![](Module-iv-Brittle-Deformation/Lecture7-extracted/slide017_img2.jpg)
+![](Module-iv-Brittle-Deformation/Lecture7-extracted/slide017_img3.jpg)
+
+<p class="caption">Furumura et al., 2011</p>
+
+</div>
+<div class="wide">
+
+- ﻿Nucleation area of 500×200 km<sup>2</sup> with huge ground accelerations
+- 3 major package of energy can be observed on the strong ground motion waveform
+- PGA attenuates more like a M7 earthquake and deficit in low-frequency energy (>0.5 sec period)
+
+</div>
+</div>
+
+<--o-->
+
+<!-- source: Lecture7_Tohoku_EQ.pptx slide 18 · template: T3-text-and-image -->
+## ﻿near-surface Weakening of Shallow Crust
+<div class="cols">
+<div>
+
+![](Module-iv-Brittle-Deformation/Lecture7-extracted/slide018_img1.jpg)
+![](Module-iv-Brittle-Deformation/Lecture7-extracted/slide018_img2.jpg)
+
+</div>
+<div class="wide">
+
+- ﻿Deconvolve eq waveforms recorded at the surface with a borehole at KiK‐net station FKSH18
+- A reduction of shear‐wave velocity in the upper 100 m of about 10%
+
+Nakata & Snieder, GRL 2011
+
+</div>
+</div>
+
+<--o-->
+
+<!-- source: Lecture7_Tohoku_EQ.pptx slide 19 · template: T3-text-and-image -->
+## Land GPS Observations
+<div class="cols">
+<div class="wide">
+
+- ﻿GPS data shows the coast of Japan shifted up to 5 m eastward and sea floor got lifted by up to 3 m
+- This is the Co-seismic displacement
+
+Vertical movement
+
+Horizontal movement
+
+</div>
+<div>
+
+![](Module-iv-Brittle-Deformation/Lecture7-extracted/slide019_img1.jpg)
+![](Module-iv-Brittle-Deformation/Lecture7-extracted/slide019_img2.jpg)
+
+</div>
+</div>
+
+<--o-->
+
+<!-- source: Lecture7_Tohoku_EQ.pptx slide 20 · template: T3-text-and-image -->
+## Off-shore Geodetic Observation
+<div class="cols">
+<div>
+
+![](Module-iv-Brittle-Deformation/Lecture7-extracted/slide020_img1.jpg)
+
+</div>
+<div class="wide">
+
+- ﻿GPS data shows the coast of Japan shifted up to 5 m eastward and sea floor got lifted by up to 3 m
+- These data include post-seismic movement for about 20 days after the mainshock as well as displacement due to some foreshocks, which however are estimated to be minor
+
+Sato et al., Science 2011
+
+</div>
+</div>
+
+<--o-->
+
+<!-- source: Lecture7_Tohoku_EQ.pptx slide 21 · template: T3-text-and-image -->
+## Earthquake and Tsunami Warning
+<div class="cols">
+<div>
+
+![](Module-iv-Brittle-Deformation/Lecture7-extracted/slide021_img1.jpeg)
+
+</div>
+<div class="wide">
+
+- ﻿Why this earthquake is so large and its magnitude hard to estimate quickly?
+- Why it generates much larger tsunami than expected?
+
+</div>
+</div>
+
+<--o-->
+
+<!-- source: Lecture7_Tohoku_EQ.pptx slide 22 · template: T6-two-image -->
+## Some Plate-boundary Physics
+<div class="cols">
+<div>
+
+![](Module-iv-Brittle-Deformation/Lecture7-extracted/slide022_img1.jpg)
+
+</div>
+<div>
+
+![](Module-iv-Brittle-Deformation/Lecture7-extracted/slide022_img2.jpg)
+
+</div>
+</div>
+<p class="caption">Lay & Kanamori, 2011</p>
+
+<--o-->
+
+<!-- source: Lecture7_Tohoku_EQ.pptx slide 23 · template: T3-text-and-image -->
+## Why Such a Huge Earthquake?
+<div class="cols">
+<div class="wide">
+
+- GPS data records over a decade of strain accumulation along the costal region of northern Honshu
+
+Coupling fraction estimated Loveless and Meade (2010)
+
+IRIS Earthquake Science
+
+</div>
+<div>
+
+![](Module-iv-Brittle-Deformation/Lecture7-extracted/slide023_img1.jpg)
+![](Module-iv-Brittle-Deformation/Lecture7-extracted/slide023_img2.jpg)
+
+</div>
+</div>
+
+Note:
+﻿Coupling fraction (speed of estimated slip divided by long- term elative motion of the blocks indicated by thin lines) estimated Loveless and Meade (2010)
+
+<--o-->
+
+<!-- source: Lecture7_Tohoku_EQ.pptx slide 24 · template: T3-text-and-image -->
+## Why Such a Huge Earthquake?
+<div class="cols">
+<div class="wide">
+
+- GPS data records over a decade of strain accumulation along the costal region of northern Honshu
+- Past earthquakes in other locations indicate potentially much longer time of strain accumulation
+
+IRIS Earthquake Science
+
+</div>
+<div>
+
+![](Module-iv-Brittle-Deformation/Lecture7-extracted/slide024_img1.jpg)
+![](Module-iv-Brittle-Deformation/Lecture7-extracted/slide024_img2.jpg)
+
+<p class="caption">Lay & Kanamori, 2011</p>
+
+</div>
+</div>
+
+<--o-->
+
+<!-- source: Lecture7_Tohoku_EQ.pptx slide 25 · template: T3-text-and-image -->
+## Tsunamic Inundation and Run-up
+<div class="cols">
+<div>
+
+![](Module-iv-Brittle-Deformation/Lecture7-extracted/slide025_img1.jpg)
+![](Module-iv-Brittle-Deformation/Lecture7-extracted/slide025_img2.jpg)
+
+</div>
+<div class="wide">
+
+- ﻿Joint research groups along a 2000 km stretch of the Japanese coast with > 5300 locations surveyed
+- Watermarks on buildings, trees, and walls for inundation and ﻿maximum landward extent of debris and seawater marks for run-up
+
+Mori et al., GRL 2011
+
+</div>
+</div>
+
+<--o-->
+
+<!-- source: Lecture7_Tohoku_EQ.pptx slide 26 · template: T3-text-and-image -->
+## Tsunamic Inundation and Run-up
+<div class="cols">
+<div>
+
+![](Module-iv-Brittle-Deformation/Lecture7-extracted/slide026_img1.jpg)
+![](Module-iv-Brittle-Deformation/Lecture7-extracted/slide026_img2.jpg)
+
+</div>
+<div class="wide">
+
+- ﻿Joint research groups along a 2000 km stretch of the Japanese coast with > 5300 locations surveyed
+- Watermarks on buildings, trees, and walls for inundation and ﻿maximum landward extent of debris and seawater marks for run-up
+
+Maximum wave amplitude
+
+Mori et al., GRL 2011
+
+</div>
+</div>
+
+<--o-->
+
+<!-- source: Lecture7_Tohoku_EQ.pptx slide 27 · template: T3-text-and-image -->
+## Why a Huge Tsunami?
+<div class="cols">
+<div>
+
+![](Module-iv-Brittle-Deformation/Lecture7-extracted/slide027_img1.jpg)
+
+</div>
+<div class="wide">
+
+- Rupture physics: how much the updip of the boundary has slipped?
+- First rupture model by USGS after 7 h of the origin time: using P and surface wave
+
+Hayes, EPS, 2011
+
+</div>
+</div>
+
+Note:
+Maps of the initial (a, b) and updated (c, d) USGS NEIC finite fault slip distributions of the Tohoku Earthquake. Panels (a) and (c) show source time functions of each solution. In each map panel (b) and (d), the inverted slip distribution is shown within the assumed rectangular fault geometry, colored by slip magnitude, and contoured every 4 m. Regions with slip below 4 m are partially transparent. The slip vector of each subfault is represented with a black arrow, also scaled by slip magnitude.
+
+<--o-->
+
+<!-- source: Lecture7_Tohoku_EQ.pptx slide 28 · template: T3-text-and-image -->
+## Why a Huge Tsunami?
+<div class="cols">
+<div>
+
+![](Module-iv-Brittle-Deformation/Lecture7-extracted/slide028_img1.jpg)
+![](Module-iv-Brittle-Deformation/Lecture7-extracted/slide028_img2.jpg)
+![](Module-iv-Brittle-Deformation/Lecture7-extracted/slide028_img3.jpg)
+
+</div>
+<div class="wide">
+
+- Rupture physics: how much the updip of the boundary has slipped?
+- First rupture model by USGS after 7 h of the origin time: using P and surface wave
+
+Teleseismic P wave
+
+GPS + pressure gauges
+
+Hayes, EPS, 2011
+
+Lay et al., EPS,  2011
+
+Simons et al., Science, 2011
+
+</div>
+</div>
+
+<--o-->
+
+<!-- source: Lecture7_Tohoku_EQ.pptx slide 29 · template: T3-text-and-image -->
+## Why a Huge Tsunami?
+<div class="cols">
+<div>
+
+![](Module-iv-Brittle-Deformation/Lecture7-extracted/slide029_img1.jpg)
+
+<p class="caption">Iinuma et al, 2012 · Satake et al, 2013 · Lay et al.,  2011</p>
+
+</div>
+<div class="wide">
+
+- Further updated models with improved prior information all suggest large slip close to the trench
+
+</div>
+</div>
+
+<--o-->
+
+<!-- source: Lecture7_Tohoku_EQ.pptx slide 30 · template: T3-text-and-image -->
+## Direct Evidence of Large Ruptur at Trench
+<div class="cols">
+<div>
+
+![](Module-iv-Brittle-Deformation/Lecture7-extracted/slide030_img1.jpg)
+![](Module-iv-Brittle-Deformation/Lecture7-extracted/slide030_img2.jpg)
+
+</div>
+<div class="wide">
+
+- Displacement estimated ﻿from multibeam bathymetric data
+- Frontal wedge deformation from pressure gauge and seismic reflection survey
+
+Fujiwara et al., Science 2011
+
+Ito et al., GRL 2011
+
+</div>
+</div>
+
+<--o-->
+
+<!-- source: Lecture7_Tohoku_EQ.pptx slide 31 · template: T3-text-and-image -->
+## Future Geophysical Monitoring Instrument
+<div class="cols">
+<div>
+
+![](Module-iv-Brittle-Deformation/Lecture7-extracted/slide031_img1.jpg)
+
+
+</div>
+<div class="wide">
+
+- DONET: 2006-2011 (cables connect nodes and observatories)
+- S-NET: 2011-2018
+- Co-located pressure gauges and seismic sensors
+- Estimate to be able to advance the early warning by 20-30 sec
+
+</div>
+</div>
+
+<--o-->
+
+<!-- source: Lecture7_Tohoku_EQ.pptx slide 32 · template: T1-prose -->
+## What Have We Learned?
+- Offshore data provides critical constraints on detailed earthquake rupturing processes
+- Integrating multiple geophysical data, such as GPS, Seismic and Tsunami data is important to build more accurate rupture model
+- Updip of the subduction system can have large amounts of slip, which has dramatic importance for an accurate estimation of the tsunami hazards
+
+**REMAINING QUESTIONS:**
+
+- Why the updip (prism) of the plate-boundary can store large strain and generate such huge slip?
+- Fast and efficient algorithm for rupture model inversion (parameterization and prior information)?
+- ……
+
+<--o-->
+
+<!-- source: Lecture7_Tohoku_EQ.pptx slide 33 · template: T3-text-and-image -->
+## Main Reference
+<div class="cols">
+<div>
+
+![](Module-iv-Brittle-Deformation/Lecture7-extracted/slide033_img1.jpg)
+
+</div>
+<div class="wide">
+
+- Lay, Thorne, and Hiroo Kanamori. "Insights from the great 2011 Japan earthquake." Physics today 64, no. 12 (2011): 33-39.
+- Tajima, Fumiko, Jim Mori, and Brian LN Kennett. "A review of the 2011 Tohoku-Oki earthquake (Mw 9.0): Large-scale rupture across heterogeneous plate coupling." Tectonophysics 586 (2013): 15-34.
+- Lay, Thorne. "A review of the rupture characteristics of the 2011 Tohoku-oki Mw 9.1 earthquake." Tectonophysics 733 (2018): 4-36.
+- Kodaira, Shuichi, Toshiya Fujiwara, Gou Fujie, Yasuyuki Nakamura, and Toshiya Kanamatsu. "Large coseismic slip to the trench during the 2011 Tohoku-Oki earthquake." Annual Review of Earth and Planetary Sciences 48 (2020): 321-343.
+
+</div>
+</div>
+
+<--o-->
+
+<!-- source: Lecture7_Tohoku_EQ.pptx slide 34 · template: T4-full-figure -->
+<!-- .slide: data-background="Module-iv-Brittle-Deformation/Lecture7-extracted/slide034_img1.jpg" -->
+
+<--o-->
+
+<!-- source: Lecture7_Tohoku_EQ.pptx slide 35 · template: T3-text-and-image -->
+## Early Warning in the Future
+<div class="cols">
+<div>
+
+![](Module-iv-Brittle-Deformation/Lecture7-extracted/slide035_img1.jpg)
+![](Module-iv-Brittle-Deformation/Lecture7-extracted/slide035_img2.png)
+![](Module-iv-Brittle-Deformation/Lecture7-extracted/slide035_img3.jpg)
+![](Module-iv-Brittle-Deformation/Lecture7-extracted/slide035_img4.jpeg)
+
+<p class="caption">Source physics for modeling earthquakes</p>
+
+</div>
+<div class="wide">
+
+- Instrument availability in both space and temporal aspects.
+- Understanding of the Earth’s internal structures.
+- Understanding the source physics.
+- Verification processes and phycological issues.
+
+Instantaneous Data
+
+High resolution seismic model
+
+</div>
+</div>
