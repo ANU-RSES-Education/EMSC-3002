@@ -1,5 +1,5 @@
 ---
-title: EMSC 3002 - 1.5 Putting Plate Kinematics to Good Use
+title: EMSC 3002 - Putting Plate Kinematics to Good Use
 separator: '<--o-->'
 verticalSeparator: '<--v-->'
 revealOptions:
@@ -185,101 +185,18 @@ When does the San Andreas fault system appear ?
 
 <--o-->
 
-<!-- source: EMSC3002_pt_rules.pptx slide 12 · template: T3-text-and-image -->
-## Relative velocities
-<div class="cols">
-<div>
-
-![](Module-i-PlateKinematics-extracted/slide012_img1.png)
-![](Module-i-PlateKinematics-extracted/slide012_img2.png)
-![](Module-i-PlateKinematics-extracted/slide012_img3.png)
-
-</div>
-<div class="wide">
-
-**A**
-
-**B**
-
-**A**
-
-**B**
-
-**A**
-
-**B**
-
-Today
-
-Some time later...
-
-</div>
-</div>
+<!-- source: EMSC3002_pt_rules.pptx slide 12 · drawn diagram; full-slide render from the PDF -->
+<!-- .slide: data-background="Module-i-PlateKinematics-extracted/slide012_full.jpg" data-background-size="contain" data-background-color="#ffffff" -->
 
 <--o-->
 
-<!-- source: EMSC3002_pt_rules.pptx slide 13 · template: T3-text-and-image -->
-## Relative velocities
-<div class="cols">
-<div>
-
-![](Module-i-PlateKinematics-extracted/slide013_img1.png)
-![](Module-i-PlateKinematics-extracted/slide013_img2.png)
-![](Module-i-PlateKinematics-extracted/slide013_img3.png)
-![](Module-i-PlateKinematics-extracted/slide013_img4.png)
-
-</div>
-<div class="wide">
-
-**A**
-
-**B**
-
-**A**
-
-**B**
-
-**C**
-
-**C**
-
-</div>
-</div>
+<!-- source: EMSC3002_pt_rules.pptx slide 13 · drawn diagram; full-slide render from the PDF -->
+<!-- .slide: data-background="Module-i-PlateKinematics-extracted/slide013_full.jpg" data-background-size="contain" data-background-color="#ffffff" -->
 
 <--o-->
 
-<!-- source: EMSC3002_pt_rules.pptx slide 14 · template: T3-text-and-image -->
-## Detour — vectors
-<div class="cols">
-<div>
-
-![](Module-i-PlateKinematics-extracted/slide014_img1.png)
-![](Module-i-PlateKinematics-extracted/slide014_img2.png)
-![](Module-i-PlateKinematics-extracted/slide014_img3.png)
-
-</div>
-<div class="wide">
-
-y
-
-- Have magnitude and direction
-- Examples:
-- Velocity (speed in given direction)
-- Acceleration
-- Displacement (offset and direction)
-- Described in terms of
-- Length and Direction (r,θ)
-- Cartesian offset (x,y)
-- Think of giving someone directions by compass bearing “to get to the pub from here, walk one hundred metres in a roughly north-easterly direction ...”
-
-θ
-
-r
-
-x
-
-</div>
-</div>
+<!-- source: EMSC3002_pt_rules.pptx slide 14 · drawn diagram; full-slide render from the PDF -->
+<!-- .slide: data-background="Module-i-PlateKinematics-extracted/slide014_full.jpg" data-background-size="contain" data-background-color="#ffffff" -->
 
 <--o-->
 
@@ -399,17 +316,8 @@ Generalize the previous example — no matter what the plate boundary types ...
 
 <--o-->
 
-<!-- source: EMSC3002_pt_rules.pptx slide 21 · template: T1-prose -->
-## Transform faults v. Fracture zones
-**A**
-
-**A**
-
-**B**
-
-**B**
-
-Ridge
+<!-- source: EMSC3002_pt_rules.pptx slide 21 · drawn diagram; full-slide render from the PDF -->
+<!-- .slide: data-background="Module-i-PlateKinematics-extracted/slide021_full.jpg" data-background-size="contain" data-background-color="#ffffff" -->
 
 <--o-->
 
