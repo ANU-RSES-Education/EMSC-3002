@@ -236,6 +236,21 @@ Decisions to make (feed the next planning step):
 - If new material spans two homes, put the derivation in the canonical home and a
   short applied recap (with a link) in the other — never a second derivation.
 
+### New-material register (2026)
+
+Material Louis has identified for inclusion, with placement per the rules above:
+
+| # | Material | Source | Placement | Notes |
+|---|----------|--------|-----------|-------|
+| N1 | **Continental accretion** — research presentation (2025 delivery), follows the subduction story; Australian component | Louis's research talk (file needed) | **Module i**, directly after deck 2's subduction/convergent-boundary sequence — natural narrative continuation ("what subduction builds") | Feeds the Australian-assembly thread (N3); candidate new deck `Module-i-GlobalTectonics-4` or extension of deck 2 |
+| N2 | **Modelling faults for hydrogen exploration** — research presentation (2025 delivery); Australian component | Louis's research talk (file needed) | **Module iv**, as an *applications* lecture after Faults & Fault Zones (iv-6) | Exactly the "applications" direction of §0; ties to pore-pressure/effective-stress (iii-1) and fault-zone architecture (iv-6) with back-links, plus seal/reactivation concepts |
+| N3 | **Interpreting Australian structure** — a *capability thread*, not just a deck: (a) where Australia sat in plate reconstructions through geological time; (b) when the pieces came together (craton assembly, Proterozoic orogens, Tasmanides); (c) what the datasets are (Moho depth, sediment thickness, LAB depth, …); (d) the names of things (province/orogen nomenclature) | To be authored | **Home in Module i** (it already has LAB-thickness maps, Australian stress, and the GPlates link on the book page) as an "Australian lithospheric architecture" deck/page; then *every* module's Australian examples (§9) reference back to it | This is the geophysical-imaging thread of §0 made concrete. Dataset candidates: AusMoho / AuSREM (Moho), AusLAMP (LAB), OZ SEEBASE (sediment thickness), GA seismic lines, WSM-Australia, GPlates/EarthByte reconstructions. Doubles as the shared base layer the §9 gap-filling examples hang off |
+
+Sequencing note: N3 is the connective tissue — N1 (accretion) supplies its
+"when did the pieces come together" narrative, and the §9 per-module examples
+give students repeated practice *using* it. Suggested build order: N3 skeleton
+(nomenclature + datasets) → N1 conversion → N2 conversion.
+
 ---
 
 ## 9. Australian-examples inventory (gap: everywhere except Module i)
