@@ -28,11 +28,17 @@ _**NB:** the course materials provided by the authors are open source under a cr
 
 ## About this section
 
-This section covers some of the concepts that we will deal with in considerable detail in Module 3 of the course. You will need to understand the basics of stress, strain, strain-rate as well as elastic, viscous and plastic deformation in order to appreciate the way tectonic stresses produce structures in the Earth.
+This section covers some of the concepts that we will deal with in considerable detail in [Module 3](Module-iii-lecture1-Theory-draft.reveal.html) of the course. You will need to understand the basics of stress, strain, strain-rate as well as elastic, viscous and plastic deformation in order to appreciate the way tectonic stresses produce structures in the Earth.
 
 You also need familiarity with the variety of structures in the Earth before you can appreciate how stresses and constitutive properties of rocks play out under different situations. 
 
 This will be a brief introduction and we will return to details once you have completed Module 2.
+
+<small>
+
+**→ Full treatment in Module 3:** [Stress](Module-iii-lecture1-Theory-draft.reveal.html) · [Strain & strain-rate](Module-iii-lecture2-Theory-draft.reveal.html) · [Rheology](Module-iii-lecture3-Theory-draft.reveal.html)
+
+</small>
 
 <--o-->
 

@@ -144,27 +144,45 @@ viscosity/competence. Only stress (σ₁) and strain rate are merely *applied*.
 
 ---
 
-## 6. Proposed consolidation model — *one canonical home + light cross-links*
+## 6. Consolidation model — *one full treatment + shorter, linked revisits*
 
-| Concept cluster | Canonical home | Everyone else |
+**Design principle (Moresi):** repetition is not bad *per se* — a spiral
+curriculum wants concepts revisited. But **every revisit after the first full
+treatment must be (a) shorter and (b) explicitly acknowledge where the concept
+was originally taught** (module name + link where possible). So we are *not*
+deleting overlap; we are demoting revisits to recaps and wiring the links.
+
+Directional by teaching order (**i → ii → iii → iv → v**):
+- **Preview → Full**: a concept may be *introduced* briefly before its full
+  treatment (i-deck3 previews the theory owned by iii). The preview stays short
+  and **forward-links** ("detailed in Module 3"); the full treatment
+  **back-links** ("first met in Module 1.3").
+- **Full → Application**: once the home module has taught it, later uses are
+  **recaps** that **back-link** to the home.
+
+| Concept cluster | Full-treatment home | Revisits (shorten + link) |
 |---|---|---|
-| Stress, strain, strain-rate, rheology, Mohr circle, failure criteria | **iii** | i previews; ii/iv/v recap + link |
-| Tensor/geodynamics extras (invariants, vorticity, Kostrov, deformation maps) | **fold into iii** (from i-deck3) | i keeps the conceptual hook |
-| Fault geometry (normal/reverse/thrust/strike-slip descriptive) | **ii** | i/iii/iv link |
-| Kinematic vorticity Wₖ | **iii** (with the strain-rate tensor) | ii/v apply + link |
-| Deformation micro-mechanisms (creep, defects) | **iv-lecture0** | i/iii link |
-| Focal mechanisms | **i** (deck 2) | iii applies + links |
+| Stress, strain, strain-rate, rheology, Mohr circle, failure criteria | **iii** | i-deck3 (preview, fwd-link); ii/iv/v (recap, back-link) |
+| Tensor/geodynamics extras (invariants, vorticity, Kostrov, deformation maps) | **fold into iii** (from i-deck3) | i keeps the conceptual hook only |
+| Fault geometry (normal/reverse/thrust/strike-slip) | **ii** | i/iii/iv recap + link |
+| Kinematic vorticity Wₖ | **ii-L4** (derived there) or **iii** | v recap + back-link |
+| Deformation micro-mechanisms (creep, defects) | **iv** (lecture 4) | i/iii link |
+| Focal mechanisms | **i** (deck 2) | iii recap + back-link |
 
-### Concrete moves for 1–3 (the focus)
-- **Thin i-deck3 to a genuine preview**: keep the motivation ("What is Stress?"
-  tunnel story), the tectonic-regime payoff, and the global/Aus stress maps.
-  **Move the unique tensor material** (invariants, velocity-gradient/vorticity,
-  Kostrov summation, Byerlee deformation maps) **into iii** so nothing is lost —
-  iii currently lacks these.
-- **iii becomes the single derivation home** for the stress/strain/rheology
-  spine; i links forward, ii links back instead of re-deriving.
-- **Reconcile the two voices**: decide whether iii adopts the tensor notation
-  from i-deck3 or keeps Fossen-classical (a style decision, see §7).
+### Concrete 1–3 action list (the focus)
+
+| # | Action | Where | Type | Risk |
+|---|--------|-------|------|------|
+| A1 | Add forward-link "full treatment → Module 3" on the preview slides | i-deck3 (Stress/Strain/Rheology intro slides) | link | low |
+| A2 | Add back-link "first introduced in Module 1.3" on the opening slides | iii deck1/2/3 | link | low |
+| A3 | Move unique material into iii (tensor invariants, velocity-gradient/vorticity, Kostrov summation, Byerlee deformation maps) | i-deck3 → iii | move | med |
+| A4 | Shorten i-deck3's tensor/strain/rheology mechanics to conceptual level once iii owns them | i-deck3 | trim | **needs Louis** |
+| A5 | ii-L3 principal-stress→fault-type: add forward-link "stress theory in Module 3" | ii-L3 | link | low |
+| A6 | iii Anderson-faulting slide: back/forward-link to ii fault-geometry | iii deck1 | link | low |
+
+A1/A2/A5/A6 (links) are additive and reversible — safe to do now. A3 (move) is
+low-risk content relocation. **A4 (trimming Louis's slides) needs his slide-level
+judgment** and is deliberately held back.
 
 ---
 
