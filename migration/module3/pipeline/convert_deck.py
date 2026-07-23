@@ -98,11 +98,14 @@ def resources_slide(s):
         out.append(f"1. {r}")
     return "\n".join(out)
 
-def convert_slide(s, prefix, course="EMSC 3002", module="Module 3"):
-    if s["n"] == 1:
-        return title_slide(s, course, module)
-    if s["n"] == 2:
-        return resources_slide(s)
+def convert_slide(s, prefix, course="EMSC 3002", module="Module 3", plain=False):
+    # plain mode (research talks): no course title/resources/ILO scaffolding —
+    # every slide goes through the ordinary templates.
+    if not plain:
+        if s["n"] == 1:
+            return title_slide(s, course, module)
+        if s["n"] == 2:
+            return resources_slide(s)
     tmpl = s["template_guess"]
     title, bodies = pick_title(s)
     caps = [t["text"].replace("\n", " ").strip() for t in s["texts"] if t["role"] == "caption"]
@@ -158,18 +161,20 @@ def convert_slide(s, prefix, course="EMSC 3002", module="Module 3"):
     return "\n".join(x for x in out if x is not None)
 
 def main():
-    man = json.loads(pathlib.Path(sys.argv[1]).read_text())
-    prefix, first, last, outpath = sys.argv[2], int(sys.argv[3]), int(sys.argv[4]), sys.argv[5]
-    title = sys.argv[6] if len(sys.argv) > 6 else "Theory (draft)"
-    module = sys.argv[7] if len(sys.argv) > 7 else "Module 3"
+    plain = "--plain" in sys.argv
+    argv = [a for a in sys.argv if a != "--plain"]
+    man = json.loads(pathlib.Path(argv[1]).read_text())
+    prefix, first, last, outpath = argv[2], int(argv[3]), int(argv[4]), argv[5]
+    title = argv[6] if len(argv) > 6 else "Theory (draft)"
+    module = argv[7] if len(argv) > 7 else "Module 3"
     fm = ("---\n" f"title: {title}\n"
           "separator: '<--o-->'\nverticalSeparator: '<--v-->'\n"
           "revealOptions:\n    transition: 'fade'\n    slideNumber: true\n"
           "    width: 1200\n    height: 800\n    margin: 0.07\n---\n")
     slides = [s for s in man["slides"] if first <= s["n"] <= last]
-    parts = [convert_slide(s, prefix, "EMSC 3002", module) for s in slides]
-    # Intended Learning Outcomes is not in the pptx — insert a blank placeholder after Resources.
-    idxs = [i for i, s in enumerate(slides) if s["n"] == 2]
+    parts = [convert_slide(s, prefix, "EMSC 3002", module, plain=plain) for s in slides]
+    # course decks: insert the what-you-will-learn placeholder after Resources.
+    idxs = [] if plain else [i for i, s in enumerate(slides) if s["n"] == 2]
     if idxs:
         ilo = ("<!-- ILO placeholder — not in the pptx; fill in -->\n"
                "## What you will learn in this module\n\n"
