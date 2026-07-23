@@ -173,9 +173,7 @@ I am a seismologist broadly interested in tectonic, magmatic and near surface ge
 
 ## Demonstrators
 
-<!-- TODO: photo to come — save as images/Introduction/Mugshot-Kashkarov.jpeg, then restore:
-     ![SK](images/Introduction/Mugshot-Kashkarov.jpeg)  with .element style="width:20%; float:right; margin-top:50px"
--->
+![SK](images/Introduction/Mugshot-Kashkarov.jpeg)   <!-- .element style="width:20%; float:right; margin-top:50px" -->
 
 <div style="width:70%">
 
