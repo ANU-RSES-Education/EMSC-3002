@@ -4,7 +4,7 @@ When rocks undergo rapid, localised deformation, we refer to the process as "bri
 
 ## Lecture Slides
 
-The slides are originally made using PowerPoint and then converted to html / javascript format through stacking a series of snapshots. Therefore it does not work well if printing them from your browser. But a pdf version of the original format is provided in the Wattle to have three slides each page on the left with space for notes on the right.
+Most of these slides have been converted from the original PowerPoint to the same html / javascript format as the rest of the course, with the text and equations restored (the first deck is still the snapshot version). If you would like a pdf copy, the "Build your own PDF" link will process the slides and you can then *print from your browser* to a file.
 
 ### Overview of deformation mechanisms
 The first part of this module introduces the general concepts related to different deformation mechanisms, including brittle and ductile deformation.
@@ -12,27 +12,33 @@ The first part of this module introduces the general concepts related to differe
 <iframe src="../slideshows/Module-iv-lecture0-Brittle-deformation.reveal.html" title="Slideshow" width=100%, height=470, allowfullscreen></iframe>
 Login to Wattle for the pdf version.
 
-## Fundamentals of brittle deformation
+### Fundamentals of brittle deformation
 The next part of this module focuses on some of the fundamental concepts related to the brittle deformation, such as fracturing and frictional sliding. 
 
-<iframe src="../slideshows/Module-iv-lecture1-Brittle-deformation.reveal.html" title="Slideshow" width=100%, height=470, allowfullscreen></iframe>
-Login to Wattle for the pdf version.
+<iframe src="../slideshows/Module-iv-lecture4-Brittle-deformation-draft.reveal.html" title="Slideshow" width=100%, height=470, allowfullscreen></iframe>
 
-## Joints and Veins
+<a href="../slideshows/Module-iv-lecture4-Brittle-deformation-draft.reveal.html?print-pdf">Build your own PDF</a>
+
+### Joints and Veins
 This part of the module introduces the structures of joints and veins, two important types of brittle deformation.
 
-<iframe src="../slideshows/Module-iv-lecture2-Brittle-deformation.reveal.html" title="Slideshow" width=100%, height=470, allowfullscreen></iframe>
-Login to Wattle for the pdf version.
+<iframe src="../slideshows/Module-iv-lecture5-Joints-Faults-draft.reveal.html" title="Slideshow" width=100%, height=470, allowfullscreen></iframe>
 
-## Faults, fault zones and earthquakes
+<a href="../slideshows/Module-iv-lecture5-Joints-Faults-draft.reveal.html?print-pdf">Build your own PDF</a>
+
+### Faults, fault zones and earthquakes
 This lecture covers the concept, characteristics and geometrical relationships to stress of fault and fault zone structures. It also introduces some fundamental concepts and theory related to earthquakes.
 
-<iframe src="../slideshows/Module-iv-lecture3-Brittle-deformation.reveal.html" title="Slideshow" width=100%, height=470, allowfullscreen></iframe>
+<iframe src="../slideshows/Module-iv-lecture6-Faults-Fault-Zones-draft.reveal.html" title="Slideshow" width=100%, height=470, allowfullscreen></iframe>
 
-## 2021 Mansfield and 2011 Tohoku earthquake
+<a href="../slideshows/Module-iv-lecture6-Faults-Fault-Zones-draft.reveal.html?print-pdf">Build your own PDF</a>
+
+### 2021 Mansfield and 2011 Tohoku earthquake
 The last part of this module dives into two important earthquakes, the 2021 Mansfield earthquake and 2011 Tohoku earthquake, to link the concepts and theory we have learned about the brittle deformation with real case studies.
 
-<iframe src="../slideshows/Module-iv-lecture4-Brittle-deformation.reveal.html" title="Slideshow" width=100%, height=470, allowfullscreen></iframe>
+<iframe src="../slideshows/Module-iv-lecture7-Tohoku-EQ-draft.reveal.html" title="Slideshow" width=100%, height=470, allowfullscreen></iframe>
+
+<a href="../slideshows/Module-iv-lecture7-Tohoku-EQ-draft.reveal.html?print-pdf">Build your own PDF</a>
 
 ## Resources
   - One detailed collection of news articles and other resources about the 2021 Mansfield earthquake on the [GeoDown Under blog](https://www.geo-down-under.org.au/victorian-earthquake-roundup/).
