@@ -36,7 +36,7 @@ Australian National University
 <!-- ILO placeholder — not in the pptx; fill in -->
 ## What you will learn in this module
 
-<!-- TODO: add the intended learning outcomes for this module -->
+<!-- TODO: add what you will learn in this module -->
 
 <--o-->
 
@@ -75,9 +75,17 @@ Australian National University
 <div class="cols">
 <div>
 
+<div class="cols">
+
 ![](Module-iv-Brittle-Deformation/Lecture4-extracted/slide006_img1.jpg)
+
+
 ![](Module-iv-Brittle-Deformation/Lecture4-extracted/slide006_img2.jpg)
+
+
 ![](Module-iv-Brittle-Deformation/Lecture4-extracted/slide006_img3.jpg)
+
+</div>
 
 <p class="caption">Fault · Dike · Fossen, 2011 · Veins · Google map</p>
 
@@ -109,9 +117,17 @@ van der Pluijm & Marshall (2003)
 </div>
 <div>
 
-![](Module-iv-Brittle-Deformation/Lecture4-extracted/slide007_img1.jpg)
+<div class="cols">
+
 ![](Module-iv-Brittle-Deformation/Lecture4-extracted/slide007_img2.jpg)
+
+
+![](Module-iv-Brittle-Deformation/Lecture4-extracted/slide007_img1.jpg)
+
+
 ![](Module-iv-Brittle-Deformation/Lecture4-extracted/slide007_img3.jpg)
+
+</div>
 
 <p class="caption">Half Dome, Yosemite · Exfoliation joints</p>
 
@@ -129,10 +145,19 @@ The photo on the right shows the famous scenery in Yosemite national park in Cal
 <div class="cols">
 <div>
 
-![](Module-iv-Brittle-Deformation/Lecture4-extracted/slide008_img1.jpeg)
-![](Module-iv-Brittle-Deformation/Lecture4-extracted/slide008_img2.jpg)
-![](Module-iv-Brittle-Deformation/Lecture4-extracted/slide008_img3.jpg)
 ![](Module-iv-Brittle-Deformation/Lecture4-extracted/slide008_img4.jpg)
+
+<div class="cols">
+
+![](Module-iv-Brittle-Deformation/Lecture4-extracted/slide008_img1.jpeg)
+
+
+![](Module-iv-Brittle-Deformation/Lecture4-extracted/slide008_img3.jpg)
+
+
+![](Module-iv-Brittle-Deformation/Lecture4-extracted/slide008_img2.jpg)
+
+</div>
 
 <p class="caption">FRACTURES · Half Dome, Yosemite · van der Pluijm & Marshall (2003) · Sorkhabi, GeoExpro, 2014</p>
 
@@ -155,8 +180,14 @@ It is smoothly rounded on three sides and a sheer vertical face on the fourth. A
 <div class="cols">
 <div>
 
+<div class="cols">
+
 ![](Module-iv-Brittle-Deformation/Lecture4-extracted/slide009_img1.jpg)
+
+
 ![](Module-iv-Brittle-Deformation/Lecture4-extracted/slide009_img2.jpg)
+
+</div>
 
 <p class="caption">Fossen, 2011</p>
 
@@ -213,9 +244,16 @@ Shear-mode fracture and faults are not simply microscopic equivalents. Differenc
 <div class="cols">
 <div>
 
+<div class="cols">
+
 ![](Module-iv-Brittle-Deformation/Lecture4-extracted/slide011_img1.jpg)
-![](Module-iv-Brittle-Deformation/Lecture4-extracted/slide011_img2.jpg)
+
+
 ![](Module-iv-Brittle-Deformation/Lecture4-extracted/slide011_img3.jpg)
+
+</div>
+
+![](Module-iv-Brittle-Deformation/Lecture4-extracted/slide011_img2.jpg) <!-- .element style="width:60%;" -->
 
 <p class="caption">Fossen, 2011</p>
 
@@ -274,12 +312,12 @@ Note:
 <div class="cols">
 <div>
 
-![](Module-iv-Brittle-Deformation/Lecture4-extracted/slide013_img1.jpg)
+![](Module-iv-Brittle-Deformation/Lecture4-extracted/slide013_img1.jpg) <!-- .element style="width:72%;" -->
 
 </div>
 <div>
 
-![](Module-iv-Brittle-Deformation/Lecture4-extracted/slide013_img2.jpg)
+![](Module-iv-Brittle-Deformation/Lecture4-extracted/slide013_img2.jpg) <!-- .element style="width:70%;" -->
 
 </div>
 </div>
@@ -305,9 +343,11 @@ van der Pluijm & Marshall (2003)
 </div>
 <div>
 
-![](Module-iv-Brittle-Deformation/Lecture4-extracted/slide014_img1.jpg)
-![](Module-iv-Brittle-Deformation/Lecture4-extracted/slide014_img2.jpg)
-![](Module-iv-Brittle-Deformation/Lecture4-extracted/slide014_img3.jpg)
+![](Module-iv-Brittle-Deformation/Lecture4-extracted/slide014_img3.jpg) <!-- .element style="width:90%;" -->
+
+![](Module-iv-Brittle-Deformation/Lecture4-extracted/slide014_img1.jpg) <!-- .element style="width:82%;" -->
+
+![](Module-iv-Brittle-Deformation/Lecture4-extracted/slide014_img2.jpg) <!-- .element style="width:52%;" -->
 
 <p class="caption">Fossen, 2011</p>
 
@@ -343,9 +383,16 @@ Wikipedia
 </div>
 <div>
 
-![](Module-iv-Brittle-Deformation/Lecture4-extracted/slide015_img1.jpg)
-![](Module-iv-Brittle-Deformation/Lecture4-extracted/slide015_img2.jpg)
+![](Module-iv-Brittle-Deformation/Lecture4-extracted/slide015_img1.jpg) <!-- .element style="width:52%;" -->
+
+<div class="cols">
+
 ![](Module-iv-Brittle-Deformation/Lecture4-extracted/slide015_img3.jpg)
+
+
+![](Module-iv-Brittle-Deformation/Lecture4-extracted/slide015_img2.jpg)
+
+</div>
 
 <p class="caption">www.npg.org.uk · Fossen, 2011</p>
 
@@ -364,8 +411,14 @@ Alan Griffith was another British engineer. He took the next step toward solving
 <div class="cols">
 <div>
 
+<div class="cols">
+
 ![](Module-iv-Brittle-Deformation/Lecture4-extracted/slide016_img1.jpg)
+
+
 ![](Module-iv-Brittle-Deformation/Lecture4-extracted/slide016_img2.jpg)
+
+</div>
 
 <p class="caption">Axial stretching · Axial compression</p>
 
@@ -396,9 +449,17 @@ Not all extensional features are results of extensional stress. The differential
 </div>
 <div>
 
-![](Module-iv-Brittle-Deformation/Lecture4-extracted/slide017_img1.jpg)
-![](Module-iv-Brittle-Deformation/Lecture4-extracted/slide017_img2.jpg)
+<div class="cols">
+
 ![](Module-iv-Brittle-Deformation/Lecture4-extracted/slide017_img3.jpg)
+
+
+![](Module-iv-Brittle-Deformation/Lecture4-extracted/slide017_img2.jpg)
+
+
+![](Module-iv-Brittle-Deformation/Lecture4-extracted/slide017_img1.jpg)
+
+</div>
 
 <p class="caption">National Geographic Society · Fossen, 2011 · Why in horizontal direction?</p>
 
@@ -415,7 +476,7 @@ How does pore pressure affect the tensile failure strength of rock? The pore pre
 <div class="cols">
 <div>
 
-![](Module-iv-Brittle-Deformation/Lecture4-extracted/slide018_img2.jpg)
+![](Module-iv-Brittle-Deformation/Lecture4-extracted/slide018_img2.jpg) <!-- .element style="width:72%;" -->
 
 </div>
 <div>
@@ -437,10 +498,18 @@ Figure on the right: (a) Griffith crack modeled as an elliptical void. Tensile s
 <div class="cols">
 <div>
 
+![](Module-iv-Brittle-Deformation/Lecture4-extracted/slide019_img4.jpg) <!-- .element style="width:86%;" -->
+
+<div class="cols">
+
 ![](Module-iv-Brittle-Deformation/Lecture4-extracted/slide019_img1.jpg)
+
+
 ![](Module-iv-Brittle-Deformation/Lecture4-extracted/slide019_img2.jpg)
-![](Module-iv-Brittle-Deformation/Lecture4-extracted/slide019_img3.jpg)
-![](Module-iv-Brittle-Deformation/Lecture4-extracted/slide019_img4.jpg)
+
+</div>
+
+![](Module-iv-Brittle-Deformation/Lecture4-extracted/slide019_img3.jpg) <!-- .element style="width:94%;" -->
 
 
 </div>
@@ -474,9 +543,11 @@ This figure is usually what in my head when thinking about the stress state when
 </div>
 <div>
 
-![](Module-iv-Brittle-Deformation/Lecture4-extracted/slide020_img1.jpg)
+![](Module-iv-Brittle-Deformation/Lecture4-extracted/slide020_img3.jpg) <!-- .element style="width:39%;" -->
+
+![](Module-iv-Brittle-Deformation/Lecture4-extracted/slide020_img1.jpg) <!-- .element style="width:91%;" -->
+
 ![](Module-iv-Brittle-Deformation/Lecture4-extracted/slide020_img2.jpg)
-![](Module-iv-Brittle-Deformation/Lecture4-extracted/slide020_img3.jpg)
 
 <p class="caption">van der Pluijm & Marshall (2003) · I · II · III · IV</p>
 
@@ -490,8 +561,14 @@ This figure is usually what in my head when thinking about the stress state when
 <div class="cols">
 <div>
 
+<div class="cols">
+
 ![](Module-iv-Brittle-Deformation/Lecture4-extracted/slide021_img1.jpg)
+
+
 ![](Module-iv-Brittle-Deformation/Lecture4-extracted/slide021_img2.jpg)
+
+</div>
 
 <p class="caption">Fossen, 2011</p>
 
@@ -516,9 +593,11 @@ ${\sigma}_{s}=\sigma /2\sin 2\theta$
 <div class="cols">
 <div>
 
+![](Module-iv-Brittle-Deformation/Lecture4-extracted/slide022_img2.jpg) <!-- .element style="width:70%;" -->
+
 ![](Module-iv-Brittle-Deformation/Lecture4-extracted/slide022_img1.jpg)
-![](Module-iv-Brittle-Deformation/Lecture4-extracted/slide022_img2.jpg)
-![](Module-iv-Brittle-Deformation/Lecture4-extracted/slide022_img3.jpg)
+
+![](Module-iv-Brittle-Deformation/Lecture4-extracted/slide022_img3.jpg) <!-- .element style="width:50%;" -->
 
 <p class="caption">Fossen, 2011</p>
 
@@ -560,7 +639,7 @@ ${\sigma}_{1}$
 </div>
 <div>
 
-![](Module-iv-Brittle-Deformation/Lecture4-extracted/slide023_img1.jpg)
+![](Module-iv-Brittle-Deformation/Lecture4-extracted/slide023_img1.jpg) <!-- .element style="width:92%;" -->
 
 </div>
 </div>
@@ -575,8 +654,14 @@ When the Mohr circles move to the right, you need much larger differential stres
 <div class="cols">
 <div>
 
+<div class="cols">
+
 ![](Module-iv-Brittle-Deformation/Lecture4-extracted/slide024_img1.jpg)
+
+
 ![](Module-iv-Brittle-Deformation/Lecture4-extracted/slide024_img2.jpg)
+
+</div>
 
 <p class="caption">Fossen, 2011</p>
 
@@ -598,10 +683,19 @@ ${\sigma}_{1}$
 <div class="cols">
 <div>
 
+![](Module-iv-Brittle-Deformation/Lecture4-extracted/slide025_img4.jpg) <!-- .element style="width:85%;" -->
+
+<div class="cols">
+
 ![](Module-iv-Brittle-Deformation/Lecture4-extracted/slide025_img1.jpg)
+
+
 ![](Module-iv-Brittle-Deformation/Lecture4-extracted/slide025_img2.jpg)
+
+
 ![](Module-iv-Brittle-Deformation/Lecture4-extracted/slide025_img3.jpg)
-![](Module-iv-Brittle-Deformation/Lecture4-extracted/slide025_img4.jpg)
+
+</div>
 
 <p class="caption">Fossen, 2011</p>
 
@@ -645,7 +739,8 @@ ${\sigma 2}_{s}+4T{\sigma}_{n}-4T2=0$
 </div>
 <div>
 
-![](Module-iv-Brittle-Deformation/Lecture4-extracted/slide026_img1.jpg)
+![](Module-iv-Brittle-Deformation/Lecture4-extracted/slide026_img1.jpg) <!-- .element style="width:51%;" -->
+
 ![](Module-iv-Brittle-Deformation/Lecture4-extracted/slide026_img2.jpg)
 
 <p class="caption">www.npg.org.uk · Fossen, 2011</p>
@@ -663,12 +758,12 @@ The parabola still increase too fast for conditions of large confining pressure,
 <div class="cols">
 <div>
 
-![](Module-iv-Brittle-Deformation/Lecture4-extracted/slide027_img2.jpg)
+![](Module-iv-Brittle-Deformation/Lecture4-extracted/slide027_img2.jpg) <!-- .element style="width:63%;" -->
 
 </div>
 <div>
 
-![](Module-iv-Brittle-Deformation/Lecture4-extracted/slide027_img1.jpg)
+![](Module-iv-Brittle-Deformation/Lecture4-extracted/slide027_img1.jpg) <!-- .element style="width:86%;" -->
 
 </div>
 </div>
@@ -697,9 +792,11 @@ On the right side of the diagram, we have Von Mises criteria shown as horizontal
 </div>
 <div>
 
-![](Module-iv-Brittle-Deformation/Lecture4-extracted/slide028_img1.jpg)
+![](Module-iv-Brittle-Deformation/Lecture4-extracted/slide028_img3.jpg) <!-- .element style="width:36%;" -->
+
 ![](Module-iv-Brittle-Deformation/Lecture4-extracted/slide028_img2.jpg)
-![](Module-iv-Brittle-Deformation/Lecture4-extracted/slide028_img3.jpg)
+
+![](Module-iv-Brittle-Deformation/Lecture4-extracted/slide028_img1.jpg)
 
 <p class="caption">van der Pluijm & Marshall (2003)</p>
 
@@ -740,9 +837,16 @@ Mohr diagram based on experiments with dolomite, showing how a single stress sta
 <div class="cols">
 <div>
 
+<div class="cols">
+
 ![](Module-iv-Brittle-Deformation/Lecture4-extracted/slide030_img1.jpg)
-![](Module-iv-Brittle-Deformation/Lecture4-extracted/slide030_img2.jpg)
+
+
 ![](Module-iv-Brittle-Deformation/Lecture4-extracted/slide030_img3.jpg)
+
+</div>
+
+![](Module-iv-Brittle-Deformation/Lecture4-extracted/slide030_img2.jpg) <!-- .element style="width:45%;" -->
 
 <p class="caption">Brittle failure (low confining P) · Ductile flow (high confining P) · Paterson, 1958</p>
 
@@ -782,12 +886,12 @@ Uniaxial and triaxial testing apparatus.
 <div class="cols">
 <div>
 
-![](Module-iv-Brittle-Deformation/Lecture4-extracted/slide032_img1.jpg)
+![](Module-iv-Brittle-Deformation/Lecture4-extracted/slide032_img1.jpg) <!-- .element style="width:84%;" -->
 
 </div>
 <div>
 
-![](Module-iv-Brittle-Deformation/Lecture4-extracted/slide032_img2.jpg)
+![](Module-iv-Brittle-Deformation/Lecture4-extracted/slide032_img2.jpg) <!-- .element style="width:85%;" -->
 
 </div>
 </div>
@@ -800,9 +904,17 @@ Uniaxial and triaxial testing apparatus.
 <div class="cols">
 <div>
 
+<div class="cols">
+
 ![](Module-iv-Brittle-Deformation/Lecture4-extracted/slide033_img1.jpg)
+
+
 ![](Module-iv-Brittle-Deformation/Lecture4-extracted/slide033_img2.jpg)
+
+
 ![](Module-iv-Brittle-Deformation/Lecture4-extracted/slide033_img3.jpg)
+
+</div>
 
 <p class="caption">Fossen, 2011</p>
 

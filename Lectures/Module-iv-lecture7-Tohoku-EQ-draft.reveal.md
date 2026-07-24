@@ -35,7 +35,7 @@ Australian National University
 <!-- ILO placeholder — not in the pptx; fill in -->
 ## What you will learn in this module
 
-<!-- TODO: add the intended learning outcomes for this module -->
+<!-- TODO: add what you will learn in this module -->
 
 <--o-->
 
@@ -74,7 +74,7 @@ Australian National University
 </div>
 <div>
 
-![](Module-iv-Brittle-Deformation/Lecture7-extracted/slide005_img1.jpg)
+![](Module-iv-Brittle-Deformation/Lecture7-extracted/slide005_img1.jpg) <!-- .element style="width:80%;" -->
 
 </div>
 </div>
@@ -87,12 +87,32 @@ Australian National University
 <div class="cols">
 <div>
 
+<div class="cols">
+
 ![](Module-iv-Brittle-Deformation/Lecture7-extracted/slide006_img1.jpg)
-![](Module-iv-Brittle-Deformation/Lecture7-extracted/slide006_img2.jpg)
+
+
 ![](Module-iv-Brittle-Deformation/Lecture7-extracted/slide006_img3.png)
+
+</div>
+
+<div class="cols">
+
+![](Module-iv-Brittle-Deformation/Lecture7-extracted/slide006_img2.jpg)
+
+
 ![](Module-iv-Brittle-Deformation/Lecture7-extracted/slide006_img4.png)
+
+</div>
+
+<div class="cols">
+
 ![](Module-iv-Brittle-Deformation/Lecture7-extracted/slide006_img5.jpg)
+
+
 ![](Module-iv-Brittle-Deformation/Lecture7-extracted/slide006_img6.jpg)
+
+</div>
 
 <p class="caption">Hypocentral distance [km] · Intensity [mm] · Soft sediments · A · B · U<sub>B</sub></p>
 
@@ -124,9 +144,11 @@ M<sub>w</sub> = log M<sub>0</sub>/1.5 – 10.7
 </div>
 <div>
 
-![](Module-iv-Brittle-Deformation/Lecture7-extracted/slide007_img1.jpg)
-![](Module-iv-Brittle-Deformation/Lecture7-extracted/slide007_img2.png)
-![](Module-iv-Brittle-Deformation/Lecture7-extracted/slide007_img3.png)
+![](Module-iv-Brittle-Deformation/Lecture7-extracted/slide007_img2.png) <!-- .element style="width:14%;" -->
+
+![](Module-iv-Brittle-Deformation/Lecture7-extracted/slide007_img1.jpg) <!-- .element style="width:79%;" -->
+
+![](Module-iv-Brittle-Deformation/Lecture7-extracted/slide007_img3.png) <!-- .element style="width:79%;" -->
 
 </div>
 </div>
@@ -139,8 +161,10 @@ M<sub>w</sub> = log M<sub>0</sub>/1.5 – 10.7
 <div>
 
 ![](Module-iv-Brittle-Deformation/Lecture7-extracted/slide008_img1.jpg)
+
 ![](Module-iv-Brittle-Deformation/Lecture7-extracted/slide008_img2.jpg)
-![](Module-iv-Brittle-Deformation/Lecture7-extracted/slide008_img3.jpg)
+
+![](Module-iv-Brittle-Deformation/Lecture7-extracted/slide008_img3.jpg) <!-- .element style="width:70%;" -->
 
 <p class="caption">Time · Magnitude · eqServer</p>
 
@@ -164,9 +188,18 @@ Seismology research center of AU
 <div class="cols">
 <div>
 
-![](Module-iv-Brittle-Deformation/Lecture7-extracted/slide009_img1.jpg)
+<div class="cols">
+
 ![](Module-iv-Brittle-Deformation/Lecture7-extracted/slide009_img2.png)
+
+
+![](Module-iv-Brittle-Deformation/Lecture7-extracted/slide009_img1.jpg)
+
+
 ![](Module-iv-Brittle-Deformation/Lecture7-extracted/slide009_img3.jpg)
+
+</div>
+
 ![](Module-iv-Brittle-Deformation/Lecture7-extracted/slide009_img4.jpg)
 
 <p class="caption">Ninis et al, Temblor, 2021. http://doi.org/10.32858/temblor.207 · USGS · RHR · Mousavi et al., 2023. https://doi.org/10.1785/0220220348 · Hypocenter · Centroid · USGS</p>
@@ -191,7 +224,7 @@ Seismology research center of AU
 </div>
 <div>
 
-![](Module-iv-Brittle-Deformation/Lecture7-extracted/slide010_img2.jpg)
+![](Module-iv-Brittle-Deformation/Lecture7-extracted/slide010_img2.jpg) <!-- .element style="width:79%;" -->
 
 </div>
 </div>
@@ -213,8 +246,9 @@ Seismology research center of AU
 </div>
 <div>
 
-![](Module-iv-Brittle-Deformation/Lecture7-extracted/slide011_img1.jpg)
 ![](Module-iv-Brittle-Deformation/Lecture7-extracted/slide011_img2.jpg)
+
+![](Module-iv-Brittle-Deformation/Lecture7-extracted/slide011_img1.jpg) <!-- .element style="width:91%;" -->
 
 </div>
 </div>
@@ -266,12 +300,12 @@ Seismology research center of AU
 <div class="cols">
 <div>
 
-![](Module-iv-Brittle-Deformation/Lecture7-extracted/slide014_img2.png)
+![](Module-iv-Brittle-Deformation/Lecture7-extracted/slide014_img2.png) <!-- .element style="width:91%;" -->
 
 </div>
 <div>
 
-![](Module-iv-Brittle-Deformation/Lecture7-extracted/slide014_img1.jpg)
+![](Module-iv-Brittle-Deformation/Lecture7-extracted/slide014_img1.jpg) <!-- .element style="width:56%;" -->
 
 </div>
 </div>
@@ -303,8 +337,10 @@ Additional details can be found at https://en.wikipedia.org/wiki/Aftermath_of_th
 <div>
 
 ![](Module-iv-Brittle-Deformation/Lecture7-extracted/slide016_img1.jpg)
-![](Module-iv-Brittle-Deformation/Lecture7-extracted/slide016_img2.jpg)
-![](Module-iv-Brittle-Deformation/Lecture7-extracted/slide016_img3.jpg)
+
+![](Module-iv-Brittle-Deformation/Lecture7-extracted/slide016_img3.jpg) <!-- .element style="width:80%;" -->
+
+![](Module-iv-Brittle-Deformation/Lecture7-extracted/slide016_img2.jpg) <!-- .element style="width:57%;" -->
 
 </div>
 <div class="wide">
@@ -330,9 +366,16 @@ Right image: "Fukushima7" by Rama C. Hoetzlein (Rchoetzlein at en.wikipedia) - O
 <div class="cols">
 <div>
 
+<div class="cols">
+
 ![](Module-iv-Brittle-Deformation/Lecture7-extracted/slide017_img1.jpg)
+
+
 ![](Module-iv-Brittle-Deformation/Lecture7-extracted/slide017_img2.jpg)
-![](Module-iv-Brittle-Deformation/Lecture7-extracted/slide017_img3.jpg)
+
+</div>
+
+![](Module-iv-Brittle-Deformation/Lecture7-extracted/slide017_img3.jpg) <!-- .element style="width:56%;" -->
 
 <p class="caption">Furumura et al., 2011</p>
 
@@ -353,8 +396,9 @@ Right image: "Fukushima7" by Rama C. Hoetzlein (Rchoetzlein at en.wikipedia) - O
 <div class="cols">
 <div>
 
+![](Module-iv-Brittle-Deformation/Lecture7-extracted/slide018_img2.jpg) <!-- .element style="width:87%;" -->
+
 ![](Module-iv-Brittle-Deformation/Lecture7-extracted/slide018_img1.jpg)
-![](Module-iv-Brittle-Deformation/Lecture7-extracted/slide018_img2.jpg)
 
 </div>
 <div class="wide">
@@ -384,8 +428,14 @@ Horizontal movement
 </div>
 <div>
 
-![](Module-iv-Brittle-Deformation/Lecture7-extracted/slide019_img1.jpg)
+<div class="cols">
+
 ![](Module-iv-Brittle-Deformation/Lecture7-extracted/slide019_img2.jpg)
+
+
+![](Module-iv-Brittle-Deformation/Lecture7-extracted/slide019_img1.jpg)
+
+</div>
 
 </div>
 </div>
@@ -417,7 +467,7 @@ Sato et al., Science 2011
 <div class="cols">
 <div>
 
-![](Module-iv-Brittle-Deformation/Lecture7-extracted/slide021_img1.jpeg)
+![](Module-iv-Brittle-Deformation/Lecture7-extracted/slide021_img1.jpeg) <!-- .element style="width:90%;" -->
 
 </div>
 <div class="wide">
@@ -462,8 +512,14 @@ IRIS Earthquake Science
 </div>
 <div>
 
-![](Module-iv-Brittle-Deformation/Lecture7-extracted/slide023_img1.jpg)
+<div class="cols">
+
 ![](Module-iv-Brittle-Deformation/Lecture7-extracted/slide023_img2.jpg)
+
+
+![](Module-iv-Brittle-Deformation/Lecture7-extracted/slide023_img1.jpg)
+
+</div>
 
 </div>
 </div>
@@ -487,6 +543,7 @@ IRIS Earthquake Science
 <div>
 
 ![](Module-iv-Brittle-Deformation/Lecture7-extracted/slide024_img1.jpg)
+
 ![](Module-iv-Brittle-Deformation/Lecture7-extracted/slide024_img2.jpg)
 
 <p class="caption">Lay & Kanamori, 2011</p>
@@ -501,8 +558,14 @@ IRIS Earthquake Science
 <div class="cols">
 <div>
 
+<div class="cols">
+
 ![](Module-iv-Brittle-Deformation/Lecture7-extracted/slide025_img1.jpg)
+
+
 ![](Module-iv-Brittle-Deformation/Lecture7-extracted/slide025_img2.jpg)
+
+</div>
 
 </div>
 <div class="wide">
@@ -522,8 +585,14 @@ Mori et al., GRL 2011
 <div class="cols">
 <div>
 
+<div class="cols">
+
 ![](Module-iv-Brittle-Deformation/Lecture7-extracted/slide026_img1.jpg)
+
+
 ![](Module-iv-Brittle-Deformation/Lecture7-extracted/slide026_img2.jpg)
+
+</div>
 
 </div>
 <div class="wide">
@@ -568,9 +637,17 @@ Maps of the initial (a, b) and updated (c, d) USGS NEIC finite fault slip distri
 <div class="cols">
 <div>
 
+<div class="cols">
+
 ![](Module-iv-Brittle-Deformation/Lecture7-extracted/slide028_img1.jpg)
+
+
 ![](Module-iv-Brittle-Deformation/Lecture7-extracted/slide028_img2.jpg)
+
+
 ![](Module-iv-Brittle-Deformation/Lecture7-extracted/slide028_img3.jpg)
+
+</div>
 
 </div>
 <div class="wide">
@@ -617,8 +694,14 @@ Simons et al., Science, 2011
 <div class="cols">
 <div>
 
+<div class="cols">
+
 ![](Module-iv-Brittle-Deformation/Lecture7-extracted/slide030_img1.jpg)
+
+
 ![](Module-iv-Brittle-Deformation/Lecture7-extracted/slide030_img2.jpg)
+
+</div>
 
 </div>
 <div class="wide">
@@ -700,10 +783,19 @@ Ito et al., GRL 2011
 <div class="cols">
 <div>
 
+![](Module-iv-Brittle-Deformation/Lecture7-extracted/slide035_img4.jpg) <!-- .element style="width:71%;" -->
+
+<div class="cols">
+
 ![](Module-iv-Brittle-Deformation/Lecture7-extracted/slide035_img1.jpg)
+
+
 ![](Module-iv-Brittle-Deformation/Lecture7-extracted/slide035_img2.png)
+
+
 ![](Module-iv-Brittle-Deformation/Lecture7-extracted/slide035_img3.jpg)
-![](Module-iv-Brittle-Deformation/Lecture7-extracted/slide035_img4.jpeg)
+
+</div>
 
 <p class="caption">Source physics for modeling earthquakes</p>
 

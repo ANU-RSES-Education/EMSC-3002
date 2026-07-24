@@ -34,7 +34,7 @@ Australian National University
 <!-- ILO placeholder — not in the pptx; fill in -->
 ## What you will learn in this module
 
-<!-- TODO: add the intended learning outcomes for this module -->
+<!-- TODO: add what you will learn in this module -->
 
 <--o-->
 
@@ -48,12 +48,12 @@ Australian National University
 <div class="cols">
 <div>
 
-![](Module-iv-Brittle-Deformation/Lecture6-extracted/slide004_img2.jpg)
+![](Module-iv-Brittle-Deformation/Lecture6-extracted/slide004_img2.jpg) <!-- .element style="width:92%;" -->
 
 </div>
 <div>
 
-![](Module-iv-Brittle-Deformation/Lecture6-extracted/slide004_img1.jpg)
+![](Module-iv-Brittle-Deformation/Lecture6-extracted/slide004_img1.jpg) <!-- .element style="width:76%;" -->
 
 </div>
 </div>
@@ -71,9 +71,16 @@ Northwest-directed photograph in the Hattie Green mine. This tunnel was “drive
 <div class="cols">
 <div>
 
+<div class="cols">
+
 ![](Module-iv-Brittle-Deformation/Lecture6-extracted/slide005_img1.jpg)
-![](Module-iv-Brittle-Deformation/Lecture6-extracted/slide005_img2.jpg)
+
+
 ![](Module-iv-Brittle-Deformation/Lecture6-extracted/slide005_img3.jpg)
+
+</div>
+
+![](Module-iv-Brittle-Deformation/Lecture6-extracted/slide005_img2.jpg)
 
 <p class="caption">Jim Talbot · Haakon Fossen · Microscopic · Macroscopic · Mesoscopic · van der Pluijm & Marshall (2003) · 130 m offset over 3700 years</p>
 
@@ -112,6 +119,7 @@ van der Pluijm & Marshall (2003)
 <div>
 
 ![](Module-iv-Brittle-Deformation/Lecture6-extracted/slide006_img1.jpg)
+
 ![](Module-iv-Brittle-Deformation/Lecture6-extracted/slide006_img2.jpg)
 
 <p class="caption">JPB (2020)</p>
@@ -133,9 +141,16 @@ van der Pluijm & Marshall (2003)
 </div>
 <div>
 
-![](Module-iv-Brittle-Deformation/Lecture6-extracted/slide007_img1.jpg)
+![](Module-iv-Brittle-Deformation/Lecture6-extracted/slide007_img3.jpg) <!-- .element style="width:86%;" -->
+
+<div class="cols">
+
 ![](Module-iv-Brittle-Deformation/Lecture6-extracted/slide007_img2.jpg)
-![](Module-iv-Brittle-Deformation/Lecture6-extracted/slide007_img3.jpg)
+
+
+![](Module-iv-Brittle-Deformation/Lecture6-extracted/slide007_img1.jpg)
+
+</div>
 
 <p class="caption">(I) · (II) · (III) · Fossen, 2011</p>
 
@@ -154,6 +169,7 @@ Figure on the right: Duplex structure in dolomitic sandstones, Svalbard, Photo S
 <div>
 
 ![](Module-iv-Brittle-Deformation/Lecture6-extracted/slide008_img1.jpg)
+
 ![](Module-iv-Brittle-Deformation/Lecture6-extracted/slide008_img2.jpg)
 
 </div>
@@ -184,8 +200,14 @@ GNS Science
 </div>
 <div>
 
-![](Module-iv-Brittle-Deformation/Lecture6-extracted/slide009_img1.jpg)
+<div class="cols">
+
 ![](Module-iv-Brittle-Deformation/Lecture6-extracted/slide009_img2.jpg)
+
+
+![](Module-iv-Brittle-Deformation/Lecture6-extracted/slide009_img1.jpg)
+
+</div>
 
 </div>
 </div>
@@ -211,8 +233,15 @@ GNS Science
 </div>
 <div>
 
-![](Module-iv-Brittle-Deformation/Lecture6-extracted/slide010_img1.jpg)
+<div class="cols">
+
 ![](Module-iv-Brittle-Deformation/Lecture6-extracted/slide010_img2.jpg)
+
+
+![](Module-iv-Brittle-Deformation/Lecture6-extracted/slide010_img1.jpg)
+
+</div>
+
 ![](Module-iv-Brittle-Deformation/Lecture6-extracted/slide010_img3.jpg)
 
 </div>
@@ -233,7 +262,7 @@ Two residents were seriously injured, one by a collapsing chimney and a second b
 </div>
 <div>
 
-![](Module-iv-Brittle-Deformation/Lecture6-extracted/slide011_img1.jpg)
+![](Module-iv-Brittle-Deformation/Lecture6-extracted/slide011_img1.jpg) <!-- .element style="width:66%;" -->
 
 </div>
 </div>
@@ -325,10 +354,23 @@ Difficult of find the movement in practical case: due to erosion, different angl
 <div class="cols">
 <div>
 
+<div class="cols">
+
 ![](Module-iv-Brittle-Deformation/Lecture6-extracted/slide015_img1.jpg)
+
+
 ![](Module-iv-Brittle-Deformation/Lecture6-extracted/slide015_img2.jpg)
-![](Module-iv-Brittle-Deformation/Lecture6-extracted/slide015_img3.jpg)
+
+</div>
+
+<div class="cols">
+
 ![](Module-iv-Brittle-Deformation/Lecture6-extracted/slide015_img4.jpg)
+
+
+![](Module-iv-Brittle-Deformation/Lecture6-extracted/slide015_img3.jpg)
+
+</div>
 
 </div>
 <div class="wide">
@@ -346,6 +388,7 @@ Haakon Fossen
 <div>
 
 ![](Module-iv-Brittle-Deformation/Lecture6-extracted/slide016_img1.jpg)
+
 ![](Module-iv-Brittle-Deformation/Lecture6-extracted/slide016_img2.jpg)
 
 <p class="caption">Faulkner et al. (2003)</p>
@@ -378,9 +421,16 @@ Carboneras fault zone, SE Spain: a complex strike-slip fault with several anasto
 </div>
 <div>
 
-![](Module-iv-Brittle-Deformation/Lecture6-extracted/slide017_img1.jpg)
-![](Module-iv-Brittle-Deformation/Lecture6-extracted/slide017_img2.jpg)
+![](Module-iv-Brittle-Deformation/Lecture6-extracted/slide017_img1.jpg) <!-- .element style="width:94%;" -->
+
+<div class="cols">
+
 ![](Module-iv-Brittle-Deformation/Lecture6-extracted/slide017_img3.jpg)
+
+
+![](Module-iv-Brittle-Deformation/Lecture6-extracted/slide017_img2.jpg)
+
+</div>
 
 <p class="caption">To be improved · Mitchell and Faulkner, 2009 · Fossen, 2011</p>
 
@@ -449,12 +499,12 @@ Same microbreccia but with a discrete slip surface
 <div class="cols">
 <div>
 
-![](Module-iv-Brittle-Deformation/Lecture6-extracted/slide020_img1.jpg)
+![](Module-iv-Brittle-Deformation/Lecture6-extracted/slide020_img1.jpg) <!-- .element style="width:71%;" -->
 
 </div>
 <div>
 
-![](Module-iv-Brittle-Deformation/Lecture6-extracted/slide020_img2.jpg)
+![](Module-iv-Brittle-Deformation/Lecture6-extracted/slide020_img2.jpg) <!-- .element style="width:71%;" -->
 
 </div>
 </div>
@@ -466,9 +516,16 @@ Same microbreccia but with a discrete slip surface
 <div class="cols">
 <div>
 
+<div class="cols">
+
 ![](Module-iv-Brittle-Deformation/Lecture6-extracted/slide021_img1.jpg)
+
+
 ![](Module-iv-Brittle-Deformation/Lecture6-extracted/slide021_img2.jpg)
-![](Module-iv-Brittle-Deformation/Lecture6-extracted/slide021_img3.jpg)
+
+</div>
+
+![](Module-iv-Brittle-Deformation/Lecture6-extracted/slide021_img3.jpg) <!-- .element style="width:93%;" -->
 
 </div>
 <div class="wide">
@@ -508,9 +565,16 @@ Same microbreccia but with a discrete slip surface
 <div class="cols">
 <div>
 
-![](Module-iv-Brittle-Deformation/Lecture6-extracted/slide023_img1.jpg)
-![](Module-iv-Brittle-Deformation/Lecture6-extracted/slide023_img2.jpg)
+<div class="cols">
+
 ![](Module-iv-Brittle-Deformation/Lecture6-extracted/slide023_img3.jpg)
+
+
+![](Module-iv-Brittle-Deformation/Lecture6-extracted/slide023_img2.jpg)
+
+</div>
+
+![](Module-iv-Brittle-Deformation/Lecture6-extracted/slide023_img1.jpg)
 
 </div>
 <div class="wide">
@@ -530,11 +594,26 @@ Images: Stephen Cox
 <div class="cols">
 <div>
 
-![](Module-iv-Brittle-Deformation/Lecture6-extracted/slide024_img1.jpg)
-![](Module-iv-Brittle-Deformation/Lecture6-extracted/slide024_img2.jpg)
-![](Module-iv-Brittle-Deformation/Lecture6-extracted/slide024_img3.jpg)
-![](Module-iv-Brittle-Deformation/Lecture6-extracted/slide024_img4.jpg)
+<div class="cols">
+
 ![](Module-iv-Brittle-Deformation/Lecture6-extracted/slide024_img5.jpg)
+
+
+![](Module-iv-Brittle-Deformation/Lecture6-extracted/slide024_img2.jpg)
+
+
+![](Module-iv-Brittle-Deformation/Lecture6-extracted/slide024_img3.jpg)
+
+</div>
+
+<div class="cols">
+
+![](Module-iv-Brittle-Deformation/Lecture6-extracted/slide024_img1.jpg)
+
+
+![](Module-iv-Brittle-Deformation/Lecture6-extracted/slide024_img4.jpg)
+
+</div>
 
 </div>
 <div class="wide">
@@ -578,8 +657,9 @@ Slip plane
 </div>
 <div>
 
-![](Module-iv-Brittle-Deformation/Lecture6-extracted/slide025_img1.jpg)
 ![](Module-iv-Brittle-Deformation/Lecture6-extracted/slide025_img2.jpg)
+
+![](Module-iv-Brittle-Deformation/Lecture6-extracted/slide025_img1.jpg) <!-- .element style="width:72%;" -->
 
 <p class="caption">Fossen, 2011</p>
 
@@ -601,9 +681,11 @@ Relative stress results from modeling
 </div>
 <div>
 
-![](Module-iv-Brittle-Deformation/Lecture6-extracted/slide026_img1.jpg)
-![](Module-iv-Brittle-Deformation/Lecture6-extracted/slide026_img2.jpg)
 ![](Module-iv-Brittle-Deformation/Lecture6-extracted/slide026_img3.jpg)
+
+![](Module-iv-Brittle-Deformation/Lecture6-extracted/slide026_img2.jpg)
+
+![](Module-iv-Brittle-Deformation/Lecture6-extracted/slide026_img1.jpg) <!-- .element style="width:83%;" -->
 
 <p class="caption">Slip plane · Fossen, 2011</p>
 
@@ -620,9 +702,16 @@ Tangent-lineation diagram for fault data from basement gneisses west of Bergen, 
 <div class="cols">
 <div>
 
-![](Module-iv-Brittle-Deformation/Lecture6-extracted/slide027_img1.jpg)
 ![](Module-iv-Brittle-Deformation/Lecture6-extracted/slide027_img2.jpg)
+
+<div class="cols">
+
+![](Module-iv-Brittle-Deformation/Lecture6-extracted/slide027_img1.jpg)
+
+
 ![](Module-iv-Brittle-Deformation/Lecture6-extracted/slide027_img3.jpg)
+
+</div>
 
 <p class="caption">Fault · Joint · Fold · Smears · Fossen, 2011</p>
 
@@ -716,9 +805,17 @@ $\sigma xx$
 <div>
 
 ![](Module-iv-Brittle-Deformation/Lecture6-extracted/slide030_img1.jpg)
-![](Module-iv-Brittle-Deformation/Lecture6-extracted/slide030_img2.jpg)
-![](Module-iv-Brittle-Deformation/Lecture6-extracted/slide030_img3.jpg)
+
+![](Module-iv-Brittle-Deformation/Lecture6-extracted/slide030_img2.jpg) <!-- .element style="width:51%;" -->
+
+<div class="cols">
+
 ![](Module-iv-Brittle-Deformation/Lecture6-extracted/slide030_img4.png)
+
+
+![](Module-iv-Brittle-Deformation/Lecture6-extracted/slide030_img3.jpg)
+
+</div>
 
 <p class="caption">Vs [km/s] · Depth [m] · [m]</p>
 
@@ -740,9 +837,11 @@ Reflectors
 <div class="cols">
 <div>
 
-![](Module-iv-Brittle-Deformation/Lecture6-extracted/slide032_img1.jpg)
 ![](Module-iv-Brittle-Deformation/Lecture6-extracted/slide032_img2.jpg)
-![](Module-iv-Brittle-Deformation/Lecture6-extracted/slide032_img3.jpg)
+
+![](Module-iv-Brittle-Deformation/Lecture6-extracted/slide032_img1.jpg)
+
+![](Module-iv-Brittle-Deformation/Lecture6-extracted/slide032_img3.jpg) <!-- .element style="width:82%;" -->
 
 <p class="caption">Fossen, 2011</p>
 
@@ -764,11 +863,21 @@ Reflectors
 <div class="cols">
 <div>
 
+![](Module-iv-Brittle-Deformation/Lecture6-extracted/slide033_img4.jpg) <!-- .element style="width:84%;" -->
+
+<div class="cols">
+
 ![](Module-iv-Brittle-Deformation/Lecture6-extracted/slide033_img1.jpg)
-![](Module-iv-Brittle-Deformation/Lecture6-extracted/slide033_img2.jpg)
-![](Module-iv-Brittle-Deformation/Lecture6-extracted/slide033_img3.jpg)
-![](Module-iv-Brittle-Deformation/Lecture6-extracted/slide033_img4.jpg)
+
+
 ![](Module-iv-Brittle-Deformation/Lecture6-extracted/slide033_img5.jpg)
+
+
+![](Module-iv-Brittle-Deformation/Lecture6-extracted/slide033_img3.jpg)
+
+</div>
+
+![](Module-iv-Brittle-Deformation/Lecture6-extracted/slide033_img2.jpg)
 
 </div>
 <div class="wide">
@@ -794,7 +903,7 @@ Integrated seismic energy over 600s after initiation, normalized such that the m
 <div class="cols">
 <div>
 
-![](Module-iv-Brittle-Deformation/Lecture6-extracted/slide034_img1.jpg)
+![](Module-iv-Brittle-Deformation/Lecture6-extracted/slide034_img1.jpg) <!-- .element style="width:47%;" -->
 
 <p class="caption">Source: Gareth Funning</p>
 
@@ -855,9 +964,16 @@ Was there a surface rupture?
 <div class="cols">
 <div>
 
-![](Module-iv-Brittle-Deformation/Lecture6-extracted/slide036_img1.jpg)
-![](Module-iv-Brittle-Deformation/Lecture6-extracted/slide036_img2.jpg)
+![](Module-iv-Brittle-Deformation/Lecture6-extracted/slide036_img1.jpg) <!-- .element style="width:88%;" -->
+
+<div class="cols">
+
 ![](Module-iv-Brittle-Deformation/Lecture6-extracted/slide036_img3.jpg)
+
+
+![](Module-iv-Brittle-Deformation/Lecture6-extracted/slide036_img2.jpg)
+
+</div>
 
 <p class="caption">Fossen, 2011</p>
 
@@ -886,7 +1002,7 @@ Underlapping faults “feel” the presence of a neighboring fault tip in the se
 </div>
 <div>
 
-![](Module-iv-Brittle-Deformation/Lecture6-extracted/slide037_img1.jpg)
+![](Module-iv-Brittle-Deformation/Lecture6-extracted/slide037_img1.jpg) <!-- .element style="width:79%;" -->
 
 </div>
 </div>
@@ -936,7 +1052,8 @@ Since we are discussing the Mohr circle and the failing criteria, let’s revisi
 <div>
 
 ![](Module-iv-Brittle-Deformation/Lecture6-extracted/slide039_img1.jpg)
-![](Module-iv-Brittle-Deformation/Lecture6-extracted/slide039_img2.jpg)
+
+![](Module-iv-Brittle-Deformation/Lecture6-extracted/slide039_img2.jpg) <!-- .element style="width:60%;" -->
 
 </div>
 <div class="wide">
@@ -957,9 +1074,16 @@ Trillium 120 PA Seismometer
 <div class="cols">
 <div>
 
-![](Module-iv-Brittle-Deformation/Lecture6-extracted/slide040_img1.jpg)
+![](Module-iv-Brittle-Deformation/Lecture6-extracted/slide040_img1.jpg) <!-- .element style="width:91%;" -->
+
+<div class="cols">
+
 ![](Module-iv-Brittle-Deformation/Lecture6-extracted/slide040_img2.jpg)
+
+
 ![](Module-iv-Brittle-Deformation/Lecture6-extracted/slide040_img3.jpg)
+
+</div>
 
 <p class="caption">Fossen, 2011</p>
 
@@ -1050,8 +1174,14 @@ Gavin Hayes, USGS
 </div>
 <div>
 
-![](Module-iv-Brittle-Deformation/Lecture6-extracted/slide045_img1.jpg)
+<div class="cols">
+
 ![](Module-iv-Brittle-Deformation/Lecture6-extracted/slide045_img2.jpeg)
+
+
+![](Module-iv-Brittle-Deformation/Lecture6-extracted/slide045_img1.jpg)
+
+</div>
 
 <p class="caption">Zhang et al., Geology 2004 · Metabasalt to blueschist · Serpentine dehydration</p>
 
@@ -1134,9 +1264,16 @@ M<sub>w</sub> = log M<sub>0</sub>/1.5 – 10.7
 </div>
 <div>
 
+<div class="cols">
+
 ![](Module-iv-Brittle-Deformation/Lecture6-extracted/slide049_img1.jpg)
+
+
 ![](Module-iv-Brittle-Deformation/Lecture6-extracted/slide049_img2.png)
-![](Module-iv-Brittle-Deformation/Lecture6-extracted/slide049_img3.jpg)
+
+</div>
+
+![](Module-iv-Brittle-Deformation/Lecture6-extracted/slide049_img3.jpg) <!-- .element style="width:38%;" -->
 
 </div>
 </div>
@@ -1259,10 +1396,19 @@ First 3-day earthquake records for 2019 Ridgecrest earthquake (USGS).
 <div class="cols">
 <div>
 
+![](Module-iv-Brittle-Deformation/Lecture6-extracted/slide056_img4.jpg) <!-- .element style="width:71%;" -->
+
+<div class="cols">
+
 ![](Module-iv-Brittle-Deformation/Lecture6-extracted/slide056_img1.jpg)
+
+
 ![](Module-iv-Brittle-Deformation/Lecture6-extracted/slide056_img2.png)
+
+
 ![](Module-iv-Brittle-Deformation/Lecture6-extracted/slide056_img3.jpg)
-![](Module-iv-Brittle-Deformation/Lecture6-extracted/slide056_img4.jpeg)
+
+</div>
 
 <p class="caption">Source physics for modeling earthquakes</p>
 
@@ -1314,8 +1460,9 @@ van der Pluijm & Marshall (2003)
 </div>
 <div>
 
-![](Module-iv-Brittle-Deformation/Lecture6-extracted/slide059_img1.jpg)
 ![](Module-iv-Brittle-Deformation/Lecture6-extracted/slide059_img2.jpg)
+
+![](Module-iv-Brittle-Deformation/Lecture6-extracted/slide059_img1.jpg)
 
 <p class="caption">Faulkner et al. (2003)</p>
 
@@ -1370,11 +1517,15 @@ van der Pluijm & Marshall (2003)
 </div>
 <div>
 
-![](Module-iv-Brittle-Deformation/Lecture6-extracted/slide061_img1.jpg)
-![](Module-iv-Brittle-Deformation/Lecture6-extracted/slide061_img2.jpg)
-![](Module-iv-Brittle-Deformation/Lecture6-extracted/slide061_img3.jpg)
-![](Module-iv-Brittle-Deformation/Lecture6-extracted/slide061_img4.jpg)
+![](Module-iv-Brittle-Deformation/Lecture6-extracted/slide061_img4.jpg) <!-- .element style="width:77%;" -->
+
 ![](Module-iv-Brittle-Deformation/Lecture6-extracted/slide061_img5.jpg)
+
+![](Module-iv-Brittle-Deformation/Lecture6-extracted/slide061_img1.jpg)
+
+![](Module-iv-Brittle-Deformation/Lecture6-extracted/slide061_img3.jpg)
+
+![](Module-iv-Brittle-Deformation/Lecture6-extracted/slide061_img2.jpg)
 
 <p class="caption">Normal fault systems · Thrust fault systems</p>
 
@@ -1430,8 +1581,14 @@ III. Strike-slip fault
 <div class="cols">
 <div>
 
+<div class="cols">
+
 ![](Module-iv-Brittle-Deformation/Lecture6-extracted/slide064_img1.jpg)
+
+
 ![](Module-iv-Brittle-Deformation/Lecture6-extracted/slide064_img2.jpg)
+
+</div>
 
 <p class="caption">Time to failure (s)</p>
 
@@ -1453,9 +1610,16 @@ Rouet-Leduc et al, GRL 2017
 <div class="cols">
 <div>
 
+<div class="cols">
+
 ![](Module-iv-Brittle-Deformation/Lecture6-extracted/slide065_img1.jpg)
-![](Module-iv-Brittle-Deformation/Lecture6-extracted/slide065_img2.png)
+
+
 ![](Module-iv-Brittle-Deformation/Lecture6-extracted/slide065_img3.jpeg)
+
+</div>
+
+![](Module-iv-Brittle-Deformation/Lecture6-extracted/slide065_img2.png)
 
 <p class="caption">Pre-historic activity</p>
 
@@ -1482,7 +1646,7 @@ Wikipedia
 </div>
 <div>
 
-![](Module-iv-Brittle-Deformation/Lecture6-extracted/slide066_img2.png)
+![](Module-iv-Brittle-Deformation/Lecture6-extracted/slide066_img2.png) <!-- .element style="width:65%;" -->
 
 </div>
 </div>

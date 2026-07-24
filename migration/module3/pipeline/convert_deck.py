@@ -29,6 +29,39 @@ def is_caps(t):
 def img(prefix, im, extra=""):
     return f'![]({prefix}/{im["file"]}){extra}'
 
+def img_sized(prefix, im, container_pct):
+    """Image sized from its pptx display geometry: im['w'] is % of slide width;
+    container_pct is the container's approximate % of slide width. Emits a width
+    style only when meaningfully smaller than the container (fixes e.g. a tiny
+    icon rendering at full column width)."""
+    w = im.get("w") or 0
+    rel = round(min(100.0, w / container_pct * 100)) if w else 100
+    if rel >= 95:
+        return img(prefix, im)
+    return img(prefix, im, f' <!-- .element style="width:{rel}%;" -->')
+
+def img_block(prefix, imgs, container_pct):
+    """Emit images preserving pptx rows: images that sat side-by-side (similar y)
+    go into a nested flex row instead of stacking."""
+    rows = []
+    for im in sorted(imgs, key=lambda i: (i["y"], i["x"])):
+        if rows and abs(im["y"] - rows[-1][0]["y"]) < 8:
+            rows[-1].append(im)
+        else:
+            rows.append([im])
+    out = []
+    for row in rows:
+        row.sort(key=lambda i: i["x"])
+        if len(row) == 1:
+            out.append(img_sized(prefix, row[0], container_pct))
+        else:
+            out.append('<div class="cols">')
+            for im in row:
+                out += ['', img(prefix, im), '']
+            out.append('</div>')
+        out.append("")
+    return "\n".join(out).strip()
+
 def caption_block(caps):
     caps = [c for c in caps if not BARE_URL.match(c)]          # drop bare-URL noise
     if not caps:
@@ -125,7 +158,7 @@ def convert_slide(s, prefix, course="EMSC 3002", module="Module 3", plain=False)
         # a block-level <div> are treated as raw HTML and left unrendered).
         out.append('<div class="cols">')
         for im in (a, b):
-            out += ['<div>', '', img(prefix, im), '', '</div>']
+            out += ['<div>', '', img_sized(prefix, im, 48), '', '</div>']
         out.append('</div>')
         out += caption_block(caps)
 
@@ -138,7 +171,7 @@ def convert_slide(s, prefix, course="EMSC 3002", module="Module 3", plain=False)
     elif tmpl == "T3-text-and-image" and imgs:
         if H: out.append(H)
         tb = text_md(bodies) or "&nbsp;"
-        imgblock = "\n".join(img(prefix, im) for im in imgs)
+        imgblock = img_block(prefix, imgs, 37)   # image column ~37% of slide (flex 1 vs 1.7)
         col_img = ['<div>', "", imgblock] + (["", *caption_block(caps)] if caps else []) + ["", '</div>']
         col_txt = ['<div class="wide">', "", tb, "", '</div>']
         out.append('<div class="cols">')
@@ -153,7 +186,7 @@ def convert_slide(s, prefix, course="EMSC 3002", module="Module 3", plain=False)
     else:  # T1-prose / T0
         if H: out.append(H)
         if bodies: out.append(text_md(bodies))
-        for im in imgs: out.append(img(prefix, im))
+        if imgs: out.append(img_block(prefix, imgs, 100))
         out += caption_block(caps)
 
     if s["notes"]:

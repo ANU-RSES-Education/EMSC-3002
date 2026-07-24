@@ -39,12 +39,12 @@ _**NB:** the course materials provided by the authors are open source under a cr
 <!-- ILO placeholder — not in the pptx; fill in -->
 ## What you will learn in this module
 
-<!-- TODO: add the intended learning outcomes for this module -->
+<!-- TODO: add what you will learn in this module -->
 
 <--o-->
 
 <!-- source: Lecture2_Strain_StrainRate.pptx slide 3 · template: T4-full-figure -->
-<!-- .slide: data-background="Module-iii-Theory/Lecture2-extracted/slide003_img1.png" -->
+<!-- .slide: data-background="Module-iii-Theory/Lecture2-extracted/slide003_img1.jpg" -->
 
 <--o-->
 
@@ -64,7 +64,7 @@ _**NB:** the course materials provided by the authors are open source under a cr
 </div>
 <div>
 
-![](Module-iii-Theory/Lecture2-extracted/slide004_img1.jpg)
+![](Module-iii-Theory/Lecture2-extracted/slide004_img1.jpg) <!-- .element style="width:75%;" -->
 
 </div>
 </div>
@@ -90,7 +90,7 @@ Bring things together with sand-box experiments and/or numerical modeling.
 </div>
 <div>
 
-![](Module-iii-Theory/Lecture2-extracted/slide005_img1.png)
+![](Module-iii-Theory/Lecture2-extracted/slide005_img1.jpg)
 
 <p class="caption">Source: Prof. Jean-Pierre Bug (JPB), ETH</p>
 
@@ -110,9 +110,11 @@ Bring things together with sand-box experiments and/or numerical modeling.
 </div>
 <div>
 
-![](Module-iii-Theory/Lecture2-extracted/slide006_img1.png)
-![](Module-iii-Theory/Lecture2-extracted/slide006_img2.png)
-![](Module-iii-Theory/Lecture2-extracted/slide006_img3.jpeg)
+![](Module-iii-Theory/Lecture2-extracted/slide006_img2.jpg)
+
+![](Module-iii-Theory/Lecture2-extracted/slide006_img1.jpg)
+
+![](Module-iii-Theory/Lecture2-extracted/slide006_img3.jpg)
 
 <p class="caption">Davis and Reynolds, 1996</p>
 
@@ -129,7 +131,7 @@ Maybe add a little bit more real examples?
 <div class="cols">
 <div>
 
-![](Module-iii-Theory/Lecture2-extracted/slide007_img1.jpeg)
+![](Module-iii-Theory/Lecture2-extracted/slide007_img1.jpg)
 
 <p class="caption">Hawaiian ridge · Emperor Mountain Chain · ~39 Ma</p>
 
@@ -160,8 +162,14 @@ National Geophysical Data Center/USGS
 </div>
 <div>
 
+<div class="cols">
+
+![](Module-iii-Theory/Lecture2-extracted/slide008_img2.jpg)
+
+
 ![](Module-iii-Theory/Lecture2-extracted/slide008_img1.png)
-![](Module-iii-Theory/Lecture2-extracted/slide008_img2.jpeg)
+
+</div>
 
 <p class="caption">French & Romanowicz, 2015</p>
 
@@ -175,12 +183,12 @@ National Geophysical Data Center/USGS
 <div class="cols">
 <div>
 
-![](Module-iii-Theory/Lecture2-extracted/slide009_img2.png)
+![](Module-iii-Theory/Lecture2-extracted/slide009_img2.jpg)
 
 </div>
 <div>
 
-![](Module-iii-Theory/Lecture2-extracted/slide009_img1.png)
+![](Module-iii-Theory/Lecture2-extracted/slide009_img1.jpg) <!-- .element style="width:74%;" -->
 
 </div>
 </div>
@@ -207,7 +215,7 @@ Strained quartz pebbles in conglomerate, near Dalton, MA, USA
 </div>
 <div>
 
-![](Module-iii-Theory/Lecture2-extracted/slide010_img1.png)
+![](Module-iii-Theory/Lecture2-extracted/slide010_img1.jpg) <!-- .element style="width:72%;" -->
 
 <p class="caption">Fossen, 2010</p>
 
@@ -231,8 +239,9 @@ Waldron & Snyder, U Alberta
 </div>
 <div>
 
-![](Module-iii-Theory/Lecture2-extracted/slide011_img1.png)
-![](Module-iii-Theory/Lecture2-extracted/slide011_img2.png)
+![](Module-iii-Theory/Lecture2-extracted/slide011_img1.jpg) <!-- .element style="width:88%;" -->
+
+![](Module-iii-Theory/Lecture2-extracted/slide011_img2.jpg)
 
 <p class="caption">Fossen, 2010</p>
 
@@ -246,8 +255,14 @@ Waldron & Snyder, U Alberta
 <div class="cols">
 <div>
 
+<div class="cols">
+
 ![](Module-iii-Theory/Lecture2-extracted/slide012_img1.jpg)
+
+
 ![](Module-iii-Theory/Lecture2-extracted/slide012_img2.jpg)
+
+</div>
 
 </div>
 <div class="wide">
@@ -301,9 +316,16 @@ $\gamma =\tan \phi = \frac{\Delta x}{y}$
 </div>
 <div>
 
-![](Module-iii-Theory/Lecture2-extracted/slide013_img1.png)
-![](Module-iii-Theory/Lecture2-extracted/slide013_img2.png)
-![](Module-iii-Theory/Lecture2-extracted/slide013_img3.png)
+![](Module-iii-Theory/Lecture2-extracted/slide013_img1.jpg) <!-- .element style="width:87%;" -->
+
+<div class="cols">
+
+![](Module-iii-Theory/Lecture2-extracted/slide013_img2.jpg)
+
+
+![](Module-iii-Theory/Lecture2-extracted/slide013_img3.jpg)
+
+</div>
 
 <p class="caption">State 0 · State 1 · https://openeducationalberta.ca/introductorystructuralgeology</p>
 
@@ -317,7 +339,7 @@ $\gamma =\tan \phi = \frac{\Delta x}{y}$
 <div class="cols">
 <div>
 
-![](Module-iii-Theory/Lecture2-extracted/slide014_img1.png)
+![](Module-iii-Theory/Lecture2-extracted/slide014_img1.jpg)
 
 </div>
 <div class="wide">
@@ -341,7 +363,7 @@ To calculate the shear strain across a fault or shear zone, we need to first ide
 <div class="cols">
 <div>
 
-![](Module-iii-Theory/Lecture2-extracted/slide015_img1.png)
+![](Module-iii-Theory/Lecture2-extracted/slide015_img1.jpg)
 
 </div>
 <div class="wide">
@@ -499,7 +521,7 @@ consider homogeneous and infinitesimal strain, so that linear and shear strains 
 </div>
 <div>
 
-![](Module-iii-Theory/Lecture2-extracted/slide018_img1.png)
+![](Module-iii-Theory/Lecture2-extracted/slide018_img1.jpg)
 
 </div>
 </div>
@@ -521,8 +543,9 @@ Patrice Rey, USyd
 </div>
 <div>
 
-![](Module-iii-Theory/Lecture2-extracted/slide019_img1.png)
-![](Module-iii-Theory/Lecture2-extracted/slide019_img2.png)
+![](Module-iii-Theory/Lecture2-extracted/slide019_img1.jpg) <!-- .element style="width:54%;" -->
+
+![](Module-iii-Theory/Lecture2-extracted/slide019_img2.jpg) <!-- .element style="width:91%;" -->
 
 <p class="caption">$e3$ · $e2$ · $e1$ · $e1 \ge e2$ $\ge e3$</p>
 
@@ -552,7 +575,7 @@ A strain ellipsoid has three lines X,Y and Z that are special. They represent 
 </div>
 <div>
 
-![](Module-iii-Theory/Lecture2-extracted/slide020_img1.png)
+![](Module-iii-Theory/Lecture2-extracted/slide020_img1.jpg) <!-- .element style="width:91%;" -->
 
 <p class="caption">$e3$ · $e2$ · $e1$ · $e1 \ge e2$ $\ge e3$</p>
 
@@ -575,7 +598,8 @@ Coaxial deformation (pure shear)
 </div>
 <div>
 
-![](Module-iii-Theory/Lecture2-extracted/slide021_img1.png)
+![](Module-iii-Theory/Lecture2-extracted/slide021_img1.jpg)
+
 ![](Module-iii-Theory/Lecture2-extracted/slide021_img2.jpg)
 
 <p class="caption">$\epsilon$ · $\epsilon$ · $\epsilon$ · $\epsilon$ · Fossen, 2010</p>
@@ -603,9 +627,11 @@ Unconsolidated
 </div>
 <div>
 
-![](Module-iii-Theory/Lecture2-extracted/slide022_img1.png)
-![](Module-iii-Theory/Lecture2-extracted/slide022_img2.png)
-![](Module-iii-Theory/Lecture2-extracted/slide022_img3.png)
+![](Module-iii-Theory/Lecture2-extracted/slide022_img1.jpg) <!-- .element style="width:70%;" -->
+
+![](Module-iii-Theory/Lecture2-extracted/slide022_img3.jpg) <!-- .element style="width:55%;" -->
+
+![](Module-iii-Theory/Lecture2-extracted/slide022_img2.jpg) <!-- .element style="width:55%;" -->
 
 <p class="caption">Fluids · Compaction · Fossen, 2010</p>
 
@@ -624,8 +650,9 @@ When a layer of sediment is originally deposited, it contains an open framework 
 <div class="cols">
 <div>
 
-![](Module-iii-Theory/Lecture2-extracted/slide023_img1.png)
-![](Module-iii-Theory/Lecture2-extracted/slide023_img2.png)
+![](Module-iii-Theory/Lecture2-extracted/slide023_img2.jpg)
+
+![](Module-iii-Theory/Lecture2-extracted/slide023_img1.jpg)
 
 <p class="caption">Fossen, 2010</p>
 
@@ -671,7 +698,7 @@ Patrice Rey, USyd
 </div>
 <div>
 
-![](Module-iii-Theory/Lecture2-extracted/slide024_img1.png)
+![](Module-iii-Theory/Lecture2-extracted/slide024_img1.jpg)
 
 </div>
 </div>
@@ -712,8 +739,9 @@ Patrice Rey, USyd
 </div>
 <div>
 
-![](Module-iii-Theory/Lecture2-extracted/slide026_img1.png)
-![](Module-iii-Theory/Lecture2-extracted/slide026_img2.png)
+![](Module-iii-Theory/Lecture2-extracted/slide026_img1.jpg)
+
+![](Module-iii-Theory/Lecture2-extracted/slide026_img2.jpg)
 
 </div>
 </div>
@@ -729,7 +757,7 @@ After deformation the distance between two particles aligned with &1 increases w
 <div class="cols">
 <div>
 
-![](Module-iii-Theory/Lecture2-extracted/slide027_img1.png)
+![](Module-iii-Theory/Lecture2-extracted/slide027_img1.jpg)
 
 <p class="caption">Fossen, 2010</p>
 
@@ -756,8 +784,14 @@ Phi represents the angle between the long axis of the strain ellipse or sub-sphe
 <div class="cols">
 <div>
 
-![](Module-iii-Theory/Lecture2-extracted/slide028_img1.png)
-![](Module-iii-Theory/Lecture2-extracted/slide028_img2.png)
+<div class="cols">
+
+![](Module-iii-Theory/Lecture2-extracted/slide028_img1.jpg)
+
+
+![](Module-iii-Theory/Lecture2-extracted/slide028_img2.jpg)
+
+</div>
 
 <p class="caption">Fossen, 2010 · Fossen, 2010</p>
 
@@ -846,7 +880,7 @@ $\left[ \begin{matrix} \epsilon 11 & \epsilon 12 & \epsilon 13 \cr \epsilon 21 &
 </div>
 <div>
 
-![](Module-iii-Theory/Lecture2-extracted/slide029_img1.png)
+![](Module-iii-Theory/Lecture2-extracted/slide029_img1.jpg) <!-- .element style="width:72%;" -->
 
 </div>
 </div>
@@ -858,8 +892,9 @@ $\left[ \begin{matrix} \epsilon 11 & \epsilon 12 & \epsilon 13 \cr \epsilon 21 &
 <div class="cols">
 <div>
 
-![](Module-iii-Theory/Lecture2-extracted/slide030_img1.jpeg)
-![](Module-iii-Theory/Lecture2-extracted/slide030_img2.png)
+![](Module-iii-Theory/Lecture2-extracted/slide030_img2.jpg) <!-- .element style="width:77%;" -->
+
+![](Module-iii-Theory/Lecture2-extracted/slide030_img1.jpg) <!-- .element style="width:84%;" -->
 
 <p class="caption">www.seis-insight.eu</p>
 
@@ -909,7 +944,7 @@ Let y = ax+b; so derivative of sin(ax+b) = sin$’$(y) y’
 </div>
 <div>
 
-![](Module-iii-Theory/Lecture2-extracted/slide031_img1.png)
+![](Module-iii-Theory/Lecture2-extracted/slide031_img1.jpg)
 
 </div>
 </div>
@@ -992,7 +1027,7 @@ In fluid mechanics, the compressibility is a measure of the relative volume 
 <div class="cols">
 <div>
 
-![](Module-iii-Theory/Lecture2-extracted/slide035_img1.png)
+![](Module-iii-Theory/Lecture2-extracted/slide035_img1.jpg)
 
 
 </div>
@@ -1030,8 +1065,9 @@ Louis has shown this multiple times in the first part of this course.
 </div>
 <div>
 
-![](Module-iii-Theory/Lecture2-extracted/slide036_img1.jpeg)
-![](Module-iii-Theory/Lecture2-extracted/slide036_img2.jpeg)
+![](Module-iii-Theory/Lecture2-extracted/slide036_img1.jpg) <!-- .element style="width:85%;" -->
+
+![](Module-iii-Theory/Lecture2-extracted/slide036_img2.jpg) <!-- .element style="width:84%;" -->
 
 <p class="caption">Fossen, 2010</p>
 
@@ -1082,12 +1118,12 @@ Note:
 <div class="cols">
 <div>
 
-![](Module-iii-Theory/Lecture2-extracted/slide040_img1.png)
+![](Module-iii-Theory/Lecture2-extracted/slide040_img1.jpg) <!-- .element style="width:74%;" -->
 
 </div>
 <div>
 
-![](Module-iii-Theory/Lecture2-extracted/slide040_img2.png)
+![](Module-iii-Theory/Lecture2-extracted/slide040_img2.jpg) <!-- .element style="width:59%;" -->
 
 </div>
 </div>

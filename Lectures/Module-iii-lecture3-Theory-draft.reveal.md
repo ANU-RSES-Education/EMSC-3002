@@ -38,18 +38,18 @@ Australian National University
 <!-- ILO placeholder — not in the pptx; fill in -->
 ## What you will learn in this module
 
-<!-- TODO: add the intended learning outcomes for this module -->
+<!-- TODO: add what you will learn in this module -->
 
 <--o-->
 
 <!-- source: Lecture3_Rheology.pptx slide 3 · template: T4-full-figure -->
-<!-- .slide: data-background="Module-iii-Theory/Lecture3-extracted/slide003_img1.png" -->
+<!-- .slide: data-background="Module-iii-Theory/Lecture3-extracted/slide003_img1.jpg" -->
 
 <--o-->
 
 <!-- source: Lecture3_Rheology.pptx slide 4 · template: T5-figure-focus -->
 ## Rheology
-![](Module-iii-Theory/Lecture3-extracted/slide004_img1.jpeg) <!-- .element class="r-stretch" -->
+![](Module-iii-Theory/Lecture3-extracted/slide004_img1.jpg) <!-- .element class="r-stretch" -->
 <p class="caption">ROCK · ICE</p>
 
 Note:
@@ -82,7 +82,7 @@ While elastic theory may work well for very small strains in the upper crust, he
 <div class="cols">
 <div>
 
-![](Module-iii-Theory/Lecture3-extracted/slide006_img1.png)
+![](Module-iii-Theory/Lecture3-extracted/slide006_img1.jpg)
 
 
 </div>
@@ -105,12 +105,12 @@ Distinguish plastic deformation and viscous deformation
 <div class="cols">
 <div>
 
-![](Module-iii-Theory/Lecture3-extracted/slide007_img1.png)
+![](Module-iii-Theory/Lecture3-extracted/slide007_img1.jpg) <!-- .element style="width:58%;" -->
 
 </div>
 <div>
 
-![](Module-iii-Theory/Lecture3-extracted/slide007_img2.jpeg)
+![](Module-iii-Theory/Lecture3-extracted/slide007_img2.jpg)
 
 </div>
 </div>
@@ -136,8 +136,9 @@ $E= \frac{\sigma n}{\epsilon n}$
 </div>
 <div>
 
-![](Module-iii-Theory/Lecture3-extracted/slide008_img1.png)
-![](Module-iii-Theory/Lecture3-extracted/slide008_img2.png)
+![](Module-iii-Theory/Lecture3-extracted/slide008_img1.jpg) <!-- .element style="width:78%;" -->
+
+![](Module-iii-Theory/Lecture3-extracted/slide008_img2.jpg) <!-- .element style="width:75%;" -->
 
 <p class="caption">Magali Billen, UC Davis · Fossen, 2011</p>
 
@@ -160,7 +161,7 @@ The ratio of stress to strain is the elastic modulus—stiffness, but the stress
 <div class="cols">
 <div>
 
-![](Module-iii-Theory/Lecture3-extracted/slide009_img1.png)
+![](Module-iii-Theory/Lecture3-extracted/slide009_img1.jpg)
 
 <p class="caption">Fossen, 2011</p>
 
@@ -192,8 +193,9 @@ Magali Billen, UC Davis
 </div>
 <div>
 
-![](Module-iii-Theory/Lecture3-extracted/slide010_img1.png)
-![](Module-iii-Theory/Lecture3-extracted/slide010_img2.png)
+![](Module-iii-Theory/Lecture3-extracted/slide010_img1.jpg) <!-- .element style="width:78%;" -->
+
+![](Module-iii-Theory/Lecture3-extracted/slide010_img2.jpg) <!-- .element style="width:33%;" -->
 
 </div>
 </div>
@@ -226,8 +228,9 @@ Poisson’s ratio
 </div>
 <div>
 
-![](Module-iii-Theory/Lecture3-extracted/slide011_img1.png)
-![](Module-iii-Theory/Lecture3-extracted/slide011_img2.png)
+![](Module-iii-Theory/Lecture3-extracted/slide011_img1.jpg) <!-- .element style="width:77%;" -->
+
+![](Module-iii-Theory/Lecture3-extracted/slide011_img2.png) <!-- .element style="width:33%;" -->
 
 <p class="caption">$\sigma xx$</p>
 
@@ -266,8 +269,9 @@ Poisson’s ratio
 </div>
 <div>
 
-![](Module-iii-Theory/Lecture3-extracted/slide012_img1.png)
-![](Module-iii-Theory/Lecture3-extracted/slide012_img2.png)
+![](Module-iii-Theory/Lecture3-extracted/slide012_img1.jpg) <!-- .element style="width:77%;" -->
+
+![](Module-iii-Theory/Lecture3-extracted/slide012_img2.png) <!-- .element style="width:33%;" -->
 
 <p class="caption">$\sigma xx$</p>
 
@@ -292,7 +296,7 @@ For a linear isotropic material subjected only to compressive (i.e. normal) forc
 </div>
 <div>
 
-![](Module-iii-Theory/Lecture3-extracted/slide013_img1.png)
+![](Module-iii-Theory/Lecture3-extracted/slide013_img1.jpg)
 
 <p class="caption">Magali Billen, UC Davis</p>
 
@@ -321,7 +325,7 @@ Today, it is regarded as one of the most dangerous volcanoes in the world becaus
 </div>
 <div>
 
-![](Module-iii-Theory/Lecture3-extracted/slide014_img1.png)
+![](Module-iii-Theory/Lecture3-extracted/slide014_img1.jpg)
 
 <p class="caption">Magali Billen, UC Davis · X · Y · Z</p>
 
@@ -350,7 +354,7 @@ A hexagonal prism
 </div>
 <div>
 
-![](Module-iii-Theory/Lecture3-extracted/slide015_img1.png)
+![](Module-iii-Theory/Lecture3-extracted/slide015_img1.jpg) <!-- .element style="width:40%;" -->
 
 </div>
 </div>
@@ -375,8 +379,9 @@ $\sigma s=\eta \dot{\gamma}$
 </div>
 <div>
 
-![](Module-iii-Theory/Lecture3-extracted/slide016_img1.jpeg)
-![](Module-iii-Theory/Lecture3-extracted/slide016_img2.gif)
+![](Module-iii-Theory/Lecture3-extracted/slide016_img2.gif) <!-- .element style="width:75%;" -->
+
+![](Module-iii-Theory/Lecture3-extracted/slide016_img1.jpg) <!-- .element style="width:64%;" -->
 
 <p class="caption">Newtonian · Fossen, 2011 · Power-law</p>
 
@@ -445,8 +450,9 @@ $\sigma =\eta \dot{\epsilon}=-\frac{\eta u0}{h}$
 </div>
 <div>
 
-![](Module-iii-Theory/Lecture3-extracted/slide019_img1.png)
-![](Module-iii-Theory/Lecture3-extracted/slide019_img2.png)
+![](Module-iii-Theory/Lecture3-extracted/slide019_img1.jpg) <!-- .element style="width:89%;" -->
+
+![](Module-iii-Theory/Lecture3-extracted/slide019_img2.jpg) <!-- .element style="width:91%;" -->
 
 <p class="caption">Fossen, 2011</p>
 
@@ -475,8 +481,9 @@ $$\dot{\epsilon}=\frac{du}{dy}=-\frac{\rho g\sin \alpha}{\eta}y$$
 </div>
 <div>
 
-![](Module-iii-Theory/Lecture3-extracted/slide020_img1.png)
-![](Module-iii-Theory/Lecture3-extracted/slide020_img2.png)
+![](Module-iii-Theory/Lecture3-extracted/slide020_img1.jpg) <!-- .element style="width:84%;" -->
+
+![](Module-iii-Theory/Lecture3-extracted/slide020_img2.jpg) <!-- .element style="width:84%;" -->
 
 <p class="caption">Magali Billen, UC Davis</p>
 
@@ -501,9 +508,17 @@ $tM=\frac{\eta}{E}$
 </div>
 <div>
 
-![](Module-iii-Theory/Lecture3-extracted/slide021_img1.png)
-![](Module-iii-Theory/Lecture3-extracted/slide021_img2.png)
-![](Module-iii-Theory/Lecture3-extracted/slide021_img3.png)
+<div class="cols">
+
+![](Module-iii-Theory/Lecture3-extracted/slide021_img2.jpg)
+
+
+![](Module-iii-Theory/Lecture3-extracted/slide021_img3.jpg)
+
+
+![](Module-iii-Theory/Lecture3-extracted/slide021_img1.jpg)
+
+</div>
 
 <p class="caption">Viscous deformation</p>
 
@@ -555,7 +570,7 @@ Plastic
 </div>
 <div>
 
-![](Module-iii-Theory/Lecture3-extracted/slide023_img1.png)
+![](Module-iii-Theory/Lecture3-extracted/slide023_img1.jpg)
 
 </div>
 </div>
@@ -572,13 +587,35 @@ Plastic: Deforms at constant stress once the yield stress is achieved; Constant 
 <div class="cols">
 <div>
 
-![](Module-iii-Theory/Lecture3-extracted/slide024_img1.png)
-![](Module-iii-Theory/Lecture3-extracted/slide024_img2.png)
-![](Module-iii-Theory/Lecture3-extracted/slide024_img3.png)
-![](Module-iii-Theory/Lecture3-extracted/slide024_img4.png)
-![](Module-iii-Theory/Lecture3-extracted/slide024_img5.png)
-![](Module-iii-Theory/Lecture3-extracted/slide024_img6.png)
-![](Module-iii-Theory/Lecture3-extracted/slide024_img7.png)
+<div class="cols">
+
+![](Module-iii-Theory/Lecture3-extracted/slide024_img2.jpg)
+
+
+![](Module-iii-Theory/Lecture3-extracted/slide024_img4.jpg)
+
+</div>
+
+<div class="cols">
+
+![](Module-iii-Theory/Lecture3-extracted/slide024_img1.jpg)
+
+
+![](Module-iii-Theory/Lecture3-extracted/slide024_img5.jpg)
+
+</div>
+
+<div class="cols">
+
+![](Module-iii-Theory/Lecture3-extracted/slide024_img6.jpg)
+
+
+![](Module-iii-Theory/Lecture3-extracted/slide024_img3.jpg)
+
+
+![](Module-iii-Theory/Lecture3-extracted/slide024_img7.jpg)
+
+</div>
 
 </div>
 <div class="wide">
@@ -597,8 +634,9 @@ Strain history curves
 <div class="cols">
 <div>
 
-![](Module-iii-Theory/Lecture3-extracted/slide025_img1.jpeg)
-![](Module-iii-Theory/Lecture3-extracted/slide025_img2.png)
+![](Module-iii-Theory/Lecture3-extracted/slide025_img1.jpg) <!-- .element style="width:71%;" -->
+
+![](Module-iii-Theory/Lecture3-extracted/slide025_img2.jpg) <!-- .element style="width:52%;" -->
 
 <p class="caption">Jaeger and Cook, 1979 (Wiley) · Brittle failure · Plastic flow · Fossen, 2011 · Marble</p>
 
@@ -620,7 +658,7 @@ Granite
 <div class="cols">
 <div>
 
-![](Module-iii-Theory/Lecture3-extracted/slide026_img1.jpeg)
+![](Module-iii-Theory/Lecture3-extracted/slide026_img1.jpg) <!-- .element style="width:89%;" -->
 
 <p class="caption">Marble · Jaeger and Cook, 1979 (Wiley) · Strain hardening · Strain softening</p>
 
@@ -641,12 +679,12 @@ Granite
 <div class="cols">
 <div>
 
-![](Module-iii-Theory/Lecture3-extracted/slide027_img2.png)
+![](Module-iii-Theory/Lecture3-extracted/slide027_img2.jpg) <!-- .element style="width:9%;" -->
 
 </div>
 <div>
 
-![](Module-iii-Theory/Lecture3-extracted/slide027_img1.png)
+![](Module-iii-Theory/Lecture3-extracted/slide027_img1.jpg) <!-- .element style="width:65%;" -->
 
 </div>
 </div>
@@ -685,7 +723,7 @@ Strain %
 </div>
 <div>
 
-![](Module-iii-Theory/Lecture3-extracted/slide028_img1.jpeg)
+![](Module-iii-Theory/Lecture3-extracted/slide028_img1.jpg) <!-- .element style="width:87%;" -->
 
 <p class="caption">Fossen, 2011</p>
 
@@ -702,8 +740,14 @@ Pore fluid pressure reduces the effective stress by creating stress at grain con
 <div class="cols">
 <div>
 
-![](Module-iii-Theory/Lecture3-extracted/slide029_img1.png)
-![](Module-iii-Theory/Lecture3-extracted/slide029_img2.jpeg)
+<div class="cols">
+
+![](Module-iii-Theory/Lecture3-extracted/slide029_img1.jpg)
+
+
+![](Module-iii-Theory/Lecture3-extracted/slide029_img2.jpg)
+
+</div>
 
 <p class="caption">Fossen, 2011 · Marble</p>
 
@@ -739,7 +783,7 @@ Stress–strain rate curves for dry olivine single crystals compressed in three 
 </div>
 <div>
 
-![](Module-iii-Theory/Lecture3-extracted/slide030_img1.png)
+![](Module-iii-Theory/Lecture3-extracted/slide030_img1.jpg) <!-- .element style="width:69%;" -->
 
 <p class="caption">Fossen, 2011</p>
 
@@ -758,7 +802,7 @@ While elastic theory may work well for very small strains in the upper crust, he
 <div class="cols">
 <div>
 
-![](Module-iii-Theory/Lecture3-extracted/slide031_img1.png)
+![](Module-iii-Theory/Lecture3-extracted/slide031_img1.jpg)
 
 <p class="caption">Fossen, 2011</p>
 
@@ -802,7 +846,7 @@ Viscous and plastic deformation typically occur deeper and at higher pressures a
 <div class="cols">
 <div>
 
-![](Module-iii-Theory/Lecture3-extracted/slide034_img1.png)
+![](Module-iii-Theory/Lecture3-extracted/slide034_img1.jpg)
 
 <p class="caption">Fagereng and Biggs, 2019</p>
 
@@ -821,7 +865,7 @@ Viscous and plastic deformation typically occur deeper and at higher pressures a
 <div class="cols">
 <div>
 
-![](Module-iii-Theory/Lecture3-extracted/slide035_img1.jpeg)
+![](Module-iii-Theory/Lecture3-extracted/slide035_img1.jpg)
 
 </div>
 <div class="wide">
@@ -840,7 +884,7 @@ Viscous and plastic deformation typically occur deeper and at higher pressures a
 <div class="cols">
 <div>
 
-![](Module-iii-Theory/Lecture3-extracted/slide036_img1.jpeg)
+![](Module-iii-Theory/Lecture3-extracted/slide036_img1.jpg)
 
 </div>
 <div class="wide">
@@ -869,8 +913,9 @@ Roderick Brown, U Glasgow
 </div>
 <div>
 
-![](Module-iii-Theory/Lecture3-extracted/slide037_img1.jpeg)
-![](Module-iii-Theory/Lecture3-extracted/slide037_img2.png)
+![](Module-iii-Theory/Lecture3-extracted/slide037_img2.jpg)
+
+![](Module-iii-Theory/Lecture3-extracted/slide037_img1.jpg)
 
 </div>
 </div>

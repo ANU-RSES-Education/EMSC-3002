@@ -19,10 +19,12 @@ from omml2tex import omml_to_latex
 MAXPX = 1600          # cap long side (slides never need more)
 JPEG_Q = 85
 
-def optimize_image(blob, ext):
-    """Return (new_ext, bytes): downscale oversized images, convert TIFF/BMP to a
-    web format, recompress. Keeps PNG (line art / transparency) as PNG; everything
-    else becomes JPEG. Falls back to the original blob on any failure."""
+def optimize_image(blob, ext, crop=None):
+    """Return (new_ext, bytes): apply the pptx srcRect crop (the mask PowerPoint
+    shows on screen), downscale oversized images, convert TIFF/BMP to a web
+    format, recompress. Keeps PNG (line art / transparency) as PNG; everything
+    else becomes JPEG. Falls back to the original blob on any failure.
+    crop = (l, t, r, b) as fractions of the source cropped away on each side."""
     ext = ext.lower().lstrip(".")
     if ext in ("gif", "svg"):            # leave animations / vectors alone
         return ext, blob
@@ -31,6 +33,12 @@ def optimize_image(blob, ext):
         im.load()
     except Exception:
         return ext, blob
+    if crop:
+        l, t, r, b = (max(0.0, c) for c in crop)   # negative = padding, not crop
+        if l + r < 0.98 and t + b < 0.98 and (l or t or r or b):
+            W0, H0 = im.size
+            im = im.crop((round(l * W0), round(t * H0),
+                          round(W0 - r * W0), round(H0 - b * H0)))
     # alpha only counts if it is actually used (many pptx PNGs are opaque RGBA)
     has_alpha = False
     if im.mode in ("RGBA", "LA"):
@@ -260,11 +268,21 @@ def extract(pptx_path, out_dir):
                         image_part = part.related_part(rid)
                         blob = image_part.blob
                         ext = image_part.partname.ext.lstrip(".")
-                        ext, blob = optimize_image(blob, ext)   # downscale / convert TIFF / recompress
+                        # srcRect = the crop/mask applied in PowerPoint (1000ths of a percent)
+                        sr = el.find(f"{P}blipFill/{A}srcRect")
+                        crop = None
+                        if sr is not None:
+                            crop = tuple(int(sr.get(k) or 0) / 100000.0 for k in ("l", "t", "r", "b"))
+                            if not any(crop):
+                                crop = None
+                        ext, blob = optimize_image(blob, ext, crop)  # crop / downscale / convert / recompress
                         fn = f"slide{idx:03d}_img{imgn}.{ext}"
                         (img_dir / fn).write_bytes(blob)
-                        images.append({"file": fn, "x": pct(gx, W), "y": pct(gy, H),
-                                       "w": pct(gw, W), "h": pct(gh, H)})
+                        entry = {"file": fn, "x": pct(gx, W), "y": pct(gy, H),
+                                 "w": pct(gw, W), "h": pct(gh, H)}
+                        if crop:
+                            entry["crop"] = [round(c, 4) for c in crop]
+                        images.append(entry)
                     except Exception as e:
                         images.append({"file": None, "error": str(e)})
                 else:

@@ -33,7 +33,7 @@ Australian National University
 <!-- ILO placeholder — not in the pptx; fill in -->
 ## What you will learn in this module
 
-<!-- TODO: add the intended learning outcomes for this module -->
+<!-- TODO: add what you will learn in this module -->
 
 <--o-->
 
@@ -52,8 +52,15 @@ Australian National University
 <div class="cols">
 <div>
 
+<div class="cols">
+
 ![](Module-iv-Brittle-Deformation/Lecture5-extracted/slide005_img1.jpg)
+
+
 ![](Module-iv-Brittle-Deformation/Lecture5-extracted/slide005_img2.png)
+
+</div>
+
 ![](Module-iv-Brittle-Deformation/Lecture5-extracted/slide005_img3.jpg)
 
 <p class="caption">Fossen, 2011</p>
@@ -93,10 +100,18 @@ Joints represent conduits of fluids, particularly in the vertical direction, and
 </div>
 <div>
 
-![](Module-iv-Brittle-Deformation/Lecture5-extracted/slide006_img1.jpg)
 ![](Module-iv-Brittle-Deformation/Lecture5-extracted/slide006_img2.jpg)
-![](Module-iv-Brittle-Deformation/Lecture5-extracted/slide006_img3.jpg)
+
+<div class="cols">
+
 ![](Module-iv-Brittle-Deformation/Lecture5-extracted/slide006_img4.jpg)
+
+
+![](Module-iv-Brittle-Deformation/Lecture5-extracted/slide006_img1.jpg)
+
+</div>
+
+![](Module-iv-Brittle-Deformation/Lecture5-extracted/slide006_img3.jpg) <!-- .element style="width:62%;" -->
 
 </div>
 </div>
@@ -118,12 +133,12 @@ Fringe zones developed along a mechanical interface between two competent limest
 <div class="cols">
 <div>
 
-![](Module-iv-Brittle-Deformation/Lecture5-extracted/slide007_img2.jpg)
+![](Module-iv-Brittle-Deformation/Lecture5-extracted/slide007_img2.jpg) <!-- .element style="width:72%;" -->
 
 </div>
 <div>
 
-![](Module-iv-Brittle-Deformation/Lecture5-extracted/slide007_img1.jpg)
+![](Module-iv-Brittle-Deformation/Lecture5-extracted/slide007_img1.jpg) <!-- .element style="width:45%;" -->
 
 </div>
 </div>
@@ -146,7 +161,7 @@ When the crack tip propagates, the stress filed at the tip of a crack changes. I
 </div>
 <div>
 
-![](Module-iv-Brittle-Deformation/Lecture5-extracted/slide008_img2.jpg)
+![](Module-iv-Brittle-Deformation/Lecture5-extracted/slide008_img2.jpg) <!-- .element style="width:86%;" -->
 
 </div>
 </div>
@@ -167,7 +182,7 @@ Cambrian sandstone in Kangaroo island, Australia. How many sets of systematic jo
 </div>
 <div>
 
-![](Module-iv-Brittle-Deformation/Lecture5-extracted/slide009_img1.jpg)
+![](Module-iv-Brittle-Deformation/Lecture5-extracted/slide009_img1.jpg) <!-- .element style="width:86%;" -->
 
 </div>
 </div>
@@ -198,7 +213,8 @@ Two sets of joints in Permian eolian sandstone, Canyonlands National Park. Two j
 </div>
 <div>
 
-![](Module-iv-Brittle-Deformation/Lecture5-extracted/slide010_img1.jpg)
+![](Module-iv-Brittle-Deformation/Lecture5-extracted/slide010_img1.jpg) <!-- .element style="width:63%;" -->
+
 ![](Module-iv-Brittle-Deformation/Lecture5-extracted/slide010_img2.jpg)
 
 <p class="caption">Link · Fossen, 2011</p>
@@ -219,9 +235,17 @@ Many geolgoists use the term of “orthogonal” or “conjugate” to imply the
 <div class="cols">
 <div>
 
-![](Module-iv-Brittle-Deformation/Lecture5-extracted/slide011_img1.jpg)
+<div class="cols">
+
 ![](Module-iv-Brittle-Deformation/Lecture5-extracted/slide011_img2.jpg)
+
+
+![](Module-iv-Brittle-Deformation/Lecture5-extracted/slide011_img1.jpg)
+
+
 ![](Module-iv-Brittle-Deformation/Lecture5-extracted/slide011_img3.jpg)
+
+</div>
 
 <p class="caption">Fossen 2011 · Ladeira & Price, 1981</p>
 
@@ -258,7 +282,8 @@ $E= \frac{\sigma n}{\epsilon n}$
 </div>
 <div>
 
-![](Module-iv-Brittle-Deformation/Lecture5-extracted/slide012_img1.jpg)
+![](Module-iv-Brittle-Deformation/Lecture5-extracted/slide012_img1.jpg) <!-- .element style="width:88%;" -->
+
 ![](Module-iv-Brittle-Deformation/Lecture5-extracted/slide012_img2.jpg)
 
 <p class="caption">Fossen 2011</p>
@@ -283,7 +308,7 @@ https://structuralgeo.wordpress.com/2014/06/18/jointing-and-mechanical-layering/
 </div>
 <div>
 
-![](Module-iv-Brittle-Deformation/Lecture5-extracted/slide013_img2.jpg)
+![](Module-iv-Brittle-Deformation/Lecture5-extracted/slide013_img2.jpg) <!-- .element style="width:42%;" -->
 
 </div>
 </div>
@@ -304,7 +329,8 @@ Thermal contraction is very important, and it is the stiff layers that fracture 
 <div>
 
 ![](Module-iv-Brittle-Deformation/Lecture5-extracted/slide014_img1.jpg)
-![](Module-iv-Brittle-Deformation/Lecture5-extracted/slide014_img2.jpg)
+
+![](Module-iv-Brittle-Deformation/Lecture5-extracted/slide014_img2.jpg) <!-- .element style="width:85%;" -->
 
 <p class="caption">Fossen 2011</p>
 
@@ -340,9 +366,17 @@ Mervine, AGU Blog, 2012
 </div>
 <div>
 
-![](Module-iv-Brittle-Deformation/Lecture5-extracted/slide015_img1.gif)
-![](Module-iv-Brittle-Deformation/Lecture5-extracted/slide015_img2.jpg)
+<div class="cols">
+
 ![](Module-iv-Brittle-Deformation/Lecture5-extracted/slide015_img3.jpg)
+
+
+![](Module-iv-Brittle-Deformation/Lecture5-extracted/slide015_img2.jpg)
+
+
+![](Module-iv-Brittle-Deformation/Lecture5-extracted/slide015_img1.gif)
+
+</div>
 
 <p class="caption">Fossen 2011</p>
 
@@ -364,7 +398,7 @@ Most commonly, columnar jointing is observed in basalt. Basalt is an igneous, v
 </div>
 <div>
 
-![](Module-iv-Brittle-Deformation/Lecture5-extracted/slide016_img2.jpg)
+![](Module-iv-Brittle-Deformation/Lecture5-extracted/slide016_img2.jpg) <!-- .element style="width:20%;" -->
 
 </div>
 </div>
@@ -377,7 +411,7 @@ Most commonly, columnar jointing is observed in basalt. Basalt is an igneous, v
 <div class="cols">
 <div>
 
-![](Module-iv-Brittle-Deformation/Lecture5-extracted/slide017_img1.jpg)
+![](Module-iv-Brittle-Deformation/Lecture5-extracted/slide017_img1.jpg) <!-- .element style="width:90%;" -->
 
 </div>
 <div>
@@ -406,8 +440,9 @@ Joint in the foreland sedimentary fills of the Appalachian orogenic belt.
 </div>
 <div>
 
-![](Module-iv-Brittle-Deformation/Lecture5-extracted/slide018_img1.jpg)
 ![](Module-iv-Brittle-Deformation/Lecture5-extracted/slide018_img2.jpg)
+
+![](Module-iv-Brittle-Deformation/Lecture5-extracted/slide018_img1.jpg)
 
 <p class="caption">Fossen, 2011 · van der Pluijm & Marshall (2003)</p>
 
@@ -434,8 +469,14 @@ Folded turbidites, Portugal
 </div>
 <div>
 
-![](Module-iv-Brittle-Deformation/Lecture5-extracted/slide019_img1.jpg)
+<div class="cols">
+
 ![](Module-iv-Brittle-Deformation/Lecture5-extracted/slide019_img2.jpg)
+
+
+![](Module-iv-Brittle-Deformation/Lecture5-extracted/slide019_img1.jpg)
+
+</div>
 
 <p class="caption">Fossen, 2011</p>
 
@@ -486,7 +527,7 @@ The beer can experiment is compelling in more ways than one. However, almost as 
 </div>
 <div>
 
-![](Module-iv-Brittle-Deformation/Lecture5-extracted/slide021_img1.jpg)
+![](Module-iv-Brittle-Deformation/Lecture5-extracted/slide021_img1.jpg) <!-- .element style="width:88%;" -->
 
 </div>
 </div>
@@ -511,8 +552,9 @@ Wikipedia
 </div>
 <div>
 
-![](Module-iv-Brittle-Deformation/Lecture5-extracted/slide022_img1.jpg)
-![](Module-iv-Brittle-Deformation/Lecture5-extracted/slide022_img2.jpg)
+![](Module-iv-Brittle-Deformation/Lecture5-extracted/slide022_img2.jpg) <!-- .element style="width:85%;" -->
+
+![](Module-iv-Brittle-Deformation/Lecture5-extracted/slide022_img1.jpg) <!-- .element style="width:89%;" -->
 
 </div>
 </div>
@@ -541,10 +583,19 @@ van der Pluijm & Marshall (2003)
 </div>
 <div>
 
-![](Module-iv-Brittle-Deformation/Lecture5-extracted/slide023_img1.jpg)
+![](Module-iv-Brittle-Deformation/Lecture5-extracted/slide023_img1.jpg) <!-- .element style="width:68%;" -->
+
+<div class="cols">
+
 ![](Module-iv-Brittle-Deformation/Lecture5-extracted/slide023_img2.jpg)
-![](Module-iv-Brittle-Deformation/Lecture5-extracted/slide023_img3.jpg)
+
+
 ![](Module-iv-Brittle-Deformation/Lecture5-extracted/slide023_img4.jpg)
+
+
+![](Module-iv-Brittle-Deformation/Lecture5-extracted/slide023_img3.jpg)
+
+</div>
 
 <p class="caption">Gradual rotation</p>
 
@@ -596,9 +647,16 @@ Eden, NSW South Coast
 </div>
 <div>
 
-![](Module-iv-Brittle-Deformation/Lecture5-extracted/slide025_img1.jpg)
+<div class="cols">
+
 ![](Module-iv-Brittle-Deformation/Lecture5-extracted/slide025_img2.jpg)
-![](Module-iv-Brittle-Deformation/Lecture5-extracted/slide025_img3.jpg)
+
+
+![](Module-iv-Brittle-Deformation/Lecture5-extracted/slide025_img1.jpg)
+
+</div>
+
+![](Module-iv-Brittle-Deformation/Lecture5-extracted/slide025_img3.jpg) <!-- .element style="width:70%;" -->
 
 <p class="caption">Syntaxial vein · Antitaxial vein · Image: Stephen Cox · Fossen 2011</p>
 
