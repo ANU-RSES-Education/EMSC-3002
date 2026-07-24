@@ -1,5 +1,5 @@
 ---
-title: EMSC 3002 - 1.4 Interpreting Australian Structure
+title: EMSC 3002 - 1.1a The Australian Plate
 separator: '<--o-->'
 verticalSeparator: '<--v-->'
 revealOptions:
@@ -12,7 +12,7 @@ revealOptions:
 
 # EMSC 3002
 
-## Module 1.4 - Interpreting Australian Structure
+## Module 1.1a - The Australian Plate
 
   - **Louis Moresi** (convenor)
   - Chengxin Jiang (lecturer)
@@ -32,19 +32,55 @@ _**NB:** the course materials provided by the authors are open source under a cr
      TODO with its public data source named. This deck is the *base layer* that
      the Australian examples in every other module refer back to. -->
 
-This course is about the *structure and tectonic evolution of the Australian plate* — so you need to be able to read the Australian continent the way you read a map of a field area: know the **names of the pieces**, **when they came together**, and **which datasets** reveal the structure beneath the surface.
+This course is about the *structure and tectonic evolution of the Australian plate* — so before we go any further we should meet the plate itself: its boundaries, the continent it carries, the **names of the pieces**, **when they came together**, and **which datasets** reveal the structure beneath the surface.
 
-This section is a reference you will come back to throughout the course. Each later module uses Australian examples that sit somewhere on the maps you see here.
+This short section follows on directly from the global picture in 1.1, and it is a reference you will come back to throughout the course. Each later module uses Australian examples that sit somewhere on the maps you see here.
 
 <--o-->
 
 ## What you will learn in this module
 
+- The **Australian (Indo-Australian) plate** — its boundaries, and why every type of plate boundary matters to our story.
 - The **major building blocks** of the Australian continent — cratons, orogens, basins — and their names.
 - **When the pieces came together**: the assembly of Australia from the Archean to the present day.
 - Where Australia sat in **plate reconstructions** through geological time.
 - The key **continental datasets** — Moho depth, sediment thickness, lithospheric thickness, potential fields, stress and seismicity — what they show and where to find them.
 - How to use these together to **interpret a structure** in its lithospheric context.
+
+<--o-->
+
+## The Australian Plate
+
+<!-- TODO figure: the Indo-Australian plate with boundaries labelled.
+     Source: Bird (2003) plate boundary model (used again in 1.2) or the
+     GA plate-tectonic setting maps. -->
+
+The **Indo-Australian plate** was born from the break-up of Gondwana. Strictly it is a composite: the **Australian**, **Indian** and **Capricorn** plates, separated by broad zones of *diffuse* deformation rather than sharp boundaries — a useful early warning that "rigid plate" is an idealisation.
+
+The Australian portion carries the continent, its wide continental shelves, and a great deal of ocean floor. The continent itself is entirely surrounded by boundary zones that are *active in different ways* — which is exactly what makes it such a good natural laboratory for this course.
+
+<--v-->
+
+## A tour of the boundaries
+
+<!-- TODO figure: annotated boundary map (same base as previous slide) with the
+     boundary types marked. -->
+
+Travelling around the plate edge, we meet **every type of plate boundary** — each with features that return later in the course:
+
+- **South & west** — the **Southeast Indian Ridge** and its fracture zones: divergence, the young rifted southern margin (and its conjugate, Antarctica).
+- **North-west** — the **Sunda–Java trench**: ocean–continent subduction.
+- **North** — the **Banda Arc and New Guinea**: arc–continent *collision in progress* — the messy, diffuse end-game of subduction.
+- **North-east & east** — Solomons, Vanuatu, **Tonga–Kermadec**: the fastest subduction on Earth.
+- **South-east** — New Zealand's **Alpine Fault**: a transform boundary on land, linking opposing subduction systems.
+
+The forces generated at *all* of these edges are transmitted into the plate interior — they load the Australian stress field we saw in 1.1 and will quantify in 1.3, and they explain why a "stable" continent still has earthquakes.
+
+<small>
+
+→ Boundary-by-boundary detail follows in [1.2 — Plate Boundaries](Module-i-GlobalTectonics-2.reveal.html); the stresses they impose are the subject of [1.3](Module-i-GlobalTectonics-3.reveal.html).
+
+</small>
 
 <--o-->
 

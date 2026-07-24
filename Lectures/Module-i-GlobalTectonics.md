@@ -21,6 +21,21 @@ The first part of this module introduces the structure of the Earth on a global 
 </iframe>
 -->
 
+### The Australian Plate (1.1a)
+
+This course is about the structure and tectonic evolution of the Australian plate, so this
+short section introduces the plate itself — the Indo-Australian plate, its boundaries, and
+why every one of them matters to the story — and then serves as a reference you will return
+to all term: the names of the continent's building blocks, when they came together, where
+Australia sat in plate reconstructions through geological time, and the continent-scale
+datasets (Moho depth, lithospheric thickness, sediment thickness, potential fields, stress
+and seismicity) that let us interpret structure beneath the surface.
+
+<iframe src="../slideshows/Module-i-GlobalTectonics-1a.reveal.html" title="Slideshow" width=100%, height=500, allowfullscreen></iframe>
+
+<a href="../slideshows/Module-i-GlobalTectonics-1a.reveal.html?print-pdf">Build your own PDF</a>
+
+
 ### Plate Boundaries
 
 The next part of the module covers the nature of the plate boundaries and introduces some of the techniques we will use in this course to identify the forces that are at work.
@@ -38,20 +53,6 @@ The different way rocks respond to stress.
 <iframe src="../slideshows/Module-i-GlobalTectonics-3.reveal.html" title="Slideshow" width=100%, height=500, allowfullscreen></iframe>
 
 <a href="../slideshows/Module-i-GlobalTectonics-3.reveal.html?print-pdf">Build your own PDF</a>
-
-
-### Interpreting Australian Structure
-
-This course is about the structure and tectonic evolution of the Australian plate, so this
-part of the module is a reference you will return to all term: the names of the continent's
-building blocks, when they came together, where Australia sat in plate reconstructions through
-geological time, and the continent-scale datasets (Moho depth, lithospheric thickness,
-sediment thickness, potential fields, stress and seismicity) that let us interpret structure
-beneath the surface.
-
-<iframe src="../slideshows/Module-i-GlobalTectonics-4.reveal.html" title="Slideshow" width=100%, height=500, allowfullscreen></iframe>
-
-<a href="../slideshows/Module-i-GlobalTectonics-4.reveal.html?print-pdf">Build your own PDF</a>
 
 
 ### Plate Kinematics and reconstruction
