@@ -24,3 +24,4 @@ mkslides = ">=0.1"
 build = "bash build.sh"          # full site: MyST book + MkSlides decks -> _build/html
 book = "myst build --html"        # book only
 serve = "myst start"              # live preview of the book
+pdfs = "bash build_pdfs.sh"       # decktape PDF of every built deck -> _build/html/pdfs
