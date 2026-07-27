@@ -29,7 +29,7 @@ Australian National University
 1. Elastic (E), plastic, viscous ($\eta$) and brittle deformation
 1. SUMMARY OF MODULE 3
 1. $$\sigma =\left[ \begin{matrix} \sigma 1 & 0 & 0 \cr 0 & \sigma 2 & 0 \cr 0 & 0 & \sigma 3 \end{matrix} \right]$$
-1. $$\epsilon ij= \frac{1}{2}\left[ \frac{{\partial u}_{i}}{{\partial x}_{j}}+\frac{{\partial u}_{j}}{{\partial x}_{i}} \right]$$
+1. $$\epsilon ij= \frac{1}{2}\left[ \frac{{\partial u} _ {i}}{{\partial x} _ {j}}+\frac{{\partial u} _ {j}}{{\partial x} _ {i}} \right]$$
 
 <--o-->
 
@@ -368,11 +368,11 @@ We can examine how preexisting cracks affect the magnitude of stress necessary f
 <div class="wide">
 
 - Charles Inglis provides a linear elastic solution in 1913 to show the concentration increases with decreasing thickness/length ratio (ellipticity) of the microfracture.
-- where ${\sigma}_{r}$ is remote stress, a/c is ellipticity.
+- where ${\sigma} _ {r}$ is remote stress, a/c is ellipticity.
 - Alan A. Griffith in the 1920s applies the concept of stress concentration at the ends of elliptical holes to fracture development (Griffith cracks).
 - Useful insight into the nature of cracking, but not adequately considering how crack shape, length and orientation affect the process → Linear Elastic Fracture Mechanics.
 
-$${\sigma}_{tip}={\sigma}_{r}(1+\left( \frac{2a}{c} \right))$$
+$${\sigma} _ {tip}={\sigma} _ {r}(1+\left( \frac{2a}{c} \right))$$
 
 Sir Charles Edward Inglis
 
@@ -579,9 +579,9 @@ This figure is usually what in my head when thinking about the stress state when
 - Prior knowledge:
 - stress = Force/Area & Trigonometric functions
 
-${\sigma}_{n}$= $\sigma \cos 2\theta$
+${\sigma} _ {n}$= $\sigma \cos 2\theta$
 
-${\sigma}_{s}=\sigma /2\sin 2\theta$
+${\sigma} _ {s}=\sigma /2\sin 2\theta$
 
 </div>
 </div>
@@ -607,9 +607,9 @@ ${\sigma}_{s}=\sigma /2\sin 2\theta$
 - How normal/shear stress vary with the plane orientation it acting upon (start with uniaxial compression).
 - Prior knowledge: stress = Force/Area & Trigonometric functions
 
-${\sigma}_{n}$= $\sigma \cos 2\theta =\sigma (\cos 2\theta +1)/2$
+${\sigma} _ {n}$= $\sigma \cos 2\theta =\sigma (\cos 2\theta +1)/2$
 
-${\sigma}_{s}=\sigma /2\sin 2\theta$
+${\sigma} _ {s}=\sigma /2\sin 2\theta$
 
 </div>
 </div>
@@ -628,13 +628,13 @@ ${\sigma}_{s}=\sigma /2\sin 2\theta$
 - $\phi$ is the angle of internal friction;
 - $u$ is the coefficient of friction (0.47-0.7).
 
-${\sigma}_{s}=C+{\sigma}_{n}\tan \phi =C+$ ${\sigma}_{n}u$
+${\sigma} _ {s}=C+{\sigma} _ {n}\tan \phi =C+$ ${\sigma} _ {n}u$
 
-${\sigma}_{3}$
+${\sigma} _ {3}$
 
-${\sigma}_{n}$
+${\sigma} _ {n}$
 
-${\sigma}_{1}$
+${\sigma} _ {1}$
 
 </div>
 <div>
@@ -671,7 +671,7 @@ When the Mohr circles move to the right, you need much larger differential stres
 - Based on the Coulomb-Mohr failure criteria, Anderson’s theory of faulting predicts a conjugate fault system for different stress conditions.
 - The theory also predicts that normal and reverse faults dip at about 60º and 30º, respectively. In other words, one can use the dipping angle to refer stress directions.
 
-${\sigma}_{1}$
+${\sigma} _ {1}$
 
 </div>
 </div>
@@ -734,7 +734,7 @@ Alan Arnold Griffith
 - Major difference of the Griffith and Coulomb criteria lie in tensile regime and compressional regime of large confining pressure.
 - It models the Griffith cracks and predicts tensile cracking very well and is also a reasonable approximation for some non-porous rocks under compressional regime.
 
-${\sigma 2}_{s}+4T{\sigma}_{n}-4T2=0$
+${\sigma 2} _ {s}+4T{\sigma} _ {n}-4T2=0$
 
 </div>
 <div>

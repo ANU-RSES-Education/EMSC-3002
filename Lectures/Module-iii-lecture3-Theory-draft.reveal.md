@@ -347,7 +347,7 @@ Today, it is regarded as one of the most dangerous volcanoes in the world becaus
 - Different levels of crystal symmetry: cubic, hexagonal, Tetragonal, orthorhombic, Monoclinic and Triclinic.
 - Shear modulus $\mu$ = $\frac{\sigma s}{\gamma}$; bulk modulus $K$ = $\frac{E}{3(1-2\mu )}$
 
-$\sigma ij ={C}_{ijkl}∙\epsilon kl$
+$\sigma ij ={C} _ {ijkl}∙\epsilon kl$
 
 A hexagonal prism
 

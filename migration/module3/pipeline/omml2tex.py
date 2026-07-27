@@ -188,10 +188,19 @@ HANDLERS = {
 
 _TRIG = re.compile(r"(?<![\\A-Za-z])(sinh|cosh|tanh|arcsin|arccos|arctan|"
                    r"sin|cos|tan|cot|sec|csc|log|ln|exp)(?![A-Za-z])")
+# runs of >=2 plain English words (not TeX commands, not single-letter symbols):
+# prose typed INSIDE the pptx equation editor -> wrap in \text{} so KaTeX
+# doesn't set it as mashed math italics.
+_PROSE = re.compile(r"(?<![\\{A-Za-z])([A-Za-z]{2,}(?:[ ,]+[A-Za-z]{2,})+)(?![A-Za-z}])")
 def cleanup(s):
     s = re.sub(r"\s+", " ", s).strip()
     s = s.replace("{ ", "{").replace(" }", "}")
     s = _TRIG.sub(lambda m: "\\" + m.group(1) + " ", s)
+    s = _PROSE.sub(lambda m: r"\ \text{" + m.group(1) + r"}\ ", s)
+    # pad subscripts: "_" flanked by spaces is invisible to TeX but cannot be
+    # paired as markdown emphasis by reveal's marked pass (which otherwise
+    # splits $...$ spans containing two or more "_" in one paragraph).
+    s = s.replace("_", " _ ")
     s = re.sub(r"\s+", " ", s).strip()
     return s
 
