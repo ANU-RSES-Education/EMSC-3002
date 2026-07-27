@@ -1,0 +1,750 @@
+---
+title: EMSC 3002 - Congested Subduction and Continental Accretion (draft)
+separator: '<--o-->'
+verticalSeparator: '<--v-->'
+revealOptions:
+    transition: 'fade'
+    slideNumber: true
+    width: 1200
+    height: 800
+    margin: 0.07
+---
+
+<!-- source: RSES-Collisions.pptx slide 1 · template: T3-text-and-image -->
+## Congested Subduction Zones
+<div class="cols">
+<div class="wide">
+
+Louis Moresi,
+Peter Betts (Monash)
+Meghan Miller (USC / ANU)
+Ross Cayley (GeoScience Victoria)
+David Willis (Monash PhD)
+David Stegman (Scripps, UCSD)
+
+</div>
+<div>
+
+![](Module-i-Accretion-extracted/slide001_img1.png)
+
+</div>
+</div>
+
+<--o-->
+
+<!-- source: RSES-Collisions.pptx slide 2 · template: T6-two-image -->
+## Continental accretion & subduction zone dynamics
+<div class="cols">
+<div>
+
+![](Module-i-Accretion-extracted/slide002_img2.png)
+
+</div>
+<div>
+
+![](Module-i-Accretion-extracted/slide002_img1.png)
+
+</div>
+</div>
+
+<--o-->
+
+<!-- source: RSES-Collisions.pptx slide 3 · template: T5-figure-focus -->
+## Congested subduction zones
+![](Module-i-Accretion-extracted/slide003_img1.jpg) <!-- .element class="r-stretch" -->
+<p class="caption">Mason et al, 2008, Betts et al, 2012, Moresi et al, 2014 showed how trench motion and slab configuration are influenced by buoyant material colliding  with a subduction zone. raised question: how does subduction continue after accretion of one terrane ? How does a microcontinent / plateau switch to the over-riding plate ? This is important at many different scales. Can we understand this process better and can we apply this to understand places where accretion is complete ?</p>
+
+<--o-->
+
+<!-- source: RSES-Collisions.pptx slide 4 · template: T5-figure-focus -->
+## Flat topography hides a long, violent history
+![](Module-i-Accretion-extracted/slide004_img1.png) <!-- .element class="r-stretch" -->
+
+<--o-->
+
+<!-- source: RSES-Collisions.pptx slide 5 · template: T3-text-and-image -->
+## Terranes, collisions and oroclines
+<div class="cols">
+<div>
+
+![](Module-i-Accretion-extracted/slide005_img1.png)
+![](Module-i-Accretion-extracted/slide005_img2.png)
+![](Module-i-Accretion-extracted/slide005_img3.png)
+
+<p class="caption">Stephen T. Johnston, (2001) The Great Alaskan Terrane Wreck: reconciliation of paleomagnetic and geological data in the northern Cordillera, Earth. Planet. Sci. Lett. 191, 259-272 · 85 Ma</p>
+
+</div>
+<div class="wide">
+
+In this interpretation, the structural grain in the accreted terranes indicates a severe orocline  and along-margin transport of material.
+Bending of the margin is interpreted as a beam buckling under horizontal loads.
+But what is the mechanics underpinning this process ? How do such forces derive from plate tectonics ?
+
+</div>
+</div>
+
+<--o-->
+
+<!-- source: RSES-Collisions.pptx slide 6 · template: T3-text-and-image -->
+## Australia — formed in two bursts of accretion
+<div class="cols">
+<div>
+
+![](Module-i-Accretion-extracted/slide006_img1.jpg)
+![](Module-i-Accretion-extracted/slide006_img2.png)
+![](Module-i-Accretion-extracted/slide006_img3.png)
+![](Module-i-Accretion-extracted/slide006_img4.png)
+![](Module-i-Accretion-extracted/slide006_img5.png)
+
+<p class="caption">Nuna · Tasmanides · North and West   Australian Craton · “Tasman line” · Fishwick & Rawlingson, 2012</p>
+
+</div>
+<div class="wide">
+
+Archean / Proterozoic in the Western two thirds of the continent. Collection of more recently accreted fragments to the East
+
+</div>
+</div>
+
+Note:
+Figure 6 Surface wave inversion results at four different depths (75 km, 150 km, 225 km and 300 km). 
+Velocities are plotted as perturbations from the ak135 reference model, and the colour scale remains the same at all depths.
+
+<--o-->
+
+<!-- source: RSES-Collisions.pptx slide 7 · template: T5-figure-focus -->
+## North American Margin
+![](Module-i-Accretion-extracted/slide007_img2.jpg) <!-- .element class="r-stretch" -->
+<p class="caption">Hildebrand</p>
+
+<--o-->
+
+<!-- source: RSES-Collisions.pptx slide 8 · template: T6-two-image -->
+## Traditional View of accretion is to simplify to 2D
+<div class="cols">
+<div>
+
+![](Module-i-Accretion-extracted/slide008_img2.png)
+
+</div>
+<div>
+
+![](Module-i-Accretion-extracted/slide008_img1.jpg)
+
+</div>
+</div>
+
+<--o-->
+
+<!-- source: RSES-Collisions.pptx slide 9 · template: T6-two-image -->
+## Think in 3D
+<div class="cols">
+<div>
+
+![](Module-i-Accretion-extracted/slide009_img1.jpg)
+
+</div>
+<div>
+
+![](Module-i-Accretion-extracted/slide009_img2.jpg)
+
+</div>
+</div>
+
+<--o-->
+
+<!-- source: RSES-Collisions.pptx slide 10 · template: T6-two-image -->
+## Accretion explains oroclines
+<div class="cols">
+<div>
+
+![](Module-i-Accretion-extracted/slide010_img2.jpg)
+
+</div>
+<div>
+
+![](Module-i-Accretion-extracted/slide010_img1.jpg)
+
+</div>
+</div>
+
+<--o-->
+
+<!-- source: RSES-Collisions.pptx slide 11 · template: T3-text-and-image -->
+## Accretion explains oroclines
+<div class="cols">
+<div>
+
+![](Module-i-Accretion-extracted/slide011_img1.jpg)
+![](Module-i-Accretion-extracted/slide011_img2.png)
+![](Module-i-Accretion-extracted/slide011_img3.jpg)
+
+</div>
+<div class="wide">
+
+Evidence of rotations in present day structural grain (from potential fields, paleomagnetism and other indicators).
+
+Moresi, L., Betts, P. G., Miller, M. S., & Cayley, R. A. (2014). Dynamics of continental accretion. Nature. doi:10.1038/nature13033
+
+</div>
+</div>
+
+<--o-->
+
+<!-- source: RSES-Collisions.pptx slide 12 · template: T5-figure-focus -->
+## Plate tectonics & Plate Boundaries
+![](Module-i-Accretion-extracted/slide012_img1.jpg) <!-- .element class="r-stretch" -->
+
+<--o-->
+
+<!-- source: RSES-Collisions.pptx slide 13 · template: T3-text-and-image -->
+## Plate Motions run Deep
+<div class="cols">
+<div>
+
+![](Module-i-Accretion-extracted/slide013_img1.jpg)
+
+</div>
+<div class="wide">
+
+The surface motions represent a whole-planet convective circulation in the solid rock that we can’t see directly
+
+</div>
+</div>
+
+<--o-->
+
+<!-- source: RSES-Collisions.pptx slide 14 · template: T3-text-and-image -->
+## Convection
+<div class="cols">
+<div>
+
+![](Module-i-Accretion-extracted/slide014_img1.jpg)
+![](Module-i-Accretion-extracted/slide014_img2.jpg)
+![](Module-i-Accretion-extracted/slide014_img3.jpg)
+
+<p class="caption">Lava Lamp · Mars, maybe Venus · Maybe Venus,</p>
+
+</div>
+<div class="wide">
+
+Where are the plates ?
+
+Simple convection does not generate plate boundaries
+
+</div>
+</div>
+
+<--o-->
+
+<!-- source: RSES-Collisions.pptx slide 15 · template: T6-two-image -->
+## Plate Boundaries
+<div class="cols">
+<div>
+
+![](Module-i-Accretion-extracted/slide015_img1.jpg)
+
+</div>
+<div>
+
+![](Module-i-Accretion-extracted/slide015_img2.jpg)
+
+</div>
+</div>
+
+<--o-->
+
+<!-- source: RSES-Collisions.pptx slide 16 · template: T6-two-image -->
+## Rock Mechanics
+<div class="cols">
+<div>
+
+![](Module-i-Accretion-extracted/slide016_img1.jpg)
+
+</div>
+<div>
+
+![](Module-i-Accretion-extracted/slide016_img2.jpg)
+
+</div>
+</div>
+
+Note:
+Images from EMSC3002 - localisation in rocks/shear bands and in faults
+
+<--o-->
+
+<!-- source: RSES-Collisions.pptx slide 17 · template: T3-text-and-image -->
+## Rock Mechanics
+<div class="cols">
+<div>
+
+![](Module-i-Accretion-extracted/slide017_img1.jpg)
+![](Module-i-Accretion-extracted/slide017_img2.jpg)
+![](Module-i-Accretion-extracted/slide017_img3.jpg)
+
+<p class="caption">Students of EMSC3002</p>
+
+</div>
+<div class="wide">
+
+Adding solid mechanics to computational fluid dynamics
+
+Frictional materials at various scales: faulted rock, sand mixed with flour
+
+</div>
+</div>
+
+<--o-->
+
+<!-- source: RSES-Collisions.pptx slide 18 · template: T6-two-image -->
+## Computational Sandbox
+<div class="cols">
+<div>
+
+![](Module-i-Accretion-extracted/slide018_img2.jpg)
+
+</div>
+<div>
+
+![](Module-i-Accretion-extracted/slide018_img1.jpg)
+
+</div>
+</div>
+
+<--o-->
+
+<!-- source: RSES-Collisions.pptx slide 19 · template: T3-text-and-image -->
+## Rock Mechanics
+<div class="cols">
+<div>
+
+![](Module-i-Accretion-extracted/slide019_img1.png)
+
+</div>
+<div class="wide">
+
+Adding solid mechanics to computational fluid dynamics
+
+Frictional materials at various scales: plate boundary zone — not a lava lamp !
+
+</div>
+</div>
+
+<--o-->
+
+<!-- source: RSES-Collisions.pptx slide 20 · template: T3-text-and-image -->
+## Boundary evolution is not isotropic at macro scale
+<div class="cols">
+<div class="wide">
+
+Kinematic / reconstruction model provide very strong
+geometrical “constraints” at the large scale which require that stress and strain-rate are, at the least, not coaxial.
+Dynamic model
+
+</div>
+<div>
+
+![](Module-i-Accretion-extracted/slide020_img1.png)
+![](Module-i-Accretion-extracted/slide020_img2.png)
+![](Module-i-Accretion-extracted/slide020_img3.png)
+![](Module-i-Accretion-extracted/slide020_img4.png)
+![](Module-i-Accretion-extracted/slide020_img5.png)
+![](Module-i-Accretion-extracted/slide020_img6.png)
+![](Module-i-Accretion-extracted/slide020_img7.png)
+
+</div>
+</div>
+
+<--o-->
+
+<!-- source: RSES-Collisions.pptx slide 21 · template: T5-figure-focus -->
+## Simple example of lithospheric deformation (faulting)
+![](Module-i-Accretion-extracted/slide021_img6.png) <!-- .element class="r-stretch" -->
+
+<--o-->
+
+<!-- source: RSES-Collisions.pptx slide 22 · template: T6-two-image -->
+## What is “simple” when it comes to subduction modelling ?
+<div class="cols">
+<div>
+
+![](Module-i-Accretion-extracted/slide022_img1.png)
+
+</div>
+<div>
+
+![](Module-i-Accretion-extracted/slide022_img2.jpg)
+
+</div>
+</div>
+<p class="caption">Sandiford, 2019 (PhD Thesis) · Moresi et al, 2014</p>
+
+<--o-->
+
+<!-- source: RSES-Collisions.pptx slide 23 · template: T6-two-image -->
+## Model setup
+<div class="cols">
+<div>
+
+![](Module-i-Accretion-extracted/slide023_img2.jpg)
+
+</div>
+<div>
+
+![](Module-i-Accretion-extracted/slide023_img1.jpg)
+
+</div>
+</div>
+
+<--o-->
+
+<!-- source: RSES-Collisions.pptx slide 24 · template: T6-two-image -->
+## Ingredients #1 — non-linear softening !
+<div class="cols">
+<div>
+
+![](Module-i-Accretion-extracted/slide024_img1.png)
+
+</div>
+<div>
+
+![](Module-i-Accretion-extracted/slide024_img2.png)
+
+</div>
+</div>
+
+<--o-->
+
+<!-- source: RSES-Collisions.pptx slide 25 · template: T3-text-and-image -->
+## Ingredients # 2 — History / material tracking
+<div class="cols">
+<div>
+
+![](Module-i-Accretion-extracted/slide025_img1.png)
+![](Module-i-Accretion-extracted/slide025_img2.png)
+![](Module-i-Accretion-extracted/slide025_img3.png)
+
+<p class="caption">Vrms · Nusselt Number · Width · Velocity · Viscosity</p>
+
+</div>
+<div class="wide">
+
+Lenardic et Kaula, 1994 - Self Lubricated Mantle Convection: models in two dimensiones
+
+History dependence — Lenardic & Kaula, various papers 1993-4
+
+</div>
+</div>
+
+<--o-->
+
+<!-- source: RSES-Collisions.pptx slide 26 · template: T3-text-and-image -->
+## Lagrangian History & Efficient Fluid solvers
+<div class="cols">
+<div>
+
+![](Module-i-Accretion-extracted/slide026_img1.jpg)
+![](Module-i-Accretion-extracted/slide026_img2.jpg)
+![](Module-i-Accretion-extracted/slide026_img3.png)
+![](Module-i-Accretion-extracted/slide026_img4.jpg)
+![](Module-i-Accretion-extracted/slide026_img5.jpg)
+![](Module-i-Accretion-extracted/slide026_img6.jpg)
+![](Module-i-Accretion-extracted/slide026_img7.jpg)
+![](Module-i-Accretion-extracted/slide026_img8.jpg)
+![](Module-i-Accretion-extracted/slide026_img9.jpg)
+
+<p class="caption">00300 · yield ratio = 0.5 · 00349 · 00399 · 00502 · 00750 · 11.93 Myr · 19.79 Myr · 22.84 Myr · 26.51 Myr · yield ratio = 1.0</p>
+
+</div>
+<div class="wide">
+
+In the material point method we can keep a mesh which is computationally efficient for diffusion-dominated problems (including Stokes flow) and material points — a.k.a. particles — for tracking history variables.
+This is the technique implemented in Ellipsis, Underworld (and other similar codes) and leads to a very natural approach to many “difficult” issues in geological thermal / mechanical models (www.underworldproject.org or www.facebook.com/underworldcode)
+
+Lenardic et Al, 2000 - Crumple Zones
+
+</div>
+</div>
+
+<--o-->
+
+<!-- source: RSES-Collisions.pptx slide 27 · template: T6-two-image -->
+## Lithosphere mapped into a layered model (Continent v. Ocean)
+<div class="cols">
+<div>
+
+![](Module-i-Accretion-extracted/slide027_img2.png)
+
+</div>
+<div>
+
+![](Module-i-Accretion-extracted/slide027_img1.jpg)
+
+</div>
+</div>
+
+<--o-->
+
+<!-- source: RSES-Collisions.pptx slide 28 · template: T5-figure-focus -->
+## Size matters !
+![](Module-i-Accretion-extracted/slide028_img1.jpg) <!-- .element class="r-stretch" -->
+
+<--o-->
+
+<!-- source: RSES-Collisions.pptx slide 29 · template: T3-text-and-image -->
+## Terranes, collisions and oroclines
+<div class="cols">
+<div>
+
+![](Module-i-Accretion-extracted/slide029_img1.png)
+![](Module-i-Accretion-extracted/slide029_img2.png)
+![](Module-i-Accretion-extracted/slide029_img3.png)
+
+<p class="caption">Stephen T. Johnston, (2001) The Great Alaskan Terrane Wreck: reconciliation of paleomagnetic and geological data in the northern Cordillera, Earth. Planet. Sci. Lett. 191, 259-272 · 85 Ma</p>
+
+</div>
+<div class="wide">
+
+In this interpretation, the structural grain in the accreted terranes indicates a severe orocline  and along-margin transport of material.
+Bending of the margin is interpreted as a beam buckling under horizontal loads.
+But what is the mechanics underpinning this process ? How do such forces derive from plate tectonics ?
+
+</div>
+</div>
+
+<--o-->
+
+<!-- source: RSES-Collisions.pptx slide 30 · template: T3-text-and-image -->
+## Terrane embedding
+<div class="cols">
+<div>
+
+![](Module-i-Accretion-extracted/slide030_img1.png)
+
+</div>
+<div class="wide">
+
+Plume/plateau signatures appear in the interiors of orogenic belts.
+For example (Betts et al, in review)
+
+</div>
+</div>
+
+<--o-->
+
+<!-- source: RSES-Collisions.pptx slide 31 · template: T5-figure-focus -->
+## Building a mountain belt
+![](Module-i-Accretion-extracted/slide031_img1.jpg) <!-- .element class="r-stretch" -->
+
+<--o-->
+
+<!-- source: RSES-Collisions.pptx slide 32 · template: T3-text-and-image -->
+## Stronger over-riding plate, younger slab
+<div class="cols">
+<div>
+
+![](Module-i-Accretion-extracted/slide032_img1.jpg)
+
+</div>
+<div class="wide">
+
+Large-scale rifting of the upper plate driven by rollback Slab window created early in collision
+
+</div>
+</div>
+
+<--o-->
+
+<!-- source: RSES-Collisions.pptx slide 33 · template: T3-text-and-image -->
+## Weaker over-riding plate, older slab
+<div class="cols">
+<div>
+
+![](Module-i-Accretion-extracted/slide033_img1.jpg)
+
+</div>
+<div class="wide">
+
+Small-scale localised deformation of the upper plate driven by rollback Slab window doesn’t play much of a role
+
+</div>
+</div>
+
+<--o-->
+
+<!-- source: RSES-Collisions.pptx slide 34 · template: T3-text-and-image -->
+## the mantle does its thing
+<div class="cols">
+<div class="wide">
+
+Moresi, Betts, Miller, Cayley,
+Dynamics of continental accretion.
+Nature, 2014, doi: 10.1038/nature13033
+
+</div>
+<div>
+
+![](Module-i-Accretion-extracted/slide034_img1.jpg)
+![](Module-i-Accretion-extracted/slide034_img2.jpg)
+![](Module-i-Accretion-extracted/slide034_img3.jpg)
+
+<p class="caption">Younger & Weaker · Older & Stronger</p>
+
+</div>
+</div>
+
+<--o-->
+
+<!-- source: RSES-Collisions.pptx slide 35 · template: T5-figure-focus -->
+## Lateral retreat is fast
+![](Module-i-Accretion-extracted/slide035_img1.jpg) <!-- .element class="r-stretch" -->
+
+<--o-->
+
+<!-- source: RSES-Collisions.pptx slide 36 · template: T6-two-image -->
+## Where is the arc ?
+<div class="cols">
+<div>
+
+![](Module-i-Accretion-extracted/slide036_img2.png)
+
+</div>
+<div>
+
+![](Module-i-Accretion-extracted/slide036_img1.jpg)
+
+</div>
+</div>
+<p class="caption">A · A’</p>
+
+<--o-->
+
+<!-- source: RSES-Collisions.pptx slide 37 · template: T3-text-and-image -->
+## The mechanics of oroclines
+<div class="cols">
+<div>
+
+![](Module-i-Accretion-extracted/slide037_img1.jpg)
+![](Module-i-Accretion-extracted/slide037_img2.jpg)
+![](Module-i-Accretion-extracted/slide037_img3.jpg)
+![](Module-i-Accretion-extracted/slide037_img4.png)
+![](Module-i-Accretion-extracted/slide037_img5.png)
+
+<p class="caption">A · A’ · Oceanic Plate · Over-riding Plate · Margin shortens and bends</p>
+
+</div>
+<div class="wide">
+
+- The slab rolls back in two different directions (doesn’t need to stretch / tear to do this)
+- There is no plate boundary along A-A’ so any convergence not accommodated by rollback results in indentation
+- Pinning at the end of the indenter supplies the lateral loads that result in lateral transport of material along the margin and bending.
+
+</div>
+</div>
+
+<--o-->
+
+<!-- source: RSES-Collisions.pptx slide 38 · template: T3-text-and-image -->
+## Australia & the modern Earth
+<div class="cols">
+<div>
+
+![](Module-i-Accretion-extracted/slide038_img1.png)
+
+</div>
+<div class="wide">
+
+Terrane accretion may be complicated but we can still observe:
+Plate boundary changes
+Accretion repeats
+Docking is messy
+Oroclines are part of the story
+Subduction zones must recover from accretion for repetition to occur.
+Does subduction actually step back (re-initiate from scratch) or is it a 3D process ?
+
+Colpron, M., Nelson, J. L., & Murphy, D. C. (2007). Northern Cordilleran terranes and their interactions through time. GSA Today.
+
+Figure 1. Terranes of the Canadian-Alaskan Cordillera. Inset shows terrane groupings and tectonic realms.
+
+</div>
+</div>
+
+<--o-->
+
+<!-- source: RSES-Collisions.pptx slide 39 · template: T3-text-and-image -->
+## Terranes, collisions and oroclines
+<div class="cols">
+<div class="wide">
+
+In this interpretation, the structural grain in the accreted terranes indicates a severe orocline  and along-margin transport of material.
+Bending of the margin is interpreted as a beam buckling under horizontal loads.
+But what is the mechanics underpinning this process ? How do such forces derive from plate tectonics ?
+
+</div>
+<div>
+
+![](Module-i-Accretion-extracted/slide039_img1.png)
+![](Module-i-Accretion-extracted/slide039_img2.png)
+![](Module-i-Accretion-extracted/slide039_img3.png)
+
+<p class="caption">Stephen T. Johnston, (2001) The Great Alaskan Terrane Wreck: reconciliation of paleomagnetic and geological data in the northern Cordillera, Earth. Planet. Sci. Lett. 191, 259-272 · 85 Ma</p>
+
+</div>
+</div>
+
+<--o-->
+
+<!-- source: RSES-Collisions.pptx slide 40 · template: T5-figure-focus -->
+## Alternative view
+![](Module-i-Accretion-extracted/slide040_img1.png) <!-- .element class="r-stretch" -->
+
+<--o-->
+
+<!-- source: RSES-Collisions.pptx slide 41 · template: T5-figure-focus -->
+## Plume / Plateau
+![](Module-i-Accretion-extracted/slide041_img2.png) <!-- .element class="r-stretch" -->
+
+<--o-->
+
+<!-- source: RSES-Collisions.pptx slide 42 · template: T3-text-and-image -->
+## A Familiar pattern !
+<div class="cols">
+<div>
+
+![](Module-i-Accretion-extracted/slide042_img1.jpg)
+![](Module-i-Accretion-extracted/slide042_img2.png)
+![](Module-i-Accretion-extracted/slide042_img3.png)
+
+</div>
+<div class="wide">
+
+Redfield, T., Scholl, D., Fitzgerald, P. & Beck, M. Escape tectonics and the extrusion of Alaska: Past, present, and future.Geology (2007).doi:10.1130/G23799A.1
+
+Freymueller, J. T., Woodard, H., & Cohen, S. C. (2008). Active deformation processes in Alaska, based on 15 years of GPS measurements.  American Geophysical Union. doi:10.029/79GM02
+
+</div>
+</div>
+
+<--o-->
+
+<!-- source: RSES-Collisions.pptx slide 43 · template: T5-figure-focus -->
+## Everywhere
+![](Module-i-Accretion-extracted/slide043_img1.png) <!-- .element class="r-stretch" -->
+
+<--o-->
+
+<!-- source: RSES-Collisions.pptx slide 44 · template: T5-figure-focus -->
+## Arcuate / Lateral subduction in detail
+![](Module-i-Accretion-extracted/slide044_img1.jpg) <!-- .element class="r-stretch" -->
+<p class="caption">Arcuate / Lateral subduction in detail</p>
+
+<--o-->
+
+<!-- source: RSES-Collisions.pptx slide 45 · template: T0-title-or-other -->
+
+<--o-->
+
+<!-- source: RSES-Collisions.pptx slide 46 · template: T5-figure-focus -->
+## Lateral rollback drives strong circulation around edge
+![](Module-i-Accretion-extracted/slide046_img1.jpg) <!-- .element class="r-stretch" -->

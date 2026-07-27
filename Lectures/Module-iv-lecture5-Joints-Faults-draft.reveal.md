@@ -1,0 +1,664 @@
+---
+title: Joints and faults (draft — reveal conversion)
+separator: '<--o-->'
+verticalSeparator: '<--v-->'
+revealOptions:
+    transition: 'fade'
+    slideNumber: true
+    width: 1200
+    height: 800
+    margin: 0.07
+---
+
+<!-- source: Lecture5_Joints_Faults.pptx slide 1 · template: T-title -->
+# EMSC 3002
+
+## Module 4 - Joints and faults
+
+Australian National University
+
+
+<--o-->
+
+<!-- source: Lecture5_Joints_Faults.pptx slide 2 · template: T-resources -->
+## Resources
+
+1. Louis Moresi (convenor)
+1. Chengxin Jiang (lecturer)
+1. Romain Beucher (former lecturer)
+1. Stephen Cox (curriculum advisor)
+
+<--o-->
+
+<!-- ILO placeholder — not in the pptx; fill in -->
+## What you will learn in this module
+
+<!-- TODO: add what you will learn in this module -->
+
+<--o-->
+
+<!-- source: Lecture5_Joints_Faults.pptx slide 3 · template: T4-full-figure -->
+<!-- .slide: data-background="Module-iv-Brittle-Deformation/Lecture5-extracted/slide003_img1.jpg" -->
+
+<--o-->
+
+<!-- source: Lecture5_Joints_Faults.pptx slide 4 · template: T4-full-figure -->
+<!-- .slide: data-background="Module-iv-Brittle-Deformation/Lecture5-extracted/slide004_img1.jpg" -->
+
+<--o-->
+
+<!-- source: Lecture5_Joints_Faults.pptx slide 5 · template: T3-text-and-image -->
+## Joints
+<div class="cols">
+<div>
+
+<div class="cols">
+
+![](Module-iv-Brittle-Deformation/Lecture5-extracted/slide005_img1.jpg)
+
+
+![](Module-iv-Brittle-Deformation/Lecture5-extracted/slide005_img2.png)
+
+</div>
+
+![](Module-iv-Brittle-Deformation/Lecture5-extracted/slide005_img3.jpg)
+
+<p class="caption">Fossen, 2011</p>
+
+</div>
+<div class="wide">
+
+- The most common type of tensile fractures that form near Earth’s surface
+- Importance in controlling landscape morphology (weathering); profound impacts on rock strength; important fluid conduits for groundwater and hydrocarbons (permeability; hydraulic fracturing)
+
+</div>
+</div>
+
+Note:
+Joints are tension fractures along which rocks open up, very slightly. Joints occur pretty much everywhere in rocks exposed at the surface of the Earth. They are particularly common in well-lithifiled sandstones, limestones, granitic rocks and lavas.  
+
+Figure on the left: joints in arches national park. The joints appear penetrative and regularly spaced, but complicated patterns occur on the detailed scale.
+The arches in the park are great examples of how the joint controlling landscape morphology as shown in the figure on the right. 
+
+Joints represent conduits of fluids, particularly in the vertical direction, and are made artificially during fracking (hydraulic fracturing) operations.
+
+<--o-->
+
+<!-- source: Lecture5_Joints_Faults.pptx slide 6 · template: T3-text-and-image -->
+## Plumose Structures
+<div class="cols">
+<div class="wide">
+
+- A subtle roughness along joint surface that resembles a feather imprint, indicating the growth direction of joints (hackle marks).
+- Related features include:
+- Hackles: long and narrow planes slightly oblique to the main fracture surface
+- Twist hackles: a set of en echelon joints formed along the edge of a larger joint
+- Hackle fringe: the edge of the facture plane where twist hackle occurs
+- Arrest line: an arcuate ridge on a joint surface (reflecting growth pulses)
+- Plume axis: the plume axis
+
+</div>
+<div>
+
+![](Module-iv-Brittle-Deformation/Lecture5-extracted/slide006_img2.jpg)
+
+<div class="cols">
+
+![](Module-iv-Brittle-Deformation/Lecture5-extracted/slide006_img4.jpg)
+
+
+![](Module-iv-Brittle-Deformation/Lecture5-extracted/slide006_img1.jpg)
+
+</div>
+
+![](Module-iv-Brittle-Deformation/Lecture5-extracted/slide006_img3.jpg) <!-- .element style="width:62%;" -->
+
+</div>
+</div>
+
+Note:
+The pattern points toward the nucleation point of the joint. Commonly found on joints in fine-grained rocks. Also called hackle marks. 
+
+Twist hackles tend to be oriented en echelon because of the shear component on the main fracture locally imposed by the new orientation of s3. The twist hackles try to orient perpendicular to s3, hence the twisting. 
+Arrest lines: Extension fractures tend to grow in pulses. Each propagation pulse tends to end with an out-of-plane propagation with a slowing down or complete arrest until enough energy build up to initiate the next pulse. Ribs are thus locations of minimum propagation velocity and form parabolic (elliptic in massive rocks) irregularities often referred to as arrest lines. 
+
+Figure on the top left shows hackle lines in quartzite, and you can see the plume axis from it (on the right hand side) and also trace the propagation from it (fan-shape on the left). 
+Figure on the bottom left shows Elliptically arranged arrest lines in the Navajo Sandstone, Utah. This sandstone is too coarse-grained for the plumose pattern to show up. 
+Fringe zones developed along a mechanical interface between two competent limestone layers. The zone is composed of twist hackles.
+
+<--o-->
+
+<!-- source: Lecture5_Joints_Faults.pptx slide 7 · template: T6-two-image -->
+## Why Does Plumose Structure Form?
+<div class="cols">
+<div>
+
+![](Module-iv-Brittle-Deformation/Lecture5-extracted/slide007_img2.jpg) <!-- .element style="width:72%;" -->
+
+</div>
+<div>
+
+![](Module-iv-Brittle-Deformation/Lecture5-extracted/slide007_img1.jpg) <!-- .element style="width:45%;" -->
+
+</div>
+</div>
+<p class="caption">Fossen, 2011</p>
+
+Note:
+Arrest lines and plumose structures in meta- greywackes from Telemark, Norway. Note the faint arrest lines oriented perpendicular to the plumose hackles.
+ 
+When the crack tip propagates, the stress filed at the tip of a crack changes. If the stress magnitude at the tip exceeds a critical value, the energy available for cracking rock exceeds the energy needed to create a single surface. The excess energy goes into breaking bonds off the plane of the main joint surface, and result in the formation of microscopic cracks that splay off the main joints. If that energy becomes very large, the crack may actually split into two separate parallel surfaces.
+
+<--o-->
+
+<!-- source: Lecture5_Joints_Faults.pptx slide 8 · template: T6-two-image -->
+## Joint Arrays
+<div class="cols">
+<div>
+
+![](Module-iv-Brittle-Deformation/Lecture5-extracted/slide008_img1.jpg)
+
+</div>
+<div>
+
+![](Module-iv-Brittle-Deformation/Lecture5-extracted/slide008_img2.jpg) <!-- .element style="width:86%;" -->
+
+</div>
+</div>
+<p class="caption">van der Pluijm & Marshall (2003)</p>
+
+Note:
+Cambrian sandstone in Kangaroo island, Australia. How many sets of systematic joints that are parallel to each other you can identify?
+
+<--o-->
+
+<!-- source: Lecture5_Joints_Faults.pptx slide 9 · template: T6-two-image -->
+## Joint Arrays
+<div class="cols">
+<div>
+
+![](Module-iv-Brittle-Deformation/Lecture5-extracted/slide009_img2.jpg)
+
+</div>
+<div>
+
+![](Module-iv-Brittle-Deformation/Lecture5-extracted/slide009_img1.jpg) <!-- .element style="width:86%;" -->
+
+</div>
+</div>
+<p class="caption">van der Pluijm & Marshall (2003)</p>
+
+Note:
+There are also some nonsystematic joints.
+
+<--o-->
+
+<!-- source: Lecture5_Joints_Faults.pptx slide 10 · template: T3-text-and-image -->
+## Joint Sets and Joint Systems
+<div class="cols">
+<div class="wide">
+
+- Joint set: joints with similar orientation and morphology
+- Joint system: combined pattern of two or more sets
+- Dihedral angle: the angle between two joint sets in a joint system.
+- Orthogonal: sets are perpendicular to each other
+- Conjugate: 30º-60º angle between each set
+- Note on the orthogonal and/or conjugate joints are actually two individual sets formed as a result of deformation during two different states of stress.
+
+- Master joints: the throughgoing joints cut across relatively short joints
+- Cross joints: the short joints occurring between the continuous joints
+
+Two sets of joints in Permian eolian sandstone, Canyonlands National Park. Two joint sets at high angles are quite common in competent beds.
+
+</div>
+<div>
+
+![](Module-iv-Brittle-Deformation/Lecture5-extracted/slide010_img1.jpg) <!-- .element style="width:63%;" -->
+
+![](Module-iv-Brittle-Deformation/Lecture5-extracted/slide010_img2.jpg)
+
+<p class="caption">Link · Fossen, 2011</p>
+
+</div>
+</div>
+
+Note:
+Figure on the top: Two sets of joints in Permian eolian sandstone, Canyonlands National Park. Two joint sets at high angles are quite common in competent beds.
+Figure on the bottom: the conjugate joint system that has about 60-degree angles. 
+
+Many geolgoists use the term of “orthogonal” or “conjugate” to imply the pair of joint sets formed at the same time. But nonparallel joint sets typically form at different times. The term used here is only to denote a geometry.
+
+<--o-->
+
+<!-- source: Lecture5_Joints_Faults.pptx slide 11 · template: T3-text-and-image -->
+## Joint Spacing in Sedimentary Rocks
+<div class="cols">
+<div>
+
+<div class="cols">
+
+![](Module-iv-Brittle-Deformation/Lecture5-extracted/slide011_img2.jpg)
+
+
+![](Module-iv-Brittle-Deformation/Lecture5-extracted/slide011_img1.jpg)
+
+
+![](Module-iv-Brittle-Deformation/Lecture5-extracted/slide011_img3.jpg)
+
+</div>
+
+<p class="caption">Fossen 2011 · Ladeira & Price, 1981</p>
+
+</div>
+<div class="wide">
+
+- Joints are often found evenly spaced (why?) No approved mechanism yet!
+- The average distance between adjacent members of a joint set, measured perpendicular to the surface of the joint defines the joint spacing.
+- The spacing is affected by four major factors: bed thickness, stiffness, tensile strength and strain.
+
+Jointed Cretaceous sandstone layers, Book Cliffs, Utah.
+
+</div>
+</div>
+
+Note:
+Jointed Cretaceous sandstone layers, Book Cliffs, Utah. Note how the distance between joints is larger in the thick layers.
+For the same lithology, joints are more closely spaced in thinner beds. This is because the formation of joints relieves tensile stress in the layer over a lateral distance proportional to the joint length. Since joints end at layer boundaries, which are rock discontinuities, the longer joints in thicker layers need to be spaced less frequently
+
+<--o-->
+
+<!-- source: Lecture5_Joints_Faults.pptx slide 12 · template: T3-text-and-image -->
+## Joint Spacing and Lithology
+<div class="cols">
+<div class="wide">
+
+$E= \frac{\sigma n}{\epsilon n}$
+
+- Stiffness (Young’s Modulus E) of a rock layer depends on lithology (e.g., E for sandstone is ~200 MPa and is ~600 MPa for dolomite).
+- When the block gets stretched by a uniform amount, the stronger and more brittle rocks develop a greater stress and fracture first.
+- Therefore, the stiffer layers probably fractured a few times before the weaker layers fractured for the first time. But to keep the same strain, stiffer beds have smaller joint spacing.
+- Stiffness not necessarily linearly change with tensile strength. A rock with large E may have lower tensile strength, which will crack at a lower strain.
+
+</div>
+<div>
+
+![](Module-iv-Brittle-Deformation/Lecture5-extracted/slide012_img1.jpg) <!-- .element style="width:88%;" -->
+
+![](Module-iv-Brittle-Deformation/Lecture5-extracted/slide012_img2.jpg)
+
+<p class="caption">Fossen 2011</p>
+
+</div>
+</div>
+
+Note:
+Figure on the left: Jurassic limestone layers at Lilstock Bay, Somerset, demonstrating that thinner beds have closer joint spacing than thicker beds.
+
+https://structuralgeo.wordpress.com/2014/06/18/jointing-and-mechanical-layering/
+
+<--o-->
+
+<!-- source: Lecture5_Joints_Faults.pptx slide 13 · template: T6-two-image -->
+## Major Mechanisms for Joint Formation
+<div class="cols">
+<div>
+
+![](Module-iv-Brittle-Deformation/Lecture5-extracted/slide013_img1.jpg)
+
+</div>
+<div>
+
+![](Module-iv-Brittle-Deformation/Lecture5-extracted/slide013_img2.jpg) <!-- .element style="width:42%;" -->
+
+</div>
+</div>
+<p class="caption">van der Pluijm & Marshall (2003)</p>
+
+Note:
+We learned from yesterday’s lecture that joints develop when stress exceeds the tensile fracture strength of a rock, and Griffith cracks begin to propagate. Here we describe several possible settings to explain how stress states leading to joint formation develop in a rock body. One thing to note is that the different joints in the same outcrop may have formed at different times and for different reasons. Once formed, a joint does not heal and disappear unless the rocks get metamorphosed or become pervasively deformed. 
+
+Joints form naturally in a variety of settings, but particularly during exhumation due to pressure release and cooling. During the unroofing process, cooling leads to contraction, and building up some tensile stress in horizontal direction. The decrease of overburn loading result in expansion in vertical direction, meaning a horizontal extraction. Again build up more tensile stress. The membrane effect refers to the fact when you get uplifted, the radius of the curvature increase, so creating tensile stress in the layer. Combined, the unroofing process contributes to the formation of joints. 
+
+Thermal contraction is very important, and it is the stiff layers that fracture most easily. Hence we typically see fractured sandstone or limestone layers between non-fractured or less fractured siltstones or shale layers. Layers that develop different joint patterns define what is called mechanical stratigraphy.
+
+<--o-->
+
+<!-- source: Lecture5_Joints_Faults.pptx slide 14 · template: T3-text-and-image -->
+## Joints from Unroofing
+<div class="cols">
+<div>
+
+![](Module-iv-Brittle-Deformation/Lecture5-extracted/slide014_img1.jpg)
+
+![](Module-iv-Brittle-Deformation/Lecture5-extracted/slide014_img2.jpg) <!-- .element style="width:85%;" -->
+
+<p class="caption">Fossen 2011</p>
+
+</div>
+<div class="wide">
+
+- Model horizontal stress by considering thermal and Poisson effect:
+
+$\sigma H=(\frac{v}{1-v})\Delta \sigma V$ + $(\frac{E}{1-v})\alpha \Delta T$
+
+Jointed Permian sandstones of the Colorado Plateau
+
+</div>
+</div>
+
+Note:
+They are buried to 3-4 km depth, cemented, and then brought back to the surface. The layers are saturated with joint sets, and probably formed during exhumation as a result of cooling and decompression.
+
+<--o-->
+
+<!-- source: Lecture5_Joints_Faults.pptx slide 15 · template: T3-text-and-image -->
+## Joints from Thermal Contrction
+<div class="cols">
+<div class="wide">
+
+- Cooling: when rocks cool, they undergo volume reduction and thus contraction (thermal expansion). This contraction can be taken up at the grainscale if the rock is soft and the strain is small. If not, extension fractures in the form of joints form.
+- When contraction occurs at centers which are equally spaced, then a hexagonal fracture pattern will develop. The formation of columns reflect the gradual cooling propagated down the lava.
+
+Columnar lava, Iceland
+
+Mervine, AGU Blog, 2012
+
+</div>
+<div>
+
+<div class="cols">
+
+![](Module-iv-Brittle-Deformation/Lecture5-extracted/slide015_img3.jpg)
+
+
+![](Module-iv-Brittle-Deformation/Lecture5-extracted/slide015_img2.jpg)
+
+
+![](Module-iv-Brittle-Deformation/Lecture5-extracted/slide015_img1.gif)
+
+</div>
+
+<p class="caption">Fossen 2011</p>
+
+</div>
+</div>
+
+Note:
+Most commonly, columnar jointing is observed in basalt. Basalt is an igneous, volcanic rock. When the lava cools, it contracts. This is because hot things generally take up more space than cool things. When objects contract, they often crack or fracture. When contraction occurs at centers which are equally spaced (see the above diagram), then a hexagonal fracture pattern will develop. If the contraction is not evenly spaced, then other geometries of fractures, such as 5-sided or 7-sided fractures, may occur. Contraction may not be equally spaced if, for example, the thickness or composition of the lava flow varies. The fracture pattern that forms at the cooling surface will tend to be propagated down the lava as it cools, forming long, geometric columns. Thus, as lava cools to form basalt, it may crack in a hexagonal (or other) shape and form columns.
+
+<--o-->
+
+<!-- source: Lecture5_Joints_Faults.pptx slide 16 · template: T6-two-image -->
+## Formation of Sheeting Joints
+<div class="cols">
+<div>
+
+![](Module-iv-Brittle-Deformation/Lecture5-extracted/slide016_img1.jpg)
+
+</div>
+<div>
+
+![](Module-iv-Brittle-Deformation/Lecture5-extracted/slide016_img2.jpg) <!-- .element style="width:20%;" -->
+
+</div>
+</div>
+<p class="caption">van der Pluijm & Marshall (2003) · σ<sub>1</sub> · Half Dome, Yosemite</p>
+
+<--o-->
+
+<!-- source: Lecture5_Joints_Faults.pptx slide 17 · template: T6-two-image -->
+## Joints from Tectonic Processes
+<div class="cols">
+<div>
+
+![](Module-iv-Brittle-Deformation/Lecture5-extracted/slide017_img1.jpg) <!-- .element style="width:90%;" -->
+
+</div>
+<div>
+
+![](Module-iv-Brittle-Deformation/Lecture5-extracted/slide017_img2.jpg)
+
+</div>
+</div>
+<p class="caption">Fossen, 2011 · van der Pluijm & Marshall (2003)</p>
+
+Note:
+Joint in the foreland sedimentary fills of the Appalachian orogenic belt.
+
+<--o-->
+
+<!-- source: Lecture5_Joints_Faults.pptx slide 18 · template: T3-text-and-image -->
+## Joints from Tectonic Processes
+<div class="cols">
+<div class="wide">
+
+- Joints can form in response to tectonic stresses both in areas of contractional and extensional deformation. They can form in the hinges of gentle folds.
+- Joints are oriented parallel to the Appalacian shortening direction. They can also orient to the extension direction in the hanging-wall block of a normal fault.
+
+- Histogram and rose diagram as ways to represent joint arrays.
+
+</div>
+<div>
+
+![](Module-iv-Brittle-Deformation/Lecture5-extracted/slide018_img2.jpg)
+
+![](Module-iv-Brittle-Deformation/Lecture5-extracted/slide018_img1.jpg)
+
+<p class="caption">Fossen, 2011 · van der Pluijm & Marshall (2003)</p>
+
+</div>
+</div>
+
+Note:
+Joint in the foreland sedimentary fills of the Appalachian orogenic belt.
+
+<--o-->
+
+<!-- source: Lecture5_Joints_Faults.pptx slide 19 · template: T3-text-and-image -->
+## Joints from Tectonic Processes
+<div class="cols">
+<div class="wide">
+
+- Joints and shear fractures can form together during folding of layers. While shear fractures can form conjugate sets, the tensile fracture of joints/veins cannot simultaneously (different times).
+- Also note that the joints/veins may already have formed prior to folding.
+
+- Folded Carboniferous turbidites from the Sagres area, Portugal. The veins are pre-folding in age.
+
+Folded turbidites, Portugal
+
+</div>
+<div>
+
+<div class="cols">
+
+![](Module-iv-Brittle-Deformation/Lecture5-extracted/slide019_img2.jpg)
+
+
+![](Module-iv-Brittle-Deformation/Lecture5-extracted/slide019_img1.jpg)
+
+</div>
+
+<p class="caption">Fossen, 2011</p>
+
+</div>
+</div>
+
+Note:
+The veins can be seen to be differently oriented on each limb, and to have experienced flexural slip consistent with flexural slip folding.
+
+<--o-->
+
+<!-- source: Lecture5_Joints_Faults.pptx slide 20 · template: T3-text-and-image -->
+## Fluid Effects: the Beer Can Experiment
+<div class="cols">
+<div>
+
+![](Module-iv-Brittle-Deformation/Lecture5-extracted/slide020_img1.jpg)
+
+<p class="caption">Davis et al., 2012 · Hubbert and Rubey (1959) demonstrated the fundamentals of the fluid pressure model in their now-famous beer can experiment, which could resolve the paradox of overthrusting.</p>
+
+</div>
+<div class="wide">
+
+&nbsp;
+
+</div>
+</div>
+
+Note:
+Hubbert and Rubey (1959) demonstrated the fundamentals of the fluid pressure model in their now-famous beer can experiment. Sample preparation consists of drinking two beers, preferably out of non-aluminum cans (Figure 6.102A). Place one of the empties in the freezer (Figure 6.102B), and remove a window from your house or apartment or lab (Figure 6.102C). Clean the glass with detergent, rinse, and leave it wet with a thin film of water. Place the can that is not in the freezer, top down, on the pane of glass. Now lift one end of the glass to form an inclined plane, and, with protractor in hand, measure the angle at which the beer can commences movement down the plane (Figure 6.102D). Hubbert and Rubey (1959) report typical angles of 17, corresponding to a coefficient of sliding friction of metal on wet glass of $0.3. After the can in the freezer has been chilled, quickly pull it out and perform the same exercise (Figure 6.102E). This time the beer can begin to move down the inclined plane at negligible angles of slope (somewhere around 1). It moves easily because fluid pressure derived from expansion of the warming air inside the can offsets the normal stress exerted by the can on the glass. Hours can be spent enjoying experiments on the role of fluid pressure in overthrusting (Figure 6.102F). 
+
+The beer can experiment is compelling in more ways than one. However, almost as soon as Hubbert and Ruby (1959) suggested that high fluid pressure could resolve the paradox of overthrusting, many geologists worried about how high fluid pressures in thrust belts can be maintained over the long-lived geologic time spans during which the thrusting takes place. This dilemma was solved to some extent by imagining that an active thrust fault operating at depth creates a compressional stress environment out in front of its propagating tip line. When this compression front impacts a yet unfaulted flat-lying sedimentary sequence, the interstitial pore fluids within these yet-unfaulted sedimentary rocks experience a build-up in fluid pressure. As the fluid pres- sure builds, effective stress decreases, making it possible for the thrust front to move forward, buoyed on the pressurized footwall. Although relatively rare, there are places along thrust faults where the signs of such transient high fluid pressures are obvious, e.g., in the form of sandstone dikes.
+
+<--o-->
+
+<!-- source: Lecture5_Joints_Faults.pptx slide 21 · template: T3-text-and-image -->
+## Limits on Joint Growth
+<div class="cols">
+<div class="wide">
+
+- The stress concentration at the tip of a crack depends on the length of the crack, and the stress intensity increases as the crack grows. In other words, the joint will keep growing as long as the stress driving joint growth remains unchanged (e.g., Arches).
+- Several reasons may contribute to its termination:
+
+- Intersect a free surface: joint cannot pass a preexisting open fracture.
+- Drop in fluid pressure: insufficient stress to propagate into unfractured rock; but growth resumes when fluid pressure increased.
+- Propagation into rocks of different stiffness: joint stops growing when stress intensity at the crack tip becomes too small.
+
+</div>
+<div>
+
+![](Module-iv-Brittle-Deformation/Lecture5-extracted/slide021_img1.jpg) <!-- .element style="width:88%;" -->
+
+</div>
+</div>
+
+<--o-->
+
+<!-- source: Lecture5_Joints_Faults.pptx slide 22 · template: T3-text-and-image -->
+## “craquelure Jointing” in Mona Lisa
+<div class="cols">
+<div class="wide">
+
+- A close-up photograph of craquelure in Leonardo da Vinci’s “Mona Lisa.”
+- Two-layer model:
+- The base “canvas” of wood → crystalline crust
+- Overlying “stratigraphy” of the paint layer, like sedimentary cover have different “rheology”
+- Craquelure jointing due to two factors:
+- Stretching of the canvas
+- Thermoelastic contraction
+
+Wikipedia
+
+</div>
+<div>
+
+![](Module-iv-Brittle-Deformation/Lecture5-extracted/slide022_img2.jpg) <!-- .element style="width:85%;" -->
+
+![](Module-iv-Brittle-Deformation/Lecture5-extracted/slide022_img1.jpg) <!-- .element style="width:89%;" -->
+
+</div>
+</div>
+
+<--o-->
+
+<!-- source: Lecture5_Joints_Faults.pptx slide 23 · template: T3-text-and-image -->
+## Veins and Vein Arrays
+<div class="cols">
+<div class="wide">
+
+Start with tensile cracks
+
+- A vein is a fracture filled with oriented mineral crystals that precipitated from a watery solution (typical vein fills of quartz, calcite or carbonates). The provide direct evidence of fluid movements along fractures.
+- Veins occur in rocks of all types and metamorphic grades with thickness from less than a millimeter to several meters.
+- Group of veins form vein arrays and they have a variety of forms.
+
+Planar array
+
+Stockwork array
+
+En echelon array
+
+van der Pluijm & Marshall (2003)
+
+</div>
+<div>
+
+![](Module-iv-Brittle-Deformation/Lecture5-extracted/slide023_img1.jpg) <!-- .element style="width:68%;" -->
+
+<div class="cols">
+
+![](Module-iv-Brittle-Deformation/Lecture5-extracted/slide023_img2.jpg)
+
+
+![](Module-iv-Brittle-Deformation/Lecture5-extracted/slide023_img4.jpg)
+
+
+![](Module-iv-Brittle-Deformation/Lecture5-extracted/slide023_img3.jpg)
+
+</div>
+
+<p class="caption">Gradual rotation</p>
+
+</div>
+</div>
+
+Note:
+Precipitation is triggered by favorable temperature and/ or pressure conditions, and sometimes by the mixing of different fluids that happen to meet at the intersection of fracture-controlled channel ways.
+
+Planar arrays: mineralization of a preexisting systematic joint set or during formation of a systematic joint set. 
+Stockwork: where rock has been shattered either by local high fluid pressure or as a result of pervasive fracturing.
+
+<--o-->
+
+<!-- source: Lecture5_Joints_Faults.pptx slide 24 · template: T3-text-and-image -->
+## Vein Growth
+<div class="cols">
+<div class="wide">
+
+- Two common types of veins based on growth direction of vein minerals:
+- Syntaxial (inward) growth: growth along the center line, so vein is youngest in the center; it has same mineral as in the wall rock; crystallographic continuity with wall rock minerals.
+- Antitaxial (outward) growth: growth happens along the two walls, so vein is oldest in the center; typical for fibrous veins and have different composition of the wall rock; crystallographiclly independent of the wall rock.
+
+Jean-Pierre Bug, ETH
+
+</div>
+<div>
+
+![](Module-iv-Brittle-Deformation/Lecture5-extracted/slide024_img1.jpg)
+
+</div>
+</div>
+
+<--o-->
+
+<!-- source: Lecture5_Joints_Faults.pptx slide 25 · template: T3-text-and-image -->
+## A Real Example
+<div class="cols">
+<div class="wide">
+
+Where is the youngest/oldest material in veins?
+A. At the vein wall.
+B. In the vein interior.
+C. A or B
+D. Neither of the above.
+
+Eden, NSW South Coast
+
+</div>
+<div>
+
+<div class="cols">
+
+![](Module-iv-Brittle-Deformation/Lecture5-extracted/slide025_img2.jpg)
+
+
+![](Module-iv-Brittle-Deformation/Lecture5-extracted/slide025_img1.jpg)
+
+</div>
+
+![](Module-iv-Brittle-Deformation/Lecture5-extracted/slide025_img3.jpg) <!-- .element style="width:70%;" -->
+
+<p class="caption">Syntaxial vein · Antitaxial vein · Image: Stephen Cox · Fossen 2011</p>
+
+</div>
+</div>

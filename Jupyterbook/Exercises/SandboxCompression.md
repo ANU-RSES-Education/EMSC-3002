@@ -1,16 +1,16 @@
 # Exercises: Build your own Mountain belt
 ## Analogue Sandbox in Compression.
 
-The following exercice is based on Sandra McLaren teaching at The University of Melbourne.
+The following exercise is based on Sandra McLaren's teaching at The University of Melbourne.
 
 ## Introduction
 
-Physical modeling of folding and faulting have been performed since the early days of Structural Geology.
+Physical modeling of folding and faulting has been performed since the early days of Structural Geology.
 The traditional way of performing analogue experiments is by filling a box with materials such as clay, sand, plaster, silicone putty, honey etc. and
 to apply extension or contraction at the boundaries. Ideally the model geometry and physical properties of the material should be scaled proportionally.
 The kinematics of the model should also be similar to the natural example, with comparable rates of deformation and mechanical properties.
 
-It practice, it is impossible to scale all the parameters appropriately and some sort of compromises must be found.
+In practice, it is impossible to scale all the parameters appropriately and some sort of compromises must be found.
 
 **For a small physical model to realistically reproduce a natural example, we need to scale down the geometries and properties of the materials as best as we can.**
 

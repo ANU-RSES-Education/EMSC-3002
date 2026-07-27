@@ -1,5 +1,5 @@
 ---
-title: EMSC 3002 - Plate Tectonics
+title: EMSC 3002 - 1.1 Global Deformation Patterns
 separator: '<--o-->'
 verticalSeparator: '<--v-->'
 revealOptions:
@@ -50,7 +50,7 @@ This part of the course introduces the concepts of global-scale tectonics, plate
 
 ## Plate Tectonics (Wikipedia)
 
-![Plates-USGS](https://upload.wikimedia.org/wikipedia/commons/thumb/8/8a/Plates_tect2_en.svg/2560px-Plates_tect2_en.svg.png) <!-- .element style="float:right; width:30%"-->
+![Plates-USGS](images/GlobalTectonics/Plates_tect2_en.svg) <!-- .element style="float:right; width:30%"-->
 
 Plate tectonics is a scientific theory describing the large-scale motion of the plates making up the Earth's lithosphere since tectonic processes began on Earth *between 3.3 and 3.5 billion years ago*. The model builds on the concept of continental drift, an idea developed during the first decades of the 20th century. The geoscientific community accepted plate-tectonic theory after seafloor spreading was validated in the late 1950s and early 1960s.
 
@@ -60,7 +60,7 @@ Earthquakes, volcanic activity, mountain-building, and oceanic trench formation 
 
 <--o-->
 
-## Learning Outcomes for this module
+## What you will learn in this module
 
 What you will learn about global tectonics.
 
@@ -238,7 +238,7 @@ Make your own map from the NOAA natural hazards interactive web page: [https://m
 
 ## Plate Tectonics (Wikipedia + annotation)
 
-![Plates-USGS](https://upload.wikimedia.org/wikipedia/commons/thumb/8/8a/Plates_tect2_en.svg/2560px-Plates_tect2_en.svg.png) <!-- .element style="float:right; width:30%"-->
+![Plates-USGS](images/GlobalTectonics/Plates_tect2_en.svg) <!-- .element style="float:right; width:30%"-->
 
 Plate tectonics is a scientific theory describing the large-scale motion of the plates making up the Earth's lithosphere since tectonic processes began on Earth *between 3.3 and 3.5 billion years ago*. The model builds on the concept of continental drift, an idea developed during the first decades of the 20th century. The geoscientific community accepted plate-tectonic theory after seafloor spreading was validated in the late 1950s and early 1960s.
 
@@ -265,7 +265,7 @@ We will revisit these questions throughout the course.
 
 <div>
 
-This map is the plate motions derived from the NUVEL-1 model in a No-Net-Rotation frame of reference in which the major contienental masses do not move very much.
+This map is the plate motions derived from the NUVEL-1 model in a No-Net-Rotation frame of reference in which the major continental masses do not move very much.
 
   1. We only measure the relative motion of plates relative to one another.
   2. The speed of the plates can vary even though they are rigid because their motion is described by their **angular velocity** about a pole (Euler pole).

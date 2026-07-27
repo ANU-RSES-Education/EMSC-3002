@@ -1,0 +1,1194 @@
+---
+title: Theory 2 (draft — reveal conversion)
+separator: '<--o-->'
+verticalSeparator: '<--v-->'
+revealOptions:
+    transition: 'fade'
+    slideNumber: true
+    width: 1200
+    height: 800
+    margin: 0.07
+---
+
+<!-- source: Lecture2_Strain_StrainRate.pptx slide 1 · template: T-title -->
+# EMSC 3002
+
+## Module3.2 - Strain and Strain rate
+
+  - Louis Moresi (convenor)
+  - Chengxin Jiang (lecturer)
+  - Romain Beucher (former lecturer)
+  - Stephen Cox (curriculum advisor)
+
+Australian National University
+
+_**NB:** the course materials provided by the authors are open source under a creative commons licence. We acknowledge the contribution of the community in providing other materials and we endeavour to provide the correct attribution and citation. Please contact louis.moresi@anu.edu.au for updates and corrections._
+
+<--o-->
+
+<!-- source: Lecture2_Strain_StrainRate.pptx slide 2 · template: T-resources -->
+## Resources
+
+1. Fossen, H, 2011. Structural Geology. Cambridge University Press, 2nd Edition. E-learning modules.
+1. van der Pluijm, B.A. and Marshak, S., 2003. Earth Structure: an introduction to structural geology and tectonics. W. W. Norton & Company, Ltd.
+1. Davis, G.H. and Reynolds, S.J., 1996. Structural Geology of Rocks and Regions. 2nd Edition, John Wiley & Sons.
+1. Park, R.G., 1995. Foundations of Structural Geology. Blackie & Sons Ltd.
+
+<--o-->
+
+<!-- ILO placeholder — not in the pptx; fill in -->
+## What you will learn in this module
+
+<!-- TODO: add what you will learn in this module -->
+
+<--o-->
+
+<!-- source: Lecture2_Strain_StrainRate.pptx slide 3 · template: T4-full-figure -->
+<!-- .slide: data-background="Module-iii-Theory/Lecture2-extracted/slide003_img1.jpg" -->
+
+<--o-->
+
+<!-- source: Lecture2_Strain_StrainRate.pptx slide 4 · template: T3-text-and-image -->
+## What Structural Geologists Do?
+<div class="cols">
+<div class="wide">
+
+- Geometrical analysis
+- Geometric or descriptive analysis is concerned with accurately describing the shapes of bodies of rock as they are at the present day.
+- Dynamic analysis
+- Dynamic analysis involves measurement or estimation of the force or stress that has affected rocks. It is the most difficult to do because limited access/knowledge of the paleo / current stress states inside the earth.
+- Kinematic analysis
+
+- Kinematics study how rocks moved and distorted over geologic time - this includes measurements of the rates of plate movement, amounts of fault slip, and the distortion of rocks that have undergone ductile deformation. It aims to provide stress conditions at a range of scales and time.
+
+</div>
+<div>
+
+![](Module-iii-Theory/Lecture2-extracted/slide004_img1.jpg) <!-- .element style="width:75%;" -->
+
+</div>
+</div>
+
+Note:
+Bring things together with sand-box experiments and/or numerical modeling.
+
+<--o-->
+
+<!-- source: Lecture2_Strain_StrainRate.pptx slide 5 · template: T3-text-and-image -->
+## Deformation
+<div class="cols">
+<div class="wide">
+
+- Deformation includes any process that results in a change in shape, size or location of a body.
+- A solid body subjected to external forces tends to move or change its displacement.
+- Translation or change in position
+- Rotation or change in orientation
+- Distortion or change in area/volume
+- Dilation or change in shape
+- Rigid-body and non-rigid-body deformation (strain).
+
+</div>
+<div>
+
+![](Module-iii-Theory/Lecture2-extracted/slide005_img1.jpg)
+
+<p class="caption">Source: Prof. Jean-Pierre Bug (JPB), ETH</p>
+
+</div>
+</div>
+
+<--o-->
+
+<!-- source: Lecture2_Strain_StrainRate.pptx slide 6 · template: T3-text-and-image -->
+## Geological Example of Rotation
+<div class="cols">
+<div class="wide">
+
+- Domino fault systems where a series of rigid fault blocks that rotate simultaneously in a uniform sense.
+- Submerged foundation of a second-century church at Corinth, Greece. Submergence is due to the tilting of the Isthmus of Corinth by active faulting.
+
+</div>
+<div>
+
+![](Module-iii-Theory/Lecture2-extracted/slide006_img2.jpg)
+
+![](Module-iii-Theory/Lecture2-extracted/slide006_img1.jpg)
+
+![](Module-iii-Theory/Lecture2-extracted/slide006_img3.jpg)
+
+<p class="caption">Davis and Reynolds, 1996</p>
+
+</div>
+</div>
+
+Note:
+Maybe add a little bit more real examples?
+
+<--o-->
+
+<!-- source: Lecture2_Strain_StrainRate.pptx slide 7 · template: T3-text-and-image -->
+## Plate Tectonics
+<div class="cols">
+<div>
+
+![](Module-iii-Theory/Lecture2-extracted/slide007_img1.jpg)
+
+<p class="caption">Hawaiian ridge · Emperor Mountain Chain · ~39 Ma</p>
+
+</div>
+<div class="wide">
+
+- Hawaiian Ridge—Emperor Seamount Chain is composed of more than 80 large volcanoes, reflecting the progressive movement of the Pacific Plate over a "deep" and "fixed" hot spot.
+- It stretches about 6,200 km from the Aleutian Trench in the far northwest Pacific to the Lōʻihi Seamount, the youngest volcano in the chain.
+
+National Geophysical Data Center/USGS
+
+</div>
+</div>
+
+<--o-->
+
+<!-- source: Lecture2_Strain_StrainRate.pptx slide 8 · template: T3-text-and-image -->
+## Plate Tectonics
+<div class="cols">
+<div class="wide">
+
+- Hawaiian Ridge—Emperor Seamount Chain is composed of more than 80 large volcanoes, reflecting the progressive movement of the Pacific Plate over a "deep" and "fixed" hot spot.
+- It stretches about 6,200 km from the Aleutian Trench in the far northwest Pacific to the Lōʻihi Seamount, the youngest volcano in the chain.
+- Tomographic image of a plume-like feature beneath Hawaii.
+
+**USGS**
+
+</div>
+<div>
+
+<div class="cols">
+
+![](Module-iii-Theory/Lecture2-extracted/slide008_img2.jpg)
+
+
+![](Module-iii-Theory/Lecture2-extracted/slide008_img1.png)
+
+</div>
+
+<p class="caption">French & Romanowicz, 2015</p>
+
+</div>
+</div>
+
+<--o-->
+
+<!-- source: Lecture2_Strain_StrainRate.pptx slide 9 · template: T6-two-image -->
+## Displacement Vector
+<div class="cols">
+<div>
+
+![](Module-iii-Theory/Lecture2-extracted/slide009_img2.jpg)
+
+</div>
+<div>
+
+![](Module-iii-Theory/Lecture2-extracted/slide009_img1.jpg) <!-- .element style="width:74%;" -->
+
+</div>
+</div>
+<p class="caption">Fossen, 2010</p>
+
+Note:
+Distortion is by far the most complicated type of deformation to measure. When rocks are distorted they typically get longer in some directions and shorter in others. Also, angles change in distortion. Because of this, strain cannot be represented by a scalar or a vector. It is a more complicated quantity that is called a tensor.
+
+<--o-->
+
+<!-- source: Lecture2_Strain_StrainRate.pptx slide 10 · template: T3-text-and-image -->
+## Strain
+<div class="cols">
+<div class="wide">
+
+- Strain describes the non-rigid body deformation (distortion and dilation), i.e. the amount of movement caused by stresses between parts of a body.
+- Strain reflects the relative deformation, and it has no units (often expressed as % strain). It is detached from deformation history, meaning a given strain may have accumulated in an infinite number of ways.
+
+- To decipher strain from deformed rocks, we target at strain markers – objects reflecting the distortion that has taken place.
+- Pebbles, mineral grains, ooids, pillows in pillow lavas, trilobites, worm burrows, xenoliths are good examples of strain markers.
+
+Strained quartz pebbles in conglomerate, near Dalton, MA, USA
+
+</div>
+<div>
+
+![](Module-iii-Theory/Lecture2-extracted/slide010_img1.jpg) <!-- .element style="width:72%;" -->
+
+<p class="caption">Fossen, 2010</p>
+
+</div>
+</div>
+
+<--o-->
+
+<!-- source: Lecture2_Strain_StrainRate.pptx slide 11 · template: T3-text-and-image -->
+## Homogeneous & Heterogeneous Strain
+<div class="cols">
+<div class="wide">
+
+- Homogeneous strain: strain that is the same everywhere within a body of rock, and straight lines remain straight, parallel lines remain parallel, circles are deformed into ellipses.
+- Strain that is not homogeneous is heterogenous, so straight lines can be bent, and lines that were initially parallel are rotated by different amounts, becoming non-parallel.
+- A heterogeneous deformation on one scale may be considered homogeneous on a different scale.
+- Strain analysis relies on continuous mechanic theory: the mechanics of materials with smoothly varying properties.
+
+Waldron & Snyder, U Alberta
+
+</div>
+<div>
+
+![](Module-iii-Theory/Lecture2-extracted/slide011_img1.jpg) <!-- .element style="width:88%;" -->
+
+![](Module-iii-Theory/Lecture2-extracted/slide011_img2.jpg)
+
+<p class="caption">Fossen, 2010</p>
+
+</div>
+</div>
+
+<--o-->
+
+<!-- source: Lecture2_Strain_StrainRate.pptx slide 12 · template: T3-text-and-image -->
+## Summary of Lecture 7.3
+<div class="cols">
+<div>
+
+<div class="cols">
+
+![](Module-iii-Theory/Lecture2-extracted/slide012_img1.jpg)
+
+
+![](Module-iii-Theory/Lecture2-extracted/slide012_img2.jpg)
+
+</div>
+
+</div>
+<div class="wide">
+
+- Stress
+- Several methods to measure the stress: in situ in the shallow crust and >4-5 km depth based on focal mechanism
+- Strain
+- Four types of deformation: translation, rotation, distortion and dilation. The first two are for rigid-body deformation and the latter two are for non-rigid body deformation.
+- Homogenous vs. heterogenous deformation.
+- Quantify strain.
+
+Past
+
+Today
+
+${\sigma} _ {1}$
+
+</div>
+</div>
+
+<--o-->
+
+<!-- source: Lecture2_Strain_StrainRate.pptx slide 13 · template: T3-text-and-image -->
+## Quantify Strain
+<div class="cols">
+<div class="wide">
+
+- Angular Strain (shear strain)
+- Angular shear, $\phi$
+- Shear strain, $\gamma =\tan \phi$, where $\phi$ is the angular shear.
+- Sign (positive for reducing angle)
+
+- Longitudinal Strain (normal strain)
+- Elongation ($\epsilon$) of a line
+- $\epsilon =\frac{l-l0}{l0}$
+- Stretching of a line
+- $s=\frac{l}{l0}$, thus s = 1+ $\epsilon$
+- Natural strain $\lambda =s2$
+
+$\Delta x$
+
+$\phi$
+
+$y$
+
+$\gamma =\tan \phi = \frac{\Delta x}{y}$
+
+- Volumetric Strain
+- $\delta =\frac{v-v0}{v0}$	 $=\frac{\Delta v}{v0}$<sub>	</sub>
+
+</div>
+<div>
+
+![](Module-iii-Theory/Lecture2-extracted/slide013_img1.jpg) <!-- .element style="width:87%;" -->
+
+<div class="cols">
+
+![](Module-iii-Theory/Lecture2-extracted/slide013_img2.jpg)
+
+
+![](Module-iii-Theory/Lecture2-extracted/slide013_img3.jpg)
+
+</div>
+
+<p class="caption">State 0 · State 1 · https://openeducationalberta.ca/introductorystructuralgeology</p>
+
+</div>
+</div>
+
+<--o-->
+
+<!-- source: Lecture2_Strain_StrainRate.pptx slide 14 · template: T3-text-and-image -->
+## Example: Quantify Strain in a Rock
+<div class="cols">
+<div>
+
+![](Module-iii-Theory/Lecture2-extracted/slide014_img1.jpg)
+
+</div>
+<div class="wide">
+
+- An outcrop in an exhumed section of the mantle within the Josephine Ophiolite in southern Oregon shows one pyroxene layer been offset by a fault / shear zone.
+- The offset between the pyroxene layer on either side of the fault is Δ𝑥 =5 cm and the width of the fault zone is 𝑦=0.5 cm.
+- Estimate the shear strain and shear angle associated with this structure.
+
+Magali Billen, UC Davis
+
+</div>
+</div>
+
+Note:
+To calculate the shear strain across a fault or shear zone, we need to first identify a feature that has been offset by the fault or shear zone. Note the brunton for scale. The photo below shows an outcrop in an exhumed section of the mantle within the Josephine Ophiolite in southern Oregon. An ophiolite is a section of oceanic plate preserving all or part of the crust, and sometimes includes the top of the mantle section of the plate. This mantle section is made up of a mix of olivine (weathered, so they appear light brown) and pyroxenes (weathered, so they appear dark reddish-brown or black). The pyroxenes sometime appear in distinct layers that can be traced for tens of meters. The photo shows where one of these pyroxene layers has been offset by a fault or localize shear zone.
+
+<--o-->
+
+<!-- source: Lecture2_Strain_StrainRate.pptx slide 15 · template: T3-text-and-image -->
+## Example: Quantify Strain in a Rock
+<div class="cols">
+<div>
+
+![](Module-iii-Theory/Lecture2-extracted/slide015_img1.jpg)
+
+</div>
+<div class="wide">
+
+Simple example for shear strain
+
+$\Delta x$
+
+- The offset on either side of the fault zone is Δ𝑥 =5 cm and the width of the fault zone is 𝑦=0.5 cm.
+- The fault trace provides the relative lateral movement within the shear zone. The shear strain $\epsilon s=\frac{5}{0.5}=10$. The shear angle is $\gamma = {\tan }^{-1}\left( 10 \right)∗\frac{180}{\pi}=84.3°$
+
+$y$
+
+$\phi$
+
+$\gamma =\tan \phi = \frac{\Delta x}{y}$
+
+Magali Billen, UC Davis
+
+</div>
+</div>
+
+Note:
+The key to quantify strain is to find the right geometry describing the deformation.
+
+<--o-->
+
+<!-- source: Lecture2_Strain_StrainRate.pptx slide 16 · template: T1-prose -->
+## Quantify Strain with Displacement
+- Deformation includes translation, rotation, distortion and dilation, all of which are results of displacements → can be described by displacement vectors.
+- A continuous deformation requires a more general expression of particle movements as displacement [Analogue of calculating speed].
+- Starting with a 1D normal strain → stretching a beam.
+
+(Advanced)
+
+$\epsilon 11= \frac{\Delta l}{l0}$ = $\frac{{A}^{′}{B}^{′}-AB}{AB}$= $\frac{{BB}^{′}-A{A}^{′}}{AB}$
+= $\frac{u1(B)-u1(A)}{AB}$
+Using the series expansion of $u1(B)$:
+$u1(B)$ $\approx$ $u1(A$) + $\frac{\partial u1}{\partial x1} ∙AB$
+So, $\epsilon 11$ = $\frac{\partial u1}{\partial x1}$
+The subscript of 1 indicates one direction.
+
+Before stretching
+
+**A**
+
+**B**
+
+**A**
+
+**A’**
+
+**B**
+
+**B’**
+
+AA’ = $u1(A)$
+BB’ = $u1\left( B \right)$
+$u1$ describes the continuous displacement along AB direction
+<p class="caption">After stretching</p>
+
+Note:
+The examples we just talked about measure that strain by comparing the current/final state with the initial state. But we know the deformation is a continuous process, and many occasions we need to estimate the deformation at each small time intervals. This requires a more general expression of strain, and the answer is describing as displacement. This is just like estimating the velocity of your car. 
+For example, we can calculate the average velocity of a car traveling between two points with the total time. In many occasions, we need to know the instant velocity at each location. Similarly, we need a more general expression to quantify the strain. 
+We will start with a 1D normal strain and do some derivation. The reason for showing the derivation to show the ideas behind, and serves some reference when you need to apply it to some physical science applications.
+
+<--o-->
+
+<!-- source: Lecture2_Strain_StrainRate.pptx slide 17 · template: T1-prose -->
+## Quantify Strain with Displacement
+$\Delta x$
+
+$\phi$
+
+- Similarly, one can derive the formula for a 2D shear strain → shearing a rectangular
+
+$y$
+
+Simple shear
+
+Sub-simple shear
+
+$x2$
+
+$x2$
+
+$\gamma =\tan \phi = \frac{\Delta x}{y}$
+
+**C’**
+
+**B**
+
+**B’**
+
+**B**
+
+**B’**
+
+**C**
+
+**C’**
+
+**C**
+
+$\phi$
+
+$\phi ′$
+
+**D’**
+
+$\phi ′$
+
+**A**
+
+**D**
+
+$x1$
+
+**A**
+
+**D**
+
+$x1$
+
+$\gamma =\tan \phi = \frac{BB′}{AB}$
+Using the series expansion of $u1(B)$:
+$B{B}^{′}$= $u2(B$) $\approx u2(A$) + $\frac{\partial u1}{\partial x2} ∙AB$
+So, $\epsilon 12$ = $\gamma$ = $\frac{\partial u1}{\partial x2}$
+
+$\epsilon 12$ = $\frac{\partial u1}{\partial x2}$
+$\epsilon 21$ = $\frac{\partial u2}{\partial x1}$
+More generally,
+$\epsilon 12$ =$\epsilon 21$= $\frac{1}{2}\left( \frac{\partial u2}{\partial x1}+\frac{\partial u1}{\partial x2} \right)$
+
+(Advanced)
+
+Note:
+consider homogeneous and infinitesimal strain, so that linear and shear strains are so small that their products are negligible and all displacements are linear.
+
+<--o-->
+
+<!-- source: Lecture2_Strain_StrainRate.pptx slide 18 · template: T3-text-and-image -->
+## Strain Tensor
+<div class="cols">
+<div class="wide">
+
+- We can describe the entire strain state with displacement of one direction relative to space in another direction:
+- $$\epsilon ij=\frac{1}{2}\left[ \frac{{\partial u} _ {i}}{{\partial x} _ {j}}+\frac{{\partial u} _ {j}}{{\partial x} _ {i}} \right]$$
+- Where u<sub>i</sub> is the displacement in the direction i. i, j can be any of 1, 2, 3 and the coordinates x, y, z are then referred to as x<sub>1</sub>, x<sub>2</sub>, x<sub>3</sub>.
+- Like the stress state, the full strain state of a body is described by three 3-component vectors ⇒ tensor.
+- $$\left[ \begin{matrix} \epsilon 11 & \epsilon 12 & \epsilon 13 \cr \epsilon 21 & \epsilon 22 & \epsilon 23 \cr \epsilon 31 & \epsilon 32 & \epsilon 33 \end{matrix} \right]$$
+
+- It might contain volumetric, shear and normal components.
+
+</div>
+<div>
+
+![](Module-iii-Theory/Lecture2-extracted/slide018_img1.jpg)
+
+</div>
+</div>
+
+<--o-->
+
+<!-- source: Lecture2_Strain_StrainRate.pptx slide 19 · template: T3-text-and-image -->
+## Principal Strain: Strain Ellipsoid
+<div class="cols">
+<div class="wide">
+
+- Like the stress tensor, the strain tensor can be diagonalised to get a form only containing principal strain, e<sub>1</sub>, e<sub>2</sub> and e<sub>3</sub>.
+- $\left[ \begin{matrix} \epsilon 11 & \epsilon 12 & \epsilon 13 \cr \epsilon 21 & \epsilon 22 & \epsilon 23 \cr \epsilon 31 & \epsilon 32 & \epsilon 33 \end{matrix} \right]$ becomes $\left[ \begin{matrix} e1 & 0 & 0 \cr 0 & e2 & 0 \cr 0 & 0 & e3 \end{matrix} \right]$
+- The three principal strain can be used to form a strain ellipsoid. It represents the same state of strain regardless of our choice of coordinate system (axes and plane).
+- In 3D the shape of the strain ellipsoid usually require two strain ratios to define.
+
+Patrice Rey, USyd
+
+</div>
+<div>
+
+![](Module-iii-Theory/Lecture2-extracted/slide019_img1.jpg) <!-- .element style="width:54%;" -->
+
+![](Module-iii-Theory/Lecture2-extracted/slide019_img2.jpg) <!-- .element style="width:91%;" -->
+
+<p class="caption">$e3$ · $e2$ · $e1$ · $e1 \ge e2$ $\ge e3$</p>
+
+</div>
+</div>
+
+Note:
+A strain ellipsoid has three lines X,Y and Z that are special. They represent the maximum and minimum stretches, called sX and sZ respectively, and a third, intermediate axis of intermediate stretch sY, that is mutually perpendicular to the other two.
+
+<--o-->
+
+<!-- source: Lecture2_Strain_StrainRate.pptx slide 20 · template: T3-text-and-image -->
+## On the Symbols of Principal Strain
+<div class="cols">
+<div class="wide">
+
+- Several quantities to define the normal strain
+- Elongation ($\epsilon$) of a line
+- $\epsilon =\frac{l-l0}{l0}$
+- Stretching of a line
+- $s=\frac{l}{l0}$, thus s = 1+ $\epsilon$
+- Natural strain $\lambda =s2$
+- In general, principal strain uses the stretching factors of S<sub>1</sub>, S<sub>2</sub>, S<sub>3</sub>, which sometimes are also denoted as X, Y or Z. With this, X=Y=Z=1 means no deformation.
+- The notations for principal strain below are telling the same story:
+- X = S<sub>1</sub> = e<sub>1</sub>= 1+ $\epsilon$<sub>1</sub> = $\sqrt{\lambda 1};$Y = S<sub>2</sub> = e<sub>2</sub> =1+ $\epsilon$<sub>2</sub> =$\sqrt{\lambda 2}$; Z = S<sub>3</sub> = e<sub>3</sub> = 1+ $\epsilon$<sub>3</sub> = $\sqrt{\lambda 3}$
+
+</div>
+<div>
+
+![](Module-iii-Theory/Lecture2-extracted/slide020_img1.jpg) <!-- .element style="width:91%;" -->
+
+<p class="caption">$e3$ · $e2$ · $e1$ · $e1 \ge e2$ $\ge e3$</p>
+
+</div>
+</div>
+
+<--o-->
+
+<!-- source: Lecture2_Strain_StrainRate.pptx slide 21 · template: T3-text-and-image -->
+## Volume Change
+<div class="cols">
+<div class="wide">
+
+- Volumetric strain of an object is given by $\Delta =(V-V0)/V0$, where $V0$ and $V$ are volumes of the object before and after the deformation, respectively.
+- Isotropic volume change (change in size only) and anisotropic volume change (change in both size and shape).
+- Coaxial deformation: the same material lines remain the principal strain axes throughout each increment, or principal axes of strain ellipsoid do not rotate through material. It is a type of anisotropic volume change.
+
+Coaxial deformation (pure shear)
+
+</div>
+<div>
+
+![](Module-iii-Theory/Lecture2-extracted/slide021_img1.jpg)
+
+![](Module-iii-Theory/Lecture2-extracted/slide021_img2.jpg)
+
+<p class="caption">$\epsilon$ · $\epsilon$ · $\epsilon$ · $\epsilon$ · Fossen, 2010</p>
+
+</div>
+</div>
+
+Note:
+The flinn diagram summaries the different geometry of resulted deformation in one plot, and nicely separates the prolate geometries or cigar shapes of the upper half of the field from oblate geometries or pancake shapes of the lower half. However, one type of strain is not clearly shown, which is the volume change.
+
+<--o-->
+
+<!-- source: Lecture2_Strain_StrainRate.pptx slide 22 · template: T3-text-and-image -->
+## Uniaxial Strain – Compaction
+<div class="cols">
+<div class="wide">
+
+- Uniaxial strain is contraction or extension along one of the principal strain axes without any change in length along the other two. Such strain requires a reorganization, addition or removal of rock volume.
+- It is an anisotropic volume change but a coaxial deformation. Volume reduction creates uniaxial contraction (compaction) and volume increase creates uniaxial extension.
+- A best example is compaction of sediment progressively losing its porosity due to the loading. This forms part of the process of lithification (physical and chemical compaction).
+- Porosity $\phi$ decreases with depth as$\phi$(Z) = $\phi 0 {e}^{-CZ}$, where C is a constant, $\phi 0$ is initial porosity.
+
+Unconsolidated
+
+</div>
+<div>
+
+![](Module-iii-Theory/Lecture2-extracted/slide022_img1.jpg) <!-- .element style="width:70%;" -->
+
+![](Module-iii-Theory/Lecture2-extracted/slide022_img3.jpg) <!-- .element style="width:55%;" -->
+
+![](Module-iii-Theory/Lecture2-extracted/slide022_img2.jpg) <!-- .element style="width:55%;" -->
+
+<p class="caption">Fluids · Compaction · Fossen, 2010</p>
+
+</div>
+</div>
+
+Note:
+This happens through grain reorganization during physical compaction of porous sediments and tuffs near the surface, leading to a denser packing of grains. Only water, oil or gas that filled the pore space leaves the rock volume, not the rock minerals themselves. 
+In calcareous rocks and deeply buried siliciclastic sedimentary rocks, uniaxial strain can be accommodated by (pressure) solution, also referred to as chemical compaction. In this case, minerals are dissolved and transported out of the rock volume by fluids. Removal of minerals by diffusion can also occur under metamorphic conditions in the middle and lower crust. This can result in cleavage formation or can lead to compaction across shear zones. Uniaxial extension implies expansion in one direction. This may occur by the formation of tensile fractures or veins or during metamorphic reactions. 
+When a layer of sediment is originally deposited, it contains an open framework of particles with the pore space being usually filled with water. As more sediment is deposited above the layer, the effect of the increased loading is to increase the particle-to-particle stresses resulting in porosity reduction primarily through a more efficient packing of the particles and to a lesser extent through elastic compression and pressure solution. The initial porosity of a sediment depends on its lithology. Mudstones start with porosities of >60%, sandstones typically ~40% and carbonates sometimes as high as 70%.
+
+<--o-->
+
+<!-- source: Lecture2_Strain_StrainRate.pptx slide 23 · template: T3-text-and-image -->
+## Pure Shear and Simple Shear
+<div class="cols">
+<div>
+
+![](Module-iii-Theory/Lecture2-extracted/slide023_img2.jpg)
+
+![](Module-iii-Theory/Lecture2-extracted/slide023_img1.jpg)
+
+<p class="caption">Fossen, 2010</p>
+
+</div>
+<div class="wide">
+
+- Pure shear: a three-dimensional homogeneous flattening of a body. It is usually considered as a plane (2D) strain with no volume change.
+- Simple shear: parallel planes in a material remain parallel and maintain a constant distance, while translating relative to each other (internal rotation).
+- For non-coaxial deformations, the orientations of the principal strain axes are different for different amounts of strain, while for coaxial deformations they always point in the same directions (same orientation, different lengths).
+
+Pure shear
+
+Simple shear
+
+Displacement field
+
+Strain ellipse
+
+</div>
+</div>
+
+<--o-->
+
+<!-- source: Lecture2_Strain_StrainRate.pptx slide 24 · template: T3-text-and-image -->
+## Flinn Diagram
+<div class="cols">
+<div class="wide">
+
+- The Flinn Diagram allows the representation of every type of regular ellipsoid by comparing the two strain ratios between X/Y and Y/Z.
+- The logarithm function conveniently scale the strain axes ratios.
+- Two important parameters of D and K in the Flinn Diagram:
+- Strain-related fabric depend on the shape of the finite strain ellipsoid.
+
+ln(X/Y)
+
+$K= \frac{\ln [X/Y]}{\ln [Y/Z]}$
+D = $\sqrt{[\ln \left[ \frac{X}{Y} \right]]2+[\ln \left[ \frac{Y}{Z} \right]]2}$
+
+ln(Y/Z)
+
+Patrice Rey, USyd
+
+</div>
+<div>
+
+![](Module-iii-Theory/Lecture2-extracted/slide024_img1.jpg)
+
+</div>
+</div>
+
+Note:
+The parameter D is the distance between the origin of the graph (that represent the initial sphere) and the ellipsoid (in red on the diagram). The parameter K is the slope between the abscissa axis and the line joining the ellipsoid and the origin of the diagram. Cigar shaped ellipsoids locate along the ordinate axis (i.e. K is infinite) where the strain is said to be constructional. Pancake shaped ellipsoids locate along the abscissa axis (K=0) where the strain is said to be flattening. Plane strain (K=1) characterizes the ellipsoids for which &2 axis remains constant despite strain. 
+Strain-related fabric depend on the shape of the finite strain ellipsoid. Pancake shaped ellipsoids lead to S tectonites (strong schistosity, no lineation), cigar shaped ellipsoids lead to L tectonites (strong lineation, no schistosity). L=S tectonites are produced by plane strain.
+
+<--o-->
+
+<!-- source: Lecture2_Strain_StrainRate.pptx slide 25 · template: T1-prose -->
+## Methods for Strain Measurements
+- To decipher strain from deformed rocks, we target at strain markers – objects reflecting the distortion that has taken place: pebbles, mineral grains, ooids, pillows in pillow lavas, trilobites, worm burrows, xenoliths are good examples of strain markers.
+- Common methods to measure strain include:
+- The Wellman method
+- The Breddin graph
+- The Fry method
+- Elliptical objects and Rf/𝝋 method
+- Center-to-center method
+- E-learning modules of Fossen, 2011.
+
+<--o-->
+
+<!-- source: Lecture2_Strain_StrainRate.pptx slide 26 · template: T3-text-and-image -->
+## The Fry Method for Strain Analysis
+<div class="cols">
+<div class="wide">
+
+- One of the most elegant and easiest method. The particles can be anything (e.g., quartz grains, garnet, pebbles etc).
+- The main assumption is that before deformation the spacing of these particles should be statistically isotropic i.e. the distance between two particles does not depend on the direction in which the distance is measured.
+- Procedure: tracing the position of particles neighbouring a chosen particle
+
+Patrice Rey, USyd
+
+- and to repeat this operation for as many particles as possible.
+- Work successively on two perpendicular sections for three axes of the strain ellipsoid.
+
+</div>
+<div>
+
+![](Module-iii-Theory/Lecture2-extracted/slide026_img1.jpg)
+
+![](Module-iii-Theory/Lecture2-extracted/slide026_img2.jpg)
+
+</div>
+</div>
+
+Note:
+One way to demonstrate this is to plot on a tracing paper the position of particles (in red on the sketch below on the left) neighbouring a chosen particle (crossed white spot) and to repeat this operation for as many particles as possible. The result is shown on the sketch below on the right. This sketch shows that particles are disbributed around a circle of radius the average distance between particles. There is no strain.
+After deformation the distance between two particles aligned with &1 increases whereas two particles aligned in the direction of &3 got closer. If strain is homogeneous, the sphere is transformed into an ellipsoid. To determine the three axes of this ellipsoid structural geologists work successively on two perpendicular sections (thin sections, saw cuts through hand specimens, photographs) containing two of the three principal strain axes
+
+<--o-->
+
+<!-- source: Lecture2_Strain_StrainRate.pptx slide 27 · template: T3-text-and-image -->
+## The Rf/$\phi$ Method for Strain Analysis
+<div class="cols">
+<div>
+
+![](Module-iii-Theory/Lecture2-extracted/slide027_img1.jpg)
+
+<p class="caption">Fossen, 2010</p>
+
+</div>
+<div class="wide">
+
+- More general case for initial condition of deformed rocks.
+- Strain intensity can be assessed by the shape of deformable sub-spherical objects.
+- By measuring the axial ratios of those ellipsoids in a final state (Rf) as a function of $\phi$, the true strain (Rs) = $\sqrt{(Rfmax/Rfmin)}$ for a lower-strain cases and $\sqrt{(Rfmax∙Rfmin)}$ for higher-strain cases.
+
+- EllipseFit program for finite strain analysis.
+
+</div>
+</div>
+
+Note:
+Subspherical objects such as quartz aggregates in granitic rocks, pebbles in conglomerates. 
+Phi represents the angle between the long axis of the strain ellipse or sub-spherical objects and a reference line (such as the horizontal line in this figure).
+
+<--o-->
+
+<!-- source: Lecture2_Strain_StrainRate.pptx slide 28 · template: T3-text-and-image -->
+## Stress Vs. Strain
+<div class="cols">
+<div>
+
+<div class="cols">
+
+![](Module-iii-Theory/Lecture2-extracted/slide028_img1.jpg)
+
+
+![](Module-iii-Theory/Lecture2-extracted/slide028_img2.jpg)
+
+</div>
+
+<p class="caption">Fossen, 2010 · Fossen, 2010</p>
+
+</div>
+<div class="wide">
+
+Known stress
+
+Known strain
+
+- It is difficult or even impossible to predict strain from stress alone. Similarly, it is difficult or impossible to estimate stress from some strain ellipse alone.
+- Additional information such as boundary conditions, is useful to tell the true story.
+
+</div>
+</div>
+
+Note:
+Deformed markers (a) such as strained pebbles or ooids give no information about the type of deformation.
+
+<--o-->
+
+<!-- source: Lecture2_Strain_StrainRate.pptx slide 29 · template: T3-text-and-image -->
+## Summary of Lecture 8.1
+<div class="cols">
+<div class="wide">
+
+- Quantify strain with displacement
+
+1D stretching
+
+Simple shear
+
+3D cases
+
+$$\epsilon ij= \frac{1}{2}\left[ \frac{{\partial u} _ {i}}{{\partial x} _ {j}}+\frac{{\partial u} _ {j}}{{\partial x} _ {i}} \right]$$
+
+$x2$
+
+**A**
+
+**B**
+
+AA’ = $u1(A)$
+BB’ = $u1\left( B \right)$
+
+**B**
+
+**B’**
+
+**C**
+
+**C’**
+
+$\phi$
+
+**A**
+
+**A’**
+
+**B**
+
+**B’**
+
+$\epsilon 11= \frac{\Delta l}{l0}$
+
+$\epsilon 11$ = $\frac{\partial u1}{\partial x1}$
+
+**A**
+
+**D**
+
+$\gamma =\tan \phi = \frac{BB′}{AB}$
+
+$x1$
+
+$\epsilon 12$ = $\frac{\partial u1}{\partial x2}$
+
+- Strain tensor and ellipsoid
+
+- Coaxial and uniaxial strain (compaction)
+- Pure shear and simple shear
+- Methods to measure strain
+
+$\left[ \begin{matrix} \epsilon 11 & \epsilon 12 & \epsilon 13 \cr \epsilon 21 & \epsilon 22 & \epsilon 23 \cr \epsilon 31 & \epsilon 32 & \epsilon 33 \end{matrix} \right]$ => $\left[ \begin{matrix} e1 & 0 & 0 \cr 0 & e2 & 0 \cr 0 & 0 & e3 \end{matrix} \right]$
+
+</div>
+<div>
+
+![](Module-iii-Theory/Lecture2-extracted/slide029_img1.jpg) <!-- .element style="width:72%;" -->
+
+</div>
+</div>
+
+<--o-->
+
+<!-- source: Lecture2_Strain_StrainRate.pptx slide 30 · template: T3-text-and-image -->
+## Elastic Strain Caused by a Seismic Wave
+<div class="cols">
+<div>
+
+![](Module-iii-Theory/Lecture2-extracted/slide030_img2.jpg) <!-- .element style="width:77%;" -->
+
+![](Module-iii-Theory/Lecture2-extracted/slide030_img1.jpg) <!-- .element style="width:84%;" -->
+
+<p class="caption">www.seis-insight.eu</p>
+
+</div>
+<div class="wide">
+
+- When an earthquake or explosion occurs, part of the energy released is as elastic waves that are transmitted through the earth.
+- The waves are then detected and recorded by seismograms, which measure, amplify and record the motion (displacement) of the ground.
+
+- The ground motion can be converted directly to strain by spatial derivatives and is dependent on the type of seismic wave that is propagating (usually <10<sup>-5</sup>).
+
+</div>
+</div>
+
+Note:
+You have seen the strain expressed as the partial derivative of displacement relative to space, and you might also wonder how useful that is. And here is one particular example of describing the elastic strain caused by a seismic wave. 
+The east-west component of ground motion at the Berkeley station recorded by the Bosch Omori seismograph on March 10, 1922, from an earthquake source near Parkfield, California. The recording is part of the basis of the "Parkfield Prediction Experiment" (1988 ± 5 years). Reproduced on a wine label printed for the Centennial Symposium, May 28–30, 1987.
+
+<--o-->
+
+<!-- source: Lecture2_Strain_StrainRate.pptx slide 31 · template: T3-text-and-image -->
+## Example: Strain from a Seismic Wave
+<div class="cols">
+<div class="wide">
+
+- A seismic plane shear wave is travelling through a solid with displacement that can be locally approximated as:
+- $uz=A\sin [2\pi f(t-\frac{x}{c})]$
+- where A is the amplitude, f is frequency,
+- and c is the wave speed. We can estimate the
+- maximum strain for a wave of f = 2 Hz, c = 3.14 km/s and A = 1 mm.
+- Solutions:
+- Strain is the spatial derivative of the displacement:
+- $$\frac{\partial uz}{\partial x}=\frac{-2\pi fA}{c} \cos [2\pi f(t-\frac{x}{c})]$$
+- The maximum occurs when cos[x] = -1 and thus
+- $$\left( \frac{\partial uz}{\partial x} \right)max=\frac{2\pi fA}{c}$$
+- Now plug the numbers into this equation, we get the maximum
+- strain of 4 $\times {10}^{-6}$<sup> </sup>
+
+Basic functions:
+sin(x): cos(x)
+cos(x): sin(x)
+x<sup>a</sup> = ax<sup>a-1</sup>
+Combined functions (chain rule):
+sin(ax+b)
+Let y = ax+b; so derivative of sin(ax+b) = sin$’$(y) y’
+
+</div>
+<div>
+
+![](Module-iii-Theory/Lecture2-extracted/slide031_img1.jpg)
+
+</div>
+</div>
+
+<--o-->
+
+<!-- source: Lecture2_Strain_StrainRate.pptx slide 32 · template: T3-text-and-image -->
+## Strain Rate
+<div class="cols">
+<div class="wide">
+
+- Strain Rate ($\dot{\epsilon}$) is the change in strain of a material with respect to time (s<sup>-1</sup>). It depends mainly on the stress applied and the strength of the material.
+- Change of velocity over distance: assuming block 1 has a velocity of v1 and block 2 of velocity v2, the strain rate is the net difference in velocity between the two blocks.
+
+$x2$
+
+$\phi$
+
+$\Delta m$
+
+$y$
+
+$\frac{\partial u1}{\partial x2}$
+
+$\gamma =\tan \phi = \frac{\Delta m}{y}$ =
+
+Simple shear
+
+</div>
+<div>
+
+![](Module-iii-Theory/Lecture2-extracted/slide032_img1.png)
+
+<p class="caption">Dan Spencer, Oxford · $x1$</p>
+
+</div>
+</div>
+
+Note:
+Used to talk about the viscous materials. The elastic materials will deform instantaneously, like extend a spring. 
+The strain rate at some point within the material measures the rate at which the distances of adjacent parcels of the material change with time in the neighborhood of that point.
+
+<--o-->
+
+<!-- source: Lecture2_Strain_StrainRate.pptx slide 33 · template: T1-prose -->
+## Strain Rate
+- Strain Rate ($\dot{\epsilon}$) is the change in strain of a material with respect to time (s<sup>-1</sup>). It depends mainly on the stress applied and the strength of the material.
+- Change of velocity over distance: assuming block 1 has a velocity of v1 and block 2 of velocity v2, the strain rate is the net difference in velocity between the two blocks.
+- Q1: Calculate the strain rate if 50% strain is achieved in ~20 min (sandbox).
+- Q2: Estimate the strain rate of a fault of 500 km long moving 30 km in 1 m.y.?
+
+- Solutions:
+- $\dot{\epsilon}$ = 0.5/1200 = 4.2 x 10<sup>-4</sup> (s<sup>-1</sup>)
+- $\epsilon$ = 30/500 = 0.06 or 6%
+- $\dot{\epsilon}$ = 0.06/1 m.y. =  0.06/ (1 x 10<sup>6 </sup>y.)<sup> </sup> = 0.6 x 10<sup>-7  </sup>y<sup>-1</sup>
+
+Note:
+Used to talk about the viscous materials. The elastic materials will deform instanously, like extend a spring. 
+Has a unit of reciprocal time.
+
+<--o-->
+
+<!-- source: Lecture2_Strain_StrainRate.pptx slide 34 · template: T1-prose -->
+## Strain Rate Tensor
+- Recall that the strain tensor expressed using displacement:
+- $$\epsilon ij=\frac{1}{2}\left[ \frac{{\partial u} _ {i}}{{\partial x} _ {j}}+\frac{{\partial u} _ {j}}{{\partial x} _ {i}} \right]$$
+- The strain rate tensor can then replace the displacement vector in the strain with velocity vector:
+- D$ij=\frac{1}{2}\left[ \frac{{\partial v} _ {i}}{{\partial x} _ {j}}+\frac{{\partial v} _ {j}}{{\partial x} _ {i}} \right]$  or  $\left[ \begin{matrix} Dxx & Dxy & Dxz \cr Dyx & Dyy & Dyz \cr Dzx & Dzy & Dzz \end{matrix} \right]$
+- The strain rate tensor also has three principal strain rates direction where all shear values vanish. The diagonal sums to zero if the material is incompressible (i.e., zero trace, first invariant is zero). The second invariant is defined from the principal values and represents the magnitude.
+
+Where u<sub>i</sub> is the displacement in the direction i. i, j can be any of 1, 2, 3 and the coordinates x, y, z are then referred to as x<sub>1</sub>, x<sub>2</sub>, x<sub>3</sub>.
+
+Note:
+In fluid mechanics, the compressibility is a measure of the relative volume change of a fluid or solid as a response to a pressure (or mean stress) change.
+
+<--o-->
+
+<!-- source: Lecture2_Strain_StrainRate.pptx slide 35 · template: T3-text-and-image -->
+## Strain Rates at Plate Boundaries
+<div class="cols">
+<div>
+
+![](Module-iii-Theory/Lecture2-extracted/slide035_img1.jpg)
+
+
+</div>
+<div class="wide">
+
+- The map shows the second invariant as a proxy of the magnitude.
+- The regions of highest strain rate at the surface of the Earth are the plate boundaries.
+- A combined results of the applied stress and the strength of the material.
+
+</div>
+</div>
+
+Note:
+Louis has shown this multiple times in the first part of this course.
+
+<--o-->
+
+<!-- source: Lecture2_Strain_StrainRate.pptx slide 36 · template: T3-text-and-image -->
+## How and Why?
+<div class="cols">
+<div class="wide">
+
+- How we measure strain rate (different scales):
+- Total strain/geologic time span;
+- Geodesy (GPS) instruments;
+- Analog experiments;
+- Numerical modeling;
+- …
+
+- Importance of understanding the strain rate:
+- Rates of tectonic processes (e.g., mountain building, volcanic uplifting; subduction)
+- Fault motion predictions (earthquakes hazards)
+- Control deformation mechanisms (material strength)
+
+</div>
+<div>
+
+![](Module-iii-Theory/Lecture2-extracted/slide036_img1.jpg) <!-- .element style="width:85%;" -->
+
+![](Module-iii-Theory/Lecture2-extracted/slide036_img2.jpg) <!-- .element style="width:84%;" -->
+
+<p class="caption">Fossen, 2010</p>
+
+</div>
+</div>
+
+Note:
+(Left) White arrows (velocity vectors) indicating motions relative to Europe. The vectors clearly show how India is moving into Eurasia, causing deformation in the Himalaya–Tibetan Plateau region. 
+(Right) Strain rate map based on GPS data. Calculated strain rates are generally less than 10-6 y-1. Warm colors indicate high strain rates. Similar use of GPS data can be applied to much smaller areas where differential movements occur, for example across fault zones.
+
+<--o-->
+
+<!-- source: Lecture2_Strain_StrainRate.pptx slide 37 · template: T1-prose -->
+## Summary
+- Geometric, dynamic and kinematic analysis
+- Four general forms of deformation
+- The concept of strain and its quantification in 1D, 2D, 3D (strain tensor)
+- Strain classification via the Flinn diagram
+- Concepts of uniaxial strain, volumetric change, pure and shear strain, incremental deformation and finite deformation
+- Methods to estimate strain in a rock (based on strain markers)
+- The concept of strain rate and how / why we measure them
+
+<--o-->
+
+<!-- source: Lecture2_Strain_StrainRate.pptx slide 38 · template: T0-title-or-other -->
+
+<--o-->
+
+<!-- source: Lecture2_Strain_StrainRate.pptx slide 39 · template: T3-text-and-image -->
+## Geometrical and Kinematic Analysis
+<div class="cols">
+<div class="wide">
+
+&nbsp;
+
+</div>
+<div>
+
+![](Module-iii-Theory/Lecture2-extracted/slide039_img1.png)
+
+</div>
+</div>
+
+<--o-->
+
+<!-- source: Lecture2_Strain_StrainRate.pptx slide 40 · template: T6-two-image -->
+## Progressive Deformation
+<div class="cols">
+<div>
+
+![](Module-iii-Theory/Lecture2-extracted/slide040_img1.jpg) <!-- .element style="width:74%;" -->
+
+</div>
+<div>
+
+![](Module-iii-Theory/Lecture2-extracted/slide040_img2.jpg) <!-- .element style="width:59%;" -->
+
+</div>
+</div>
+<p class="caption">Fossen, 2010</p>
+
+Note:
+The differences provide data on size and orientation of the incremental strain ellipsoid for this interval and describe this increment of the deformation history.
+
+<--o-->
+
+<!-- source: Lecture2_Strain_StrainRate.pptx slide 41 · template: T1-prose -->
+## Pure Shear and Simple Shear
+- Simple shear: parallel planes in a material remain parallel and maintain a constant distance, while translating relative to each other.
+
+- Pure shear: a three-dimensional homogeneous flattening of a body.
+
+x<sub>2</sub>
+
+x<sub>2</sub>
+
+y
+
+y
+
+Before
+
+Before
+
+Before
+
+1
+
+1
+
+1
+
+0.8
+
+$\phi$
+
+x<sub>1</sub>
+
+x<sub>1</sub>
+
+x
+
+1.3
+
+1
+
+1
+
+0.5
+
+1
+
+x
+
+$\epsilon 11= \left[ \frac{dux1}{dx1} \right]$ = 0.3
+
+$\epsilon 12= \left[ \frac{dux}{dy} \right]$ = 0
+
+$\epsilon xx=\epsilon yy=0$
+
+$\epsilon 22= \left[ \frac{duy}{dy} \right]$ = -0.2
+
+$\epsilon xy=\left[ \frac{dux}{dy} \right]$= $\tan \phi =0.5, \epsilon yx=\left[ \frac{duy}{dx} \right]=0$
+<p class="caption">After</p>

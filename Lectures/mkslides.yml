@@ -1,0 +1,15 @@
+# MkSlides config — the reveal-md successor for EMSC-3002 slide decks.
+# Mirrors the old reveal-md flags from build_slides.sh so existing *.reveal.md render.
+slides:
+  theme: css/anu.css        # local ANU theme (was fetched from the live gh-pages URL)
+  highlight_theme: github
+  separator: "<--o-->"       # was reveal-md --separator
+  separator_vertical: "<--v-->"   # was reveal-md --vertical-separator
+  separator_notes: "^Note:"  # a "Note:" line starts reveal speaker notes
+
+revealjs:
+  width: 1200
+  height: 800
+  margin: 0.07
+  transition: fade
+  slideNumber: true

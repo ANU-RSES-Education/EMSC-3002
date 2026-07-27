@@ -10,7 +10,7 @@ Knowing the stress state of our Earth is helpful in many ways. In this exercise,
 
 </div>
 
-Consider a tall rectangular of rock above a point at 6 km depth (z) in the crust. This rectangle has a base of 5 km in length (l) and 2 km in width (w). What are the corresponding lithostatic stress at this point? Let’s assume that rock column has an averaged density of 2.5 g/$cm^3$ and the gravitational acceleration value at that point is 9.85 m/$s^2$. What is the hydrostatic stress if replacing that rock with a water column (do not worry about the empty house)? What geological processes could potentially reduce the stress at that point?
+Consider a tall rectangular block of rock above a point at 6 km depth (z) in the crust. This rectangle has a base of 5 km in length (l) and 2 km in width (w). What are the corresponding lithostatic stress at this point? Let’s assume that rock column has an averaged density of 2.5 g/$cm^3$ and the gravitational acceleration value at that point is 9.85 m/$s^2$. What is the hydrostatic stress if replacing that rock with a water column (do not worry about the empty house)? What geological processes could potentially reduce the stress at that point?
 
 Note: convert all the measurements in the same units before doing the math. 
 ::::
@@ -63,6 +63,6 @@ Note: The auxiliary lines in green divide the upper portion of the circle into s
 
 Following question 3, the same mechanical lab also provided you the cohesive strength (C) and the internal friction angle ($\varphi$) data of the sandstone samples, which are 10 MPa and 45&deg; respectively. Assuming the data associated with the Mohr circle in question 3 is correct, are there any problems with the cohesive strength (C) and the internal friction angle ($\varphi$) values they provided? Why or why not? 
 
-Note: normally you need to convert the angles in degree to radius when doing trigonometric function calculations. But this depends on what type of calculators you use. 
+Note: normally you need to convert the angles in degrees to radians when doing trigonometric function calculations. But this depends on what type of calculators you use. 
 
  ::::

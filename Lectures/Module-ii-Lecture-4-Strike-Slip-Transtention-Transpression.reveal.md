@@ -40,15 +40,15 @@ corrections._
 
 <--o-->
 
-## Intended learning outcomes
+## What you will learn in this module
 
 
-The students will learn about the structural style of trike-slip, transpression and transtension regimes.
+The students will learn about the structural style of strike-slip, transpression and transtension regimes.
 
 <--o-->
 ## Strike-slip faults
 
-Strike-slip faults have been studied for more than 100 years. They received attention as they are often associated to
+Strike-slip faults have been studied for more than 100 years. They received attention as they are often associated with
 devastating earthquakes (e.g. North Anatolian Fault in Turkey, San-Andreas fault in California.)
 
 In this lecture we will look at the differents types of strike-slip faults, their formation and tectonic settings.
@@ -61,7 +61,7 @@ We will look at **transpression** and **transtension** deformations that link st
 <div style="width:50%; float:left; position:absolute; top:50%; transform: translate(0, -50%)">
 
 A **strike-slip** fault is a fault where the displacement vector is approximately horizontal.
-The 2 blocks moves sideways.
+The 2 blocks move sideways.
 
 </div>
 <div style="width:50%; float:right">
@@ -114,7 +114,7 @@ The 2 blocks moves sideways.
 - A strike-slip transfer fault transfers slip from one structure to another.
 - The linked structures can be any type of faults (reverse, normal, oblique), extension fractures or folds.
 - On a large scale, transfer faults may segment extensional basins or rifts.
-- As a rift develops and develop oceanic crust, the transfer faults develop into **transform faults** along the rift axis.
+- As a rift develops and forms oceanic crust, the transfer faults develop into **transform faults** along the rift axis.
 
 Transfer faults are also sometimes called **tear faults**
 
@@ -140,7 +140,7 @@ Transfer faults are also sometimes called **tear faults**
 In the figure, a steep transfer faults link to oppositely-dipping half grabens. 
 The two normal faults could dip in the same direction.
 The transfer faults does not need to be perfectly strike-slip, it could also show a component of normal displacement depending on the orientation of the fault relative to the direction of extension, or on the geometry of the normal faults at depth. 
-The normal faults must flatten out at depth to create a perfect strike-slip tranfer fault.
+The normal faults must flatten out at depth to create a perfect strike-slip transfer fault.
 
 
 </div>
@@ -195,7 +195,7 @@ A crustal scale example is the flanking shear zones of the India-Asia collision 
 **Transform faults** are a special type of **transfer faults** that separate mid-ocean ridges into segments.
 They are bound by the ridge segments and only extend beyond the ridges as passive (dead) faults.
 
-The figure illustrate the kinematics.
+The figure illustrates the kinematics.
 
 </div>
 <div style="width:50%; float:right">
@@ -251,7 +251,7 @@ They are bound by the ridge segments and only extend beyond the ridges as passiv
 <div>
 <div style="width:50%; float:left">
 
-Oceanic fracture zones initial during rifting and continental break-up so the longer the spreading history, the longer the fracture zones.
+Oceanic fracture zones initiate during rifting and continental break-up so the longer the spreading history, the longer the fracture zones.
 The transform fault, the active part of the fault, tend to retain a fixed length over time.
 
 The longest fracture zones are found in the Pacific ocean. Significant parts of their lengths have been subducted under the North-American Plate.
@@ -277,7 +277,7 @@ The longest fracture zones are found in the Pacific ocean. Significant parts of 
 
 Oceanic Fracture Zones are as old as the crust they occur in, increasing in age away from the ridge.
 
-The fact that fracture zones are inactive fault is evident from the way they offset magnetic anomalies and isochrons (line of constant age).
+The fact that fracture zones are inactive faults is evident from the way they offset magnetic anomalies and isochrons (line of constant age).
 The faults have more or less constant offset along them which is unusual for faults.
 
 </div>
@@ -344,7 +344,7 @@ In practice, **strike-slip fault** and **transcurrent fault** are synonymous.
 
 The magnitude 7 Earthquake in Haiti on 12 January 2010 killed 200000-300000 people.
 
-It occured on a strike-slip fault that runs parallel to the transform plate margin north of Haiti (approx 200km south).
+It occurred on a strike-slip fault that runs parallel to the transform plate margin north of Haiti (approx 200km south).
 
 This left-lateral fault shows that a plate margin is generally more complex than a single fault.
 It can be regarded as a transcurrent strike-slip fault that has formed in the side-wall to the transform plate-boundary-forming fault. 
@@ -370,7 +370,7 @@ It can be regarded as a transcurrent strike-slip fault that has formed in the si
 
 The magnitude 7 Earthquake in Haiti on 12 January 2010 killed 200000-300000 people.
 
-It occured on a strike-slip fault that runs parallel to the transform plate margin north of Haiti (approx 200km south).
+It occurred on a strike-slip fault that runs parallel to the transform plate margin north of Haiti (approx 200km south).
 
 This left-lateral fault shows that a plate margin is generally more complex than a single fault.
 It can be regarded as a transcurrent strike-slip fault that has formed in the side-wall to the transform plate-boundary-forming fault. 
@@ -397,7 +397,7 @@ It can be regarded as a transcurrent strike-slip fault that has formed in the si
 
 Transcurrent faults with free tips occur within continental plates, but may as in the Haitian case be associated with plate boundaries.
 
-The Tibetan plateau of the Himalayas and the areas north of it are influenced by the stress from the India-Asia convergente plate boundary.
+The Tibetan plateau of the Himalayas and the areas north of it are influenced by the stress from the India-Asia convergent plate boundary.
 The stresses generate a number of transcurrent faults.
 
 </div>
@@ -415,7 +415,7 @@ The stresses generate a number of transcurrent faults.
 <div>
 <div style="width:50%; float:left; position:absolute; top:50%; transform: translate(0, -50%)">
 
-**Transcurrent fulats** may come in conjugate sets, two differenty oriented faults active at the same time, under the same regional stress field.
+**Transcurrent faults** may come in conjugate sets, two differently oriented faults active at the same time, under the same regional stress field.
 
 This pattern is well illustrated in the Tibetan plateau, causing lateral extrusion of heated orogenic crust in reaction to the movement of the rigid Indian continent into Asia
 
@@ -556,7 +556,7 @@ Step-overs and bends along strike-slip faults (in map view), generate local pock
 
 **Restraining bends** are location where local contraction occurs in response to fault bend or stepover.
 
-A variety of contractional structures can occur... stylolites, folds, reverse faults, thrusts.. even small mountain ranges is the region is large enough.
+A variety of contractional structures can occur... stylolites, folds, reverse faults, thrusts.. even small mountain ranges if the region is large enough.
 
 </div>
 <div style="width:50%; float:right">
@@ -619,7 +619,7 @@ Those structures are well developed across many stepovers / fault bends.
 <div>
 <div style="width:60%; float:left">
 
-Upward widening of strike-slip zones are related to strike-slip reactivation of basement faults in stiff basement rocks. Widening is favored in weak sediments where the realtive strength of fault rocks and sediments is relatively small.
+Upward widening of strike-slip zones are related to strike-slip reactivation of basement faults in stiff basement rocks. Widening is favored in weak sediments where the relative strength of fault rocks and sediments is relatively small.
 
 </div>
 <div style="width:40%; float:right">
@@ -635,7 +635,7 @@ Upward widening of strike-slip zones are related to strike-slip reactivation of 
 <div>
 <div style="width:50%; float:left">
 
-Upward widening of strike-slip zones are related to strike-slip reactivation of basement faults in stiff basement rocks. Widening is favored in weak sediments where the realtive strength of fault rocks and sediments is relatively small.
+Upward widening of strike-slip zones are related to strike-slip reactivation of basement faults in stiff basement rocks. Widening is favored in weak sediments where the relative strength of fault rocks and sediments is relatively small.
 
 *Section through restraining bend produced in sandbox experiment. McClay and Bonora (2001)*
 
@@ -690,7 +690,7 @@ When a strike-slip fault zone or shear zone diverts from simple shear we get **t
 <div>
 <div style="width:50%; float:left">
 
-**Transpression** (*transtension*) is the simultaneous conmbination of strike-slip or simple-shear motion along a structure and shortening (*extension*) perpendicular to it.
+**Transpression** (*transtension*) is the simultaneous combination of strike-slip or simple-shear motion along a structure and shortening (*extension*) perpendicular to it.
 
 </div>
 <div style="width:50%; float:right">
@@ -706,7 +706,7 @@ When a strike-slip fault zone or shear zone diverts from simple shear we get **t
 <div>
 <div style="width:40%; float:left">
 
-**Transpression** (*transtension*) is the simultaneous conmbination of strike-slip or simple-shear motion along a structure and shortening (*extension*) perpendicular to it.
+**Transpression** (*transtension*) is the simultaneous combination of strike-slip or simple-shear motion along a structure and shortening (*extension*) perpendicular to it.
 
 </div>
 <div style="width:60%; float:right">
@@ -722,7 +722,7 @@ When a strike-slip fault zone or shear zone diverts from simple shear we get **t
 <div>
 <div style="width:50%; float:left">
 
-**Transpression** (*transtension*) is the simultaneous conmbination of strike-slip or simple-shear motion along a structure and shortening (*extension*) perpendicular to it.
+**Transpression** (*transtension*) is the simultaneous combination of strike-slip or simple-shear motion along a structure and shortening (*extension*) perpendicular to it.
 
 </div>
 <div style="width:50%; float:right">
@@ -734,7 +734,7 @@ When a strike-slip fault zone or shear zone diverts from simple shear we get **t
 
 <--v-->
 
-**$W_k$** is a measure of the reation between vorticity (internal rotation) and how fast strain accumulates during the deformation.
+**$W_k$** is a measure of the relation between vorticity (internal rotation) and how fast strain accumulates during the deformation.
 
 It is defined as $$ W_k = \frac{w}{\sqrt{2 (s_x^2 + s_y^2 + s_z^2)}}$$ where $s_n$ are the principal strain rates along the Instantaneous Stretching Axes of the Strain Ellipsoid.
 
@@ -742,7 +742,7 @@ It is defined as $$ W_k = \frac{w}{\sqrt{2 (s_x^2 + s_y^2 + s_z^2)}}$$ where $s_
 
 ![](Module-ii-Figures-Structural-Geology-And-Crustal-Deformation/StrikeSlipStructures/PaddleWheel.jpg) <!-- .element style="width:70%" -->
 
-The paddle-wheel interpretation is useful to visualise the effect of $W_k$. The axis of the paddle wheel is parallel to the vorticity vector and is not rotating fo coaxial deformation ($W_k = 0$) and show an increasing tendency to rotate with increasing values of $W_k$.
+The paddle-wheel interpretation is useful to visualise the effect of $W_k$. The axis of the paddle wheel is parallel to the vorticity vector and is not rotating for coaxial deformation ($W_k = 0$) and show an increasing tendency to rotate with increasing values of $W_k$.
 
 <--o-->
 ## Transpression and Transtension
@@ -802,7 +802,7 @@ It is the noncoaxial nature of simple shear that makes the folds axes rotate.
 **Transpression** involves a component of shortening.
 
 This influences the initial orientation of fold hinges. They become closer to the zone by an amount function of the amount of shortening relative to the amount of simple shear.
-(depends on $W_k$). The hinges rotate toward parallelism withing the zone.
+(depends on $W_k$). The hinges rotate toward parallelism within the zone.
 
 ![](Module-ii-Figures-Structural-Geology-And-Crustal-Deformation/StrikeSlipStructures/TranspressionFoldingC.png) <!-- .element style="width:70%" -->
 
@@ -826,7 +826,7 @@ Observation of folds can give important information about the type of deformatio
 
 Strain in collision zones can be partitioned into a strike-slip component and a zone of perpendicular shortening component expressed by folds, reverse faults and thrusts.
 
-This often occur along destructive plate boundaries where strain partition within accretionary wedges.
+This often occurs along destructive plate boundaries where strain partitions within accretionary wedges.
 
 
 </div>
@@ -863,7 +863,7 @@ This gives pure shear dominated domains between strike-slip faults.
 
 The San Andreas fault is a transform fault between the North American Plate and the Pacific Plate.
 
-It is not a typical transform fault: it transfers displacement form a spreading ridge (The East Pacific Rise) to another strike-slip transform (The Mendocino Fracture Zone).
+It is not a typical transform fault: it transfers displacement from a spreading ridge (The East Pacific Rise) to another strike-slip transform (The Mendocino Fracture Zone).
 
 This causes to have variable slip along strike.
 
@@ -882,7 +882,7 @@ This causes to have variable slip along strike.
 
 The San Andreas fault occurs in an atypical oceanic crust that is rather a series of accreted island arcs.
 
-Th SAF is associated with other subparallel faults and the transform plate boundary is rather a wide fault system.
+The SAF is associated with other subparallel faults and the transform plate boundary is rather a wide fault system.
 
 </div>
 <div style="width:50%; float:right">
@@ -925,7 +925,7 @@ Th SAF is associated with other subparallel faults and the transform plate bound
 - Transform fault
 - Associated with major earthquakes
 - Contains central aseismically creeping section
-- 1906 San Francisco (M 8.7) most famous quake.
+- 1906 San Francisco (M 7.9) most famous quake.
 - Large Earthquake recurrence interval: 150 years
 - Last large quake on southern segment: 1857
 - Southern segment overdue for large quake...
@@ -987,5 +987,5 @@ The 3 main types of strike-slip faults:
 - Strike-slip fault tend to be steep and straight in map view, then can be 100s of km long.
 - Bends along faults create contractional structures (at restraining bends) or extensional structures (at releasing bends).
 - Plate bounding strike-slip faults are associated with large Earthquakes.
-- Strike-slip faults taht deviate from perfect fault parallel displacement are transpressional (compression) or transtensional (extension).
+- Strike-slip faults that deviate from perfect fault parallel displacement are transpressional (compression) or transtensional (extension).
 - Transpression / Transtension is sometimes partitioned into domains of fault-perpendicular shortening/extension along or between strike-slip fault. This is known as strain partitioning.

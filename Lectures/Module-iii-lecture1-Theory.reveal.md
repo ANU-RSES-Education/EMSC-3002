@@ -31,13 +31,13 @@ corrections._
 ## Resources
 
 1. **Fossen, H, 2011.** *Structural Geology.* Cambridge University Press, 2nd Edition. [E-learning modules](https://folk.uib.no/nglhe/module4/Chapt4module.html)
-1. **van der Pluijm, B.A. and Marshak, S., 2003.** *Earth Strcture: an introduction to structural geology and tectonics.* W. W. Norton & Company, Ltd.
+1. **van der Pluijm, B.A. and Marshak, S., 2003.** *Earth Structure: an introduction to structural geology and tectonics.* W. W. Norton & Company, Ltd.
 1. **Davis, G.H. and Reynolds, S.J., 1996.** *Structural Geology of Rocks and Regions.* 2nd Edition, John Wiley & Sons. 
 1. **Park, R.G., 1995.** *Foundations of Structural Geology.* Blackie & Sons Ltd. 
 
 <--o-->
 
-## Intended learning outcomes
+## What you will learn in this module
 
 What you will learn about stress.
 

@@ -43,7 +43,7 @@ corrections._
 
 <--o-->
 
-## Intended learning outcomes
+## What you will learn in this module
 
 Students will be able to:
 
@@ -61,11 +61,11 @@ Students will be able to:
 Hydrocarbon industry:
 
 - Folds and associated structures can form traps.
-- Understanding folds periodicity and geometry is key for the selection of drilling sites.
+- Understanding fold periodicity and geometry is key for the selection of drilling sites.
 
 Mineral Industry:
 
-- Understanding folds structures is important in assessing the extent of ore reserves and the
+- Understanding fold structures is important in assessing the extent of ore reserves and the
 viability of mines.
 
 </div>
@@ -82,7 +82,7 @@ viability of mines.
 ## Basic Elements of Fold Morphology
 
 The conditions of deformation usually vary both in space and time, differences in rock type,
-temperature, pressure and strain-rate translates in a wide range of fold geometry or **fold styles**.
+temperature, pressure and strain-rate translate into a wide range of fold geometry or **fold styles**.
 
 Correct interpretation of the variations in fold style is important to reconstruct the
 geological history of an area.
@@ -104,7 +104,7 @@ perpendicular to what is defined as the **axial surface**.
 
 Folds are made up of a **hinge** that connects to **limbs**.
 
-The **hinge** may be abrupt but usually the curvature is gradual and define a 
+The **hinge** may be abrupt but usually the curvature is gradual and defines a 
 **hinge zone**.
 
 <--o-->
@@ -152,7 +152,7 @@ Key to compare natural structures across different contexts.
 
 <div style="width:50%; float:left">
 
-The Shape of folds can be compared to mathematical functions.
+The shape of folds can be compared to mathematical functions.
 
 We use terms such as **amplitude** and **wavelength**.
 

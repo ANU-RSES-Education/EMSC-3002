@@ -8,6 +8,11 @@ Jupyterbook/_build
 Jupyterbook/static_slides
 Jupyterbook/static_pdfs
 
+# Pixi environment + MyST / MkSlides build outputs (JB2 migration)
+.pixi/
+_build/
+node_modules/
+
 # IDE files
 
 /.vscode
@@ -158,3 +163,15 @@ Lectures/.DS_Store
 Jupyterbook/.DS_Store
 Jupyterbook/.DS_Store
 Lectures/.DS_Store
+
+# Source pptx (large; extracted, not committed)
+OneDrive_1_16-07-2026/
+
+# Source pptx for Module 4 (large; extracted, not committed)
+/Module4/
+
+# Source pptx for Module 3 (large; extracted, not committed)
+/Module3/
+
+# Source pptx staging area (large; extracted, not committed)
+/migration/PPTs/

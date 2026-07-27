@@ -1,0 +1,27 @@
+[workspace]
+authors = ["Louis Moresi <louis.moresi@anu.edu.au>"]
+channels = ["conda-forge"]
+name = "EMSC-3002"
+platforms = ["osx-arm64", "linux-64"]   # linux-64 for GitHub Actions CI
+version = "0.1.0"
+
+# Toolchain for the Jupyter Book 2 (MyST) + MkSlides system.
+# mystmd  -> the Jupyter Book 2 engine (book/site build)
+# mkslides -> reveal.js slide builder, the reveal-md successor (pip only)
+
+[dependencies]
+python = ">=3.11,<3.13"
+mystmd = ">=1.10,<2"
+python-pptx = ">=1.0.2,<2"
+lxml = ">=6.1.1,<7"
+pillow = ">=12.3.0,<13"
+pymupdf = ">=1.28.0,<2"
+
+[pypi-dependencies]
+mkslides = ">=0.1"
+
+[tasks]
+build = "bash build.sh"          # full site: MyST book + MkSlides decks -> _build/html
+book = "myst build --html"        # book only
+serve = "myst start"              # live preview of the book
+pdfs = "bash build_pdfs.sh"       # decktape PDF of every built deck -> _build/html/pdfs

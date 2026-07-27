@@ -40,7 +40,7 @@ corrections._
 
 <--o-->
 
-## Intended learning outcomes
+## What you will learn in this module
 
 <--o-->
 
@@ -48,25 +48,25 @@ corrections._
 
 **Contractional structures occur in any tectonic regime, but they are more common along convergent boundaries.**
 
-Understanding contractional structures is important for understanding formation of mountain belts in general, but also for improved oil and gas exploration methods, because many world's oil ressources are located in fold and thrust belts.
+Understanding contractional structures is important for understanding formation of mountain belts in general, but also for improved oil and gas exploration methods, because many world's oil resources are located in fold and thrust belts.
 
 <--o-->
 
 ## Contractional Structures
 
-**Contractional deformation structures when rocks are shortened by tectonic or gravitational forces**
+**Contractional deformation structures form when rocks are shortened by tectonic or gravitational forces**
 
 We find contractional faults and folds in:
 
 - All parts of collisional zones.
 - Accretionary prisms associated with subduction zones.
-- In gravitationally instable structures such as deltas and continental-margin sediments resting on weak mud or salt.
+- In gravitationally unstable structures such as deltas and continental-margin sediments resting on weak mud or salt.
 
 <--o-->
 
 ## Contractional Structures
 
-**Shortening can be accomodated in different ways**
+**Shortening can be accommodated in different ways**
 
 <div>
 <div style="width:50%; float:left">
@@ -94,7 +94,7 @@ We find contractional faults and folds in:
 
 **Contractional** faults are faults that accommodate contraction or shortening.
 
-In most cases, contrational faults correspond to **reverse** or **thrust** faults which accommodate shortening in the horizontal direction.
+In most cases, contractional faults correspond to **reverse** or **thrust** faults which accommodate shortening in the horizontal direction.
 
 ![](Module-ii-Figures-Structural-Geology-And-Crustal-Deformation/ContractionalStructures/ContractionalFaults1A.png) <!-- .element style="float: left" width="50%" -->
 ![](Module-ii-Figures-Structural-Geology-And-Crustal-Deformation/ContractionalStructures/ContractionalFaults1B.png) <!-- .element style="float: right" width="50%" -->
@@ -105,7 +105,7 @@ In most cases, contrational faults correspond to **reverse** or **thrust** fault
 
 Note that contractional faults may include normal and oblique faults.
 
-In the example below the normal fault accommodate layer-parrallel shortening.
+In the example below the normal fault accommodates layer-parallel shortening.
 
 ![](Module-ii-Figures-Structural-Geology-And-Crustal-Deformation/ContractionalStructures/ContractionalFaults2A.png) <!-- .element style="float: left" width="50%" -->
 ![](Module-ii-Figures-Structural-Geology-And-Crustal-Deformation/ContractionalStructures/ContractionalFaults2B.png) <!-- .element style="float: right" width="50%" -->
@@ -129,7 +129,7 @@ Contraction in the horizontal plane, or tectonic contraction, is associated with
 
 A **thrust** is a low angle fault or shear-zone where the hanging wall has been transported over the footwall
 
-Thrusts faults bring older rocks on top of youger rocks, and rocks of higher metamorphic grade on top of rocks of lower metamorphic grade.
+Thrusts faults bring older rocks on top of younger rocks, and rocks of higher metamorphic grade on top of rocks of lower metamorphic grade.
 
 *Stratigraphy and Metamorphic grade can both be used to map thrusts... Stratigraphic control is particularly important*
 
@@ -145,7 +145,7 @@ Thrusts faults bring older rocks on top of youger rocks, and rocks of higher met
 
 ![](Module-ii-Figures-Structural-Geology-And-Crustal-Deformation/ContractionalStructures/NappeComplexes.png) <!-- .element style="width:60%;float:right; margin-left:50px;" -->
 
-**Thrust nappes** consist of one or several subordinate **Thrust sheets** that have a common diplacement history.
+**Thrust nappes** consist of one or several subordinate **Thrust sheets** that have a common displacement history.
 
 The smallest tectonic units originating within the pile is called a **horse**
 
@@ -190,7 +190,7 @@ The low-angle fault or shear-zone that separates allochthon from autochthon is c
 
 The directions and orientations of structures within nappes often refer to the hinterland or foreland.
 
-The **hinterland** designates the central mountainous region of the orogen, wheres the **foreland** occupies the margins
+The **hinterland** designates the central mountainous region of the orogen, whereas the **foreland** occupies the margins
 
 <--o-->
 ## Thrust Faults and Tectonic Units
@@ -258,7 +258,7 @@ Contractional faults in the foreland of an orogenic zone typically form **imbric
 <div>
 <div style="width:50%; float:left">
 
-**Imbrication zones** results from the formation of ramps.
+**Imbrication zones** result from the formation of ramps.
 They are composed of a series of **horses** thrusted up along more or less parallel ramp faults.
 
 Imbrications zones form preferentially in the foreland.
@@ -351,12 +351,12 @@ Orogenic wedges are thickest in the hinterland and become progressively thinner 
 
 <--o-->
 ## Orogenic Wedges
-### The Buldozer model
+### The Bulldozer model
 
 ![](Module-ii-Figures-Structural-Geology-And-Crustal-Deformation/ContractionalStructures/Buldozer.jpg) <!-- .element style="width:50%;float:right; margin-left:50px;" -->
 
 
-Snow piling up at the front of a buldozer is a common analogue used to describe the growth of orogenic wedges.
+Snow piling up at the front of a bulldozer is a common analogue used to describe the growth of orogenic wedges.
 
 The translation and internal deformation of the wedge are driven by lateral compression and thrusting toward the foreland.
 
@@ -380,7 +380,7 @@ The combination of these controlling factors can result in a wide range of oroge
 
 ![](Module-ii-Figures-Structural-Geology-And-Crustal-Deformation/ContractionalStructures/WedgeFriction1.png) <!-- .element style="width:50%;float:right; margin-left:50px;" -->
 
-High Friction and asociated strain hardening along the detachment may cause deformation to relocate into the wedge.
+High Friction and associated strain hardening along the detachment may cause deformation to relocate into the wedge.
 
 Folding, formation of duplexes and imbrications result in contraction and increase in thickness.
 
@@ -416,7 +416,7 @@ Gravity driven deformation occurs when the topographic load exceeds the internal
 ## Orogenic Wedges
 ### Gravity Models
 
-Alternative models uses gravity as the most important driving force for the displacement of nappes and orogenic wedges.
+Alternative models use gravity as the most important driving force for the displacement of nappes and orogenic wedges.
 
 Three gravity models have been proposed.
 
@@ -457,4 +457,4 @@ The wedge spreads out radially and therefore deforms internally by non-planar de
 ## Orogenic Wedges
 ### Models
 
-Models that explains orogeny and large-scale thrusting must consider gravity driven deformation as well as pure dynamic shortening.
+Models that explain orogeny and large-scale thrusting must consider gravity driven deformation as well as pure dynamic shortening.

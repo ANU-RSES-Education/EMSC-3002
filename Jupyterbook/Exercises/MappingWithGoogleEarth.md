@@ -1,6 +1,6 @@
 # Mapping Exercises with Google Earth
 
-Understanding the relationship between the outcrop pattern and the 3-D geometry of rock bodies can be a challenge. Google Earth offers the ability to view topography in 3D, and in areas of good exposure, the interaction between topography and rock bodies can be clearly visualized by manipulating the viewer’s perspective.  Through this user interaction, a much clearer understanding of how outcrop patterns related to rock structure can be gained.
+Understanding the relationship between the outcrop pattern and the 3-D geometry of rock bodies can be a challenge. Google Earth offers the ability to view topography in 3D, and in areas of good exposure, the interaction between topography and rock bodies can be clearly visualized by manipulating the viewer’s perspective.  Through this user interaction, a much clearer understanding of how outcrop patterns relate to rock structure can be gained.
 
 This activity is designed as a self-paced exercise for students working individually or in small groups.
 
@@ -81,4 +81,4 @@ Construct a geologic map and cross section of each of the three areas (polygons)
 ### Summary reflection
 
 1. Describe how the outcrop pattern on a geological map can be used to determine the three-dimensional structure.
-2. That characteristics can be used to differentiate rock units on a satellite image?  Are there any specific to igneous, metamorphic, or sedimentary rocks?
+2. What characteristics can be used to differentiate rock units on a satellite image?  Are there any specific to igneous, metamorphic, or sedimentary rocks?

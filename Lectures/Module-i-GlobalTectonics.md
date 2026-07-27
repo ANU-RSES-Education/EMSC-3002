@@ -21,6 +21,21 @@ The first part of this module introduces the structure of the Earth on a global 
 </iframe>
 -->
 
+### The Australian Plate (1.1a)
+
+This course is about the structure and tectonic evolution of the Australian plate, so this
+short section introduces the plate itself — the Indo-Australian plate, its boundaries, and
+why every one of them matters to the story — and then serves as a reference you will return
+to all term: the names of the continent's building blocks, when they came together, where
+Australia sat in plate reconstructions through geological time, and the continent-scale
+datasets (Moho depth, lithospheric thickness, sediment thickness, potential fields, stress
+and seismicity) that let us interpret structure beneath the surface.
+
+<iframe src="../slideshows/Module-i-GlobalTectonics-1a.reveal.html" title="Slideshow" width=100%, height=500, allowfullscreen></iframe>
+
+<a href="../slideshows/Module-i-GlobalTectonics-1a.reveal.html?print-pdf">Build your own PDF</a>
+
+
 ### Plate Boundaries
 
 The next part of the module covers the nature of the plate boundaries and introduces some of the techniques we will use in this course to identify the forces that are at work.
@@ -68,7 +83,8 @@ There is a portal where you can [browse interactive movies](http://portal.gplate
 of plates moving over hundreds of millions of years with various data visualised
 on the moving plates.
 
-This is the link to the USGS page on a recent M8.2 Earthquake in Alaska:
+This is the link to the USGS page on the 2021 M8.2 Chignik earthquake in Alaska
+(one of the case studies in lecture 1.2):
 [USGS News and Analysis](https://www.usgs.gov/news/magnitude-82-earthquake-alaska)
 
 

@@ -37,12 +37,12 @@ corrections._
 
 <--o-->
 
-## Intended learning outcomes
+## What you will learn in this module
 
 What you will learn in this lecture
 
 - Fault concept and terminology
-- Fault types and its representation on maps
+- Fault types and their representation on maps
 - Fault characteristics 
 - Fault interpretation at the surface and in the subsurface
 - Fault slip and its measurements

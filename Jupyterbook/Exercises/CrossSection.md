@@ -23,7 +23,7 @@ Take the opportunity to begin working on the problem set for this week (Problem 
 
 ### Introduction
 
-You are all experienced at drawing cross sections that help you visualize subsurface geology. You cn also use cross sections to quantify the amount of brittle deformation by measuring the offset across faults. But what if you wanted to reliably determine the amount of deformation in a faulted and folded region? It turns out that this problem is much more complex and we must therefore have a series of rules to help us construct cross sections that will allow us to easily extract this information. This lab handout will tell you how to construct simple versions of these “balanced” cross sections. It will also teach you how to “restore” the cross section as described in the simple experiment above. By comparing the deformed state cross section with the restored cross section, we can get a complete quantitative picture of brittle and ductile deformation.
+You are all experienced at drawing cross sections that help you visualize subsurface geology. You can also use cross sections to quantify the amount of brittle deformation by measuring the offset across faults. But what if you wanted to reliably determine the amount of deformation in a faulted and folded region? It turns out that this problem is much more complex and we must therefore have a series of rules to help us construct cross sections that will allow us to easily extract this information. This lab handout will tell you how to construct simple versions of these “balanced” cross sections. It will also teach you how to “restore” the cross section as described in the simple experiment above. By comparing the deformed state cross section with the restored cross section, we can get a complete quantitative picture of brittle and ductile deformation.
 
 Balanced cross sections are most useful in fold-thrust belts. Some examples of fold-thrust belts include the Appalachian Mountains, the Swiss Jura Mountains, Taiwan, and the foothills of the Canadian Rockies.
 
@@ -52,7 +52,7 @@ no place to go when you try to restore the cross section.
 
 **Loose line**: A line in a cross section that is distorted during deformation.
 
-**Pin line**: A line in the cross section that remained stationary and is therefore the sam in both the deformed and restored cross section.
+**Pin line**: A line in the cross section that remained stationary and is therefore the same in both the deformed and restored cross section.
 
 **Restored Cross Section**: A model of what the subsurface may have looked like before deformation. Our goal for this lab is to take a deformed cross section and kinematically restore it.
 
@@ -81,7 +81,7 @@ The cross sectional area of a bed must be the same in both deformed and restored
 
 The length of a contact in a cross section does not change from the deformed to the restored cross sections. This is only true when there is no thinning or thickening of beds at the fold hinges. It follows from the Conservation of Area:  area = bed thickness * bed length, so if bed thickness is constant, area is conserved by using consistent contact lengths. Cross section restoration is a bit harder when bed thickness changes but is definitely possible.
 
-#### Plain Strain
+#### Plane Strain
 
 We assume that no material has moved into or out of the page of the cross section. This assumption works well for faults that are relatively long and straight in map-view.
 
@@ -112,7 +112,7 @@ Given the strip map of a portion of a fold-thrust belt, follow the method listed
 
 #### Method
 
-Examine the map of a region know to be a fold and thrust belt. 
+Examine the map of a region known to be a fold and thrust belt. 
 
 1. Determine the transport direction.
     - Take note of any mapped faults and determine the transport direction from those faults. We assume that the footwall is stationary, so the transport direction is the map-view projection of the slip vector. For a pure thrust fault, the slip direction is along the dip line, so the transport direction is the dip direction.

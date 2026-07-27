@@ -1,5 +1,5 @@
 ---
-title: EMSC 3002 - Plate Tectonics
+title: EMSC 3002 - 1.2 Plate Boundaries
 separator: '<--o-->'
 verticalSeparator: '<--v-->'
 revealOptions:
@@ -183,7 +183,7 @@ However, at fast spreading ridges, the high temperatures appear to suppress the 
 
 
 The focal mechanism for an earthquake tells you how the ground moved during an event. For earthquakes on
-faults (and assuming that they are small enough to consider to be a point at teleseismic distance), the pattern cuts space into 4 segments defined by the fault plane and a second, orthogonally crossing plane (auxilliary plane).
+faults (and assuming that they are small enough to consider to be a point at teleseismic distance), the pattern cuts space into 4 segments defined by the fault plane and a second, orthogonally crossing plane (auxiliary plane).
 
 When the seismic signal arrives, the first motion will either be towards or away from the source.
 
@@ -207,7 +207,7 @@ Diagrams: [wikipedia (Mike Norton)](https://en.wikipedia.org/wiki/Focal_mechanis
 
 </div>
 
-The "beachball" mechanism immediately tells you the orientation of the fault / slip although there is an ambiguity between the slip / auxilliary planes and the sense of slip.
+The "beachball" mechanism immediately tells you the orientation of the fault / slip although there is an ambiguity between the slip / auxiliary planes and the sense of slip.
 
 This is a representation of a tensor quantity known as the **moment tensor** for the event which contains information about the slip magnitude and orientation.
 
@@ -360,7 +360,7 @@ Shipboard multibeam bathymetry provides this closeup 3D view of the ocean floor.
 
 <--o-->
 
-## Tranform Boundary: Earthquakes
+## Transform Boundary: Earthquakes
 
 <center>
 
@@ -370,7 +370,7 @@ Shipboard multibeam bathymetry provides this closeup 3D view of the ocean floor.
 
 Map of the equatorial Mid-Atlantic Ridge, showing the Romanche and Chain transform faults and bathymetry.
 
-The depth of seismic slip on oceanic transform faults is controlled by temperature and is limited by the ,600 8C isotherm. The focal mechanisms of earthquakes of the two transform faults show impressive consistency, indicating that the faults are highly planar.
+The depth of seismic slip on oceanic transform faults is controlled by temperature and is limited by the ~600 °C isotherm. The focal mechanisms of earthquakes of the two transform faults show impressive consistency, indicating that the faults are highly planar.
 
 <small>
 
@@ -391,7 +391,7 @@ Abercrombie, R. E., & Ekström, G. (2001). Earthquake slip on oceanic transform 
 
 <div>
 
-Planform of MOR with offset shows the relative motions of the two types of boundary. The tranform faults are small circles about the Euler pole that separates the plates and they are *orthogonal* to the spreading centres.
+Planform of MOR with offset shows the relative motions of the two types of boundary. The transform faults are small circles about the Euler pole that separates the plates and they are *orthogonal* to the spreading centres.
 
 </div>
 
@@ -744,7 +744,7 @@ Wang, K., Brown, L., Hu, Y., Yoshida, K., He, J., & Sun, T. (2019). Stable Forea
 
 ## Topical Case Study
 
-A magnitude 8.8 earthquake struck 50 miles south of the Alaska Peninsula on July 29, 2025  Seismic instruments indicate the earthquake originated at a depth of 35 kilometers.
+A magnitude 8.8 earthquake struck off the east coast of the Kamchatka Peninsula, Russia, on July 29, 2025  Seismic instruments indicate the earthquake originated at a depth of 35 kilometers.
 
 [USGS News Page / Analysis](https://earthquake.usgs.gov/earthquakes/eventpage/pt25210002/executive)
 
@@ -831,7 +831,7 @@ Triple junctions appear in Lava lakes - mostly ridge-ridge-ridge examples becaus
 
 <div>
 
-This map is the plate motions derived from the NUVEL-1 model in a No-Net-Rotation frame of reference in which the major contienental masses do not move very much.
+This map is the plate motions derived from the NUVEL-1 model in a No-Net-Rotation frame of reference in which the major continental masses do not move very much.
 
 The strain rate is similar to the global strain rate map but is saturated so that you can see the continental deformation patterns.
 

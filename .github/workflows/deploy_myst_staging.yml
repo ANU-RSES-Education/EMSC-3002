@@ -1,0 +1,45 @@
+name: deploy-myst-staging
+
+# Builds the MyST + MkSlides site and deploys it to the gh-pages /staging/
+# subdirectory as a PREVIEW of work on this branch (the live site deploys from
+# master via deploy_site.yml). keep_files: true so it does not touch the root.
+#
+# URL: https://anu-rses-education.github.io/EMSC-3002/staging/
+#
+# NOTE: the live deploy uses keep_files:false, so a master push wipes /staging;
+# push the branch (or re-run this workflow) to recreate the preview.
+
+on:
+  push:
+    branches:
+      - migrate-jb2
+  workflow_dispatch:
+
+jobs:
+  build-deploy:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write
+    steps:
+      - name: Check out repository
+        uses: actions/checkout@v4
+
+      - name: Set up pixi environment
+        uses: prefix-dev/setup-pixi@v0.8.10
+        with:
+          pixi-version: v0.59.0
+          cache: true
+
+      - name: Build site (MyST book + MkSlides decks)
+        env:
+          # MyST is an SPA; a subpath deploy needs the base path so asset/link URLs resolve.
+          BASE_URL: /EMSC-3002/staging
+        run: pixi run build
+
+      - name: Deploy to GitHub Pages (/staging)
+        uses: peaceiris/actions-gh-pages@v4
+        with:
+          github_token: ${{ secrets.GITHUB_TOKEN }}
+          publish_dir: ./_build/html
+          destination_dir: staging
+          keep_files: true
