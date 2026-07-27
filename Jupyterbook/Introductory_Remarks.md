@@ -33,17 +33,17 @@ The broad themes of the course and these materials can be broken down as follows
 
 ### Lecture 1 - Introduction and expectations
 
-  - [Introduction](Lectures/Lecture-1-Introduction)
+  - [Introduction](../Lectures/Lecture-1-Introduction.md)
 
 ### Module i - Global Tectonics
 
-  - [Global Tectonics](Lectures/Module-i-GlobalTectonics)
+  - [Global Tectonics](../Lectures/Module-i-GlobalTectonics.md)
 
 Introduces the concepts of global-scale tectonics, plate motions, the nature of plate boundaries and the geological structures characteristic of large-scale deformation of the crust.
 
 ### Module ii - Structures in the Earth
 
-  - [Structures](Lectures/Module-ii-Structural-Geology-And-Crustal-Deformation)
+  - [Structures](../Lectures/Module-ii-Structural-Geology-And-Crustal-Deformation.md)
 
 This module aims to develop student intuition and proficiency in 3- and 4-dimensional visualization and thinking and teach the fundamentals of rock deformation using natural examples.
 
@@ -51,15 +51,19 @@ You will be given an overview of the geometry and type of structures produced by
 
 ### Module iii - Theoretical Underpinnings
 
+  - [Theoretical Underpinnings](../Lectures/Module-iii-Theory.md)
+
 In order to understand geological structures in more detail, we need some background understanding of how stresses and strains work, how they are measured, and how you can use these concepts to interpret what you see in the field.
 
 ### Module iv - Brittle Deformation
 
- - [Brittle Deformation](Lectures/Module-iv-BrittleDeformation)
+ - [Brittle Deformation](../Lectures/Module-iv-BrittleDeformation.md)
 
 When rocks undergo rapid, localised deformation, we refer to the process as "brittle deformation". Typically brittle features in the Earth's crust are faults and we can understand much about the stress and deformation if we understand faults, their rupture and associated seismic energy release.
 
 ### Module v - Ductile Deformation
+
+  - [Ductile Deformation](../Lectures/Module-v-lecture1-Fold-Geometry.md)
 
 Ductile deformation occurs when rocks are able to accommodate large deformations without fracturing.  You will learn how to recognise elements of ductile deformation such as folding, shearing and stretching.
 
