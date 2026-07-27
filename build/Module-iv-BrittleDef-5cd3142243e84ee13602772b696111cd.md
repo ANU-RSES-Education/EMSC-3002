@@ -4,41 +4,46 @@ When rocks undergo rapid, localised deformation, we refer to the process as "bri
 
 ## Lecture Slides
 
-Most of these slides have been converted from the original PowerPoint to the same html / javascript format as the rest of the course, with the text and equations restored (the first deck is still the snapshot version). If you would like a pdf copy, the "Build your own PDF" link will process the slides and you can then *print from your browser* to a file.
+Most of these slides have been converted from the original PowerPoint to the same html / javascript format as the rest of the course, with the text and equations restored (the first deck is still the snapshot version). If you would like a pdf copy, the "Build your own PDF" link will process the slides and you can then *print from your browser* to a file. Wattle also has pdf versions in the original PowerPoint layout, with space for notes.
 
 ### Overview of deformation mechanisms
 The first part of this module introduces the general concepts related to different deformation mechanisms, including brittle and ductile deformation.
 
 <iframe src="../slideshows/Module-iv-lecture0-Brittle-deformation.reveal.html" title="Slideshow" width=100%, height=470, allowfullscreen></iframe>
-Login to Wattle for the pdf version.
+
+<a href="/slideshows/Module-iv-lecture0-Brittle-deformation.reveal.html" target="_blank" rel="noopener">Open the slides in a new tab</a> &nbsp;·&nbsp; <a href="/slideshows/Module-iv-lecture0-Brittle-deformation.reveal.html?print-pdf" target="_blank" rel="noopener">Build your own PDF</a>
 
 ### Fundamentals of brittle deformation
 The next part of this module focuses on some of the fundamental concepts related to the brittle deformation, such as fracturing and frictional sliding. 
 
 <iframe src="../slideshows/Module-iv-lecture4-Brittle-deformation-draft.reveal.html" title="Slideshow" width=100%, height=470, allowfullscreen></iframe>
 
-<a href="../slideshows/Module-iv-lecture4-Brittle-deformation-draft.reveal.html?print-pdf">Build your own PDF</a>
+<a href="/slideshows/Module-iv-lecture4-Brittle-deformation-draft.reveal.html" target="_blank" rel="noopener">Open the slides in a new tab</a> &nbsp;·&nbsp; <a href="/slideshows/Module-iv-lecture4-Brittle-deformation-draft.reveal.html?print-pdf" target="_blank" rel="noopener">Build your own PDF</a>
+
 
 ### Joints and Veins
 This part of the module introduces the structures of joints and veins, two important types of brittle deformation.
 
 <iframe src="../slideshows/Module-iv-lecture5-Joints-Faults-draft.reveal.html" title="Slideshow" width=100%, height=470, allowfullscreen></iframe>
 
-<a href="../slideshows/Module-iv-lecture5-Joints-Faults-draft.reveal.html?print-pdf">Build your own PDF</a>
+<a href="/slideshows/Module-iv-lecture5-Joints-Faults-draft.reveal.html" target="_blank" rel="noopener">Open the slides in a new tab</a> &nbsp;·&nbsp; <a href="/slideshows/Module-iv-lecture5-Joints-Faults-draft.reveal.html?print-pdf" target="_blank" rel="noopener">Build your own PDF</a>
+
 
 ### Faults, fault zones and earthquakes
 This lecture covers the concept, characteristics and geometrical relationships to stress of fault and fault zone structures. It also introduces some fundamental concepts and theory related to earthquakes.
 
 <iframe src="../slideshows/Module-iv-lecture6-Faults-Fault-Zones-draft.reveal.html" title="Slideshow" width=100%, height=470, allowfullscreen></iframe>
 
-<a href="../slideshows/Module-iv-lecture6-Faults-Fault-Zones-draft.reveal.html?print-pdf">Build your own PDF</a>
+<a href="/slideshows/Module-iv-lecture6-Faults-Fault-Zones-draft.reveal.html" target="_blank" rel="noopener">Open the slides in a new tab</a> &nbsp;·&nbsp; <a href="/slideshows/Module-iv-lecture6-Faults-Fault-Zones-draft.reveal.html?print-pdf" target="_blank" rel="noopener">Build your own PDF</a>
+
 
 ### 2021 Mansfield and 2011 Tohoku earthquake
 The last part of this module dives into two important earthquakes, the 2021 Mansfield earthquake and 2011 Tohoku earthquake, to link the concepts and theory we have learned about the brittle deformation with real case studies.
 
 <iframe src="../slideshows/Module-iv-lecture7-Tohoku-EQ-draft.reveal.html" title="Slideshow" width=100%, height=470, allowfullscreen></iframe>
 
-<a href="../slideshows/Module-iv-lecture7-Tohoku-EQ-draft.reveal.html?print-pdf">Build your own PDF</a>
+<a href="/slideshows/Module-iv-lecture7-Tohoku-EQ-draft.reveal.html" target="_blank" rel="noopener">Open the slides in a new tab</a> &nbsp;·&nbsp; <a href="/slideshows/Module-iv-lecture7-Tohoku-EQ-draft.reveal.html?print-pdf" target="_blank" rel="noopener">Build your own PDF</a>
+
 
 ## Resources
   - One detailed collection of news articles and other resources about the 2021 Mansfield earthquake on the [GeoDown Under blog](https://www.geo-down-under.org.au/victorian-earthquake-roundup/).
