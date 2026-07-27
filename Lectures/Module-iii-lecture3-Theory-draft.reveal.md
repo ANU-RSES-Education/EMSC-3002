@@ -10,6 +10,10 @@ revealOptions:
     margin: 0.07
 ---
 
+<!-- DO NOT REGENERATE: converted from Lecture3_Rheology.pptx (2026-07), then hand-edited.
+     This markdown is now the source of truth; re-running the pptx converter
+     would overwrite that work. See tools/pptx2reveal/README.md. -->
+
 <!-- source: Lecture3_Rheology.pptx slide 1 · template: T-title -->
 # EMSC 3002
 

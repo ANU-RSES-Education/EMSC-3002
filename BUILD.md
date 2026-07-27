@@ -57,10 +57,11 @@ in. The root deploy uses `keep_files: false`, so **a master push wipes
   automatically).
 - `build.sh` stages every `Lectures/Module-*/` **directory** as slide assets —
   a new deck's images belong in such a directory (e.g. `Module-x-…-extracted/`).
-- Source PowerPoints live in `migration/PPTs/` (gitignored, large). The
-  pptx→reveal conversion pipeline and its docs: `migration/module3/pipeline/`.
-  Regenerating a converted deck must go through the 3-way-merge protocol
-  described there so hand edits are preserved.
+- The converted decks (Module 3 ×3, Module 4 ×4) are **hand-maintained content**
+  now, not build artefacts — each carries a `DO NOT REGENERATE` marker. The
+  pptx→reveal converter is a standalone import tool for *new* decks:
+  `tools/pptx2reveal/` (not run by the build). Source PowerPoints live in
+  `migration/PPTs/` (gitignored, large).
 
 ## Content map / planning
 

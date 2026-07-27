@@ -10,6 +10,10 @@ revealOptions:
     margin: 0.07
 ---
 
+<!-- DO NOT REGENERATE: converted from Lecture4_Brittle_deformation.pptx (2026-07), then hand-edited.
+     This markdown is now the source of truth; re-running the pptx converter
+     would overwrite that work. See tools/pptx2reveal/README.md. -->
+
 <!-- source: Lecture4_Brittle_deformation.pptx slide 1 · template: T-title -->
 # EMSC 3002
 
