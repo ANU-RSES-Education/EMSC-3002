@@ -1,14 +1,13 @@
 name: deploy-myst-staging
 
-# Builds the new Jupyter Book 2 (MyST) + MkSlides site and deploys it to the
-# gh-pages /staging/ subdirectory for side-by-side comparison with the live JB1 site.
-# keep_files: true so it does NOT touch the JB1 root.
+# Builds the MyST + MkSlides site and deploys it to the gh-pages /staging/
+# subdirectory as a PREVIEW of work on this branch (the live site deploys from
+# master via deploy_site.yml). keep_files: true so it does not touch the root.
 #
 # URL: https://anu-rses-education.github.io/EMSC-3002/staging/
 #
-# NOTE: the JB1 deploy (deploy_to_gh_pages.yml, on master) currently uses the peaceiris
-# default keep_files:false and would wipe /staging on the next master push. Re-run this
-# workflow after any master deploy, or set keep_files:true there once we commit to staging.
+# NOTE: the live deploy uses keep_files:false, so a master push wipes /staging;
+# push the branch (or re-run this workflow) to recreate the preview.
 
 on:
   push:

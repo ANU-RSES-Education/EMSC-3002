@@ -1,74 +1,68 @@
-# Building & deploying EMSC-3002
+# EMSC-3002 — build & deploy
 
-This repo publishes to **https://anu-rses-education.github.io/EMSC-3002/** via GitHub Pages
-(the `gh-pages` branch). This note describes the **current** pipeline. A migration to
-Jupyter Book 2 + MkSlides is planned — see `archive/README.md` and the migration plan.
+The site is a **Jupyter Book 2 (MyST)** book plus **MkSlides** (reveal.js) slide
+decks, built together into one static site. Cutover from the legacy Jupyter
+Book 1 build: 2026-07-27 (the old system remains in gh-pages branch history;
+its config lives untouched under `Jupyterbook/_config.yml` / `_toc.yml`).
 
 ## What builds the site
 
-The live site is a **Jupyter Book 1.x** book (Sphinx + `sphinx-book-theme` + MyST-NB) with
-**reveal.js slide decks** (built by `reveal-md`) folded in.
+| Piece | Tool | Source | Output |
+|---|---|---|---|
+| Book pages | `mystmd` (Jupyter Book 2 engine) | `myst.yml` (repo root) + `Jupyterbook/`, `Lectures/*.md`, `Notebooks/` | `_build/html/` |
+| Slide decks | `mkslides` (reveal.js 5) | `Lectures/*.reveal.md` + `Lectures/mkslides.yml` + `Lectures/css/anu.css` | `_build/html/slideshows/` |
+| Lecture PDFs | copied | `Lectures/static_pdfs/PDFs/` | `_build/html/PDFs/` |
 
-| Piece | Source | Output |
-|---|---|---|
-| The book (notes, lecture pages, exercises) | `Jupyterbook/` (`_config.yml`, `_toc.yml`) | `Jupyterbook/_build/html` |
-| Slide decks | `Lectures/*.reveal.md` | `Lectures/static_slides/slideshows` → copied to `_build/html/slideshows` |
-
-`Jupyterbook/Lectures` and `Jupyterbook/Notebooks` are **symlinks** to the repo-root
-`Lectures/` and `Notebooks/`. Build outputs (`_build`, `static_slides`) are gitignored and
-regenerated on every build.
+Everything is orchestrated by `build.sh`; the toolchain is managed by **pixi**
+(`pixi.toml` — mystmd from conda-forge, mkslides from PyPI, plus python-pptx /
+lxml / pillow / pymupdf for the slide-conversion pipeline).
 
 ## Build locally
 
-Requires `jupyter-book` (1.x), Node/`reveal-md`, and the packages in
-`.github/workflows/envs/build_jb.yml`.
-
 ```bash
-cd Jupyterbook
-source build_book.sh   # builds slides (reveal-md) → builds book → copies slides/PDFs/movies in
+pixi run build     # full site -> _build/html
+pixi run book      # MyST book only
+pixi run serve     # live preview of the book (myst start)
+pixi run pdfs      # decktape PDF of every built deck -> _build/html/pdfs
+                   #   (or: bash build_pdfs.sh 'Module-i-*' for a subset)
 ```
 
-`build_book.sh` runs, in order:
-1. `Lectures/build_slides.sh` — `reveal-md` renders every `**/*.reveal.md` to static HTML.
-2. `Lectures/build_pdfs.sh` — a stub (the one PDF, `pt_rules`, is committed under
-   `Lectures/static_pdfs/`).
-3. `jupyter-book build .` → `_build/html`.
-4. Copies slideshows, PDFs, `Figures/Movies`, `Exercises/Resources` into `_build/html`.
-
-Open `Jupyterbook/_build/html/index.html` to preview.
+Slide separators: `<--o-->` (horizontal) and `<--v-->` (vertical); speaker
+notes start at a `Note:` line. Maths is KaTeX (`$…$`, `$$…$$`), enabled by
+default in mkslides.
 
 ## Deploy (CI)
 
-- **`.github/workflows/deploy_to_gh_pages.yml`** (`deploy-book`) — on push to `master`
-  (or manual). Builds via `build_book.sh` and publishes `Jupyterbook/_build/html` to the
-  **root** of `gh-pages` with `peaceiris/actions-gh-pages`. This is the **only** workflow
-  that writes to `gh-pages`.
-- **`.github/workflows/build_dont_deploy_to_gh_pages.yml`** (`test-build-jupyter-book`) —
-  **PR-only**. Builds the book to check it compiles; does not deploy.
+| Workflow | Trigger | Deploys to |
+|---|---|---|
+| `deploy_site.yml` | push to `master` | gh-pages **root** → https://anu-rses-education.github.io/EMSC-3002/ |
+| `deploy_myst_staging.yml` | push to `migrate-jb2` (or manual) | gh-pages `staging/` → …/EMSC-3002/staging/ |
+| `test_build.yml` | pull requests | build check only, no deploy |
 
-To deploy by hand: Actions tab → *deploy-book* → **Run workflow** (or just merge to master).
-
-## Pinned versions (do not loosen without testing)
-
-- `jupyter-book>=1.0,<2` — **critical.** Jupyter Book 2 is a MyST-engine rewrite that does
-  **not** read the classic `_toc.yml`/`_config.yml`; an unpinned install can pull it and
-  break the build.
-- `nodejs=18` and `reveal-md@6.1.4` — `reveal-md` is unmaintained; the pin keeps slide
-  generation stable.
-
-Pins live in `.github/workflows/envs/build_jb.yml` (book) and `Lectures/build_slides.sh`
-(slides).
+Both deploys build with the matching `BASE_URL` (`/EMSC-3002` or
+`/EMSC-3002/staging`) — the MyST site is an SPA and needs the base path baked
+in. The root deploy uses `keep_files: false`, so **a master push wipes
+`/staging`**; push the staging branch again to recreate the preview.
 
 ## Gotchas
 
-- **Single gh-pages pusher.** Only `deploy-book` may push to `gh-pages`. A second pusher
-  (the old Quarto revision workflow) previously caused the deploy to fail with a push race —
-  that workflow has been retired.
-- **Slide theme is fetched from the live site.** `build_slides.sh` pulls `anu.css` from
-  `https://anu-rses-education.github.io/EMSC-3002/slideshows/css/anu.css`. If `gh-pages` is
-  ever wiped, slides lose styling until the site is republished. (The JB2/MkSlides migration
-  will switch this to a local theme file.)
-- **`archive/`** holds the retired Quarto revision book — not built, not deployed; kept for
-  content migration.
-- CI warns that `actions/checkout@v3` / `setup-micromamba@v2` use the deprecated Node-20
-  runner; bump to `@v4` when convenient (non-blocking).
+- **Per-deck `revealOptions:` front matter is ignored** — mkslides only reads
+  the global `Lectures/mkslides.yml` (all decks render 1200×800).
+- Bare `![](…)` directly inside a block-level `<div>` is left unrendered by
+  reveal's markdown pass — wrap images in their own `<div>` with blank lines
+  (the templates do this).
+- Two or more `$…$` spans with subscripts in one paragraph: write subscript
+  underscores space-padded (`{\sigma} _ {1}`) or markdown will pair the `_`s
+  as emphasis and break the math (the conversion pipeline does this
+  automatically).
+- `build.sh` stages every `Lectures/Module-*/` **directory** as slide assets —
+  a new deck's images belong in such a directory (e.g. `Module-x-…-extracted/`).
+- Source PowerPoints live in `migration/PPTs/` (gitignored, large). The
+  pptx→reveal conversion pipeline and its docs: `migration/module3/pipeline/`.
+  Regenerating a converted deck must go through the 3-way-merge protocol
+  described there so hand edits are preserved.
+
+## Content map / planning
+
+`migration/CONTENT-MAP.md` — course direction, per-module inventories, overlap
+analysis and the consolidation model.

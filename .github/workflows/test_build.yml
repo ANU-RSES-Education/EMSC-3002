@@ -1,0 +1,24 @@
+name: test-build
+
+# PR check: the site must build cleanly (no deploy).
+on:
+  pull_request:
+  workflow_dispatch:
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Check out repository
+        uses: actions/checkout@v4
+
+      - name: Set up pixi environment
+        uses: prefix-dev/setup-pixi@v0.8.10
+        with:
+          pixi-version: v0.59.0
+          cache: true
+
+      - name: Build site (MyST book + MkSlides decks)
+        env:
+          BASE_URL: /EMSC-3002
+        run: pixi run build

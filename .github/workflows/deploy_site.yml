@@ -1,0 +1,47 @@
+name: deploy-site
+
+# Builds the Jupyter Book 2 (MyST) + MkSlides site and deploys it to the
+# gh-pages ROOT — the live course site.
+#
+# URL: https://anu-rses-education.github.io/EMSC-3002/
+#
+# Cutover 2026-07-27: this replaces the legacy Jupyter Book 1 deploy
+# (deploy_to_gh_pages.yml). The old JB1 site remains recoverable from
+# gh-pages branch history.
+#
+# NOTE: keep_files is false (clean deploy), so a master push wipes the
+# /staging subdirectory. The staging preview (deploy_myst_staging.yml)
+# recreates it on the next push to its branch.
+
+on:
+  push:
+    branches:
+      - master
+  workflow_dispatch:
+
+jobs:
+  build-deploy:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write
+    steps:
+      - name: Check out repository
+        uses: actions/checkout@v4
+
+      - name: Set up pixi environment
+        uses: prefix-dev/setup-pixi@v0.8.10
+        with:
+          pixi-version: v0.59.0
+          cache: true
+
+      - name: Build site (MyST book + MkSlides decks)
+        env:
+          # MyST is an SPA; the project subpath is needed so asset/link URLs resolve.
+          BASE_URL: /EMSC-3002
+        run: pixi run build
+
+      - name: Deploy to GitHub Pages (root)
+        uses: peaceiris/actions-gh-pages@v4
+        with:
+          github_token: ${{ secrets.GITHUB_TOKEN }}
+          publish_dir: ./_build/html
