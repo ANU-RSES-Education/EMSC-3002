@@ -1,24 +1,36 @@
-<!doctype html>
-<html lang="en">
-  <head>
-    <meta charset="utf-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
 
-    <title>Fold Geometry</title>
-    <link rel="shortcut icon" href="./favicon.ico" />
-    <link rel="stylesheet" href="./dist/reset.css" />
-    <link rel="stylesheet" href="./dist/reveal.css" />
-    <link rel="stylesheet" href="https://anu-rses-education.github.io/EMSC-3002/slideshows/css/anu.css" id="theme" />
-    <link rel="stylesheet" href="./css/highlight/github.css" />
+        
 
-  </head>
-  <body>
-    <div class="reveal">
-      <div class="slides">
-        <section data-markdown data-separator="<--o-->" data-separator-vertical="<--v-->">
-          <textarea data-template>
-            
+        <link rel="stylesheet" href="mkslides-assets/reveal-js/dist/reveal.css" />
 
+        
+            <link rel="stylesheet" href="css/anu.css" />
+        
+        
+            <link rel="stylesheet" href="mkslides-assets/highlight-js-themes/github.css" />
+        
+
+        
+    </head>
+    <body>
+        <div class="reveal">
+            <div class="slides">
+                <section data-markdown
+                
+                    data-separator="<--o-->"
+                
+                    data-separator-vertical="<--v-->"
+                
+                    data-separator-notes="^Note:"
+                
+                >
+                    <!-- The markdown must be placed to the whole left to prevent indentation issues like https://github.com/MartenBE/mkslides/issues/52 -->
+                    <textarea data-template>
 # EMSC 3002
 
 ## Fold Geometry
@@ -52,7 +64,7 @@ corrections._
 
 <--o-->
 
-## Intended learning outcomes
+## What you will learn in this module
 
 Students will be able to:
 
@@ -70,11 +82,11 @@ Students will be able to:
 Hydrocarbon industry:
 
 - Folds and associated structures can form traps.
-- Understanding folds periodicity and geometry is key for the selection of drilling sites.
+- Understanding fold periodicity and geometry is key for the selection of drilling sites.
 
 Mineral Industry:
 
-- Understanding folds structures is important in assessing the extent of ore reserves and the
+- Understanding fold structures is important in assessing the extent of ore reserves and the
 viability of mines.
 
 </div>
@@ -91,7 +103,7 @@ viability of mines.
 ## Basic Elements of Fold Morphology
 
 The conditions of deformation usually vary both in space and time, differences in rock type,
-temperature, pressure and strain-rate translates in a wide range of fold geometry or **fold styles**.
+temperature, pressure and strain-rate translate into a wide range of fold geometry or **fold styles**.
 
 Correct interpretation of the variations in fold style is important to reconstruct the
 geological history of an area.
@@ -113,7 +125,7 @@ perpendicular to what is defined as the **axial surface**.
 
 Folds are made up of a **hinge** that connects to **limbs**.
 
-The **hinge** may be abrupt but usually the curvature is gradual and define a 
+The **hinge** may be abrupt but usually the curvature is gradual and defines a 
 **hinge zone**.
 
 <--o-->
@@ -161,7 +173,7 @@ Key to compare natural structures across different contexts.
 
 <div style="width:50%; float:left">
 
-The Shape of folds can be compared to mathematical functions.
+The shape of folds can be compared to mathematical functions.
 
 We use terms such as **amplitude** and **wavelength**.
 
@@ -473,81 +485,48 @@ Classification according to the hinge curvature is referred to as bluntness.
 <--o-->
 
 <!-- .slide: data-background="Module-v-Ductile-Deformation/Figures-Fold-Geometry/photos/Ptygmatic_folds_EGU_Blog_Iran.jpg" -->
+                    </textarea>
+                </section>
+            </div>
+        </div>
+        <script src="mkslides-assets/reveal-js/dist/reveal.js"></script>
+        <script src="mkslides-assets/reveal-js/plugin/highlight/highlight.js"></script>
+        <script src="mkslides-assets/reveal-js/plugin/markdown/markdown.js"></script>
+        <script src="mkslides-assets/reveal-js/plugin/math/math.js"></script>
+        <script src="mkslides-assets/reveal-js/plugin/notes/notes.js"></script>
+        <script src="mkslides-assets/reveal-js/plugin/search/search.js"></script>
+        <script src="mkslides-assets/reveal-js/plugin/zoom/zoom.js"></script>
 
-          </textarea>
-        </section>
-      </div>
-    </div>
+        
 
-    <script src="./dist/reveal.js"></script>
+        <script>
+            Reveal.initialize({
+                
+                    
+                        history: true,
+                    
+                        slideNumber: true,
+                    
+                        width: 1200,
+                    
+                        height: 800,
+                    
+                        margin: 0.07,
+                    
+                        transition: "fade",
+                    
+                
+                plugins: [
+                    RevealMarkdown, // Must come before the other plugins so they can hook into the generated HTML.
+                    RevealHighlight,
+                    RevealMath.KaTeX,
+                    RevealNotes,
+                    RevealSearch,
+                    RevealZoom,
 
-    <script src="./mermaid/dist/mermaid.min.js"></script>
-
-    <script src="./plugin/markdown/markdown.js"></script>
-    <script src="./plugin/highlight/highlight.js"></script>
-    <script src="./plugin/zoom/zoom.js"></script>
-    <script src="./plugin/notes/notes.js"></script>
-    <script src="./plugin/math/math.js"></script>
-    <script>
-      function extend() {
-        var target = {};
-        for (var i = 0; i < arguments.length; i++) {
-          var source = arguments[i];
-          for (var key in source) {
-            if (source.hasOwnProperty(key)) {
-              target[key] = source[key];
-            }
-          }
-        }
-        return target;
-      }
-
-      // default options to init reveal.js
-      var defaultOptions = {
-        controls: true,
-        progress: true,
-        history: true,
-        center: true,
-        transition: 'default', // none/fade/slide/convex/concave/zoom
-        slideNumber: true,
-        highlight: {
-          highlightOnLoad: false
-        },
-        plugins: [
-          RevealMarkdown,
-          RevealHighlight,
-          RevealZoom,
-          RevealNotes,
-          RevealMath
-        ]
-      };
-
-      // options from URL query string
-      var queryOptions = Reveal().getQueryHash() || {};
-
-      var options = extend(defaultOptions, {"transition":"fade","slideNumber":true,"width":1200,"height":800,"margin":0.07,"_":[],"static":"static_slides/slideshows","theme":"https://anu-rses-education.github.io/EMSC-3002/slideshows/css/anu.css","highlight-theme":"github","highlightTheme":"github","glob":"**/*.reveal.md","separator":"<--o-->","vertical-separator":"<--v-->","verticalSeparator":"<--v-->","static-dirs":"css,movies,images,data,Module-ii-Figures-Structural-Geology-And-Crustal-Deformation,Module-iii-Theory,Module-iv-Brittle-Deformation,Module-v-Ductile-Deformation","staticDirs":"css,movies,images,data,Module-ii-Figures-Structural-Geology-And-Crustal-Deformation,Module-iii-Theory,Module-iv-Brittle-Deformation,Module-v-Ductile-Deformation"}, queryOptions);
-    </script>
-
-
-    <script>
-      Reveal.initialize(options);
-      Reveal.addEventListener('ready', function (event) {
-        const blocks = Reveal.getRevealElement().querySelectorAll('pre code:not(.mermaid)');
-        const hlp = Reveal.getPlugin('highlight');
-        blocks.forEach(hlp.highlightBlock);
-      });
-    </script>
-
-    <script>
-      const mermaidOptions = extend({ startOnLoad: false }, {});
-      mermaid.startOnLoad = false;
-      mermaid.initialize(mermaidOptions);
-      const cb = function (event) {
-        mermaid.init(mermaidOptions, '.stack.present > .present pre code.mermaid');
-        mermaid.init(mermaidOptions, '.slides > .present:not(.stack) pre code.mermaid');
-      }
-      Reveal.addEventListener('ready', cb);
-      Reveal.addEventListener('slidetransitionend', cb);
-    </script>
-  </body>
+                    
+                ],
+            });
+        </script>
+    </body>
 </html>

@@ -1,24 +1,36 @@
-<!doctype html>
-<html lang="en">
-  <head>
-    <meta charset="utf-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
 
-    <title>Theory 1</title>
-    <link rel="shortcut icon" href="./favicon.ico" />
-    <link rel="stylesheet" href="./dist/reset.css" />
-    <link rel="stylesheet" href="./dist/reveal.css" />
-    <link rel="stylesheet" href="https://anu-rses-education.github.io/EMSC-3002/slideshows/css/anu.css" id="theme" />
-    <link rel="stylesheet" href="./css/highlight/github.css" />
+        
 
-  </head>
-  <body>
-    <div class="reveal">
-      <div class="slides">
-        <section data-markdown data-separator="<--o-->" data-separator-vertical="<--v-->">
-          <textarea data-template>
-            
+        <link rel="stylesheet" href="mkslides-assets/reveal-js/dist/reveal.css" />
 
+        
+            <link rel="stylesheet" href="css/anu.css" />
+        
+        
+            <link rel="stylesheet" href="mkslides-assets/highlight-js-themes/github.css" />
+        
+
+        
+    </head>
+    <body>
+        <div class="reveal">
+            <div class="slides">
+                <section data-markdown
+                
+                    data-separator="<--o-->"
+                
+                    data-separator-vertical="<--v-->"
+                
+                    data-separator-notes="^Note:"
+                
+                >
+                    <!-- The markdown must be placed to the whole left to prevent indentation issues like https://github.com/MartenBE/mkslides/issues/52 -->
+                    <textarea data-template>
 # EMSC 3002
 
 ## Module3.1 - Stress
@@ -40,13 +52,13 @@ corrections._
 ## Resources
 
 1. **Fossen, H, 2011.** *Structural Geology.* Cambridge University Press, 2nd Edition. [E-learning modules](https://folk.uib.no/nglhe/module4/Chapt4module.html)
-1. **van der Pluijm, B.A. and Marshak, S., 2003.** *Earth Strcture: an introduction to structural geology and tectonics.* W. W. Norton & Company, Ltd.
+1. **van der Pluijm, B.A. and Marshak, S., 2003.** *Earth Structure: an introduction to structural geology and tectonics.* W. W. Norton & Company, Ltd.
 1. **Davis, G.H. and Reynolds, S.J., 1996.** *Structural Geology of Rocks and Regions.* 2nd Edition, John Wiley & Sons. 
 1. **Park, R.G., 1995.** *Foundations of Structural Geology.* Blackie & Sons Ltd. 
 
 <--o-->
 
-## Intended learning outcomes
+## What you will learn in this module
 
 What you will learn about stress.
 
@@ -219,81 +231,48 @@ What you will learn about stress.
 <--o-->
 
 <!-- .slide: data-background="Module-iii-Theory/Figures-Theory1/slide40.jpg" -->
+                    </textarea>
+                </section>
+            </div>
+        </div>
+        <script src="mkslides-assets/reveal-js/dist/reveal.js"></script>
+        <script src="mkslides-assets/reveal-js/plugin/highlight/highlight.js"></script>
+        <script src="mkslides-assets/reveal-js/plugin/markdown/markdown.js"></script>
+        <script src="mkslides-assets/reveal-js/plugin/math/math.js"></script>
+        <script src="mkslides-assets/reveal-js/plugin/notes/notes.js"></script>
+        <script src="mkslides-assets/reveal-js/plugin/search/search.js"></script>
+        <script src="mkslides-assets/reveal-js/plugin/zoom/zoom.js"></script>
 
-          </textarea>
-        </section>
-      </div>
-    </div>
+        
 
-    <script src="./dist/reveal.js"></script>
+        <script>
+            Reveal.initialize({
+                
+                    
+                        history: true,
+                    
+                        slideNumber: true,
+                    
+                        width: 1200,
+                    
+                        height: 800,
+                    
+                        margin: 0.07,
+                    
+                        transition: "fade",
+                    
+                
+                plugins: [
+                    RevealMarkdown, // Must come before the other plugins so they can hook into the generated HTML.
+                    RevealHighlight,
+                    RevealMath.KaTeX,
+                    RevealNotes,
+                    RevealSearch,
+                    RevealZoom,
 
-    <script src="./mermaid/dist/mermaid.min.js"></script>
-
-    <script src="./plugin/markdown/markdown.js"></script>
-    <script src="./plugin/highlight/highlight.js"></script>
-    <script src="./plugin/zoom/zoom.js"></script>
-    <script src="./plugin/notes/notes.js"></script>
-    <script src="./plugin/math/math.js"></script>
-    <script>
-      function extend() {
-        var target = {};
-        for (var i = 0; i < arguments.length; i++) {
-          var source = arguments[i];
-          for (var key in source) {
-            if (source.hasOwnProperty(key)) {
-              target[key] = source[key];
-            }
-          }
-        }
-        return target;
-      }
-
-      // default options to init reveal.js
-      var defaultOptions = {
-        controls: true,
-        progress: true,
-        history: true,
-        center: true,
-        transition: 'default', // none/fade/slide/convex/concave/zoom
-        slideNumber: true,
-        highlight: {
-          highlightOnLoad: false
-        },
-        plugins: [
-          RevealMarkdown,
-          RevealHighlight,
-          RevealZoom,
-          RevealNotes,
-          RevealMath
-        ]
-      };
-
-      // options from URL query string
-      var queryOptions = Reveal().getQueryHash() || {};
-
-      var options = extend(defaultOptions, {"transition":"fade","slideNumber":true,"width":1200,"height":800,"margin":0.07,"_":[],"static":"static_slides/slideshows","theme":"https://anu-rses-education.github.io/EMSC-3002/slideshows/css/anu.css","highlight-theme":"github","highlightTheme":"github","glob":"**/*.reveal.md","separator":"<--o-->","vertical-separator":"<--v-->","verticalSeparator":"<--v-->","static-dirs":"css,movies,images,data,Module-ii-Figures-Structural-Geology-And-Crustal-Deformation,Module-iii-Theory,Module-iv-Brittle-Deformation,Module-v-Ductile-Deformation","staticDirs":"css,movies,images,data,Module-ii-Figures-Structural-Geology-And-Crustal-Deformation,Module-iii-Theory,Module-iv-Brittle-Deformation,Module-v-Ductile-Deformation"}, queryOptions);
-    </script>
-
-
-    <script>
-      Reveal.initialize(options);
-      Reveal.addEventListener('ready', function (event) {
-        const blocks = Reveal.getRevealElement().querySelectorAll('pre code:not(.mermaid)');
-        const hlp = Reveal.getPlugin('highlight');
-        blocks.forEach(hlp.highlightBlock);
-      });
-    </script>
-
-    <script>
-      const mermaidOptions = extend({ startOnLoad: false }, {});
-      mermaid.startOnLoad = false;
-      mermaid.initialize(mermaidOptions);
-      const cb = function (event) {
-        mermaid.init(mermaidOptions, '.stack.present > .present pre code.mermaid');
-        mermaid.init(mermaidOptions, '.slides > .present:not(.stack) pre code.mermaid');
-      }
-      Reveal.addEventListener('ready', cb);
-      Reveal.addEventListener('slidetransitionend', cb);
-    </script>
-  </body>
+                    
+                ],
+            });
+        </script>
+    </body>
 </html>
