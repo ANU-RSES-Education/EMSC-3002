@@ -4,7 +4,8 @@ This lecture introduces fold morphology, its classification and the folding mech
 
 <iframe src="../slideshows/Module-v-lecture1-Fold-Geometry.reveal.html" title="Slideshow" width=100%, height=500 allowfullscreen></iframe>
 
-<a href="../slideshows/Module-v-lecture1-Fold-Geometry.reveal.html?print-pdf"> PDF, Updated Oct 06, 2021 </a>
+<a href="/slideshows/Module-v-lecture1-Fold-Geometry.reveal.html" target="_blank" rel="noopener">Open the slides in a new tab</a> &nbsp;·&nbsp; <a href="/slideshows/Module-v-lecture1-Fold-Geometry.reveal.html?print-pdf" target="_blank" rel="noopener">Build your own PDF</a>
+
 
 ## Learning outcomes
 

@@ -10,25 +10,29 @@ The slides are in html / javascript format with some external links and movies. 
 
 <iframe src="../slideshows/Module-ii-Lecture-1-Structural-Geology-And-Crustal-Deformation.reveal.html" title="Slideshow" width=100%, height=500 allowfullscreen></iframe>
 
-<a href="../slideshows/Module-ii-Lecture-1-Structural-Geology-And-Crustal-Deformation.reveal.html?print-pdf"> PDF, Updated Aug 23, 2021 </a>
+<a href="/slideshows/Module-ii-Lecture-1-Structural-Geology-And-Crustal-Deformation.reveal.html" target="_blank" rel="noopener">Open the slides in a new tab</a> &nbsp;·&nbsp; <a href="/slideshows/Module-ii-Lecture-1-Structural-Geology-And-Crustal-Deformation.reveal.html?print-pdf" target="_blank" rel="noopener">Build your own PDF</a>
+
 
 ### Contractional Regimes
 
 <iframe src="../slideshows/Module-ii-Lecture-2-Contractional_Regimes.reveal.html" title="Slideshow" width=100%, height=500 allowfullscreen></iframe>
 
-<a href="../slideshows/Module-ii-Lecture-2-Contractional_Regimes.reveal.html?print-pdf"> PDF, Updated Aug 23, 2021 </a>
+<a href="/slideshows/Module-ii-Lecture-2-Contractional_Regimes.reveal.html" target="_blank" rel="noopener">Open the slides in a new tab</a> &nbsp;·&nbsp; <a href="/slideshows/Module-ii-Lecture-2-Contractional_Regimes.reveal.html?print-pdf" target="_blank" rel="noopener">Build your own PDF</a>
+
 
 ### Extensional Regimes
 
 <iframe src="../slideshows/Module-ii-Lecture-3-Extensional_Regimes.reveal.html" title="Slideshow" width=100%, height=500 allowfullscreen></iframe>
 
-<a href="../slideshows/Module-ii-Lecture-3-Extensional_Regimes.reveal.html?print-pdf"> PDF, Updated Aug 23, 2021 </a>
+<a href="/slideshows/Module-ii-Lecture-3-Extensional_Regimes.reveal.html" target="_blank" rel="noopener">Open the slides in a new tab</a> &nbsp;·&nbsp; <a href="/slideshows/Module-ii-Lecture-3-Extensional_Regimes.reveal.html?print-pdf" target="_blank" rel="noopener">Build your own PDF</a>
+
 
 ### Strike-slip, Transpression and transtension
 
 <iframe src="../slideshows/Module-ii-Lecture-4-Strike-Slip-Transtention-Transpression.reveal.html" title="Slideshow" width=100%, height=500 allowfullscreen></iframe>
 
-<a href="../slideshows/Module-ii-Lecture-4-Strike-Slip-Transtention-Transpression.reveal.html?print-pdf"> PDF, Updated Aug 23, 2021 </a>
+<a href="/slideshows/Module-ii-Lecture-4-Strike-Slip-Transtention-Transpression.reveal.html" target="_blank" rel="noopener">Open the slides in a new tab</a> &nbsp;·&nbsp; <a href="/slideshows/Module-ii-Lecture-4-Strike-Slip-Transtention-Transpression.reveal.html?print-pdf" target="_blank" rel="noopener">Build your own PDF</a>
+
 
 ## Resources
 

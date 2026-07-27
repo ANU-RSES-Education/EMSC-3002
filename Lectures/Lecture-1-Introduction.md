@@ -4,6 +4,8 @@ The nature of the course and some things you need to know are in this slideshow.
 
 <iframe src="../slideshows/Lecture-1-Introduction.reveal.html" title="Slideshow" width=100%, height=500, allowfullscreen></iframe>
 
+<a href="/slideshows/Lecture-1-Introduction.reveal.html" target="_blank" rel="noopener">Open the slides in a new tab</a> &nbsp;·&nbsp; <a href="/slideshows/Lecture-1-Introduction.reveal.html?print-pdf" target="_blank" rel="noopener">Build your own PDF</a>
+
 ## Navigating the slides
 
 ![](images/Introduction/RevealNavigator.png) <!-- .element style="display:block; margin-left:auto; margin-right:auto; width:75%" -->
