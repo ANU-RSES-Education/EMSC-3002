@@ -59,16 +59,7 @@
     <loc>http://localhost:3000/module-iv-brittledeformation</loc>
   </url>
   <url>
-    <loc>http://localhost:3000/module-v-lecture1-fold-geometry</loc>
-  </url>
-  <url>
-    <loc>http://localhost:3000/module-v-lecture2-folds-and-folding-mechanisms</loc>
-  </url>
-  <url>
-    <loc>http://localhost:3000/module-v-lecture3-structures-associated-with-foldi</loc>
-  </url>
-  <url>
-    <loc>http://localhost:3000/module-v-lecture4-shear-zones</loc>
+    <loc>http://localhost:3000/module-v-ductiledeformation</loc>
   </url>
   <url>
     <loc>http://localhost:3000/glossary</loc>

@@ -22,18 +22,9 @@ Self-test questions, key concepts, and exam preparation strategies _(revision ma
 
 ## Pre-Course Survey
 
-Please take a few minutes to complete the pre-course survey before we start — it
-tells us what you already know and what you would like to get out of the course.
-
-```{image} Figures/PreCourseSurvey-QR.png
-:alt: QR code linking to the EMSC 3002 pre-course survey
-:width: 180px
-:align: left
-```
+A short survey to let us know your background, why you are taking the course, and what you are most interested in learning. We will try to steer the project work to accommodate your interests.
 
 [**Open the pre-course survey**](https://forms.cloud.microsoft/r/NXwwPd5CJa?origin=lprLink)
-
-<br clear="left"/>
 
 
 ```{figure} Figures/World_Stress_Map.jpeg
