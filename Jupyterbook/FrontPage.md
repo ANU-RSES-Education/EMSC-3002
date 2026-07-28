@@ -20,6 +20,22 @@ Self-test questions, key concepts, and exam preparation strategies _(revision ma
   - [EMSC3002/6030 on **Canvas**](https://canvas.anu.edu.au/courses/3450) — announcements, assessment and submissions.
   - [EMSC3002 on **Programs and Courses**](https://programsandcourses.anu.edu.au/2026/course/EMSC3002) — the official course description.
 
+## Pre-Course Survey
+
+Please take a few minutes to complete the pre-course survey before we start — it
+tells us what you already know and what you would like to get out of the course.
+
+```{image} Figures/PreCourseSurvey-QR.png
+:alt: QR code linking to the EMSC 3002 pre-course survey
+:width: 180px
+:align: left
+```
+
+[**Open the pre-course survey**](https://forms.cloud.microsoft/r/NXwwPd5CJa?origin=lprLink)
+
+<br clear="left"/>
+
+
 ```{figure} Figures/World_Stress_Map.jpeg
 ---
 width: 75%

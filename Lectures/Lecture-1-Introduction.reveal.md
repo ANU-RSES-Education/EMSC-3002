@@ -58,6 +58,23 @@ to fix bugs and add material. You can create feedback for the pages. The origina
 
 </div>
 
+<--o-->
+
+## Pre-Course Survey
+
+![Pre-course survey QR code](images/Introduction/PreCourseSurvey-QR.png) <!-- .element style="float:right; width:28%; margin-left:40px" -->
+
+<div style="width:60%">
+
+Please take a few minutes to complete the **pre-course survey**.
+
+It tells us what you already know, what you are hoping to get out of the course,
+and helps us pitch the material in the right place.
+
+[https://forms.cloud.microsoft/r/NXwwPd5CJa?origin=lprLink](https://forms.cloud.microsoft/r/NXwwPd5CJa?origin=lprLink)
+
+</div>
+
 <--v-->
 
 ## Resources
