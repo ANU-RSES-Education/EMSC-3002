@@ -13,3 +13,4 @@ revealjs:
   margin: 0.07
   transition: fade
   slideNumber: true
+  hash: true          # honour #/h/v fragments so the glossary can deep-link to slides
