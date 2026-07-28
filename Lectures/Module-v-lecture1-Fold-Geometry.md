@@ -88,6 +88,6 @@ maximum curvature.
 
 ## Links
 
-  - Wattle courses
+  - Canvas
   - Programmes and courses
   - Other ...  -->

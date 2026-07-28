@@ -4,7 +4,7 @@ When rocks undergo rapid, localised deformation, we refer to the process as "bri
 
 ## Lecture Slides
 
-Most of these slides have been converted from the original PowerPoint to the same html / javascript format as the rest of the course, with the text and equations restored (the first deck is still the snapshot version). If you would like a pdf copy, the "Build your own PDF" link will process the slides and you can then *print from your browser* to a file. Wattle also has pdf versions in the original PowerPoint layout, with space for notes.
+Most of these slides have been converted from the original PowerPoint to the same html / javascript format as the rest of the course, with the text and equations restored (the first deck is still the snapshot version). If you would like a pdf copy, the "Build your own PDF" link will process the slides and you can then *print from your browser* to a file. Canvas also has pdf versions in the original PowerPoint layout, with space for notes.
 
 ### Overview of deformation mechanisms
 The first part of this module introduces the general concepts related to different deformation mechanisms, including brittle and ductile deformation.

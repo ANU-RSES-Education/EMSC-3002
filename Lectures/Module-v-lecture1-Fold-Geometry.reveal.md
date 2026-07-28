@@ -341,7 +341,7 @@ Classification according to the hinge curvature is referred to as bluntness.
 </div>
 </div>
 
-*Chevron folds with flat-lying axial planes, Millook Haven, North Cornwall, UK* source: ![GeologyIn.com](https://www.geologyin.com/2015/02/types-of-folds-with-photos.html)
+*Chevron folds with flat-lying axial planes, Millook Haven, North Cornwall, UK* source: [GeologyIn.com](https://www.geologyin.com/2015/02/types-of-folds-with-photos.html)
 
 <--o-->
 

@@ -8,7 +8,10 @@ The nature of the course and some things you need to know are in this slideshow.
 
 ## Navigating the slides
 
-![](images/Introduction/RevealNavigator.png) <!-- .element style="display:block; margin-left:auto; margin-right:auto; width:75%" -->
+```{image} images/Introduction/RevealNavigator.png
+:alt: The reveal.js slide navigator
+:width: 100%
+```
 
 The slides are in a 2D stack that have follow-on (sometimes more advanced material) below the regular flow of the presentation. The navigation area allows you to click through the slides but you can also:
 
@@ -19,8 +22,8 @@ The slides are in a 2D stack that have follow-on (sometimes more advanced materi
 
 ## Links
 
-  1. [EMSC3002/6030](https://wattlecourses.anu.edu.au/course/view.php?id=43913) on Wattle
-  1. [Programmes and courses](https://programsandcourses.anu.edu.au/2023/course/EMSC3002)
+  1. [EMSC3002/6030](https://canvas.anu.edu.au/courses/3450) on Canvas
+  1. [Programs and Courses](https://programsandcourses.anu.edu.au/2026/course/EMSC3002)
 
 ## Overview
 
@@ -32,7 +35,7 @@ The material in the course is split into five modules that cover:
   - Brittle Deformation
   - Ductile Deformation
 
-There are links to helpful external sites and background reading that you can find on pages for each module here and on wattle. All assessment is via wattle.
+There are links to helpful external sites and background reading that you can find on pages for each module here and on Canvas. All assessment is via Canvas.
 
 
 ### Remote Participation

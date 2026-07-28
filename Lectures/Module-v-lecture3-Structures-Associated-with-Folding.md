@@ -15,6 +15,6 @@
 
 ## Links
 
-  - Wattle courses
+  - Canvas
   - Programmes and courses
   - Other ...

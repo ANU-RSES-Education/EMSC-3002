@@ -46,11 +46,12 @@ project:
             - file: Lectures/Module-v-lecture3-Structures-Associated-with-Folding.md
             - file: Lectures/Module-v-lecture4-Shear-Zones.md
 
-    - title: Notebooks
-      children:
-        - file: Notebooks/Index.md
-        - file: Notebooks/Example1.ipynb
-        - file: Notebooks/Example2.md
+    # Hidden until there is real material here — currently boilerplate examples only.
+    # - title: Notebooks
+    #   children:
+    #     - file: Notebooks/Index.md
+    #     - file: Notebooks/Example1.ipynb
+    #     - file: Notebooks/Example2.md
 
     - title: Glossary
       children:
