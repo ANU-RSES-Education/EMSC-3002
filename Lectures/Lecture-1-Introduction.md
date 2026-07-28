@@ -22,7 +22,7 @@ The slides are in a 2D stack that have follow-on (sometimes more advanced materi
 
 ## Links
 
-  1. [EMSC3002/6030](https://canvas.anu.edu.au/courses/3450) on Canvas
+  1. [EMSC3002/6030](https://canvas.anu.edu.au/courses/9989) on Canvas
   1. [Programs and Courses](https://programsandcourses.anu.edu.au/2026/course/EMSC3002)
 
 ## Overview

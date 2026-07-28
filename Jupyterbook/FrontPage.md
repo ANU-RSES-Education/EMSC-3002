@@ -17,7 +17,7 @@ Self-test questions, key concepts, and exam preparation strategies _(revision ma
 
 ## Course links
 
-  - [EMSC3002/6030 on **Canvas**](https://canvas.anu.edu.au/courses/3450) — announcements, assessment and submissions.
+  - [EMSC3002/6030 on **Canvas**](https://canvas.anu.edu.au/courses/9989) — announcements, assessment and submissions.
   - [EMSC3002 on **Programs and Courses**](https://programsandcourses.anu.edu.au/2026/course/EMSC3002) — the official course description.
 
 ## Pre-Course Survey
