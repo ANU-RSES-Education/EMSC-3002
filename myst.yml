@@ -40,11 +40,7 @@ project:
         - file: Lectures/Module-ii-Structural-Geology-And-Crustal-Deformation.md
         - file: Lectures/Module-iii-Theory.md
         - file: Lectures/Module-iv-BrittleDeformation.md
-        - file: Lectures/Module-v-lecture1-Fold-Geometry.md
-          children:
-            - file: Lectures/Module-v-lecture2-Folds-and-Folding-Mechanisms.md
-            - file: Lectures/Module-v-lecture3-Structures-Associated-with-Folding.md
-            - file: Lectures/Module-v-lecture4-Shear-Zones.md
+        - file: Lectures/Module-v-DuctileDeformation.md
 
     # Hidden until there is real material here — currently boilerplate examples only.
     # - title: Notebooks

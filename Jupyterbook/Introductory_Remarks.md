@@ -63,7 +63,7 @@ When rocks undergo rapid, localised deformation, we refer to the process as "bri
 
 ### Module v - Ductile Deformation
 
-  - [Ductile Deformation](../Lectures/Module-v-lecture1-Fold-Geometry.md)
+  - [Ductile Deformation](../Lectures/Module-v-DuctileDeformation.md)
 
 Ductile deformation occurs when rocks are able to accommodate large deformations without fracturing.  You will learn how to recognise elements of ductile deformation such as folding, shearing and stretching.
 
