@@ -44,12 +44,12 @@ All lectures will be recorded using echo360. If the lecturers are isolating or u
 
 ### Summary of Course Assessment
 
-There will be 5 short quizzes during the semester that will help you to calibrate your knowledge from the course material for each module and which you can use for revision. The first of these quizzes will be a refresher on plate tectonics which you will be allowed to re-take after an optional tutorial. (20% on these quizzes)
+There will be 5 short quizzes during the semester that will help you to calibrate your knowledge from the course material for each module and which you can use for revision. **(15%)**
 
-Lab-based assessments will be worth 20% of the course in total. One assessment will be an exercise on interpreting sandbox models that you will be running in the lab. The second will be a mapping exercise.
+Lab-based assessments are worth **40%** of the course in total. One group of assessments is an exercise on interpreting sandbox models that you will be running in the lab **(20%)**; the second is based on a mapping exercise **(20%)**.
 
-There will be a poster- or slide-based- presentation  and final report that together make up 20% of the course assessment.
+There will be a poster- or slide-based presentation and report that together make up **15%** of the course assessment.
 
-The final exam will be worth 40% of the course.
+The final exam will be worth **30%** of the course.
 
 *We are, of course, open to some negotiation of the weight of the assessment tasks and their timing where this helps to cement the learning goals.*
