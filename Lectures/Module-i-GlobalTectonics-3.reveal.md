@@ -267,6 +267,16 @@ Computed with Underworld3 (split-node faults) — Moresi.
 
 <--v-->
 
+## A shape worth remembering
+
+![MohrBuild](images/UW-FaultExamples/mohr-circle-build.gif) <!-- .element style="display:block; margin-left:auto; margin-right:auto; width:66%" -->
+
+Rotate a plane through every orientation in a fixed stress field and plot the (normal, shear) stress it feels. The points trace a perfect circle.
+
+*That circle has a name, and it will do a great deal of work for us in [Module 3](Module-iii-lecture1-Theory-draft.reveal.html).*
+
+<--v-->
+
 ## One earthquake loads the next
 
 ![Interacting](images/UW-FaultExamples/interacting-faults.png) <!-- .element style="display:block; margin-left:auto; margin-right:auto; width:62%" -->
