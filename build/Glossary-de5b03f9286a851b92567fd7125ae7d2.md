@@ -999,6 +999,8 @@ Shear strain ($\gamma$)
 Shear stress ($\tau$, $\sigma_s$)
 : The component of traction acting along a plane — the part trying to slide one side past the other. For a uniaxial load, shear stress is greatest on planes at 45° to the load, which is why things tend to break obliquely rather than straight across.
 
+  *Slides: [1.3 Stress, Strain and Strength — Watching stress choose the faults](/slideshows/Module-i-GlobalTectonics-3.reveal.html#/3/5)*
+
 Shear zone
 : A tabular zone in which strain is markedly higher than in the surrounding rock — the classic expression of strain localisation, and the deeper-crustal relative of a fault. Crucially a shear zone has a thickness significant relative to its displacement, whereas an idealised fault surface has none.
 
