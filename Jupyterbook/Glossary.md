@@ -242,12 +242,12 @@ Domino (bookshelf) faulting
 Ductile deformation
 : Deformation without loss of cohesion, in which rock changes shape smoothly and retains intricate geometries when the forces stop — folds rather than fractures. It is favoured by high temperature, high confining pressure, the presence of fluids and slow strain rates.
 
-  *Slides: [5.5 Shear Zones — Ductile shear zones](/slideshows/Module-v-lecture4-Shear-Zones.reveal.html#/29) · [1.3 Stress, Strain and Strength — The Brittle-Ductile Transition](/slideshows/Module-i-GlobalTectonics-3.reveal.html#/7)*
+  *Slides: [5.5 Shear Zones — Ductile shear zones](/slideshows/Module-v-lecture4-Shear-Zones.reveal.html#/29) · [1.3 Stress, Strain and Strength — The Brittle-Ductile Transition](/slideshows/Module-i-GlobalTectonics-3.reveal.html#/9)*
 
 Ductile shear zone
 : A shear zone in which passive markers can be traced continuously through the zone with no visible discontinuities at the scale of observation. Note the careful distinction: "ductile" describes the style of deformation and is scale-dependent, whereas "plastic" describes the mechanism — so a ductile zone can still work by brittle mechanisms at the grain scale.
 
-  *Slides: [5.5 Shear Zones — Ductile shear zones](/slideshows/Module-v-lecture4-Shear-Zones.reveal.html#/29) · [1.3 Stress, Strain and Strength — The Brittle-Ductile Transition](/slideshows/Module-i-GlobalTectonics-3.reveal.html#/7)*
+  *Slides: [5.5 Shear Zones — Ductile shear zones](/slideshows/Module-v-lecture4-Shear-Zones.reveal.html#/29) · [1.3 Stress, Strain and Strength — The Brittle-Ductile Transition](/slideshows/Module-i-GlobalTectonics-3.reveal.html#/9)*
 
 Duplex
 : A stack of horses confined between an overlying roof thrust and an underlying floor thrust, formed when a propagating flat thrust sticks and successive ramps cut up in front of it. Duplexes are one of the main ways a thrust belt thickens itself without any single fault taking up all the shortening.
@@ -934,7 +934,7 @@ Rheological stratification
 Rheology
 : The study of how a material deforms or flows in response to stress — the constitutive law linking stress to strain (elastic), to strain rate (viscous), or to a strength limit (plastic). The same rock can do all three; which one wins depends on temperature, pressure, fluids and how fast you push it.
 
-  *Slides: [1.3 Stress, Strain and Strength — Rheology](/slideshows/Module-i-GlobalTectonics-3.reveal.html#/6) · [3.3 Rheology — Rheology](/slideshows/Module-iii-lecture3-Theory-draft.reveal.html#/4)*
+  *Slides: [1.3 Stress, Strain and Strength — Rheology](/slideshows/Module-i-GlobalTectonics-3.reveal.html#/8) · [3.3 Rheology — Rheology](/slideshows/Module-iii-lecture3-Theory-draft.reveal.html#/4)*
 
 Ridge push
 : The gravitational body force arising because young lithosphere at a ridge sits high and old lithosphere sits deep, so the whole cooling plate slides gently away from the elevated axis. It is a distributed consequence of the age–depth relationship, not a shove applied at the ridge axis.
@@ -1248,12 +1248,12 @@ Vergence
 Viscosity ($\eta$)
 : The resistance of a material to flowing, in pascal seconds. Everyday liquids span 0.001 to 100 Pa s; ice is around $10^{13}$; the mantle is $10^{18}$ to $10^{24}$, with $10^{21}$ a good round default. Viscosity only ever resists the formation of velocity gradients — it is never a driving force.
 
-  *Slides: [1.3 Stress, Strain and Strength — Rheology: Viscosity](/slideshows/Module-i-GlobalTectonics-3.reveal.html#/6/2) · [5.2 Folds and Folding Mechanisms — 3 fundamental mechanisms](/slideshows/Module-v-lecture2-Folds-and-Folding-Mechanisms.reveal.html#/6)*
+  *Slides: [1.3 Stress, Strain and Strength — Rheology: Viscosity](/slideshows/Module-i-GlobalTectonics-3.reveal.html#/8/2) · [5.2 Folds and Folding Mechanisms — 3 fundamental mechanisms](/slideshows/Module-v-lecture2-Folds-and-Folding-Mechanisms.reveal.html#/6)*
 
 Viscous deformation
 : Irreversible flow in which stress depends on strain rate rather than on strain. Push harder and it flows faster; stop pushing and it simply stops, keeping all the deformation it has accumulated. This is how rocks behave over geological time at depth, flowing in the solid state by the migration of crystal defects.
 
-  *Slides: [3.3 Rheology — Viscous Deformation](/slideshows/Module-iii-lecture3-Theory-draft.reveal.html#/16) · [1.3 Stress, Strain and Strength — Rheology: Viscosity](/slideshows/Module-i-GlobalTectonics-3.reveal.html#/6/3)*
+  *Slides: [3.3 Rheology — Viscous Deformation](/slideshows/Module-iii-lecture3-Theory-draft.reveal.html#/16) · [1.3 Stress, Strain and Strength — Rheology: Viscosity](/slideshows/Module-i-GlobalTectonics-3.reveal.html#/8/3)*
 
 Volcanic arc
 : The curved chain of volcanoes built on the overriding plate, roughly parallel to and about 100 km above the slab, fed by melting driven by water released from the descending plate. The curvature of arcs and trenches is a signature that subduction zones are not simple two-dimensional structures.

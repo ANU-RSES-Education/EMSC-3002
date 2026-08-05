@@ -297,7 +297,7 @@ Underworld3 computation (Moresi). We return to this style of analysis quantitati
 
 </small>
 
-<--v-->
+<--o-->
 
 ## Global Stress Revisited
 
@@ -311,7 +311,7 @@ The colours indicate whether stresses are:
   - Strike slip ($\sigma_2$ vertical)
   - Thrust faulting ($\sigma_3$ vertical )
 
-<--v-->  
+<--o-->
 
 ## Australian Stress Field
 
