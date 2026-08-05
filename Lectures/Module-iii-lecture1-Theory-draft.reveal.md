@@ -842,6 +842,22 @@ $\theta$
 </div>
 </div>
 
+<--v-->
+
+## The Mohr Circle, Measured
+
+![MohrBuild](images/UW-FaultExamples/mohr-circle-build.gif) <!-- .element style="display:block; margin-left:auto; margin-right:auto; width:66%" -->
+
+A numerical experiment: a welded fault is rotated through every orientation in a fixed stress field, and the (normal, shear) traction it measures is plotted. The points trace out the Mohr circle — and the traction snaps to the fault normal exactly at the principal orientations.
+
+The circle is not a construction trick: it is what a stress *probe* actually measures as its orientation sweeps. Watch the $2\theta$ rule happen.
+
+<small>
+
+Underworld3 split-node fault computation (Moresi). Fitted radius 1.411 vs the analytic $\sqrt{2}$.
+
+</small>
+
 <--o-->
 
 <!-- source: Lecture1_Stress.pptx slide 30 · template: T6-two-image -->
@@ -895,6 +911,24 @@ $\theta$
 Note:
 The main application of the Mohr circle or diagram is to predict failure. One of the most popular criteria is the Coulomb-Mohr failure criteria. The critera describes the critical conditions at which a rock fractures. 
 This criteria builds upon the theory firstly derived by the French physicist Charles Augustin de Coulomb in the 17th century. Mohr later developed a more generalized form in 19th century.
+
+<--v-->
+
+## The Envelope, Measured
+
+![MohrFriction](images/UW-FaultExamples/mohr-friction-build.gif) <!-- .element style="display:block; margin-left:auto; margin-right:auto; width:60%" -->
+
+Give the rotating fault Coulomb friction and repeat the experiment: probes that stay **stuck** reproduce the circle, but probes that **slide** pin themselves to the failure envelope — the yield line truncates the circle, exactly as the theory says.
+
+![MohrCohesion](images/UW-FaultExamples/mohr-cohesion.png) <!-- .element style="display:block; margin-left:auto; margin-right:auto; width:44%" -->
+
+With cohesion added, the strength declines through mild tension and vanishes at $\sigma_n = -C/\mu$.
+
+<small>
+
+Underworld3 split-node fault computation (Moresi).
+
+</small>
 
 <--o-->
 
@@ -1045,6 +1079,22 @@ I want to talk about a few more concept before we explore how to measure the str
 When we normally talk about pressure, we are talking about pressure in a gas (air pressure) or a liquid (the pressure at the bottom of the ocean). In this special case there are no shear stresses, only normal stresses. Over long periods of time the deep interior of the planet behaves as a fluid, so just like in the ocean we can think about the pressure at a point inside the earth.
 This lithostatic pressure can be regarded as a reference stress-state (average point of view), in which other tectonic forces are added. The normal stresses in the horizontal directions will normally not be equal to the lithostatic stress. 
 Hydrostatic stress is another term often used, it also represents the isotropic component of the stress and representing the stress at the base of a water column.
+
+<--v-->
+
+## Depth-Dependent Strength on One Fault
+
+![MohrGraded](images/UW-FaultExamples/mohr-graded.png) <!-- .element style="display:block; margin-left:auto; margin-right:auto; width:62%" -->
+
+Under a hydrostatic (depth-increasing) load, a single fault is not one point in the Mohr plane — every depth along it feels a different confining stress, so the fault becomes a depth-coloured *streak* spanning a family of Mohr circles.
+
+Shallow parts and deep parts of the same fault can be in quite different positions relative to failure.
+
+<small>
+
+Underworld3 split-node fault computation (Moresi).
+
+</small>
 
 <--o-->
 

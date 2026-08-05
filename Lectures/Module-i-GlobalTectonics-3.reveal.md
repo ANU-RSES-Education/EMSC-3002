@@ -251,6 +251,54 @@ Byerlee, J. (1978). Friction of rocks. Pure and Applied Geophysics, 116, 615–6
 
 <--v-->
 
+## Watching stress choose the faults
+
+![Orientations](images/UW-FaultExamples/orientations.png) <!-- .element style="display:block; margin-left:auto; margin-right:auto; width:62%" -->
+
+A numerical experiment: identical (frictionless) faults at a sweep of orientations, in the same driving stress. The slip each one takes follows the **resolved shear stress** on it — largest where the fault is well oriented, and *exactly zero* where the resolved shear vanishes.
+
+The stress field does not care where the faults are; the faults can only use the shear the stress field resolves onto them. Orientation is destiny.
+
+<small>
+
+Computed with Underworld3 (split-node faults) — Moresi.
+
+</small>
+
+<--v-->
+
+## One earthquake loads the next
+
+![Interacting](images/UW-FaultExamples/interacting-faults.png) <!-- .element style="display:block; margin-left:auto; margin-right:auto; width:62%" -->
+
+Remember that faults sit close to failure, so *small* changes matter. Here one fault slips, and the stress change is felt by its neighbour: the near end is pushed **towards** failure while the far end retreats from it.
+
+This is the mechanism behind earthquake sequences and aftershock patterns — each event redraws the map of which faults are next.
+
+<small>
+
+Change in Coulomb failure stress from a single slip event; red = loaded towards failure. Underworld3 computation (Moresi). These are quasi-static solutions — the same mathematics as incompressible elasticity — with no depth, gravity or postseismic processes.
+
+</small>
+
+<--v-->
+
+## Putting it together: southern California
+
+![California](images/UW-FaultExamples/california.png) <!-- .element style="display:block; margin-left:auto; margin-right:auto; width:58%" -->
+
+The same ideas at plate-boundary scale: a schematic San Andreas system, driven by the plate motion. Slip on the main strands transfers stress to the faults around them — some are loaded, some relaxed, purely by geometry and orientation.
+
+*Everything on this slide follows from the concepts of this lecture: principal stresses, resolved shear, friction, and faults sitting near failure.*
+
+<small>
+
+Underworld3 computation (Moresi). We return to this style of analysis quantitatively in Modules 3 and 4.
+
+</small>
+
+<--v-->
+
 ## Global Stress Revisited
 
 ![Alt text](images/GlobalTectonics/World_Stress_Map.jpeg) <!-- .element style="float:right; margin-top:50px;margin-bottom:50px; width:50%; margin-left:50px" -->
