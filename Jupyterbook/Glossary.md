@@ -1088,7 +1088,7 @@ Stress ellipsoid
 Stress tensor
 : The array $\sigma_{ij}$ storing the complete state of stress at a point — three traction vectors acting on three mutually perpendicular faces of a tiny cube. It is symmetric, because otherwise the cube would spin, so only six of the nine numbers are independent. It is just a machine that takes the orientation of a plane and hands back the force on it.
 
-  *Slides: [3.1 Stress — Stress on a Plane via Stress Tensor](/slideshows/Module-iii-lecture1-Theory-draft.reveal.html#/13)*
+  *Slides: [1.3 Stress, Strain and Strength — Geometry of the stress tensor](/slideshows/Module-i-GlobalTectonics-3.reveal.html#/3/6) · [3.1 Stress — Stress on a Plane via Stress Tensor](/slideshows/Module-iii-lecture1-Theory-draft.reveal.html#/13)*
 
 Stress trajectories
 : Smooth flow lines interpolated through scattered stress-orientation measurements to show the continuous pattern of the compressional stress direction across a region. Useful where data are sparse, as in Australia, but remember they are an interpolation.

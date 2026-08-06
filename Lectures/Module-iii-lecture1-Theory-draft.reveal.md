@@ -846,15 +846,39 @@ $\theta$
 
 ## The Mohr Circle, Measured
 
-![MohrBuild](images/UW-FaultExamples/mohr-circle-build.gif) <!-- .element style="display:block; margin-left:auto; margin-right:auto; width:66%" -->
+![MohrBuild](images/UW-FaultExamples/mohr-circle-build-A.gif) <!-- .element style="display:block; margin-left:auto; margin-right:auto; width:66%" -->
 
 A numerical experiment: a welded fault is rotated through every orientation in a fixed stress field, and the (normal, shear) traction it measures is plotted. The points trace out the Mohr circle — and the traction snaps to the fault normal exactly at the principal orientations.
 
-The circle is not a construction trick: it is what a stress *probe* actually measures as its orientation sweeps. Watch the $2\theta$ rule happen.
+The circle is not a construction trick: it is what a stress *probe* actually measures as its orientation sweeps. Watch the $2\theta$ rule happen — and watch the principal axes appear on the model, found by the sweep rather than assumed.
 
 <small>
 
 Underworld3 split-node fault computation (Moresi). Fitted radius 1.411 vs the analytic $\sqrt{2}$.
+
+</small>
+
+<--v-->
+
+## A different field, a different circle
+
+![MohrBuildB](images/UW-FaultExamples/mohr-circle-build-B.gif) <!-- .element style="display:block; margin-left:auto; margin-right:auto; width:66%" -->
+
+The identical experiment in a *different* stress state: pure shear, with the compression axis at $60°$. The probe again finds the principal directions at exactly $60°$ and $150°$ — but the circle it builds is smaller, and turned.
+
+<--v-->
+
+## Same construction, different state
+
+![MohrTwo](images/UW-FaultExamples/mohr-two-circles.png) <!-- .element style="display:block; margin-left:auto; margin-right:auto; width:44%" -->
+
+Both sweeps on one stress plane. The $2\theta$ construction is a property of *the method*; the radius and the orientation are properties of *the stress state*.
+
+Read backwards, that is the whole point of the diagram: measure a few tractions in the field, and the circle tells you the state that produced them.
+
+<small>
+
+Underworld3 split-node fault computation (Moresi). Measured radii $1.41 = \sqrt{2}$ and $0.80$; each probe on the plot is a separate solve.
 
 </small>
 
@@ -927,6 +951,54 @@ With cohesion added, the strength declines through mild tension and vanishes at 
 <small>
 
 Underworld3 split-node fault computation (Moresi).
+
+</small>
+
+<--v-->
+
+## What failure does to its surroundings
+
+![MohrFailureField](images/UW-FaultExamples/mohr-failure-field.gif) <!-- .element style="display:block; margin-left:auto; margin-right:auto; width:72%" -->
+
+The same rotating Coulomb fault, with the stress field around it now shown. While the fault is **stuck** it is invisible: it carries the full stress and the field stays uniform. The moment it **slides**, it can no longer hold that shear — and the field reorganises around it, with lobes at the tips and the principal axes swinging to meet the weakened surface.
+
+Failure is not just a point moving on a diagram. It rewrites the stress in the rock around it — which is why one earthquake changes the prospects of its neighbours.
+
+<small>
+
+Underworld3 split-node fault computation (Moresi). Colour is the change in the *local* Mohr radius $\Delta\tau_{max}$; ticks show the most-compressive principal direction. Quasi-static, incompressible — the same mathematics as elasticity at $\nu = 1/2$.
+
+</small>
+
+<--v-->
+
+## Reading a real stress field: southern California
+
+![CaliforniaClocks](images/UW-FaultExamples/california-clocks.gif) <!-- .element style="display:block; margin-left:auto; margin-right:auto; width:78%" -->
+
+The schematic San Andreas of [Module 1.3](Module-i-GlobalTectonics-3.reveal.html), instrumented. A small welded gauge sits at each neighbouring fault zone and is rotated through every orientation — so each site builds its *own* Mohr circle, twice: before the San Andreas slips (grey) and after (red).
+
+Before the earthquake all three circles are the **same**: one regional stress, felt everywhere. Afterwards they are not, and $\Delta$CFF is the visible motion of each circle toward or away from the envelope.
+
+<--v-->
+
+## It depends which way your fault faces
+
+The measured swing in $\Delta$CFF across orientations, at each site:
+
+| Site | $\Delta$CFF range | median |
+|---|---|---|
+| Garlock | $-0.64$ to $+0.54$ | $+0.01$ |
+| ECSZ | $-0.01$ to $+0.15$ | $+0.08$ |
+| San Jacinto | $-0.75$ to $+0.66$ | $-0.06$ |
+
+At Garlock and San Jacinto the *same* earthquake either loads you or relaxes you — a swing of more than $1.2$ — depending on nothing but the orientation of your fault. The median is close to zero at both, and tells you almost nothing.
+
+This is why aftershock forecasting needs the **receiver geometry**, not just the source: "was this fault brought closer to failure?" has no answer until you say which fault.
+
+<small>
+
+Underworld3 split-node fault computation (Moresi). $\mu' = 0.4$; the confining pressure $P_0 = 1$ and cohesion $C = 0.75$ place the envelope and do **not** enter $\Delta$CFF (both are constants under differencing). 50 solves; a far-field gauge removes each solve's pressure constant.
 
 </small>
 
