@@ -288,11 +288,13 @@ Computed with Underworld3 (split-node faults) — Moresi.
 
 <--v-->
 
-## A shape worth remembering
+## Geometry of the stress tensor
 
-![MohrBuild](images/UW-FaultExamples/mohr-circle-build.gif) <!-- .element style="display:block; margin-left:auto; margin-right:auto; width:66%" -->
+![MohrBuild](images/UW-FaultExamples/mohr-circle-build-A.gif) <!-- .element style="display:block; margin-left:auto; margin-right:auto; width:66%" -->
 
 The stress field is fixed — only the plane rotates. Watch the force the plane feels (its *traction*) change with orientation: sometimes pushing straight on, sometimes dragging along it. Plot the (normal, shear) pair and the points trace a perfect circle.
+
+Two orientations are special: the plane feels *no* drag at all, only a push. Those are the **principal directions**, and the sweep finds them for itself — they are not put in by hand.
 
 *That circle has a name, and it will do a great deal of work for us in [Module 3](Module-iii-lecture1-Theory-draft.reveal.html).*
 
@@ -316,7 +318,7 @@ Change in Coulomb failure stress from a single slip event; red = loaded towards 
 
 ## Putting it together: southern California
 
-![California](images/UW-FaultExamples/california.png) <!-- .element style="display:block; margin-left:auto; margin-right:auto; width:58%" -->
+![California](images/UW-FaultExamples/california-stepover.png) <!-- .element style="display:block; margin-left:auto; margin-right:auto; width:58%" -->
 
 The same ideas at plate-boundary scale: a schematic San Andreas system, driven by the plate motion. Slip on the main strands transfers stress to the faults around them — some are loaded, some relaxed, purely by geometry and orientation.
 
@@ -330,17 +332,17 @@ Underworld3 computation (Moresi). We return to this style of analysis quantitati
 
 <--v-->
 
-## Putting it together: southern California (v2)
+## … with a curving San Andreas
 
-![California](images/UW-FaultExamples/california_v2.png) <!-- .element style="display:block; margin-left:auto; margin-right:auto; width:58%" -->
+![California](images/UW-FaultExamples/california-curved.png) <!-- .element style="display:block; margin-left:auto; margin-right:auto; width:58%" -->
 
-The same ideas at plate-boundary scale: a schematic San Andreas system, driven by the plate motion. Slip on the main strands transfers stress to the faults around them — some are loaded, some relaxed, purely by geometry and orientation.
+Now the master fault is one continuous trace that *bends*. Nothing about the driving stress has changed — but because the fault curves, the shear resolved onto it changes along its own length. The restraining bend runs out of room, and the compression piles up exactly where the Transverse Ranges are.
 
-*Everything on this slide follows from the concepts of this lecture: principal stresses, resolved shear, friction, and faults sitting near failure.*
+Orientation is destiny for a whole fault, not just for a plane.
 
 <small>
 
-Underworld3 computation (Moresi). We return to this style of analysis quantitatively in Modules 3 and 4.
+Underworld3 computation (Moresi). In [Module 3](Module-iii-lecture1-Theory-draft.reveal.html) we put a rotating stress gauge at each of those neighbouring faults and measure what the earthquake actually did to them.
 
 </small>
 
