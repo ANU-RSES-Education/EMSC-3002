@@ -862,9 +862,11 @@ Underworld3 split-node fault computation (Moresi). Fitted radius 1.411 vs the an
 
 ## A different field, a different circle
 
-![MohrBuildB](images/UW-FaultExamples/mohr-circle-build-B.gif) <!-- .element style="display:block; margin-left:auto; margin-right:auto; width:66%" -->
+![MohrBuildAB](images/UW-FaultExamples/mohr-circle-build-AB.gif) <!-- .element style="display:block; margin-left:auto; margin-right:auto; width:47%" -->
 
-The identical experiment in a *different* stress state: pure shear, with the compression axis at $60°$. The probe again finds the principal directions at exactly $60°$ and $150°$ — but the circle it builds is smaller, and turned.
+The identical experiment run in two *different* stress states, sweeping together. Below is pure shear with the compression axis at $60°$: the probe finds the principal directions at exactly $60°$ and $150°$, but the circle it builds is smaller, and turned.
+
+Same probe, same construction, same $2\theta$ rule. Different circle.
 
 <--v-->
 
@@ -995,6 +997,25 @@ The measured swing in $\Delta$CFF across orientations, at each site:
 At Garlock and San Jacinto the *same* earthquake either loads you or relaxes you — a swing of more than $1.2$ — depending on nothing but the orientation of your fault. The median is close to zero at both, and tells you almost nothing.
 
 This is why aftershock forecasting needs the **receiver geometry**, not just the source: "was this fault brought closer to failure?" has no answer until you say which fault.
+
+<--v-->
+
+## Now run it backwards
+
+![SAFLoaded](images/UW-FaultExamples/saf-loaded.png) <!-- .element style="display:block; margin-left:auto; margin-right:auto; width:82%" -->
+
+Let a *neighbour* slip instead, and read the San Andreas. Both events reach it, and they do **opposite** things:
+
+- the **San Jacinto** slips right-laterally and **relaxes** the master fault, most strongly just southeast of the bend ($-0.30$);
+- the **Garlock** — which resolves *left*-laterally from the kinematics alone, the sense the real Garlock has — **loads** it, and does so right at the bend ($+0.40$).
+
+Both effects are concentrated on the **restraining bend**. Geometry decides not only where the mountains go, but where the fault is most sensitive to its neighbours.
+
+<small>
+
+Underworld3 (Moresi). The San Andreas is welded in every state, so it acts as a stress probe along its whole length — three solves, no sweep needed. Shear resolved on the *local* tangent at each node, since the trace is curved; the far end of the trace anchors each solve's pressure constant.
+
+</small>
 
 <small>
 
