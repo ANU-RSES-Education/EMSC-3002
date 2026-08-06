@@ -979,6 +979,47 @@ Underworld3 split-node fault computation (Moresi).
 
 <--v-->
 
+## The Coulomb Failure Function
+
+![CFF](images/UW-FaultExamples/cff-explained.png) <!-- .element style="display:block; margin-left:auto; margin-right:auto; width:76%" -->
+
+A fault fails when its stress point reaches the envelope — so measure **how far it still has to go**:
+
+$$\mathrm{CFF} = \tau - (C + \mu' \sigma)$$
+
+That is just the *gap* between the point and the failure line: negative below it, zero on it. Change the stress and the gap changes with it —
+
+$$\Delta \mathrm{CFF} = \Delta \tau - \mu' \Delta \sigma$$
+
+**Positive: the gap closed**, and the fault was brought nearer to failure. **Negative: it was pushed away**, into what is called a *stress shadow*.
+
+<--v-->
+
+## Two terms, and they can fight
+
+The measured San Jacinto case on the right of that figure is a good one to hold on to, because the two terms pull in **opposite** directions:
+
+- $\Delta \tau = -0.53$ — the San Andreas event took shear off the plane, moving it *away* from failure
+- $-\mu' \Delta \sigma = +0.11$ — it also *unclamped* the plane, moving it *towards* failure
+
+The shear term wins, so the net is $-0.42$: this fault is safer than it was. But you cannot tell that from either term alone, and the sign of the answer is not obvious before you compute it.
+
+$\mu'$ is an **effective** friction: it bundles the real friction together with how the pore fluid responds to the squeeze. Values near $0.4$ are usual.
+
+<--v-->
+
+## What ΔCFF does *not* tell you
+
+Three things to keep straight before reading any of the numbers that follow:
+
+- It is a **change**, not a state. It says nothing about how close the fault already was. A large positive change on a fault that was nowhere near failing triggers nothing.
+- It is **defined only for a stated plane and slip direction**. "Was this fault loaded?" has no answer until you say *which* fault, facing *which* way — as the next slides show, the answer can flip sign with orientation.
+- The values that matter in practice are **small**. Earthquakes drop of order $1$–$10$ MPa, but triggering is observed for changes as small as $\sim 0.01$ MPa — because faults are already sitting close to failure.
+
+*That last point is the one worth remembering: these are nudges to a system already on the edge, not shoves that break intact rock.*
+
+<--v-->
+
 ## What failure does to its surroundings
 
 ![MohrFailureField](images/UW-FaultExamples/mohr-failure-field.gif) <!-- .element style="display:block; margin-left:auto; margin-right:auto; width:72%" -->
