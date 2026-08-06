@@ -916,7 +916,7 @@ Releasing bend
 Restraining bend
 : A bend or stepover along a strike-slip fault where the geometry forces the two sides together, creating local contraction — folds, reverse faults, positive flower structures, uplifted pop-up blocks, and if the bend is big enough, a mountain range.
 
-  *Slides: [2.4 Strike-Slip, Transtension & Transpression — Fault Bends and Stepovers](/slideshows/Module-ii-Lecture-4-Strike-Slip-Transtention-Transpression.reveal.html#/31)*
+  *Slides: [2.4 Strike-Slip, Transtension & Transpression — Fault Bends and Stepovers](/slideshows/Module-ii-Lecture-4-Strike-Slip-Transtention-Transpression.reveal.html#/31) · [3.1 Stress — Now run it backwards](/slideshows/Module-iii-lecture1-Theory-draft.reveal.html#/31/5)*
 
 Reverse fault
 : A dip-slip fault steeper than about 30° on which the hanging wall moves up relative to the footwall, accommodating horizontal shortening. Think of it as the steep sibling of a thrust: the 30° cut-off is a convention, not a change of mechanism.
