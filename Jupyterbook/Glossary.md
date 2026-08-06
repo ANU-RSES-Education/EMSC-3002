@@ -263,6 +263,8 @@ Dynamics
 Effective stress ($\hat\sigma$)
 : The stress actually carried by the rock's grain framework, $\hat\sigma = \sigma_n - p_f$, because pore fluid pushing outwards supports part of the load. On a Mohr diagram, raising the fluid pressure slides the whole circle left towards the failure envelope without changing its size — a very cheap way to make a rock fail, and the mechanism behind hydraulic fracturing and injection-induced earthquakes.
 
+  *Slides: [3.1 Stress — Two terms, and they can fight](/slideshows/Module-iii-lecture1-Theory-draft.reveal.html#/31/3)*
+
 Elastic deformation
 : Recoverable deformation — remove the stress and the material springs straight back, essentially instantaneously. Because nothing is left behind, elastic strain is invisible in the rock record, but it is how rocks store the energy that earthquakes release, and it dominates the cold, shallow crust.
 
@@ -295,7 +297,7 @@ Facing direction
 Failure envelope
 : The curve on a Mohr diagram separating stable stress states, where the circle is clear of the curve, from unstable ones where it touches. The realistic composite envelope is parabolic in the tensile field (Griffith), straightens into the Coulomb line at moderate confining pressure, and flattens towards a horizontal yield line at high pressure — that flattening is effectively the brittle–plastic transition.
 
-  *Slides: [4.1 Brittle Deformation — The Mohr Failure Envelope](/slideshows/Module-iv-lecture4-Brittle-deformation-draft.reveal.html#/25) · [3.1 Stress — The Coulomb-mohr Failure Criteria](/slideshows/Module-iii-lecture1-Theory-draft.reveal.html#/31)*
+  *Slides: [4.1 Brittle Deformation — The Mohr Failure Envelope](/slideshows/Module-iv-lecture4-Brittle-deformation-draft.reveal.html#/25) · [3.1 Stress — The Coulomb Failure Function](/slideshows/Module-iii-lecture1-Theory-draft.reveal.html#/31/2)*
 
 Fault
 : A discontinuity across which there is measurable shear displacement, appearing as an abrupt step in the displacement field. The boundary with "shear fracture" is one of scale and convention; and note that a fault is idealised as a surface, whereas any real structure with significant displacement is a fault zone with thickness.
@@ -916,7 +918,7 @@ Releasing bend
 Restraining bend
 : A bend or stepover along a strike-slip fault where the geometry forces the two sides together, creating local contraction — folds, reverse faults, positive flower structures, uplifted pop-up blocks, and if the bend is big enough, a mountain range.
 
-  *Slides: [2.4 Strike-Slip, Transtension & Transpression — Fault Bends and Stepovers](/slideshows/Module-ii-Lecture-4-Strike-Slip-Transtention-Transpression.reveal.html#/31) · [3.1 Stress — Now run it backwards](/slideshows/Module-iii-lecture1-Theory-draft.reveal.html#/31/5)*
+  *Slides: [2.4 Strike-Slip, Transtension & Transpression — Fault Bends and Stepovers](/slideshows/Module-ii-Lecture-4-Strike-Slip-Transtention-Transpression.reveal.html#/31) · [3.1 Stress — Now run it backwards](/slideshows/Module-iii-lecture1-Theory-draft.reveal.html#/31/8)*
 
 Reverse fault
 : A dip-slip fault steeper than about 30° on which the hanging wall moves up relative to the footwall, accommodating horizontal shortening. Think of it as the steep sibling of a thrust: the 30° cut-off is a convention, not a change of mechanism.
