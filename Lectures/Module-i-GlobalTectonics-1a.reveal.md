@@ -339,22 +339,41 @@ Australia's mineral wealth is not scattered at random — **each deposit belongs
 
 ## Datasets: Moho depth
 
-<!-- TODO figure: AusMoho map (Kennett et al., ANU seismology; public). -->
+![Moho](images/Australia/australia-moho.png) <!-- .element style="display:block; margin-left:auto; margin-right:auto; width:56%" -->
 
 - **AusMoho / AuSREM** — continent-wide Moho-depth model from decades of seismic refraction, reflection and receiver-function data.
-- Crustal thickness ranges from **~25 km** (thinned margins, some Proterozoic regions) to **> 50 km** under parts of the cratons.
-- Reading it: sharp Moho steps often coincide with province boundaries — the sutures of the assembly story above.
+- Most of the continent lies between **~24 and ~47 km**, median **38 km**; the thickest crust is in **central Australia**, under the Proterozoic orogens, not under the Archaean cratons.
+- Reading it: sharp Moho steps often coincide with province boundaries — the sutures of the assembly story above. The black outlines are the Archaean cores and the Precambrian edge.
+
+<small>
+
+AusMoho / AuSREM 2023, Kennett (2019), [doi:10.25911/5cf751c17b3d4](https://doi.org/10.25911/5cf751c17b3d4), CC BY 4.0 — 0.25° grid, masked to land and re-plotted by `tools/figures/australia_moho.py`.
+
+</small>
 
 <--o-->
 
 ## Datasets: lithospheric thickness (LAB)
 
-<!-- TODO figure: LAB depth from AusLAMP MT and/or seismic tomography
-     (e.g. FR12/AuSREM LAB). Module 1.1 already shows a global LAB map — link it. -->
+<!-- TODO figure: LAB depth. CHECKED 2026-08-10 and still open:
+     AusPass publishes AusMoho as an open 0.25-deg grid (now plotted on
+     the Moho slide) but NO lithospheric-thickness / LAB product. The
+     AuSREM mantle model is there as a 150 MB tarball with no licence
+     stated on the index — worth chasing with RSES, since re-plotting it
+     would match the Moho, stress and seismicity figures exactly.
+     Meanwhile the Fishwick & Rawlinson (2012) tomography already sits in
+     the accretion deck; it is AJES and not openly licensed, so link to
+     that slide rather than copying the image here. -->
 
 - **AusLAMP** (magnetotellurics) and seismic tomography image the **lithosphere–asthenosphere boundary**.
 - Cratonic Australia has some of the **thickest lithosphere on Earth** (> 200 km); the eastern Tasmanides are much thinner (~100 km or less).
 - This thick/thin contrast controls where heat, magmatism and deformation localise — and echoes the Tasman Line.
+
+<small>
+
+→ Seen as seismic tomography at 150 km depth in the [continental accretion lecture](Module-i-Accretion-draft.reveal.html): cool, fast, thick lithosphere under the west and centre; warm, slow, thin under the Tasmanides.
+
+</small>
 
 <small>
 
@@ -366,8 +385,13 @@ Australia's mineral wealth is not scattered at random — **each deposit belongs
 
 ## Datasets: sediment thickness & basins
 
-<!-- TODO figure: OZ SEEBASE depth-to-basement (Frogtech/GA, public version),
-     or GA's sediment-thickness grid. Label the major basins. -->
+<!-- TODO figure: depth to basement. CHECKED 2026-08-10: OZ SEEBASE is a
+     Frogtech COMMERCIAL product — do not assume it is reusable; only a
+     derived public version would be. Better open routes to try, in
+     order: GA's sediment-thickness / basin-depth grids via eCat (GA
+     content is generally CC BY 4.0), or the global GlobSed grid
+     (Straume et al. 2019, via NOAA/NCEI) which is coarse but open and
+     would re-plot on the shared base map like the Moho figure. -->
 
 - **OZ SEEBASE** and GA basin studies map **depth to basement** — the thickness of the sedimentary cover.
 - Major basins: **Canning, Amadeus, Officer, Cooper–Eromanga, Great Artesian, Otway–Gippsland** (rifted southern margin), **North West Shelf**.
@@ -377,14 +401,51 @@ Australia's mineral wealth is not scattered at random — **each deposit belongs
 
 ## Datasets: potential fields, stress & seismicity
 
-<!-- TODO figures: (a) TMI magnetic grid — already shown in Module 2.1, link
-     rather than repeat; (b) gravity anomaly grid (GA); (c) Australian Stress
-     Map; (d) GA neotectonics / NSHA seismicity map. -->
+<!-- TODO figure: gravity anomaly grid (GA). Stress and seismicity are now
+     built from public databases by tools/figures/; TMI is linked, not
+     repeated, per the note below. -->
 
 - **Magnetics (TMI)** — the structural X-ray of the covered continent. <small>↩ First shown in [Module 2.1](Module-ii-Lecture-1-Structural-Geology-And-Crustal-Deformation.reveal.html).</small>
 - **Gravity** — density structure; craton edges and thick basins stand out.
-- **Stress** — the Australian Stress Map. <small>↩ [Module 1.1 & 1.3](Module-i-GlobalTectonics-3.reveal.html).</small>
-- **Seismicity & neotectonics** — GA catalogues; intraplate earthquakes concentrate in the Flinders, SW seismic zone, SE highlands — *where stress meets inherited structure*.
+- **Stress** — the Australian stress field. <small>↩ [Module 1.1 & 1.3](Module-i-GlobalTectonics-3.reveal.html).</small>
+- **Seismicity & neotectonics** — intraplate earthquakes concentrate in the Flinders, SW seismic zone, SE highlands — *where stress meets inherited structure*.
+
+*The next two slides show the last two, measured.*
+
+<--v-->
+
+## Where the earthquakes are
+
+![Seismicity](images/Australia/australia-seismicity.png) <!-- .element style="display:block; margin-left:auto; margin-right:auto; width:56%" -->
+
+Australia is an **intraplate** continent — thousands of kilometres from the nearest plate boundary — and yet it has earthquakes, up to **M 6.7**. They are not spread evenly: they cluster in the **South West Seismic Zone**, the **Flinders Ranges**, the **SE Highlands**, and around **Tennant Creek**.
+
+Compare this with the province map. The clusters are not where the crust is youngest, or oldest — they are where old structure is favourably oriented in the modern stress field.
+
+<small>
+
+Earthquakes M ≥ 4 from the USGS ComCat / ISC-GEM catalogue, filtered to onshore Australia. Built by `tools/figures/australia_seismicity.py`.
+
+</small>
+
+<--v-->
+
+## The stress field that drives them
+
+![Stress](images/Australia/australia-stress.png) <!-- .element style="display:block; margin-left:auto; margin-right:auto; width:56%" -->
+
+Every tick is a measurement of $S_{Hmax}$ — the direction of greatest horizontal compression. Two things to take from it:
+
+- Australia is **in compression**. Of the measurements where the regime could be determined, **95% are thrust or strike-slip** — only 8 of 146 are extensional. For a continent nowhere near a collision, that is remarkable.
+- $S_{Hmax}$ **swings across the continent** rather than pointing one way — roughly E–W in the west, rotating through NE–SW in the east.
+
+Neither is caused by anything local. Both are the far-field consequence of the forces on the plate's *boundaries* — which is exactly the argument of [Module 1.3](Module-i-GlobalTectonics-3.reveal.html).
+
+<small>
+
+World Stress Map 2016 (Heidbach et al., GFZ, doi:10.5880/WSM.2016.001, CC BY 4.0), quality A–C only. Built by `tools/figures/australia_stress.py`.
+
+</small>
 
 <--o-->
 
