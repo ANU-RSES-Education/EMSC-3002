@@ -93,9 +93,19 @@ The forces generated at *all* of these edges are transmitted into the plate inte
 
 ## The names of things
 
-<!-- TODO figure: geological provinces / crustal elements map of Australia.
-     Source: Geoscience Australia "Australian Crustal Elements" or the
-     GA Geological Provinces database (public). -->
+![Cratons](images/Australia/australia-cratons-base.png) <!-- .element style="display:block; margin-left:auto; margin-right:auto; width:47%" -->
+
+Three ages of crust, and the continent gets **younger eastwards**: Archaean nuclei in the west and south, Proterozoic around them, Phanerozoic in the east.
+
+<small>
+
+Base map: Woudloper, Wikimedia Commons, CC BY 4.0.
+
+</small>
+
+<--v-->
+
+## The names of things
 
 The continent divides into three broad crustal super-provinces:
 
@@ -133,19 +143,140 @@ Intraplate reactivation continues today: Petermann and Alice Springs orogens rec
 
 ## Australia through time — plate reconstructions
 
-<!-- TODO figure/animation: GPlates reconstruction frames (EarthByte, public);
-     the book page for Module 1 already links the GPlates portal. Show e.g.
-     500 Ma (Gondwana), 250 Ma (Pangea), 100 Ma (break-up), 45 Ma -> now. -->
+![Muller1Ga](images/Australia/muller2022-ocean-age-1Ga.png) <!-- .element style="display:block; margin-left:auto; margin-right:auto; width:72%" -->
+
+One billion years, in nine frames: **Rodinia → Gondwana → Pangea → now**. Grey is continental crust; colour is the age of the ocean floor.
 
 - Australia's position through time comes from **plate reconstructions** — palaeomagnetism, ocean-floor magnetic anomalies (Module 1.2), and geological piercing points.
 - Explore this yourself with **GPlates** (EarthByte, University of Sydney) — the same tool used in the plate-kinematics exercise.
-- Since ~45 Ma Australia has been the **fastest-moving continent**, heading north at ~7 cm/yr — which is why its northern margin is colliding while its other margins are passive.
+
+<small>
+
+Müller et al. (2022), *Solid Earth* **13**, 1127–1159, [doi:10.5194/se-13-1127-2022](https://doi.org/10.5194/se-13-1127-2022) — Fig. 9, CC BY 4.0. The model is **SEEM1000**.
+
+</small>
+
+<--v-->
+
+## The plate is not the continent
+
+Look at the colour bar on that figure: it stops at **280 Ma**.
+
+That is not an artistic choice. **No ocean floor anywhere on Earth is older than about 280 Ma** — it is made at ridges and destroyed at trenches, so the plate is continuously recycled. The grey continents in the same frames are up to **3.5 billion years** old.
+
+So the two halves of this course's title are objects with very different lifespans:
+
+- the **Australian plate** — mostly ocean floor, none of it very old, with the boundaries and stresses of Modules 1.2 and 1.3;
+- the **Australian continent** — an assembly of ancient pieces that has survived every one of those supercontinent cycles, and is the subject of the rest of this deck.
+
+*The plate is what Australia is riding on. The continent is what it is carrying.*
+
+<--v-->
+
+## Where the reconstruction runs out
+
+One billion years sounds like deep time, but it is only the **last quarter or so of Earth history**. The oldest frame on the previous slide is 1000 Ma; the Pilbara and Yilgarn cratons were already ancient by then.
+
+Before ~1 Ga we cannot draw plate boundaries with any confidence — there is no ocean floor left to reconstruct from, and the palaeomagnetic record thins out. What we have instead is the **rock record inside the cratons themselves**.
+
+*Which is where we go next: the oldest pieces of Australia, and what they tell us about an Earth that may not have worked the way it does now.*
 
 <small>
 
 → The subduction–accretion story that built the eastern margin is taken up in the *continental accretion* lecture.
 
 </small>
+
+<--o-->
+
+## Greenstone belts: the Archaean rock record
+
+![GreenstoneBlock](images/Australia/greenstone-block-diagram.png) <!-- .element style="display:block; margin-left:auto; margin-right:auto; width:52%" -->
+
+Archaean crust has a recipe of its own: **granite domes** with **keels of greenstone** hanging between them — piles of mafic and ultramafic volcanics (including *komatiites*, which need mantle far hotter than today's), capped by sediments, and squeezed down between rising granite.
+
+*Australia has two of the world's best-preserved examples, and they do not look like each other.*
+
+<small>
+
+Woudloper, Wikimedia Commons, CC BY-SA 4.0.
+
+</small>
+
+<--v-->
+
+## Pilbara: domes and keels
+
+<div class="cols">
+<div>
+
+![PilbaraMap](images/Australia/pilbara-craton-map.png)
+
+</div>
+<div>
+
+![Stromatolites](images/Australia/strelley-pool-stromatolite.jpg)
+
+</div>
+</div>
+
+**~3.5–2.9 Ga.** Great ovoid granite domes 35–120 km across, with greenstone draped in the synclines between them — a pattern you can read straight off the map. There is no obvious grain, no line of belts: it looks like a **vertical** system, dense greenstone sinking while lighter granite rose.
+
+The **Strelley Pool** stromatolites here are ~3.4 Ga — among the oldest convincing evidence of life on Earth.
+
+<small>
+
+Map: Ebuhyo1, Wikimedia Commons, CC BY-SA 3.0. Stromatolite: Didier Descouens, CC BY-SA 4.0.
+
+</small>
+
+<--v-->
+
+## Yilgarn: belts, shears and gold
+
+![YilgarnMap](images/Australia/yilgarn-greenstone-map.png) <!-- .element style="display:block; margin-left:auto; margin-right:auto; width:40%" -->
+
+**Mostly ~2.9–2.6 Ga** — several hundred million years younger. Now the greenstones are **long, narrow, parallel belts**, separated by granite and bounded by big crustal shear zones. That is a **horizontal** grain: terranes swept together and welded side by side, much more like modern accretionary tectonics.
+
+Those same shear zones are the plumbing that made the **Eastern Goldfields** — Kalgoorlie sits in a greenstone belt.
+
+<small>
+
+Woudloper, Wikimedia Commons, CC BY-SA 4.0.
+
+</small>
+
+<--v-->
+
+## Two cratons, two kinds of Earth?
+
+| | **Pilbara** | **Yilgarn** |
+|---|---|---|
+| Age | ~3.5–2.9 Ga | mostly ~2.9–2.6 Ga |
+| Map pattern | ovoid domes, greenstone keels | long parallel belts |
+| Structure | steep, no consistent grain | strong grain, crustal shear zones |
+| Read as | **vertical** tectonics — sinking greenstone, rising granite | **horizontal** tectonics — terranes accreted |
+
+The Pilbara is the older of the two, and the more alien. The usual reading is that the Archaean Earth was hotter, its lithosphere weaker, and that it could not sustain rigid plates the way it does now — so the crust overturned in place instead of sliding sideways.
+
+**When did plate tectonics start?** These two cratons sit on either side of the argument, and the honest answer is that it is unresolved. Estimates range from >3.5 Ga to <1 Ga.
+
+*This matters for the rest of the course: everything from Module 1.2 onwards assumes rigid plates with narrow boundaries. That assumption has a start date, and the Pilbara may be older than it.*
+
+<--o-->
+
+## What the crust is worth
+
+![Deposits](images/Australia/australia-deposits.png) <!-- .element style="display:block; margin-left:auto; margin-right:auto; width:56%" -->
+
+Australia's mineral wealth is not scattered at random — **each deposit belongs to a piece of crust and a moment in its history**:
+
+- **Kalgoorlie** gold — the Yilgarn greenstone belts and their shear zones
+- **Hamersley** iron — banded iron formation laid down on the Pilbara as the oceans *first* became oxygenated
+- **Olympic Dam** Cu–U–Au — Gawler Craton margin <small>(you will meet it again in Module 3, as a borehole stress measurement)</small>
+- **Mount Isa**, **Broken Hill** Pb–Zn–Ag — Proterozoic basins and their deformation
+
+*Ask of any deposit the same four questions as any structure: which piece, when did it form, what is underneath, what is happening now.*
 
 <--o-->
 

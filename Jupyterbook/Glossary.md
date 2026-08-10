@@ -37,7 +37,7 @@ Antiform
 Asthenosphere
 : A rheological domain: the weaker zone beneath the plates that allows them to move freely. It is defined mechanically rather than chemically, so its boundary with the lithosphere is a strength contrast, not a change of composition.
 
-  *Slides: [1.1a The Australian Plate — Datasets: lithospheric thickness (LAB)](/slideshows/Module-i-GlobalTectonics-1a.reveal.html#/8)*
+  *Slides: [1.1a The Australian Plate — Datasets: lithospheric thickness (LAB)](/slideshows/Module-i-GlobalTectonics-1a.reveal.html#/10)*
 
 Autochthon
 : Rock that has not been tectonically transported — the in-situ basement over which an allochthon has been thrust. Units that have moved only a short distance are parautochthonous, a useful hedge for rocks clearly disturbed but not far-travelled.
@@ -152,7 +152,7 @@ Coulomb–Mohr failure criterion
 Craton
 : A region of the Earth's crust that has experienced little or no tectonic deformation for at least a billion years. Australia's cratons (Yilgarn, Pilbara, Gawler) carry unusually thick lithosphere, over 200 km, and crust exceeding 50 km.
 
-  *Slides: [1.1a The Australian Plate — The names of things](/slideshows/Module-i-GlobalTectonics-1a.reveal.html#/4)*
+  *Slides: [1.1a The Australian Plate — The names of things](/slideshows/Module-i-GlobalTectonics-1a.reveal.html#/4/1)*
 
 Creep
 : Slow, continuous, permanent deformation under a stress well below the short-term breaking strength. It is the umbrella term for the crystal-scale processes — diffusion, dislocation motion, pressure solution — that let solid rock flow, and it is what viscous and power-law rheologies describe at the macroscopic scale.
@@ -450,7 +450,7 @@ Fold, upright
 Fold, vertical
 : A fold whose hinge line plunges vertically or nearly so. Vertical fold axes normally result from refolding, since folds rarely nucleate with vertical hinges.
 
-  *Slides: [2.3 Extensional Regimes — Extensional Faults](/slideshows/Module-ii-Lecture-3-Extensional_Regimes.reveal.html#/7)*
+  *Slides: [1.1a The Australian Plate — Pilbara: domes and keels](/slideshows/Module-i-GlobalTectonics-1a.reveal.html#/7/1) · [2.3 Extensional Regimes — Extensional Faults](/slideshows/Module-ii-Lecture-3-Extensional_Regimes.reveal.html#/7)*
 
 Fold, wavelength
 : The distance between adjacent hinges of the same sense — the repeat distance of a fold train. In buckling it is set by the layer thickness and the viscosity contrast with the matrix, which is why it is such a useful diagnostic.
@@ -658,12 +658,12 @@ Lineation
 Lithosphere
 : A rheological domain describing the upper layer of the Earth with the most plate-like characteristics. Oceanic lithosphere reaches at most about 100–150 km thick, whereas cratonic continental lithosphere can exceed 200 km — a thick/thin contrast that controls where heat, magmatism and deformation localise.
 
-  *Slides: [3.3 Rheology — Rheology of the Lithosphere](/slideshows/Module-iii-lecture3-Theory-draft.reveal.html#/30) · [1.1 Global Deformation Patterns — Thickness of the Lithosphere](/slideshows/Module-i-GlobalTectonics-1.reveal.html#/5) · [1.1a The Australian Plate — Datasets: lithospheric thickness (LAB)](/slideshows/Module-i-GlobalTectonics-1a.reveal.html#/8)*
+  *Slides: [3.3 Rheology — Rheology of the Lithosphere](/slideshows/Module-iii-lecture3-Theory-draft.reveal.html#/30) · [1.1 Global Deformation Patterns — Thickness of the Lithosphere](/slideshows/Module-i-GlobalTectonics-1.reveal.html#/5) · [1.1a The Australian Plate — Datasets: lithospheric thickness (LAB)](/slideshows/Module-i-GlobalTectonics-1a.reveal.html#/10)*
 
 Lithosphere–asthenosphere boundary (LAB)
 : The base of the mechanically strong plate, mapped with seismology and, in Australia, with AusLAMP magnetotellurics. It is a strength boundary rather than a compositional one, which is why different techniques can disagree about exactly where it lies.
 
-  *Slides: [1.1a The Australian Plate — Datasets: lithospheric thickness (LAB)](/slideshows/Module-i-GlobalTectonics-1a.reveal.html#/8)*
+  *Slides: [1.1a The Australian Plate — Datasets: lithospheric thickness (LAB)](/slideshows/Module-i-GlobalTectonics-1a.reveal.html#/10)*
 
 Lithostatic stress
 : The isotropic reference stress at depth from the weight of the overlying rock column, $\sigma_v = \rho g z$. For continental crust this gives roughly 26 MPa per kilometre of depth — about 130 MPa at 5 km and over 1 GPa at the base of the crust. Tectonic stresses are comparatively small differences added on top of this large background, and it is the differences that break rocks.
@@ -703,7 +703,7 @@ Mode I, II and III fractures
 Moho
 : The seismically sharp boundary between crust and mantle — the base of the crust, not the base of the plate. Oceanic crust is almost always 6–7 km thick; in Australia the AusMoho model shows 25 km under thinned margins to over 50 km under the cratons, with sharp steps often marking province sutures.
 
-  *Slides: [1.1a The Australian Plate — Datasets: Moho depth](/slideshows/Module-i-GlobalTectonics-1a.reveal.html#/7)*
+  *Slides: [1.1a The Australian Plate — Datasets: Moho depth](/slideshows/Module-i-GlobalTectonics-1a.reveal.html#/9)*
 
 Mohr circle
 : A graphical device plotting normal stress against shear stress for planes of every possible orientation through a point — a circle centred at the mean of $\sigma_1$ and $\sigma_3$ with radius half their difference. Every point on the circle is one plane; watch the factor of two, since an angle $\theta$ in the rock appears as $2\theta$ on the circle. It turns a tensor problem into something you can read with a ruler.
@@ -713,12 +713,12 @@ Mohr circle
 Moment magnitude ($M_w$)
 : The magnitude scale computed directly from seismic moment, and the only one that stays meaningful for great earthquakes. It is why Tohoku is quoted as $M_w$ 9.0–9.1 when the band-limited magnitudes available in the first minutes badly underestimated it.
 
-  *Slides: [1.2 Plate Boundaries — Focal Mechanisms 2](/slideshows/Module-i-GlobalTectonics-2.reveal.html#/6/2)*
+  *Slides: [1.1a The Australian Plate — What the crust is worth](/slideshows/Module-i-GlobalTectonics-1a.reveal.html#/8) · [1.2 Plate Boundaries — Focal Mechanisms 2](/slideshows/Module-i-GlobalTectonics-2.reveal.html#/6/2)*
 
 Moment tensor
 : The tensor quantity a beachball represents, encoding the magnitude and orientation of slip at the source. In this course we assume a double-couple mechanism — slip on a plane with no volume change — which is a simplification of real observed moment tensors.
 
-  *Slides: [1.2 Plate Boundaries — Focal Mechanisms 2](/slideshows/Module-i-GlobalTectonics-2.reveal.html#/6/2)*
+  *Slides: [1.1a The Australian Plate — What the crust is worth](/slideshows/Module-i-GlobalTectonics-1a.reveal.html#/8) · [1.2 Plate Boundaries — Focal Mechanisms 2](/slideshows/Module-i-GlobalTectonics-2.reveal.html#/6/2)*
 
 Monocline
 : A local step-like flexure in otherwise gently dipping or flat strata, with one steep limb between two shallow ones. Monoclines commonly form by bending of cover rocks above a reactivated basement fault.
@@ -1150,12 +1150,12 @@ Synthetic and antithetic
 Tasman Line
 : The conventional boundary between the Precambrian cratonic core of Australia and the accreted Phanerozoic Tasmanides to the east. It is useful shorthand and does echo real steps in Moho depth and lithospheric thickness, but its exact position is actively debated and it is certainly not a single line.
 
-  *Slides: [1.1a The Australian Plate — The names of things](/slideshows/Module-i-GlobalTectonics-1a.reveal.html#/4)*
+  *Slides: [1.1a The Australian Plate — The names of things](/slideshows/Module-i-GlobalTectonics-1a.reveal.html#/4/1)*
 
 Tasmanides
 : The Phanerozoic accreted eastern third of the Australian continent — the Delamerian, Lachlan, Thomson, Mossman and New England orogens, added successively along the Gondwana margin during the Palaeozoic. Their lithosphere is much thinner than the cratons to the west, which is why they still localise heat, magmatism and deformation.
 
-  *Slides: [1.1a The Australian Plate — The names of things](/slideshows/Module-i-GlobalTectonics-1a.reveal.html#/4)*
+  *Slides: [1.1a The Australian Plate — The names of things](/slideshows/Module-i-GlobalTectonics-1a.reveal.html#/4/1)*
 
 Tectonic regime
 : The classification of a stress state by which principal stress is vertical: normal faulting when $\sigma_1$ is vertical, strike-slip when $\sigma_2$ is vertical, thrust when $\sigma_3$ is vertical. Because the Earth's surface is a free surface, one principal stress must be near-vertical — which is what makes this three-way classification possible.
