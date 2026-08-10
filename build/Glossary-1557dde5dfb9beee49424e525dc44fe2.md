@@ -614,6 +614,8 @@ Intersection lineation
 Intraplate deformation (neotectonics)
 : Active faulting and earthquakes occurring well inside a plate rather than at its boundary — in Australia concentrated in the Flinders Ranges, the southwest seismic zone and the southeast highlands. The rule of thumb is that intraplate seismicity happens where the modern stress field meets inherited structure, so old sutures and orogens get reactivated.
 
+  *Slides: [1.1a The Australian Plate — Where the earthquakes are](/slideshows/Module-i-GlobalTectonics-1a.reveal.html#/12/1)*
+
 Invariants (of a tensor)
 : Combinations of tensor components that keep the same value however you rotate your coordinate axes, so they describe the physics rather than your bookkeeping. The first invariant is the trace (three times the mean stress); the second measures the magnitude of the deviatoric part and is what global strain-rate maps plot.
 
@@ -1108,7 +1110,7 @@ Stretching lineation
 Strike-slip fault
 : A fault whose displacement is essentially horizontal, so the two blocks slide past one another sideways. They are typically steep, can be hundreds of kilometres long, accumulate large total displacement, and occur in every tectonic regime — which is why they produce some of the world's most damaging earthquakes.
 
-  *Slides: [2.4 Strike-Slip, Transtension & Transpression — Strike-slip faults](/slideshows/Module-ii-Lecture-4-Strike-Slip-Transtention-Transpression.reveal.html#/3)*
+  *Slides: [2.4 Strike-Slip, Transtension & Transpression — Strike-slip faults](/slideshows/Module-ii-Lecture-4-Strike-Slip-Transtention-Transpression.reveal.html#/3) · [1.1a The Australian Plate — The stress field that drives them](/slideshows/Module-i-GlobalTectonics-1a.reveal.html#/12/2)*
 
 Stylolite
 : A rough, serrated, tooth-like seam produced where rock has dissolved under stress, leaving insoluble residue that picks the surface out as a dark wiggly line. Stylolites are contractional, and their teeth point along $\sigma_1$ — so bedding-parallel stylolites record burial loading while oblique ones record tectonic stress.
@@ -1176,7 +1178,7 @@ Throw
 Thrust fault
 : A low-angle contractional fault, dipping less than about 30°, along which the hanging wall has been carried up and over the footwall, often for tens of kilometres. Because they carry deep rocks over shallow ones, thrusts characteristically place older rocks on younger and higher metamorphic grade on lower — which is how you map them.
 
-  *Slides: [2.2 Contractional Regimes — Thrust Faults](/slideshows/Module-ii-Lecture-2-Contractional_Regimes.reveal.html#/10)*
+  *Slides: [2.2 Contractional Regimes — Thrust Faults](/slideshows/Module-ii-Lecture-2-Contractional_Regimes.reveal.html#/10) · [1.1a The Australian Plate — The stress field that drives them](/slideshows/Module-i-GlobalTectonics-1a.reveal.html#/12/2)*
 
 Traction
 : The force per unit area actually acting on one particular plane through a point — a vector, with a size and a direction. You get it from the stress tensor and the plane's unit normal. Traction is what you feel on a fault; the stress tensor is what generates it for every possible fault orientation.
