@@ -673,6 +673,8 @@ Lithostatic stress
 Magnetic anomaly stripes
 : The symmetric pattern of alternating magnetic polarity bands either side of a ridge axis, produced when steadily spreading new crust records the reversals of the Earth's magnetic field. Read outwards, the stripes are a tape recording of the age of the seafloor and hence of the spreading rate — the observation that turned continental drift into plate tectonics.
 
+  *Slides: [1.1a The Australian Plate — …is not a line](/slideshows/Module-i-GlobalTectonics-1a.reveal.html#/4/3)*
+
 Maxwell time ($t_M = \eta/E$)
 : The timescale deciding whether a material behaves elastically or viscously: deform it faster than $t_M$ and it acts like a solid, slower and it flows. For mantle values it is around a thousand years, which is why the mantle transmits seismic waves elastically yet convects like a fluid over geological time.
 
@@ -977,12 +979,12 @@ Seafloor spreading
 Seismic moment
 : The physical measure of earthquake size — rigidity times rupture area times average slip, or how much rock slipped how far. It has units of energy and, unlike the older amplitude-based magnitudes, it does not saturate for the largest events.
 
-  *Slides: [4.3 Faults and Fault Zones — Seismic Derivation](/slideshows/Module-iv-lecture6-Faults-Fault-Zones-draft.reveal.html#/39) · [3.2 Strain and Strain Rate — Example: Strain from a Seismic Wave](/slideshows/Module-iii-lecture2-Theory-draft.reveal.html#/31)*
+  *Slides: [4.3 Faults and Fault Zones — Seismic Derivation](/slideshows/Module-iv-lecture6-Faults-Fault-Zones-draft.reveal.html#/39) · [3.2 Strain and Strain Rate — Example: Strain from a Seismic Wave](/slideshows/Module-iii-lecture2-Theory-draft.reveal.html#/31) · [1.1a The Australian Plate — …is not a line](/slideshows/Module-i-GlobalTectonics-1a.reveal.html#/4/3)*
 
 Seismic vs aseismic slip
 : Seismic slip is sudden and radiates elastic waves — an earthquake; aseismic slip, or fault creep, is slow continuous movement that releases strain without radiating waves. The same fault can do both in different places or at different times, which is why geodesy as well as seismology is needed to balance a fault's slip budget.
 
-  *Slides: [4.3 Faults and Fault Zones — Seismic Derivation](/slideshows/Module-iv-lecture6-Faults-Fault-Zones-draft.reveal.html#/39) · [3.2 Strain and Strain Rate — Example: Strain from a Seismic Wave](/slideshows/Module-iii-lecture2-Theory-draft.reveal.html#/31)*
+  *Slides: [4.3 Faults and Fault Zones — Seismic Derivation](/slideshows/Module-iv-lecture6-Faults-Fault-Zones-draft.reveal.html#/39) · [3.2 Strain and Strain Rate — Example: Strain from a Seismic Wave](/slideshows/Module-iii-lecture2-Theory-draft.reveal.html#/31) · [1.1a The Australian Plate — …is not a line](/slideshows/Module-i-GlobalTectonics-1a.reveal.html#/4/3)*
 
 Sense of shear
 : Which wall of a shear zone moved which way, read from kinematic indicators. Determining it is the whole point of shear-zone microstructural analysis, and it must be done on a section cut parallel to the lineation and perpendicular to the foliation.
@@ -1150,7 +1152,7 @@ Synthetic and antithetic
 Tasman Line
 : The conventional boundary between the Precambrian cratonic core of Australia and the accreted Phanerozoic Tasmanides to the east. It is useful shorthand and does echo real steps in Moho depth and lithospheric thickness, but its exact position is actively debated and it is certainly not a single line.
 
-  *Slides: [1.1a The Australian Plate — The names of things](/slideshows/Module-i-GlobalTectonics-1a.reveal.html#/4/1)*
+  *Slides: [1.1a The Australian Plate — The Tasman Line](/slideshows/Module-i-GlobalTectonics-1a.reveal.html#/4/2)*
 
 Tasmanides
 : The Phanerozoic accreted eastern third of the Australian continent — the Delamerian, Lachlan, Thomson, Mossman and New England orogens, added successively along the Gondwana margin during the Palaeozoic. Their lithosphere is much thinner than the cratons to the west, which is why they still localise heat, magmatism and deformation.
