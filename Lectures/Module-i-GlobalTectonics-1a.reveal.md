@@ -155,6 +155,12 @@ So use "Tasman Line" the way you would use "the tree line": a real transition, w
 
 *Watch for it in the datasets that follow — Moho depth, lithospheric thickness, magnetics and gravity each show the transition, and each shows it somewhere slightly different. That disagreement is the evidence, not noise.*
 
+<small>
+
+→ Drawn on a named-province map, with the zircon-age and tomographic evidence beside it, in the [continental accretion lecture](Module-i-Accretion-draft.reveal.html).
+
+</small>
+
 <--o-->
 
 ## When the pieces came together
@@ -172,6 +178,23 @@ So use "Tasman Line" the way you would use "the tree line": a real transition, w
 | **Cenozoic** | Rapid northward drift; collision with the Banda Arc / PNG begins at the northern margin |
 
 Intraplate reactivation continues today: Petermann and Alice Springs orogens record Paleozoic *intracontinental* mountain building — and the modern stress field (Module 1.3) still reactivates these structures.
+
+<--v-->
+
+## Two bursts, not a steady drip
+
+That table reads like a continuous process. It was not. Date enough zircons and the continent's growth arrives in **two pulses**:
+
+- **~1900–1700 Ma** — the North and West Australian cratons assemble, inside **Nuna / Columbia**
+- **~500 Ma onwards** — the **Tasmanides** accrete onto the eastern margin
+
+Between and after them, comparatively little new crust. The gaps matter as much as the peaks: continental growth is **episodic**, and the pulses line up with the supercontinent cycle you just saw.
+
+<small>
+
+→ Developed with the zircon-age evidence, seismic tomography and the province map in the [continental accretion lecture](Module-i-Accretion-draft.reveal.html).
+
+</small>
 
 <--o-->
 
