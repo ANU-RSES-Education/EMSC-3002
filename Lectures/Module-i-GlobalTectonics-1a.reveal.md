@@ -125,9 +125,19 @@ The boundary zone is often drawn as the **"Tasman Line"** — useful shorthand, 
 
 ## The Tasman Line
 
-![TasmanLine](images/Australia/tasman-line.png) <!-- .element style="display:block; margin-left:auto; margin-right:auto; width:52%" -->
+![TasmanProvinces](images/Australia/tasman-line-provinces.png) <!-- .element style="display:block; margin-left:auto; margin-right:auto; width:47%" -->
 
-The name for the boundary between **Precambrian Australia** in the west and the **Phanerozoic Tasmanides** in the east. It is one of the most-used terms in Australian geology — and one of the least agreed.
+The name for the boundary between **Precambrian Australia** in the west and the **Phanerozoic Tasmanides** in the east — here drawn across a map of the named provinces. Everything west of it is craton and Proterozoic orogen; everything east is Palaeozoic orogen and younger basin.
+
+It is one of the most-used terms in Australian geology — and one of the least agreed. Note the quotation marks.
+
+<--v-->
+
+## …and here is the same boundary, undrawn
+
+![TasmanLine](images/Australia/tasman-line.png) <!-- .element style="display:block; margin-left:auto; margin-right:auto; width:48%" -->
+
+The same continent with the two domains shaded and **no line drawn at all** — because the position depends entirely on which dataset you ask.
 
 <--v-->
 
@@ -182,6 +192,8 @@ Intraplate reactivation continues today: Petermann and Alice Springs orogens rec
 <--v-->
 
 ## Two bursts, not a steady drip
+
+![TwoBursts](images/Australia/two-bursts-accretion.png) <!-- .element style="display:block; margin-left:auto; margin-right:auto; width:76%" -->
 
 That table reads like a continuous process. It was not. Date enough zircons and the continent's growth arrives in **two pulses**:
 
