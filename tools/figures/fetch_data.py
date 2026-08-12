@@ -15,6 +15,23 @@ Sources and licences:
   * Moho — AusMoho / AuSREM 2023 Moho surface at 0.25 degrees. Kennett,
     B. (2019), AusMoho, AusPass and the ANU Data Commons,
     doi:10.25911/5cf751c17b3d4, CC BY 4.0.
+  * LAB — LithoRef18, Afonso et al. (2019), Geophys. J. Int. 217,
+    1602-1628, doi:10.1093/gji/ggz094, hosted by EarthByte for the
+    GPlates portal. Chosen over LITHO1.0 as the more modern global
+    reference model. NOTE the native model is 2 degrees; the file taken
+    here is EarthByte's GMT-surfaced 0.25 degree rendering of it, so it
+    is smoother than the underlying resolution.
+  * Sediment thickness — OZ SEEBASE 2021 (Geognostics Australia),
+    served by Geoscience Australia's "Estimates of Geological and
+    Geophysical Surfaces" WCS. CC BY 4.0 per the GA eCat record — worth
+    stating plainly, because OZ SEEBASE is a commercial product and the
+    obvious assumption is that it cannot be reused. It can, with
+    attribution.
+  * Gravity — National Gravity Compilation 2019 (complete spherical cap
+    Bouguer anomaly), Geoscience Australia, eCat 144786. The file's own
+    metadata states "CC BY 4.0 (C) Commonwealth of Australia". The full
+    grid is 13441 x 9601 at 15 arc-seconds, so it is read over OPeNDAP
+    from NCI with a stride rather than downloaded.
 """
 import csv
 import io
@@ -94,3 +111,77 @@ with open(dst, "w", newline="") as fh:
         w.writerow(p)
         n += 1
 print(f"wrote {dst}: {n} Moho grid nodes")
+
+# --- LAB --------------------------------------------------------------------
+# Global NetCDF; keep only the Australian window as a small CSV so the
+# figure scripts need no netCDF dependency and the extract stays committable.
+import tempfile
+
+import netCDF4
+import numpy as np
+
+blob = get("https://www.earthbyte.org/webdav/ftp/earthbyte/gplates_portal/"
+           "Afonso_etal_lithospheric_thickness_GJI2019/"
+           "lithospheric-thickness-gmt-surface.nc")
+with tempfile.NamedTemporaryFile(suffix=".nc", delete=False) as tf:
+    tf.write(blob)
+    tmp = tf.name
+ds = netCDF4.Dataset(tmp)
+lon = np.asarray(ds.variables["lon"][:])
+lat = np.asarray(ds.variables["lat"][:])
+z = np.asarray(ds.variables["z"][:])            # LAB depth, metres
+ds.close()
+os.unlink(tmp)
+ix = np.nonzero((lon > BOX["lonmin"]) & (lon < BOX["lonmax"]))[0]
+iy = np.nonzero((lat > BOX["latmin"]) & (lat < BOX["latmax"]))[0]
+dst = os.path.join(OUT, "au_lab.csv")
+with open(dst, "w", newline="") as fh:
+    w = csv.writer(fh)
+    w.writerow(["lon", "lat", "lab_km"])
+    for j in iy:
+        for i in ix:
+            v = z[j, i]
+            if np.isfinite(v):
+                w.writerow([f"{lon[i]:.4f}", f"{lat[j]:.4f}",
+                            f"{v / 1000.0:.2f}"])
+print(f"wrote {dst}: {len(ix) * len(iy)} LAB grid nodes")
+
+# --- sediment thickness -----------------------------------------------------
+# WCS returns a float32 GeoTIFF on the requested bbox, so the geographic
+# corners are exactly the bbox and no world file is needed.
+SED_BBOX = (110.0, -45.0, 156.0, -9.0)          # lon0, lat0, lon1, lat1
+SED_W, SED_H = 920, 720
+u = ("https://services.ga.gov.au/gis/eggs/wcs?service=WCS&version=1.0.0"
+     "&request=GetCoverage&coverage=eggs:OZSEEBASE_2021_Sediment_"
+     "Thickness_Grid_Geognostics&crs=EPSG:4326"
+     f"&bbox={SED_BBOX[0]},{SED_BBOX[1]},{SED_BBOX[2]},{SED_BBOX[3]}"
+     f"&width={SED_W}&height={SED_H}&format=GeoTIFF")
+dst = os.path.join(OUT, "au_sediment.npz")
+tif = os.path.join(OUT, "_sed.tif")
+with open(tif, "wb") as fh:
+    fh.write(get(u))
+from PIL import Image                                       # noqa: E402
+a = np.array(Image.open(tif), dtype=np.float32)
+os.unlink(tif)
+a[a < -1e30] = np.nan                                       # WCS nodata
+np.savez_compressed(dst, z=a, bbox=np.array(SED_BBOX))
+print(f"wrote {dst}: {a.shape} sediment grid, "
+      f"{np.isfinite(a).sum()} valid cells")
+
+# --- gravity ----------------------------------------------------------------
+import netCDF4                                              # noqa: E402
+
+STRIDE = 10
+ds = netCDF4.Dataset(
+    "https://thredds.nci.org.au/thredds/dodsC/iv65/"
+    "Geoscience_Australia_Geophysics_Reference_Data_Collection/"
+    "national_geophysical_compilations/Gravmap2019/"
+    "Gravmap2019-grid-grv_cscba.nc")
+glat = np.asarray(ds.variables["lat"][::STRIDE])
+glon = np.asarray(ds.variables["lon"][::STRIDE])
+gz = np.asarray(ds.variables["Band1"][::STRIDE, ::STRIDE], dtype=np.float32)
+ds.close()
+gz[gz < -9e5] = np.nan                                      # _FillValue
+dst = os.path.join(OUT, "au_gravity.npz")
+np.savez_compressed(dst, z=gz, lat=glat, lon=glon)
+print(f"wrote {dst}: {gz.shape} gravity grid (stride {STRIDE})")
