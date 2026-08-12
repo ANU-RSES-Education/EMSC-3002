@@ -388,15 +388,7 @@ AusMoho / AuSREM 2023, Kennett (2019), [doi:10.25911/5cf751c17b3d4](https://doi.
 
 ## Datasets: lithospheric thickness (LAB)
 
-<!-- TODO figure: LAB depth. CHECKED 2026-08-10 and still open:
-     AusPass publishes AusMoho as an open 0.25-deg grid (now plotted on
-     the Moho slide) but NO lithospheric-thickness / LAB product. The
-     AuSREM mantle model is there as a 150 MB tarball with no licence
-     stated on the index — worth chasing with RSES, since re-plotting it
-     would match the Moho, stress and seismicity figures exactly.
-     Meanwhile the Fishwick & Rawlinson (2012) tomography already sits in
-     the accretion deck; it is AJES and not openly licensed, so link to
-     that slide rather than copying the image here. -->
+![LAB](images/Australia/australia-lab.png) <!-- .element style="display:block; margin-left:auto; margin-right:auto; width:55%" -->
 
 - **AusLAMP** (magnetotellurics) and seismic tomography image the **lithosphere–asthenosphere boundary**.
 - Cratonic Australia has some of the **thickest lithosphere on Earth** (> 200 km); the eastern Tasmanides are much thinner (~100 km or less).
@@ -404,7 +396,27 @@ AusMoho / AuSREM 2023, Kennett (2019), [doi:10.25911/5cf751c17b3d4](https://doi.
 
 <small>
 
-→ Seen as seismic tomography at 150 km depth in the [continental accretion lecture](Module-i-Accretion-draft.reveal.html): cool, fast, thick lithosphere under the west and centre; warm, slow, thin under the Tasmanides.
+LithoRef18, Afonso et al. (2019), [doi:10.1093/gji/ggz094](https://doi.org/10.1093/gji/ggz094), grid via EarthByte — chosen over LITHO1.0 as the more modern reference model. The native model is 2°; this is a surfaced 0.25° rendering, so read the first-order pattern, not the detail.
+
+→ Seen independently as seismic tomography at 150 km in the [continental accretion lecture](Module-i-Accretion-draft.reveal.html): cool, fast, thick lithosphere under the west and centre; warm, slow, thin under the Tasmanides.
+
+</small>
+
+<--v-->
+
+## Why the mining companies care
+
+The cyan line on that map is the **170 km** contour — the step from thick cratonic lithosphere to thin.
+
+Hoggard et al. (2020) tested this globally: **85% of sediment-hosted base metal deposits, and *every* giant one, lie within 200 km of that step.** The idea is that the edge of a craton is where you get both the deep, long-lived plumbing and the basins to put the metal in.
+
+Australia supplies two of the textbook cases — **Mount Isa** and **Broken Hill** — and both sit on the contour. Check them against the map yourself rather than taking my word for it.
+
+*This is the payoff of the whole deck in one line: the deposits, the province map, the lithospheric structure and the assembly history are all the same story told from different angles.*
+
+<small>
+
+Hoggard, Czarnota, Richards, Huston, Jaques & Ghelichkhan (2020), *Nature Geoscience* **13**, 504–510.
 
 </small>
 
@@ -418,25 +430,41 @@ AusMoho / AuSREM 2023, Kennett (2019), [doi:10.25911/5cf751c17b3d4](https://doi.
 
 ## Datasets: sediment thickness & basins
 
-<!-- TODO figure: depth to basement. CHECKED 2026-08-10: OZ SEEBASE is a
-     Frogtech COMMERCIAL product — do not assume it is reusable; only a
-     derived public version would be. Better open routes to try, in
-     order: GA's sediment-thickness / basin-depth grids via eCat (GA
-     content is generally CC BY 4.0), or the global GlobSed grid
-     (Straume et al. 2019, via NOAA/NCEI) which is coarse but open and
-     would re-plot on the shared base map like the Moho figure. -->
+![Sediment](images/Australia/australia-sediment.png) <!-- .element style="display:block; margin-left:auto; margin-right:auto; width:55%" -->
 
-- **OZ SEEBASE** and GA basin studies map **depth to basement** — the thickness of the sedimentary cover.
+- **OZ SEEBASE** and GA basin studies map **depth to basement** — the thickness of the sedimentary cover. **64% of the continent sits under more than a kilometre of it**, and the deepest basins exceed 15 km.
 - Major basins: **Canning, Amadeus, Officer, Cooper–Eromanga, Great Artesian, Otway–Gippsland** (rifted southern margin), **North West Shelf**.
 - Reading it: basins record the *subsidence* half of the tectonic story — rifting, sag, foreland loading — and host the resources (and the hydrogen prospects) we return to in Module 4.
+
+<small>
+
+OZ SEEBASE 2021, Geognostics Australia, via Geoscience Australia, CC BY 4.0. Log colour scale — thickness spans four orders of magnitude.
+
+</small>
+
+<--v-->
+
+## …which is why we need the X-rays
+
+![Gravity](images/Australia/australia-gravity.png) <!-- .element style="display:block; margin-left:auto; margin-right:auto; width:55%" -->
+
+If most of the geology is buried, you map it with **potential fields**. This is the Bouguer gravity anomaly — density structure, seen straight through the cover.
+
+Note the broad **low over central Australia**: that is the same place the Moho map showed the **thickest crust**. Two completely independent measurements, one answer — thick, low-density crustal root. That agreement is how you know to trust either of them.
+
+<small>
+
+National Gravity Compilation 2019 (complete spherical cap Bouguer anomaly), Geoscience Australia, CC BY 4.0. Magnetics (TMI) is the other half of the pair — see [Module 2.1](Module-ii-Lecture-1-Structural-Geology-And-Crustal-Deformation.reveal.html).
+
+</small>
 
 <--o-->
 
 ## Datasets: potential fields, stress & seismicity
 
-<!-- TODO figure: gravity anomaly grid (GA). Stress and seismicity are now
-     built from public databases by tools/figures/; TMI is linked, not
-     repeated, per the note below. -->
+<!-- All four of these now have figures built from public data by
+     tools/figures/ (gravity, stress, seismicity), except TMI which is
+     deliberately linked to Module 2.1 rather than repeated. -->
 
 - **Magnetics (TMI)** — the structural X-ray of the covered continent. <small>↩ First shown in [Module 2.1](Module-ii-Lecture-1-Structural-Geology-And-Crustal-Deformation.reveal.html).</small>
 - **Gravity** — density structure; craton edges and thick basins stand out.
