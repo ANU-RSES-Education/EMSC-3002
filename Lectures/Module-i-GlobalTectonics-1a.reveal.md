@@ -36,6 +36,13 @@ This course is about the *structure and tectonic evolution of the Australian pla
 
 This short section follows on directly from the global picture in 1.1, and it is a reference you will come back to throughout the course. Each later module uses Australian examples that sit somewhere on the maps you see here.
 
+### Reading this yourself
+
+This section is set as **reading** rather than a lecture, so two things are worth knowing before you start:
+
+- **Press <kbd>down</kbd> as well as <kbd>right</kbd>.** More than half of these slides sit *below* the one you land on — the argument usually starts on the top slide and is developed underneath it. Pressing <kbd>O</kbd> shows the whole layout at once if you want to see the shape first.
+- **You are not expected to memorise the maps.** Come away knowing *what each dataset shows and why we look at it*; the maps themselves are here to come back to.
+
 <--o-->
 
 ## What you will learn in this module
@@ -200,7 +207,7 @@ That table reads like a continuous process. It was not. Date enough zircons and 
 - **~1900–1700 Ma** — the North and West Australian cratons assemble, inside **Nuna / Columbia**
 - **~500 Ma onwards** — the **Tasmanides** accrete onto the eastern margin
 
-Between and after them, comparatively little new crust. The gaps matter as much as the peaks: continental growth is **episodic**, and the pulses line up with the supercontinent cycle you just saw.
+Between and after them, comparatively little new crust. The gaps matter as much as the peaks: continental growth is **episodic**, and the pulses line up with the **supercontinent cycle** you just saw.
 
 <small>
 
@@ -239,6 +246,44 @@ So the two halves of this course's title are objects with very different lifespa
 - the **Australian continent** — an assembly of ancient pieces that has survived every one of those supercontinent cycles, and is the subject of the rest of this deck.
 
 *The plate is what Australia is riding on. The continent is what it is carrying.*
+
+<--v-->
+
+## The Wilson Cycle
+
+If ocean floor is temporary, then every ocean basin has a **life story** — and it is the same story every time. That cycle is named after J. Tuzo Wilson, who realised the Atlantic had closed once already and reopened along nearly the same line.
+
+| Stage | What is happening | Where you can watch it today |
+|---|---|---|
+| **Rifting** | a continent stretches, thins and breaks | East African Rift |
+| **Narrow sea** | spreading begins; the rift floods | Red Sea, Gulf of Aden |
+| **Mature ocean** | wide basin, quiet **passive margins** on both sides | Atlantic |
+| **Subduction starts** | somewhere the ocean begins to close | Pacific margins |
+| **Closing** | ocean floor consumed; arcs and continents converge | Mediterranean, Banda Arc |
+| **Collision** | last ocean gone; **suture** and mountain belt | Himalaya, Alps |
+
+And then it can begin again — often by rifting along the *same old weakness*, which is why ancient sutures keep coming back to life.
+
+*The nine frames on the previous slide are this cycle, run about four times over.*
+
+<--v-->
+
+## Australia is in four stages at once
+
+You do not need deep time to see the Wilson Cycle. Go around the edge of this one plate and nearly every stage is happening **right now**:
+
+- **Southern margin** — a **mature ocean** and a textbook passive margin, opened from Antarctica since ~85 Ma
+- **South-west** — the **Southeast Indian Ridge**: active spreading, still widening
+- **North-west** — **Sunda–Java**: subduction, the ocean beginning to close
+- **North** — the **Banda Arc and New Guinea**: **arc–continent collision in progress**, the terminal stage, happening to Australia's own northern margin as we speak
+
+So the same plate carries a margin that is being born and a margin that is being destroyed. That is why this course can use Australia for almost everything.
+
+<small>
+
+↩ The boundaries themselves are toured earlier in this deck, and boundary-by-boundary in [1.2](Module-i-GlobalTectonics-2.reveal.html).
+
+</small>
 
 <--v-->
 
