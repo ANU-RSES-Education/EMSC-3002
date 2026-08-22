@@ -792,12 +792,12 @@ Parasitic fold
 Passive folding
 : Folding in which the layers play no mechanical role and simply act as passive markers carried by the flow — the card-deck model. Contrast buckling: passive folding needs no competence contrast, dominates at high temperature and in shear zones, and produces similar folds of constant thickness parallel to the axial surface.
 
-  *Slides: [5.2 Folds and Folding Mechanisms — Passive Folding](/slideshows/Module-v-lecture2-Folds-and-Folding-Mechanisms.reveal.html#/37)*
+  *Slides: [5.2 Folds and Folding Mechanisms — Passive Folding](/slideshows/Module-v-lecture2-Folds-and-Folding-Mechanisms.reveal.html#/37) · [1.1a The Australian Plate — The Wilson Cycle](/slideshows/Module-i-GlobalTectonics-1a.reveal.html#/6/2)*
 
 Passive margin
 : A continental margin that is not a plate boundary, formed by rifting and subsequent thermal subsidence, so it accumulates thick sediment wedges but has little seismicity. Australia's southern and western margins are the type examples.
 
-  *Slides: [5.2 Folds and Folding Mechanisms — Passive Folding](/slideshows/Module-v-lecture2-Folds-and-Folding-Mechanisms.reveal.html#/37)*
+  *Slides: [5.2 Folds and Folding Mechanisms — Passive Folding](/slideshows/Module-v-lecture2-Folds-and-Folding-Mechanisms.reveal.html#/37) · [1.1a The Australian Plate — The Wilson Cycle](/slideshows/Module-i-GlobalTectonics-1a.reveal.html#/6/2)*
 
 Pencil cleavage
 : The intermediate stage in which a weak tectonic cleavage is about as well expressed as the bedding it cuts at a high angle, so the rock breaks along both at once into pencil-shaped splinters. A handy field marker for early, low-strain shortening in a mudrock.
@@ -1120,12 +1120,17 @@ Stylolite
 Subduction zone
 : A convergent boundary where oceanic lithosphere bends down at a trench and is recycled into the mantle, carrying its crust, sediments and water with it. It is inherently three-dimensional and mechanically dominated by the megathrust contact between the two plates.
 
-  *Slides: [1.2 Plate Boundaries — Subduction zone stresses](/slideshows/Module-i-GlobalTectonics-2.reveal.html#/15) · [4.3 Faults and Fault Zones — Earthquakes at Subduction Zones](/slideshows/Module-iv-lecture6-Faults-Fault-Zones-draft.reveal.html#/60) · [2.1 Structural Geology — Structural Geology, Tectonics, Geodynamics...](/slideshows/Module-ii-Lecture-1-Structural-Geology-And-Crustal-Deformation.reveal.html#/6)*
+  *Slides: [1.2 Plate Boundaries — Subduction zone stresses](/slideshows/Module-i-GlobalTectonics-2.reveal.html#/15) · [4.3 Faults and Fault Zones — Earthquakes at Subduction Zones](/slideshows/Module-iv-lecture6-Faults-Fault-Zones-draft.reveal.html#/60) · [1.1a The Australian Plate — The Wilson Cycle](/slideshows/Module-i-GlobalTectonics-1a.reveal.html#/6/2)*
 
 Sub-simple shear
 : The realistic case in which a shear zone combines simple shear with a pure-shear component, so the kinematic vorticity number lies between 0 and 1. The diagnostic is the instantaneous stretching axes: in sub-simple shear they are oblique to the walls at an angle other than 45° and stay fixed during steady deformation.
 
   *Slides: [5.5 Shear Zones — Sub-Simple Shear](/slideshows/Module-v-lecture4-Shear-Zones.reveal.html#/46)*
+
+Supercontinent cycle
+: The long rhythm underneath the Wilson cycle: most of the continental crust gathers into a single mass and then disperses again, roughly every 500–700 million years. The assemblies usually named are **Nuna** (also called Columbia, ~1.8 Ga), **Rodinia** (~1.0 Ga), and **Gondwana** merging into **Pangea** (~0.3 Ga). Australia was inside all of them, which is why its assembly history is told against those names.
+
+  *Slides: [1.1a The Australian Plate — Two bursts, not a steady drip](/slideshows/Module-i-GlobalTectonics-1a.reveal.html#/5/1)*
 
 Superposed folding
 : What you get when a later deformation phase refolds an earlier generation, giving refolded folds and characteristic interference patterns. Reading those patterns lets you reconstruct the deformation sequence.
@@ -1271,6 +1276,11 @@ Wavelength (fold)
 : The repeat distance of a fold train — the distance between adjacent hinges of the same sense. In buckling it is set by layer thickness and viscosity contrast, which is why it is such a useful diagnostic.
 
   *Slides: [5.1 Fold Geometry — Fold styles](/slideshows/Module-v-lecture1-Fold-Geometry.reveal.html#/10)*
+
+Wilson cycle
+: The life story of an ocean basin, and the single most useful frame for reading a continent's history. A continent rifts; the rift floods and becomes a narrow sea; sea-floor spreading widens it into a mature ocean with quiet, subsiding **passive margins** on both sides; somewhere a subduction zone starts and the ocean begins to close; the last of the ocean floor is consumed and the two continental margins collide, welding into one landmass with a mountain belt along the **suture**. Then the whole thing can begin again — often along the *same* old weakness. Named for J. Tuzo Wilson, who argued that the Atlantic had closed and reopened close to the same line. The point to carry away is that **ocean floor is temporary and continents are not**: the same fragments are rifted and re-assembled over and over, which is why ancient sutures keep being reactivated long after the ocean that made them has gone.
+
+  *Slides: [1.1a The Australian Plate — The Wilson Cycle](/slideshows/Module-i-GlobalTectonics-1a.reveal.html#/6/2)*
 
 World Stress Map
 : The global compilation of contemporary crustal stress orientations in the upper 40 km, built from focal mechanisms, borehole breakouts, in-situ measurements and neotectonic structures, and colour-coded by tectonic regime. It shows a broad correlation between maximum horizontal stress and plate motion — plus enough exceptions to prove that many sources of stress act at once. Note that it gives orientation, not magnitude.
