@@ -30,6 +30,8 @@ David Stegman (Scripps, UCSD)
 </div>
 </div>
 
+<small>Reading these on your own? Press **O** for the overview, and **&darr;** as well as **&rarr;** &mdash; some slides sit below this one. <a href="../lecture-1-introduction/#navigating-the-slides" target="_blank" rel="noopener">How to navigate the slides</a></small>
+
 <--o-->
 
 <!-- source: RSES-Collisions.pptx slide 2 · template: T6-two-image -->

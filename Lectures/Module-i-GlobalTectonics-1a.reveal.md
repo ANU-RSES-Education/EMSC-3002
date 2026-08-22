@@ -23,6 +23,7 @@ Australian National University
 
 _**NB:** the course materials provided by the authors are open source under a creative commons licence.  We acknowledge the contribution of the community in providing other materials and we endeavour to provide the correct attribution and citation. Please contact louis.moresi@anu.edu.au for updates and corrections._
 
+<small>Reading these on your own? Press **O** for the overview, and **&darr;** as well as **&rarr;** &mdash; some slides sit below this one. <a href="../lecture-1-introduction/#navigating-the-slides" target="_blank" rel="noopener">How to navigate the slides</a></small>
 
 <--o-->
 
@@ -40,7 +41,7 @@ This short section follows on directly from the global picture in 1.1, and it is
 
 This section is set as **reading** rather than a lecture, so two things are worth knowing before you start:
 
-- **Press <kbd>down</kbd> as well as <kbd>right</kbd>.** More than half of these slides sit *below* the one you land on — the argument usually starts on the top slide and is developed underneath it. Pressing <kbd>O</kbd> shows the whole layout at once if you want to see the shape first.
+- **Go down as well as across.** This section is unusually deep: *more than half* its slides sit below the one you land on, and the argument normally starts on the top slide and is developed underneath it.
 - **You are not expected to memorise the maps.** Come away knowing *what each dataset shows and why we look at it*; the maps themselves are here to come back to.
 
 <--o-->
