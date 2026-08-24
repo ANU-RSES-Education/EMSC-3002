@@ -672,10 +672,11 @@ Underworld3 split-node fault computation (Moresi). Measured radii $1.41 = \sqrt{
 
 </div>
 <div>
+The largest circle contains $\sigma_1$ and $\sigma_3$.
 
-- The largest circle contains $\sigma_1$ and $\sigma_3$.
-- Three circles for general cases, but could be only one in special case.
-- What a hydrostatic stress looks like?
+Three circles for general cases, but could be only one in special case.
+
+What does a hydrostatic stress looks like?
 
 </div>
 </div>
@@ -696,12 +697,15 @@ A fracture criterion describes the critical condition at which a rock fractures.
 
 The Coulomb-Mohr failure criterion describes a linear relationship between the shear stress and normal stress to initiate a shear fracture.
 
+$\sigma_{s}=C+\sigma_{n}\tan \phi =C+$ $\sigma_{n}\mu$
+
+
 They form two straight lines on the Mohr circle diagram:
 - C is the cohesive strength
 - $\phi$ is the angle of internal friction
-- $\mu$ is the coefficient of friction (usually $0.4 \lt \mu \lt 0.7$   )
+- $\mu$ is the coefficient of friction 
+- (usually $0.4 \lt \mu \lt 0.7$   )
 
-$\sigma_{s}=C+\sigma_{n}\tan \phi =C+$ $\sigma_{n}u$
 
 </div>
 <div>
@@ -735,13 +739,13 @@ Underworld3 split-node fault computation (Moresi).
 
 <--v-->
 
-## The experiment, remembered from Module 1.3
+## The "experiment" from Module 1.3
 
 ![CaliforniaCurved](images/UW-FaultExamples/california-curved.png) <!-- .element style="display:block; margin-left:auto; margin-right:auto; width:56%" -->
 
 At the end of [Module 1.3](Module-i-GlobalTectonics-3.reveal.html) we let this schematic San Andreas — one continuous trace with a restraining bend — slip right-laterally, while its neighbours (Garlock, the ECSZ strands, a San Jacinto analogue) stayed welded and simply *felt* the event. The map is the change each point experiences; the panels read that change on each neighbour's own plane.
 
-What exactly is that quantity on the colour bar? That is the next slide — and the numbers that follow are all read straight off this experiment.
+What exactly is that quantity on the colour bar? That is the next slide — and the numbers that follow are all from this experiment.
 
 <small>
 
@@ -759,7 +763,7 @@ A fault fails when its stress point reaches the envelope — so measure **how fa
 
 $$\mathrm{CFF} = \tau - (C + \mu' \sigma)$$
 
-That is just the *gap* between the point and the failure line: negative below it, zero on it. Change the stress and the gap changes with it —
+That is just the *gap* between the point and the failure line: negative below it, zero on it. 
 
 $$\Delta \mathrm{CFF} = \Delta \tau - \mu' \Delta \sigma$$
 
@@ -769,14 +773,14 @@ $$\Delta \mathrm{CFF} = \Delta \tau - \mu' \Delta \sigma$$
 
 ## Two terms: they may fight
 
-The measured San Jacinto case on the right of that figure is a good one to hold on to, because the two terms pull in **opposite** directions:
+The measured San Jacinto case on the right of that figure is a good one to look at, because the two terms pull in **opposite** directions:
 
-- $\Delta \tau = -0.53$ — the San Andreas event took shear off the plane, moving it *away* from failure
+- $\Delta \tau = -0.53$ — the San Andreas slip reduces shear on the plane — *away* from failure
 - $-\mu' \Delta \sigma = +0.11$ — it also *unclamped* the plane, moving it *towards* failure
 
-The shear term wins, so the net is $-0.42$: this fault is safer than it was. But you cannot tell that from either term alone, and the sign of the answer is not obvious before you compute it.
+The shear term wins, so the net is $-0.42$: this fault is "safer" than it was. But you cannot tell that from either term alone, and the sign of the answer is not obvious before you compute it.
 
-$\mu'$ is an **effective** friction: it bundles the real friction together with how the pore fluid responds to the squeeze. Values near $0.4$ are usual.
+$\mu'$ is an **effective** friction: it bundles the real friction together with how the pore fluid responds to the squeeze. Values near $0.4$ are common.
 
 <--v-->
 
@@ -788,15 +792,17 @@ Three things to keep straight before reading any of the numbers that follow:
 - It is **defined only for a stated plane and slip direction**. "Was this fault loaded?" has no answer until you say *which* fault, facing *which* way — as the next slides show, the answer can flip sign with orientation.
 - The values that matter in practice are **small**. Earthquakes drop of order $1$–$10$ MPa, but triggering is observed for changes as small as $\sim 0.01$ MPa — because faults are already sitting close to failure.
 
-*That last point is the one worth remembering: these are nudges to a system already on the edge, not shoves that break intact rock.*
 
 ![CaliforniaCurved](images/UW-FaultExamples/california-curved.png) <!-- .element style="display:block; margin-left:auto; margin-right:auto; width:30%" -->
 
 <small>
-
-The experiment where all three cautions bite — the sign of the answer flips fault by fault.
-
+The experiment where all three warnings are valid — the sign of the answer flips fault by fault.
 </small>
+
+*That last point is worth remembering: these are nudges to an existing system of faults not new breaks in intact rock.*
+
+
+
 
 <--v-->
 
@@ -1011,7 +1017,7 @@ Hydrostatic stress is another term often used, it also represents the isotropic 
 
 ## Depth-Dependent Strength on One Fault
 
-![MohrGraded](images/UW-FaultExamples/mohr-graded.png) <!-- .element style="display:block; margin-left:auto; margin-right:auto; width:62%" -->
+![MohrGraded](images/UW-FaultExamples/mohr-graded.png) <!-- .element style="display:block; margin-left:auto; margin-right:auto; width:50%" -->
 
 Under a hydrostatic (depth-increasing) load, a single fault is not one point in the Mohr plane — every depth along it feels a different confining stress, so the fault becomes a depth-coloured *streak* spanning a family of Mohr circles.
 
@@ -1051,38 +1057,37 @@ If the Mohr circle does not intersect the Mohr-Coulomb failure criterion, then t
 <--o-->
 
 <!-- source: Lecture1_Stress.pptx slide 39 · template: T3-text-and-image -->
-## Summary of Previous Lecture
+## Summary
 <div class="cols">
 <div class="wide">
 
-- Derive the Mohr circle for a uniaxial compression case.
-- General form of Mohr circle for biaxial compression:
-- The Coulomb-Mohr failure criteria:
-- Anderson’s theory of faulting: concept & assumptions.
-- Concepts of lithostatic stress/pressure and hydrostatic stress, and the effect of pore fluid pressure.
+We derived the Mohr circle for a uniaxial compression case and 
+general form of Mohr circle for biaxial compression / triaxial
+by extension of the ideas.
 
-$\sigma_3$
+$$(\sigma_n - \sigma/2)^2 + \sigma_s^2 = \sigma^2/4$$
 
-$(\sigma_n - \sigma/2)^2 + \sigma_s^2 = \sigma^2/4$
+$$\left[ \sigma_{n} - \frac{1}{2}\left( \sigma_1 + \sigma_3\right)\right]^2 + \sigma_s^2 = 
+   \left[ \frac{1}{2}\left(\sigma_1 - \sigma_3\right) \right]^2
+$$ 
 
-$\theta$
+The Coulomb-Mohr failure criterion:
 
-$\sigma$
+$$\sigma_{s}=C+\sigma_{n}\tan \phi = C+\sigma_{n}\mu$$
 
-$\sigma_1$
 
-$\sigma_{s}=C+\sigma_{n}\tan \phi =C+$ $\sigma_{n}u$
+Anderson’s theory of faulting: concept & assumptions.
 
-$\theta$
+Concepts of lithostatic stress/pressure and hydrostatic stress, 
+  and the effect of pore fluid pressure.
 
 </div>
 <div>
 
-![](Module-iii-Theory/Lecture1-extracted/slide039_img2.jpg)
+![](Module-iii-Theory/uniaxial-biaxial-blocks.png)
 
 ![](Module-iii-Theory/Lecture1-extracted/slide039_img1.jpg) <!-- .element style="width:90%;" -->
 
-<p class="caption">Uniaxial compression · Biaxial compression · $\sigma_{s}=C+\sigma_{n}\tan \phi$</p>
 
 </div>
 </div>
@@ -1347,217 +1352,6 @@ In the subduction zone, the slab pull is the major thing. Louis gave a detailed 
 - Use the Coulomb-Mohr failure criteria to predict when rock fails.
 - Anderson’s theory of faulting: classification of tectonic stress.
 - How can we get information about the stress field near the surface? Some kilometers down? Even deeper down?
-
-<--o-->
-
-<!-- source: Lecture1_Stress.pptx slide 49 · template: T1-prose -->
-## Exercise five summary I
-- Dot product of two vectors
-
-y
-
-- 2D stress tensor
-
-**$T$**
-
-Traction vector
-
-$T$ = [a b]
-
-$\boldsymbol{\sigma} = \left[ \begin{matrix} \sigma_{xx} & \sigma_{xy} \cr \sigma_{yx} & \sigma_{yy} \end{matrix} \right]$ = $\left[ \begin{matrix} \vec{T}_x \cr \vec{T}_y \end{matrix} \right]$
-
-(a, b)
-
-Mathematic form
-
-$\vec{f}$ = [1 0]
-
-Unit vector along x axis
-
-$\vec{f}$
-
-x
-
-0
-
-(1, 0)
-
-y
-
-$\sigma_{yy}$
-
-This dot product gives you the projection of T along the x axis.
-
-$\vec{T} \cdot \vec{f} = [a \;\; b] \cdot \left[ \begin{matrix} 1 \cr 0 \end{matrix} \right] = a$
-
-Graphic form
-
-$\sigma_{yx}$
-
-y
-
-$\sigma_{xy}$
-
-**$T$**
-
-x
-
-$\sigma_{xx}$
-
-(a, b)
-
-Significantly simplify the process to project a vector along a dipping surface
-
-$\sigma_{xy}$
-
-- Two ways to describe stress along a surface:
-- Vector
-- Two orthogonal components
-
-$\vec{T}_x$
-
-x
-
-$\sigma_{xx}$
-
-$\vec{f′}$
-
-0
-
-<--o-->
-
-<!-- source: Lecture1_Stress.pptx slide 50 · template: T3-text-and-image -->
-## Exercise five summary II
-<div class="cols">
-<div>
-
-<div class="cols">
-
-![](Module-iii-Theory/Lecture1-extracted/slide050_img1.jpg)
-
-
-![](Module-iii-Theory/Lecture1-extracted/slide050_img2.jpg)
-
-</div>
-
-<p class="caption">$\sigma_{s}=C+\sigma_{n}\tan \phi$</p>
-
-</div>
-<div class="wide">
-
-- Mohr circle: a graphic way to show the shear and normal stress along a certain plane. Note the angle in Mohr circle space twice of that in real world.
-- It provides the info of the full stress state of a plane (2D) or a body (3D).
-
-- The Coulomb-Mohr failure criteria: represented as a straight line in the Mohr circle space. Its slope is $\tan \phi$ and the intersection with y axis is C.
-- A surface will fracture when the shear stress along a surface exceeds the critical shear stress predicted from this failure criteria.
-
-</div>
-</div>
-
-<--o-->
-
-<!-- source: Lecture1_Stress.pptx slide 51 · template: T3-text-and-image -->
-## Figures for exercise 5.
-<div class="cols">
-<div class="wide">
-
-Depth [km]
-
-Lake George fault
-
-**E**
-
-0
-
-120
-
-90
-
-60º
-
-5
-
-Shear stress, $\sigma_s$ (MPa)
-
-5 km
-
-2 km
-
-Figure 2.
-
-60
-
-30
-
-6 km
-
-100
-
-150
-
-200
-
-50
-
-0
-
-Normal stress, $\sigma_n$ (MPa)
-
-Figure 1.
-
-Figure 3.
-
-</div>
-<div>
-
-![](Module-iii-Theory/Lecture1-extracted/slide051_img1.jpeg) <!-- .element style="width:11%;" -->
-
-</div>
-</div>
-
-<--o-->
-
-<!-- source: Lecture1_Stress.pptx slide 52 · template: T1-prose -->
-## Figures for exercise 5.
-Depth [km]
-
-120
-
-$\sigma_s= \sigma_n+10$
-
-90
-
-Lake George fault
-
-Shear stress, $\sigma_s$ (MPa)
-
-**E**
-
-60
-
-0
-
-30
-
-45º
-
--5
-
-100
-
-150
-
-200
-
-0
-
-50
-
-Normal stress, $\sigma_n$ (MPa)
-
-Figure 2.
-
-Figure 3.
                     </textarea>
                 </section>
             </div>
