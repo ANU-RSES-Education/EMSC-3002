@@ -481,7 +481,7 @@ Starting with uniaxial compression and knowing that:
 
 $\sigma_{n} = \frac{F_{n}}{A_{2}}=\frac{F\cos\theta}{A_{2}}= \frac{F\cos^2\theta}{A_{1}}$
 
-$\sigma_{n} = \sigma \cos^2\theta$
+$\sigma_n = \sigma \cos^2\theta = \sigma (\cos 2\theta + 1)/2$
 
 $\sigma_{s} = \frac{F_{s}}{A_{2}}=\frac{F\sin\theta}{A_{2}}=\frac{F\sin\theta \cos \theta}{A_{1}}$
 
@@ -519,17 +519,17 @@ Stress and force behave differently. Note that the shear stress is at its maximu
 
 Two formulae:
 
-$\sigma_n = \sigma \cos^2\theta \\;\\;$
+$\sigma_n =  \sigma (\cos 2\theta + 1)/2 \\;\\;$
 and 
 $\\; \\; \sigma_s = \frac{\sigma \sin 2\theta}{2}$
 
 We want to see how $\sigma_{n}$ and $\sigma_{s}$ each vary as we change $\theta$.
 
-$$\sigma_n = \sigma \cos^2\theta = \sigma (\cos 2\theta + 1)/2$$
-
 $\cos 2\theta = 2(\sigma_n - \sigma/2)/\sigma \\;\\;$
 and 
 $ \\;\\; \sin 2\theta = 2\sigma_s/\sigma$
+
+But, $\cos^2 \phi + \sin^2\phi = 1$ for any $\phi$ so
 
 $$(\sigma_n - \sigma/2)^2 + \sigma_s^2 = \sigma^2/4$$
 
