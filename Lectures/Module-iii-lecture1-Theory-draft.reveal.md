@@ -519,8 +519,9 @@ Stress and force behave differently. Note that the shear stress is at its maximu
 
 Two formulae:
 
-$\sigma_n = \sigma \cos^2\theta$
-$\sigma_s = \frac{\sigma \sin 2\theta}{2}$
+$\sigma_n = \sigma \cos^2\theta \\;\\;$
+and 
+$\\; \\; \sigma_s = \frac{\sigma \sin 2\theta}{2}$
 
 We want to see how $\sigma_{n}$ and $\sigma_{s}$ each vary as we change $\theta$.
 
