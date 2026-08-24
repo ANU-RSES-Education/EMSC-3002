@@ -645,7 +645,20 @@ Underworld3 split-node fault computation (Moresi). Measured radii $1.41 = \sqrt{
 
 ![](Module-iii-Theory/Lecture1-extracted/slide030_img1.jpg) <!-- .element style="max-height:430px;" -->
 
+<div class="cols">
+<div>
+
 ![](Module-iii-Theory/Lecture1-extracted/slide030_img2.jpg) <!-- .element style="max-height:230px;" -->
+
+</div>
+<div>
+
+- The largest circle contains $\sigma_1$ and $\sigma_3$.
+- Three circles for general cases, but could be only one in special case.
+- What a hydrostatic stress looks like?
+
+</div>
+</div>
 
 <p class="caption">Fossen, 2010</p>
 
