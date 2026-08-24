@@ -350,31 +350,27 @@ A<sub>0 </sub>$∙$ B<sub>0 </sub>= 1$\times 2+5 \times 3=17$
 
 <--o-->
 
-<!-- source: Lecture1_Stress.pptx slide 17 · template: T3-text-and-image -->
-## Principal Stress
-<div class="cols">
-<div class="wide">
+<!-- source: Lecture1_Stress.pptx slide 17 · replaced by the clearer Module 1.3 slide (2026-08) -->
+## Principal Stresses
 
-- The stress tensor has principal directions which define a special orientation in which the shear stresses all vanish (this is a property of tensor quantities in general - diagonalised).
-- $\left[ \begin{matrix} \sigma xx & \sigma xy & \sigma xz \cr \sigma xy & \sigma yy & \sigma yz \cr \sigma xz & \sigma yz & \sigma zz \end{matrix} \right]$   becomes $\left[ \begin{matrix} \sigma 1 & 0 & 0 \cr 0 & \sigma 2 & 0 \cr 0 & 0 & \sigma 3 \end{matrix} \right]$
-- The three principal stresses have the convention of s<sub>1</sub> $\ge$ s<sub>2</sub> $\ge s3$.
-- Stress tensors represent the same state of stress (same shape and orientation of the stress ellipsoid) regardless of our choice of coordinate system.
+At any point in a stressed material there is one special set of three, mutually perpendicular directions in which all the shear stresses vanish and only pushes (or pulls) remain. These are the **principal directions**, and the corresponding stresses — $\sigma_1 \ge \sigma_2 \ge \sigma_3$ — are the **principal stresses**.
 
-A stress ellipsoid
+<center>
 
-Matlab function to calculate the eigenvalues/eigenfunctions; Wikipedia
+![Principal Stresses](images/GlobalTectonics/KaliakinCh4-PrincipalStresses.jpg) 
+<!-- .element style="width:40%" -->
 
-</div>
-<div>
+</center>
 
-![](Module-iii-Theory/Lecture1-extracted/slide017_img2.jpg)
+The orientation and relative size of the principal stresses is the single most useful description of the stress state in tectonics. Finding these directions is a standard property of tensor quantities — diagonalisation:
 
-![](Module-iii-Theory/Lecture1-extracted/slide017_img1.jpg) <!-- .element style="width:34%;" -->
+$$\left[ \begin{matrix} \sigma_{xx} & \sigma_{xy} & \sigma_{xz} \cr \sigma_{xy} & \sigma_{yy} & \sigma_{yz} \cr \sigma_{xz} & \sigma_{yz} & \sigma_{zz} \end{matrix} \right] \quad \Rightarrow \quad \left[ \begin{matrix} \sigma_1 & 0 & 0 \cr 0 & \sigma_2 & 0 \cr 0 & 0 & \sigma_3 \end{matrix} \right]$$
 
-<p class="caption">Kaliakin, 2017 · Fossen, 2010</p>
+<small>
 
-</div>
-</div>
+The diagram above is found in Kaliakin, V. N. (2017). Stresses, Strains, and Elastic Response of Soils. In Soil Mechanics (pp. 131–203). Elsevier. https://doi.org/10.1016/B978-0-12-804491-9.00004-5
+
+</small>
 
 <--o-->
 
