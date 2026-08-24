@@ -460,84 +460,11 @@ The second invariant plays the role of the magnitude of the deviatoric part of t
 
 Screenshot
 
-<--o-->
-
-<!-- source: Lecture1_Stress.pptx slide 23 · template: T3-text-and-image -->
-## Review of Matrix Multiplication
-<div class="cols">
-<div>
-
-![](Module-iii-Theory/Lecture1-extracted/slide023_img1.png) <!-- .element style="width:75%;" -->
-
-<p class="caption">Wikipedia · 2x3 · C · 4x3 · 4x2</p>
-
-</div>
-<div class="wide">
-
-- Calculate traction/stress along a surface given a stress matrix
-
-$\vec{T}_i=\boldsymbol{\sigma} \cdot \vec{n}$
-
-What is $\vec{T}_i$?
-
-$$\vec{n}=\left[ \begin{matrix} 2 \cr -5 \cr 6 \end{matrix} \right]$$
-
-$$\boldsymbol{\sigma} = \left[ \begin{matrix} 3 & 4 & -2 \cr 4 & 10 & 6 \cr -2 & 6 & 5 \end{matrix} \right]$$
-
-$$\vec{n}=\left[ \begin{matrix} 3 \cr 8 \cr -2 \end{matrix} \right]$$
-
-$$\boldsymbol{\sigma} = \left[ \begin{matrix} 8 & 4 & 7 \cr 4 & -5 & 6 \cr 7 & 6 & 14 \end{matrix} \right]$$
-
-$$\boldsymbol{\sigma} = \left[ \begin{matrix} -4 & 3 \cr 3 & 8 \end{matrix} \right]$$
-
-$$\vec{n}=\left[ \begin{matrix} 3 \cr -5 \end{matrix} \right]$$
-
-</div>
-</div>
-
-<--o-->
-
-<!-- source: Lecture1_Stress.pptx slide 24 · template: T3-text-and-image -->
-## Review of Matrix Multiplication
-<div class="cols">
-<div>
-
-![](Module-iii-Theory/Lecture1-extracted/slide024_img1.png) <!-- .element style="width:75%;" -->
-
-<p class="caption">Wikipedia · 2x3 · C · 4x3 · 4x2</p>
-
-</div>
-<div class="wide">
-
-- Calculate traction/stress along a surface given a stress matrix
-
-$\vec{T}_i=\boldsymbol{\sigma} \cdot \vec{n}$
-
-$$\vec{n}=\left[ \begin{matrix} 2 \cr -5 \cr 6 \end{matrix} \right]$$
-
-$$\boldsymbol{\sigma} = \left[ \begin{matrix} 3 & 4 & -2 \cr 4 & 10 & 6 \cr -2 & 6 & 5 \end{matrix} \right]$$
-
-$$\vec{T}=\left[ \begin{matrix} -26 \cr -6 \cr -4 \end{matrix} \right]$$
-
-$$\vec{n}=\left[ \begin{matrix} 3 \cr 8 \cr -2 \end{matrix} \right]$$
-
-$$\boldsymbol{\sigma} = \left[ \begin{matrix} 8 & 4 & 7 \cr 4 & -5 & 6 \cr 7 & 6 & 14 \end{matrix} \right]$$
-
-$$\vec{T}=\left[ \begin{matrix} 42 \cr -40 \cr 41 \end{matrix} \right]$$
-
-$$\boldsymbol{\sigma} = \left[ \begin{matrix} -4 & 3 \cr 3 & 8 \end{matrix} \right]$$
-
-$$\vec{n}=\left[ \begin{matrix} 3 \cr -5 \end{matrix} \right]$$
-
-$$\vec{T}=\left[ \begin{matrix} -27 \cr -31 \end{matrix} \right]$$
-
-</div>
-</div>
 
 <--o-->
 
 <!-- source: Lecture1_Stress.pptx slide 25 · template: T3-text-and-image -->
-## Deriving Some Stress Relationships
+## Deriving (Some) Stress Relationships
 <div class="cols">
 <div>
 
