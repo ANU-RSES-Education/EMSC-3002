@@ -466,7 +466,7 @@ The second invariant plays the role of the magnitude of the deviatoric part of t
 <div class="cols">
 <div>
 
-![](Module-iii-Theory/Lecture1-extracted/slide025_img1.jpg) <!-- .element style="width:70%;" -->
+![](Module-iii-Theory/Lecture1-extracted/slide025_img1.jpg) <!-- .element style="width:50%;" -->
 
 <p class="caption">Fossen, 2010 · $\theta$</p>
 
@@ -506,8 +506,9 @@ Before we put the normal and shear stress together, let’s look at how they var
 <!-- source: Lecture1_Stress.pptx slide 26 · template: T3-text-and-image -->
 ## Stress State at An Internal Surface
 
-- Shear and normal stress show different patterns of change as a function of the orientation of the plane.
-- Stress and force behave differently. Note that the shear stress is at its maximum at 45º to the surface while maximum normal force is obtained parallel to the surface.
+Shear and normal stress show different patterns of change as a function of the orientation of the plane.
+
+Stress and force behave differently. Note that the shear stress is at its maximum at 45º to the surface while maximum normal force is obtained parallel to the surface.
 
 ![](Module-iii-Theory/internal-surface-stress.png) <!-- .element style="max-height:520px;" -->
 
@@ -518,34 +519,22 @@ Before we put the normal and shear stress together, let’s look at how they var
 <div class="cols">
 <div class="wide">
 
-Double-Angle Identities
-$\sin 2\theta = 2 \sin\theta \cos\theta$
-$\cos 2\theta = \cos^2\theta - \sin^2\theta = 2\cos^2\theta - 1$
-Pythagorean identity
-$\cos^2\theta + \sin^2\theta = 1$
-
-- With the two basic formulas:
-- We want to see how $\sigma_{n}$ and $\sigma_{s}$ vary with $\theta$ simultaneously.
-- This looks like the equation of a circle in x-y coordinate system. The center has a coordinate of ($\frac{\sigma}{2}$, 0) and a radius of $\sigma/2$.
-- First derived by Karl Culmann (1821-1881) in 19th century.
+Two formulae:
 
 $\sigma_n = \sigma \cos^2\theta$
 $\sigma_s = \frac{\sigma \sin 2\theta}{2}$
 
-y
-
-**$X^2 + Y^2 = R^2$**
+We want to see how $\sigma_{n}$ and $\sigma_{s}$ each vary as we change $\theta$.
 
 $$\sigma_n = \sigma \cos^2\theta = \sigma (\cos 2\theta + 1)/2$$
 $\cos 2\theta = 2(\sigma_n - \sigma/2)/\sigma$
 $\sin 2\theta = 2\sigma_s/\sigma$
 $(\sigma_n - \sigma/2)^2 + \sigma_s^2 = \sigma^2/4$
 
-(0, 0)
 
-x
-
-**$R$**
+This looks like the equation of a circle in x-y coordinate system (**$X^2 + Y^2 = R^2$**)
+The center has a coordinate of ($\frac{\sigma}{2}$, 0) and a radius of $\sigma/2$.
+This was first derived by Karl Culmann (1821-1881) in 19th century.
 
 </div>
 <div>
@@ -557,6 +546,12 @@ x
 
 Note:
 Published a book on graphical methods in engineering in 1865.
+
+Double-Angle Identities & Pythagoras
+
+$$\sin 2\theta = 2 \sin\theta \cos\theta$$
+$$\cos 2\theta = \cos^2\theta - \sin^2\theta = 2\cos^2\theta - 1$$
+$$\cos^2\theta + \sin^2\theta = 1$$
 
 <--o-->
 
