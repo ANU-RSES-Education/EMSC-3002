@@ -232,8 +232,7 @@ Stress = = G/A = $\rho z g$ = 2.7 $\times 10^3 \times 9.8 \times 1000 \approx$ 2
 <div class="cols">
 <div class="wide">
 
-We need three orthogonal surfaces to describe a complete state of force at any point (for a continuous medium).
-- The complete stress state is described by three 3-component vectors ⇒ tensor.
+We need three orthogonal surfaces to describe a complete state of force at any point (for a continuous medium). The complete stress state is described by three 3-component vectors ⇒ tensor.
 
 $$
 \boldsymbol{\sigma} = \left[ \begin{matrix} \sigma_{xx} & \sigma_{xy} & \sigma_{xz} \cr \sigma_{yx} & \sigma_{yy} & \sigma_{yz} \cr \sigma_{zx} & \sigma_{zy} & \sigma_{zz} \end{matrix} \right] =\left[ \begin{matrix} \vec{T}_x \cr \vec{T}_y \cr \vec{T}_z \end{matrix} \right]
@@ -855,23 +854,31 @@ Let us see a real example to use this criteria to predict whether a fault plane 
 
 <!-- source: Lecture1_Stress.pptx slide 34 · template: T3-text-and-image -->
 ## Anderson’s Theory of Faulting (1905)
+<center>
 
 ![](Module-iii-Theory/Lecture1-extracted/slide034_img1.jpg) <!-- .element style="max-height:380px;" -->
 
+</center>
+
 <p class="caption">Fossen, 2010</p>
 
-- Assume no shear stress at the Earth’s surface, so one of the principal stresses must be vertical. This implies that the other two are horizontal ($\sigma_v = \sigma_1$: normal-fault regime; $\sigma_v = \sigma_2$: strike-slip fault regime; $\sigma_v = \sigma_3$: thrust-fault regime).
-- Assumptions: 1) coaxial deformational regimes (no rotation); 2) the deforming rocks must be isotropic.
-- Stereonets show fields of compression and tension.
+Assume no shear stress at the Earth’s surface, so one of the principal stresses must be vertical. This implies that the other two are horizontal ($\sigma_v = \sigma_1$: normal-fault regime; $\sigma_v = \sigma_2$: strike-slip fault regime; $\sigma_v = \sigma_3$: thrust-fault regime).
+
+Assumptions: 
+ 1. coaxial deformational regimes (no rotation); 
+ 2. the deforming rocks must be isotropic.
+
+ Stereonets show fields of compression and tension.
 
 Note:
-Since we are discussing the Mohr circle and the failing criteria, let’s revisit the Anderson’s theory of faulting, which describes the various stress condition with the focal mechanism. Louis brief touched on this topic in the first module. But now we may have a bit more background knowledge to understand it.
+Since we are discussing the Mohr circle and the failing criteria, let’s revisit Anderson’s theory of faulting, which describes the various stress condition with the focal mechanism. Louis brief touched on this topic in the first module. But now we may have a bit more background knowledge to understand it.
 
 <--o-->
 
 <!-- source: Lecture1_Stress.pptx slide 35 · template: T3-text-and-image -->
 ## Implication to Normal/reverse Faulting
 
+<center>
 <div class="cols">
 <div>
 
@@ -880,15 +887,18 @@ Since we are discussing the Mohr circle and the failing criteria, let’s revisi
 </div>
 <div>
 
-![](Module-iii-Theory/Lecture1-extracted/slide035_img2.jpg) <!-- .element style="max-height:400px;" -->
+![](Module-iii-Theory/Lecture1-extracted/slide035_img2.jpg) <!-- .element style="max-height:300px;" -->
 
 </div>
 </div>
+</center>
 
 <p class="caption">Fossen, 2011</p>
 
-- Based on the Coulomb-Mohr failure criteria, Anderson’s theory of faulting predicts a conjugate fault system for different stress conditions.
-- The theory also predicts that normal and reverse faults dip at about 60º and 30º, respectively. In other words, one can use the dipping angle to refer stress directions.
+Based on the Coulomb-Mohr failure criteria, Anderson’s theory of faulting predicts a conjugate fault system for different stress conditions.
+
+The theory also predicts that normal and reverse faults dip at *roughly* 60º and 30º, respectively. In other words, one can use the dipping angle to infer stress directions. 
+As long as you know the fault has not rotated since it formed !
 
 <--o-->
 
@@ -908,14 +918,15 @@ Since we are discussing the Mohr circle and the failing criteria, let’s revisi
 </div>
 <p class="caption">Fossen, 2010</p>
 
-Note:
+
 One of the principal stresses will always be perpendicular to the free surface of the Earth, because the shear stress is zero along any free surface. Thus, a non-planar surface causes the orientation of the stresses to rotate as shown on the figure. Note that these deviations occur near the surface only. 
-The structure is weaker than the surrounding rock and can support lower shear stresses than its surroundings. The situation is similar to that where an open surface exists, e.g. the free surface of the Earth
+
+The fault is weaker than the surrounding rock and can support lower shear stresses than its surroundings. The situation is similar to that where an open surface exists, e.g. the free surface of the Earth
 
 <--o-->
 
 <!-- source: Lecture1_Stress.pptx slide 37 · template: T3-text-and-image -->
-## Lithostatic and Hydrostaic Stress
+## Lithostatic and Hydrostatic Stress
 <div class="cols">
 <div class="wide">
 
