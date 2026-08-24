@@ -164,39 +164,33 @@ _**NB:** the course materials provided by the authors are open source under a cr
 - where $g$ gravitational acceleration (9.8 m/s<sup>2</sup>); $z$ depth (1 km); A contact area.
 - Then, stress = G/A = $\rho zg$ = 2.7 $\times$ 10<sup>3 </sup>$\times$ 9.8 $\times$ 1 $\times$10<sup>3 </sup>$\approx$ 26.5 MPa
 
-**D-DIA**
-
-Diamond-anvil cells
-
 <--o-->
 
-<!-- source: Lecture1_Stress.pptx slide 10 · template: T3-text-and-image -->
+<!-- source: Lecture1_Stress.pptx slide 10 · template: T4-full-figure (bullets deduplicated against previous slide) -->
 ## Stress Inside the Earth
-<div class="cols">
-<div>
+
+stress = G/A = $\rho zg$ = 2.7 $\times$ 10<sup>3</sup> $\times$ 9.8 $\times$ 1 $\times$ 10<sup>3</sup> $\approx$ 26.5 MPa
 
 <div class="cols">
-
-![](Module-iii-Theory/Lecture1-extracted/slide010_img1.jpg)
-
-
-![](Module-iii-Theory/Lecture1-extracted/slide010_img3.jpg)
-
-
-![](Module-iii-Theory/Lecture1-extracted/slide010_img2.jpg)
-
-</div>
-
-<p class="caption">D-DIA · Diamond-anvil cells · Fossen, 2010</p>
-
-</div>
 <div class="wide">
 
-- We know Stress = Force/Area (N.m<sup>-2</sup>  = Pa)
-- Assuming continental rocks have an average density $\rho$ of 2.7x10<sup>3</sup> kg/m<sup>3</sup>, estimate the pressure/stress at 1 km depth.
-- Gravity Force G = $mg$= $\rho vg$ = $\rho (zA)g$
-- where $g$ gravitational acceleration (9.8 m/s<sup>2</sup>); $z$ depth (1 km); A contact area.
-- Then, stress = G/A = $\rho zg$ = 2.7 $\times$ 10<sup>3 </sup>$\times$ 9.8 $\times$ 1 $\times$10<sup>3 </sup>$\approx$ 26.5 MPa
+![](Module-iii-Theory/Lecture1-extracted/slide010_img1.jpg) <!-- .element style="max-height:420px;" -->
+
+<p class="caption">Fossen, 2010</p>
+
+</div>
+<div>
+
+![](Module-iii-Theory/Lecture1-extracted/slide010_img3.jpg) <!-- .element style="max-height:420px;" -->
+
+<p class="caption">D-DIA</p>
+
+</div>
+<div>
+
+![](Module-iii-Theory/Lecture1-extracted/slide010_img2.jpg) <!-- .element style="max-height:420px;" -->
+
+<p class="caption">Diamond-anvil cell</p>
 
 </div>
 </div>
