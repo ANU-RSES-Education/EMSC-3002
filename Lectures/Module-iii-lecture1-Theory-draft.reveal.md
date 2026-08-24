@@ -270,9 +270,7 @@ If we cut out a plane through a material that is under stress, then there is a 
 
 The traction can be computed using the stress tensor ($\vec{n}$ is the unit vector normal to the plane):
  
-$$
-\vec{T}_i = \sum_{j} \sigma_{ij} \, n_j = \sigma ∙ \vec{n}
-$$
+$$\vec{T}_i = \sum_{j} \sigma_{ij} \, n_j = \sigma ∙ \vec{n}$$
 
 The stress components acting on the faces of a small cube
 
@@ -293,7 +291,7 @@ The stress components acting on the faces of a small cube
 <div class="cols">
 <div class="wide">
 
-Suppose we are given the below horizontal components of the stress tensor:
+Suppose we are given the components of the stress tensor:
 
 $$\sigma =\left[ \begin{matrix} \sigma_{xx} & \sigma_{xy} \cr \sigma_{yx} & \sigma_{yy} \end{matrix} \right] = \left[ \begin{matrix} -40 & -10 \cr -10 & -60 \end{matrix} \right] \textrm{MPa}$$
 
@@ -310,25 +308,17 @@ Assuming this is a 2D problem, let us compute the forces acting across a fault o
 <--v-->
 
 <!-- source: Lecture1_Stress.pptx slide 14 · matrix-multiplication review, split onto a vertical slide -->
-## Example: Computing Traction Vector
-<div class="cols">
-<div class="wide">
 
-Suppose we are given the below horizontal components of the stress tensor:
-
-$$\sigma =\left[ \begin{matrix} \sigma_{xx} & \sigma_{xy} \cr \sigma_{yx} & \sigma_{yy} \end{matrix} \right] = \left[ \begin{matrix} -40 & -10 \cr -10 & -60 \end{matrix} \right] \textrm {MPa}$$
-
-Assuming this is a 2D problem, let us compute the forces acting across a fault oriented at 45º from the east direction.
-
-### Review on matrix multiplication.
+## Aside — Review of matrix multiplication.
 
 The special case of dot product of two vectors:
 
-$$ A = [ 1 5 ] \; B = [2 3] \; \; A \cdot B = 1 \ times 2 + 5 \times 3 = 17 $$
+$$ A = [ 1 \\; 5 ] \; B = [2 \\; 3] \\; \\; A \cdot B = 1 \times 2 + 5 \times 3 = 17 $$
 
 or 
 
-$$ \begin{matrix} 1 & 5 \end{matrix} \cdot  \begin{matrix} 2 \cr 3 \end{matrix}  = [ 17 ] $$
+$$ \left[\begin{matrix} 1 &   5 \end{matrix} \right] \cdot
+   \left[\begin{matrix} 2 \cr 3 \end{matrix} \right]  = \left[ 17 \right] $$
 
 </div>
 <div>
@@ -347,10 +337,9 @@ $$ \begin{matrix} 1 & 5 \end{matrix} \cdot  \begin{matrix} 2 \cr 3 \end{matrix} 
 <div class="cols">
 <div class="wide">
 
-Suppose we are given the components of the stress tensor:
 $$\sigma =\left[ \begin{matrix} \sigma_{xx} & \sigma_{xy} \cr \sigma_{yx} & \sigma_{yy} \end{matrix} \right]$ = $\left[ \begin{matrix} -40 & -10 \cr -10 & -60 \end{matrix} \right] \textrm{ MPa }$$
 
-Assuming this is a 2D problem, let us compute the forces acting across a fault oriented at 45º from the east direction. The (unit) normal for this fault is $\left[ 1/\surd{2} 1/\surd{2} \right] \approx [ 0.7 0.7]$ 
+Assuming this is a 2D problem, let us compute the forces acting across a fault oriented at 45º from the east direction. The (unit) normal for this fault is $\left[ 1/\surd{2} \\;\\; 1/\surd{2} \right] \approx [ 0.7 \\;\\; 0.7]$ 
 
 The formula to find the traction vector is $\vec{T}_i=\sigma \cdot \vec{n}$
 
