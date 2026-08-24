@@ -479,13 +479,13 @@ Starting with uniaxial compression and knowing that:
   - Stress = Force/Area
   - Trigonometric function resolve components of forces onto the plane
 
-$$\sigma_{n}=\frac{F_{n}}{A_{2}}=\frac{F\cos\theta}{A_{2}}= \frac{F\cos^2\theta}{A_{1}}$$
+$\sigma_{n} = \frac{F_{n}}{A_{2}}=\frac{F\cos\theta}{A_{2}}= \frac{F\cos^2\theta}{A_{1}}$
 
-$$=\sigma \cos^2\theta$$
+$\sigma_{n} = \sigma \cos^2\theta$
 
-$$\sigma_{s}=\frac{F_{s}}{A_{2}}=\frac{F\sin\theta}{A_{2}}=\frac{F\sin\theta \cos \theta}{A_{1}}$$
+$\sigma_{s} = \frac{F_{s}}{A_{2}}=\frac{F\sin\theta}{A_{2}}=\frac{F\sin\theta \cos \theta}{A_{1}}$
 
-$$= \sigma \sin \theta \cos \theta = (\sigma/2) \sin 2\theta$$
+$\sigma_{s} = \sigma \sin \theta \cos \theta = (\sigma/2) \sin 2\theta$
 
 </div>
 </div>
