@@ -874,12 +874,12 @@ Primary structure
 Principal strains
 : The three mutually perpendicular directions in which lines are only stretched or shortened but not sheared — the axes of the strain ellipsoid. Careful: the principal strain axes need not coincide with the principal stress axes unless the deformation is coaxial and the material isotropic.
 
-  *Slides: [3.1 Stress — Principal Stress](/slideshows/Module-iii-lecture1-Theory-draft.reveal.html#/15) · [1.3 Stress, Strain and Strength — Principal Stresses](/slideshows/Module-i-GlobalTectonics-3.reveal.html#/3/1) · [3.2 Strain and Strain Rate — Principal Strain: Strain Ellipsoid](/slideshows/Module-iii-lecture2-Theory-draft.reveal.html#/19)*
+  *Slides: [1.3 Stress, Strain and Strength — Principal Stresses](/slideshows/Module-i-GlobalTectonics-3.reveal.html#/3/1) · [3.1 Stress — Principal Stresses](/slideshows/Module-iii-lecture1-Theory-draft.reveal.html#/15) · [3.2 Strain and Strain Rate — Principal Strain: Strain Ellipsoid](/slideshows/Module-iii-lecture2-Theory-draft.reveal.html#/19)*
 
 Principal stresses ($\sigma_1 \ge \sigma_2 \ge \sigma_3$)
 : The three special, mutually perpendicular directions in which the shear stresses vanish and only pushes or pulls remain — the eigenvalues and eigenvectors of the stress tensor, ordered from most to least compressive. Their orientation and relative size is the single most useful description of a tectonic stress state, and which faults form and which slip follows from it.
 
-  *Slides: [1.3 Stress, Strain and Strength — Principal Stresses](/slideshows/Module-i-GlobalTectonics-3.reveal.html#/3/1) · [3.1 Stress — Principal Stress](/slideshows/Module-iii-lecture1-Theory-draft.reveal.html#/15) · [3.2 Strain and Strain Rate — Principal Strain: Strain Ellipsoid](/slideshows/Module-iii-lecture2-Theory-draft.reveal.html#/19)*
+  *Slides: [1.3 Stress, Strain and Strength — Principal Stresses](/slideshows/Module-i-GlobalTectonics-3.reveal.html#/3/1) · [3.1 Stress — Principal Stresses](/slideshows/Module-iii-lecture1-Theory-draft.reveal.html#/15) · [3.2 Strain and Strain Rate — Principal Strain: Strain Ellipsoid](/slideshows/Module-iii-lecture2-Theory-draft.reveal.html#/19)*
 
 Progressive deformation
 : The accumulation of strain through a sequence of increments, in which the finite strain at any moment is the integrated result. A given finite strain can be reached in an infinite number of ways, so the rock has effectively forgotten its path — which is why strain alone rarely tells you the stress history.
