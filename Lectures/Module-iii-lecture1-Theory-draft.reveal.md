@@ -593,30 +593,13 @@ Mohr builds upon Karl’s previous work and expand into 2D and 3D. There are com
 
 <!-- source: Lecture1_Stress.pptx slide 29 · template: T3-text-and-image -->
 ## Mohr Circle & the Angle ⍬
-<div class="cols">
-<div>
 
-![](Module-iii-Theory/Lecture1-extracted/slide029_img1.jpg) <!-- .element style="width:87%;" -->
+Note the angle is $2\theta$ in the Mohr circle space compared to $\theta$ in the real space.
+During derivation, we define the angle as plane dipping angle in the uniaxial case, but essentially this $\theta$ represents the angle between minimum principal stress direction and that plane.
 
-<p class="caption">$\sigma_1$ · $\theta$ · $\sigma_3$ · $\sigma_1$ · $\theta$ · $\sigma_3$</p>
+$$\sigma_n = \sigma (\cos 2\theta + 1)/2 \qquad \sigma_s = \frac{\sigma \sin 2\theta}{2}$$
 
-</div>
-<div class="wide">
-
-- Note the angle is 2$\theta$ in the Mohr circle space compared to $\theta$ in the real space.
-- During derivation, we define the angle as plane dipping angle in the uniaxial case, but essentially this $\theta$ represents the angle between minimum principal stress direction and that plane.
-
-$\sigma_{n}=\sigma (\cos 2\theta +1)/2$
-$\sigma_{s}=$ $\frac{\sigma \sin 2\theta}{2}$
-
-$\sigma_1$
-
-$\sigma_3$
-
-$\theta$
-
-</div>
-</div>
+![](Module-iii-Theory/mohr-circle-2theta.png) <!-- .element style="max-height:480px;" -->
 
 <--v-->
 
