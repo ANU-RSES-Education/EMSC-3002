@@ -254,32 +254,20 @@ Two-dimensional illustration of stress at a point.
 <div class="cols">
 <div class="wide">
 
-**Z**
-
-$\vec{T}$
-
-[x<sub>0</sub>, y<sub>0</sub>, z<sub>0</sub>]
-
 - We need three orthogonal surfaces to describe a complete state of force at any point (for a continuous medium).
 - The complete stress state is described by three 3-component vectors ⇒ tensor.
 - $\sigma =\left[ \begin{matrix} \sigma xx & \sigma xy & \sigma xz \cr \sigma yx & \sigma yy & \sigma yz \cr \sigma zx & \sigma zy & \sigma zz \end{matrix} \right]$ =$\left[ \begin{matrix} \vec{T}x \cr \vec{T}y \cr \vec{T}z \end{matrix} \right]$
 - The stress tensor is symmetric as no net rotation from shear stresses. It now becomes:
 - $$\left[ \begin{matrix} \sigma xx & \sigma xy & \sigma xz \cr \sigma xy & \sigma yy & \sigma yz \cr \sigma xz & \sigma yz & \sigma zz \end{matrix} \right]$$
 
-**Y**
-
-**X**
-
-A vector in 3D space
-
-The stress components acting on the faces of a small cube
-
 </div>
 <div>
 
-![](Module-iii-Theory/Lecture1-extracted/slide012_img1.jpg)
+![](Module-iii-Theory/vector-in-3d.png) <!-- .element style="max-height:280px;" -->
 
-<p class="caption">Fossen, 2010</p>
+![](Module-iii-Theory/Lecture1-extracted/slide012_img1.jpg) <!-- .element style="max-height:340px;" -->
+
+<p class="caption">The stress components acting on the faces of a small cube · Fossen, 2010</p>
 
 </div>
 </div>
@@ -311,119 +299,75 @@ The stress components acting on the faces of a small cube
 
 <--o-->
 
-<!-- source: Lecture1_Stress.pptx slide 14 · template: T3-text-and-image -->
+<!-- source: Lecture1_Stress.pptx slide 14 · template: T3-text-and-image (fault diagram restored from original slide) -->
 ## Example: Computing Traction Vector
 <div class="cols">
-<div>
+<div class="wide">
 
-![](Module-iii-Theory/Lecture1-extracted/slide014_img1.png) <!-- .element style="width:75%;" -->
-
-<p class="caption">Wikipedia · 4x2 · 2x3 · C · 4x3</p>
+- Suppose we are given the below horizontal components of the stress tensor:
+- $\sigma =\left[ \begin{matrix} \sigma xx & \sigma xy \cr \sigma yx & \sigma yy \end{matrix} \right]$ = $\left[ \begin{matrix} -40 & -10 \cr -10 & -60 \end{matrix} \right]$ MPa
+- Assuming this is a 2D problem, let us compute the forces acting across a fault oriented at 45º from the east direction.
 
 </div>
+<div>
+
+![](Module-iii-Theory/fault-45-example.png) <!-- .element style="max-height:560px;" -->
+
+</div>
+</div>
+
+<--v-->
+
+<!-- source: Lecture1_Stress.pptx slide 14 · matrix-multiplication review, split onto a vertical slide -->
+## Example: Computing Traction Vector
+<div class="cols">
 <div class="wide">
 
 - Suppose we are given the below horizontal components of the stress tensor:
 - $\sigma =\left[ \begin{matrix} \sigma xx & \sigma xy \cr \sigma yx & \sigma yy \end{matrix} \right]$ = $\left[ \begin{matrix} -40 & -10 \cr -10 & -60 \end{matrix} \right]$ MPa
 - Assuming this is a 2D problem, let us compute the forces acting across a fault oriented at 45º from the east direction.
 - Review on matrix multiplication.
-- The special case of dot product of two vectors.
-
-N (y)
-
-E (x)
-
-Fault
+- The special case of dot product of two vectors:
 
 A<sub>0</sub> = [1   5]
 B<sub>0</sub> = [2   3]
 A<sub>0 </sub>$∙$ B<sub>0 </sub>= 1$\times 2+5 \times 3=17$
 
 </div>
+<div>
+
+![](Module-iii-Theory/Lecture1-extracted/slide014_img1.png)
+
+<p class="caption">Wikipedia</p>
+
+</div>
 </div>
 
 <--o-->
 
-<!-- source: Lecture1_Stress.pptx slide 15 · template: T1-prose -->
+<!-- source: Lecture1_Stress.pptx slide 16 · template: T3-text-and-image (fault diagram restored; pptx slide 15, a progressive-reveal duplicate, folded in) -->
 ## Example: Computing Traction Vector
+<div class="cols">
+<div class="wide">
+
 - Suppose we are given the below horizontal components of the stress tensor:
 - $\sigma =\left[ \begin{matrix} \sigma xx & \sigma xy \cr \sigma yx & \sigma yy \end{matrix} \right]$ = $\left[ \begin{matrix} -40 & -10 \cr -10 & -60 \end{matrix} \right]$ MPa
 - Assuming this is a 2D problem, let us compute the forces acting across a fault oriented at 45º from the east direction.
-
-$\sigma yy$
-
-$\sigma yx$
-
-N (y)
-
 - Solutions:
 - We start by converting mathematic symbols to stress in real world.
-- Then recall the formula to get traction vector:
-- The unit vector $\vec{n}$ can be expressed by $\left[ \begin{matrix} 0.7 \cr 0.7 \end{matrix} \right]$.
-
-45º
-
-E (x)
-
-$\sigma xy$
-
-$\sigma xx$
-
-$\vec{T}i=\sigma ∙\vec{n}$
-
-Fault
-
-y
-
-$$\vec{n}=\left[ \begin{matrix} 0.7 \cr 0.7 \end{matrix} \right]$$
-
-x
-
-$$\vec{f}=\left[ \begin{matrix} 0.7 \cr -0.7 \end{matrix} \right]$$
-
-<--o-->
-
-<!-- source: Lecture1_Stress.pptx slide 16 · template: T1-prose -->
-## Example: Computing Traction Vector
-- Suppose we are given the below horizontal components of the stress tensor:
-- $\sigma =\left[ \begin{matrix} \sigma xx & \sigma xy \cr \sigma yx & \sigma yy \end{matrix} \right]$ = $\left[ \begin{matrix} -40 & -10 \cr -10 & -60 \end{matrix} \right]$ MPa
-- Assuming this is a 2D problem, let us compute the forces acting across a fault oriented at 45º from the east direction.
-
-$\sigma yy$
-
-$\sigma yy$
-
-$\sigma yx$
-
-N (y)
-
-- Solutions:
-- We start by converting mathematic symbols to stress in real world.
-- Then recall the formula to get traction vector:
+- Then recall the formula to get traction vector: $\vec{T}i=\sigma ∙\vec{n}$
 - The unit vector $\vec{n}$ can be expressed by $\left[ \begin{matrix} 0.7 \cr 0.7 \end{matrix} \right]$.
 - Perform matrix multiplication:
 - $\vec{T}=\left[ \begin{matrix} -40 & -10 \cr -10 & -60 \end{matrix} \right]\left[ \begin{matrix} 0.7 \cr 0.7 \end{matrix} \right]$ = $\left[ \begin{matrix} -35 \cr -49 \end{matrix} \right]$ MPa
 - Projecting the vector along the fault plane to get normal $\vec{T}∙\vec{n}$ (-58.8 MPa) and shear stress $\vec{T}∙\vec{f} (9.8 MPa)$.
 
-45º
+</div>
+<div>
 
-E (x)
+![](Module-iii-Theory/fault-45-example.png) <!-- .element style="max-height:560px;" -->
 
-$\sigma xy$
-
-$\sigma xx$
-
-$\vec{T}i=\sigma ∙\vec{n}$
-
-Fault
-
-y
-
-$$\vec{n}=\left[ \begin{matrix} 0.7 \cr 0.7 \end{matrix} \right]$$
-
-x
-
-$$\vec{f}=\left[ \begin{matrix} 0.7 \cr -0.7 \end{matrix} \right]$$
+</div>
+</div>
 
 <--o-->
 
