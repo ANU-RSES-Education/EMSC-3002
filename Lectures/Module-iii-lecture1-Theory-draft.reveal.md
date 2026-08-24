@@ -909,19 +909,21 @@ As long as you know the fault has not rotated since it formed !
 
 ![](Module-iii-Theory/Lecture1-extracted/slide036_img1.jpg)
 
-</div>
-<div>
-
 ![](Module-iii-Theory/Lecture1-extracted/slide036_img2.jpg)
 
 </div>
-</div>
-<p class="caption">Fossen, 2010</p>
 
+<div>
 
 One of the principal stresses will always be perpendicular to the free surface of the Earth, because the shear stress is zero along any free surface. Thus, a non-planar surface causes the orientation of the stresses to rotate as shown on the figure. Note that these deviations occur near the surface only. 
 
 The fault is weaker than the surrounding rock and can support lower shear stresses than its surroundings. The situation is similar to that where an open surface exists, e.g. the free surface of the Earth
+
+</div>
+<p class="caption">Fossen, 2010</p>
+
+
+
 
 <--o-->
 
