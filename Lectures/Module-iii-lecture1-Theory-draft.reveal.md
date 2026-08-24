@@ -320,15 +320,9 @@ or
 $$ \left[\begin{matrix} 1 &   5 \end{matrix} \right] \cdot
    \left[\begin{matrix} 2 \cr 3 \end{matrix} \right]  = \left[ 17 \right] $$
 
-</div>
-<div>
-
-![](Module-iii-Theory/Lecture1-extracted/slide014_img1.png)
+![](Module-iii-Theory/Lecture1-extracted/slide014_img1.png) <!-- .element style="max-height:420px;" -->
 
 <p class="caption">Wikipedia</p>
-
-</div>
-</div>
 
 <--v-->
 
