@@ -16,7 +16,7 @@ Allochthon
 Anderson's theory of faulting
 : Anderson's (1905) argument that because the Earth's surface is a free surface carrying no shear stress, one principal stress must be vertical and the other two horizontal — which allows exactly three tectonic regimes. Vertical $\sigma_1$ gives normal faulting, vertical $\sigma_2$ strike-slip, vertical $\sigma_3$ thrusting. It assumes coaxial deformation and isotropic rock, so treat it as a first-order guide rather than a law.
 
-  *Slides: [4.3 Faults and Fault Zones — Anderson's Theory of Faulting](/slideshows/Module-iv-lecture6-Faults-Fault-Zones-draft.reveal.html#/62) · [3.1 Stress — Anderson's Theory of Faulting (1905)](/slideshows/Module-iii-lecture1-Theory-draft.reveal.html#/33)*
+  *Slides: [4.3 Faults and Fault Zones — Anderson's Theory of Faulting](/slideshows/Module-iv-lecture6-Faults-Fault-Zones-draft.reveal.html#/62) · [3.1 Stress — Anderson's Theory of Faulting (1905)](/slideshows/Module-iii-lecture1-Theory-draft.reveal.html#/32)*
 
 Angular velocity (of a plate)
 : The rate at which a plate rotates about its Euler pole, usually in degrees per million years. With the pole position it completely describes a rigid plate's motion, and the surface velocity anywhere is the angular velocity times the perpendicular distance to the rotation axis.
@@ -147,7 +147,7 @@ Couette flow
 Coulomb–Mohr failure criterion
 : The rule that intact rock fractures in shear when $\tau = C + \mu\,\sigma_n$, with $C$ the cohesive strength and $\mu$ the coefficient of internal friction (typically 0.47–0.7). On a Mohr diagram it is a straight line, and the rock fails when the circle touches it. Its geological payoff is Anderson's theory of faulting: conjugate shears at 20–30° to $\sigma_1$.
 
-  *Slides: [3.1 Stress — The Coulomb-mohr Failure Criteria](/slideshows/Module-iii-lecture1-Theory-draft.reveal.html#/30) · [4.1 Brittle Deformation — The Coulomb-mohr Failure Criteria](/slideshows/Module-iv-lecture4-Brittle-deformation-draft.reveal.html#/23)*
+  *Slides: [3.1 Stress — The Coulomb-mohr Failure Criteria](/slideshows/Module-iii-lecture1-Theory-draft.reveal.html#/29) · [4.1 Brittle Deformation — The Coulomb-mohr Failure Criteria](/slideshows/Module-iv-lecture4-Brittle-deformation-draft.reveal.html#/23)*
 
 Craton
 : A region of the Earth's crust that has experienced little or no tectonic deformation for at least a billion years. Australia's cratons (Yilgarn, Pilbara, Gawler) carry unusually thick lithosphere, over 200 km, and crust exceeding 50 km.
@@ -203,7 +203,7 @@ Detachment
 Deviatoric stress
 : What is left of the stress tensor once the mean (pressure) part is subtracted — the anisotropic, orientation-dependent part. It is the deviatoric stress that actually distorts and breaks rocks; pressure alone just squeezes uniformly.
 
-  *Slides: [3.1 Stress — Deviatoric Stress and Mean Stress](/slideshows/Module-iii-lecture1-Theory-draft.reveal.html#/17)*
+  *Slides: [3.1 Stress — Deviatoric Stress and Mean Stress](/slideshows/Module-iii-lecture1-Theory-draft.reveal.html#/16)*
 
 Differential stress ($\sigma_1 - \sigma_3$)
 : The difference between the largest and smallest principal stresses — the diameter of the Mohr circle, and a direct measure of how far a rock is from being uniformly pressurised. It is the quantity that drives fracturing and flow, and the horizontal axis of most strength and deformation-map plots.
@@ -263,7 +263,7 @@ Dynamics
 Effective stress ($\hat\sigma$)
 : The stress actually carried by the rock's grain framework, $\hat\sigma = \sigma_n - p_f$, because pore fluid pushing outwards supports part of the load. On a Mohr diagram, raising the fluid pressure slides the whole circle left towards the failure envelope without changing its size — a very cheap way to make a rock fail, and the mechanism behind hydraulic fracturing and injection-induced earthquakes.
 
-  *Slides: [3.1 Stress — Two terms, and they can fight](/slideshows/Module-iii-lecture1-Theory-draft.reveal.html#/30/3)*
+  *Slides: [3.1 Stress — Two terms, and they can fight](/slideshows/Module-iii-lecture1-Theory-draft.reveal.html#/29/3)*
 
 Elastic deformation
 : Recoverable deformation — remove the stress and the material springs straight back, essentially instantaneously. Because nothing is left behind, elastic strain is invisible in the rock record, but it is how rocks store the energy that earthquakes release, and it dominates the cold, shallow crust.
@@ -297,7 +297,7 @@ Facing direction
 Failure envelope
 : The curve on a Mohr diagram separating stable stress states, where the circle is clear of the curve, from unstable ones where it touches. The realistic composite envelope is parabolic in the tensile field (Griffith), straightens into the Coulomb line at moderate confining pressure, and flattens towards a horizontal yield line at high pressure — that flattening is effectively the brittle–plastic transition.
 
-  *Slides: [4.1 Brittle Deformation — The Mohr Failure Envelope](/slideshows/Module-iv-lecture4-Brittle-deformation-draft.reveal.html#/25) · [3.1 Stress — The Coulomb Failure Function](/slideshows/Module-iii-lecture1-Theory-draft.reveal.html#/30/2)*
+  *Slides: [4.1 Brittle Deformation — The Mohr Failure Envelope](/slideshows/Module-iv-lecture4-Brittle-deformation-draft.reveal.html#/25) · [3.1 Stress — The Coulomb Failure Function](/slideshows/Module-iii-lecture1-Theory-draft.reveal.html#/29/2)*
 
 Fault
 : A discontinuity across which there is measurable shear displacement, appearing as an abrupt step in the displacement field. The boundary with "shear fracture" is one of scale and convention; and note that a fault is idealised as a surface, whereas any real structure with significant displacement is a fault zone with thickness.
@@ -340,7 +340,7 @@ Flinn diagram
 Focal mechanism (beachball)
 : A representation of how the ground first moved in an earthquake, obtained by dividing the focal sphere into four quadrants with two orthogonal planes and shading the compressional quadrants dark. It shows the fault orientation and slip sense immediately, with the unavoidable ambiguity between the true fault plane and the auxiliary plane, and its P and T axes approximate $\sigma_1$ and $\sigma_3$.
 
-  *Slides: [4.3 Faults and Fault Zones — Stress Vs. Focal Mechanism](/slideshows/Module-iv-lecture6-Faults-Fault-Zones-draft.reveal.html#/38) · [3.1 Stress — Stress Estimates from Focal Mechanism](/slideshows/Module-iii-lecture1-Theory-draft.reveal.html#/43)*
+  *Slides: [4.3 Faults and Fault Zones — Stress Vs. Focal Mechanism](/slideshows/Module-iv-lecture6-Faults-Fault-Zones-draft.reveal.html#/38) · [3.1 Stress — Stress Estimates from Focal Mechanism](/slideshows/Module-iii-lecture1-Theory-draft.reveal.html#/42)*
 
 Fold, accordion
 : A fold with straight limbs and sharp, angular hinges of near-constant interlimb angle, like the bellows of an accordion. Essentially a synonym for chevron folding where the geometry repeats regularly.
@@ -489,7 +489,7 @@ Fracture zone
 Free surface
 : A boundary not confined by any external stress, and therefore unable to carry shear stress — the Earth's surface, to a good approximation. This apparently trivial condition is powerful: it forces one principal stress to be vertical near the surface, which is what makes Anderson's three-way classification of tectonic regimes possible.
 
-  *Slides: [3.1 Stress — Stress Effects from Free Surface](/slideshows/Module-iii-lecture1-Theory-draft.reveal.html#/35) · [1.3 Stress, Strain and Strength — Principal Stresses & Tectonics](/slideshows/Module-i-GlobalTectonics-3.reveal.html#/3/2)*
+  *Slides: [3.1 Stress — Stress Effects from Free Surface](/slideshows/Module-iii-lecture1-Theory-draft.reveal.html#/34) · [1.3 Stress, Strain and Strength — Principal Stresses & Tectonics](/slideshows/Module-i-GlobalTectonics-3.reveal.html#/3/2)*
 
 Frictional sliding
 : Movement on a pre-existing surface once the shear stress along it exceeds the frictional resistance. Friction exists because no surface is smooth — contact is only at asperities — and it depends on normal stress rather than on apparent contact area or rock type. A favourably oriented old fracture usually slips before intact rock breaks, so reactivation is cheaper than making a new fault.
@@ -619,7 +619,7 @@ Intraplate deformation (neotectonics)
 Invariants (of a tensor)
 : Combinations of tensor components that keep the same value however you rotate your coordinate axes, so they describe the physics rather than your bookkeeping. The first invariant is the trace (three times the mean stress); the second measures the magnitude of the deviatoric part and is what global strain-rate maps plot.
 
-  *Slides: [3.1 Stress — Invariants of the Tensor (advanced)](/slideshows/Module-iii-lecture1-Theory-draft.reveal.html#/19)*
+  *Slides: [3.1 Stress — Invariants of the Tensor (advanced)](/slideshows/Module-iii-lecture1-Theory-draft.reveal.html#/18)*
 
 Inverted saddle
 : A saddle-shaped culmination on a folded surface in which the sense of curvature is reversed relative to the normal saddle — the transition point between adjacent domes or basins along a fold train.
@@ -670,7 +670,7 @@ Lithosphere–asthenosphere boundary (LAB)
 Lithostatic stress
 : The isotropic reference stress at depth from the weight of the overlying rock column, $\sigma_v = \rho g z$. For continental crust this gives roughly 26 MPa per kilometre of depth — about 130 MPa at 5 km and over 1 GPa at the base of the crust. Tectonic stresses are comparatively small differences added on top of this large background, and it is the differences that break rocks.
 
-  *Slides: [3.1 Stress — Lithostatic and Hydrostaic Stress](/slideshows/Module-iii-lecture1-Theory-draft.reveal.html#/36)*
+  *Slides: [3.1 Stress — Lithostatic and Hydrostaic Stress](/slideshows/Module-iii-lecture1-Theory-draft.reveal.html#/35)*
 
 Magnetic anomaly stripes
 : The symmetric pattern of alternating magnetic polarity bands either side of a ridge axis, produced when steadily spreading new crust records the reversals of the Earth's magnetic field. Read outwards, the stripes are a tape recording of the age of the seafloor and hence of the spreading rate — the observation that turned continental drift into plate tectonics.
@@ -683,7 +683,7 @@ Maxwell time ($t_M = \eta/E$)
 Mean stress ($\sigma_m$)
 : The average of the three normal stresses — the isotropic pressure part of the stress tensor, and its first invariant. It changes a body's volume but not its shape, and it is the same whatever coordinate system you choose.
 
-  *Slides: [3.1 Stress — Deviatoric Stress and Mean Stress](/slideshows/Module-iii-lecture1-Theory-draft.reveal.html#/17)*
+  *Slides: [3.1 Stress — Deviatoric Stress and Mean Stress](/slideshows/Module-iii-lecture1-Theory-draft.reveal.html#/16)*
 
 Median surface
 : The surface passing through the inflexion lines of a folded layer, midway between the antiformal and synformal hinges. Fold amplitude is measured from it.
@@ -712,7 +712,7 @@ Moho
 Mohr circle
 : A graphical device plotting normal stress against shear stress for planes of every possible orientation through a point — a circle centred at the mean of $\sigma_1$ and $\sigma_3$ with radius half their difference. Every point on the circle is one plane; watch the factor of two, since an angle $\theta$ in the rock appears as $2\theta$ on the circle. It turns a tensor problem into something you can read with a ruler.
 
-  *Slides: [3.1 Stress — The Mohr Circle](/slideshows/Module-iii-lecture1-Theory-draft.reveal.html#/27) · [4.1 Brittle Deformation — Revisiting the Mohr Circle](/slideshows/Module-iv-lecture4-Brittle-deformation-draft.reveal.html#/21)*
+  *Slides: [3.1 Stress — The Mohr Circle](/slideshows/Module-iii-lecture1-Theory-draft.reveal.html#/26) · [4.1 Brittle Deformation — Revisiting the Mohr Circle](/slideshows/Module-iv-lecture4-Brittle-deformation-draft.reveal.html#/21)*
 
 Moment magnitude ($M_w$)
 : The magnitude scale computed directly from seismic moment, and the only one that stays meaningful for great earthquakes. It is why Tohoku is quoted as $M_w$ 9.0–9.1 when the band-limited magnitudes available in the first minutes badly underestimated it.
@@ -752,12 +752,12 @@ Non-coaxial deformation
 Normal fault
 : A dip-slip fault on which the hanging wall moves down relative to the footwall, so the reference surface is lengthened. Normal faults are how the brittle upper 10–15 km of crust accommodates extension; below that, extension is taken up on low-angle ductile shear zones.
 
-  *Slides: [2.3 Extensional Regimes — Normal Fault systems](/slideshows/Module-ii-Lecture-3-Extensional_Regimes.reveal.html#/13) · [3.1 Stress — Implication to Normal/reverse Faulting](/slideshows/Module-iii-lecture1-Theory-draft.reveal.html#/34) · [4.1 Brittle Deformation — Implication to Normal/reverse Faulting](/slideshows/Module-iv-lecture4-Brittle-deformation-draft.reveal.html#/24)*
+  *Slides: [2.3 Extensional Regimes — Normal Fault systems](/slideshows/Module-ii-Lecture-3-Extensional_Regimes.reveal.html#/13) · [3.1 Stress — Implication to Normal/reverse Faulting](/slideshows/Module-iii-lecture1-Theory-draft.reveal.html#/33) · [4.1 Brittle Deformation — Implication to Normal/reverse Faulting](/slideshows/Module-iv-lecture4-Brittle-deformation-draft.reveal.html#/24)*
 
 Normal stress ($\sigma_n$)
 : The component of traction acting perpendicular to a plane — the part that squeezes it shut or pulls it open. On a fault it controls the frictional resistance, since friction scales with how hard the two walls are pressed together.
 
-  *Slides: [2.3 Extensional Regimes — Normal Fault systems](/slideshows/Module-ii-Lecture-3-Extensional_Regimes.reveal.html#/13) · [3.1 Stress — Implication to Normal/reverse Faulting](/slideshows/Module-iii-lecture1-Theory-draft.reveal.html#/34) · [4.1 Brittle Deformation — Implication to Normal/reverse Faulting](/slideshows/Module-iv-lecture4-Brittle-deformation-draft.reveal.html#/24)*
+  *Slides: [2.3 Extensional Regimes — Normal Fault systems](/slideshows/Module-ii-Lecture-3-Extensional_Regimes.reveal.html#/13) · [3.1 Stress — Implication to Normal/reverse Faulting](/slideshows/Module-iii-lecture1-Theory-draft.reveal.html#/33) · [4.1 Brittle Deformation — Implication to Normal/reverse Faulting](/slideshows/Module-iv-lecture4-Brittle-deformation-draft.reveal.html#/24)*
 
 Omori's law
 : The empirical rule that aftershock rate decays roughly as one over the time since the mainshock. It explains why hazard is greatest in the hours and days after a big earthquake and falls off quickly thereafter — but never quite to zero.
@@ -864,7 +864,7 @@ Power-law creep
 Pressure solution
 : Dissolution of minerals at grain contacts oriented at a high angle to $\sigma_1$, diffusion of the dissolved material along fluid films on grain boundaries, and reprecipitation in low-stress sites such as pressure shadows and veins — or removal from the rock entirely. It is the dominant foliation-forming process at low metamorphic grade, and it can account for very large shortening.
 
-  *Slides: [5.3 Structures Associated with Folding (1) — Pressure solution](/slideshows/Module-v-lecture3-Structures-Associated-with-Folding-1.reveal.html#/29) · [3.1 Stress — Pore Pressure Effect](/slideshows/Module-iii-lecture1-Theory-draft.reveal.html#/37) · [3.3 Rheology — Effect of Confining Pressure](/slideshows/Module-iii-lecture3-Theory-draft.reveal.html#/26)*
+  *Slides: [5.3 Structures Associated with Folding (1) — Pressure solution](/slideshows/Module-v-lecture3-Structures-Associated-with-Folding-1.reveal.html#/29) · [3.1 Stress — Pore Pressure Effect](/slideshows/Module-iii-lecture1-Theory-draft.reveal.html#/36) · [3.3 Rheology — Effect of Confining Pressure](/slideshows/Module-iii-lecture3-Theory-draft.reveal.html#/26)*
 
 Primary structure
 : A structure formed at the time the rock itself formed, by sedimentary or magmatic processes — bedding, cross-bedding, flow banding. Structural geology is about the tectonic structures that came later, but you cannot recognise deformation without first knowing what the undeformed rock looks like.
@@ -874,12 +874,12 @@ Primary structure
 Principal strains
 : The three mutually perpendicular directions in which lines are only stretched or shortened but not sheared — the axes of the strain ellipsoid. Careful: the principal strain axes need not coincide with the principal stress axes unless the deformation is coaxial and the material isotropic.
 
-  *Slides: [3.1 Stress — Principal Stress](/slideshows/Module-iii-lecture1-Theory-draft.reveal.html#/16) · [1.3 Stress, Strain and Strength — Principal Stresses](/slideshows/Module-i-GlobalTectonics-3.reveal.html#/3/1) · [3.2 Strain and Strain Rate — Principal Strain: Strain Ellipsoid](/slideshows/Module-iii-lecture2-Theory-draft.reveal.html#/19)*
+  *Slides: [3.1 Stress — Principal Stress](/slideshows/Module-iii-lecture1-Theory-draft.reveal.html#/15) · [1.3 Stress, Strain and Strength — Principal Stresses](/slideshows/Module-i-GlobalTectonics-3.reveal.html#/3/1) · [3.2 Strain and Strain Rate — Principal Strain: Strain Ellipsoid](/slideshows/Module-iii-lecture2-Theory-draft.reveal.html#/19)*
 
 Principal stresses ($\sigma_1 \ge \sigma_2 \ge \sigma_3$)
 : The three special, mutually perpendicular directions in which the shear stresses vanish and only pushes or pulls remain — the eigenvalues and eigenvectors of the stress tensor, ordered from most to least compressive. Their orientation and relative size is the single most useful description of a tectonic stress state, and which faults form and which slip follows from it.
 
-  *Slides: [1.3 Stress, Strain and Strength — Principal Stresses](/slideshows/Module-i-GlobalTectonics-3.reveal.html#/3/1) · [3.1 Stress — Principal Stress](/slideshows/Module-iii-lecture1-Theory-draft.reveal.html#/16) · [3.2 Strain and Strain Rate — Principal Strain: Strain Ellipsoid](/slideshows/Module-iii-lecture2-Theory-draft.reveal.html#/19)*
+  *Slides: [1.3 Stress, Strain and Strength — Principal Stresses](/slideshows/Module-i-GlobalTectonics-3.reveal.html#/3/1) · [3.1 Stress — Principal Stress](/slideshows/Module-iii-lecture1-Theory-draft.reveal.html#/15) · [3.2 Strain and Strain Rate — Principal Strain: Strain Ellipsoid](/slideshows/Module-iii-lecture2-Theory-draft.reveal.html#/19)*
 
 Progressive deformation
 : The accumulation of strain through a sequence of increments, in which the finite strain at any moment is the integrated result. A given finite strain can be reached in an infinite number of ways, so the rock has effectively forgotten its path — which is why strain alone rarely tells you the stress history.
@@ -922,12 +922,12 @@ Releasing bend
 Restraining bend
 : A bend or stepover along a strike-slip fault where the geometry forces the two sides together, creating local contraction — folds, reverse faults, positive flower structures, uplifted pop-up blocks, and if the bend is big enough, a mountain range.
 
-  *Slides: [2.4 Strike-Slip, Transtension & Transpression — Fault Bends and Stepovers](/slideshows/Module-ii-Lecture-4-Strike-Slip-Transtention-Transpression.reveal.html#/31) · [3.1 Stress — Now run it backwards](/slideshows/Module-iii-lecture1-Theory-draft.reveal.html#/30/8)*
+  *Slides: [2.4 Strike-Slip, Transtension & Transpression — Fault Bends and Stepovers](/slideshows/Module-ii-Lecture-4-Strike-Slip-Transtention-Transpression.reveal.html#/31) · [3.1 Stress — Now run it backwards](/slideshows/Module-iii-lecture1-Theory-draft.reveal.html#/29/8)*
 
 Reverse fault
 : A dip-slip fault steeper than about 30° on which the hanging wall moves up relative to the footwall, accommodating horizontal shortening. Think of it as the steep sibling of a thrust: the 30° cut-off is a convention, not a change of mechanism.
 
-  *Slides: [2.2 Contractional Regimes — Thrusts Faults and reverse Faults](/slideshows/Module-ii-Lecture-2-Contractional_Regimes.reveal.html#/9) · [3.1 Stress — Implication to Normal/reverse Faulting](/slideshows/Module-iii-lecture1-Theory-draft.reveal.html#/34) · [4.1 Brittle Deformation — Implication to Normal/reverse Faulting](/slideshows/Module-iv-lecture4-Brittle-deformation-draft.reveal.html#/24)*
+  *Slides: [2.2 Contractional Regimes — Thrusts Faults and reverse Faults](/slideshows/Module-ii-Lecture-2-Contractional_Regimes.reveal.html#/9) · [3.1 Stress — Implication to Normal/reverse Faulting](/slideshows/Module-iii-lecture1-Theory-draft.reveal.html#/33) · [4.1 Brittle Deformation — Implication to Normal/reverse Faulting](/slideshows/Module-iv-lecture4-Brittle-deformation-draft.reveal.html#/24)*
 
 $R_f/\phi$ method
 : A strain-analysis method for populations of sub-spherical objects that already had a spread of initial shapes. You measure each object's final axial ratio against its long-axis orientation, and the shape of the resulting cloud lets you extract the true tectonic strain ratio from the initial scatter.
@@ -968,7 +968,7 @@ S–C fabric
 Scalar, vector, tensor
 : A scalar has magnitude only (temperature, mass); a vector has magnitude and one direction (force, velocity); a second-order tensor has magnitude and two directions — one for the plane it acts on and one for the direction of action (stress, strain, permeability). Remember that a tensor is a machine that eats a plane orientation and returns a vector, and the algebra stops being mysterious.
 
-  *Slides: [3.1 Stress — Scalar, Vector & Tensor](/slideshows/Module-iii-lecture1-Theory-draft.reveal.html#/18)*
+  *Slides: [3.1 Stress — Scalar, Vector & Tensor](/slideshows/Module-iii-lecture1-Theory-draft.reveal.html#/17)*
 
 Schistosity
 : The coarser, visibly crystalline foliation of a schist, developed at greenschist facies and above when new micas grow large enough to see in hand specimen. Contrast cleavage: cleavage forms mainly by pressure solution and rotation at low grade and defines a splitting surface, whereas schistosity is dominated by recrystallisation and is defined by aligned micas and elongate quartz.
@@ -1169,7 +1169,7 @@ Tasmanides
 Tectonic regime
 : The classification of a stress state by which principal stress is vertical: normal faulting when $\sigma_1$ is vertical, strike-slip when $\sigma_2$ is vertical, thrust when $\sigma_3$ is vertical. Because the Earth's surface is a free surface, one principal stress must be near-vertical — which is what makes this three-way classification possible.
 
-  *Slides: [2.3 Extensional Regimes — Tectonic Extension](/slideshows/Module-ii-Lecture-3-Extensional_Regimes.reveal.html#/4) · [5.4 Structures Associated with Folding (2) — Tectonic lineations](/slideshows/Module-v-lecture3-Structures-Associated-with-Folding-2.reveal.html#/6) · [3.1 Stress — Major Tectonic Forces](/slideshows/Module-iii-lecture1-Theory-draft.reveal.html#/46)*
+  *Slides: [2.3 Extensional Regimes — Tectonic Extension](/slideshows/Module-ii-Lecture-3-Extensional_Regimes.reveal.html#/4) · [5.4 Structures Associated with Folding (2) — Tectonic lineations](/slideshows/Module-v-lecture3-Structures-Associated-with-Folding-2.reveal.html#/6) · [3.1 Stress — Major Tectonic Forces](/slideshows/Module-iii-lecture1-Theory-draft.reveal.html#/45)*
 
 Thick-skinned deformation
 : Deformation involving basement and cover together, typical of an orogenic hinterland. Whether basement is in the section changes the cross-section balance completely, so deciding between thick- and thin-skinned is one of the first interpretive judgements you make.
