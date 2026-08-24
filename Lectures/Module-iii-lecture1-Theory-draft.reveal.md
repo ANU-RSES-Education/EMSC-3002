@@ -369,8 +369,6 @@ Projecting the vector along the fault plane to find the normal component $\vec{T
 </div>
 
 <--o-->
-
-<!-- source: Lecture1_Stress.pptx slide 17 · replaced by the clearer Module 1.3 slide (2026-08) -->
 ## Principal Stresses
 
 At any point in a stressed material there is one special set of three, mutually perpendicular directions in which all the shear stresses vanish and only pushes (or pulls) remain. These are the **principal directions**, and the corresponding stresses — $\sigma_1 \ge \sigma_2 \ge \sigma_3$ — are the **principal stresses**.
@@ -378,13 +376,8 @@ At any point in a stressed material there is one special set of three, mutually 
 <center>
 
 ![Principal Stresses](images/GlobalTectonics/KaliakinCh4-PrincipalStresses.jpg) 
-<!-- .element style="width:40%" -->
 
 </center>
-
-The orientation and relative size of the principal stresses is the single most useful description of the stress state in tectonics. Finding these directions is a standard property of tensor quantities — diagonalisation:
-
-$$\left[ \begin{matrix} \sigma_{xx} & \sigma_{xy} & \sigma_{xz} \cr \sigma_{xy} & \sigma_{yy} & \sigma_{yz} \cr \sigma_{xz} & \sigma_{yz} & \sigma_{zz} \end{matrix} \right] \quad \Rightarrow \quad \left[ \begin{matrix} \sigma_1 & 0 & 0 \cr 0 & \sigma_2 & 0 \cr 0 & 0 & \sigma_3 \end{matrix} \right]$$
 
 <small>
 
@@ -392,18 +385,29 @@ The diagram above is found in Kaliakin, V. N. (2017). Stresses, Strains, and Ela
 
 </small>
 
+<--v-->
+## Principal Stresses
+
+
+The orientation and relative size of the principal stresses is the single most useful description of the stress state in tectonics. Finding these directions is a standard property of tensor quantities — diagonalisation:
+
+$$\left[ \begin{matrix} \sigma_{xx} & \sigma_{xy} & \sigma_{xz} \cr \sigma_{xy} & \sigma_{yy} & \sigma_{yz} \cr \sigma_{xz} & \sigma_{yz} & \sigma_{zz} \end{matrix} \right] \quad \Rightarrow \quad \left[ \begin{matrix} \sigma_1 & 0 & 0 \cr 0 & \sigma_2 & 0 \cr 0 & 0 & \sigma_3 \end{matrix} \right]$$
+
 <--o-->
 
 <!-- source: Lecture1_Stress.pptx slide 18 · template: T1-prose -->
 ## Deviatoric Stress and Mean Stress
 
-Stress has a volumetric component (pressure) that is independent of the orientation and a deviatoric component (the shear stresses) that is changes with viewpoint.
+Stress has a volumetric component (pressure) that is independent of the orientation and a deviatoric component (the shear stresses) that is changes with viewpoint. Mathematically, 
 
-Mathematically, $\left[ \begin{matrix} \sigma_{11} & \sigma_{12} & \sigma_{13} \cr \sigma_{21} & \sigma_{22} & \sigma_{23} \cr \sigma_{31} & \sigma_{32} & \sigma_{33} \end{matrix} \right]$ (total stress tensor)   =
-- $\left[ \begin{matrix} \sigma_m & 0 & 0 \cr 0 & \sigma_m & 0 \cr 0 & 0 & \sigma_m \end{matrix} \right]$   +   $\left[ \begin{matrix} \sigma_{11}-\sigma_m & \sigma_{12} & \sigma_{13} \cr \sigma_{21} & \sigma_{22}-\sigma_m & \sigma_{23} \cr \sigma_{31} & \sigma_{32} & \sigma_{33}-\sigma_m \end{matrix} \right]$
-- (mean stress tensor) 	 (deviatoric stress tensor)
-- $\sigma_m$ = ($\sigma_{11}$+ $\sigma_{22}$+ $\sigma_{33}$)/3 is the mean stress or hydrostatic stress.
-- In real life, the deviatoric (anisotropic) part is what actually causes distortion.
+$$
+\left[ \begin{matrix} \sigma_{11} & \sigma_{12} & \sigma_{13} \cr \sigma_{21} & \sigma_{22} & \sigma_{23} \cr \sigma_{31} & \sigma_{32} & \sigma_{33} \end{matrix} \right]  =
+- \left[ \begin{matrix} \sigma_m & 0 & 0 \cr 0 & \sigma_m & 0 \cr 0 & 0 & \sigma_m \end{matrix} \right]   +   \left[ \begin{matrix} \sigma_{11}-\sigma_m & \sigma_{12} & \sigma_{13} \cr \sigma_{21} & \sigma_{22}-\sigma_m & \sigma_{23} \cr \sigma_{31} & \sigma_{32} & \sigma_{33}-\sigma_m \end{matrix} \right]
+$$
+- total stress = mean stress  +	 deviatoric stress OR $\vec\sigma = p\vec{I} + \vec\tau$
+- $\sigma_m$ = ($\sigma_{11}$+ $\sigma_{22}$+ $\sigma_{33}$)/3 is the mean stress or hydrostatic stress and is usually the *pressure*. 
+
+In reality, the deviatoric (anisotropic) part is what actually causes distortion.
 
 <--o-->
 
@@ -416,7 +420,8 @@ Mathematically, $\left[ \begin{matrix} \sigma_{11} & \sigma_{12} & \sigma_{13} \
 - Scalar: a quantity with magnitude only (i.e. a real number, such as for mass, temperature, time).
 - Vector: a geometrical object with magnitude and one direction (e.g. force, velocity, acceleration).
 - Tensor (second-order): a mathematical structure with magnitude and two directions (two vectors), one (a unit vector) specifying a plane of action (e.g. permeability, strain, stress).
-- Advanced: Scalar is regarded as a zero-order tensor; vector as first-order tensor. Gradient of a scalar field is a vector field; divergent of a vector field is a scalar field.
+
+Advanced: Scalar is regarded as a zero-order tensor; vector as first-order tensor. Gradient of a scalar field is a vector field; divergence of a vector field is a scalar field.
 
 Right Temperature field is a scalar (above); Temperature _gradient_ field is
 a vector (below)
