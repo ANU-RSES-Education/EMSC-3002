@@ -339,7 +339,7 @@ $$ \left[\begin{matrix} 1 &   5 \end{matrix} \right] \cdot
 
 $$\sigma =\left[ \begin{matrix} \sigma_{xx} & \sigma_{xy} \cr \sigma_{yx} & \sigma_{yy} \end{matrix} \right]$ = $\left[ \begin{matrix} -40 & -10 \cr -10 & -60 \end{matrix} \right] \textrm{ MPa }$$
 
-Assuming this is a 2D problem, let us compute the forces acting across a fault oriented at 45º from the east direction. The (unit) normal for this fault is $\left[ 1/\surd{2} \\;\\; 1/\surd{2} \right] \approx [ 0.7 \\;\\; 0.7]$ 
+For a fault oriented at 45º from the east direction, ${\vec{n}} = \left[ 1/\surd{2} \\;\\; 1/\surd{2} \right] \approx [ 0.7 \\;\\; 0.7]$ 
 
 The formula to find the traction vector is $\vec{T}_i=\sigma \cdot \vec{n}$
 
