@@ -468,7 +468,7 @@ The second invariant plays the role of the magnitude of the deviatoric part of t
 
 ![](Module-iii-Theory/Lecture1-extracted/slide025_img1.jpg) <!-- .element style="width:50%;" -->
 
-<p class="caption">Fossen, 2010 · $\theta$</p>
+<p class="caption">Fossen, 2010 </p>
 
 </div>
 <div class="wide">
@@ -477,9 +477,7 @@ How normal / shear stress vary with the orientation of a planar cut.
 
 Starting with uniaxial compression and knowing that:
   - Stress = Force/Area
-  - Trigonometric functions
-    - $\sin \theta = \frac{AC}{AB}$
-    - $\cos \theta = \frac{BC}{AB}$
+  - Trigonometric function resolve components of forces onto the plane
 
 $$\sigma_{n}=\frac{F_{n}}{A_{2}}=\frac{F\cos\theta}{A_{2}}= \frac{F\cos^2\theta}{A_{1}}$$
 
