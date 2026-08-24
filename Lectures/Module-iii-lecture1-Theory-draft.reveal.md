@@ -473,43 +473,33 @@ The second invariant plays the role of the magnitude of the deviatoric part of t
 </div>
 <div class="wide">
 
-- How normal / shear stress vary with the plane orientation it acting upon.
-- Starting with uniaxial compression.
-- Prior knowledge
-- Stress = Force/Area
-- Trigonometric functions
+How normal / shear stress vary with the orientation of a planar cut.
 
-$\sin \theta = \frac{AC}{AB}$
-
-$\cos \theta = \frac{BC}{AB}$
-
-**A**
-
-$\tan \theta = \frac{AC}{BC}$
+Starting with uniaxial compression and knowing that:
+  - Stress = Force/Area
+  - Trigonometric functions
+    - $\sin \theta = \frac{AC}{AB}$
+    - $\cos \theta = \frac{BC}{AB}$
 
 $$\sigma_{n}=\frac{F_{n}}{A_{2}}=\frac{F\cos\theta}{A_{2}}= \frac{F\cos^2\theta}{A_{1}}$$
 
-$\theta$
-
-**C**
-
-**B**
-
-$=\sigma \cos^2\theta$
+$$=\sigma \cos^2\theta$$
 
 $$\sigma_{s}=\frac{F_{s}}{A_{2}}=\frac{F\sin\theta}{A_{2}}=\frac{F\sin\theta \cos \theta}{A_{1}}$$
 
-$= \sigma \sin \theta \cos \theta = (\sigma/2) \sin 2\theta$
+$$= \sigma \sin \theta \cos \theta = (\sigma/2) \sin 2\theta$$
 
 </div>
 </div>
 
+<!--
 Note:
 Ellipsoid is useful in some case if you want to know the traction vector directly. But in more occasions, we want to know both the normal and shear stress acting along a surface. 
 For uniaxial compression, we only have the normal force applied along the main axis of the cylinder. You can regard the resulted stress as sigma 1. We derive the trigonometric expressions for the normal and shear stress here. 
 A force vector F acting on a surface can be decomposed into a normal (Fn) and a shear (Fs) component by simple vector addition. The stress vector s cannot be decomposed in this way, because it depends on the area across which the force acts. 
 Recall some trigonometric functions for a right-angled triangle [opposite/hypotenuse/adjacent].  
 Before we put the normal and shear stress together, let’s look at how they vary with the theta angle individually.
+-->
 
 <--o-->
 
