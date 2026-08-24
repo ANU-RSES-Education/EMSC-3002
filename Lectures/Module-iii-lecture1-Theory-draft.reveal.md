@@ -566,8 +566,9 @@ German civil engineer, Christian Otto Mohr (1835-1918) expand into both 2D and 3
 
 The Mohr circle describes the normal and shear stress acting on planes of all possible orientations through a point in the rock.
 
-$$ \left[ \sigma_{n} - \frac{1}{2}\left( \sigma_1 + \sigma_3\right)\right]^2 + ]sigma_s^2 = 
-   \left[ \frac{1}{2}\left(\sigma_1 - \sigma_3\right) \right]^2} $$ 
+$$\left[ \sigma_{n} - \frac{1}{2}\left( \sigma_1 + \sigma_3\right)\right]^2 + ]sigma_s^2 = 
+   \left[ \frac{1}{2}\left(\sigma_1 - \sigma_3\right) \right]^2}
+$$ 
 
 The center has a coordinate of ($\frac{\sigma_1+\sigma_3}{2}$, 0) and a radius of$\frac{\sigma_1-\sigma_3}{2}$. Differential stress is $\sigma_1-\sigma_3$ and is important in fracture mechanics.
 
