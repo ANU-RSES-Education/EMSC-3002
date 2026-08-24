@@ -688,23 +688,20 @@ You can also derive the similar formula along the other two principal planes, al
 <--o-->
 
 <!-- source: Lecture1_Stress.pptx slide 31 · template: T3-text-and-image -->
-## The Coulomb-mohr Failure Criteria
+## The Coulomb-mohr Failure Criterion
 <div class="cols">
 <div class="wide">
 
-- A fracture criterion describes the critical condition at which a rock fractures.
-- The Coulomb-Mohr failure criteria indicates a linear relationship between the shear stress and normal stress to initiate a shear fracture.
-- They are shown as two straight lines in the Mohr circle.
-- where C is the cohesive strength;
-- $\phi$ is the angle of internal friction;
-- $u$ is the coefficient of friction
-- (0.47-0.7).
+A fracture criterion describes the critical condition at which a rock fractures.
+
+The Coulomb-Mohr failure criterion describes a linear relationship between the shear stress and normal stress to initiate a shear fracture.
+
+They form two straight lines on the Mohr circle diagram:
+- C is the cohesive strength
+- $\phi$ is the angle of internal friction
+- $\mu$ is the coefficient of friction (usually $0.4 \lt \mu \lt 0.7$   )
 
 $\sigma_{s}=C+\sigma_{n}\tan \phi =C+$ $\sigma_{n}u$
-
-$\sigma_1$
-
-$\theta$
 
 </div>
 <div>
@@ -722,11 +719,11 @@ This criteria builds upon the theory firstly derived by the French physicist Cha
 
 ## The Envelope, Measured
 
-![MohrFriction](images/UW-FaultExamples/mohr-friction-build.gif) <!-- .element style="display:block; margin-left:auto; margin-right:auto; width:60%" -->
+![MohrFriction](images/UW-FaultExamples/mohr-friction-build.gif) <!-- .element style="display:block; margin-left:auto; margin-right:auto; width:50%" -->
 
-Give the rotating fault Coulomb friction and repeat the experiment: probes that stay **stuck** reproduce the circle, but probes that **slide** pin themselves to the failure envelope — the yield line truncates the circle, exactly as the theory says.
+Give the rotating fault Coulomb friction and repeat the experiment: probes that stay **stuck** reproduce the circle, but faults that **slide** pin themselves to the failure envelope — the yield line truncates the circle.
 
-![MohrCohesion](images/UW-FaultExamples/mohr-cohesion.png) <!-- .element style="display:block; margin-left:auto; margin-right:auto; width:44%" -->
+![MohrCohesion](images/UW-FaultExamples/mohr-cohesion.png) <!-- .element style="display:block; margin-left:auto; margin-right:auto; width:35%" -->
 
 With cohesion added, the strength declines through mild tension and vanishes at $\sigma_n = -C/\mu$.
 
@@ -738,9 +735,25 @@ Underworld3 split-node fault computation (Moresi).
 
 <--v-->
 
+## The experiment, remembered from Module 1.3
+
+![CaliforniaCurved](images/UW-FaultExamples/california-curved.png) <!-- .element style="display:block; margin-left:auto; margin-right:auto; width:56%" -->
+
+At the end of [Module 1.3](Module-i-GlobalTectonics-3.reveal.html) we let this schematic San Andreas — one continuous trace with a restraining bend — slip right-laterally, while its neighbours (Garlock, the ECSZ strands, a San Jacinto analogue) stayed welded and simply *felt* the event. The map is the change each point experiences; the panels read that change on each neighbour's own plane.
+
+What exactly is that quantity on the colour bar? That is the next slide — and the numbers that follow are all read straight off this experiment.
+
+<small>
+
+Underworld3 split-node fault computation (Moresi).
+
+</small>
+
+<--v-->
+
 ## The Coulomb Failure Function
 
-![CFF](images/UW-FaultExamples/cff-explained.png) <!-- .element style="display:block; margin-left:auto; margin-right:auto; width:76%" -->
+![CFF](images/UW-FaultExamples/cff-explained.png) <!-- .element style="display:block; margin-left:auto; margin-right:auto; width:66%" -->
 
 A fault fails when its stress point reaches the envelope — so measure **how far it still has to go**:
 
@@ -754,7 +767,7 @@ $$\Delta \mathrm{CFF} = \Delta \tau - \mu' \Delta \sigma$$
 
 <--v-->
 
-## Two terms, and they can fight
+## Two terms: they may fight
 
 The measured San Jacinto case on the right of that figure is a good one to hold on to, because the two terms pull in **opposite** directions:
 
@@ -776,6 +789,14 @@ Three things to keep straight before reading any of the numbers that follow:
 - The values that matter in practice are **small**. Earthquakes drop of order $1$–$10$ MPa, but triggering is observed for changes as small as $\sim 0.01$ MPa — because faults are already sitting close to failure.
 
 *That last point is the one worth remembering: these are nudges to a system already on the edge, not shoves that break intact rock.*
+
+![CaliforniaCurved](images/UW-FaultExamples/california-curved.png) <!-- .element style="display:block; margin-left:auto; margin-right:auto; width:30%" -->
+
+<small>
+
+The experiment where all three cautions bite — the sign of the answer flips fault by fault.
+
+</small>
 
 <--v-->
 
@@ -891,8 +912,7 @@ Assumptions:
 
  Stereonets show fields of compression and tension.
 
-Note:
-Since we are discussing the Mohr circle and the failing criteria, let’s revisit Anderson’s theory of faulting, which describes the various stress condition with the focal mechanism. Louis brief touched on this topic in the first module. But now we may have a bit more background knowledge to understand it.
+Since we are discussing the Mohr circle and the failing criteria, let’s revisit Anderson’s theory of faulting, which describes the various stress condition with the focal mechanism. We briefly touched on this topic in the first module. 
 
 <--o-->
 
@@ -932,6 +952,8 @@ As long as you know the fault has not rotated since it formed !
 
 ![](Module-iii-Theory/Lecture1-extracted/slide036_img2.jpg)
 
+<p class="caption">Fossen, 2010</p>
+
 </div>
 
 <div>
@@ -941,9 +963,6 @@ One of the principal stresses will always be perpendicular to the free surface o
 The fault is weaker than the surrounding rock and can support lower shear stresses than its surroundings. The situation is similar to that where an open surface exists, e.g. the free surface of the Earth
 
 </div>
-<p class="caption">Fossen, 2010</p>
-
-
 
 
 <--o-->
@@ -1001,16 +1020,18 @@ Underworld3 split-node fault computation (Moresi).
 
 ![](Module-iii-Theory/Lecture1-extracted/slide038_img1.jpg) <!-- .element style="width:93%;" -->
 
-<p class="caption">$P_f$</p>
+<p class="caption">
+Effect of $P_f$ <br>
+Figure: Roderick Brown, U Glasgow 
+</p>
+
 
 </div>
 <div class="wide">
 
-- If the Mohr circle intersects the Mohr-Coulomb failure criteria, then the rock will fail along a fault plane of a normal direction of an angle $\theta$ to the $\sigma_1$ axis.
+If the Mohr circle intersects the Mohr-Coulomb failure criteria, then the rock will fail along a fault plane of a normal direction of an angle $\theta$ to the $\sigma_1$ axis.
 
-Figure: Roderick Brown, U Glasgow
-
-- If the Mohr circle does not intersect the Mohr-Coulomb failure criteria, then the rock will not fail. Increasing the fluid pressure moves the circle to the left (reduces effective normal stress) and so can lead to failure.
+If the Mohr circle does not intersect the Mohr-Coulomb failure criterion, then the rock should not fail. Increasing the fluid pressure moves the circle to the left (reduces effective normal stress) and so can lead to failure.
 
 </div>
 </div>
