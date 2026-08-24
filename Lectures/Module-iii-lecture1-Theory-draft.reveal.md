@@ -527,9 +527,9 @@ We want to see how $\sigma_{n}$ and $\sigma_{s}$ each vary as we change $\theta$
 
 $$\sigma_n = \sigma \cos^2\theta = \sigma (\cos 2\theta + 1)/2$$
 
-$\cos 2\theta = 2(\sigma_n - \sigma/2)/\sigma$
-
-$\sin 2\theta = 2\sigma_s/\sigma$
+$\cos 2\theta = 2(\sigma_n - \sigma/2)/\sigma \\;\\;$
+and 
+$ \\;\\; \sin 2\theta = 2\sigma_s/\sigma$
 
 $$(\sigma_n - \sigma/2)^2 + \sigma_s^2 = \sigma^2/4$$
 
@@ -541,7 +541,7 @@ This was first derived by Karl Culmann (1821-1881) in 19th century.
 </div>
 <div>
 
-![](Module-iii-Theory/Lecture1-extracted/slide027_img1.jpg) <!-- .element style="width:53%;" -->
+![](Module-iii-Theory/Lecture1-extracted/slide027_img1.jpg) <!-- .element style="width:75%;" -->
 
 </div>
 </div>
