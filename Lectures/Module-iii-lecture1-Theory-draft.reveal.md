@@ -865,7 +865,7 @@ Underworld3 split-node fault computation (Moresi). $\mu' = 0.4$; the confining p
 
 </center>
 
-Let us see a real example to use this criteria to predict whether a fault plane under certain stress will fail.
+Let us work through an example to see how we use this criterion
 
 <--v-->
 
