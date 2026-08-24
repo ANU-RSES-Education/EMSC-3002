@@ -259,11 +259,15 @@ $$\left[ \begin{matrix} \sigma_{xx} & \sigma_{xy} & \sigma_{xz} \cr \sigma_{xy} 
 <div class="cols">
 <div class="wide">
 
-- Stress tensor describes the most general case.
-- $\sigma =\left[ \begin{matrix} \sigma_{xx} & \sigma_{xy} & \sigma_{xz} \cr \sigma_{yx} & \sigma_{yy} & \sigma_{yz} \cr \sigma_{zx} & \sigma_{zy} & \sigma_{zz} \end{matrix} \right]$ = $\left[ \begin{matrix} \vec{T}_x \cr \vec{T}_y \cr \vec{T}_z \end{matrix} \right]$
-- If we cut out a plane through a material that is under stress, then there is a traction vector (a force) on this plane that results from the unbalanced stresses.
-- That traction can be computed using the stress tensor ($\vec{n}$ is the unit vector normal to the plane):
-- $$\vec{T}_i = \sum_{j} \sigma_{ij} \, n_j = \sigma ∙ \vec{n}$$
+The stress tensor describes the most general case.
+
+$$\sigma =\left[ \begin{matrix} \sigma_{xx} & \sigma_{xy} & \sigma_{xz} \cr \sigma_{yx} & \sigma_{yy} & \sigma_{yz} \cr \sigma_{zx} & \sigma_{zy} & \sigma_{zz} \end{matrix} \right]$ = $\left[ \begin{matrix} \vec{T}_x \cr \vec{T}_y \cr \vec{T}_z \end{matrix} \right]$$
+
+If we cut out a plane through a material that is under stress, then there is a traction vector (a force) on this plane that results from the unbalanced stresses.
+
+The traction can be computed using the stress tensor ($\vec{n}$ is the unit vector normal to the plane):
+ 
+$$\vec{T}_i = \sum_{j} \sigma_{ij} \, n_j = \sigma ∙ \vec{n}$$
 
 The stress components acting on the faces of a small cube
 
@@ -284,9 +288,11 @@ The stress components acting on the faces of a small cube
 <div class="cols">
 <div class="wide">
 
-- Suppose we are given the below horizontal components of the stress tensor:
-- $\sigma =\left[ \begin{matrix} \sigma_{xx} & \sigma_{xy} \cr \sigma_{yx} & \sigma_{yy} \end{matrix} \right]$ = $\left[ \begin{matrix} -40 & -10 \cr -10 & -60 \end{matrix} \right]$ MPa
-- Assuming this is a 2D problem, let us compute the forces acting across a fault oriented at 45º from the east direction.
+Suppose we are given the below horizontal components of the stress tensor:
+
+$$\sigma =\left[ \begin{matrix} \sigma_{xx} & \sigma_{xy} \cr \sigma_{yx} & \sigma_{yy} \end{matrix} \right] = \left[ \begin{matrix} -40 & -10 \cr -10 & -60 \end{matrix} \right] \textrm{MPa}$$
+
+Assuming this is a 2D problem, let us compute the forces acting across a fault oriented at 45º from the east direction.
 
 </div>
 <div>
@@ -303,15 +309,21 @@ The stress components acting on the faces of a small cube
 <div class="cols">
 <div class="wide">
 
-- Suppose we are given the below horizontal components of the stress tensor:
-- $\sigma =\left[ \begin{matrix} \sigma_{xx} & \sigma_{xy} \cr \sigma_{yx} & \sigma_{yy} \end{matrix} \right]$ = $\left[ \begin{matrix} -40 & -10 \cr -10 & -60 \end{matrix} \right]$ MPa
-- Assuming this is a 2D problem, let us compute the forces acting across a fault oriented at 45º from the east direction.
-- Review on matrix multiplication.
-- The special case of dot product of two vectors:
+Suppose we are given the below horizontal components of the stress tensor:
 
-A<sub>0</sub> = [1   5]
-B<sub>0</sub> = [2   3]
-A<sub>0 </sub>$∙$ B<sub>0 </sub>= 1$\times 2+5 \times 3=17$
+$$\sigma =\left[ \begin{matrix} \sigma_{xx} & \sigma_{xy} \cr \sigma_{yx} & \sigma_{yy} \end{matrix} \right] = \left[ \begin{matrix} -40 & -10 \cr -10 & -60 \end{matrix} \right] \textrm {MPa}$$
+
+Assuming this is a 2D problem, let us compute the forces acting across a fault oriented at 45º from the east direction.
+
+### Review on matrix multiplication.
+
+The special case of dot product of two vectors:
+
+$$ A = [ 1 5 ] \; B = [2 3] \; \; A \cdot B = 1 \ times 2 + 5 \times 3 = 17 $$
+
+or 
+
+$$ \begin{matrix} 1 & 5 \end{matrix} \cdot  \begin{matrix} 2 \cr 3 \end{matrix}  = [ 17 ] $$
 
 </div>
 <div>
@@ -323,23 +335,25 @@ A<sub>0 </sub>$∙$ B<sub>0 </sub>= 1$\times 2+5 \times 3=17$
 </div>
 </div>
 
-<--o-->
+<--v-->
 
 <!-- source: Lecture1_Stress.pptx slide 16 · template: T3-text-and-image (fault diagram restored; pptx slide 15, a progressive-reveal duplicate, folded in) -->
 ## Example: Computing Traction Vector
 <div class="cols">
 <div class="wide">
 
-- Suppose we are given the below horizontal components of the stress tensor:
-- $\sigma =\left[ \begin{matrix} \sigma_{xx} & \sigma_{xy} \cr \sigma_{yx} & \sigma_{yy} \end{matrix} \right]$ = $\left[ \begin{matrix} -40 & -10 \cr -10 & -60 \end{matrix} \right]$ MPa
-- Assuming this is a 2D problem, let us compute the forces acting across a fault oriented at 45º from the east direction.
-- Solutions:
-- We start by converting mathematic symbols to stress in real world.
-- Then recall the formula to get traction vector: $\vec{T}_i=\sigma ∙\vec{n}$
-- The unit vector $\vec{n}$ can be expressed by $\left[ \begin{matrix} 0.7 \cr 0.7 \end{matrix} \right]$.
-- Perform matrix multiplication:
-- $\vec{T}=\left[ \begin{matrix} -40 & -10 \cr -10 & -60 \end{matrix} \right]\left[ \begin{matrix} 0.7 \cr 0.7 \end{matrix} \right]$ = $\left[ \begin{matrix} -35 \cr -49 \end{matrix} \right]$ MPa
-- Projecting the vector along the fault plane to get normal $\vec{T}∙\vec{n}$ (-58.8 MPa) and shear stress $\vec{T}∙\vec{f} (9.8 MPa)$.
+Suppose we are given the components of the stress tensor:
+$$\sigma =\left[ \begin{matrix} \sigma_{xx} & \sigma_{xy} \cr \sigma_{yx} & \sigma_{yy} \end{matrix} \right]$ = $\left[ \begin{matrix} -40 & -10 \cr -10 & -60 \end{matrix} \right] \textrm{ MPa }$$
+
+Assuming this is a 2D problem, let us compute the forces acting across a fault oriented at 45º from the east direction. The (unit) normal for this fault is $\left[ 1/\surd{2} 1/\surd{2} \right] \approx [ 0.7 0.7]$ 
+
+The formula to find the traction vector is $\vec{T}_i=\sigma \cdot \vec{n}$
+
+Perform matrix multiplication:
+
+$$\vec{T}=\left[ \begin{matrix} -40 & -10 \cr -10 & -60 \end{matrix} \right]\left[ \begin{matrix} 0.7 \cr 0.7 \end{matrix} \right] = \left[ \begin{matrix} -35 \cr -49 \end{matrix} \right] \textrm{MPa}$$
+
+Projecting the vector along the fault plane to find the normal component $\vec{T}∙\vec{n}$ (-58.8 MPa) and shear component $\vec{T}\cdot\vec{f}$ (9.8 MPa).
 
 </div>
 <div>
