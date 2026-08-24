@@ -255,7 +255,10 @@ Stress = = G/A = $\rho z g$ = 2.7 $\times 10^3 \times 9.8 \times 1000 \approx$ 2
 
 We need three orthogonal surfaces to describe a complete state of force at any point (for a continuous medium).
 - The complete stress state is described by three 3-component vectors ⇒ tensor.
-- $\sigma =\left[ \begin{matrix} \sigma_{xx} & \sigma_{xy} & \sigma_{xz} \cr \sigma_{yx} & \sigma_{yy} & \sigma_{yz} \cr \sigma_{zx} & \sigma_{zy} & \sigma_{zz} \end{matrix} \right]$ =$\left[ \begin{matrix} \vec{T}_x \cr \vec{T}_y \cr \vec{T}_z \end{matrix} \right]$
+
+$$
+\sigma =\left[ \begin{matrix} \sigma_{xx} & \sigma_{xy} & \sigma_{xz} \cr \sigma_{yx} & \sigma_{yy} & \sigma_{yz} \cr \sigma_{zx} & \sigma_{zy} & \sigma_{zz} \end{matrix} \right] =\left[ \begin{matrix} \vec{T}_x \cr \vec{T}_y \cr \vec{T}_z \end{matrix} \right]
+$$
 
 The stress tensor is symmetric as no net rotation from shear stresses. It now becomes: 
  
@@ -282,13 +285,15 @@ $$\left[ \begin{matrix} \sigma_{xx} & \sigma_{xy} & \sigma_{xz} \cr \sigma_{xy} 
 
 The stress tensor describes the most general case.
 
-$$\sigma =\left[ \begin{matrix} \sigma_{xx} & \sigma_{xy} & \sigma_{xz} \cr \sigma_{yx} & \sigma_{yy} & \sigma_{yz} \cr \sigma_{zx} & \sigma_{zy} & \sigma_{zz} \end{matrix} \right]$ = $\left[ \begin{matrix} \vec{T}_x \cr \vec{T}_y \cr \vec{T}_z \end{matrix} \right]$$
+$$\sigma =\left[ \begin{matrix} \sigma_{xx} & \sigma_{xy} & \sigma_{xz} \cr \sigma_{yx} & \sigma_{yy} & \sigma_{yz} \cr \sigma_{zx} & \sigma_{zy} & \sigma_{zz} \end{matrix} \right]  = \left[ \begin{matrix} \vec{T}_x \cr \vec{T}_y \cr \vec{T}_z \end{matrix} \right]$$
 
 If we cut out a plane through a material that is under stress, then there is a traction vector (a force) on this plane that results from the unbalanced stresses.
 
 The traction can be computed using the stress tensor ($\vec{n}$ is the unit vector normal to the plane):
  
-$$\vec{T}_i = \sum_{j} \sigma_{ij} \, n_j = \sigma ∙ \vec{n}$$
+$$
+\vec{T}_i = \sum_{j} \sigma_{ij} \, n_j = \sigma ∙ \vec{n}
+$$
 
 The stress components acting on the faces of a small cube
 
@@ -412,8 +417,10 @@ The diagram above is found in Kaliakin, V. N. (2017). Stresses, Strains, and Ela
 
 <!-- source: Lecture1_Stress.pptx slide 18 · template: T1-prose -->
 ## Deviatoric Stress and Mean Stress
-- It has a volumetric component (pressure) that is independent of the orientation and a deviatoric component (the shear stresses) that is not.
-- Mathematically, $\left[ \begin{matrix} \sigma_{11} & \sigma_{12} & \sigma_{13} \cr \sigma_{21} & \sigma_{22} & \sigma_{23} \cr \sigma_{31} & \sigma_{32} & \sigma_{33} \end{matrix} \right]$ (total stress tensor)   =
+
+Stress has a volumetric component (pressure) that is independent of the orientation and a deviatoric component (the shear stresses) that is changes with viewpoint.
+
+Mathematically, $\left[ \begin{matrix} \sigma_{11} & \sigma_{12} & \sigma_{13} \cr \sigma_{21} & \sigma_{22} & \sigma_{23} \cr \sigma_{31} & \sigma_{32} & \sigma_{33} \end{matrix} \right]$ (total stress tensor)   =
 - $\left[ \begin{matrix} \sigma_m & 0 & 0 \cr 0 & \sigma_m & 0 \cr 0 & 0 & \sigma_m \end{matrix} \right]$   +   $\left[ \begin{matrix} \sigma_{11}-\sigma_m & \sigma_{12} & \sigma_{13} \cr \sigma_{21} & \sigma_{22}-\sigma_m & \sigma_{23} \cr \sigma_{31} & \sigma_{32} & \sigma_{33}-\sigma_m \end{matrix} \right]$
 - (mean stress tensor) 	 (deviatoric stress tensor)
 - $\sigma_m$ = ($\sigma_{11}$+ $\sigma_{22}$+ $\sigma_{33}$)/3 is the mean stress or hydrostatic stress.
@@ -474,7 +481,7 @@ The second invariant plays the role of the magnitude of the deviatoric part of t
 - Stress = Force/Area (N/m<sup>2</sup> = Pa)
 - Stress state in 2D/3D
 - Principle stress (eigenvalues/eigenvectors)
-- Calculate traction/stress along a surface given a stress matrix: $\vec{T}_i=\sigma ∙\vec{n}$
+- Calculate traction/stress along a surface given a stress matrix: $\vec{T}_i=\sigma \cdot \vec{n}$
 
 <!-- Screenshot image here -->
 
