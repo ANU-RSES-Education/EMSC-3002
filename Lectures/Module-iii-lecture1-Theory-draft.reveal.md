@@ -830,16 +830,10 @@ Underworld3 split-node fault computation (Moresi). $\mu' = 0.4$; the confining p
 
 <!-- source: Lecture1_Stress.pptx slide 32 · template: T1-prose -->
 ## Example: Will the Fault Fail?
-- The sketch shows a portion of a normal fault extends to a depth o f 5 km. Direct stress measurements at such depth indicates the stress condition on this fault plane: a normal stress ($\sigma_n$) of 300 MPa and a shear stress ($\sigma_s$) of 120 MPa.
+- The sketch shows a portion of a normal fault extends to a depth of 5 km. Direct stress measurements at such depth indicates the stress condition on this fault plane: a normal stress ($\sigma_n$) of 300 MPa and a shear stress ($\sigma_s$) of 120 MPa.
 - Question: assuming the rock materials have a coefficient of friction of 0.6, use the Coulomb-Mohr failure criteria to determine if the fault should fail.
 
-$\sigma_{1}$
-
-$\sigma_{s}$
-
-$\sigma_{3}$
-
-$\sigma_{n}$
+![](Module-iii-Theory/fault-fail-example.png) <!-- .element style="max-height:420px;" -->
 
 Note:
 Let us see a real example to use this criteria to predict whether a fault plane under certain stress will fail.
@@ -848,24 +842,14 @@ Let us see a real example to use this criteria to predict whether a fault plane 
 
 <!-- source: Lecture1_Stress.pptx slide 33 · template: T1-prose -->
 ## Example: Will the Fault Fail?
-- The sketch shows a portion of a normal fault extends to a depth o f 5 km. Direct stress measurements at such depth indicates the stress condition on this fault plane: a normal stress ($\sigma_n$) of 300 MPa and a shear stress ($\sigma_s$) of 120 MPa.
-- Question: assuming the rock materials have a coefficient of friction of 0.6, use the Coulomb-Mohr failure criteria to determine if the fault should fail.
 
-$\sigma_{1}$
+![](Module-iii-Theory/fault-fail-example.png) <!-- .element style="max-height:300px;" -->
 
 - Solutions:
 - To predict the fault will fail or not, we just need to compare the actual shear stress along the fault plane with the critical shear stress from the failure criteria.
-- Recall the Coulomb-Mohr failure criteria:
+- Recall the Coulomb-Mohr failure criteria: $\sigma_{s\text{-}fail} = C + \sigma_n \tan \phi$
 - $\sigma_{s\text{-}fail} = 0.6 \times 300 + C = 180 \textrm{ MPa} + C$.
 - Since the cohesive strength $C$ is positive, $\sigma_{s\text{-}fail}$ will be always larger than the actual shear stress, so it will not fail.
-
-$\sigma_{s}$
-
-$\sigma_{3}$
-
-$\sigma_{n}$
-
-$$\sigma_{s\text{-}fail} = C + \sigma_n \tan \phi$$
 
 <--o-->
 
