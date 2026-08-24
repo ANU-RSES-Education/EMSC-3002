@@ -33,8 +33,8 @@ Australian National University
 1. Rheology studies how materials deform/flow in response to stress (solids, fluids, gases).
 1. Elastic (E), plastic, viscous ($\eta$) and brittle deformation
 1. SUMMARY OF MODULE 3
-1. $$\sigma =\left[ \begin{matrix} \sigma 1 & 0 & 0 \cr 0 & \sigma 2 & 0 \cr 0 & 0 & \sigma 3 \end{matrix} \right]$$
-1. $$\epsilon ij= \frac{1}{2}\left[ \frac{{\partial u} _ {i}}{{\partial x} _ {j}}+\frac{{\partial u} _ {j}}{{\partial x} _ {i}} \right]$$
+1. $$\sigma =\left[ \begin{matrix} \sigma_1 & 0 & 0 \cr 0 & \sigma_2 & 0 \cr 0 & 0 & \sigma_3 \end{matrix} \right]$$
+1. $$\epsilon_{ij}= \frac{1}{2}\left[ \frac{{\partial u} _ {i}}{{\partial x} _ {j}}+\frac{{\partial u} _ {j}}{{\partial x} _ {i}} \right]$$
 
 <--o-->
 
@@ -431,7 +431,7 @@ Alan Griffith was another British engineer. He took the next step toward solving
 <div class="wide">
 
 - Axial stretching: preexisting microcracks in the sample open slightly once remote tensile stress applied and magnified to create larger local stress at the crack tips. The largest, properly oriented cracks propagate to from a throughgoing crack.
-- Axial compression: mesoscopic tensile fractures develop parallel to the cylinder axis to form longitudinal splitting. It is like tensile cracking except that the cracks not parallel to the $\sigma 1$ direction are closed in uniaxial compression (low confining pressure).
+- Axial compression: mesoscopic tensile fractures develop parallel to the cylinder axis to form longitudinal splitting. It is like tensile cracking except that the cracks not parallel to the $\sigma_1$ direction are closed in uniaxial compression (low confining pressure).
 
 An “envelope” model of longitudinal splitting
 
@@ -584,7 +584,7 @@ This figure is usually what in my head when thinking about the stress state when
 - Prior knowledge:
 - stress = Force/Area & Trigonometric functions
 
-${\sigma} _ {n}$= $\sigma \cos 2\theta$
+${\sigma} _ {n}$= $\sigma \cos^2\theta$
 
 ${\sigma} _ {s}=\sigma /2\sin 2\theta$
 
@@ -612,7 +612,7 @@ ${\sigma} _ {s}=\sigma /2\sin 2\theta$
 - How normal/shear stress vary with the plane orientation it acting upon (start with uniaxial compression).
 - Prior knowledge: stress = Force/Area & Trigonometric functions
 
-${\sigma} _ {n}$= $\sigma \cos 2\theta =\sigma (\cos 2\theta +1)/2$
+${\sigma} _ {n}$= $\sigma \cos^2\theta =\sigma (\cos 2\theta +1)/2$
 
 ${\sigma} _ {s}=\sigma /2\sin 2\theta$
 
@@ -739,7 +739,7 @@ Alan Arnold Griffith
 - Major difference of the Griffith and Coulomb criteria lie in tensile regime and compressional regime of large confining pressure.
 - It models the Griffith cracks and predicts tensile cracking very well and is also a reasonable approximation for some non-porous rocks under compressional regime.
 
-${\sigma 2} _ {s}+4T{\sigma} _ {n}-4T2=0$
+${\sigma_2} _ {s}+4T{\sigma} _ {n}-4T2=0$
 
 </div>
 <div>
@@ -792,7 +792,7 @@ On the right side of the diagram, we have Von Mises criteria shown as horizontal
 
 - Frictional sliding refers to the movement on a surface when shear stress parallel to surface exceeds the frictional resistance to sliding (static and dynamic friction).
 - Friction exists due to no perfect smooth surface. Asperities are the rough surfaces and the real area of contact. The friction is mostly dependent on the normal stress rather than the contact area and rock materials.
-- Byerlee’s law: it describes the vertical increase in critical shear stress (stress required for faulting) through the frictional upper crust. Two straight lines in $\sigma s-\sigma n$ space.
+- Byerlee’s law: it describes the vertical increase in critical shear stress (stress required for faulting) through the frictional upper crust. Two straight lines in $\sigma_s-\sigma_n$ space.
 
 </div>
 <div>
@@ -931,7 +931,7 @@ Uniaxial and triaxial testing apparatus.
 - Foliations perpendicular (weaker) and parallel to stress direction.
 - Grain sizes: larger rock samples are weaker as it more likely to contain appropriately oriented and larger Griffith cracks.
 
-$\sigma diff$ (MPa)
+$\sigma_{diff}$ (MPa)
 
 Marble 5 kbars, 500<sup>o</sup>C
 

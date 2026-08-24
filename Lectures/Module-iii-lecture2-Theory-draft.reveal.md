@@ -379,7 +379,7 @@ Simple example for shear strain
 $\Delta x$
 
 - The offset on either side of the fault zone is Δ𝑥 =5 cm and the width of the fault zone is 𝑦=0.5 cm.
-- The fault trace provides the relative lateral movement within the shear zone. The shear strain $\epsilon s=\frac{5}{0.5}=10$. The shear angle is $\gamma = {\tan }^{-1}\left( 10 \right)∗\frac{180}{\pi}=84.3°$
+- The fault trace provides the relative lateral movement within the shear zone. The shear strain $\epsilon_s=\frac{5}{0.5}=10$. The shear angle is $\gamma = {\tan }^{-1}\left( 10 \right)∗\frac{180}{\pi}=84.3°$
 
 $y$
 
@@ -405,11 +405,11 @@ The key to quantify strain is to find the right geometry describing the deformat
 
 (Advanced)
 
-$\epsilon 11= \frac{\Delta l}{l0}$ = $\frac{{A}^{′}{B}^{′}-AB}{AB}$= $\frac{{BB}^{′}-A{A}^{′}}{AB}$
+$\epsilon_{11}= \frac{\Delta l}{l0}$ = $\frac{{A}^{′}{B}^{′}-AB}{AB}$= $\frac{{BB}^{′}-A{A}^{′}}{AB}$
 = $\frac{u1(B)-u1(A)}{AB}$
 Using the series expansion of $u1(B)$:
 $u1(B)$ $\approx$ $u1(A$) + $\frac{\partial u1}{\partial x1} ∙AB$
-So, $\epsilon 11$ = $\frac{\partial u1}{\partial x1}$
+So, $\epsilon_{11}$ = $\frac{\partial u1}{\partial x1}$
 The subscript of 1 indicates one direction.
 
 Before stretching
@@ -497,12 +497,12 @@ $x1$
 $\gamma =\tan \phi = \frac{BB′}{AB}$
 Using the series expansion of $u1(B)$:
 $B{B}^{′}$= $u2(B$) $\approx u2(A$) + $\frac{\partial u1}{\partial x2} ∙AB$
-So, $\epsilon 12$ = $\gamma$ = $\frac{\partial u1}{\partial x2}$
+So, $\epsilon_{12}$ = $\gamma$ = $\frac{\partial u1}{\partial x2}$
 
-$\epsilon 12$ = $\frac{\partial u1}{\partial x2}$
-$\epsilon 21$ = $\frac{\partial u2}{\partial x1}$
+$\epsilon_{12}$ = $\frac{\partial u1}{\partial x2}$
+$\epsilon_{21}$ = $\frac{\partial u2}{\partial x1}$
 More generally,
-$\epsilon 12$ =$\epsilon 21$= $\frac{1}{2}\left( \frac{\partial u2}{\partial x1}+\frac{\partial u1}{\partial x2} \right)$
+$\epsilon_{12}$ =$\epsilon_{21}$= $\frac{1}{2}\left( \frac{\partial u2}{\partial x1}+\frac{\partial u1}{\partial x2} \right)$
 
 (Advanced)
 
@@ -517,10 +517,10 @@ consider homogeneous and infinitesimal strain, so that linear and shear strains 
 <div class="wide">
 
 - We can describe the entire strain state with displacement of one direction relative to space in another direction:
-- $$\epsilon ij=\frac{1}{2}\left[ \frac{{\partial u} _ {i}}{{\partial x} _ {j}}+\frac{{\partial u} _ {j}}{{\partial x} _ {i}} \right]$$
+- $$\epsilon_{ij}=\frac{1}{2}\left[ \frac{{\partial u} _ {i}}{{\partial x} _ {j}}+\frac{{\partial u} _ {j}}{{\partial x} _ {i}} \right]$$
 - Where u<sub>i</sub> is the displacement in the direction i. i, j can be any of 1, 2, 3 and the coordinates x, y, z are then referred to as x<sub>1</sub>, x<sub>2</sub>, x<sub>3</sub>.
 - Like the stress state, the full strain state of a body is described by three 3-component vectors ⇒ tensor.
-- $$\left[ \begin{matrix} \epsilon 11 & \epsilon 12 & \epsilon 13 \cr \epsilon 21 & \epsilon 22 & \epsilon 23 \cr \epsilon 31 & \epsilon 32 & \epsilon 33 \end{matrix} \right]$$
+- $$\left[ \begin{matrix} \epsilon_{11} & \epsilon_{12} & \epsilon_{13} \cr \epsilon_{21} & \epsilon_{22} & \epsilon_{23} \cr \epsilon_{31} & \epsilon_{32} & \epsilon_{33} \end{matrix} \right]$$
 
 - It might contain volumetric, shear and normal components.
 
@@ -540,7 +540,7 @@ consider homogeneous and infinitesimal strain, so that linear and shear strains 
 <div class="wide">
 
 - Like the stress tensor, the strain tensor can be diagonalised to get a form only containing principal strain, e<sub>1</sub>, e<sub>2</sub> and e<sub>3</sub>.
-- $\left[ \begin{matrix} \epsilon 11 & \epsilon 12 & \epsilon 13 \cr \epsilon 21 & \epsilon 22 & \epsilon 23 \cr \epsilon 31 & \epsilon 32 & \epsilon 33 \end{matrix} \right]$ becomes $\left[ \begin{matrix} e1 & 0 & 0 \cr 0 & e2 & 0 \cr 0 & 0 & e3 \end{matrix} \right]$
+- $\left[ \begin{matrix} \epsilon_{11} & \epsilon_{12} & \epsilon_{13} \cr \epsilon_{21} & \epsilon_{22} & \epsilon_{23} \cr \epsilon_{31} & \epsilon_{32} & \epsilon_{33} \end{matrix} \right]$ becomes $\left[ \begin{matrix} e1 & 0 & 0 \cr 0 & e2 & 0 \cr 0 & 0 & e3 \end{matrix} \right]$
 - The three principal strain can be used to form a strain ellipsoid. It represents the same state of strain regardless of our choice of coordinate system (axes and plane).
 - In 3D the shape of the strain ellipsoid usually require two strain ratios to define.
 
@@ -576,7 +576,7 @@ A strain ellipsoid has three lines X,Y and Z that are special. They represent 
 - Natural strain $\lambda =s2$
 - In general, principal strain uses the stretching factors of S<sub>1</sub>, S<sub>2</sub>, S<sub>3</sub>, which sometimes are also denoted as X, Y or Z. With this, X=Y=Z=1 means no deformation.
 - The notations for principal strain below are telling the same story:
-- X = S<sub>1</sub> = e<sub>1</sub>= 1+ $\epsilon$<sub>1</sub> = $\sqrt{\lambda 1};$Y = S<sub>2</sub> = e<sub>2</sub> =1+ $\epsilon$<sub>2</sub> =$\sqrt{\lambda 2}$; Z = S<sub>3</sub> = e<sub>3</sub> = 1+ $\epsilon$<sub>3</sub> = $\sqrt{\lambda 3}$
+- X = S<sub>1</sub> = e<sub>1</sub>= 1+ $\epsilon$<sub>1</sub> = $\sqrt{\lambda_1};$Y = S<sub>2</sub> = e<sub>2</sub> =1+ $\epsilon$<sub>2</sub> =$\sqrt{\lambda_2}$; Z = S<sub>3</sub> = e<sub>3</sub> = 1+ $\epsilon$<sub>3</sub> = $\sqrt{\lambda_3}$
 
 </div>
 <div>
@@ -626,7 +626,7 @@ The flinn diagram summaries the different geometry of resulted deformation in on
 - Uniaxial strain is contraction or extension along one of the principal strain axes without any change in length along the other two. Such strain requires a reorganization, addition or removal of rock volume.
 - It is an anisotropic volume change but a coaxial deformation. Volume reduction creates uniaxial contraction (compaction) and volume increase creates uniaxial extension.
 - A best example is compaction of sediment progressively losing its porosity due to the loading. This forms part of the process of lithification (physical and chemical compaction).
-- Porosity $\phi$ decreases with depth as$\phi$(Z) = $\phi 0 {e}^{-CZ}$, where C is a constant, $\phi 0$ is initial porosity.
+- Porosity $\phi$ decreases with depth as$\phi$(Z) = $\phi_0 {e}^{-CZ}$, where C is a constant, $\phi_0$ is initial porosity.
 
 Unconsolidated
 
@@ -832,7 +832,7 @@ Simple shear
 
 3D cases
 
-$$\epsilon ij= \frac{1}{2}\left[ \frac{{\partial u} _ {i}}{{\partial x} _ {j}}+\frac{{\partial u} _ {j}}{{\partial x} _ {i}} \right]$$
+$$\epsilon_{ij}= \frac{1}{2}\left[ \frac{{\partial u} _ {i}}{{\partial x} _ {j}}+\frac{{\partial u} _ {j}}{{\partial x} _ {i}} \right]$$
 
 $x2$
 
@@ -861,9 +861,9 @@ $\phi$
 
 **B’**
 
-$\epsilon 11= \frac{\Delta l}{l0}$
+$\epsilon_{11}= \frac{\Delta l}{l0}$
 
-$\epsilon 11$ = $\frac{\partial u1}{\partial x1}$
+$\epsilon_{11}$ = $\frac{\partial u1}{\partial x1}$
 
 **A**
 
@@ -873,7 +873,7 @@ $\gamma =\tan \phi = \frac{BB′}{AB}$
 
 $x1$
 
-$\epsilon 12$ = $\frac{\partial u1}{\partial x2}$
+$\epsilon_{12}$ = $\frac{\partial u1}{\partial x2}$
 
 - Strain tensor and ellipsoid
 
@@ -881,7 +881,7 @@ $\epsilon 12$ = $\frac{\partial u1}{\partial x2}$
 - Pure shear and simple shear
 - Methods to measure strain
 
-$\left[ \begin{matrix} \epsilon 11 & \epsilon 12 & \epsilon 13 \cr \epsilon 21 & \epsilon 22 & \epsilon 23 \cr \epsilon 31 & \epsilon 32 & \epsilon 33 \end{matrix} \right]$ => $\left[ \begin{matrix} e1 & 0 & 0 \cr 0 & e2 & 0 \cr 0 & 0 & e3 \end{matrix} \right]$
+$\left[ \begin{matrix} \epsilon_{11} & \epsilon_{12} & \epsilon_{13} \cr \epsilon_{21} & \epsilon_{22} & \epsilon_{23} \cr \epsilon_{31} & \epsilon_{32} & \epsilon_{33} \end{matrix} \right]$ => $\left[ \begin{matrix} e1 & 0 & 0 \cr 0 & e2 & 0 \cr 0 & 0 & e3 \end{matrix} \right]$
 
 </div>
 <div>
@@ -1016,7 +1016,7 @@ Has a unit of reciprocal time.
 <!-- source: Lecture2_Strain_StrainRate.pptx slide 34 · template: T1-prose -->
 ## Strain Rate Tensor
 - Recall that the strain tensor expressed using displacement:
-- $$\epsilon ij=\frac{1}{2}\left[ \frac{{\partial u} _ {i}}{{\partial x} _ {j}}+\frac{{\partial u} _ {j}}{{\partial x} _ {i}} \right]$$
+- $$\epsilon_{ij}=\frac{1}{2}\left[ \frac{{\partial u} _ {i}}{{\partial x} _ {j}}+\frac{{\partial u} _ {j}}{{\partial x} _ {i}} \right]$$
 - The strain rate tensor can then replace the displacement vector in the strain with velocity vector:
 - D$ij=\frac{1}{2}\left[ \frac{{\partial v} _ {i}}{{\partial x} _ {j}}+\frac{{\partial v} _ {j}}{{\partial x} _ {i}} \right]$  or  $\left[ \begin{matrix} Dxx & Dxy & Dxz \cr Dyx & Dyy & Dyz \cr Dzx & Dzy & Dzz \end{matrix} \right]$
 - The strain rate tensor also has three principal strain rates direction where all shear values vanish. The diagonal sums to zero if the material is incompressible (i.e., zero trace, first invariant is zero). The second invariant is defined from the principal values and represents the magnitude.
@@ -1188,13 +1188,13 @@ x
 
 x
 
-$\epsilon 11= \left[ \frac{dux1}{dx1} \right]$ = 0.3
+$\epsilon_{11}= \left[ \frac{dux1}{dx1} \right]$ = 0.3
 
-$\epsilon 12= \left[ \frac{dux}{dy} \right]$ = 0
+$\epsilon_{12}= \left[ \frac{dux}{dy} \right]$ = 0
 
-$\epsilon xx=\epsilon yy=0$
+$\epsilon_{xx}=\epsilon_{yy}=0$
 
-$\epsilon 22= \left[ \frac{duy}{dy} \right]$ = -0.2
+$\epsilon_{22}= \left[ \frac{duy}{dy} \right]$ = -0.2
 
-$\epsilon xy=\left[ \frac{dux}{dy} \right]$= $\tan \phi =0.5, \epsilon yx=\left[ \frac{duy}{dx} \right]=0$
+$\epsilon_{xy}=\left[ \frac{dux}{dy} \right]$= $\tan \phi =0.5, \epsilon_{yx}=\left[ \frac{duy}{dx} \right]=0$
 <p class="caption">After</p>

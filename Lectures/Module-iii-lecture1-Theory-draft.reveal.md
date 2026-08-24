@@ -235,9 +235,9 @@ Two-dimensional illustration of stress at a point.
 
 - We need three orthogonal surfaces to describe a complete state of force at any point (for a continuous medium).
 - The complete stress state is described by three 3-component vectors ⇒ tensor.
-- $\sigma =\left[ \begin{matrix} \sigma xx & \sigma xy & \sigma xz \cr \sigma yx & \sigma yy & \sigma yz \cr \sigma zx & \sigma zy & \sigma zz \end{matrix} \right]$ =$\left[ \begin{matrix} \vec{T}x \cr \vec{T}y \cr \vec{T}z \end{matrix} \right]$
+- $\sigma =\left[ \begin{matrix} \sigma_{xx} & \sigma_{xy} & \sigma_{xz} \cr \sigma_{yx} & \sigma_{yy} & \sigma_{yz} \cr \sigma_{zx} & \sigma_{zy} & \sigma_{zz} \end{matrix} \right]$ =$\left[ \begin{matrix} \vec{T}_x \cr \vec{T}_y \cr \vec{T}_z \end{matrix} \right]$
 - The stress tensor is symmetric as no net rotation from shear stresses. It now becomes:
-- $$\left[ \begin{matrix} \sigma xx & \sigma xy & \sigma xz \cr \sigma xy & \sigma yy & \sigma yz \cr \sigma xz & \sigma yz & \sigma zz \end{matrix} \right]$$
+- $$\left[ \begin{matrix} \sigma_{xx} & \sigma_{xy} & \sigma_{xz} \cr \sigma_{xy} & \sigma_{yy} & \sigma_{yz} \cr \sigma_{xz} & \sigma_{yz} & \sigma_{zz} \end{matrix} \right]$$
 
 </div>
 <div>
@@ -259,10 +259,10 @@ Two-dimensional illustration of stress at a point.
 <div class="wide">
 
 - Stress tensor describes the most general case.
-- $\sigma =\left[ \begin{matrix} \sigma xx & \sigma xy & \sigma xz \cr \sigma yx & \sigma yy & \sigma yz \cr \sigma zx & \sigma zy & \sigma zz \end{matrix} \right]$ = $\left[ \begin{matrix} \vec{T}x \cr \vec{T}y \cr \vec{T}z \end{matrix} \right]$
+- $\sigma =\left[ \begin{matrix} \sigma_{xx} & \sigma_{xy} & \sigma_{xz} \cr \sigma_{yx} & \sigma_{yy} & \sigma_{yz} \cr \sigma_{zx} & \sigma_{zy} & \sigma_{zz} \end{matrix} \right]$ = $\left[ \begin{matrix} \vec{T}_x \cr \vec{T}_y \cr \vec{T}_z \end{matrix} \right]$
 - If we cut out a plane through a material that is under stress, then there is a traction vector (a force) on this plane that results from the unbalanced stresses.
 - That traction can be computed using the stress tensor ($\vec{n}$ is the unit vector normal to the plane):
-- $$\vec{T}i= \sum _ {j} \sigma ij \times nj= \sigma ∙\vec{n}$$
+- $$\vec{T}_i = \sum_{j} \sigma_{ij} \, n_j = \sigma ∙ \vec{n}$$
 
 The stress components acting on the faces of a small cube
 
@@ -284,7 +284,7 @@ The stress components acting on the faces of a small cube
 <div class="wide">
 
 - Suppose we are given the below horizontal components of the stress tensor:
-- $\sigma =\left[ \begin{matrix} \sigma xx & \sigma xy \cr \sigma yx & \sigma yy \end{matrix} \right]$ = $\left[ \begin{matrix} -40 & -10 \cr -10 & -60 \end{matrix} \right]$ MPa
+- $\sigma =\left[ \begin{matrix} \sigma_{xx} & \sigma_{xy} \cr \sigma_{yx} & \sigma_{yy} \end{matrix} \right]$ = $\left[ \begin{matrix} -40 & -10 \cr -10 & -60 \end{matrix} \right]$ MPa
 - Assuming this is a 2D problem, let us compute the forces acting across a fault oriented at 45º from the east direction.
 
 </div>
@@ -303,7 +303,7 @@ The stress components acting on the faces of a small cube
 <div class="wide">
 
 - Suppose we are given the below horizontal components of the stress tensor:
-- $\sigma =\left[ \begin{matrix} \sigma xx & \sigma xy \cr \sigma yx & \sigma yy \end{matrix} \right]$ = $\left[ \begin{matrix} -40 & -10 \cr -10 & -60 \end{matrix} \right]$ MPa
+- $\sigma =\left[ \begin{matrix} \sigma_{xx} & \sigma_{xy} \cr \sigma_{yx} & \sigma_{yy} \end{matrix} \right]$ = $\left[ \begin{matrix} -40 & -10 \cr -10 & -60 \end{matrix} \right]$ MPa
 - Assuming this is a 2D problem, let us compute the forces acting across a fault oriented at 45º from the east direction.
 - Review on matrix multiplication.
 - The special case of dot product of two vectors:
@@ -330,11 +330,11 @@ A<sub>0 </sub>$∙$ B<sub>0 </sub>= 1$\times 2+5 \times 3=17$
 <div class="wide">
 
 - Suppose we are given the below horizontal components of the stress tensor:
-- $\sigma =\left[ \begin{matrix} \sigma xx & \sigma xy \cr \sigma yx & \sigma yy \end{matrix} \right]$ = $\left[ \begin{matrix} -40 & -10 \cr -10 & -60 \end{matrix} \right]$ MPa
+- $\sigma =\left[ \begin{matrix} \sigma_{xx} & \sigma_{xy} \cr \sigma_{yx} & \sigma_{yy} \end{matrix} \right]$ = $\left[ \begin{matrix} -40 & -10 \cr -10 & -60 \end{matrix} \right]$ MPa
 - Assuming this is a 2D problem, let us compute the forces acting across a fault oriented at 45º from the east direction.
 - Solutions:
 - We start by converting mathematic symbols to stress in real world.
-- Then recall the formula to get traction vector: $\vec{T}i=\sigma ∙\vec{n}$
+- Then recall the formula to get traction vector: $\vec{T}_i=\sigma ∙\vec{n}$
 - The unit vector $\vec{n}$ can be expressed by $\left[ \begin{matrix} 0.7 \cr 0.7 \end{matrix} \right]$.
 - Perform matrix multiplication:
 - $\vec{T}=\left[ \begin{matrix} -40 & -10 \cr -10 & -60 \end{matrix} \right]\left[ \begin{matrix} 0.7 \cr 0.7 \end{matrix} \right]$ = $\left[ \begin{matrix} -35 \cr -49 \end{matrix} \right]$ MPa
@@ -377,10 +377,10 @@ The diagram above is found in Kaliakin, V. N. (2017). Stresses, Strains, and Ela
 <!-- source: Lecture1_Stress.pptx slide 18 · template: T1-prose -->
 ## Deviatoric Stress and Mean Stress
 - It has a volumetric component (pressure) that is independent of the orientation and a deviatoric component (the shear stresses) that is not.
-- Mathematically, $\left[ \begin{matrix} \sigma 11 & \sigma 12 & \sigma 13 \cr \sigma 21 & \sigma 22 & \sigma 23 \cr \sigma 31 & \sigma 32 & \sigma 33 \end{matrix} \right]$ (total stress tensor)   =
-- $\left[ \begin{matrix} \sigma m & 0 & 0 \cr 0 & \sigma m & 0 \cr 0 & 0 & \sigma m \end{matrix} \right]$   +   $\left[ \begin{matrix} \sigma 11-\sigma m & \sigma 12 & \sigma 13 \cr \sigma 21 & \sigma 22-\sigma m & \sigma 23 \cr \sigma 31 & \sigma 32 & \sigma 33-\sigma m \end{matrix} \right]$
+- Mathematically, $\left[ \begin{matrix} \sigma_{11} & \sigma_{12} & \sigma_{13} \cr \sigma_{21} & \sigma_{22} & \sigma_{23} \cr \sigma_{31} & \sigma_{32} & \sigma_{33} \end{matrix} \right]$ (total stress tensor)   =
+- $\left[ \begin{matrix} \sigma_m & 0 & 0 \cr 0 & \sigma_m & 0 \cr 0 & 0 & \sigma_m \end{matrix} \right]$   +   $\left[ \begin{matrix} \sigma_{11}-\sigma_m & \sigma_{12} & \sigma_{13} \cr \sigma_{21} & \sigma_{22}-\sigma_m & \sigma_{23} \cr \sigma_{31} & \sigma_{32} & \sigma_{33}-\sigma_m \end{matrix} \right]$
 - (mean stress tensor) 	 (deviatoric stress tensor)
-- $\sigma m$ = ($\sigma 11$+ $\sigma 22$+ $\sigma 33$)/3 is the mean stress or hydrostatic stress.
+- $\sigma_m$ = ($\sigma_{11}$+ $\sigma_{22}$+ $\sigma_{33}$)/3 is the mean stress or hydrostatic stress.
 - In real life, the deviatoric (anisotropic) part is what actually causes distortion.
 
 <--o-->
@@ -415,11 +415,11 @@ Temperature gradient field
 ## Invariants of the Tensor (advanced)
 - Tensors have a number of invariants, properties that do not change with the coordinate system.
 - The principal invariants are given by:
-- I<sub>1</sub> = $\sigma 1 + \sigma 2$+ $\sigma 3$
-- I<sub>2</sub> = $\sigma 1\sigma 2 + \sigma 1\sigma 3$ +$\sigma 2\sigma 3$
-- I<sub>3</sub> = $\sigma 1\sigma 2\sigma 3$
+- I<sub>1</sub> = $\sigma_1 + \sigma_2$+ $\sigma_3$
+- I<sub>2</sub> = $\sigma_1\sigma_2 + \sigma_1\sigma_3$ +$\sigma_2\sigma_3$
+- I<sub>3</sub> = $\sigma_1\sigma_2\sigma_3$
 - The notion of main invariants:
-- J<sub>1</sub> = $\sigma 1 + \sigma 2$+ $\sigma 3$<sub> </sub>= I<sub>1</sub>
+- J<sub>1</sub> = $\sigma_1 + \sigma_2$+ $\sigma_3$<sub> </sub>= I<sub>1</sub>
 - J<sub>2</sub> = ${\sigma} _ {1}^{2} +{\sigma} _ {2}^{2}$  + ${\sigma} _ {3}^{2}$= ${I} _ {1}^{2}$-2I<sub>2</sub>
 - J<sub>3</sub> =${\sigma} _ {1}^{3} +{\sigma} _ {2}^{3}$ + ${\sigma} _ {3}^{3} =$ ${I} _ {1}^{3}$-3I<sub>1</sub>I<sub>2</sub>+3I<sub>3</sub>
 - The mean stress is known as the first invariant of the stress tensor.
@@ -487,19 +487,19 @@ Temperature gradient field
 
 - Calculate traction/stress along a surface given a stress matrix
 
-$\vec{T}i=\sigma ∙\vec{n}$
+$\vec{T}_i=\sigma ∙\vec{n}$
 
-$\sigma 3$
+$\sigma_3$
 
 Special case
 
-$\sigma 1$
+$\sigma_1$
 
-$\sigma 2$
+$\sigma_2$
 
-$\sigma =\left[ \begin{matrix} \sigma xx & \sigma xy & \sigma xz \cr \sigma yx & \sigma yy & \sigma yz \cr \sigma zx & \sigma zy & \sigma zz \end{matrix} \right]$ =$\left[ \begin{matrix} \vec{T}x \cr \vec{T}y \cr \vec{T}z \end{matrix} \right]$
+$\sigma =\left[ \begin{matrix} \sigma_{xx} & \sigma_{xy} & \sigma_{xz} \cr \sigma_{yx} & \sigma_{yy} & \sigma_{yz} \cr \sigma_{zx} & \sigma_{zy} & \sigma_{zz} \end{matrix} \right]$ =$\left[ \begin{matrix} \vec{T}_x \cr \vec{T}_y \cr \vec{T}_z \end{matrix} \right]$
 
-$$\sigma =\left[ \begin{matrix} \sigma 1 & 0 & 0 \cr 0 & \sigma 2 & 0 \cr 0 & 0 & \sigma 3 \end{matrix} \right]$$
+$$\sigma =\left[ \begin{matrix} \sigma_1 & 0 & 0 \cr 0 & \sigma_2 & 0 \cr 0 & 0 & \sigma_3 \end{matrix} \right]$$
 
 A stress ellipsoid
 
@@ -522,9 +522,9 @@ A stress ellipsoid
 
 - Calculate traction/stress along a surface given a stress matrix
 
-$\vec{T}i=\sigma ∙\vec{n}$
+$\vec{T}_i=\sigma ∙\vec{n}$
 
-What is $\vec{T}i$?
+What is $\vec{T}_i$?
 
 $$\vec{n}=\left[ \begin{matrix} 2 \cr -5 \cr 6 \end{matrix} \right]$$
 
@@ -557,7 +557,7 @@ $$\vec{n}=\left[ \begin{matrix} 3 \cr -5 \end{matrix} \right]$$
 
 - Calculate traction/stress along a surface given a stress matrix
 
-$\vec{T}i=\sigma ∙\vec{n}$
+$\vec{T}_i=\sigma ∙\vec{n}$
 
 $$\vec{n}=\left[ \begin{matrix} 2 \cr -5 \cr 6 \end{matrix} \right]$$
 
@@ -608,7 +608,7 @@ $\cos \theta = \frac{BC}{AB}$
 
 $\tan \theta = \frac{AC}{BC}$
 
-$${\sigma} _ {n}=\frac{{F} _ {n}}{{A} _ {2}}=\frac{Fcos\theta}{{A} _ {2}}= \frac{Fcos2\theta}{{A} _ {1}}$$
+$${\sigma} _ {n}=\frac{{F} _ {n}}{{A} _ {2}}=\frac{F\cos\theta}{{A} _ {2}}= \frac{F\cos^2\theta}{{A} _ {1}}$$
 
 $\theta$
 
@@ -616,9 +616,9 @@ $\theta$
 
 **B**
 
-$=\sigma \cos 2\theta$
+$=\sigma \cos^2\theta$
 
-$${\sigma} _ {s}=\frac{{F} _ {s}}{{A} _ {2}}=\frac{Fsin\theta}{{A} _ {2}}=\frac{Fsin\theta \cos \theta}{A1}$$
+$${\sigma} _ {s}=\frac{{F} _ {s}}{{A} _ {2}}=\frac{F\sin\theta}{{A} _ {2}}=\frac{F\sin\theta \cos \theta}{{A} _ {1}}$$
 
 = $\sigma \sin \theta \cos \theta =\sigma /2\sin 2\theta$
 
@@ -656,7 +656,7 @@ $\theta$
 $$\frac{\sigma \sin 2\theta}{2}=\sigma \sin \theta \cos \theta$$
 Fs = F $\sin \theta$
 
-${\sigma} _ {n}=\sigma \cos 2\theta$
+${\sigma} _ {n}=\sigma \cos^2\theta$
 Fn = F $\cos \theta$
 
 </div>
@@ -680,14 +680,14 @@ cos<sup>2</sup>($\theta$) + sin<sup>2</sup>($\theta$) = 1
 - This looks like the equation of a circle in x-y coordinate system. The center has a coordinate of ($\frac{\sigma}{2}$, 0) and a radius of $\sigma$/2.
 - First derived by Karl Culmann (1821-1881) in 19th century.
 
-${\sigma} _ {n}=\sigma \cos 2\theta$
+${\sigma} _ {n}=\sigma \cos^2\theta$
 ${\sigma} _ {s}=$ $\frac{\sigma \sin 2\theta}{2}$
 
 y
 
 **${X}^{2}$ + ${Y}^{2}$ = ${R}^{2}$**
 
-$${\sigma} _ {n}=\sigma \cos 2\theta = \sigma (\cos 2\theta +1)/2$$
+$${\sigma} _ {n}=\sigma \cos^2\theta = \sigma (\cos 2\theta +1)/2$$
 $\cos 2\theta$ = ${2(\sigma} _ {n}$- $\sigma$/2)/ $\sigma$
 $\sin 2\theta$ = 2${\sigma} _ {s}$/ $\sigma$
 ${{(\sigma} _ {n}- \sigma /2)}^{2}$ + ${{\sigma} _ {s}}^{2}$ = ${\sigma}^{2}$/4
@@ -718,8 +718,8 @@ Published a book on graphical methods in engineering in 1865.
 
 - German civil engineer, Christian Otto Mohr (1835-1918) expand into both 2D and 3D stresses and developed a failure criterion.
 - The Mohr circle describes the normal and shear stress acting on planes of all possible orientations through a point in the rock.
-- The center has a coordinate of ($\frac{\sigma 1+\sigma 3}{2}$, 0) and a radius of$\frac{\sigma 1-\sigma 3}{2}$.
-- Differential stress is $\sigma 1-\sigma 3$ and is important in fracture mechanics.
+- The center has a coordinate of ($\frac{\sigma_1+\sigma_3}{2}$, 0) and a radius of$\frac{\sigma_1-\sigma_3}{2}$.
+- Differential stress is $\sigma_1-\sigma_3$ and is important in fracture mechanics.
 
 </div>
 <div>
@@ -747,7 +747,7 @@ Mohr builds upon Karl’s previous work and expand into 2D and 3D. There are com
 
 ![](Module-iii-Theory/Lecture1-extracted/slide029_img1.jpg) <!-- .element style="width:87%;" -->
 
-<p class="caption">$\sigma 1$ · $\theta$ · $\sigma 3$ · $\sigma 1$ · $\theta$ · $\sigma 3$</p>
+<p class="caption">$\sigma_1$ · $\theta$ · $\sigma_3$ · $\sigma_1$ · $\theta$ · $\sigma_3$</p>
 
 </div>
 <div class="wide">
@@ -758,9 +758,9 @@ Mohr builds upon Karl’s previous work and expand into 2D and 3D. There are com
 ${\sigma} _ {n}=\sigma (\cos 2\theta +1)/2$
 ${\sigma} _ {s}=$ $\frac{\sigma \sin 2\theta}{2}$
 
-$\sigma 1$
+$\sigma_1$
 
-$\sigma 3$
+$\sigma_3$
 
 $\theta$
 
@@ -847,7 +847,7 @@ You can also derive the similar formula along the other two principal planes, al
 
 ${\sigma} _ {s}=C+{\sigma} _ {n}\tan \phi =C+$ ${\sigma} _ {n}u$
 
-$\sigma 1$
+$\sigma_1$
 
 $\theta$
 
@@ -995,7 +995,7 @@ Underworld3 split-node fault computation (Moresi). $\mu' = 0.4$; the confining p
 
 <!-- source: Lecture1_Stress.pptx slide 32 · template: T1-prose -->
 ## Example: Will the Fault Fail?
-- The sketch shows a portion of a normal fault extends to a depth o f 5 km. Direct stress measurements at such depth indicates the stress condition on this fault plane: a normal stress ($\sigma n$) of 300 MPa and a shear stress ($\sigma s$) of 120 MPa.
+- The sketch shows a portion of a normal fault extends to a depth o f 5 km. Direct stress measurements at such depth indicates the stress condition on this fault plane: a normal stress ($\sigma_n$) of 300 MPa and a shear stress ($\sigma_s$) of 120 MPa.
 - Question: assuming the rock materials have a coefficient of friction of 0.6, use the Coulomb-Mohr failure criteria to determine if the fault should fail.
 
 ${\sigma} _ {1}$
@@ -1013,7 +1013,7 @@ Let us see a real example to use this criteria to predict whether a fault plane 
 
 <!-- source: Lecture1_Stress.pptx slide 33 · template: T1-prose -->
 ## Example: Will the Fault Fail?
-- The sketch shows a portion of a normal fault extends to a depth o f 5 km. Direct stress measurements at such depth indicates the stress condition on this fault plane: a normal stress ($\sigma n$) of 300 MPa and a shear stress ($\sigma s$) of 120 MPa.
+- The sketch shows a portion of a normal fault extends to a depth o f 5 km. Direct stress measurements at such depth indicates the stress condition on this fault plane: a normal stress ($\sigma_n$) of 300 MPa and a shear stress ($\sigma_s$) of 120 MPa.
 - Question: assuming the rock materials have a coefficient of friction of 0.6, use the Coulomb-Mohr failure criteria to determine if the fault should fail.
 
 ${\sigma} _ {1}$
@@ -1122,8 +1122,8 @@ The structure is weaker than the surrounding rock and can support lower shear st
 - Lithostatic stress/pressure: isotropic pressure at depth in the Earth arising from the overlying rock column.
 - Hydrostatic stress: Isotropic component of the stress; strictly, the pressure at the base of a water column.
 - Pore fluid pressure reduces the effective stress by creating stress at grain contacts in porous rocks.
-- $\hat{\sigma}= \sigma v$– p<sub>f</sub>
-- where$\hat{\sigma} \ \text{is effective stress}\ , \sigma v$ is vertical stress and p<sub>f </sub>is fluid pressure.
+- $\hat{\sigma}= \sigma_v$– p<sub>f</sub>
+- where$\hat{\sigma} \ \text{is effective stress}\ , \sigma_v$ is vertical stress and p<sub>f </sub>is fluid pressure.
 
 </div>
 <div>
@@ -1171,7 +1171,7 @@ Underworld3 split-node fault computation (Moresi).
 </div>
 <div class="wide">
 
-- If the Mohr circle intersects the Mohr-Coulomb failure criteria, then the rock will fail along a fault plane of a normal direction of an angle $\theta$ to the $\sigma 1$ axis.
+- If the Mohr circle intersects the Mohr-Coulomb failure criteria, then the rock will fail along a fault plane of a normal direction of an angle $\theta$ to the $\sigma_1$ axis.
 
 Figure: Roderick Brown, U Glasgow
 
@@ -1193,7 +1193,7 @@ Figure: Roderick Brown, U Glasgow
 - Anderson’s theory of faulting: concept & assumptions.
 - Concepts of lithostatic stress/pressure and hydrostatic stress, and the effect of pore fluid pressure.
 
-$\sigma 3$
+$\sigma_3$
 
 ${{(\sigma} _ {n}- \sigma /2)}^{2}$ + ${{\sigma} _ {s}}^{2}$ = ${\sigma}^{2}$/4
 
@@ -1201,7 +1201,7 @@ $\theta$
 
 $\sigma$
 
-$\sigma 1$
+$\sigma_1$
 
 ${\sigma} _ {s}=C+{\sigma} _ {n}\tan \phi =C+$ ${\sigma} _ {n}u$
 
@@ -1240,7 +1240,7 @@ Two important reference stress state of lithostatic stress and hydrostatic stres
 
 </div>
 
-<p class="caption">$\sigma H$ · $\sigma h$</p>
+<p class="caption">$\sigma_H$ · $\sigma_h$</p>
 
 </div>
 <div class="wide">
@@ -1248,7 +1248,7 @@ Two important reference stress state of lithostatic stress and hydrostatic stres
 - A series of methods to collect in situ stress data at the very shallow crust.
 - Borehole breakout:
 - Zones of failure of the wall of a well that give the borehole an irregular and typically elongated shape.
-- The spalling of fragments from the wellbore occurs preferentially parallel to the minimum horizontal stress ($\sigma h$).
+- The spalling of fragments from the wellbore occurs preferentially parallel to the minimum horizontal stress ($\sigma_h$).
 - Requires numerical modelling.
 
 The Use of Borehole Breakout for Geotechnical Investigation of an Open Pit Mine by Fowler and Weir, 2008 (link).
@@ -1274,7 +1274,7 @@ They collected the data from 38 boreholes and average them to get the final stre
 - A strain relaxation method where a sample (core or block) is extracted from a rock unit, measured, and then released so that it can freely expand. The change in shape that occurs reflects the compressive stresses that have been released, but also depends on the rock’s elasticity.
 - Geological structure:
 - The orientation and pattern of recent fault scarps, fold traces, tensile fractures and volcanic vent alignments all indicate the orientation of the principal stresses.
-- An example of active vertical fractures on the surface of Holocene lava flows in southeast Iceland indicate the orientation of $\sigma h$.
+- An example of active vertical fractures on the surface of Holocene lava flows in southeast Iceland indicate the orientation of $\sigma_h$.
 
 </div>
 <div>
@@ -1369,9 +1369,9 @@ Focal sphere side-view
 
 **T**
 
-$\sigma 1$ or P
+$\sigma_1$ or P
 
-$\sigma 3$ or T
+$\sigma_3$ or T
 
 Yang and Hauksson, GJI, 2013
 Doi: 10.1093/gji/ggt113
@@ -1434,7 +1434,7 @@ The location of LA, the SAF a right-lateral strike-slip fault, which is the plat
 
 - The World Stress Map Project is based on stress measurements from around the world from (1) earthquake focal mechanisms, (2) bore-hole breakouts and drilling-induced fractures, (3) in situ stress measurements (e.g., hydraulic fracturing) and (4) neotectonic geologic structural data (from fault-slip analysis and volcanic vent alignments).
 
-- The correlation between the orientation of $\sigma H$ and plate motion is obvious in many places, but with many deviations that tell us that the current stress field is influenced by many different mechanisms and sources of stress.
+- The correlation between the orientation of $\sigma_H$ and plate motion is obvious in many places, but with many deviations that tell us that the current stress field is influenced by many different mechanisms and sources of stress.
 
 </div>
 </div>
@@ -1496,7 +1496,7 @@ Traction vector
 
 $T$ = [a b]
 
-$\sigma =\left[ \begin{matrix} \sigma xx & \sigma xy \cr \sigma yx & \sigma yy \end{matrix} \right]$ = $\left[ \begin{matrix} \vec{T}x \cr \vec{T}y \end{matrix} \right]$
+$\sigma =\left[ \begin{matrix} \sigma_{xx} & \sigma_{xy} \cr \sigma_{yx} & \sigma_{yy} \end{matrix} \right]$ = $\left[ \begin{matrix} \vec{T}_x \cr \vec{T}_y \end{matrix} \right]$
 
 (a, b)
 
@@ -1516,7 +1516,7 @@ x
 
 y
 
-$\sigma yy$
+$\sigma_{yy}$
 
 This dot product gives you the projection of T along the x axis.
 
@@ -1524,33 +1524,33 @@ $T∙$ $\vec{f}$  = [a b] $∙\left[ \begin{matrix} 1 \cr 0 \end{matrix} \right]
 
 Graphic form
 
-$\sigma yx$
+$\sigma_{yx}$
 
 y
 
-$\sigma xy$
+$\sigma_{xy}$
 
 **$T$**
 
 x
 
-$\sigma xx$
+$\sigma_{xx}$
 
 (a, b)
 
 Significantly simplify the process to project a vector along a dipping surface
 
-$\sigma xy$
+$\sigma_{xy}$
 
 - Two ways to describe stress along a surface:
 - Vector
 - Two orthogonal components
 
-$\vec{T}x$
+$\vec{T}_x$
 
 x
 
-$\sigma xx$
+$\sigma_{xx}$
 
 $\vec{f′}$
 
@@ -1609,7 +1609,7 @@ Lake George fault
 
 5
 
-Shear stress, $\sigma s$ (MPa)
+Shear stress, $\sigma_s$ (MPa)
 
 5 km
 
@@ -1633,7 +1633,7 @@ Figure 2.
 
 0
 
-Normal stress, $\sigma n$ (MPa)
+Normal stress, $\sigma_n$ (MPa)
 
 Figure 1.
 
@@ -1655,13 +1655,13 @@ Depth [km]
 
 120
 
-$\sigma s= \sigma n+10$
+$\sigma_s= \sigma_n+10$
 
 90
 
 Lake George fault
 
-Shear stress, $\sigma s$ (MPa)
+Shear stress, $\sigma_s$ (MPa)
 
 **E**
 
@@ -1685,7 +1685,7 @@ Shear stress, $\sigma s$ (MPa)
 
 50
 
-Normal stress, $\sigma n$ (MPa)
+Normal stress, $\sigma_n$ (MPa)
 
 Figure 2.
 

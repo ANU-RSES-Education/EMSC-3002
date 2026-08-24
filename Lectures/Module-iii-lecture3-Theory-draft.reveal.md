@@ -136,7 +136,7 @@ Note that when the stress is removed in the last increment, the material popped 
 - Stiffness is an indicator of the tendency for an element to return to its original form with stress applied.
 - Strength measures how much stress can be applied to an element before it deforms permanently or fractures.
 
-$E= \frac{\sigma n}{\epsilon n}$
+$E= \frac{\sigma_n}{\epsilon_n}$
 
 </div>
 <div>
@@ -220,11 +220,11 @@ How to get the ratio of 0.5
 
 - The linear strain in the Z directions depends on the strain caused by the stress in the z direction, but it also depends on the strain caused by the stresses acting in the x and y directions.
 
-$E= \frac{\sigma n}{\epsilon n}$
+$E= \frac{\sigma_n}{\epsilon_n}$
 
-Effective strain from $\sigma yy$: $\epsilon zz′$ = -$v$ $∙\epsilon xx$ = - $v$ $∙$ $\frac{\sigma xx}{E}$
-Effective strain from $\sigma xx$: $\epsilon zz′′$= -$v$ $∙\epsilon yy$ = - $v$ $∙$ $\frac{\sigma yy}{E}$
-Normal strain from $\sigma zz$:  $\sigma zz=E∙(\epsilon zz-\epsilon zz′-\epsilon zz′′$<sub> </sub>)
+Effective strain from $\sigma_{yy}$: $\epsilon_{zz}′$ = -$v$ $∙\epsilon_{xx}$ = - $v$ $∙$ $\frac{\sigma_{xx}}{E}$
+Effective strain from $\sigma_{xx}$: $\epsilon_{zz}′′$= -$v$ $∙\epsilon_{yy}$ = - $v$ $∙$ $\frac{\sigma_{yy}}{E}$
+Normal strain from $\sigma_{zz}$:  $\sigma_{zz}=E∙(\epsilon_{zz}-\epsilon_{zz}′-\epsilon_{zz}′′$<sub> </sub>)
 
 Young’s modulus
 
@@ -237,7 +237,7 @@ Poisson’s ratio
 
 ![](Module-iii-Theory/Lecture3-extracted/slide011_img2.png) <!-- .element style="width:33%;" -->
 
-<p class="caption">$\sigma xx$</p>
+<p class="caption">$\sigma_{xx}$</p>
 
 </div>
 </div>
@@ -259,15 +259,15 @@ For a linear isotropic material subjected only to compressive (i.e. normal) forc
 - The linear strain in the Z directions depends on the strain caused by the stress in the z direction, but it also depends on the strain caused by the stresses acting in the x and y directions.
 - Similarly, we can write normal strain for x and y direction:
 
-$E= \frac{\sigma n}{\epsilon n}$
+$E= \frac{\sigma_n}{\epsilon_n}$
 
-$$\left( \sigma zz -v\left( \sigma yy+\sigma xx \right) \right)=E∙\epsilon zz$$
+$$\left( \sigma_{zz} -v\left( \sigma_{yy}+\sigma_{xx} \right) \right)=E∙\epsilon_{zz}$$
 
 Young’s modulus
 
-$$\left( \sigma xx -v\left( \sigma yy+\sigma zz \right) \right)=E∙\epsilon xx$$
+$$\left( \sigma_{xx} -v\left( \sigma_{yy}+\sigma_{zz} \right) \right)=E∙\epsilon_{xx}$$
 
-$$\left( \sigma yy -v\left( \sigma xx+\sigma zz \right) \right)=E∙\epsilon yy$$
+$$\left( \sigma_{yy} -v\left( \sigma_{xx}+\sigma_{zz} \right) \right)=E∙\epsilon_{yy}$$
 
 Poisson’s ratio
 
@@ -278,7 +278,7 @@ Poisson’s ratio
 
 ![](Module-iii-Theory/Lecture3-extracted/slide012_img2.png) <!-- .element style="width:33%;" -->
 
-<p class="caption">$\sigma xx$</p>
+<p class="caption">$\sigma_{xx}$</p>
 
 </div>
 </div>
@@ -320,12 +320,12 @@ Today, it is regarded as one of the most dangerous volcanoes in the world becaus
 
 - Question: how much shortening at the base of the wall? Assuming the Young's modulus (40 GPa), Poisson's ratio (0.2) and an averaged density of 2.6 g/cm<sup>3</sup><sub>.</sub>
 - Solutions:
-- Lithostatic stress $\sigma z$ = 𝜌(𝑧𝐴)𝑔/A = 𝜌z𝑔 = 2.6 $\times 103 \times 305 \times$9.8 = 7.8 MPa.
-- Since only air exists in Y direction, $\sigma y$ = 0.
-- No-support in Y direction is compensated by the twice lithostatic stress in X direction, so we can assume $\sigma x$ = 2 $\sigma z$.
-- Recall the relation of  $\left( \sigma zz-v\left( \sigma yy+\sigma xx \right) \right)=E∙\epsilon zz$, plug in the numbers
-- $\epsilon zz$ = $\frac{7.8 \times 106-2 \times 7.8 \times {10}^{6} \times 0.2}{40 \times 109}$ = 1.2 $\times$ 10<sup>-4</sup>
-- Recall $\Delta z$= $\epsilon zz \times Z$ =1.2$\times$10<sup>-4 </sup>$\times$305 = 0.035 m
+- Lithostatic stress $\sigma_z$ = 𝜌(𝑧𝐴)𝑔/A = 𝜌z𝑔 = 2.6 $\times 10^3 \times 305 \times$ 9.8 = 7.8 MPa.
+- Since only air exists in Y direction, $\sigma_y$ = 0.
+- No-support in Y direction is compensated by the twice lithostatic stress in X direction, so we can assume $\sigma_x$ = 2 $\sigma_z$.
+- Recall the relation of  $\left( \sigma_{zz}-v\left( \sigma_{yy}+\sigma_{xx} \right) \right)=E∙\epsilon_{zz}$, plug in the numbers
+- $\epsilon_{zz}$ = $\frac{7.8 \times 10^6-2 \times 7.8 \times {10}^{6} \times 0.2}{40 \times 10^9}$ = 1.2 $\times$ 10<sup>-4</sup>
+- Recall $\Delta z$= $\epsilon_{zz} \times Z$ =1.2$\times$10<sup>-4 </sup>$\times$305 = 0.035 m
 
 </div>
 <div>
@@ -350,9 +350,9 @@ Today, it is regarded as one of the most dangerous volcanoes in the world becaus
 - Isotropic and anisotropic cases:
 - Two Lamé parameters of $\lambda$and $\mu$ (E and v).
 - Different levels of crystal symmetry: cubic, hexagonal, Tetragonal, orthorhombic, Monoclinic and Triclinic.
-- Shear modulus $\mu$ = $\frac{\sigma s}{\gamma}$; bulk modulus $K$ = $\frac{E}{3(1-2\mu )}$
+- Shear modulus $\mu$ = $\frac{\sigma_s}{\gamma}$; bulk modulus $K$ = $\frac{E}{3(1-2\mu )}$
 
-$\sigma ij ={C} _ {ijkl}∙\epsilon kl$
+$\sigma_{ij} ={C} _ {ijkl}∙\epsilon_{kl}$
 
 A hexagonal prism
 
@@ -378,8 +378,8 @@ A hexagonal prism
 
 Wikipedia
 
-$\sigma n=\eta \dot{e}$
-$\sigma s=\eta \dot{\gamma}$
+$\sigma_n=\eta \dot{e}$
+$\sigma_s=\eta \dot{\gamma}$
 
 </div>
 <div>

@@ -277,7 +277,7 @@ For the same lithology, joints are more closely spaced in thinner beds. This is 
 <div class="cols">
 <div class="wide">
 
-$E= \frac{\sigma n}{\epsilon n}$
+$E= \frac{\sigma_n}{\epsilon_n}$
 
 - Stiffness (Young’s Modulus E) of a rock layer depends on lithology (e.g., E for sandstone is ~200 MPa and is ~600 MPa for dolomite).
 - When the block gets stretched by a uniform amount, the stronger and more brittle rocks develop a greater stress and fracture first.
@@ -344,7 +344,7 @@ Thermal contraction is very important, and it is the stiff layers that fracture 
 
 - Model horizontal stress by considering thermal and Poisson effect:
 
-$\sigma H=(\frac{v}{1-v})\Delta \sigma V$ + $(\frac{E}{1-v})\alpha \Delta T$
+$\sigma_H=(\frac{v}{1-v})\Delta \sigma_V$ + $(\frac{E}{1-v})\alpha \Delta T$
 
 Jointed Permian sandstones of the Colorado Plateau
 
