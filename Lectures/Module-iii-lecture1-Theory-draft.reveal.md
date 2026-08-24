@@ -405,14 +405,14 @@ The diagram above is found in Kaliakin, V. N. (2017). Stresses, Strains, and Ela
 <div class="cols">
 <div class="wide">
 
-Temperature field
 
 - Scalar: a quantity with magnitude only (i.e. a real number, such as for mass, temperature, time).
 - Vector: a geometrical object with magnitude and one direction (e.g. force, velocity, acceleration).
 - Tensor (second-order): a mathematical structure with magnitude and two directions (two vectors), one (a unit vector) specifying a plane of action (e.g. permeability, strain, stress).
 - Advanced: Scalar is regarded as a zero-order tensor; vector as first-order tensor. Gradient of a scalar field is a vector field; divergent of a vector field is a scalar field.
 
-Temperature gradient field
+Right Temperature field is a scalar (above); Temperature _gradient_ field is
+a vector (below)
 
 </div>
 <div>
@@ -428,98 +428,36 @@ Temperature gradient field
 
 <!-- source: Lecture1_Stress.pptx slide 20 · template: T1-prose -->
 ## Invariants of the Tensor (advanced)
-- Tensors have a number of invariants, properties that do not change with the coordinate system.
-- The principal invariants are given by:
+
+Tensors have a number of invariants: properties that are _inherent_ and do not change with the coordinate system.
+
+The principal invariants are given by:
 - I<sub>1</sub> = $\sigma_1 + \sigma_2$+ $\sigma_3$
 - I<sub>2</sub> = $\sigma_1\sigma_2 + \sigma_1\sigma_3$ +$\sigma_2\sigma_3$
 - I<sub>3</sub> = $\sigma_1\sigma_2\sigma_3$
-- The notion of main invariants:
+
+The notion of main invariants:
 - J<sub>1</sub> = $\sigma_1 + \sigma_2$+ $\sigma_3$<sub> </sub>= I<sub>1</sub>
 - J<sub>2</sub> = ${\sigma} _ {1}^{2} +{\sigma} _ {2}^{2}$  + ${\sigma} _ {3}^{2}$= ${I} _ {1}^{2}$-2I<sub>2</sub>
 - J<sub>3</sub> =${\sigma} _ {1}^{3} +{\sigma} _ {2}^{3}$ + ${\sigma} _ {3}^{3} =$ ${I} _ {1}^{3}$-3I<sub>1</sub>I<sub>2</sub>+3I<sub>3</sub>
-- The mean stress is known as the first invariant of the stress tensor.
-- The second invariant plays the role of the magnitude of the deviatoric part of the tensor and that is why it is used when plotting the world strain rate map.
 
-<--o-->
+The mean stress is known as the first invariant of the stress tensor.
+The second invariant plays the role of the magnitude of the deviatoric part of the tensor and that is why it is used when plotting the world strain rate map.
 
-<!-- source: Lecture1_Stress.pptx slide 21 · template: T3-text-and-image -->
-## Structural Geology Involves Quantitative Understanding of the Underlying Physical Principles
-<div class="cols">
-<div>
-
-![](Module-iii-Theory/Lecture1-extracted/slide021_img4.jpg) <!-- .element style="width:47%;" -->
-
-<div class="cols">
-
-![](Module-iii-Theory/Lecture1-extracted/slide021_img1.jpeg)
-
-
-![](Module-iii-Theory/Lecture1-extracted/slide021_img3.jpg)
-
-
-![](Module-iii-Theory/Lecture1-extracted/slide021_img2.jpeg)
-
-</div>
-
-<p class="caption">John G. Ramsay 1931-2021</p>
-
-</div>
-<div class="wide">
-
-307 p
-
-391 p
-
-1061 p
-
-</div>
-</div>
 
 <--o-->
 
 <!-- source: Lecture1_Stress.pptx slide 22 · template: T3-text-and-image -->
-## Summary of the Last Lecture
-<div class="cols">
-<div>
-
-<div class="cols">
-
-![](Module-iii-Theory/Lecture1-extracted/slide022_img1.jpg)
-
-
-![](Module-iii-Theory/Lecture1-extracted/slide022_img2.jpg)
-
-</div>
-
-<p class="caption">Fossen, 2010 · General case · Same stress state</p>
-
-</div>
-<div class="wide">
+## Summary 
 
 - Stress = Force/Area (N/m<sup>2</sup> = Pa)
 - Stress state in 2D/3D
 - Principle stress (eigenvalues/eigenvectors)
+- Calculate traction/stress along a surface given a stress matrix: $\vec{T}_i=\sigma ∙\vec{n}$
 
-- Calculate traction/stress along a surface given a stress matrix
+<!-- Screenshot image here -->
 
-$\vec{T}_i=\sigma ∙\vec{n}$
-
-$\sigma_3$
-
-Special case
-
-$\sigma_1$
-
-$\sigma_2$
-
-$\sigma =\left[ \begin{matrix} \sigma_{xx} & \sigma_{xy} & \sigma_{xz} \cr \sigma_{yx} & \sigma_{yy} & \sigma_{yz} \cr \sigma_{zx} & \sigma_{zy} & \sigma_{zz} \end{matrix} \right]$ =$\left[ \begin{matrix} \vec{T}_x \cr \vec{T}_y \cr \vec{T}_z \end{matrix} \right]$
-
-$$\sigma =\left[ \begin{matrix} \sigma_1 & 0 & 0 \cr 0 & \sigma_2 & 0 \cr 0 & 0 & \sigma_3 \end{matrix} \right]$$
-
-A stress ellipsoid
-
-</div>
-</div>
+Screenshot
 
 <--o-->
 
