@@ -562,15 +562,20 @@ $$\cos^2\theta + \sin^2\theta = 1$$
 <div class="cols">
 <div class="wide">
 
-- German civil engineer, Christian Otto Mohr (1835-1918) expand into both 2D and 3D stresses and developed a failure criterion.
-- The Mohr circle describes the normal and shear stress acting on planes of all possible orientations through a point in the rock.
-- The center has a coordinate of ($\frac{\sigma_1+\sigma_3}{2}$, 0) and a radius of$\frac{\sigma_1-\sigma_3}{2}$.
-- Differential stress is $\sigma_1-\sigma_3$ and is important in fracture mechanics.
+German civil engineer, Christian Otto Mohr (1835-1918) expand into both 2D and 3D stresses and developed a *failure criterion*.
+
+The Mohr circle describes the normal and shear stress acting on planes of all possible orientations through a point in the rock.
+
+$$ \left[ \sigma_{n} - \frac{1}{2}\left( \sigma_1 + \sigma_3\right)\right]^2 + ]sigma_s^2 = 
+   \left[ \frac{1}{2}\left(\sigma_1 - \sigma_3\right) \right]^2} $$ 
+
+The center has a coordinate of ($\frac{\sigma_1+\sigma_3}{2}$, 0) and a radius of$\frac{\sigma_1-\sigma_3}{2}$. Differential stress is $\sigma_1-\sigma_3$ and is important in fracture mechanics.
 
 </div>
 <div>
 
-![](Module-iii-Theory/Lecture1-extracted/slide028_img2.jpeg) <!-- .element style="width:47%;" -->
+
+![](Module-iii-Theory/Lecture1-extracted/slide028_img2.jpeg) <!-- .element style="width:20%;" -->
 
 ![](Module-iii-Theory/Lecture1-extracted/slide028_img3.jpg)
 
