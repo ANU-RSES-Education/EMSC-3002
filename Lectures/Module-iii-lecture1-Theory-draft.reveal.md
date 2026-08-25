@@ -1158,9 +1158,7 @@ Hydraulic fracturing:
 
 - Relies on the theory that pore fluid pressure reduces the effective stress by increasing the stress at grain contacts in porous rocks.
 
-![](Module-iii-Theory/Lecture1-extracted/slide042_img2.jpg) <!-- .element style="max-height:230px;" -->
-
-![](Module-iii-Theory/Lecture1-extracted/slide042_img1.jpg) <!-- .element style="max-height:230px;" -->
+![](Module-iii-Theory/Lecture1-extracted/slide042_img1.jpg) <!-- .element style="max-height:300px;" -->
 
 <p class="caption">National Geographic Society</p>
 
