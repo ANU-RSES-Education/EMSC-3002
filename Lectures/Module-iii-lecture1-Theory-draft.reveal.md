@@ -306,25 +306,6 @@ Assuming this is a 2D problem, let us compute the forces acting across a fault o
 
 <--v-->
 
-<!-- source: Lecture1_Stress.pptx slide 14 · matrix-multiplication review, split onto a vertical slide -->
-
-## Aside — Review of matrix multiplication.
-
-The special case of dot product of two vectors:
-
-$$ A = [ 1 \quad 5 ], \quad B = [2 \quad 3], \qquad A \cdot B = 1 \times 2 + 5 \times 3 = 17 $$
-
-or 
-
-$$ \left[\begin{matrix} 1 &   5 \end{matrix} \right] \cdot
-   \left[ \begin{matrix} 2 \cr 3 \end{matrix} \right]  = \left[ 17 \right] $$
-
-![](Module-iii-Theory/Lecture1-extracted/slide014_img1.png) <!-- .element style="max-height:420px;" -->
-
-<p class="caption">Wikipedia</p>
-
-<--v-->
-
 <!-- source: Lecture1_Stress.pptx slide 16 · template: T3-text-and-image (fault diagram restored; pptx slide 15, a progressive-reveal duplicate, folded in) -->
 ## Example: Computing Traction Vector
 <div class="cols">
@@ -349,6 +330,26 @@ Projecting the vector along the fault plane to find the normal component $\vec{T
 
 </div>
 </div>
+
+<--v-->
+
+<!-- source: Lecture1_Stress.pptx slide 14 · matrix-multiplication review, split onto a vertical slide -->
+
+## Aside — Review of matrix multiplication.
+
+The special case of dot product of two vectors:
+
+$$ A = [ 1 \quad 5 ], \quad B = [2 \quad 3], \qquad A \cdot B = 1 \times 2 + 5 \times 3 = 17 $$
+
+or 
+
+$$ \left[\begin{matrix} 1 &   5 \end{matrix} \right] \cdot
+   \left[ \begin{matrix} 2 \cr 3 \end{matrix} \right]  = \left[ 17 \right] $$
+
+![](Module-iii-Theory/Lecture1-extracted/slide014_img1.png) <!-- .element style="max-height:420px;" -->
+
+<p class="caption">Wikipedia</p>
+
 
 <--o-->
 ## Principal Stresses
