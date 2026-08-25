@@ -621,7 +621,7 @@ Intraplate deformation (neotectonics)
 Invariants (of a tensor)
 : Combinations of tensor components that keep the same value however you rotate your coordinate axes, so they describe the physics rather than your bookkeeping. The first invariant is the trace (three times the mean stress); the second measures the magnitude of the deviatoric part and is what global strain-rate maps plot.
 
-  *Slides: [3.1 Stress — Invariants of the Tensor (advanced)](/slideshows/Module-iii-lecture1-Theory-draft.reveal.html#/17)*
+  *Slides: [3.1 Stress — Invariants, Measured](/slideshows/Module-iii-lecture1-Theory-draft.reveal.html#/17/1)*
 
 Inverted saddle
 : A saddle-shaped culmination on a folded surface in which the sense of curvature is reversed relative to the normal saddle — the transition point between adjacent domes or basins along a fold train.
