@@ -320,9 +320,9 @@ Seismology research center of AU
 
 <!-- source: Lecture7_Tohoku_EQ.pptx slide 15 · template: T1-prose -->
 ## Financial Cost of Damage
-- Total = >$200 billion (16.9 trillion yen)
+- Total = >\$200 billion (16.9 trillion yen)
 - Damage estimate as of June 2011
-- Subsequent estimates are as high as $300 billion
+- Subsequent estimates are as high as \$300 billion
 <p class="caption">Source: Cabinet Office of Japan, 24 June 2011</p>
 
 Note:

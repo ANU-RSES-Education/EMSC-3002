@@ -101,7 +101,7 @@ Note:
 Figure on the top left: Microscopic faults, showing fractured and displaced feldspar grains.
 Figure on the bottom left: duplex with 8 horses, Widemouth Bay, Devon
 
-Aerial view of the San Andreas fault in the Carrizo Plain, Central California, looking south. Note the sudden change in course of the stream channel, consistent with 130 meters of dextral (right-lateral) movement accumulated by earthquakes on this famous strike-slip fault over the last $3700 years.35N, 119.7W.
+Aerial view of the San Andreas fault in the Carrizo Plain, Central California, looking south. Note the sudden change in course of the stream channel, consistent with 130 meters of dextral (right-lateral) movement accumulated by earthquakes on this famous strike-slip fault over the last 3700 years.35N, 119.7W.
 
 <--o-->
 
