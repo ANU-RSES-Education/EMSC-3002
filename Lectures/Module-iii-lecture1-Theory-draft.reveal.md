@@ -1214,32 +1214,13 @@ Myths and misconceptions about induced earthquakes (USGS link).
 
 <!-- source: Lecture1_Stress.pptx slide 45 · template: T3-text-and-image -->
 ## Stress Estimates in South California
-<div class="cols">
-<div>
-
-<div class="cols">
-
-![](Module-iii-Theory/Lecture1-extracted/slide045_img1.jpg)
-
-
-![](Module-iii-Theory/Lecture1-extracted/slide045_img2.jpg)
-
-</div>
-
-<p class="caption">(a) · (b)</p>
-
-</div>
-<div class="wide">
 
 - Using 179,000 earthquake focal mechanisms between 1981-2010 (Fig. a);
 - Best resolved at regions of high seismicity rates (fault zones) and sufficient data;
 - Orientations of $\sigma_{Hmax}$ on the image of strain rate (Holt et al. 2010; Fig. b).
 - The trend of $\sigma_{Hmax}$ exhibits significant regional and local spatial heterogeneities.
 
-Yang and Hauksson, GJI, 2013
-
-</div>
-</div>
+![](Module-iii-Theory/socal-stress-strainrate.jpg) <!-- .element style="max-height:430px;" -->
 
 Note:
 The location of LA, the SAF a right-lateral strike-slip fault, which is the plate boundary between Pacific and North-American plate. The fault can be well illustrated by the seismicity, indicating a very active state. The strain rate (plotted as the 2nd invariant -> indicating the shear) tells the same thing.
