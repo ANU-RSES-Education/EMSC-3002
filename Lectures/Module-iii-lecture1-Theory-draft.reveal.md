@@ -1186,7 +1186,7 @@ Myths and misconceptions about induced earthquakes (USGS link).
 
 - Figure shows the M3.0+ earthquakes /year in the central and eastern United States, 1973–2020.
 - The long-term rate of approximately 25 earthquakes per year increased sharply starting around 2009.
-- >58 earthquakes since 2009 each year; >100 earthquakes since 2013.
+- $\gt$ 58 earthquakes since 2009 each year; >100 earthquakes since 2013.
 - The rate peaked in 2015 with 1010 M3+ earthquakes.
 - 130 M3+ earthquakes in 2019.
 
@@ -1202,36 +1202,13 @@ Myths and misconceptions about induced earthquakes (USGS link).
 
 <!-- source: Lecture1_Stress.pptx slide 44 · template: T3-text-and-image -->
 ## Stress Estimates from Focal Mechanism
-<div class="cols">
-<div class="wide">
 
 - The indirect method for stress estimation at depth below 4–5 km;
 - The estimation is made with the assumption of Anderson’s theory of faulting;
 - In many cases, the P- and T-axes do not necessarily parallel principal stress axes.
 - Combining focal mechanisms of faults of different orientation helps reduce this biased assumption.
 
-Focal mechanism
-
-Focal sphere side-view
-
-**P**
-
-**T**
-
-$\sigma_1$ or P
-
-$\sigma_3$ or T
-
-Yang and Hauksson, GJI, 2013
-Doi: 10.1093/gji/ggt113
-
-</div>
-<div>
-
-![](Module-iii-Theory/Lecture1-extracted/slide044_img1.jpg) <!-- .element style="width:56%;" -->
-
-</div>
-</div>
+![](Module-iii-Theory/focal-mechanism-stress.png) <!-- .element style="max-height:420px;" -->
 
 <--o-->
 
