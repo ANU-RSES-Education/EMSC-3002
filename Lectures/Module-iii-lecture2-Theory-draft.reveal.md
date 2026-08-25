@@ -303,10 +303,10 @@ ${\sigma} _ {1}$
 
 - Longitudinal Strain (normal strain)
 - Elongation ($\epsilon$) of a line
-- $\epsilon =\frac{l-l0}{l0}$
+- $\epsilon = \frac{l-l_0}{l_0}$
 - Stretching of a line
-- $s=\frac{l}{l0}$, thus s = 1+ $\epsilon$
-- Natural strain $\lambda =s2$
+- $s=\frac{l}{l_0}$, thus $s = 1 + \epsilon$
+- Quadratic elongation $\lambda = s^2$
 
 $\Delta x$
 
@@ -317,7 +317,7 @@ $y$
 $\gamma =\tan \phi = \frac{\Delta x}{y}$
 
 - Volumetric Strain
-- $\delta =\frac{v-v0}{v0}$	 $=\frac{\Delta v}{v0}$<sub>	</sub>
+- $\delta = \frac{v-v_0}{v_0} = \frac{\Delta v}{v_0}$
 
 </div>
 <div>
@@ -408,7 +408,7 @@ The key to quantify strain is to find the right geometry describing the deformat
 $\epsilon_{11}= \frac{\Delta l}{l0}$ = $\frac{{A}^{′}{B}^{′}-AB}{AB}$= $\frac{{BB}^{′}-A{A}^{′}}{AB}$
 = $\frac{u1(B)-u1(A)}{AB}$
 Using the series expansion of $u1(B)$:
-$u1(B)$ $\approx$ $u1(A$) + $\frac{\partial u1}{\partial x1} ∙AB$
+$u1(B)$ $\approx$ $u1(A$) + $\frac{\partial u1}{\partial x1}  \cdot AB$
 So, $\epsilon_{11}$ = $\frac{\partial u1}{\partial x1}$
 The subscript of 1 indicates one direction.
 
@@ -496,7 +496,7 @@ $x1$
 
 $\gamma =\tan \phi = \frac{BB′}{AB}$
 Using the series expansion of $u1(B)$:
-$B{B}^{′}$= $u2(B$) $\approx u2(A$) + $\frac{\partial u1}{\partial x2} ∙AB$
+$B{B}^{′}$= $u2(B$) $\approx u2(A$) + $\frac{\partial u1}{\partial x2}  \cdot AB$
 So, $\epsilon_{12}$ = $\gamma$ = $\frac{\partial u1}{\partial x2}$
 
 $\epsilon_{12}$ = $\frac{\partial u1}{\partial x2}$
@@ -517,10 +517,10 @@ consider homogeneous and infinitesimal strain, so that linear and shear strains 
 <div class="wide">
 
 - We can describe the entire strain state with displacement of one direction relative to space in another direction:
-- $$\epsilon_{ij}=\frac{1}{2}\left[ \frac{{\partial u} _ {i}}{{\partial x} _ {j}}+\frac{{\partial u} _ {j}}{{\partial x} _ {i}} \right]$$
-- Where u<sub>i</sub> is the displacement in the direction i. i, j can be any of 1, 2, 3 and the coordinates x, y, z are then referred to as x<sub>1</sub>, x<sub>2</sub>, x<sub>3</sub>.
+$$\epsilon_{ij}=\frac{1}{2}\left[ \frac{{\partial u} _ {i}}{{\partial x} _ {j}}+\frac{{\partial u} _ {j}}{{\partial x} _ {i}} \right]$$
+- Where $u_i$ is the displacement in direction $i$; $i$ and $j$ can be any of 1, 2, 3, and the coordinates $x, y, z$ are then referred to as $x_1, x_2, x_3$.
 - Like the stress state, the full strain state of a body is described by three 3-component vectors ⇒ tensor.
-- $$\left[ \begin{matrix} \epsilon_{11} & \epsilon_{12} & \epsilon_{13} \cr \epsilon_{21} & \epsilon_{22} & \epsilon_{23} \cr \epsilon_{31} & \epsilon_{32} & \epsilon_{33} \end{matrix} \right]$$
+$$\left[ \begin{matrix} \epsilon_{11} & \epsilon_{12} & \epsilon_{13} \cr \epsilon_{21} & \epsilon_{22} & \epsilon_{23} \cr \epsilon_{31} & \epsilon_{32} & \epsilon_{33} \end{matrix} \right]$$
 
 - It might contain volumetric, shear and normal components.
 
@@ -539,8 +539,8 @@ consider homogeneous and infinitesimal strain, so that linear and shear strains 
 <div class="cols">
 <div class="wide">
 
-- Like the stress tensor, the strain tensor can be diagonalised to get a form only containing principal strain, e<sub>1</sub>, e<sub>2</sub> and e<sub>3</sub>.
-- $\left[ \begin{matrix} \epsilon_{11} & \epsilon_{12} & \epsilon_{13} \cr \epsilon_{21} & \epsilon_{22} & \epsilon_{23} \cr \epsilon_{31} & \epsilon_{32} & \epsilon_{33} \end{matrix} \right]$ becomes $\left[ \begin{matrix} e1 & 0 & 0 \cr 0 & e2 & 0 \cr 0 & 0 & e3 \end{matrix} \right]$
+- Like the stress tensor, the strain tensor can be diagonalised to get a form only containing principal strain, $e_1$, $e_2$ and $e_3$.
+- $\left[ \begin{matrix} \epsilon_{11} & \epsilon_{12} & \epsilon_{13} \cr \epsilon_{21} & \epsilon_{22} & \epsilon_{23} \cr \epsilon_{31} & \epsilon_{32} & \epsilon_{33} \end{matrix} \right]$ becomes $\left[ \begin{matrix} e_1 & 0 & 0 \cr 0 & e_2 & 0 \cr 0 & 0 & e_3 \end{matrix} \right]$
 - The three principal strain can be used to form a strain ellipsoid. It represents the same state of strain regardless of our choice of coordinate system (axes and plane).
 - In 3D the shape of the strain ellipsoid usually require two strain ratios to define.
 
@@ -553,7 +553,7 @@ Patrice Rey, USyd
 
 ![](Module-iii-Theory/Lecture2-extracted/slide019_img2.jpg) <!-- .element style="width:91%;" -->
 
-<p class="caption">$e3$ · $e2$ · $e1$ · $e1 \ge e2$ $\ge e3$</p>
+<p class="caption">$e_1 \ge e_2 \ge e_3$</p>
 
 </div>
 </div>
@@ -570,20 +570,24 @@ A strain ellipsoid has three lines X,Y and Z that are special. They represent 
 
 - Several quantities to define the normal strain
 - Elongation ($\epsilon$) of a line
-- $\epsilon =\frac{l-l0}{l0}$
+- $\epsilon = \frac{l-l_0}{l_0}$
 - Stretching of a line
-- $s=\frac{l}{l0}$, thus s = 1+ $\epsilon$
-- Natural strain $\lambda =s2$
-- In general, principal strain uses the stretching factors of S<sub>1</sub>, S<sub>2</sub>, S<sub>3</sub>, which sometimes are also denoted as X, Y or Z. With this, X=Y=Z=1 means no deformation.
+- $s=\frac{l}{l_0}$, thus $s = 1 + \epsilon$
+- Quadratic elongation $\lambda = s^2$
+- In general, principal strain uses the stretching factors $S_1$, $S_2$, $S_3$, which sometimes are also denoted as X, Y or Z. With this, X=Y=Z=1 means no deformation.
 - The notations for principal strain below are telling the same story:
-- X = S<sub>1</sub> = e<sub>1</sub>= 1+ $\epsilon$<sub>1</sub> = $\sqrt{\lambda_1};$Y = S<sub>2</sub> = e<sub>2</sub> =1+ $\epsilon$<sub>2</sub> =$\sqrt{\lambda_2}$; Z = S<sub>3</sub> = e<sub>3</sub> = 1+ $\epsilon$<sub>3</sub> = $\sqrt{\lambda_3}$
+$$\begin{matrix}
+ X = S_1 = e_1 = 1 + \epsilon_1 = \sqrt{\lambda_1} \cr
+ Y = S_2 = e_2 = 1 + \epsilon_2 = \sqrt{\lambda_2} \cr
+ Z = S_3 = e_3 = 1 + \epsilon_3 = \sqrt{\lambda_3}
+\end{matrix}$$
 
 </div>
 <div>
 
 ![](Module-iii-Theory/Lecture2-extracted/slide020_img1.jpg) <!-- .element style="width:91%;" -->
 
-<p class="caption">$e3$ · $e2$ · $e1$ · $e1 \ge e2$ $\ge e3$</p>
+<p class="caption">$e_1 \ge e_2 \ge e_3$</p>
 
 </div>
 </div>
@@ -772,7 +776,7 @@ After deformation the distance between two particles aligned with &1 increases w
 
 - More general case for initial condition of deformed rocks.
 - Strain intensity can be assessed by the shape of deformable sub-spherical objects.
-- By measuring the axial ratios of those ellipsoids in a final state (Rf) as a function of $\phi$, the true strain (Rs) = $\sqrt{(Rfmax/Rfmin)}$ for a lower-strain cases and $\sqrt{(Rfmax∙Rfmin)}$ for higher-strain cases.
+- By measuring the axial ratios of those ellipsoids in a final state (Rf) as a function of $\phi$, the true strain (Rs) = $\sqrt{(Rfmax/Rfmin)}$ for a lower-strain cases and $\sqrt{(Rfmax \cdot Rfmin)}$ for higher-strain cases.
 
 - EllipseFit program for finite strain analysis.
 
@@ -881,7 +885,7 @@ $\epsilon_{12}$ = $\frac{\partial u1}{\partial x2}$
 - Pure shear and simple shear
 - Methods to measure strain
 
-$\left[ \begin{matrix} \epsilon_{11} & \epsilon_{12} & \epsilon_{13} \cr \epsilon_{21} & \epsilon_{22} & \epsilon_{23} \cr \epsilon_{31} & \epsilon_{32} & \epsilon_{33} \end{matrix} \right]$ => $\left[ \begin{matrix} e1 & 0 & 0 \cr 0 & e2 & 0 \cr 0 & 0 & e3 \end{matrix} \right]$
+$\left[ \begin{matrix} \epsilon_{11} & \epsilon_{12} & \epsilon_{13} \cr \epsilon_{21} & \epsilon_{22} & \epsilon_{23} \cr \epsilon_{31} & \epsilon_{32} & \epsilon_{33} \end{matrix} \right]$ => $\left[ \begin{matrix} e_1 & 0 & 0 \cr 0 & e_2 & 0 \cr 0 & 0 & e_3 \end{matrix} \right]$
 
 </div>
 <div>
@@ -910,7 +914,7 @@ $\left[ \begin{matrix} \epsilon_{11} & \epsilon_{12} & \epsilon_{13} \cr \epsilo
 - When an earthquake or explosion occurs, part of the energy released is as elastic waves that are transmitted through the earth.
 - The waves are then detected and recorded by seismograms, which measure, amplify and record the motion (displacement) of the ground.
 
-- The ground motion can be converted directly to strain by spatial derivatives and is dependent on the type of seismic wave that is propagating (usually <10<sup>-5</sup>).
+- The ground motion can be converted directly to strain by spatial derivatives and is dependent on the type of seismic wave that is propagating (usually $< 10^{-5}$).
 
 </div>
 </div>
@@ -933,19 +937,18 @@ The east-west component of ground motion at the Berkeley station recorded by the
 - maximum strain for a wave of f = 2 Hz, c = 3.14 km/s and A = 1 mm.
 - Solutions:
 - Strain is the spatial derivative of the displacement:
-- $$\frac{\partial uz}{\partial x}=\frac{-2\pi fA}{c} \cos [2\pi f(t-\frac{x}{c})]$$
+$$\frac{\partial u_z}{\partial x}=\frac{-2\pi fA}{c} \cos [2\pi f(t-\frac{x}{c})]$$
 - The maximum occurs when cos[x] = -1 and thus
-- $$\left( \frac{\partial uz}{\partial x} \right)max=\frac{2\pi fA}{c}$$
+$$\left( \frac{\partial u_z}{\partial x} \right)_{max}=\frac{2\pi fA}{c}$$
 - Now plug the numbers into this equation, we get the maximum
-- strain of 4 $\times {10}^{-6}$<sup> </sup>
+- strain of $4 \times 10^{-6}$
 
 Basic functions:
-sin(x): cos(x)
-cos(x): sin(x)
-x<sup>a</sup> = ax<sup>a-1</sup>
-Combined functions (chain rule):
-sin(ax+b)
-Let y = ax+b; so derivative of sin(ax+b) = sin$’$(y) y’
+$\sin x \rightarrow \cos x$
+$\cos x \rightarrow -\sin x$
+$x^a \rightarrow a \\, x^{a-1}$
+Combined functions (chain rule): with $y = ax+b$,
+$\frac{d}{dx}\sin(ax+b) = \cos(y) \cdot \frac{dy}{dx} = a\cos(ax+b)$
 
 </div>
 <div>
@@ -962,8 +965,8 @@ Let y = ax+b; so derivative of sin(ax+b) = sin$’$(y) y’
 <div class="cols">
 <div class="wide">
 
-- Strain Rate ($\dot{\epsilon}$) is the change in strain of a material with respect to time (s<sup>-1</sup>). It depends mainly on the stress applied and the strength of the material.
-- Change of velocity over distance: assuming block 1 has a velocity of v1 and block 2 of velocity v2, the strain rate is the net difference in velocity between the two blocks.
+- Strain Rate ($\dot{\epsilon}$) is the change in strain of a material with respect to time ($\mathrm{s}^{-1}$). It depends mainly on the stress applied and the strength of the material.
+- Change of velocity over distance: assuming block 1 has velocity $v_1$ and block 2 velocity $v_2$, the strain rate is the net difference in velocity between the two blocks.
 
 $x2$
 
@@ -997,15 +1000,15 @@ The strain rate at some point within the material measures the rate at which the
 
 <!-- source: Lecture2_Strain_StrainRate.pptx slide 33 · template: T1-prose -->
 ## Strain Rate
-- Strain Rate ($\dot{\epsilon}$) is the change in strain of a material with respect to time (s<sup>-1</sup>). It depends mainly on the stress applied and the strength of the material.
-- Change of velocity over distance: assuming block 1 has a velocity of v1 and block 2 of velocity v2, the strain rate is the net difference in velocity between the two blocks.
+- Strain Rate ($\dot{\epsilon}$) is the change in strain of a material with respect to time ($\mathrm{s}^{-1}$). It depends mainly on the stress applied and the strength of the material.
+- Change of velocity over distance: assuming block 1 has velocity $v_1$ and block 2 velocity $v_2$, the strain rate is the net difference in velocity between the two blocks.
 - Q1: Calculate the strain rate if 50% strain is achieved in ~20 min (sandbox).
 - Q2: Estimate the strain rate of a fault of 500 km long moving 30 km in 1 m.y.?
 
 - Solutions:
-- $\dot{\epsilon}$ = 0.5/1200 = 4.2 x 10<sup>-4</sup> (s<sup>-1</sup>)
-- $\epsilon$ = 30/500 = 0.06 or 6%
-- $\dot{\epsilon}$ = 0.06/1 m.y. =  0.06/ (1 x 10<sup>6 </sup>y.)<sup> </sup> = 0.6 x 10<sup>-7  </sup>y<sup>-1</sup>
+- $\dot{\epsilon} = 0.5/1200 = 4.2 \times 10^{-4}\ \mathrm{s}^{-1}$
+- $\epsilon = 30/500 = 0.06$, or 6%
+- $\dot{\epsilon} = 0.06 / 1\ \mathrm{m.y.} = 0.06 / (1 \times 10^{6}\ \mathrm{y}) = 6 \times 10^{-8}\ \mathrm{y}^{-1}$
 
 Note:
 Used to talk about the viscous materials. The elastic materials will deform instanously, like extend a spring. 
@@ -1016,12 +1019,12 @@ Has a unit of reciprocal time.
 <!-- source: Lecture2_Strain_StrainRate.pptx slide 34 · template: T1-prose -->
 ## Strain Rate Tensor
 - Recall that the strain tensor expressed using displacement:
-- $$\epsilon_{ij}=\frac{1}{2}\left[ \frac{{\partial u} _ {i}}{{\partial x} _ {j}}+\frac{{\partial u} _ {j}}{{\partial x} _ {i}} \right]$$
+$$\epsilon_{ij}=\frac{1}{2}\left[ \frac{{\partial u} _ {i}}{{\partial x} _ {j}}+\frac{{\partial u} _ {j}}{{\partial x} _ {i}} \right]$$
 - The strain rate tensor can then replace the displacement vector in the strain with velocity vector:
-- D$ij=\frac{1}{2}\left[ \frac{{\partial v} _ {i}}{{\partial x} _ {j}}+\frac{{\partial v} _ {j}}{{\partial x} _ {i}} \right]$  or  $\left[ \begin{matrix} Dxx & Dxy & Dxz \cr Dyx & Dyy & Dyz \cr Dzx & Dzy & Dzz \end{matrix} \right]$
+$$D_{ij}=\frac{1}{2}\left[ \frac{{\partial v} _ {i}}{{\partial x} _ {j}}+\frac{{\partial v} _ {j}}{{\partial x} _ {i}} \right] \quad \textrm{or} \quad \left[ \begin{matrix} D_{xx} & D_{xy} & D_{xz} \cr D_{yx} & D_{yy} & D_{yz} \cr D_{zx} & D_{zy} & D_{zz} \end{matrix} \right]$$
 - The strain rate tensor also has three principal strain rates direction where all shear values vanish. The diagonal sums to zero if the material is incompressible (i.e., zero trace, first invariant is zero). The second invariant is defined from the principal values and represents the magnitude.
 
-Where u<sub>i</sub> is the displacement in the direction i. i, j can be any of 1, 2, 3 and the coordinates x, y, z are then referred to as x<sub>1</sub>, x<sub>2</sub>, x<sub>3</sub>.
+Where $u_i$ is the displacement in direction $i$; $i$ and $j$ can be any of 1, 2, 3, and the coordinates $x, y, z$ are then referred to as $x_1, x_2, x_3$.
 
 Note:
 In fluid mechanics, the compressibility is a measure of the relative volume change of a fluid or solid as a response to a pressure (or mean stress) change.
@@ -1146,9 +1149,9 @@ The differences provide data on size and orientation of the incremental strain e
 
 - Pure shear: a three-dimensional homogeneous flattening of a body.
 
-x<sub>2</sub>
+$x_2$
 
-x<sub>2</sub>
+$x_2$
 
 y
 
@@ -1170,9 +1173,9 @@ Before
 
 $\phi$
 
-x<sub>1</sub>
+$x_1$
 
-x<sub>1</sub>
+$x_1$
 
 x
 

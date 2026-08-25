@@ -222,9 +222,9 @@ How to get the ratio of 0.5
 
 $E= \frac{\sigma_n}{\epsilon_n}$
 
-Effective strain from $\sigma_{yy}$: $\epsilon_{zz}′$ = -$v$ $∙\epsilon_{xx}$ = - $v$ $∙$ $\frac{\sigma_{xx}}{E}$
-Effective strain from $\sigma_{xx}$: $\epsilon_{zz}′′$= -$v$ $∙\epsilon_{yy}$ = - $v$ $∙$ $\frac{\sigma_{yy}}{E}$
-Normal strain from $\sigma_{zz}$:  $\sigma_{zz}=E∙(\epsilon_{zz}-\epsilon_{zz}′-\epsilon_{zz}′′$<sub> </sub>)
+Effective strain from $\sigma_{yy}$: $\epsilon_{zz}′$ = -$v$ $ \cdot \epsilon_{xx}$ = - $v$ $ \cdot $ $\frac{\sigma_{xx}}{E}$
+Effective strain from $\sigma_{xx}$: $\epsilon_{zz}′′$= -$v$ $ \cdot \epsilon_{yy}$ = - $v$ $ \cdot $ $\frac{\sigma_{yy}}{E}$
+Normal strain from $\sigma_{zz}$:  $\sigma_{zz}=E \cdot (\epsilon_{zz}-\epsilon_{zz}'-\epsilon_{zz}'')$
 
 Young’s modulus
 
@@ -261,13 +261,13 @@ For a linear isotropic material subjected only to compressive (i.e. normal) forc
 
 $E= \frac{\sigma_n}{\epsilon_n}$
 
-$$\left( \sigma_{zz} -v\left( \sigma_{yy}+\sigma_{xx} \right) \right)=E∙\epsilon_{zz}$$
+$$\left( \sigma_{zz} -v\left( \sigma_{yy}+\sigma_{xx} \right) \right)=E \cdot \epsilon_{zz}$$
 
 Young’s modulus
 
-$$\left( \sigma_{xx} -v\left( \sigma_{yy}+\sigma_{zz} \right) \right)=E∙\epsilon_{xx}$$
+$$\left( \sigma_{xx} -v\left( \sigma_{yy}+\sigma_{zz} \right) \right)=E \cdot \epsilon_{xx}$$
 
-$$\left( \sigma_{yy} -v\left( \sigma_{xx}+\sigma_{zz} \right) \right)=E∙\epsilon_{yy}$$
+$$\left( \sigma_{yy} -v\left( \sigma_{xx}+\sigma_{zz} \right) \right)=E \cdot \epsilon_{yy}$$
 
 Poisson’s ratio
 
@@ -296,7 +296,7 @@ For a linear isotropic material subjected only to compressive (i.e. normal) forc
 
 - Mt. Vesuvius is the only volcano on European mainland to have erupted within the last hundred years.
 - The crater of Mt. Vesuvius has a wall of 305 meters high. Its andesitic in composition with density in the range of 2.4 – 2.8 g/cm<sup>3</sup>.
-- Question: how much has the rock been shortened at the base of the wall due to the weight of the rock above? Assuming the Young's modulus (40 GPa), Poisson's ratio (0.2) and an averaged density of 2.6 g/cm<sup>3</sup><sub>.</sub>
+- Question: how much has the rock been shortened at the base of the wall due to the weight of the rock above? Assuming the Young's modulus (40 GPa), Poisson's ratio (0.2) and an averaged density of 2.6 g/cm<sup>3</sup>.
 
 </div>
 <div>
@@ -318,14 +318,14 @@ Today, it is regarded as one of the most dangerous volcanoes in the world becaus
 <div class="cols">
 <div class="wide">
 
-- Question: how much shortening at the base of the wall? Assuming the Young's modulus (40 GPa), Poisson's ratio (0.2) and an averaged density of 2.6 g/cm<sup>3</sup><sub>.</sub>
+- Question: how much shortening at the base of the wall? Assuming the Young's modulus (40 GPa), Poisson's ratio (0.2) and an averaged density of 2.6 g/cm<sup>3</sup>.
 - Solutions:
 - Lithostatic stress $\sigma_z$ = 𝜌(𝑧𝐴)𝑔/A = 𝜌z𝑔 = 2.6 $\times 10^3 \times 305 \times$ 9.8 = 7.8 MPa.
 - Since only air exists in Y direction, $\sigma_y$ = 0.
 - No-support in Y direction is compensated by the twice lithostatic stress in X direction, so we can assume $\sigma_x$ = 2 $\sigma_z$.
-- Recall the relation of  $\left( \sigma_{zz}-v\left( \sigma_{yy}+\sigma_{xx} \right) \right)=E∙\epsilon_{zz}$, plug in the numbers
-- $\epsilon_{zz}$ = $\frac{7.8 \times 10^6-2 \times 7.8 \times {10}^{6} \times 0.2}{40 \times 10^9}$ = 1.2 $\times$ 10<sup>-4</sup>
-- Recall $\Delta z$= $\epsilon_{zz} \times Z$ =1.2$\times$10<sup>-4 </sup>$\times$305 = 0.035 m
+- Recall the relation of  $\left( \sigma_{zz}-v\left( \sigma_{yy}+\sigma_{xx} \right) \right)=E \cdot \epsilon_{zz}$, plug in the numbers
+- $\epsilon_{zz} = \frac{7.8 \times 10^6-2 \times 7.8 \times 10^{6} \times 0.2}{40 \times 10^9} = 1.2 \times 10^{-4}$
+- Recall $\Delta z = \epsilon_{zz} \times Z = 1.2 \times 10^{-4} \times 305 = 0.035\ \mathrm{m}$
 
 </div>
 <div>
@@ -352,7 +352,7 @@ Today, it is regarded as one of the most dangerous volcanoes in the world becaus
 - Different levels of crystal symmetry: cubic, hexagonal, Tetragonal, orthorhombic, Monoclinic and Triclinic.
 - Shear modulus $\mu$ = $\frac{\sigma_s}{\gamma}$; bulk modulus $K$ = $\frac{E}{3(1-2\mu )}$
 
-$\sigma_{ij} ={C} _ {ijkl}∙\epsilon_{kl}$
+$\sigma_{ij} = C_{ijkl} \cdot \epsilon_{kl}$
 
 A hexagonal prism
 
@@ -405,8 +405,8 @@ When pulling a stick out of a very viscous fluid like honey or tar, the slower y
 ## Some Viscous Materials
 - The table on the right lists the viscosity of some common liquids at room temperature. Notice that the viscosity ranges over five orders of magnitude (0.001 to 100 Pa s) for these familiar liquids.
 - Viscosity is typically dependent on temperature and composition.
-- The viscosity of ice is typically in the range around  10<sup>13</sup>  Pa s at  0$°$𝐶  to  10<sup>14</sup> Pa s at  −10°𝐶.
-- Mantle flow occurs at velocities of 1-20 cm/y, and typical values of viscosity in the mantle are  10<sup>18</sup>  to  10<sup>24</sup>  Pa s.
+- The viscosity of ice is typically in the range around $10^{13}$ Pa s at 0 °C to $10^{14}$ Pa s at −10 °C.
+- Mantle flow occurs at velocities of 1-20 cm/y, and typical values of viscosity in the mantle are $10^{18}$ to $10^{24}$ Pa s.
 
 <--o-->
 
@@ -504,7 +504,7 @@ $$\dot{\epsilon}=\frac{du}{dy}=-\frac{\rho g\sin \alpha}{\eta}y$$
 
 - Elastic and viscous materials show different history of strain given applied stress.
 - The Maxwell time describes the relative importance of elastic and viscous behavior:
-- For a typical time range larger than the Maxwell time, the material deforms mainly in a viscous way. For typical values for the mantle (η ≈ 10<sup>21</sup> Pa s and E ≈ 10<sup>11</sup> Pa), the Maxwell time is on the order of 1000 years, so on geological timescales, the mantle behaves as a viscous fluid.
+- For a typical time range larger than the Maxwell time, the material deforms mainly in a viscous way. For typical values for the mantle ($\eta \approx 10^{21}$ Pa s and $E \approx 10^{11}$ Pa), the Maxwell time is on the order of 1000 years, so on geological timescales, the mantle behaves as a viscous fluid.
 
 Elastic deformation
 
@@ -709,7 +709,7 @@ Granite
 
 </div>
 </div>
-<p class="caption">Marble 5 kbars, 500<sup>o</sup>C · Fossen, 2011</p>
+<p class="caption">Marble 5 kbars, 500 °C · Fossen, 2011</p>
 
 <--o-->
 
@@ -721,7 +721,7 @@ Granite
 - Increased presence of fluids tends to weaken rocks, lower the yield stress and enhance crystal-plastic deformation. Effectively, it lowers the confining pressure through increasing the pore fluid pressure.
 - Fluid composition may however also influence rock rheological properties.
 
-950<sup>o</sup>C, Dry Quartz
+950 °C, Dry Quartz
 
 20
 
@@ -729,7 +729,7 @@ Stress kbars
 
 10
 
-950<sup>o</sup>C, Wet Quartz
+950 °C, Wet Quartz
 
 Griggs, GJI. 1967
 
