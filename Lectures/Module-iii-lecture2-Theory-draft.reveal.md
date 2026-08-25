@@ -48,6 +48,26 @@ _**NB:** the course materials provided by the authors are open source under a cr
 <!-- TODO: add what you will learn in this module -->
 
 <--o-->
+<!-- PROPOSED SLIDE 2026-08-25 — flagged, not written. -->
+## &#10133; Proposed &mdash; Where we left off (Module 1.3)
+
+<small><em>Placeholder for structural review. Nothing below is written yet.</em></small>
+
+<small>
+
+One recap slide so the rest of the deck can stop re-introducing things:
+
+- strain is relative and dimensionless, $\varepsilon = \delta L / L_0$ &mdash; **taught in 1.3 &sect;6**
+- like stress it has orientation, and principal directions &mdash; **1.3 &sect;6**
+- tectonic strain-rates are $\sim10^{-15}\ \mathrm{s}^{-1}$ &mdash; **1.3 &sect;7**, with the plate-boundary estimate already worked
+
+*What this module adds:* the strain **tensor**, its principal values and invariants,
+the Flinn diagram, and how strain is actually **measured** in rocks.
+
+Carries the 1.3 figure and a link back to that deck.
+
+</small>
+<--o-->
 
 <!-- source: Lecture2_Strain_StrainRate.pptx slide 3 · template: T4-full-figure -->
 <!-- .slide: data-background="Module-iii-Theory/Lecture2-extracted/slide003_img1.jpg" -->
@@ -132,28 +152,6 @@ Maybe add a little bit more real examples?
 
 <--o-->
 
-<!-- source: Lecture2_Strain_StrainRate.pptx slide 7 · template: T3-text-and-image -->
-## Plate Tectonics
-<div class="cols">
-<div>
-
-![](Module-iii-Theory/Lecture2-extracted/slide007_img1.jpg)
-
-<p class="caption">Hawaiian ridge · Emperor Mountain Chain · ~39 Ma</p>
-
-</div>
-<div class="wide">
-
-- Hawaiian Ridge—Emperor Seamount Chain is composed of more than 80 large volcanoes, reflecting the progressive movement of the Pacific Plate over a "deep" and "fixed" hot spot.
-- It stretches about 6,200 km from the Aleutian Trench in the far northwest Pacific to the Lōʻihi Seamount, the youngest volcano in the chain.
-
-National Geophysical Data Center/USGS
-
-</div>
-</div>
-
-<--o-->
-
 <!-- source: Lecture2_Strain_StrainRate.pptx slide 8 · template: T3-text-and-image -->
 ## Plate Tectonics
 <div class="cols">
@@ -182,6 +180,37 @@ National Geophysical Data Center/USGS
 </div>
 </div>
 
+<--v-->
+
+## &#9209; Intentionally blank
+
+<small>Everything below this point is **parked for review** (2026-08-25) — a candidate
+for removal, merging or relocation, kept here so nothing is lost while we decide.
+Press **&rarr;** to carry on with the lecture, **&darr;** to inspect.</small>
+
+<--v-->
+
+<!-- source: Lecture2_Strain_StrainRate.pptx slide 7 · template: T3-text-and-image -->
+## Plate Tectonics
+<div class="cols">
+<div>
+
+![](Module-iii-Theory/Lecture2-extracted/slide007_img1.jpg)
+
+<p class="caption">Hawaiian ridge · Emperor Mountain Chain · ~39 Ma</p>
+
+</div>
+<div class="wide">
+
+- Hawaiian Ridge—Emperor Seamount Chain is composed of more than 80 large volcanoes, reflecting the progressive movement of the Pacific Plate over a "deep" and "fixed" hot spot.
+- It stretches about 6,200 km from the Aleutian Trench in the far northwest Pacific to the Lōʻihi Seamount, the youngest volcano in the chain.
+
+National Geophysical Data Center/USGS
+
+</div>
+</div>
+
+<small><em>&#9209; PARKED &mdash; its two bullets are repeated verbatim on the next slide; only the Hawaiian-ridge figure is unique, so this is a merge candidate, not a deletion</em></small>
 <--o-->
 
 <!-- source: Lecture2_Strain_StrainRate.pptx slide 9 · template: T6-two-image -->
@@ -227,6 +256,8 @@ Strained quartz pebbles in conglomerate, near Dalton, MA, USA
 
 </div>
 </div>
+
+<div style="position:absolute;bottom:0;left:0;right:0;font-size:0.40em;color:#8a2b2b;background:rgba(255,255,255,0.88);border-top:1px solid #d8c4c4;padding:0.25em 0.4em;text-align:left;">&#9873; <strong>TRIM</strong> &mdash; the definition of strain (relative, dimensionless) is already taught in Module 1.3 &sect;6 &mdash; keep the strain-marker material, recap the definition</div>
 
 <--o-->
 
@@ -288,6 +319,8 @@ ${\sigma} _ {1}$
 
 </div>
 </div>
+
+<div style="position:absolute;bottom:0;left:0;right:0;font-size:0.40em;color:#8a2b2b;background:rgba(255,255,255,0.88);border-top:1px solid #d8c4c4;padding:0.25em 0.4em;text-align:left;">&#9873; <strong>RETITLE</strong> &mdash; &ldquo;Summary of Lecture 7.3&rdquo; refers to a previous course structure</div>
 
 <--o-->
 
@@ -362,6 +395,8 @@ Magali Billen, UC Davis
 Note:
 To calculate the shear strain across a fault or shear zone, we need to first identify a feature that has been offset by the fault or shear zone. Note the brunton for scale. The photo below shows an outcrop in an exhumed section of the mantle within the Josephine Ophiolite in southern Oregon. An ophiolite is a section of oceanic plate preserving all or part of the crust, and sometimes includes the top of the mantle section of the plate. This mantle section is made up of a mix of olivine (weathered, so they appear light brown) and pyroxenes (weathered, so they appear dark reddish-brown or black). The pyroxenes sometime appear in distinct layers that can be traced for tens of meters. The photo shows where one of these pyroxene layers has been offset by a fault or localize shear zone.
 
+<div style="position:absolute;bottom:0;left:0;right:0;font-size:0.40em;color:#8a2b2b;background:rgba(255,255,255,0.88);border-top:1px solid #d8c4c4;padding:0.25em 0.4em;text-align:left;">&#9873; <strong>RETITLE</strong> &mdash; same title as the next slide but a different example &mdash; distinguish them</div>
+
 <--o-->
 
 <!-- source: Lecture2_Strain_StrainRate.pptx slide 15 · template: T3-text-and-image -->
@@ -435,6 +470,8 @@ Note:
 The examples we just talked about measure that strain by comparing the current/final state with the initial state. But we know the deformation is a continuous process, and many occasions we need to estimate the deformation at each small time intervals. This requires a more general expression of strain, and the answer is describing as displacement. This is just like estimating the velocity of your car. 
 For example, we can calculate the average velocity of a car traveling between two points with the total time. In many occasions, we need to know the instant velocity at each location. Similarly, we need a more general expression to quantify the strain. 
 We will start with a 1D normal strain and do some derivation. The reason for showing the derivation to show the ideas behind, and serves some reference when you need to apply it to some physical science applications.
+
+<div style="position:absolute;bottom:0;left:0;right:0;font-size:0.40em;color:#8a2b2b;background:rgba(255,255,255,0.88);border-top:1px solid #d8c4c4;padding:0.25em 0.4em;text-align:left;">&#9873; <strong>RETITLE</strong> &mdash; same title as the next slide, which continues into 2D shear &mdash; distinguish them</div>
 
 <--o-->
 
@@ -895,6 +932,8 @@ $\left[ \begin{matrix} \epsilon_{11} & \epsilon_{12} & \epsilon_{13} \cr \epsilo
 </div>
 </div>
 
+<div style="position:absolute;bottom:0;left:0;right:0;font-size:0.40em;color:#8a2b2b;background:rgba(255,255,255,0.88);border-top:1px solid #d8c4c4;padding:0.25em 0.4em;text-align:left;">&#9873; <strong>RETITLE</strong> &mdash; &ldquo;Summary of Lecture 8.1&rdquo; refers to a previous course structure</div>
+
 <--o-->
 
 <!-- source: Lecture2_Strain_StrainRate.pptx slide 30 · template: T3-text-and-image -->
@@ -996,6 +1035,8 @@ Note:
 Used to talk about the viscous materials. The elastic materials will deform instantaneously, like extend a spring. 
 The strain rate at some point within the material measures the rate at which the distances of adjacent parcels of the material change with time in the neighborhood of that point.
 
+<div style="position:absolute;bottom:0;left:0;right:0;font-size:0.40em;color:#8a2b2b;background:rgba(255,255,255,0.88);border-top:1px solid #d8c4c4;padding:0.25em 0.4em;text-align:left;">&#9873; <strong>TRIM</strong> &mdash; Module 1.3 &sect;7 already defines strain-rate <em>and</em> works the plate-boundary estimate (500&nbsp;km at 5&nbsp;cm/yr &rarr; 3&times;10<sup>-15</sup> s<sup>-1</sup>) &mdash; open by recalling it rather than defining afresh</div>
+
 <--o-->
 
 <!-- source: Lecture2_Strain_StrainRate.pptx slide 33 · template: T1-prose -->
@@ -1052,6 +1093,8 @@ In fluid mechanics, the compressibility is a measure of the relative volume 
 Note:
 Louis has shown this multiple times in the first part of this course.
 
+<div style="position:absolute;bottom:0;left:0;right:0;font-size:0.40em;color:#8a2b2b;background:rgba(255,255,255,0.88);border-top:1px solid #d8c4c4;padding:0.25em 0.4em;text-align:left;">&#9873; <strong>LINK</strong> &mdash; back-link to Module 1.1 &sect;6.4 <em>Global Strain rate</em></div>
+
 <--o-->
 
 <!-- source: Lecture2_Strain_StrainRate.pptx slide 36 · template: T3-text-and-image -->
@@ -1099,11 +1142,21 @@ Note:
 - Methods to estimate strain in a rock (based on strain markers)
 - The concept of strain rate and how / why we measure them
 
-<--o-->
+<--v-->
+
+## &#9209; Intentionally blank
+
+<small>Everything below this point is **parked for review** (2026-08-25) — a candidate
+for removal, merging or relocation, kept here so nothing is lost while we decide.
+Press **&rarr;** to carry on with the lecture, **&darr;** to inspect.</small>
+
+<--v-->
 
 <!-- source: Lecture2_Strain_StrainRate.pptx slide 38 · template: T0-title-or-other -->
 
-<--o-->
+<small><em>&#9209; PARKED &mdash; empty slide left by the pptx conversion</em></small>
+
+<--v-->
 
 <!-- source: Lecture2_Strain_StrainRate.pptx slide 39 · template: T3-text-and-image -->
 ## Geometrical and Kinematic Analysis
@@ -1120,7 +1173,9 @@ Note:
 </div>
 </div>
 
-<--o-->
+<small><em>&#9209; PARKED &mdash; sits after the Summary, so students never reach it — real content needing a home earlier in the deck</em></small>
+
+<--v-->
 
 <!-- source: Lecture2_Strain_StrainRate.pptx slide 40 · template: T6-two-image -->
 ## Progressive Deformation
@@ -1141,7 +1196,9 @@ Note:
 Note:
 The differences provide data on size and orientation of the incremental strain ellipsoid for this interval and describe this increment of the deformation history.
 
-<--o-->
+<small><em>&#9209; PARKED &mdash; sits after the Summary — real content needing a home</em></small>
+
+<--v-->
 
 <!-- source: Lecture2_Strain_StrainRate.pptx slide 41 · template: T1-prose -->
 ## Pure Shear and Simple Shear
@@ -1201,3 +1258,5 @@ $\epsilon_{22}= \left[ \frac{duy}{dy} \right]$ = -0.2
 
 $\epsilon_{xy}=\left[ \frac{dux}{dy} \right]$= $\tan \phi =0.5, \epsilon_{yx}=\left[ \frac{duy}{dx} \right]=0$
 <p class="caption">After</p>
+
+<small><em>&#9209; PARKED &mdash; sits after the Summary, repeats the topic of slide 23, and its diagram labels were lost in conversion</em></small>

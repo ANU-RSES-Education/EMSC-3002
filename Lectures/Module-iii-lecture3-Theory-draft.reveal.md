@@ -46,6 +46,26 @@ Australian National University
 <!-- TODO: add what you will learn in this module -->
 
 <--o-->
+<!-- PROPOSED SLIDE 2026-08-25 — flagged, not written. -->
+## &#10133; Proposed &mdash; Where we left off (Module 1.3)
+
+<small><em>Placeholder for structural review. Nothing below is written yet.</em></small>
+
+<small>
+
+- rheology = how materials flow in response to stress; elastic / viscous / plastic &mdash; **taught in 1.3 &sect;8**
+- elastic deformation is recoverable, Hooke's law &mdash; **1.3 &sect;8.1**
+- viscosity: honey, and the UQ pitch drop &mdash; **1.3 &sect;8.2&ndash;8.3**
+- the deformation map and the brittle-ductile transition &mdash; **1.3 &sect;9&ndash;10**
+
+*What this module adds:* the constitutive laws and the **numbers** &mdash; Young's
+modulus, Poisson's ratio, the elastic tensor, real viscosities, Maxwell time,
+and what controls which mechanism wins.
+
+Carries the 1.3 figure and a link back to that deck.
+
+</small>
+<--o-->
 
 <!-- source: Lecture3_Rheology.pptx slide 3 · template: T4-full-figure -->
 <!-- .slide: data-background="Module-iii-Theory/Lecture3-extracted/slide003_img1.jpg" -->
@@ -61,6 +81,8 @@ Note:
 When strong layers are extended, the layers start to thin at points of weakness (a process known in engineering as necking). When it develops to an extreme end, the thin regions can separate, leaving a structure that looks like a string of sausages in cross-section. During this process, the void space due to the separation will be filled up through the flow of rocks. This indicates a combined process of brittle and ductile deformation. This behavior mostly due to the different rheological properties of the different layers. 
 Ice in glaciers flows similarly to a viscous fluid, which is one of the main reasons for the loss of glaciers in the Antarctic and Arctic. But the many fractures at the surface of glaciers tell us that some physical conditions might also play a role on the deformation (temperature). Southeast Greenland. 
 It is not only water that flows, but also oil, syrup, asphalt, ice, glass and rocks. The flow of oil and syrup can be studied over time spans of minutes, while it takes days, months or years to study the flow of ice.
+
+<div style="position:absolute;bottom:0;left:0;right:0;font-size:0.40em;color:#8a2b2b;background:rgba(255,255,255,0.88);border-top:1px solid #d8c4c4;padding:0.25em 0.4em;text-align:left;">&#9873; <strong>MERGE</strong> &mdash; section divider plus the next slide's definition &mdash; one opener would do</div>
 
 <--o-->
 
@@ -79,6 +101,8 @@ Note:
 Elastic deformation is the dominant form of deformation at shallow depths in the crust and lithosphere because both the temperature and pressure are low. However the crust and lithosphere are also brittle and when the stress is big enough, failure by fracture or frictional sliding also occurs (bending at the subduction zones; deep earthquakes down to 500-600 km depth). 
 Viscous and plastic deformation typically occur deeper and at higher pressures and temperatures than elastic deformation. In between the shallow elastic region and deeper viscous region there is a region that deforms through both mechanisms (both mechanisms accommodate roughly equal amounts of deformation). This region is referred to as the brittle-ductile transition. 
 While elastic theory may work well for very small strains in the upper crust, heated rocks tend to flow and accumulate permanent deformation, and sometimes very large permanent strains. In this context it is useful to consider how fluids respond to stress.
+
+<div style="position:absolute;bottom:0;left:0;right:0;font-size:0.40em;color:#8a2b2b;background:rgba(255,255,255,0.88);border-top:1px solid #d8c4c4;padding:0.25em 0.4em;text-align:left;">&#9873; <strong>TRIM</strong> &mdash; Module 1.3 &sect;8 already defines rheology and the elastic / viscous / plastic split &mdash; recap and link rather than re-derive</div>
 
 <--o-->
 
@@ -123,6 +147,8 @@ Distinguish plastic deformation and viscous deformation
 
 Note:
 Note that when the stress is removed in the last increment, the material popped back to its original shape and the strain returned to zero. We regard response of the elastic deformation as almost instantaneous.
+
+<div style="position:absolute;bottom:0;left:0;right:0;font-size:0.40em;color:#8a2b2b;background:rgba(255,255,255,0.88);border-top:1px solid #d8c4c4;padding:0.25em 0.4em;text-align:left;">&#9873; <strong>TRIM</strong> &mdash; &ldquo;what elastic means, recoverable&rdquo; is Module 1.3 &sect;8.1 &mdash; go straight to Young's modulus</div>
 
 <--o-->
 
@@ -246,6 +272,8 @@ Note:
 the subscript 𝑥𝑥 indicates a strain or stress in the x direction acting perpendicular to a plane whose normal direction is also in the x direction. You will typically see stress components expressed using either the numbers 1, 2, or 3 or the letters x, y, and z to refer to the orientations of the planes and the forces. It is necessary to know the orientation of the three directions to interpret the orientations of the stresses.
 For a linear isotropic material subjected only to compressive (i.e. normal) forces, the deformation of a material in the direction of one axis will produce a deformation of the material along the other axis in three dimensions. Thus it is possible to generalize Hooke's Law (for compressive forces) into three dimensions:
 
+<div style="position:absolute;bottom:0;left:0;right:0;font-size:0.40em;color:#8a2b2b;background:rgba(255,255,255,0.88);border-top:1px solid #d8c4c4;padding:0.25em 0.4em;text-align:left;">&#9873; <strong>RETITLE</strong> &mdash; same title as the next slide, which generalises to x and y &mdash; distinguish them; also &ldquo;Defromation&rdquo;</div>
+
 <--o-->
 
 <!-- source: Lecture3_Rheology.pptx slide 12 · template: T3-text-and-image -->
@@ -286,6 +314,8 @@ Poisson’s ratio
 Note:
 the subscript 𝑥𝑥 indicates a strain or stress in the x direction acting perpendicular to a plane whose normal direction is also in the x direction. You will typically see stress components expressed using either the numbers 1, 2, or 3 or the letters x, y, and z to refer to the orientations of the planes and the forces. It is necessary to know the orientation of the three directions to interpret the orientations of the stresses.
 For a linear isotropic material subjected only to compressive (i.e. normal) forces, the deformation of a material in the direction of one axis will produce a deformation of the material along the other axis in three dimensions. Thus it is possible to generalize Hooke's Law (for compressive forces) into three dimensions:
+
+<div style="position:absolute;bottom:0;left:0;right:0;font-size:0.40em;color:#8a2b2b;background:rgba(255,255,255,0.88);border-top:1px solid #d8c4c4;padding:0.25em 0.4em;text-align:left;">&#9873; <strong>TYPO</strong> &mdash; &ldquo;Defromation&rdquo;</div>
 
 <--o-->
 
@@ -408,7 +438,15 @@ When pulling a stick out of a very viscous fluid like honey or tar, the slower y
 - The viscosity of ice is typically in the range around $10^{13}$ Pa s at 0 °C to $10^{14}$ Pa s at −10 °C.
 - Mantle flow occurs at velocities of 1-20 cm/y, and typical values of viscosity in the mantle are $10^{18}$ to $10^{24}$ Pa s.
 
-<--o-->
+<--v-->
+
+## &#9209; Intentionally blank
+
+<small>Everything below this point is **parked for review** (2026-08-25) — a candidate
+for removal, merging or relocation, kept here so nothing is lost while we decide.
+Press **&rarr;** to carry on with the lecture, **&darr;** to inspect.</small>
+
+<--v-->
 
 <!-- source: Lecture3_Rheology.pptx slide 18 · template: T3-text-and-image -->
 ## One Drip Per Decade!
@@ -431,6 +469,7 @@ When pulling a stick out of a very viscous fluid like honey or tar, the slower y
 </div>
 </div>
 
+<small><em>&#9209; PARKED &mdash; the UQ pitch-drop experiment is already shown in Module 1.3 &sect;8.2 &mdash; better used here as the hook for the viscosity numbers than repeated as new</em></small>
 <--o-->
 
 <!-- source: Lecture3_Rheology.pptx slide 19 · template: T3-text-and-image -->
@@ -754,6 +793,8 @@ Strain %
 Note:
 Pore fluid pressure reduces the effective stress by creating stress at grain contacts in porous rocks.
 
+<div style="position:absolute;bottom:0;left:0;right:0;font-size:0.40em;color:#8a2b2b;background:rgba(255,255,255,0.88);border-top:1px solid #d8c4c4;padding:0.25em 0.4em;text-align:left;">&#9873; <strong>TYPO</strong> &mdash; &ldquo;Precence&rdquo;</div>
+
 <--o-->
 
 <!-- source: Lecture3_Rheology.pptx slide 29 · template: T3-text-and-image -->
@@ -816,6 +857,8 @@ Elastic deformation is the dominant form of deformation at shallow depths in the
 Viscous and plastic deformation typically occur deeper and at higher pressures and temperatures than elastic deformation. In between the shallow elastic region and deeper viscous region there is a region that deforms through both mechanisms (both mechanisms accommodate roughly equal amounts of deformation). This region is referred to as the brittle-ductile transition. 
 While elastic theory may work well for very small strains in the upper crust, heated rocks tend to flow and accumulate permanent deformation, and sometimes very large permanent strains. In this context it is useful to consider how fluids respond to stress.
 
+<div style="position:absolute;bottom:0;left:0;right:0;font-size:0.40em;color:#8a2b2b;background:rgba(255,255,255,0.88);border-top:1px solid #d8c4c4;padding:0.25em 0.4em;text-align:left;">&#9873; <strong>LINK</strong> &mdash; Module 1.3 &sect;9 <em>Rock Deformation Map</em> and &sect;10 <em>The Brittle-Ductile Transition</em> already cover this &mdash; back-link and keep the mineral-specific depths</div>
+
 <--o-->
 
 <!-- source: Lecture3_Rheology.pptx slide 31 · template: T3-text-and-image -->
@@ -843,6 +886,8 @@ The crust is not monomineralic, but it is generally assumed that there is enough
 Elastic deformation is the dominant form of deformation at shallow depths in the crust and lithosphere because both the temperature and pressure are low. However the crust and lithosphere are also brittle and when the stress is big enough, failure by fracture or frictional sliding also occurs (bending at the subduction zones; deep earthquakes down to 500-600 km depth). 
 Viscous and plastic deformation typically occur deeper and at higher pressures and temperatures than elastic deformation.
 
+<div style="position:absolute;bottom:0;left:0;right:0;font-size:0.40em;color:#8a2b2b;background:rgba(255,255,255,0.88);border-top:1px solid #d8c4c4;padding:0.25em 0.4em;text-align:left;">&#9873; <strong>RETITLE</strong> &mdash; same title as the previous slide but different content (the brittle-plastic transition) &mdash; distinguish them</div>
+
 <--o-->
 
 <!-- source: Lecture3_Rheology.pptx slide 32 · template: T1-prose -->
@@ -856,11 +901,21 @@ Viscous and plastic deformation typically occur deeper and at higher pressures a
 - Main physical factors controlling the deformation
 - Rheology of the lithosphere
 
-<--o-->
+<--v-->
+
+## &#9209; Intentionally blank
+
+<small>Everything below this point is **parked for review** (2026-08-25) — a candidate
+for removal, merging or relocation, kept here so nothing is lost while we decide.
+Press **&rarr;** to carry on with the lecture, **&darr;** to inspect.</small>
+
+<--v-->
 
 <!-- source: Lecture3_Rheology.pptx slide 33 · template: T0-title-or-other -->
 
-<--o-->
+<small><em>&#9209; PARKED &mdash; empty slide left by the pptx conversion</em></small>
+
+<--v-->
 
 <!-- source: Lecture3_Rheology.pptx slide 34 · template: T3-text-and-image -->
 ## Real Estimated Shear Strain Rates
@@ -879,7 +934,9 @@ Viscous and plastic deformation typically occur deeper and at higher pressures a
 </div>
 </div>
 
-<--o-->
+<small><em>&#9209; PARKED &mdash; sits after the Summary, so students never reach it &mdash; real content needing a home</em></small>
+
+<--v-->
 
 <!-- source: Lecture3_Rheology.pptx slide 35 · template: T3-text-and-image -->
 ## Plastic Deformation
@@ -898,7 +955,9 @@ Viscous and plastic deformation typically occur deeper and at higher pressures a
 </div>
 </div>
 
-<--o-->
+<small><em>&#9209; PARKED &mdash; sits after the Summary &mdash; and plasticity is introduced in Module 1.3 &sect;8.4, so this should recap and link</em></small>
+
+<--v-->
 
 <!-- source: Lecture3_Rheology.pptx slide 36 · template: T3-text-and-image -->
 ## Deformation in Idealized Conditons
@@ -915,7 +974,9 @@ Viscous and plastic deformation typically occur deeper and at higher pressures a
 </div>
 </div>
 
-<--o-->
+<small><em>&#9209; PARKED &mdash; sits after the Summary &mdash; real content needing a home</em></small>
+
+<--v-->
 
 <!-- source: Lecture3_Rheology.pptx slide 37 · template: T3-text-and-image -->
 ## Summary of Deformation Controling Factors
@@ -940,3 +1001,5 @@ Roderick Brown, U Glasgow
 
 </div>
 </div>
+
+<small><em>&#9209; PARKED &mdash; sits after the Summary &mdash; a second summary, competing with slide 32</em></small>

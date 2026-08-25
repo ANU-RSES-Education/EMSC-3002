@@ -407,11 +407,14 @@ Then, in order of payoff:
 
 ### 12.3 Independent of overlap — conversion debris in these two decks
 
-- **Progressive-reveal duplicate pairs** (same title, adjacent, second is a
-  superset — the pattern already fixed in 3.1): 3.2 *Plate Tectonics*,
-  *Example: Quantify Strain in a Rock*, *Quantify Strain with Displacement*,
-  *Strain Rate*; 3.3 *Elastic Defromation in 3D*, *Rheology of the Lithosphere*.
-  ~6 slides recoverable.
+- **Adjacent same-title pairs** — 3.2 *Plate Tectonics*, *Example: Quantify
+  Strain in a Rock*, *Quantify Strain with Displacement*, *Strain Rate*; 3.3
+  *Elastic Defromation in 3D*, *Rheology of the Lithosphere*. **Checked
+  slide-by-slide (2026-08-25): these are NOT the progressive-reveal duplicates
+  seen in 3.1** — each pair is distinct content sharing one title (a different
+  example, a continuation into 2D, the brittle-plastic transition …). The fix
+  is to *retitle*, not to delete. The one exception is 3.2 *Plate Tectonics*,
+  whose two bullets do repeat verbatim while its figure is unique — a merge.
 - **Stale lecture numbering**: 3.2 #12 *Summary of Lecture 7.3*, #29 *Summary
   of Lecture 8.1* — from a previous course structure.
 - **Orphan tails after the Summary slide**: 3.2 #39–41 (#41 *Pure Shear and
