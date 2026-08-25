@@ -351,6 +351,24 @@ $$ \left[\begin{matrix} 1 &   5 \end{matrix} \right] \cdot
 <p class="caption">Wikipedia</p>
 
 
+<--v-->
+
+## What the Fault Actually Feels
+
+![FaultFrame](images/UW-FaultExamples/fault-frame.gif) <!-- .element style="display:block; margin-left:auto; margin-right:auto; width:82%" -->
+
+The worked example above, done at every orientation at once. A small fault is turned through a fixed stress field, and at each angle we resolve the traction $\vec T = \boldsymbol{\sigma}\cdot\hat n$ onto the fault's **own** axes — the push *across* it, $\sigma_n$, and the drag *along* it, $\tau$.
+
+A fault has no opinion about north. Those two numbers are all it knows about the entire tensor. Everything else in $\boldsymbol{\sigma}$ describes planes this fault does not occupy.
+
+Watch where $\tau$ passes through zero: at those two orientations the traction is purely a push, along the normal. Nothing was assumed — the sweep *found* the principal directions.
+
+<small>
+
+Underworld3 split-node fault computation (Moresi). Each point is a separate welded-fault solve; the same 25 solves drive the Mohr construction later in this lecture.
+
+</small>
+
 <--o-->
 ## Principal Stresses
 
@@ -421,24 +439,59 @@ a vector (below)
 
 <--o-->
 
-<!-- source: Lecture1_Stress.pptx slide 20 · template: T1-prose -->
-## Invariants of the Tensor (advanced)
+<!-- source: Lecture1_Stress.pptx slide 20 · template: T1-prose (reframed around the two representations the lecture has already built) -->
+## Invariants of the Tensor
 
-Tensors have a number of invariants: properties that are _inherent_ and do not change with the coordinate system.
+We already have the same stress state written **two** ways: as $\sigma_{xx}, \sigma_{yy}, \sigma_{xy}$ in map coordinates, and as $\sigma_1, \sigma_3$ with a direction. Every number is different. Both are right.
 
-The principal invariants are given by:
-- $I_1 = \sigma_1 + \sigma_2 + \sigma_3$
-- $I_2 = \sigma_1\sigma_2 + \sigma_1\sigma_3 + \sigma_2\sigma_3$
-- $I_3 = \sigma_1\sigma_2\sigma_3$
+So nothing about the *stress* changed between them — only the axes we chose to describe it in. An **invariant** is a number you can build out of the components that comes out the same whichever description you started from.
 
-The notion of main invariants:
-- $J_1 = \sigma_1 + \sigma_2 + \sigma_3 = I_1$
-- $J_2 = \sigma_1^2 + \sigma_2^2 + \sigma_3^2 = I_1^2 - 2 I_2$
-- $J_3 = \sigma_1^3 + \sigma_2^3 + \sigma_3^3 = I_1^3 - 3 I_1 I_2 + 3 I_3$
+There are not many, and you can count them. In 2D a symmetric tensor holds 3 independent numbers; choosing a frame costs 1 angle; so exactly $3 - 1 = 2$ numbers can survive. In 3D, $6 - 3 = 3$ — which is why there are three principal invariants and not four.
 
-The mean stress is known as the first invariant of the stress tensor.
-The second invariant plays the role of the magnitude of the deviatoric part of the tensor and that is why it is used when plotting the world strain rate map.
+<--v-->
 
+## Invariants, Measured
+
+![Invariants](images/UW-FaultExamples/invariants.gif) <!-- .element style="display:block; margin-left:auto; margin-right:auto; width:84%" -->
+
+The stress field is held fixed and the *observer* is turned. All four components churn; the mean stress and the radius do not move.
+
+Those flat green lines are the whole idea. $\sigma_m$ holds to 1 part in $10^5$ and $R$ to 0.4% across 24 independent solves — measured, not imposed.
+
+<small>
+
+Underworld3 split-node fault computation (Moresi). The matrix in the rotating frame is assembled from measured probe tractions; a confining pressure of 2.5 is added, so $\sigma_m$ is something other than zero.
+
+</small>
+
+<--v-->
+
+## The Principal Invariants
+
+$$I_1 = \sigma_1 + \sigma_2 + \sigma_3, \qquad I_2 = \sigma_1\sigma_2 + \sigma_1\sigma_3 + \sigma_2\sigma_3, \qquad I_3 = \sigma_1\sigma_2\sigma_3$$
+
+They look like they need the principal stresses, but they do not: $I_1 = \sigma_{xx}+\sigma_{yy}+\sigma_{zz}$ and $I_3 = \det\boldsymbol{\sigma}$ in *any* frame. That is the point of them.
+
+The "main" invariants are the same information, repackaged as sums of powers:
+
+$$J_1 = I_1, \qquad J_2 = I_1^2 - 2 I_2, \qquad J_3 = I_1^3 - 3 I_1 I_2 + 3 I_3$$
+
+- $I_1/3$ is the **mean stress** — the part of the state with no direction at all.
+- The second invariant of the *deviatoric* part measures how far the state is from hydrostatic. It is what is contoured on the world strain-rate map, and (as $R$) it is the radius of the Mohr circle.
+
+<--v-->
+
+## Why It Has To Be This Way
+
+A rock either breaks or it does not. That outcome cannot depend on which way we drew our axes — so **any scalar prediction must be a function of invariants alone.** This is a real constraint on what a law is allowed to look like, not a convenience:
+
+- Coulomb failure is a relation between the mean stress and the radius: $R = \sigma_m \sin\phi + C\cos\phi$. Both invariants, no orientation.
+- Viscosity in a flow law depends on the second invariant of the strain rate, never on $\dot\varepsilon_{xy}$ alone.
+- The dissipation $\boldsymbol{\sigma} : \dot{\boldsymbol{\varepsilon}}$ is a scalar: the rate of working cannot depend on the observer either.
+
+**Does this relate to conservation?** Not quite in the Noether sense — that connects a symmetry of the *system* to a conserved quantity, whereas relabelling axes is a symmetry of the *description*. But there is a real joint between them, and we have already used it:
+
+$\boldsymbol{\sigma}$ is symmetric ($\sigma_{ij} = \sigma_{ji}$) *because* angular momentum balances — an element with unequal shears would spin up without limit. A symmetric tensor is exactly the kind that has real eigenvalues and orthogonal eigenvectors. So conservation of angular momentum is what guarantees the principal frame exists at all, and with it the count of $6-3 = 3$ invariants.
 
 <--o-->
 
@@ -449,6 +502,7 @@ The second invariant plays the role of the magnitude of the deviatoric part of t
 - Stress state in 2D/3D
 - Principal stress (eigenvalues/eigenvectors)
 - Calculate traction/stress along a surface given a stress matrix: $\vec{T}_i=\boldsymbol{\sigma} \cdot \vec{n}$
+- Invariants: the numbers that do not depend on the frame — and so the only ones a failure or flow law may be built from
 
 ![](Module-iii-Theory/stress-tensor-summary.png) <!-- .element style="max-height:480px;" -->
 
