@@ -980,7 +980,7 @@ Far from the fault they are straight and parallel, at $45°$ to the plate-bounda
 
 Near the fault they are not. A slipping surface carries **no shear**, so the principal directions must swing to meet it — most visibly through the restraining bend.
 
-Only the San Andreas is blank — the field jumps across a slipping surface. The neighbours are welded, so trajectories run past them.
+Blue is the **most compressive** direction, red the **most extensional**. Trajectories stop at the San Andreas because it is slipping and the field is discontinuous across it; the neighbours are welded, so they run past.
 
 <small>
 
