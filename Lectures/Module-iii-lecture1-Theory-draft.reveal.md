@@ -269,7 +269,7 @@ If we cut out a plane through a material that is under stress, then there is a 
 
 The traction can be computed using the stress tensor ($\vec{n}$ is the unit vector normal to the plane):
  
-$$\vec{T}_i = \sum_{j} \sigma_{ij} \, n_j = \boldsymbol{\sigma} \cdot \vec{n}$$
+$$\vec{T} _ i = \sum _ {j} \sigma_{ij} \\, n_j = \boldsymbol{\sigma} \cdot \vec{n}$$
 
 The stress components acting on the faces of a small cube
 
@@ -384,7 +384,7 @@ Stress has a volumetric component (pressure) that is independent of the orientat
 $$\left[ \begin{matrix} \sigma_{11} & \sigma_{12} & \sigma_{13} \cr \sigma_{21} & \sigma_{22} & \sigma_{23} \cr \sigma_{31} & \sigma_{32} & \sigma_{33} \end{matrix} \right]  = 
  \left[ \begin{matrix} \sigma_m & 0 & 0 \cr 0 & \sigma_m & 0 \cr 0 & 0 & \sigma_m \end{matrix} \right]   +   \left[ \begin{matrix} \sigma_{11}-\sigma_m & \sigma_{12} & \sigma_{13} \cr \sigma_{21} & \sigma_{22}-\sigma_m & \sigma_{23} \cr \sigma_{31} & \sigma_{32} & \sigma_{33}-\sigma_m \end{matrix} \right]$$
 
-- total stress = mean stress + deviatoric stress, or $\boldsymbol{\sigma} = p \, \mathbf{I} + \boldsymbol{\tau}$ &nbsp; <small>(bold face marks a tensor, as the arrow marks a vector)</small>
+- total stress = mean stress + deviatoric stress, or $\boldsymbol{\sigma} = p \\, \mathbf{I} + \boldsymbol{\tau}$ &nbsp; <small>(bold face marks a tensor, as the arrow marks a vector)</small>
 - $\sigma_m = (\sigma_{11} + \sigma_{22} + \sigma_{33})/3$ is the mean stress or hydrostatic stress and is usually the *pressure*. 
 
 In reality, the deviatoric (anisotropic) part is what actually causes distortion.

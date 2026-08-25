@@ -65,9 +65,17 @@ slides shifts them.
   `*.reveal.md`.
 - **Never put anything above a deck's YAML front matter** — even a comment. It
   silently breaks front-matter parsing and dumps `separator:` etc. onto slide 1.
-- **Two or more `$…$` spans with subscripts in one paragraph**: markdown pairs the
-  `_`s as emphasis and breaks the maths. Write subscripts space-padded
-  (`{\sigma} _ {1}`). The converter does this automatically.
+- **Markdown chews maths before KaTeX sees it.** Two failure modes, both silent:
+  1. **`_` eaten as emphasis.** An underscore *preceded by punctuation* — the
+     `}_` in `\vec{T}_i`, `{\int}_{\Omega}` — can OPEN emphasis and pair with a
+     later `_`, and markdown deletes both. `\sigma_{xx}` and `n_j` are safe
+     (`_` after a letter can only close, or is intra-word). Fix by space-padding
+     the opener: `\vec{T} _ i`. The pptx converter emits `{\sigma} _ {1}` for
+     exactly this reason — don't "tidy" those back to `\sigma_1` without checking.
+  2. **A backslash before ASCII punctuation is stripped**, so `\,` renders as a
+     literal comma and `\;` as a semicolon. Double them: `\\,` `\\;`.
+  Detect both by running each line through `marked` and comparing the text
+  inside `$…$` before and after — anything that changes is a bug.
 - **Bare `![](…)` directly inside a block-level `<div>`** is left unrendered by
   reveal's markdown pass. Wrap each image in its own `<div>` with blank lines.
 - **`build.sh` stages every `Lectures/Module-*/` directory** as slide assets. A
