@@ -755,10 +755,10 @@ $$\Delta \mathrm{CFF} = \Delta \tau - \mu' \Delta \sigma$$
 
 The measured San Jacinto case on the right of that figure is a good one to look at, because the two terms pull in **opposite** directions:
 
-- $\Delta \tau = -0.53$ — the San Andreas slip reduces shear on the plane — *away* from failure
-- $-\mu' \Delta \sigma = +0.11$ — it also *unclamped* the plane, moving it *towards* failure
+- $\Delta \tau = -0.60$ — the San Andreas slip reduces shear on the plane — *away* from failure
+- $-\mu' \Delta \sigma = +0.12$ — it also *unclamped* the plane, moving it *towards* failure
 
-The shear term wins, so the net is $-0.42$: this fault is "safer" than it was. But you cannot tell that from either term alone, and the sign of the answer is not obvious before you compute it.
+The shear term wins, so the net is $-0.49$: this fault is "safer" than it was. But you cannot tell that from either term alone, and the sign of the answer is not obvious before you compute it.
 
 $\mu'$ is an **effective** friction: it bundles the real friction together with how the pore fluid responds to the squeeze. Values near $0.4$ are common.
 
@@ -814,15 +814,17 @@ Before the earthquake all three circles are the **same**: one regional stress, f
 
 ## It depends which way your fault faces
 
-The measured swing in $\Delta$CFF across orientations, at each site:
+The measured swing in $\Delta$CFF across orientations, and the value at each fault's *actual* mapped strike:
 
-| Site | $\Delta$CFF range | median |
+| Site | $\Delta$CFF range | at its own strike |
 |---|---|---|
-| Garlock | $-0.64$ to $+0.54$ | $+0.01$ |
-| ECSZ | $-0.01$ to $+0.15$ | $+0.08$ |
-| San Jacinto | $-0.75$ to $+0.66$ | $-0.06$ |
+| Garlock | $-0.66$ to $+0.41$ | $+0.09$ |
+| ECSZ | $-0.01$ to $+0.14$ | $+0.05$ |
+| San Jacinto | $-0.50$ to $+0.59$ | $-0.49$ |
 
-At Garlock and San Jacinto the *same* earthquake either loads you or relaxes you — a swing of more than $1.2$ — depending on nothing but the orientation of your fault. The median is close to zero at both, and tells you almost nothing.
+At Garlock and San Jacinto the *same* earthquake either loads you or relaxes you — a swing of about $1.1$ — depending on nothing but the orientation of your fault. The range alone therefore says almost nothing; only the strike the fault actually has picks a number out of it.
+
+And the two nearly identical ranges resolve completely differently: the San Jacinto, which lies along the Pacific side of the master fault and shares its strike, is pushed hard *away* from failure ($-0.49$), while the Garlock is barely touched ($+0.09$).
 
 This is why aftershock forecasting needs the **receiver geometry**, not just the source: "was this fault brought closer to failure?" has no answer until you say which fault.
 
@@ -836,10 +838,10 @@ Let a *neighbour* slip instead, and read the San Andreas. The animation winds th
 
 Both events reach the master fault, and they do **opposite** things:
 
-- the **San Jacinto** slips right-laterally and **relaxes** the master fault, most strongly just southeast of the bend ($-0.30$);
-- the **Garlock** — which resolves *left*-laterally from the kinematics alone, the sense the real Garlock has — **loads** it, and does so right at the bend ($+0.40$).
+- the **San Jacinto** slips right-laterally and **relaxes** the master fault ($-0.29$), most strongly on the stretch alongside itself, southeast of the bend;
+- the **Garlock** — which resolves *left*-laterally from the kinematics alone, the sense the real Garlock has — **loads** it ($+0.39$), and because the Garlock abuts the bend, that loading lands squarely on the bend.
 
-Both effects are concentrated on the **restraining bend**. Geometry decides not only where the mountains go, but where the fault is most sensitive to its neighbours.
+Each event peaks on the stretch of fault beside its own source — so it is the Garlock, not the San Jacinto, that reaches the **restraining bend**. Geometry decides not only where the mountains go, but which neighbour the fault is most sensitive to, and where.
 
 <small>
 

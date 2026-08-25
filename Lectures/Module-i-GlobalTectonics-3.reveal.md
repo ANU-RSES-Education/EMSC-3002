@@ -298,27 +298,13 @@ Change in Coulomb failure stress from a single slip event; red = loaded towards 
 
 ## Putting it together: southern California
 
-![California](images/UW-FaultExamples/california-stepover.png) <!-- .element style="display:block; margin-left:auto; margin-right:auto; width:58%" -->
-
-The same ideas at plate-boundary scale: a schematic San Andreas system, driven by the plate motion. Slip on the main strands transfers stress to the faults around them — some are loaded, some relaxed, purely by geometry and orientation.
-
-*Everything on this slide follows from the concepts of this lecture: principal stresses, resolved shear, friction, and faults sitting near failure.*
-
-<small>
-
-Underworld3 computation (Moresi). We return to this style of analysis quantitatively in Modules 3 and 4.
-
-</small>
-
-<--v-->
-
-## … with a curving San Andreas
-
 ![California](images/UW-FaultExamples/california-curved.png) <!-- .element style="display:block; margin-left:auto; margin-right:auto; width:58%" -->
 
-Now the master fault is one continuous trace that *bends*. Nothing about the driving stress has changed — but because the fault curves, the shear resolved onto it changes along its own length. The restraining bend runs out of room, and the compression piles up exactly where the Transverse Ranges are.
+The same ideas at plate-boundary scale: a schematic San Andreas, driven by the plate motion, as one continuous trace that *bends*. Nothing about the driving stress changes along it — but because the fault curves, the shear resolved onto it changes along its own length. The restraining bend runs out of room, and the compression piles up exactly where the Transverse Ranges are.
 
-Orientation is destiny for a whole fault, not just for a plane.
+Slip on the master fault then transfers stress to its neighbours — some loaded, some relaxed, purely by geometry and orientation. Orientation is destiny for a whole fault, not just for a plane.
+
+*Everything on this slide follows from the concepts of this lecture: principal stresses, resolved shear, friction, and faults sitting near failure.*
 
 <small>
 
