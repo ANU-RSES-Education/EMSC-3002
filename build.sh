@@ -31,6 +31,12 @@ done
 ( cd "$STAGE" && mkslides build . -f mkslides.yml -d "$SLIDES_OUT" )
 rm -rf "$STAGE"
 
+# Vendored KaTeX (js + css + woff2 fonts). The reveal math plugin defaults to
+# fetching these from a CDN at presentation time; lecture-theatre wifi cannot be
+# relied on, and a half-loaded font set silently breaks only the large
+# delimiters. Lectures/mkslides.yml points the plugin here with katex.local.
+cp -R Lectures/katex "$SLIDES_OUT/"
+
 echo "==> 3/3  Copying lecture PDFs into the site"
 if [ -d Lectures/static_pdfs/PDFs ]; then
   mkdir -p "$OUT/PDFs"

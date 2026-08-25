@@ -78,6 +78,16 @@ slides shifts them.
 - **Don't hotlink images.** Wikimedia blocks `/thumb/` URLs, which silently broke
   several slides. Fetch the original, optimise it into `Lectures/images/`, and
   reference it locally.
+- **KaTeX is vendored, not fetched.** The reveal math plugin defaults to a CDN
+  (`katex@latest`) *at presentation time* — fatal in a lecture theatre. It now
+  loads from `Lectures/katex/` via `katex.local` in `mkslides.yml`, staged into
+  `slideshows/katex/` by `build.sh`. The plugin needs **four** things under
+  `dist/`: `katex.min.js`, `katex.min.css`, `fonts/` **and**
+  `contrib/auto-render.min.js` — miss the last and no maths renders at all.
+  Miss only the `KaTeX_Size*` fonts and the failure is subtler: everything looks
+  right except large delimiters, which silently shrink to normal-height
+  brackets. Verify with Chromium's
+  `--host-resolver-rules="MAP * 127.0.0.1:9, EXCLUDE localhost"`.
 
 ## Content planning
 

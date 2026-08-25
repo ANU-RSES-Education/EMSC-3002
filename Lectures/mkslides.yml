@@ -14,3 +14,8 @@ revealjs:
   transition: fade
   slideNumber: true
   hash: true          # honour #/h/v fragments so the glossary can deep-link to slides
+  # Render maths from the vendored KaTeX in slideshows/katex rather than the
+  # plugin's default CDN, so decks work with no network in the lecture theatre.
+  # The plugin appends /dist/katex.min.{js,css} to this path. Staged by build.sh.
+  katex:
+    local: katex

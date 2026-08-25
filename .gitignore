@@ -31,6 +31,9 @@ __pycache__/
 build/
 develop-eggs/
 dist/
+# ...except the vendored KaTeX: the reveal math plugin hardcodes a "dist/"
+# path segment, so this copy has to keep the name. See the site skill.
+!Lectures/katex/dist/
 downloads/
 eggs/
 .eggs/
