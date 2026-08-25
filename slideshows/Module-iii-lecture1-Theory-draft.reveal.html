@@ -332,7 +332,7 @@ Assuming this is a 2D problem, let us compute the forces acting across a fault o
 <div class="cols">
 <div class="wide">
 
-$$\boldsymbol{\sigma} = \left[ \begin{matrix} \sigma_{xx} & \sigma_{xy} \cr \sigma_{yx} & \sigma_{yy} \end{matrix} \right]$ = $\left[ \begin{matrix} -40 & -10 \cr -10 & -60 \end{matrix} \right] \textrm{ MPa }$$
+$$\boldsymbol{\sigma} = \left[ \begin{matrix} \sigma_{xx} & \sigma_{xy} \cr \sigma_{yx} & \sigma_{yy} \end{matrix} \right] = \left[ \begin{matrix} -40 & -10 \cr -10 & -60 \end{matrix} \right] \textrm{ MPa }$$
 
 For a fault oriented at 45º from the east direction, ${\vec{n}} = \left[ 1/\surd{2} \\;\\; 1/\surd{2} \right] \approx [ 0.7 \\;\\; 0.7]$ 
 
@@ -354,6 +354,24 @@ Projecting the vector along the fault plane to find the normal component $\vec{T
 
 <--v-->
 
+## What the Fault Actually Feels
+
+![FaultFrame](images/UW-FaultExamples/fault-frame.gif) <!-- .element style="display:block; margin-left:auto; margin-right:auto; width:82%" -->
+
+The worked example above, done at every orientation at once. A small fault is turned through a fixed stress field, and at each angle we resolve the traction $\vec T = \boldsymbol{\sigma}\cdot\hat n$ onto the fault's **own** axes — the push *across* it, $\sigma_n$, and the drag *along* it, $\tau$.
+
+A fault has no opinion about north. Those two numbers are all it knows about the entire tensor. Everything else in $\boldsymbol{\sigma}$ describes planes this fault does not occupy.
+
+Watch where $\tau$ passes through zero: at those two orientations the traction is purely a push, along the normal. Nothing was assumed — the sweep *found* the principal directions.
+
+<small>
+
+Underworld3 split-node fault computation (Moresi). Each point is a separate welded-fault solve; the same 25 solves drive the Mohr construction later in this lecture.
+
+</small>
+
+<--v-->
+
 <!-- source: Lecture1_Stress.pptx slide 14 · matrix-multiplication review, split onto a vertical slide -->
 
 ## Aside — Review of matrix multiplication.
@@ -371,24 +389,6 @@ $$ \left[\begin{matrix} 1 &   5 \end{matrix} \right] \cdot
 
 <p class="caption">Wikipedia</p>
 
-
-<--v-->
-
-## What the Fault Actually Feels
-
-![FaultFrame](images/UW-FaultExamples/fault-frame.gif) <!-- .element style="display:block; margin-left:auto; margin-right:auto; width:82%" -->
-
-The worked example above, done at every orientation at once. A small fault is turned through a fixed stress field, and at each angle we resolve the traction $\vec T = \boldsymbol{\sigma}\cdot\hat n$ onto the fault's **own** axes — the push *across* it, $\sigma_n$, and the drag *along* it, $\tau$.
-
-A fault has no opinion about north. Those two numbers are all it knows about the entire tensor. Everything else in $\boldsymbol{\sigma}$ describes planes this fault does not occupy.
-
-Watch where $\tau$ passes through zero: at those two orientations the traction is purely a push, along the normal. Nothing was assumed — the sweep *found* the principal directions.
-
-<small>
-
-Underworld3 split-node fault computation (Moresi). Each point is a separate welded-fault solve; the same 25 solves drive the Mohr construction later in this lecture.
-
-</small>
 
 <--o-->
 ## Principal Stresses
@@ -482,6 +482,41 @@ Those flat green lines are the whole idea. $\sigma_m$ holds to 1 part in $10^5$ 
 <small>
 
 Underworld3 split-node fault computation (Moresi). The matrix in the rotating frame is assembled from measured probe tractions; a confining pressure of 2.5 is added, so $\sigma_m$ is something other than zero.
+
+</small>
+
+<--v-->
+
+## Invariants: A Worked Example
+
+Take the state from the traction example earlier in this lecture, and diagonalise it. The principal stresses are $\sigma_m \pm R$:
+
+$$\sigma_{1,3} = -50 \pm \sqrt{\left(\tfrac{-40-(-60)}{2}\right)^{2} + (-10)^{2}} = -50 \pm 10\sqrt{2}$$
+
+$$\underbrace{\left[ \begin{matrix} -40 & -10 \cr -10 & -60 \end{matrix} \right]}_{\textrm{map coordinates}} \qquad \longrightarrow \qquad \underbrace{\left[ \begin{matrix} -35.86 & 0 \cr 0 & -64.14 \end{matrix} \right]}_{\textrm{principal axes, at } 157.5° \textrm{ and } 67.5°} \textrm{ MPa}$$
+
+Not one entry survives the change. Now form the trace and the determinant of each:
+
+| | map coordinates | principal axes |
+|---|---|---|
+| trace | $-40 - 60 = \mathbf{-100}$ | $-35.86 - 64.14 = \mathbf{-100}$ |
+| determinant | $(-40)(-60) - (-10)^2 = \mathbf{2300}$ | $(-35.86)(-64.14) - 0 = \mathbf{2300}$ |
+
+<--v-->
+
+## What the Shear Was Doing
+
+$$\det\boldsymbol{\sigma} = \sigma_{xx}\sigma_{yy} - \sigma_{xy}^{2}$$
+
+In map coordinates the diagonal product is $2400$ and the shear term takes $100$ back off it. In the principal frame there is no shear at all — and the diagonal product has *already* fallen to exactly $2300$.
+
+The off-diagonal entry is not extra information about the rock. It is the bookkeeping that holds the answer still while the axes move. Rotate the frame and the diagonal and the shear trade against each other, by exactly the amount that keeps the trace and the determinant fixed.
+
+Everything else follows from those two: mean stress $\sigma_m = -50$ MPa, radius $R = 10\sqrt{2} = 14.14$ MPa — the centre and the radius of this state's Mohr circle, and you can read them off either matrix.
+
+<small>
+
+Tension positive here, matching the worked example above, so both principal stresses are compressive. The invariants do not care: flip the whole tensor to the geological convention and the trace changes sign while the determinant does not move at all.
 
 </small>
 
