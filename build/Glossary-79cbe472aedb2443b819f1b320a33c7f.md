@@ -866,7 +866,7 @@ Power-law creep
 Pressure solution
 : Dissolution of minerals at grain contacts oriented at a high angle to $\sigma_1$, diffusion of the dissolved material along fluid films on grain boundaries, and reprecipitation in low-stress sites such as pressure shadows and veins — or removal from the rock entirely. It is the dominant foliation-forming process at low metamorphic grade, and it can account for very large shortening.
 
-  *Slides: [5.3 Structures Associated with Folding (1) — Pressure solution](/slideshows/Module-v-lecture3-Structures-Associated-with-Folding-1.reveal.html#/29) · [3.1 Stress — Pore Pressure Effect](/slideshows/Module-iii-lecture1-Theory-draft.reveal.html#/31) · [3.3 Rheology — Effect of Confining Pressure](/slideshows/Module-iii-lecture3-Theory-draft.reveal.html#/26)*
+  *Slides: [5.3 Structures Associated with Folding (1) — Pressure solution](/slideshows/Module-v-lecture3-Structures-Associated-with-Folding-1.reveal.html#/29) · [3.1 Stress — Pore Pressure](/slideshows/Module-iii-lecture1-Theory-draft.reveal.html#/31) · [3.3 Rheology — Effect of Confining Pressure](/slideshows/Module-iii-lecture3-Theory-draft.reveal.html#/26)*
 
 Primary structure
 : A structure formed at the time the rock itself formed, by sedimentary or magmatic processes — bedding, cross-bedding, flow banding. Structural geology is about the tectonic structures that came later, but you cannot recognise deformation without first knowing what the undeformed rock looks like.
