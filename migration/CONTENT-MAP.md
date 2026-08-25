@@ -358,3 +358,66 @@ Built 2026-07-22 from a parallel read of all five modules' decks + book pages;
 examples, brittle repetition, viscous flow). Modules 1–3 verified at slide-title
 granularity; iv at draft-deck level. Companion to the conversion pipeline in
 `migration/module3/`.
+
+---
+
+## 12. Modules 3.2 / 3.3 vs Module 1 — slide-level overlap (added 2026-08-25)
+
+Follows §6's model. Direction here is **Preview (1.3) → Full (3.2/3.3)**, so the
+redundancy to cut is the *motivational/definitional front matter* in 3.2 and
+3.3 — **not** the mathematics, which is theirs to own.
+
+**The wiring is currently one-way.** `Module-i-GlobalTectonics-3` already
+forward-links to 3.2 and 3.3 by name (strain, strain-rate and rheology slides).
+Neither 3.2 nor 3.3 contains a single reference back to Module 1 — grep for
+`Module-i-` returns nothing. §6 action **A2 is outstanding for both decks**;
+3.1 has exactly one back-link.
+
+### 12.1 Where the same thing is taught twice
+
+| 1.3 (preview, already taught) | 3.2 / 3.3 (re-introduced as new) | Verdict |
+|---|---|---|
+| #6 *What is Strain?* — $\varepsilon=\delta L/L_0$, strain has orientation | 3.2 #10 *Strain*, #13 *Quantify Strain* | recap, then go straight to quantification |
+| #7 *What is Strain-Rate?* — **worked estimate**: 500 km boundary at 5 cm/yr → $3\times10^{-15}\,\mathrm{s}^{-1}$ | 3.2 #32–33 *Strain Rate* — **the same calculation** (500 km fault, 30 km in 1 Myr) presented fresh | biggest single duplication in 3.2 |
+| 1.1 #6.4 *Global Strain rate* | 3.2 #35 *Strain Rates at Plate Boundaries* | back-link, keep the tensor content |
+| 1.1 #9 *Global Plate Motions* | 3.2 #7–8 *Plate Tectonics* (Hawaii–Emperor) | retitle to what it is: measuring plate motion |
+| #8 *Rheology* — definition + elastic/viscous/plastic split | 3.3 #4–5 *Rheology* / *What Is Rheology?* | compress two slides to one recap |
+| #8.1 *Rheology: Elasticity* — Hooke's law, recoverable | 3.3 #7 *Elastic Deformation* | trim motivation, keep Young's modulus |
+| #8.2–8.3 *Rheology: Viscosity* — honey **and the UQ pitch drop** | 3.3 #16–18, incl. **#18 *One Drip Per Decade!*** | **the pitch-drop experiment is in both decks** |
+| #8.4 *Rheology: Plasticity* | 3.3 #35 *Plastic Deformation* | back-link |
+| #9 *Rock Deformation Map* + #10 *Brittle-Ductile Transition* | 3.3 #30–31 *Rheology of the Lithosphere* (notes define the B-D transition as new) | back-link; keep the mineral-specific depths |
+
+### 12.2 Recommended restructure
+
+**One new slide per deck, then trims.** Open each with a *"Where we left off
+(Module 1.3)"* recap — the 1.3 figure, three bullets of what was established,
+one line on what this module adds, and the link. That single slide licenses
+deleting the re-introductions, and gives the students the reminder they are
+missing.
+
+Then, in order of payoff:
+
+1. **3.3 pitch drop** — keep it in 1.3 (it is the intuition-builder, paired
+   with honey) and in 3.3 *use* it instead: "the pitch drop from 1.3 — here is
+   its viscosity", which turns a duplicate into the hook for the numbers.
+2. **3.2 strain-rate** — drop the definition, keep both worked examples, and
+   frame them explicitly as re-doing 1.3's back-of-envelope properly.
+3. **3.3 #4–5 → one slide**; **3.3 #30–31** back-link to the deformation map.
+4. **Fill both ILO slides** — still `<!-- TODO -->` in 3.2 and 3.3.
+
+### 12.3 Independent of overlap — conversion debris in these two decks
+
+- **Progressive-reveal duplicate pairs** (same title, adjacent, second is a
+  superset — the pattern already fixed in 3.1): 3.2 *Plate Tectonics*,
+  *Example: Quantify Strain in a Rock*, *Quantify Strain with Displacement*,
+  *Strain Rate*; 3.3 *Elastic Defromation in 3D*, *Rheology of the Lithosphere*.
+  ~6 slides recoverable.
+- **Stale lecture numbering**: 3.2 #12 *Summary of Lecture 7.3*, #29 *Summary
+  of Lecture 8.1* — from a previous course structure.
+- **Orphan tails after the Summary slide**: 3.2 #39–41 (#41 *Pure Shear and
+  Simple Shear* duplicates #23); 3.3 #34–37.
+- **Typos in titles**: "Defromation" (×2), "Precence", "Controling",
+  "Conditons".
+- **Label soup** from figures whose annotations the pptx conversion dropped —
+  3.2 *Pure Shear and Simple Shear* is the worst. Needs the screenshot
+  treatment used throughout 3.1.
