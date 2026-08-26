@@ -548,7 +548,7 @@ Start from simple design and deform the circles (described by a “mask function
 
 </div>
 </div>
-<p class="caption">${V}_{0}$ · ${V}_{0}$</p>
+<p class="caption">$V_{0}$ · $V_{0}$</p>
 
 Note:
 Note: 

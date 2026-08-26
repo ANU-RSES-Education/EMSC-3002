@@ -472,7 +472,7 @@ Take the state from the traction example earlier in this lecture, and diagonalis
 
 $$\sigma_{1,3} = -50 \pm \sqrt{\left(\tfrac{-40-(-60)}{2}\right)^{2} + (-10)^{2}} = -50 \pm 10\sqrt{2}$$
 
-$$\underbrace{\left[ \begin{matrix} -40 & -10 \cr -10 & -60 \end{matrix} \right]}_{\textrm{map coordinates}} \qquad \longrightarrow \qquad \underbrace{\left[ \begin{matrix} -35.86 & 0 \cr 0 & -64.14 \end{matrix} \right]}_{\textrm{principal axes, at } 157.5° \textrm{ and } 67.5°} \textrm{ MPa}$$
+$$\underset{\textrm{map coordinates}}{\underbrace{\left[ \begin{matrix} -40 & -10 \cr -10 & -60 \end{matrix} \right]}} \qquad \longrightarrow \qquad \underset{\textrm{principal axes, at } 157.5° \textrm{ and } 67.5°}{\underbrace{\left[ \begin{matrix} -35.86 & 0 \cr 0 & -64.14 \end{matrix} \right]}} \textrm{ MPa}$$
 
 Not one entry survives the change. Now form the trace and the determinant of each:
 

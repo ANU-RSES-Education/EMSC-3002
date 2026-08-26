@@ -72,6 +72,11 @@ slides shifts them.
      (`_` after a letter can only close, or is intra-word). Fix by space-padding
      the opener: `\vec{T} _ i`. The pptx converter emits `{\sigma} _ {1}` for
      exactly this reason — don't "tidy" those back to `\sigma_1` without checking.
+     `\underbrace{...}_{label}` is the same bug with a friendlier face: two of
+     them on a line pair up. Use `\underset{label}{\underbrace{...}}`, which has
+     no `_` at all. Note the damage is worse than a lost underscore — the `<em>`
+     tags split the `$$…$$` across DOM text nodes, so KaTeX's auto-render can no
+     longer see a matching pair and leaves the WHOLE block as literal source.
   2. **A backslash before ASCII punctuation is stripped**, so `\,` renders as a
      literal comma and `\;` as a semicolon. Double them: `\\,` `\\;`.
   Detect both by running each line through `marked` and comparing the text
