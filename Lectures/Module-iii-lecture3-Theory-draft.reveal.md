@@ -237,7 +237,7 @@ How to get the ratio of 0.5
 <--o-->
 
 <!-- source: Lecture3_Rheology.pptx slide 11 · template: T3-text-and-image -->
-## Elastic Defromation in 3D
+## Elastic Deformation in 3D
 <div class="cols">
 <div class="wide">
 
@@ -272,12 +272,12 @@ Note:
 the subscript 𝑥𝑥 indicates a strain or stress in the x direction acting perpendicular to a plane whose normal direction is also in the x direction. You will typically see stress components expressed using either the numbers 1, 2, or 3 or the letters x, y, and z to refer to the orientations of the planes and the forces. It is necessary to know the orientation of the three directions to interpret the orientations of the stresses.
 For a linear isotropic material subjected only to compressive (i.e. normal) forces, the deformation of a material in the direction of one axis will produce a deformation of the material along the other axis in three dimensions. Thus it is possible to generalize Hooke's Law (for compressive forces) into three dimensions:
 
-<div style="position:absolute;bottom:0;left:0;right:0;font-size:0.40em;color:#8a2b2b;background:rgba(255,255,255,0.88);border-top:1px solid #d8c4c4;padding:0.25em 0.4em;text-align:left;">&#9873; <strong>RETITLE</strong> &mdash; same title as the next slide, which generalises to x and y &mdash; distinguish them; also &ldquo;Defromation&rdquo;</div>
+<div style="position:absolute;bottom:0;left:0;right:0;font-size:0.40em;color:#8a2b2b;background:rgba(255,255,255,0.88);border-top:1px solid #d8c4c4;padding:0.25em 0.4em;text-align:left;">&#9873; <strong>RETITLE</strong> &mdash; same title as the next slide, which generalises to x and y &mdash; distinguish them</div>
 
 <--o-->
 
 <!-- source: Lecture3_Rheology.pptx slide 12 · template: T3-text-and-image -->
-## Elastic Defromation in 3D
+## Elastic Deformation in 3D
 <div class="cols">
 <div class="wide">
 
@@ -315,7 +315,6 @@ Note:
 the subscript 𝑥𝑥 indicates a strain or stress in the x direction acting perpendicular to a plane whose normal direction is also in the x direction. You will typically see stress components expressed using either the numbers 1, 2, or 3 or the letters x, y, and z to refer to the orientations of the planes and the forces. It is necessary to know the orientation of the three directions to interpret the orientations of the stresses.
 For a linear isotropic material subjected only to compressive (i.e. normal) forces, the deformation of a material in the direction of one axis will produce a deformation of the material along the other axis in three dimensions. Thus it is possible to generalize Hooke's Law (for compressive forces) into three dimensions:
 
-<div style="position:absolute;bottom:0;left:0;right:0;font-size:0.40em;color:#8a2b2b;background:rgba(255,255,255,0.88);border-top:1px solid #d8c4c4;padding:0.25em 0.4em;text-align:left;">&#9873; <strong>TYPO</strong> &mdash; &ldquo;Defromation&rdquo;</div>
 
 <--o-->
 
@@ -753,7 +752,7 @@ Granite
 <--o-->
 
 <!-- source: Lecture3_Rheology.pptx slide 28 · template: T3-text-and-image -->
-## Precence of Fluids
+## Presence of Fluids
 <div class="cols">
 <div class="wide">
 
@@ -793,7 +792,6 @@ Strain %
 Note:
 Pore fluid pressure reduces the effective stress by creating stress at grain contacts in porous rocks.
 
-<div style="position:absolute;bottom:0;left:0;right:0;font-size:0.40em;color:#8a2b2b;background:rgba(255,255,255,0.88);border-top:1px solid #d8c4c4;padding:0.25em 0.4em;text-align:left;">&#9873; <strong>TYPO</strong> &mdash; &ldquo;Precence&rdquo;</div>
 
 <--o-->
 

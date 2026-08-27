@@ -152,67 +152,6 @@ Maybe add a little bit more real examples?
 
 <--o-->
 
-<!-- source: Lecture2_Strain_StrainRate.pptx slide 8 · template: T3-text-and-image -->
-## Plate Tectonics
-<div class="cols">
-<div class="wide">
-
-- Hawaiian Ridge—Emperor Seamount Chain is composed of more than 80 large volcanoes, reflecting the progressive movement of the Pacific Plate over a "deep" and "fixed" hot spot.
-- It stretches about 6,200 km from the Aleutian Trench in the far northwest Pacific to the Lōʻihi Seamount, the youngest volcano in the chain.
-- Tomographic image of a plume-like feature beneath Hawaii.
-
-**USGS**
-
-</div>
-<div>
-
-<div class="cols">
-
-![](Module-iii-Theory/Lecture2-extracted/slide008_img2.jpg)
-
-
-![](Module-iii-Theory/Lecture2-extracted/slide008_img1.png)
-
-</div>
-
-<p class="caption">French & Romanowicz, 2015</p>
-
-</div>
-</div>
-
-<--v-->
-
-## &#9209; Intentionally blank
-
-<small>Everything below this point is **parked for review** (2026-08-25) — a candidate
-for removal, merging or relocation, kept here so nothing is lost while we decide.
-Press **&rarr;** to carry on with the lecture, **&darr;** to inspect.</small>
-
-<--v-->
-
-<!-- source: Lecture2_Strain_StrainRate.pptx slide 7 · template: T3-text-and-image -->
-## Plate Tectonics
-<div class="cols">
-<div>
-
-![](Module-iii-Theory/Lecture2-extracted/slide007_img1.jpg)
-
-<p class="caption">Hawaiian ridge · Emperor Mountain Chain · ~39 Ma</p>
-
-</div>
-<div class="wide">
-
-- Hawaiian Ridge—Emperor Seamount Chain is composed of more than 80 large volcanoes, reflecting the progressive movement of the Pacific Plate over a "deep" and "fixed" hot spot.
-- It stretches about 6,200 km from the Aleutian Trench in the far northwest Pacific to the Lōʻihi Seamount, the youngest volcano in the chain.
-
-National Geophysical Data Center/USGS
-
-</div>
-</div>
-
-<small><em>&#9209; PARKED &mdash; its two bullets are repeated verbatim on the next slide; only the Hawaiian-ridge figure is unique, so this is a merge candidate, not a deletion</em></small>
-<--o-->
-
 <!-- source: Lecture2_Strain_StrainRate.pptx slide 9 · template: T6-two-image -->
 ## Displacement Vector
 <div class="cols">
@@ -288,7 +227,7 @@ Waldron & Snyder, U Alberta
 <--o-->
 
 <!-- source: Lecture2_Strain_StrainRate.pptx slide 12 · template: T3-text-and-image -->
-## Summary of Lecture 7.3
+## Summary — stress behind us, strain ahead
 <div class="cols">
 <div>
 
@@ -320,7 +259,6 @@ ${\sigma} _ {1}$
 </div>
 </div>
 
-<div style="position:absolute;bottom:0;left:0;right:0;font-size:0.40em;color:#8a2b2b;background:rgba(255,255,255,0.88);border-top:1px solid #d8c4c4;padding:0.25em 0.4em;text-align:left;">&#9873; <strong>RETITLE</strong> &mdash; &ldquo;Summary of Lecture 7.3&rdquo; refers to a previous course structure</div>
 
 <--o-->
 
@@ -861,7 +799,7 @@ Deformed markers (a) such as strained pebbles or ooids give no information about
 <--o-->
 
 <!-- source: Lecture2_Strain_StrainRate.pptx slide 29 · template: T3-text-and-image -->
-## Summary of Lecture 8.1
+## Summary — strain, measured from displacement
 <div class="cols">
 <div class="wide">
 
@@ -932,7 +870,6 @@ $\left[ \begin{matrix} \epsilon_{11} & \epsilon_{12} & \epsilon_{13} \cr \epsilo
 </div>
 </div>
 
-<div style="position:absolute;bottom:0;left:0;right:0;font-size:0.40em;color:#8a2b2b;background:rgba(255,255,255,0.88);border-top:1px solid #d8c4c4;padding:0.25em 0.4em;text-align:left;">&#9873; <strong>RETITLE</strong> &mdash; &ldquo;Summary of Lecture 8.1&rdquo; refers to a previous course structure</div>
 
 <--o-->
 
