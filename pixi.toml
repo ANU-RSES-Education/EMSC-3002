@@ -18,6 +18,8 @@ pillow = ">=12.3.0,<13"
 pymupdf = ">=1.28.0,<2"
 qrcode = ">=8.2,<9"
 opencv = ">=5.0.0,<6"
+matplotlib-base = ">=3.9,<4"   # tools/figures/*.py; every one of them
+numpy = ">=1.26"               # documents "pixi run python tools/figures/..."
 
 [pypi-dependencies]
 mkslides = ">=0.1"

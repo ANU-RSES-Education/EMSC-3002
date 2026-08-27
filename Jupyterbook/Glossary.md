@@ -450,7 +450,7 @@ Fold, upright
 Fold, vertical
 : A fold whose hinge line plunges vertically or nearly so. Vertical fold axes normally result from refolding, since folds rarely nucleate with vertical hinges.
 
-  *Slides: [1.1a The Australian Plate — Pilbara: domes and keels](/slideshows/Module-i-GlobalTectonics-1a.reveal.html#/7/1) · [2.3 Extensional Regimes — Extensional Faults](/slideshows/Module-ii-Lecture-3-Extensional_Regimes.reveal.html#/7)*
+  *Slides: [1.1a The Australian Plate — Pilbara: domes and keels](/slideshows/Module-i-GlobalTectonics-1a.reveal.html#/7/1) · [2.3 Extensional Regimes — Extensional Faults](/slideshows/Module-ii-Lecture-3-Extensional_Regimes.reveal.html#/7) · [3.1 Stress — The Coulomb Failure Function](/slideshows/Module-iii-lecture1-Theory-draft.reveal.html#/25/3)*
 
 Fold, wavelength
 : The distance between adjacent hinges of the same sense — the repeat distance of a fold train. In buckling it is set by the layer thickness and the viscosity contrast with the matrix, which is why it is such a useful diagnostic.

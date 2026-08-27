@@ -846,11 +846,31 @@ A fault fails when its stress point reaches the envelope — so measure **how fa
 
 $$\mathrm{CFF} = \tau - (C + \mu' \sigma)$$
 
-That is just the *gap* between the point and the failure line: negative below it, zero on it. 
+That is the **vertical** gap between the point and the failure line: negative below it, zero on it. Vertical, because both terms are shear stresses *on the same plane* — it is the shear the fault carries, minus the shear it can hold.
 
 $$\Delta \mathrm{CFF} = \Delta \tau - \mu' \Delta \sigma$$
 
 **Positive: the gap closed**, and the fault was brought nearer to failure. **Negative: it was pushed away**, into what is called a *stress shadow*.
+
+Note:
+If someone asks why the gap is measured vertically rather than
+perpendicular to the envelope — a fair question, since "distance to a
+line" usually means the perpendicular one.
+
+Two answers. The short one: CFF is DEFINED as the vertical gap, and the
+perpendicular distance is just CFF cos(phi), i.e. CFF / sqrt(1 + mu'^2).
+With mu' = 0.4 that is a factor of 0.93. Since mu' is held fixed, the two
+differ by a constant, so they always agree on sign and on ranking. No
+conclusion in this lecture would change.
+
+The better one: the perpendicular distance is not a physical quantity at
+all. It mixes the sigma and tau axes, so it depends on how the two are
+scaled against each other on the page — stretch the sigma axis and the
+perpendicular distance changes, while the vertical gap does not. The
+vertical gap compares a shear stress with a shear strength, both on the
+same plane and in the same units, and it answers a question you can pose
+without a diagram: how much more shear stress does this plane need
+before it slips?
 
 <--v-->
 
@@ -1043,6 +1063,38 @@ Based on the Coulomb-Mohr failure criteria, Anderson’s theory of faulting pred
 
 The theory also predicts that normal and reverse faults dip at *roughly* 60º and 30º, respectively. In other words, one can use the dipping angle to infer stress directions. 
 As long as you know the fault has not rotated since it formed !
+
+<--v-->
+
+## Where 60° and 30° Come From
+
+![AndersonAngle](Module-iii-Theory/anderson-fault-angle.png) <!-- .element style="display:block; margin-left:auto; margin-right:auto; width:92%" -->
+
+The angles are not measured, they are **predicted** — by the failure criterion we have just built.
+
+A rock fails at the orientation where its Mohr circle *first touches* the envelope. The radius drawn to a point of tangency is perpendicular to the envelope, and the envelope's slope is $\tan\phi$ — so that radius sits at $90° + \phi$ from $\sigma_1$. Mohr angles are doubled, so
+
+$$2\theta = 90° + \phi \qquad \Longrightarrow \qquad \theta = 45° + \tfrac{\phi}{2}$$
+
+with $\theta$ measured to the fault's **normal**, as it has been all lecture. The fault *plane* is therefore at $45° - \phi/2$ to $\sigma_1$. The circle touches in **two** places, which is why faults come in conjugate pairs, straddling $\sigma_1$ with $90° - \phi$ between them.
+
+<--v-->
+
+## The Numbers, and the "Roughly"
+
+$$\mu = \tan\phi \qquad \phi = 30° \quad \Rightarrow \quad \mu = 0.58 \quad \Rightarrow \quad \textrm{fault at } 45° - 15° = 30° \textrm{ to } \sigma_1$$
+
+Anderson's rule then follows from **where $\sigma_1$ points**, which is set by the free surface:
+
+| Regime | $\sigma_1$ | Fault plane | Dip |
+|---|---|---|---|
+| Normal | vertical | $30°$ from vertical | $60°$ |
+| Thrust / reverse | horizontal | $30°$ from horizontal | $30°$ |
+| Strike-slip | horizontal ($\sigma_2$ vertical) | striking $30°$ from $\sigma_1$ | $90°$ |
+
+So the "roughly" on the previous slide is not vagueness in the theory — it is the spread in $\mu$. Rock friction runs about $0.4$ to $0.85$, i.e. $\phi \approx 22°$ to $40°$, which puts normal faults anywhere from $56°$ to $65°$ and thrusts from $25°$ to $34°$.
+
+A fault dipping at $45°$ would be the one that feels the **most** shear stress. It is not the one that forms, because friction has to be beaten as well as shear supplied — and $\phi > 0$ always tips the balance towards a steeper plane than $45°$.
 
 <--o-->
 
