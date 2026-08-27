@@ -42,61 +42,33 @@ _**NB:** the course materials provided by the authors are open source under a cr
 
 <--o-->
 
-<!-- ILO placeholder — not in the pptx; fill in -->
+<!-- ILOs transcribed from the pptx's slide-3 image, which was carried as a
+     full-bleed background: not searchable, not linkable, unreadable on a
+     phone. The geometric / dynamic / kinematic bullet is dropped, because
+     Module 2.1 spends fifteen slides on it. -->
 ## What you will learn in this module
 
-<!-- TODO: add what you will learn in this module -->
+- The four general forms of deformation, and which of them **strain** describes
+- How strain is quantified in 1D, 2D and 3D &mdash; the **strain tensor**
+- Classifying strain with the **Flinn diagram**
+- Methods for estimating strain in a real rock
+- **Strain rate**: what it is, how we measure it, and why we care
 
 <--o-->
-<!-- PROPOSED SLIDE 2026-08-25 — flagged, not written. -->
-## &#10133; Proposed &mdash; Where we left off (Module 1.3)
+<!-- Written 2026-08-27 from the Module 1.3 slides. The warning triangle in
+     the title is deliberate: it marks the slide as awaiting review, and comes
+     off once Louis is happy with it. -->
+## &#9888; Where we left off (Module 1.3)
 
-<small><em>Placeholder for structural review. Nothing below is written yet.</em></small>
+Strain is not new. In [Module 1.3](Module-i-GlobalTectonics-3.reveal.html#/6) we established that:
 
-<small>
+- strain is **relative** and **dimensionless** &mdash; $\varepsilon = \delta L / L_0$, often quoted as a percentage
+- like stress it has **orientation**: there are principal directions, and principal strains
+- tectonic strain rates are around $10^{-15}\ \mathrm{s}^{-1}$ &mdash; [§7](Module-i-GlobalTectonics-3.reveal.html#/7) worked the plate-boundary estimate, 500 km taken up at 5 cm/yr
 
-One recap slide so the rest of the deck can stop re-introducing things:
+*What this module adds:* the strain **tensor**, its principal values and invariants, the **Flinn diagram**, and how strain is actually **measured** in a rock.
 
-- strain is relative and dimensionless, $\varepsilon = \delta L / L_0$ &mdash; **taught in 1.3 &sect;6**
-- like stress it has orientation, and principal directions &mdash; **1.3 &sect;6**
-- tectonic strain-rates are $\sim10^{-15}\ \mathrm{s}^{-1}$ &mdash; **1.3 &sect;7**, with the plate-boundary estimate already worked
-
-*What this module adds:* the strain **tensor**, its principal values and invariants,
-the Flinn diagram, and how strain is actually **measured** in rocks.
-
-Carries the 1.3 figure and a link back to that deck.
-
-</small>
-<--o-->
-
-<!-- source: Lecture2_Strain_StrainRate.pptx slide 3 · template: T4-full-figure -->
-<!-- .slide: data-background="Module-iii-Theory/Lecture2-extracted/slide003_img1.jpg" -->
-
-<--o-->
-
-<!-- source: Lecture2_Strain_StrainRate.pptx slide 4 · template: T3-text-and-image -->
-## What Structural Geologists Do?
-<div class="cols">
-<div class="wide">
-
-- Geometrical analysis
-- Geometric or descriptive analysis is concerned with accurately describing the shapes of bodies of rock as they are at the present day.
-- Dynamic analysis
-- Dynamic analysis involves measurement or estimation of the force or stress that has affected rocks. It is the most difficult to do because limited access/knowledge of the paleo / current stress states inside the earth.
-- Kinematic analysis
-
-- Kinematics study how rocks moved and distorted over geologic time - this includes measurements of the rates of plate movement, amounts of fault slip, and the distortion of rocks that have undergone ductile deformation. It aims to provide stress conditions at a range of scales and time.
-
-</div>
-<div>
-
-![](Module-iii-Theory/Lecture2-extracted/slide004_img1.jpg) <!-- .element style="width:75%;" -->
-
-</div>
-</div>
-
-Note:
-Bring things together with sand-box experiments and/or numerical modeling.
+<small><em>&#9888; Drafted for review &mdash; check the emphasis is where you want it, then take the triangle off.</em></small>
 
 <--o-->
 
@@ -127,25 +99,29 @@ Bring things together with sand-box experiments and/or numerical modeling.
 
 <!-- source: Lecture2_Strain_StrainRate.pptx slide 6 · template: T3-text-and-image -->
 ## Geological Example of Rotation
+
 <div class="cols">
-<div class="wide">
-
-- Domino fault systems where a series of rigid fault blocks that rotate simultaneously in a uniform sense.
-- Submerged foundation of a second-century church at Corinth, Greece. Submergence is due to the tilting of the Isthmus of Corinth by active faulting.
-
-</div>
 <div>
 
 ![](Module-iii-Theory/Lecture2-extracted/slide006_img2.jpg)
 
+</div>
+<div>
+
 ![](Module-iii-Theory/Lecture2-extracted/slide006_img1.jpg)
+
+</div>
+<div>
 
 ![](Module-iii-Theory/Lecture2-extracted/slide006_img3.jpg)
 
+</div>
+</div>
+
 <p class="caption">Davis and Reynolds, 1996</p>
 
-</div>
-</div>
+- **Domino fault systems**: a series of rigid fault blocks rotating together, in a uniform sense.
+- The submerged foundation of a second-century church at **Corinth, Greece** &mdash; drowned by the tilting of the Isthmus of Corinth on active faults.
 
 Note:
 Maybe add a little bit more real examples?
@@ -178,8 +154,8 @@ Distortion is by far the most complicated type of deformation to measure. When r
 <div class="cols">
 <div class="wide">
 
-- Strain describes the non-rigid body deformation (distortion and dilation), i.e. the amount of movement caused by stresses between parts of a body.
-- Strain reflects the relative deformation, and it has no units (often expressed as % strain). It is detached from deformation history, meaning a given strain may have accumulated in an infinite number of ways.
+- Strain describes the **non-rigid** body deformation &mdash; distortion and dilation &mdash; of the four forms above.
+- Relative and dimensionless, as in [Module 1.3 §6](Module-i-GlobalTectonics-3.reveal.html#/6). What is worth adding here: strain is **detached from its history**. A given strain may have been arrived at in an infinite number of ways.
 
 - To decipher strain from deformed rocks, we target at strain markers – objects reflecting the distortion that has taken place.
 - Pebbles, mineral grains, ooids, pillows in pillow lavas, trilobites, worm burrows, xenoliths are good examples of strain markers.
@@ -196,7 +172,6 @@ Strained quartz pebbles in conglomerate, near Dalton, MA, USA
 </div>
 </div>
 
-<div style="position:absolute;bottom:0;left:0;right:0;font-size:0.40em;color:#8a2b2b;background:rgba(255,255,255,0.88);border-top:1px solid #d8c4c4;padding:0.25em 0.4em;text-align:left;">&#9873; <strong>TRIM</strong> &mdash; the definition of strain (relative, dimensionless) is already taught in Module 1.3 &sect;6 &mdash; keep the strain-marker material, recap the definition</div>
 
 <--o-->
 
@@ -941,8 +916,8 @@ $\frac{d}{dx}\sin(ax+b) = \cos(y) \cdot \frac{dy}{dx} = a\cos(ax+b)$
 <div class="cols">
 <div class="wide">
 
-- Strain Rate ($\dot{\epsilon}$) is the change in strain of a material with respect to time ($\mathrm{s}^{-1}$). It depends mainly on the stress applied and the strength of the material.
-- Change of velocity over distance: assuming block 1 has velocity $v_1$ and block 2 velocity $v_2$, the strain rate is the net difference in velocity between the two blocks.
+- Strain rate ($\dot{\epsilon}$, units $\mathrm{s}^{-1}$) was defined in [Module 1.3 §7](Module-i-GlobalTectonics-3.reveal.html#/7), along with the $\sim 10^{-15}\ \mathrm{s}^{-1}$ of a plate boundary. It depends on the stress applied and on the strength of the material.
+- The useful way to read it is a **change of velocity over distance**: two blocks moving at $v_1$ and $v_2$ strain the ground between them.
 
 $x2$
 
@@ -972,14 +947,11 @@ Note:
 Used to talk about the viscous materials. The elastic materials will deform instantaneously, like extend a spring. 
 The strain rate at some point within the material measures the rate at which the distances of adjacent parcels of the material change with time in the neighborhood of that point.
 
-<div style="position:absolute;bottom:0;left:0;right:0;font-size:0.40em;color:#8a2b2b;background:rgba(255,255,255,0.88);border-top:1px solid #d8c4c4;padding:0.25em 0.4em;text-align:left;">&#9873; <strong>TRIM</strong> &mdash; Module 1.3 &sect;7 already defines strain-rate <em>and</em> works the plate-boundary estimate (500&nbsp;km at 5&nbsp;cm/yr &rarr; 3&times;10<sup>-15</sup> s<sup>-1</sup>) &mdash; open by recalling it rather than defining afresh</div>
 
 <--o-->
 
 <!-- source: Lecture2_Strain_StrainRate.pptx slide 33 · template: T1-prose -->
 ## Strain Rate
-- Strain Rate ($\dot{\epsilon}$) is the change in strain of a material with respect to time ($\mathrm{s}^{-1}$). It depends mainly on the stress applied and the strength of the material.
-- Change of velocity over distance: assuming block 1 has velocity $v_1$ and block 2 velocity $v_2$, the strain rate is the net difference in velocity between the two blocks.
 - Q1: Calculate the strain rate if 50% strain is achieved in ~20 min (sandbox).
 - Q2: Estimate the strain rate of a fault of 500 km long moving 30 km in 1 m.y.?
 
@@ -1020,7 +992,7 @@ In fluid mechanics, the compressibility is a measure of the relative volume 
 </div>
 <div class="wide">
 
-- The map shows the second invariant as a proxy of the magnitude.
+- The map shows the second invariant as a proxy of the magnitude &mdash; the same map as [Module 1.1 §6.4](Module-i-GlobalTectonics-1.reveal.html#/6/4), now with the tensor behind it.
 - The regions of highest strain rate at the surface of the Earth are the plate boundaries.
 - A combined results of the applied stress and the strength of the material.
 
@@ -1030,7 +1002,6 @@ In fluid mechanics, the compressibility is a measure of the relative volume 
 Note:
 Louis has shown this multiple times in the first part of this course.
 
-<div style="position:absolute;bottom:0;left:0;right:0;font-size:0.40em;color:#8a2b2b;background:rgba(255,255,255,0.88);border-top:1px solid #d8c4c4;padding:0.25em 0.4em;text-align:left;">&#9873; <strong>LINK</strong> &mdash; back-link to Module 1.1 &sect;6.4 <em>Global Strain rate</em></div>
 
 <--o-->
 
