@@ -21,7 +21,7 @@ Anderson's theory of faulting
 Angular velocity (of a plate)
 : The rate at which a plate rotates about its Euler pole, usually in degrees per million years. With the pole position it completely describes a rigid plate's motion, and the surface velocity anywhere is the angular velocity times the perpendicular distance to the rotation axis.
 
-  *Slides: [1.1 Global Deformation Patterns — Global Plate Motions](/slideshows/Module-i-GlobalTectonics-1.reveal.html#/9)*
+  *Slides: [3.2 Strain and Strain Rate — Angular Strain](/slideshows/Module-iii-lecture2-Theory-draft.reveal.html#/11) · [1.1 Global Deformation Patterns — Global Plate Motions](/slideshows/Module-i-GlobalTectonics-1.reveal.html#/9)*
 
 Anticline
 : A fold that closes upwards and has the oldest rocks in its core. Note the distinction from an antiform: "anticline" is a statement about the stratigraphy, so you can only use it if you know the way-up of the beds.
@@ -217,7 +217,7 @@ Diffusion creep
 Dilation (volumetric strain)
 : The fractional change in volume of a rock. Positive dilation means expansion (veining, fracturing); negative means volume loss, most commonly by compaction and pressure solution as porosity is squeezed out with burial.
 
-  *Slides: [5.5 Shear Zones — Dilation / Compaction zones](/slideshows/Module-v-lecture4-Shear-Zones.reveal.html#/40)*
+  *Slides: [5.5 Shear Zones — Dilation / Compaction zones](/slideshows/Module-v-lecture4-Shear-Zones.reveal.html#/40) · [3.2 Strain and Strain Rate — Volumetric Strain](/slideshows/Module-iii-lecture2-Theory-draft.reveal.html#/12)*
 
 Dislocation creep
 : Plastic flow by the movement of line defects through crystal lattices as atomic bonds are successively rearranged, with no microfracturing. It dominates at moderate to high temperature and higher stress, produces strong crystallographic preferred orientations — which is why quartz c-axis fabrics record shear sense — and underlies most mylonitic microstructures.
@@ -268,12 +268,12 @@ Effective stress ($\hat\sigma$)
 Elastic deformation
 : Recoverable deformation — remove the stress and the material springs straight back, essentially instantaneously. Because nothing is left behind, elastic strain is invisible in the rock record, but it is how rocks store the energy that earthquakes release, and it dominates the cold, shallow crust.
 
-  *Slides: [3.3 Rheology — Elastic Deformation](/slideshows/Module-iii-lecture3-Theory-draft.reveal.html#/6) · [3.2 Strain and Strain Rate — Elastic Strain Caused by a Seismic Wave](/slideshows/Module-iii-lecture2-Theory-draft.reveal.html#/27) · [2.1 Structural Geology — Methods of Tectonics and Structural Geology](/slideshows/Module-ii-Lecture-1-Structural-Geology-And-Crustal-Deformation.reveal.html#/17)*
+  *Slides: [3.3 Rheology — Elastic Deformation](/slideshows/Module-iii-lecture3-Theory-draft.reveal.html#/6) · [3.2 Strain and Strain Rate — Elastic Strain Caused by a Seismic Wave](/slideshows/Module-iii-lecture2-Theory-draft.reveal.html#/29) · [2.1 Structural Geology — Methods of Tectonics and Structural Geology](/slideshows/Module-ii-Lecture-1-Structural-Geology-And-Crustal-Deformation.reveal.html#/17)*
 
 Elastic rebound
 : The earthquake half of the seismic cycle: between events, plate motion elastically strains the crust around a locked fault; in the earthquake the two sides snap back towards their unstrained shape, giving the coseismic displacement. Postseismic relaxation then continues for weeks to years.
 
-  *Slides: [3.3 Rheology — Elastic Tensor](/slideshows/Module-iii-lecture3-Theory-draft.reveal.html#/14) · [3.2 Strain and Strain Rate — Elastic Strain Caused by a Seismic Wave](/slideshows/Module-iii-lecture2-Theory-draft.reveal.html#/27) · [2.1 Structural Geology — Methods of Tectonics and Structural Geology](/slideshows/Module-ii-Lecture-1-Structural-Geology-And-Crustal-Deformation.reveal.html#/17)*
+  *Slides: [3.3 Rheology — Elastic Tensor](/slideshows/Module-iii-lecture3-Theory-draft.reveal.html#/14) · [3.2 Strain and Strain Rate — Elastic Strain Caused by a Seismic Wave](/slideshows/Module-iii-lecture2-Theory-draft.reveal.html#/29) · [2.1 Structural Geology — Methods of Tectonics and Structural Geology](/slideshows/Module-ii-Lecture-1-Structural-Geology-And-Crustal-Deformation.reveal.html#/17)*
 
 Elastica
 : The shape a thin elastic layer takes when it buckles far beyond the small-deflection limit — the exact large-deflection solution for a bent elastic beam. In structural geology it names the extreme fold form with tightly hooked, mushroom-shaped hinges and limbs that curve back past parallel.
@@ -281,7 +281,7 @@ Elastica
 Elongation ($\varepsilon$, $e$)
 : The fractional change in length of a line, $\varepsilon = (l - l_0)/l_0$ — positive for stretching, negative for shortening, and dimensionless. It is the simplest measure of strain and the one to fall back on when the tensor gets confusing.
 
-  *Slides: [2.3 Extensional Regimes — General definition](/slideshows/Module-ii-Lecture-3-Extensional_Regimes.reveal.html#/5)*
+  *Slides: [2.3 Extensional Regimes — General definition](/slideshows/Module-ii-Lecture-3-Extensional_Regimes.reveal.html#/5) · [3.2 Strain and Strain Rate — Longitudinal Strain](/slideshows/Module-iii-lecture2-Theory-draft.reveal.html#/10)*
 
 Euler pole (pole of rotation)
 : Because plates move on a sphere, the motion of a rigid plate is a rotation about an axis through the Earth's centre, and the Euler pole is where that axis pierces the surface. This is why one rigid plate has different surface speeds in different places: speed grows with angular distance from the pole and is zero at the pole itself.
@@ -335,7 +335,7 @@ Flexural slip and flexural flow
 Flinn diagram
 : A plot that classifies every possible strain ellipsoid shape on one graph. Above the diagonal are cigars (constriction, L-tectonites); below it are pancakes (flattening, S-tectonites); the diagonal itself is plane strain. Distance from the origin measures how much strain, the slope measures what kind.
 
-  *Slides: [3.2 Strain and Strain Rate — Flinn Diagram](/slideshows/Module-iii-lecture2-Theory-draft.reveal.html#/21)*
+  *Slides: [3.2 Strain and Strain Rate — Flinn Diagram](/slideshows/Module-iii-lecture2-Theory-draft.reveal.html#/23)*
 
 Focal mechanism (beachball)
 : A representation of how the ground first moved in an earthquake, obtained by dividing the focal sphere into four quadrants with two orthogonal planes and shading the compressional quadrants dark. It shows the fault orientation and slip sense immediately, with the unavoidable ambiguity between the true fault plane and the auxiliary plane, and its P and T axes approximate $\sigma_1$ and $\sigma_3$.
@@ -499,7 +499,7 @@ Frictional sliding
 Fry method
 : A strain-analysis technique exploiting the fact that grain centres in an undeformed rock are statistically isotropically spaced. Plot the positions of neighbouring grains around many centres and the resulting central vacancy is a circle if there is no strain, an ellipse if there is.
 
-  *Slides: [3.2 Strain and Strain Rate — The Fry Method for Strain Analysis](/slideshows/Module-iii-lecture2-Theory-draft.reveal.html#/23)*
+  *Slides: [3.2 Strain and Strain Rate — The Fry Method for Strain Analysis](/slideshows/Module-iii-lecture2-Theory-draft.reveal.html#/25)*
 
 Geometric (descriptive) analysis
 : The accurate description of the present-day shapes, orientations and positions of rock bodies — the map, cross-section and stereonet work everything else is built on. Kinematics and dynamics are attempts to explain what geometric analysis records.
@@ -642,12 +642,12 @@ Joint spacing
 Kinematic indicator
 : Any asymmetric structure telling you which wall of a shear zone moved which way: S–C fabrics, mica fish, sigma- and delta-type porphyroclast tails, rotated boudins, deflected markers, asymmetric folds, quartz c-axis fabrics. The working rule is never to trust one alone — look for several, in a section cut parallel to the lineation and perpendicular to the foliation.
 
-  *Slides: [5.5 Shear Zones — Kinematic Indicators](/slideshows/Module-v-lecture4-Shear-Zones.reveal.html#/57) · [3.2 Strain and Strain Rate — Geometrical and Kinematic Analysis](/slideshows/Module-iii-lecture2-Theory-draft.reveal.html#/34/3)*
+  *Slides: [5.5 Shear Zones — Kinematic Indicators](/slideshows/Module-v-lecture4-Shear-Zones.reveal.html#/57) · [3.2 Strain and Strain Rate — Geometrical and Kinematic Analysis](/slideshows/Module-iii-lecture2-Theory-draft.reveal.html#/36/3)*
 
 Kinematic vorticity number ($W_k$)
 : A single number measuring how much internal rotation there is relative to how fast strain accumulates, placing a deformation on the spectrum from coaxial to non-coaxial. $W_k = 0$ is pure shear and $W_k = 1$ is simple shear; the paddle-wheel picture helps, with the wheel spinning faster as $W_k$ increases.
 
-  *Slides: [5.5 Shear Zones — Kinematic Indicators](/slideshows/Module-v-lecture4-Shear-Zones.reveal.html#/57) · [3.2 Strain and Strain Rate — Geometrical and Kinematic Analysis](/slideshows/Module-iii-lecture2-Theory-draft.reveal.html#/34/3)*
+  *Slides: [5.5 Shear Zones — Kinematic Indicators](/slideshows/Module-v-lecture4-Shear-Zones.reveal.html#/57) · [3.2 Strain and Strain Rate — Geometrical and Kinematic Analysis](/slideshows/Module-iii-lecture2-Theory-draft.reveal.html#/36/3)*
 
 Kinematics
 : The description of how rocks moved and distorted — velocities, displacements, fault slip, rotations and strain histories — without asking what forces caused it. It is the most tractable of the three analyses because you can measure it directly from geometry, GPS and offset markers.
@@ -876,17 +876,17 @@ Primary structure
 Principal strains
 : The three mutually perpendicular directions in which lines are only stretched or shortened but not sheared — the axes of the strain ellipsoid. Careful: the principal strain axes need not coincide with the principal stress axes unless the deformation is coaxial and the material isotropic.
 
-  *Slides: [1.3 Stress, Strain and Strength — Principal Stresses](/slideshows/Module-i-GlobalTectonics-3.reveal.html#/3/1) · [3.1 Stress — Principal Stresses](/slideshows/Module-iii-lecture1-Theory-draft.reveal.html#/14) · [3.2 Strain and Strain Rate — Principal Strain: Strain Ellipsoid](/slideshows/Module-iii-lecture2-Theory-draft.reveal.html#/16)*
+  *Slides: [1.3 Stress, Strain and Strength — Principal Stresses](/slideshows/Module-i-GlobalTectonics-3.reveal.html#/3/1) · [3.1 Stress — Principal Stresses](/slideshows/Module-iii-lecture1-Theory-draft.reveal.html#/14) · [3.2 Strain and Strain Rate — Principal Strain: Strain Ellipsoid](/slideshows/Module-iii-lecture2-Theory-draft.reveal.html#/18)*
 
 Principal stresses ($\sigma_1 \ge \sigma_2 \ge \sigma_3$)
 : The three special, mutually perpendicular directions in which the shear stresses vanish and only pushes or pulls remain — the eigenvalues and eigenvectors of the stress tensor, ordered from most to least compressive. Their orientation and relative size is the single most useful description of a tectonic stress state, and which faults form and which slip follows from it.
 
-  *Slides: [1.3 Stress, Strain and Strength — Principal Stresses](/slideshows/Module-i-GlobalTectonics-3.reveal.html#/3/1) · [3.1 Stress — Principal Stresses](/slideshows/Module-iii-lecture1-Theory-draft.reveal.html#/14) · [3.2 Strain and Strain Rate — Principal Strain: Strain Ellipsoid](/slideshows/Module-iii-lecture2-Theory-draft.reveal.html#/16)*
+  *Slides: [1.3 Stress, Strain and Strength — Principal Stresses](/slideshows/Module-i-GlobalTectonics-3.reveal.html#/3/1) · [3.1 Stress — Principal Stresses](/slideshows/Module-iii-lecture1-Theory-draft.reveal.html#/14) · [3.2 Strain and Strain Rate — Principal Strain: Strain Ellipsoid](/slideshows/Module-iii-lecture2-Theory-draft.reveal.html#/18)*
 
 Progressive deformation
 : The accumulation of strain through a sequence of increments, in which the finite strain at any moment is the integrated result. A given finite strain can be reached in an infinite number of ways, so the rock has effectively forgotten its path — which is why strain alone rarely tells you the stress history.
 
-  *Slides: [3.2 Strain and Strain Rate — Progressive Deformation](/slideshows/Module-iii-lecture2-Theory-draft.reveal.html#/34/4) · [2.1 Structural Geology — Range of methods to approach structures](/slideshows/Module-ii-Lecture-1-Structural-Geology-And-Crustal-Deformation.reveal.html#/9)*
+  *Slides: [3.2 Strain and Strain Rate — Progressive Deformation](/slideshows/Module-iii-lecture2-Theory-draft.reveal.html#/36/4) · [2.1 Structural Geology — Range of methods to approach structures](/slideshows/Module-ii-Lecture-1-Structural-Geology-And-Crustal-Deformation.reveal.html#/9)*
 
 Pseudotachylyte
 : A dark, glassy fault rock formed by frictional melting during a single seismic slip event — "pseudo" plus tachylyte, a basaltic glass, and nothing to do with volcanism. It requires very fast, high-stress slip, and so is treasured as a fossil record of an ancient earthquake.
@@ -906,7 +906,7 @@ Pumpelly's rule
 Pure shear
 : A coaxial deformation in which material shortens in one direction and stretches perpendicular to it without bulk rotation. Squash a block vertically and it thickens horizontally, but the principal axes stay put. In rifting, pure shear means symmetrical, roughly vertical thinning of the lithosphere.
 
-  *Slides: [5.5 Shear Zones — Pure Shear](/slideshows/Module-v-lecture4-Shear-Zones.reveal.html#/44) · [3.2 Strain and Strain Rate — Pure Shear and Simple Shear](/slideshows/Module-iii-lecture2-Theory-draft.reveal.html#/20) · [2.2 Contractional Regimes — Orogenic Wedges](/slideshows/Module-ii-Lecture-2-Contractional_Regimes.reveal.html#/35)*
+  *Slides: [5.5 Shear Zones — Pure Shear](/slideshows/Module-v-lecture4-Shear-Zones.reveal.html#/44) · [3.2 Strain and Strain Rate — Pure Shear and Simple Shear](/slideshows/Module-iii-lecture2-Theory-draft.reveal.html#/22) · [2.2 Contractional Regimes — Orogenic Wedges](/slideshows/Module-ii-Lecture-2-Contractional_Regimes.reveal.html#/35)*
 
 Ramp-flat geometry
 : The staircase trajectory a thrust follows as it propagates, running along bedding through weak layers (flats) and cutting up-section through stiffer layers (ramps). Because the hanging wall has to bend as it rides over each ramp, ramp-flat geometry is also the origin of much of the folding seen in thrust belts.
@@ -934,7 +934,7 @@ Reverse fault
 $R_f/\phi$ method
 : A strain-analysis method for populations of sub-spherical objects that already had a spread of initial shapes. You measure each object's final axial ratio against its long-axis orientation, and the shape of the resulting cloud lets you extract the true tectonic strain ratio from the initial scatter.
 
-  *Slides: [3.2 Strain and Strain Rate — The Fry Method for Strain Analysis](/slideshows/Module-iii-lecture2-Theory-draft.reveal.html#/23)*
+  *Slides: [3.2 Strain and Strain Rate — The Fry Method for Strain Analysis](/slideshows/Module-iii-lecture2-Theory-draft.reveal.html#/25)*
 
 Rheological stratification
 : The layering of the lithosphere into alternating strong and weak levels, because different minerals control the strength at different depths — quartz in the upper crust, feldspar deeper, olivine in the mantle. Each has its own brittle–plastic crossover, giving the familiar "jelly sandwich" strength profile.
@@ -983,12 +983,12 @@ Seafloor spreading
 Seismic moment
 : The physical measure of earthquake size — rigidity times rupture area times average slip, or how much rock slipped how far. It has units of energy and, unlike the older amplitude-based magnitudes, it does not saturate for the largest events.
 
-  *Slides: [4.3 Faults and Fault Zones — Seismic Derivation](/slideshows/Module-iv-lecture6-Faults-Fault-Zones-draft.reveal.html#/39) · [3.2 Strain and Strain Rate — Example: Strain from a Seismic Wave](/slideshows/Module-iii-lecture2-Theory-draft.reveal.html#/28) · [1.1a The Australian Plate — …is not a line](/slideshows/Module-i-GlobalTectonics-1a.reveal.html#/4/4)*
+  *Slides: [4.3 Faults and Fault Zones — Seismic Derivation](/slideshows/Module-iv-lecture6-Faults-Fault-Zones-draft.reveal.html#/39) · [3.2 Strain and Strain Rate — Example: Strain from a Seismic Wave](/slideshows/Module-iii-lecture2-Theory-draft.reveal.html#/30) · [1.1a The Australian Plate — …is not a line](/slideshows/Module-i-GlobalTectonics-1a.reveal.html#/4/4)*
 
 Seismic vs aseismic slip
 : Seismic slip is sudden and radiates elastic waves — an earthquake; aseismic slip, or fault creep, is slow continuous movement that releases strain without radiating waves. The same fault can do both in different places or at different times, which is why geodesy as well as seismology is needed to balance a fault's slip budget.
 
-  *Slides: [4.3 Faults and Fault Zones — Seismic Derivation](/slideshows/Module-iv-lecture6-Faults-Fault-Zones-draft.reveal.html#/39) · [3.2 Strain and Strain Rate — Example: Strain from a Seismic Wave](/slideshows/Module-iii-lecture2-Theory-draft.reveal.html#/28) · [1.1a The Australian Plate — …is not a line](/slideshows/Module-i-GlobalTectonics-1a.reveal.html#/4/4)*
+  *Slides: [4.3 Faults and Fault Zones — Seismic Derivation](/slideshows/Module-iv-lecture6-Faults-Fault-Zones-draft.reveal.html#/39) · [3.2 Strain and Strain Rate — Example: Strain from a Seismic Wave](/slideshows/Module-iii-lecture2-Theory-draft.reveal.html#/30) · [1.1a The Australian Plate — …is not a line](/slideshows/Module-i-GlobalTectonics-1a.reveal.html#/4/4)*
 
 Sense of shear
 : Which wall of a shear zone moved which way, read from kinematic indicators. Determining it is the whole point of shear-zone microstructural analysis, and it must be done on a section cut parallel to the lineation and perpendicular to the foliation.
@@ -1002,7 +1002,7 @@ Shear modulus ($\mu$, $G$)
 Shear strain ($\gamma$)
 : A measure of how much angles have changed. In a shear zone it is simply offset divided by zone width, so 5 cm of offset across a 0.5 cm zone gives $\gamma = 10$.
 
-  *Slides: [3.3 Rheology — Real Estimated Shear Strain Rates](/slideshows/Module-iii-lecture3-Theory-draft.reveal.html#/30/3)*
+  *Slides: [3.3 Rheology — Real Estimated Shear Strain Rates](/slideshows/Module-iii-lecture3-Theory-draft.reveal.html#/30/3) · [3.2 Strain and Strain Rate — Angular Strain](/slideshows/Module-iii-lecture2-Theory-draft.reveal.html#/11)*
 
 Shear stress ($\tau$, $\sigma_s$)
 : The component of traction acting along a plane — the part trying to slide one side past the other. For a uniaxial load, shear stress is greatest on planes at 45° to the load, which is why things tend to break obliquely rather than straight across.
@@ -1022,7 +1022,7 @@ Sheath fold
 Simple shear
 : A non-coaxial deformation like shearing a deck of cards, in which parallel planes stay parallel and a constant distance apart while sliding past one another, and material lines rotate progressively. It is the idealisation for shear zones and strike-slip deformation.
 
-  *Slides: [5.5 Shear Zones — Sub-Simple Shear](/slideshows/Module-v-lecture4-Shear-Zones.reveal.html#/46) · [3.2 Strain and Strain Rate — Pure Shear and Simple Shear](/slideshows/Module-iii-lecture2-Theory-draft.reveal.html#/20) · [2.1 Structural Geology — The Workflow of Tectonics and Structural Geology](/slideshows/Module-ii-Lecture-1-Structural-Geology-And-Crustal-Deformation.reveal.html#/14)*
+  *Slides: [5.5 Shear Zones — Sub-Simple Shear](/slideshows/Module-v-lecture4-Shear-Zones.reveal.html#/46) · [3.2 Strain and Strain Rate — Pure Shear and Simple Shear](/slideshows/Module-iii-lecture2-Theory-draft.reveal.html#/22) · [2.1 Structural Geology — The Workflow of Tectonics and Structural Geology](/slideshows/Module-ii-Lecture-1-Structural-Geology-And-Crustal-Deformation.reveal.html#/14)*
 
 Slab
 : The tongue of subducted oceanic lithosphere descending into the mantle, imaged by the depth distribution of earthquakes and by tomography. It is a sheet rather than a cylinder, which is why slabs drive much larger mantle flow than plumes do.
@@ -1056,7 +1056,7 @@ Strain / strain-rate
 Strain ellipsoid
 : The shape an originally spherical marker takes after homogeneous strain, with axes along the principal strain directions. It represents the same state of strain whatever coordinate system you choose, and its shape controls the resulting fabric — pancakes give schistosity, cigars give lineation.
 
-  *Slides: [3.2 Strain and Strain Rate — Principal Strain: Strain Ellipsoid](/slideshows/Module-iii-lecture2-Theory-draft.reveal.html#/16)*
+  *Slides: [3.2 Strain and Strain Rate — Principal Strain: Strain Ellipsoid](/slideshows/Module-iii-lecture2-Theory-draft.reveal.html#/18)*
 
 Strain hardening
 : Behaviour in which rock gets stronger as it deforms, so more stress is needed to keep it going. It is favoured by high confining pressure, which makes fractures harder to open and keeps the rock coherent.
@@ -1077,7 +1077,7 @@ Strain softening
 Strain tensor
 : The array built from the symmetric part of the displacement gradients. Diagonal terms are stretches along the axes and off-diagonal terms are shears; like stress it is symmetric and can be diagonalised. The simple form assumes small strain.
 
-  *Slides: [3.2 Strain and Strain Rate — Strain Tensor](/slideshows/Module-iii-lecture2-Theory-draft.reveal.html#/15)*
+  *Slides: [3.2 Strain and Strain Rate — Strain Tensor](/slideshows/Module-iii-lecture2-Theory-draft.reveal.html#/17)*
 
 Stress
 : Force per unit area acting across a surface inside a material, in pascals. Unlike a force, stress depends on the orientation of the surface you imagine cutting, so a full description at a point needs a tensor rather than a single number or arrow. A useful anchor: the weight of the overburden gives about 26 MPa for every kilometre of depth.
@@ -1105,6 +1105,8 @@ Stress trajectories
 
 Stretch ($s$)
 : The ratio of final to original length, so $s = 1$ means no deformation. Principal strains are often quoted as stretches, and the quadratic elongation (stretch squared) turns up in older formulations.
+
+  *Slides: [3.2 Strain and Strain Rate — Longitudinal Strain](/slideshows/Module-iii-lecture2-Theory-draft.reveal.html#/10)*
 
 Stretching lineation
 : A penetrative lineation defined by objects plastically stretched into rods, marking the direction of greatest extension. It is the most useful lineation for regional tectonics because in a thrust belt or shear zone it approximates the transport direction.
@@ -1243,7 +1245,7 @@ Ultramylonite
 Uniaxial strain (compaction)
 : Shortening along one principal strain axis with no length change along the other two — necessarily a volume change, since nothing compensates sideways. Sediment compaction is the classic case, with porosity falling as pore fluid is expelled with burial.
 
-  *Slides: [3.2 Strain and Strain Rate — Uniaxial Strain - Compaction](/slideshows/Module-iii-lecture2-Theory-draft.reveal.html#/19)*
+  *Slides: [3.2 Strain and Strain Rate — Uniaxial Strain - Compaction](/slideshows/Module-iii-lecture2-Theory-draft.reveal.html#/21)*
 
 Vein
 : A fracture filled with minerals, usually quartz or calcite, precipitated from solution — so veins are direct evidence that fluid moved through a fracture. Vein arrays take characteristic forms: planar, en echelon (shear-related), and stockwork, from shattering by high fluid pressure.
@@ -1253,7 +1255,7 @@ Vein
 Velocity gradient
 : The spatial rate of change of velocity — the raw quantity from which both deformation and rotation are extracted. Its symmetric part is the strain-rate tensor (shape change) and its antisymmetric part is the vorticity (spin), which is exactly the distinction between pure and simple shear.
 
-  *Slides: [1.1 Global Deformation Patterns — Global Plate Motions](/slideshows/Module-i-GlobalTectonics-1.reveal.html#/9) · [3.2 Strain and Strain Rate — Strain Rate](/slideshows/Module-iii-lecture2-Theory-draft.reveal.html#/29)*
+  *Slides: [1.1 Global Deformation Patterns — Global Plate Motions](/slideshows/Module-i-GlobalTectonics-1.reveal.html#/9) · [3.2 Strain and Strain Rate — Strain Rate](/slideshows/Module-iii-lecture2-Theory-draft.reveal.html#/31)*
 
 Vergence
 : The direction in which a structure leans — the asymmetry of a fold, thrust or shear zone that points towards the direction of tectonic transport. Vergence, fold asymmetry, bedding–cleavage relations and facing all flip together across a major hinge, so pinning down any two constrains the others.

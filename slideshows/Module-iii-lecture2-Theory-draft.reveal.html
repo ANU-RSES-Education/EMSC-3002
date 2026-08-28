@@ -204,14 +204,14 @@ Distortion is by far the most complicated type of deformation to measure. When r
 - A heterogeneous deformation on one scale may be considered homogeneous on a different scale.
 - Strain analysis relies on continuous mechanic theory: the mechanics of materials with smoothly varying properties.
 
-Waldron & Snyder, U Alberta
-
 </div>
 <div>
 
 ![](Module-iii-Theory/Lecture2-extracted/slide011_img1.jpg) <!-- .element style="width:88%;" -->
 
 ![](Module-iii-Theory/Lecture2-extracted/slide011_img2.jpg)
+
+<p class="caption">Waldron &amp; Snyder, U Alberta</p>
 
 <p class="caption">Fossen, 2010</p>
 
@@ -234,49 +234,82 @@ Waldron & Snyder, U Alberta
 
 <--o-->
 
-<!-- source: Lecture2_Strain_StrainRate.pptx slide 13 · template: T3-text-and-image -->
-## Quantify Strain
+<!-- source: Lecture2_Strain_StrainRate.pptx slide 13 · split into three, one per
+     kind of strain. The original had three labelled figures and three blocks of
+     maths jumbled together, and the figures' labels had come loose in conversion. -->
+## Longitudinal Strain
+
 <div class="cols">
+<div>
+
+![](Module-iii-Theory/Lecture2-restored/strain-longitudinal.png)
+
+<p class="caption">A trilobite stretched along one line &middot; <a href="https://openeducationalberta.ca/introductorystructuralgeology">Introductory Structural Geology</a>, Open Education Alberta</p>
+
+</div>
 <div class="wide">
 
-- Angular Strain (shear strain)
-- Angular shear, $\phi$
-- Shear strain, $\gamma =\tan \phi$, where $\phi$ is the angular shear.
-- Sign (positive for reducing angle)
+Also called **normal strain**: what happens to the *length* of a line.
 
-- Longitudinal Strain (normal strain)
-- Elongation ($\epsilon$) of a line
-- $\epsilon = \frac{l-l_0}{l_0}$
-- Stretching of a line
-- $s=\frac{l}{l_0}$, thus $s = 1 + \epsilon$
-- Quadratic elongation $\lambda = s^2$
+- **Elongation** $\epsilon$ &mdash; how much longer, as a fraction of what it was:
 
-$\Delta x$
+$$\epsilon = \frac{l - l_0}{l_0}$$
 
-$\phi$
+- **Stretch** $s$ &mdash; the same information as a ratio, so $s = 1$ means unchanged:
 
-$y$
+$$s = \frac{l}{l_0} \qquad \textrm{hence} \qquad s = 1 + \epsilon$$
 
-$\gamma =\tan \phi = \frac{\Delta x}{y}$
+- **Quadratic elongation** $\lambda = s^2$, which is the one that falls out of the strain ellipse.
 
-- Volumetric Strain
-- $\delta = \frac{v-v_0}{v_0} = \frac{\Delta v}{v_0}$
+</div>
+</div>
+
+<--o-->
+
+## Angular Strain
+
+<div class="cols">
+<div>
+
+![](Module-iii-Theory/Lecture2-restored/strain-angular.png)
 
 </div>
 <div>
 
-![](Module-iii-Theory/Lecture2-extracted/slide013_img1.jpg) <!-- .element style="width:87%;" -->
-
-<div class="cols">
-
-![](Module-iii-Theory/Lecture2-extracted/slide013_img2.jpg)
-
-
-![](Module-iii-Theory/Lecture2-extracted/slide013_img3.jpg)
+![](Module-iii-Theory/Lecture2-restored/strain-shearbox.png)
 
 </div>
+</div>
 
-<p class="caption">State 0 · State 1 · https://openeducationalberta.ca/introductorystructuralgeology</p>
+<p class="caption">Two lines that started perpendicular, and no longer are &middot; <a href="https://openeducationalberta.ca/introductorystructuralgeology">Introductory Structural Geology</a>, Open Education Alberta</p>
+
+Also called **shear strain**: what happens to the *angle* between two lines that started perpendicular.
+
+- The **angular shear** $\phi$ is how far one of them has swung.
+- The **shear strain** is its tangent, $\gamma = \tan\phi = \Delta x / y$ &mdash; the offset divided by the width it is spread across.
+- Sign convention: **positive when the angle closes**.
+
+<small>Many texts, and the trilobite figure above, write the angular shear as $\psi$ rather than $\phi$. Same angle.</small>
+
+<--o-->
+
+## Volumetric Strain
+
+<div class="cols">
+<div>
+
+![](Module-iii-Theory/Lecture2-restored/strain-volumetric.png) <!-- .element style="width:62%;" -->
+
+<p class="caption">Dilation &mdash; every direction at once &middot; <a href="https://openeducationalberta.ca/introductorystructuralgeology">Introductory Structural Geology</a>, Open Education Alberta</p>
+
+</div>
+<div class="wide">
+
+What happens to the *volume*, independent of any shape change.
+
+$$\delta = \frac{v - v_0}{v_0} = \frac{\Delta v}{v_0}$$
+
+Positive is **dilation**, negative is **compaction**. Deformation that changes shape but not volume &mdash; pure shear and simple shear both &mdash; has $\delta = 0$, which is why the assumption turns up so often.
 
 </div>
 </div>
@@ -290,14 +323,14 @@ $\gamma =\tan \phi = \frac{\Delta x}{y}$
 
 ![](Module-iii-Theory/Lecture2-extracted/slide014_img1.jpg)
 
+<p class="caption">Magali Billen, UC Davis</p>
+
 </div>
 <div class="wide">
 
 - An outcrop in an exhumed section of the mantle within the Josephine Ophiolite in southern Oregon shows one pyroxene layer been offset by a fault / shear zone.
 - The offset between the pyroxene layer on either side of the fault is Δ𝑥 =5 cm and the width of the fault zone is 𝑦=0.5 cm.
 - Estimate the shear strain and shear angle associated with this structure.
-
-Magali Billen, UC Davis
 
 </div>
 </div>
@@ -481,12 +514,12 @@ $$\left[ \begin{matrix} \epsilon_{11} & \epsilon_{12} & \epsilon_{13} \cr \epsil
 - The three principal strain can be used to form a strain ellipsoid. It represents the same state of strain regardless of our choice of coordinate system (axes and plane).
 - In 3D the shape of the strain ellipsoid usually require two strain ratios to define.
 
-Patrice Rey, USyd
-
 </div>
 <div>
 
 ![](Module-iii-Theory/Lecture2-extracted/slide019_img1.jpg) <!-- .element style="width:54%;" -->
+
+<p class="caption">Patrice Rey, USyd</p>
 
 ![](Module-iii-Theory/Lecture2-extracted/slide019_img2.jpg) <!-- .element style="width:91%;" -->
 
@@ -540,8 +573,6 @@ $$\begin{matrix}
 - Isotropic volume change (change in size only) and anisotropic volume change (change in both size and shape).
 - Coaxial deformation: the same material lines remain the principal strain axes throughout each increment, or principal axes of strain ellipsoid do not rotate through material. It is a type of anisotropic volume change.
 
-Coaxial deformation (pure shear)
-
 </div>
 <div>
 
@@ -549,7 +580,7 @@ Coaxial deformation (pure shear)
 
 ![](Module-iii-Theory/Lecture2-extracted/slide021_img2.jpg)
 
-<p class="caption">$\epsilon$ · $\epsilon$ · $\epsilon$ · $\epsilon$ · Fossen, 2010</p>
+<p class="caption">Coaxial deformation (pure shear) · Fossen, 2010</p>
 
 </div>
 </div>
@@ -568,8 +599,6 @@ The flinn diagram summaries the different geometry of resulted deformation in on
 - It is an anisotropic volume change but a coaxial deformation. Volume reduction creates uniaxial contraction (compaction) and volume increase creates uniaxial extension.
 - A best example is compaction of sediment progressively losing its porosity due to the loading. This forms part of the process of lithification (physical and chemical compaction).
 - Porosity $\phi$ decreases with depth as$\phi$(Z) = $\phi_0 {e}^{-CZ}$, where C is a constant, $\phi_0$ is initial porosity.
-
-Unconsolidated
 
 </div>
 <div>
@@ -652,11 +681,7 @@ Strain-related fabric depend on the shape of the finite strain ellipsoid. Pancak
 
 - One of the most elegant and easiest method. The particles can be anything (e.g., quartz grains, garnet, pebbles etc).
 - The main assumption is that before deformation the spacing of these particles should be statistically isotropic i.e. the distance between two particles does not depend on the direction in which the distance is measured.
-- Procedure: tracing the position of particles neighbouring a chosen particle
-
-Patrice Rey, USyd
-
-- and to repeat this operation for as many particles as possible.
+- Procedure: trace the position of the particles neighbouring a chosen particle, and repeat for as many particles as possible.
 - Work successively on two perpendicular sections for three axes of the strain ellipsoid.
 
 </div>
@@ -665,6 +690,8 @@ Patrice Rey, USyd
 ![](Module-iii-Theory/Lecture2-extracted/slide026_img1.jpg)
 
 ![](Module-iii-Theory/Lecture2-extracted/slide026_img2.jpg)
+
+<p class="caption">Patrice Rey, USyd</p>
 
 </div>
 </div>
@@ -716,14 +743,10 @@ Phi represents the angle between the long axis of the strain ellipse or sub-sphe
 
 </div>
 
-<p class="caption">Fossen, 2010 · Fossen, 2010</p>
+<p class="caption">Known stress, and known strain · Fossen, 2010</p>
 
 </div>
 <div class="wide">
-
-Known stress
-
-Known strain
 
 - It is difficult or even impossible to predict strain from stress alone. Similarly, it is difficult or impossible to estimate stress from some strain ellipse alone.
 - Additional information such as boundary conditions, is useful to tell the true story.
@@ -795,24 +818,23 @@ The east-west component of ground motion at the Berkeley station recorded by the
 <div class="wide">
 
 - A seismic plane shear wave is travelling through a solid with displacement that can be locally approximated as:
-- $uz=A\sin [2\pi f(t-\frac{x}{c})]$
-- where A is the amplitude, f is frequency,
-- and c is the wave speed. We can estimate the
-- maximum strain for a wave of f = 2 Hz, c = 3.14 km/s and A = 1 mm.
+$$u_z = A\sin\left[2\pi f\left(t-\tfrac{x}{c}\right)\right]$$
+
+- where $A$ is the amplitude, $f$ the frequency and $c$ the wave speed. Estimate the maximum strain for a wave of $f = 2$ Hz, $c = 3.14$ km/s, $A = 1$ mm.
 - Solutions:
 - Strain is the spatial derivative of the displacement:
 $$\frac{\partial u_z}{\partial x}=\frac{-2\pi fA}{c} \cos [2\pi f(t-\frac{x}{c})]$$
 - The maximum occurs when cos[x] = -1 and thus
 $$\left( \frac{\partial u_z}{\partial x} \right)_{max}=\frac{2\pi fA}{c}$$
-- Now plug the numbers into this equation, we get the maximum
-- strain of $4 \times 10^{-6}$
+- Putting the numbers in gives a maximum strain of $4 \times 10^{-6}$.
 
-Basic functions:
-$\sin x \rightarrow \cos x$
-$\cos x \rightarrow -\sin x$
-$x^a \rightarrow a \\, x^{a-1}$
-Combined functions (chain rule): with $y = ax+b$,
-$\frac{d}{dx}\sin(ax+b) = \cos(y) \cdot \frac{dy}{dx} = a\cos(ax+b)$
+<small>
+
+**Derivatives, as a reminder.** &nbsp; $\sin x \rightarrow \cos x$ &nbsp;&middot;&nbsp; $\cos x \rightarrow -\sin x$ &nbsp;&middot;&nbsp; $x^a \rightarrow a\\,x^{a-1}$
+
+By the chain rule, with $y = ax+b$: &nbsp; $\frac{d}{dx}\sin(ax+b) = \cos(y)\cdot\frac{dy}{dx} = a\cos(ax+b)$
+
+</small>
 
 </div>
 <div>
