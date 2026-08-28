@@ -160,14 +160,12 @@ Distortion is by far the most complicated type of deformation to measure. When r
 - To decipher strain from deformed rocks, we target at strain markers – objects reflecting the distortion that has taken place.
 - Pebbles, mineral grains, ooids, pillows in pillow lavas, trilobites, worm burrows, xenoliths are good examples of strain markers.
 
-Strained quartz pebbles in conglomerate, near Dalton, MA, USA
-
 </div>
 <div>
 
 ![](Module-iii-Theory/Lecture2-extracted/slide010_img1.jpg) <!-- .element style="width:72%;" -->
 
-<p class="caption">Fossen, 2010</p>
+<p class="caption">Strained quartz pebbles in conglomerate, near Dalton, MA, USA &middot; Fossen, 2010</p>
 
 </div>
 </div>

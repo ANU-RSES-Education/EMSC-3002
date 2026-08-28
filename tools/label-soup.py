@@ -56,7 +56,12 @@ def orphans(block):
         if not t or t.startswith(SKIP) or t.startswith("<--"):
             continue
         bare = re.sub(r"[*_`$\\]|&[a-z]+;|&#\d+;", "", t).strip()
-        if not bare or len(bare) > 34:
+        if not bare:
+            continue
+        # A label is short. A CAPTION can be long but is still a noun phrase:
+        # no terminal full stop, and not many words. Prose has both.
+        if len(bare) > 34 and not (len(bare.split()) <= 12
+                                   and not bare.endswith((".", "!", "?"))):
             continue
         # a short line that is still a whole sentence is prose, not a label
         if bare.endswith((".", ":", "?", "!")) and len(bare.split()) > 4:
@@ -75,7 +80,7 @@ def scan(path):
         h += 1
         for v, vb in enumerate(re.split(r"\n<--v-->\n", hblock)):
             o = orphans(vb)
-            if len(o) < 3 or "![" not in vb:
+            if not o or "![" not in vb:
                 continue
             m = re.search(r"^#{1,4} (.+)$", vb, re.M)
             title = re.sub(r"&#?\w+;", "", m.group(1)).strip() if m else "(untitled)"
@@ -88,6 +93,10 @@ def scan(path):
             if frags >= 2 and kind == "screenshot" and not any(
                     MATHY.match(x) and len(x) < 12 for x in real):
                 kind = "rewrap"
+            # one or two strays is a lost caption or a lost equation, not a
+            # shredded diagram: worth listing, not worth opening PowerPoint
+            if len(o) < 3 and kind == "screenshot":
+                kind = "caption"
             hits.append((f"#/{h}" + (f"/{v}" if v else ""), title, src, kind,
                          o, frags))
     return hits
