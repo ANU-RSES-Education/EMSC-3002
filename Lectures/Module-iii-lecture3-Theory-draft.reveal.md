@@ -238,34 +238,30 @@ How to get the ratio of 0.5
 
 <--o-->
 
-<!-- source: Lecture3_Rheology.pptx slide 11 · template: T3-text-and-image -->
+<!-- source: Lecture3_Rheology.pptx slides 11 and 12 · the pptx built one slide
+     up in two steps, so it is a parent and a vertical child here. Figure
+     rescreenshotted; its labels had come loose into the body text, and the
+     E = sigma/epsilon "image" was that equation as a picture. -->
 ## Elastic Deformation in 3D
+
 <div class="cols">
-<div class="wide">
-
-- Only consider the normal (linear) components of strain and stress for simplicity.
-- The Poisson’s ratio (v) indicates that for an elastic solid, a stress applied in one direction will also cause a strain in the perpendicular directions.
-
-- The linear strain in the Z directions depends on the strain caused by the stress in the z direction, but it also depends on the strain caused by the stresses acting in the x and y directions.
-
-$E= \frac{\sigma_n}{\epsilon_n}$
-
-Effective strain from $\sigma_{yy}$: $\epsilon_{zz}′$ = -$v$ $ \cdot \epsilon_{xx}$ = - $v$ $ \cdot $ $\frac{\sigma_{xx}}{E}$
-Effective strain from $\sigma_{xx}$: $\epsilon_{zz}′′$= -$v$ $ \cdot \epsilon_{yy}$ = - $v$ $ \cdot $ $\frac{\sigma_{yy}}{E}$
-Normal strain from $\sigma_{zz}$:  $\sigma_{zz}=E \cdot (\epsilon_{zz}-\epsilon_{zz}'-\epsilon_{zz}'')$
-
-Young’s modulus
-
-Poisson’s ratio
-
-</div>
 <div>
 
-![](Module-iii-Theory/Lecture3-extracted/slide011_img1.jpg) <!-- .element style="width:77%;" -->
+![](Module-iii-Theory/Lecture3-restored/elastic-3d.png)
 
-![](Module-iii-Theory/Lecture3-extracted/slide011_img2.png) <!-- .element style="width:33%;" -->
+</div>
+<div class="wide">
 
-<p class="caption">$\sigma_{xx}$</p>
+- Take only the normal (linear) components of stress and strain.
+- **Poisson's ratio** $v$ says that in an elastic solid, a stress applied in one direction also strains the material in the two perpendicular ones. **Young's modulus** $E$ relates a normal stress to the strain along its own axis:
+
+$$E = \frac{\sigma_n}{\epsilon_n}$$
+
+So the strain along $z$ has three contributions: the stress acting along $z$, and the sideways response to the stresses along $x$ and $y$.
+
+$$\epsilon_{zz}' = -v \epsilon_{xx} = -v \frac{\sigma_{xx}}{E} \qquad \epsilon_{zz}'' = -v \epsilon_{yy} = -v \frac{\sigma_{yy}}{E}$$
+
+$$\sigma_{zz} = E \left( \epsilon_{zz} - \epsilon_{zz}' - \epsilon_{zz}'' \right)$$
 
 </div>
 </div>
@@ -274,49 +270,32 @@ Note:
 the subscript 𝑥𝑥 indicates a strain or stress in the x direction acting perpendicular to a plane whose normal direction is also in the x direction. You will typically see stress components expressed using either the numbers 1, 2, or 3 or the letters x, y, and z to refer to the orientations of the planes and the forces. It is necessary to know the orientation of the three directions to interpret the orientations of the stresses.
 For a linear isotropic material subjected only to compressive (i.e. normal) forces, the deformation of a material in the direction of one axis will produce a deformation of the material along the other axis in three dimensions. Thus it is possible to generalize Hooke's Law (for compressive forces) into three dimensions:
 
-<div style="position:absolute;bottom:0;left:0;right:0;font-size:0.40em;color:#8a2b2b;background:rgba(255,255,255,0.88);border-top:1px solid #d8c4c4;padding:0.25em 0.4em;text-align:left;">&#9873; <strong>RETITLE</strong> &mdash; same title as the next slide, which generalises to x and y &mdash; distinguish them</div>
+<--v-->
 
-<--o-->
+## Elastic Deformation in 3D: the General Form
 
-<!-- source: Lecture3_Rheology.pptx slide 12 · template: T3-text-and-image -->
-## Elastic Deformation in 3D
 <div class="cols">
-<div class="wide">
-
-- Only consider the normal (linear) components of strain and stress for simplicity.
-- The Poisson’s ratio (v) indicates that for an elastic solid, a stress applied in one direction will also cause a strain in the perpendicular directions.
-
-- The linear strain in the Z directions depends on the strain caused by the stress in the z direction, but it also depends on the strain caused by the stresses acting in the x and y directions.
-- Similarly, we can write normal strain for x and y direction:
-
-$E= \frac{\sigma_n}{\epsilon_n}$
-
-$$\left( \sigma_{zz} -v\left( \sigma_{yy}+\sigma_{xx} \right) \right)=E \cdot \epsilon_{zz}$$
-
-Young’s modulus
-
-$$\left( \sigma_{xx} -v\left( \sigma_{yy}+\sigma_{zz} \right) \right)=E \cdot \epsilon_{xx}$$
-
-$$\left( \sigma_{yy} -v\left( \sigma_{xx}+\sigma_{zz} \right) \right)=E \cdot \epsilon_{yy}$$
-
-Poisson’s ratio
-
-</div>
 <div>
 
-![](Module-iii-Theory/Lecture3-extracted/slide012_img1.jpg) <!-- .element style="width:77%;" -->
+![](Module-iii-Theory/Lecture3-restored/elastic-3d.png)
 
-![](Module-iii-Theory/Lecture3-extracted/slide012_img2.png) <!-- .element style="width:33%;" -->
+</div>
+<div class="wide">
 
-<p class="caption">$\sigma_{xx}$</p>
+Substitute the two sideways contributions back in, and the primes disappear:
+
+$$\left( \sigma_{zz} - v \left( \sigma_{yy}+\sigma_{xx} \right) \right) = E \epsilon_{zz}$$
+
+Nothing singled out $z$, so the same argument gives $x$ and $y$:
+
+$$\left( \sigma_{xx} - v \left( \sigma_{yy}+\sigma_{zz} \right) \right) = E \epsilon_{xx}$$
+
+$$\left( \sigma_{yy} - v \left( \sigma_{xx}+\sigma_{zz} \right) \right) = E \epsilon_{yy}$$
+
+Three equations, two constants. That is the whole of linear isotropic elasticity.
 
 </div>
 </div>
-
-Note:
-the subscript 𝑥𝑥 indicates a strain or stress in the x direction acting perpendicular to a plane whose normal direction is also in the x direction. You will typically see stress components expressed using either the numbers 1, 2, or 3 or the letters x, y, and z to refer to the orientations of the planes and the forces. It is necessary to know the orientation of the three directions to interpret the orientations of the stresses.
-For a linear isotropic material subjected only to compressive (i.e. normal) forces, the deformation of a material in the direction of one axis will produce a deformation of the material along the other axis in three dimensions. Thus it is possible to generalize Hooke's Law (for compressive forces) into three dimensions:
-
 
 <--o-->
 
@@ -753,48 +732,32 @@ Granite
 
 <--o-->
 
-<!-- source: Lecture3_Rheology.pptx slide 28 · template: T3-text-and-image -->
+<!-- source: Lecture3_Rheology.pptx slide 28 · the Griggs graph had lost every
+     axis label and both curve labels into the body text; rescreenshotted. -->
 ## Presence of Fluids
+
+- Fluid weakens rock: it lowers the yield stress and encourages crystal-plastic deformation, mostly by raising the **pore fluid pressure** and so lowering the effective confining pressure.
+- Fluid *composition* matters too, not only how much of it there is.
+
 <div class="cols">
 <div class="wide">
 
-- Increased presence of fluids tends to weaken rocks, lower the yield stress and enhance crystal-plastic deformation. Effectively, it lowers the confining pressure through increasing the pore fluid pressure.
-- Fluid composition may however also influence rock rheological properties.
+![](Module-iii-Theory/Lecture3-restored/fluids-griggs.png)
 
-950 °C, Dry Quartz
-
-20
-
-Stress kbars
-
-10
-
-950 °C, Wet Quartz
-
-Griggs, GJI. 1967
-
-0
-
-4
-
-8
-
-Strain %
+<p class="caption">Wet quartz yields at roughly a quarter of the stress dry quartz needs, at the same temperature &middot; Griggs, <em>GJI</em>, 1967</p>
 
 </div>
 <div>
 
-![](Module-iii-Theory/Lecture3-extracted/slide028_img1.jpg) <!-- .element style="width:87%;" -->
+![](Module-iii-Theory/Lecture3-restored/fluids-porepressure.png)
 
-<p class="caption">Fossen, 2011</p>
+<p class="caption">Why: pore fluid carries part of the load, so less of it presses across the grain contacts &middot; Fossen, 2011</p>
 
 </div>
 </div>
 
 Note:
 Pore fluid pressure reduces the effective stress by creating stress at grain contacts in porous rocks.
-
-
 <--o-->
 
 <!-- source: Lecture3_Rheology.pptx slide 29 · template: T3-text-and-image -->

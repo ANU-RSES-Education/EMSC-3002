@@ -132,7 +132,7 @@ Competence contrast
 Confining pressure
 : The all-round squeezing a rock experiences at depth, which is what stops it falling apart; in the laboratory it is the pressure in the vessel, in the Earth essentially the lithostatic pressure. Raising it makes fractures harder to open, so rock becomes stronger and sustains larger strains before failing — the main reason strength initially increases downwards.
 
-  *Slides: [3.3 Rheology — Effect of Confining Pressure](/slideshows/Module-iii-lecture3-Theory-draft.reveal.html#/24) · [4.1 Brittle Deformation — Confining Pressure and Temperature](/slideshows/Module-iv-lecture4-Brittle-deformation-draft.reveal.html#/32)*
+  *Slides: [3.3 Rheology — Effect of Confining Pressure](/slideshows/Module-iii-lecture3-Theory-draft.reveal.html#/23) · [4.1 Brittle Deformation — Confining Pressure and Temperature](/slideshows/Module-iv-lecture4-Brittle-deformation-draft.reveal.html#/32)*
 
 Contractional structure
 : Any structure that accommodates shortening, whether by faulting, folding or volume loss. Note the vocabulary trap: "contractional" describes what the structure achieves, not its type, so a normal fault can be a contractional structure if it accommodates layer-parallel shortening of a tilted bed.
@@ -142,7 +142,7 @@ Contractional structure
 Couette flow
 : The textbook viscous flow between two surfaces, one of which moves at a fixed velocity, giving a linear velocity profile and a uniform strain rate. It is the simplest model for basal drag — mantle sheared beneath a moving plate — and gives you the shear stress on the plate base for free.
 
-  *Slides: [3.3 Rheology — Couette Flow (advanced)](/slideshows/Module-iii-lecture3-Theory-draft.reveal.html#/17)*
+  *Slides: [3.3 Rheology — Couette Flow (advanced)](/slideshows/Module-iii-lecture3-Theory-draft.reveal.html#/16)*
 
 Coulomb–Mohr failure criterion
 : The rule that intact rock fractures in shear when $\tau = C + \mu\,\sigma_n$, with $C$ the cohesive strength and $\mu$ the coefficient of internal friction (typically 0.47–0.7). On a Mohr diagram it is a straight line, and the rock fails when the circle touches it. Its geological payoff is Anderson's theory of faulting: conjugate shears at 20–30° to $\sigma_1$.
@@ -185,12 +185,12 @@ Décollement
 Deformation
 : Any process that changes the shape, size or position of a body. It splits into rigid-body components — translation and rotation — and non-rigid components, distortion (change of shape) and dilation (change of volume). Only the non-rigid part is strain.
 
-  *Slides: [3.2 Strain and Strain Rate — Deformation](/slideshows/Module-iii-lecture2-Theory-draft.reveal.html#/4) · [3.3 Rheology — Deformation Analog](/slideshows/Module-iii-lecture3-Theory-draft.reveal.html#/21) · [4.1 Brittle Deformation — Marble Deformation](/slideshows/Module-iv-lecture4-Brittle-deformation-draft.reveal.html#/30)*
+  *Slides: [3.2 Strain and Strain Rate — Deformation](/slideshows/Module-iii-lecture2-Theory-draft.reveal.html#/4) · [3.3 Rheology — Deformation Analog](/slideshows/Module-iii-lecture3-Theory-draft.reveal.html#/20) · [4.1 Brittle Deformation — Marble Deformation](/slideshows/Module-iv-lecture4-Brittle-deformation-draft.reveal.html#/30)*
 
 Deformation mechanism map
 : A plot of temperature against differential stress (or grain size) showing which deformation mechanism dominates in each region of parameter space. It makes the depth story visual: fracture and frictional sliding in the cool, shallow lithosphere, creep in the hot interior.
 
-  *Slides: [3.2 Strain and Strain Rate — Deformation](/slideshows/Module-iii-lecture2-Theory-draft.reveal.html#/4) · [3.3 Rheology — Deformation Analog](/slideshows/Module-iii-lecture3-Theory-draft.reveal.html#/21) · [4.1 Brittle Deformation — Marble Deformation](/slideshows/Module-iv-lecture4-Brittle-deformation-draft.reveal.html#/30)*
+  *Slides: [3.2 Strain and Strain Rate — Deformation](/slideshows/Module-iii-lecture2-Theory-draft.reveal.html#/4) · [3.3 Rheology — Deformation Analog](/slideshows/Module-iii-lecture3-Theory-draft.reveal.html#/20) · [4.1 Brittle Deformation — Marble Deformation](/slideshows/Module-iv-lecture4-Brittle-deformation-draft.reveal.html#/30)*
 
 Depression
 : A low point along the hinge line of a fold, where the fold axis reaches a local minimum and plunges towards it from both directions. The counterpart of a culmination.
@@ -273,7 +273,7 @@ Elastic deformation
 Elastic rebound
 : The earthquake half of the seismic cycle: between events, plate motion elastically strains the crust around a locked fault; in the earthquake the two sides snap back towards their unstrained shape, giving the coseismic displacement. Postseismic relaxation then continues for weeks to years.
 
-  *Slides: [3.3 Rheology — Elastic Tensor](/slideshows/Module-iii-lecture3-Theory-draft.reveal.html#/14) · [3.2 Strain and Strain Rate — Elastic Strain Caused by a Seismic Wave](/slideshows/Module-iii-lecture2-Theory-draft.reveal.html#/29) · [2.1 Structural Geology — Methods of Tectonics and Structural Geology](/slideshows/Module-ii-Lecture-1-Structural-Geology-And-Crustal-Deformation.reveal.html#/17)*
+  *Slides: [3.3 Rheology — Elastic Tensor](/slideshows/Module-iii-lecture3-Theory-draft.reveal.html#/13) · [3.2 Strain and Strain Rate — Elastic Strain Caused by a Seismic Wave](/slideshows/Module-iii-lecture2-Theory-draft.reveal.html#/29) · [2.1 Structural Geology — Methods of Tectonics and Structural Geology](/slideshows/Module-ii-Lecture-1-Structural-Geology-And-Crustal-Deformation.reveal.html#/17)*
 
 Elastica
 : The shape a thin elastic layer takes when it buckles far beyond the small-deflection limit — the exact large-deflection solution for a bent elastic beam. In structural geology it names the extreme fold form with tightly hooked, mushroom-shaped hinges and limbs that curve back past parallel.
@@ -289,7 +289,7 @@ Euler pole (pole of rotation)
 Fabric
 : The penetrative, repeated arrangement of grains and grain aggregates that pervades a rock at the microscopic to centimetre scale — elements more than about 10 cm apart, like faults, do not count. Primary fabrics are acquired when the rock forms (bedding, magmatic layering); secondary or tectonic fabrics form during deformation, and rocks with strong tectonic fabrics are tectonites.
 
-  *Slides: [5.3 Structures Associated with Folding (1) — Definition: Fabric](/slideshows/Module-v-lecture3-Structures-Associated-with-Folding-1.reveal.html#/3) · [3.3 Rheology — Effects of Foliation and Crystal Fabric](/slideshows/Module-iii-lecture3-Theory-draft.reveal.html#/27) · [5.4 Structures Associated with Folding (2) — Tectonic lineations](/slideshows/Module-v-lecture3-Structures-Associated-with-Folding-2.reveal.html#/6)*
+  *Slides: [5.3 Structures Associated with Folding (1) — Definition: Fabric](/slideshows/Module-v-lecture3-Structures-Associated-with-Folding-1.reveal.html#/3) · [3.3 Rheology — Effects of Foliation and Crystal Fabric](/slideshows/Module-iii-lecture3-Theory-draft.reveal.html#/26) · [5.4 Structures Associated with Folding (2) — Tectonic lineations](/slideshows/Module-v-lecture3-Structures-Associated-with-Folding-2.reveal.html#/6)*
 
 Facing direction
 : The direction along the axial surface, perpendicular to the hinge line, in which the beds young. Facing is what turns a geometric description (antiform, synform) into a stratigraphic one (anticline, syncline), so establishing it is essential in polydeformed terranes.
@@ -404,7 +404,7 @@ Fold, gentle
 Fold, inclined
 : A fold whose axial surface dips at an intermediate angle, between upright and recumbent. Fold attitude is classified by the dip of the axial surface and the plunge of the hinge line together.
 
-  *Slides: [3.3 Rheology — Flow Down An Inclined Plane (advanced)](/slideshows/Module-iii-lecture3-Theory-draft.reveal.html#/18)*
+  *Slides: [3.3 Rheology — Flow Down An Inclined Plane (advanced)](/slideshows/Module-iii-lecture3-Theory-draft.reveal.html#/17)*
 
 Fold interference pattern
 : The geometry produced when a later folding event refolds an earlier one. The four classic patterns — Type 0, Type 1 dome-and-basin, Type 2 mushroom and Type 3 hook — depend on the angles between the two sets of axes and axial planes, and reading them lets you reconstruct the deformation sequence.
@@ -463,7 +463,7 @@ Fold, zigzag
 Foliation
 : Any penetrative planar or curviplanar fabric in a rock, defined by flattened grains, aligned platy minerals, compositional domains or microfolds. Contrast lineation, which is long in one direction rather than flat in one direction; most deformed metamorphic rocks have both, and the foliation usually approximates the XY plane of the finite strain ellipsoid.
 
-  *Slides: [5.3 Structures Associated with Folding (1) — Gneissic Foliation](/slideshows/Module-v-lecture3-Structures-Associated-with-Folding-1.reveal.html#/62) · [5.5 Shear Zones — Foliation in simple shear zones](/slideshows/Module-v-lecture4-Shear-Zones.reveal.html#/38) · [3.3 Rheology — Effects of Foliation and Crystal Fabric](/slideshows/Module-iii-lecture3-Theory-draft.reveal.html#/27)*
+  *Slides: [5.3 Structures Associated with Folding (1) — Gneissic Foliation](/slideshows/Module-v-lecture3-Structures-Associated-with-Folding-1.reveal.html#/62) · [5.5 Shear Zones — Foliation in simple shear zones](/slideshows/Module-v-lecture4-Shear-Zones.reveal.html#/38) · [3.3 Rheology — Effects of Foliation and Crystal Fabric](/slideshows/Module-iii-lecture3-Theory-draft.reveal.html#/26)*
 
 Footwall
 : The block beneath a dipping fault surface. Normal faults drop the hanging wall relative to the footwall; reverse and thrust faults push it up. Neither term means anything on a vertical fault.
@@ -662,7 +662,7 @@ Lineation
 Lithosphere
 : A rheological domain describing the upper layer of the Earth with the most plate-like characteristics. Oceanic lithosphere reaches at most about 100–150 km thick, whereas cratonic continental lithosphere can exceed 200 km — a thick/thin contrast that controls where heat, magmatism and deformation localise.
 
-  *Slides: [3.3 Rheology — Rheology of the Lithosphere](/slideshows/Module-iii-lecture3-Theory-draft.reveal.html#/28) · [1.1 Global Deformation Patterns — Thickness of the Lithosphere](/slideshows/Module-i-GlobalTectonics-1.reveal.html#/5) · [1.1a The Australian Plate — Datasets: lithospheric thickness (LAB)](/slideshows/Module-i-GlobalTectonics-1a.reveal.html#/10)*
+  *Slides: [3.3 Rheology — Rheology of the Lithosphere](/slideshows/Module-iii-lecture3-Theory-draft.reveal.html#/27) · [1.1 Global Deformation Patterns — Thickness of the Lithosphere](/slideshows/Module-i-GlobalTectonics-1.reveal.html#/5) · [1.1a The Australian Plate — Datasets: lithospheric thickness (LAB)](/slideshows/Module-i-GlobalTectonics-1a.reveal.html#/10)*
 
 Lithosphere–asthenosphere boundary (LAB)
 : The base of the mechanically strong plate, mapped with seismology and, in Australia, with AusLAMP magnetotellurics. It is a strength boundary rather than a compositional one, which is why different techniques can disagree about exactly where it lies.
@@ -701,7 +701,7 @@ Metamorphic core complex
 Mineral lineation
 : A linear alignment of minerals or mineral aggregates produced by rigid rotation of elongate grains, by growth of new elongate minerals in a preferred direction, or by dissolution and reprecipitation. Rotation usually deforms the grains and rarely achieves perfect parallelism, whereas syntectonic growth can — that is how you tell the two apart.
 
-  *Slides: [2.1 Structural Geology — Who needs Structural Geology?](/slideshows/Module-ii-Lecture-1-Structural-Geology-And-Crustal-Deformation.reveal.html#/20) · [3.3 Rheology — Rheology of the Lithosphere](/slideshows/Module-iii-lecture3-Theory-draft.reveal.html#/28) · [5.4 Structures Associated with Folding (2) — Penetrative lineations](/slideshows/Module-v-lecture3-Structures-Associated-with-Folding-2.reveal.html#/18)*
+  *Slides: [2.1 Structural Geology — Who needs Structural Geology?](/slideshows/Module-ii-Lecture-1-Structural-Geology-And-Crustal-Deformation.reveal.html#/20) · [3.3 Rheology — Rheology of the Lithosphere](/slideshows/Module-iii-lecture3-Theory-draft.reveal.html#/27) · [5.4 Structures Associated with Folding (2) — Penetrative lineations](/slideshows/Module-v-lecture3-Structures-Associated-with-Folding-2.reveal.html#/18)*
 
 Mode I, II and III fractures
 : The three crack-tip displacement modes: Mode I opens (walls move apart perpendicular to the surface), Mode II slides in-plane, Mode III tears out of plane. They are defined by infinitesimal displacements right at the crack tip, not by the metres of offset you can measure on a fault. Because Mode I cracks open normal to $\sigma_3$, joints and veins are good palaeostress indicators.
@@ -812,7 +812,7 @@ Perfect plasticity
 Plastic deformation
 : Permanent change of shape without fracture, beginning only once the stress exceeds a yield point and then continuing at roughly constant stress. The mechanical analogue is a block sliding on a frictional surface: nothing happens until the threshold is passed, then it just goes.
 
-  *Slides: [3.3 Rheology — Plastic Deformation](/slideshows/Module-iii-lecture3-Theory-draft.reveal.html#/30/4) · [5.4 Structures Associated with Folding (2) — Lineations related to plastic deformation](/slideshows/Module-v-lecture3-Structures-Associated-with-Folding-2.reveal.html#/14) · [5.5 Shear Zones — Plastic Shear zones](/slideshows/Module-v-lecture4-Shear-Zones.reveal.html#/19)*
+  *Slides: [3.3 Rheology — Plastic Deformation](/slideshows/Module-iii-lecture3-Theory-draft.reveal.html#/29/4) · [5.4 Structures Associated with Folding (2) — Lineations related to plastic deformation](/slideshows/Module-v-lecture3-Structures-Associated-with-Folding-2.reveal.html#/14) · [5.5 Shear Zones — Plastic Shear zones](/slideshows/Module-v-lecture4-Shear-Zones.reveal.html#/19)*
 
 Plate boundary
 : The rigid plates move relative to one another without deforming, except in the very narrow accommodation zones at their edges known as plate boundaries. There are three main types — convergent, divergent and transform — each with its own kinematic rules and internal structure.
@@ -860,13 +860,15 @@ Pop-up structure
 Pore fluid pressure ($p_f$)
 : The pressure of the fluid filling a rock's pore space, pushing outward against the grains. Because it holds the grain contacts apart, it reduces the stress genuinely carried by the rock framework — which is why raising fluid pressure, naturally or by injection, can trigger faulting.
 
+  *Slides: [3.3 Rheology — Presence of Fluids](/slideshows/Module-iii-lecture3-Theory-draft.reveal.html#/25)*
+
 Power-law creep
 : The real behaviour of rock at depth, where strain rate goes as stress to a power (typically 3–5 for olivine), so the effective viscosity drops as you push harder. This makes deformation self-focusing: fast-deforming regions weaken and take up even more of the strain, which is exactly why plate boundaries are narrow.
 
 Pressure solution
 : Dissolution of minerals at grain contacts oriented at a high angle to $\sigma_1$, diffusion of the dissolved material along fluid films on grain boundaries, and reprecipitation in low-stress sites such as pressure shadows and veins — or removal from the rock entirely. It is the dominant foliation-forming process at low metamorphic grade, and it can account for very large shortening.
 
-  *Slides: [5.3 Structures Associated with Folding (1) — Pressure solution](/slideshows/Module-v-lecture3-Structures-Associated-with-Folding-1.reveal.html#/29) · [3.1 Stress — Pore Pressure](/slideshows/Module-iii-lecture1-Theory-draft.reveal.html#/32) · [3.3 Rheology — Effect of Confining Pressure](/slideshows/Module-iii-lecture3-Theory-draft.reveal.html#/24)*
+  *Slides: [5.3 Structures Associated with Folding (1) — Pressure solution](/slideshows/Module-v-lecture3-Structures-Associated-with-Folding-1.reveal.html#/29) · [3.1 Stress — Pore Pressure](/slideshows/Module-iii-lecture1-Theory-draft.reveal.html#/32) · [3.3 Rheology — Effect of Confining Pressure](/slideshows/Module-iii-lecture3-Theory-draft.reveal.html#/23)*
 
 Primary structure
 : A structure formed at the time the rock itself formed, by sedimentary or magmatic processes — bedding, cross-bedding, flow banding. Structural geology is about the tectonic structures that came later, but you cannot recognise deformation without first knowing what the undeformed rock looks like.
@@ -1002,7 +1004,7 @@ Shear modulus ($\mu$, $G$)
 Shear strain ($\gamma$)
 : A measure of how much angles have changed. In a shear zone it is simply offset divided by zone width, so 5 cm of offset across a 0.5 cm zone gives $\gamma = 10$.
 
-  *Slides: [3.3 Rheology — Real Estimated Shear Strain Rates](/slideshows/Module-iii-lecture3-Theory-draft.reveal.html#/30/3) · [3.2 Strain and Strain Rate — Angular Strain](/slideshows/Module-iii-lecture2-Theory-draft.reveal.html#/11)*
+  *Slides: [3.3 Rheology — Real Estimated Shear Strain Rates](/slideshows/Module-iii-lecture3-Theory-draft.reveal.html#/29/3) · [3.2 Strain and Strain Rate — Angular Strain](/slideshows/Module-iii-lecture2-Theory-draft.reveal.html#/11)*
 
 Shear stress ($\tau$, $\sigma_s$)
 : The component of traction acting along a plane — the part trying to slide one side past the other. For a uniaxial load, shear stress is greatest on planes at 45° to the load, which is why things tend to break obliquely rather than straight across.
@@ -1061,7 +1063,7 @@ Strain ellipsoid
 Strain hardening
 : Behaviour in which rock gets stronger as it deforms, so more stress is needed to keep it going. It is favoured by high confining pressure, which makes fractures harder to open and keeps the rock coherent.
 
-  *Slides: [3.3 Rheology — Strain Hardening and Softening](/slideshows/Module-iii-lecture3-Theory-draft.reveal.html#/20)*
+  *Slides: [3.3 Rheology — Strain Hardening and Softening](/slideshows/Module-iii-lecture3-Theory-draft.reveal.html#/19)*
 
 Strain markers
 : Objects in a rock whose original shape you can reasonably guess, so that their present shape records the strain — deformed pebbles, ooids, mineral grains, pillow lavas, worm burrows, trilobites. Without a marker you can measure geometry but not strain.
@@ -1270,7 +1272,7 @@ Viscosity ($\eta$)
 Viscous deformation
 : Irreversible flow in which stress depends on strain rate rather than on strain. Push harder and it flows faster; stop pushing and it simply stops, keeping all the deformation it has accumulated. This is how rocks behave over geological time at depth, flowing in the solid state by the migration of crystal defects.
 
-  *Slides: [3.3 Rheology — Viscous Deformation](/slideshows/Module-iii-lecture3-Theory-draft.reveal.html#/15) · [1.3 Stress, Strain and Strength — Rheology: Viscosity](/slideshows/Module-i-GlobalTectonics-3.reveal.html#/8/3)*
+  *Slides: [3.3 Rheology — Viscous Deformation](/slideshows/Module-iii-lecture3-Theory-draft.reveal.html#/14) · [1.3 Stress, Strain and Strength — Rheology: Viscosity](/slideshows/Module-i-GlobalTectonics-3.reveal.html#/8/3)*
 
 Volcanic arc
 : The curved chain of volcanoes built on the overriding plate, roughly parallel to and about 100 km above the slab, fed by melting driven by water released from the descending plate. The curvature of arcs and trenches is a signature that subduction zones are not simple two-dimensional structures.
