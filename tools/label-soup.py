@@ -23,7 +23,12 @@ Two kinds of hit, and they want different fixes:
 
 Likely figure credits are tagged so they do not read as damage.
 
+Each hit reports the SOURCE pptx and slide number, taken from the converter's
+own provenance comment, because the fix starts in PowerPoint and hunting for
+the matching original is most of the work.
+
 Run:  pixi run python tools/label-soup.py Lectures/Module-iii-*-draft.reveal.md
+      pixi run python tools/label-soup.py --table Lectures/*.reveal.md
 """
 import pathlib
 import re
@@ -32,6 +37,15 @@ import sys
 SKIP = ("#", "<", "-", "*", "!", "|", "Note:", "$$", "1.", "2.", "3.")
 CREDIT = re.compile(r"(wikipedia|usgs|,\s*(u\w*|the )?\w*(univ|usyd|uc |gji|\d{4}))",
                     re.I)
+SOURCE = re.compile(r"<!--\s*source:\s*(\S+?\.pptx)\s+slide\s+(\d+)", re.I)
+# A bare RELATION that lost its $$ block is an equation, not a loose label:
+# fix it in text. A bare SYMBOL ("$\phi$", "$y$") is a diagram label and does
+# need the screenshot -- hence the "=" test as well as the maths test.
+EQUATION = re.compile(r"^\$[^$]*=[^$]*\$$")
+MATHY = re.compile(r"^\$[^$]*\$$")
+# the converter also turned soft-wrapped prose into separate bullets, which
+# is a third defect with a third fix: rejoin them, no screenshot needed
+FRAGMENT = re.compile(r"^-\s+(and|or|where|which|but|the|a|to|for|with|of|in)\b|^-\s+[a-z]")
 
 
 def orphans(block):
@@ -65,18 +79,40 @@ def scan(path):
                 continue
             m = re.search(r"^#{1,4} (.+)$", vb, re.M)
             title = re.sub(r"&#?\w+;", "", m.group(1)).strip() if m else "(untitled)"
-            hits.append((f"#/{h}" + (f"/{v}" if v else ""), title, o))
+            src = SOURCE.search(vb)
+            src = f"{src.group(1)} s{src.group(2)}" if src else "—"
+            real = [x for x in o if not CREDIT.search(x)]
+            kind = ("equation" if real and all(EQUATION.match(x) for x in real)
+                    else "screenshot")
+            frags = sum(1 for ln in vb.split("\n") if FRAGMENT.match(ln.strip()))
+            if frags >= 2 and kind == "screenshot" and not any(
+                    MATHY.match(x) and len(x) < 12 for x in real):
+                kind = "rewrap"
+            hits.append((f"#/{h}" + (f"/{v}" if v else ""), title, src, kind,
+                         o, frags))
     return hits
 
 
-total = 0
-for path in sys.argv[1:]:
+args = sys.argv[1:]
+as_table = "--table" in args
+paths = [a for a in args if a != "--table"]
+
+if as_table:
+    print("| Deck | Slide | Title | Screenshot from | Fix | Strays |")
+    print("|---|---|---|---|---|---|")
+for path in paths:
     hits = scan(path)
-    total += len(hits)
-    print(f"\n=== {pathlib.Path(path).name}  ({len(hits)} slides)")
-    for coord, title, o in hits:
-        print(f"  {coord:<9} {len(o):>2}  {title[:52]}")
+    name = pathlib.Path(path).name.replace(".reveal.md", "")
+    if as_table:
+        for coord, title, src, kind, o, frags in hits:
+            strays = " · ".join(f"`{x}`" for x in o[:6])
+            if len(o) > 6:
+                strays += f" · +{len(o) - 6}"
+            print(f"| {name} | `{coord}` | {title} | {src} | {kind} | {strays} |")
+        continue
+    print(f"\n=== {name}  ({len(hits)} slides)")
+    for coord, title, src, kind, o, frags in hits:
+        print(f"  {coord:<9} {len(o):>2}  {kind:<10} {src:<34} {title[:44]}")
         for x in o[:10]:
             tag = "  (credit?)" if CREDIT.search(x) else ""
             print(f"             · {x[:58]}{tag}")
-print(f"\n{total} slides to screenshot" if total else "\nnothing to screenshot")
