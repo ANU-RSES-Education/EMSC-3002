@@ -1,34 +1,24 @@
 # Label-soup worklist — Module 3.2 and 3.3
 
-Slides where the pptx converter kept the picture but scattered its
-labels into the body text. Regenerate at any time with:
+Slides where the pptx converter kept the picture but scattered its labels
+into the body text. Regenerate at any time with:
 
 ```
 pixi run python tools/label-soup.py --table Lectures/*.reveal.md
 ```
 
-**The number that matters is the PowerPoint slide.** The `#/n` code is
-where the fix goes back in the reveal deck; the two do not match, and
-they differ by about three. Screenshot the pptx slide, not the `#/n`.
+**The number that matters is the PowerPoint slide.** The `#/n` code is where
+the fix goes back in the reveal deck; the two do not match.
 
 
-## Screenshot these — 10 slides
-
-Open the pptx, screenshot the slide, replace the image in the deck,
-delete the stray lines listed.
+## Screenshot these — 4 left
 
 
 ### 3.2 Strain and Strain Rate — `Lecture2_Strain_StrainRate.pptx`
 
 | pptx slide | goes to | Slide title | Stray labels to delete |
 |---:|---|---|---|
-| **12** | `#/9` | Summary — stress behind us, strain ahead | `Past` · `Today` · `${\sigma} _ {1}$` |
 | **13** | `#/10` | Quantify Strain | `$\Delta x$` · `$\phi$` · `$y$` · `$\gamma =\tan \phi = \frac{\Delta x}{y}$` |
-| **15** | `#/12` | Example: Quantify Strain in a Rock | `Simple example for shear strain` · `$\Delta x$` · `$y$` · `$\phi$` · `$\gamma =\tan \phi = \frac{\Delta x}{y}$` · `Magali Billen, UC Davis` |
-| **23** | `#/20` | Pure Shear and Simple Shear | `Pure shear` · `Simple shear` · `Displacement field` · `Strain ellipse` |
-| **24** | `#/21` | Flinn Diagram | `ln(X/Y)` · `$K= \frac{\ln [X/Y]}{\ln [Y/Z]}$` · `D = $\sqrt{[\ln \left[ \frac{X}{Y} \right]]2+[\ln \left[ \frac{Y}{Z} \right]]2}$` · `ln(Y/Z)` · `Patrice Rey, USyd` |
-| **29** | `#/26` | Summary — strain, measured from displacement | `1D stretching` · `Simple shear` · `3D cases` · `$x2$` · `AA’ = $u1(A)$` · `BB’ = $u1\left( B \right)$` · +6 |
-| **32** | `#/29` | Strain Rate | `$x2$` · `$\phi$` · `$\Delta m$` · `$y$` · `$\frac{\partial u1}{\partial x2}$` · `$\gamma =\tan \phi = \frac{\Delta m}{y}$ =` · +1 |
 
 ### 3.3 Rheology — `Lecture3_Rheology.pptx`
 
@@ -38,11 +28,25 @@ delete the stray lines listed.
 | **12** | `#/11` | Elastic Deformation in 3D | `$E= \frac{\sigma_n}{\epsilon_n}$` · `Young’s modulus` · `Poisson’s ratio` |
 | **28** | `#/26` | Presence of Fluids | `950 °C, Dry Quartz` · `20` · `Stress kbars` · `10` · `950 °C, Wet Quartz` · `Griggs, GJI. 1967` · +4 |
 
+## Done — screenshots dropped in 2026-08-28
+
+Images live in `Lectures/Module-iii-Theory/Lecture2-restored/`.
+
+
+| pptx slide | goes to | Slide title |
+|---:|---|---|
+| **12** | `#/9` | Summary — stress behind us, strain ahead |
+| **15** | `#/12` | Example: Quantify Strain in a Rock |
+| **23** | `#/20` | Pure Shear and Simple Shear |
+| **24** | `#/21` | Flinn Diagram |
+| **29** | `#/26` | Summary — strain, measured from displacement |
+| **32** | `#/29` | Strain Rate |
+
 ## Text fixes — 19 slides, no PowerPoint needed
 
 Mine to do. `caption` = a caption or credit adrift from its figure;
-`equation` = a display equation that lost its `$$`; `rewrap` = prose
-the converter split into fragment bullets mid-sentence.
+`equation` = a display equation that lost its `$$`; `rewrap` = prose the
+converter split into fragment bullets mid-sentence.
 
 
 | Deck | pptx slide | goes to | Slide title | Kind |
@@ -69,8 +73,6 @@ the converter split into fragment bullets mid-sentence.
 
 ## Checked and clean
 
-- **pptx slide 9**, *Displacement Vector* — both figures came across
-  whole, every label baked into the artwork. Nothing to do.
-- **pptx slide 10**, *Strain* — the photo was clean; one caption line
-  had drifted into the left text column. Fixed 2026-08-28.
+- **pptx 9**, *Displacement Vector* — both figures came across whole.
+- **pptx 10**, *Strain* — one caption line had drifted; fixed 2026-08-28.
 
