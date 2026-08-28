@@ -50,6 +50,8 @@ FRAGMENT = re.compile(r"^-\s+(and|or|where|which|but|the|a|to|for|with|of|in)\b|
 
 def orphans(block):
     """Short standalone lines: what a shredded text box leaves behind."""
+    # a multi-line $$...$$ block is one equation, not a stack of strays
+    block = re.sub(r"\$\$.*?\$\$", " ", block, flags=re.S)
     out = []
     for ln in block.split("\n"):
         t = ln.strip()
