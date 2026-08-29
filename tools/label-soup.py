@@ -35,8 +35,9 @@ import re
 import sys
 
 SKIP = ("#", "<", "-", "*", "!", "|", "Note:", "$$", "1.", "2.", "3.")
-CREDIT = re.compile(r"(wikipedia|usgs|,\s*(u\w*|the )?\w*(univ|usyd|uc |gji|\d{4}))",
-                    re.I)
+# a credit names a source: a site, a year, or "Someone, Somewhere"
+CREDIT = re.compile(r"(wikipedia|usgs|www\.|https?:|\b\d{4}\b"
+                    r"|,\s*[A-Z][\w.']*(\s+[A-Z][\w.']*)*\s*$)", re.I | re.M)
 SOURCE = re.compile(r"<!--\s*source:\s*(\S+?\.pptx)\s+slide\s+(\d+)", re.I)
 # A bare RELATION that lost its $$ block is an equation, not a loose label:
 # fix it in text. A bare SYMBOL ("$\phi$", "$y$") is a diagram label and does
@@ -54,6 +55,27 @@ def orphans(block):
     # and a multi-line HTML comment is not content at all
     block = re.sub(r"\$\$.*?\$\$", " ", block, flags=re.S)
     block = re.sub(r"<!--.*?-->", " ", block, flags=re.S)
+    # The converter also swept loose text boxes INTO the caption, joined with
+    # middots -- "Jaeger and Cook, 1979 · Brittle failure · Plastic flow ·
+    # Fossen, 2011 · Marble". Those are diagram labels too, and they were
+    # invisible here because caption lines start with "<". Pull them out.
+    caps = re.findall(r'<p class="caption">(.*?)</p>', block, flags=re.S)
+    block = re.sub(r'<p class="caption">.*?</p>', " ", block, flags=re.S)
+    for cap in caps:
+        parts = re.split(r"\u00b7|&middot;", cap)
+        # The converter swept several loose text boxes into one caption, so a
+        # damaged caption has MANY fragments. A caption written by hand has a
+        # description and a credit -- two. Only mine the crowded ones.
+        if len(parts) < 3:
+            continue
+        for part in parts:
+            part = part.strip()
+            # a credit belongs in a caption; so does a descriptive sentence I
+            # wrote. Only a SHORT bare noun -- "Granite", "Brittle failure",
+            # "State 0" -- is a diagram label that lost its diagram.
+            if not part or len(part) > 26 or "<" in part or CREDIT.search(part):
+                continue
+            block += "\n" + part
     out = []
     for ln in block.split("\n"):
         t = ln.strip()
@@ -97,9 +119,15 @@ def scan(path):
             if frags >= 2 and kind == "screenshot" and not any(
                     MATHY.match(x) and len(x) < 12 for x in real):
                 kind = "rewrap"
-            # one or two strays is a lost caption or a lost equation, not a
-            # shredded diagram: worth listing, not worth opening PowerPoint
-            if len(o) < 3 and kind == "screenshot":
+            # Count is a poor guide -- a graph can lose exactly one label.
+            # Sort by WHAT the strays are: a bare noun ("Granite", "State 0")
+            # is a diagram label and needs the picture; a credit belongs in a
+            # caption; a relation is an equation that lost its $$.
+            labels = [x for x in real
+                      if not MATHY.match(x) and not EQUATION.match(x)]
+            if kind == "screenshot" and not labels:
+                kind = "caption" if not real else "equation"
+            elif kind == "screenshot" and real and not labels:
                 kind = "caption"
             hits.append((f"#/{h}" + (f"/{v}" if v else ""), title, src, kind,
                          o, frags))
