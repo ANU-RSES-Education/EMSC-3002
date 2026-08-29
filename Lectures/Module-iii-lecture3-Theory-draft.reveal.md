@@ -134,19 +134,9 @@ Distinguish plastic deformation and viscous deformation
 ## Elastic Deformation
 
 Recoverable, and therefore invisible in the rock record &mdash; the point made in [Module 1.3 §8.1](Module-i-GlobalTectonics-3.reveal.html#/8/1). Load it, unload it, and the strain returns to zero. The rest of this module is about the *numbers*.
-<div class="cols">
-<div>
+![](Module-iii-Theory/Lecture3-restored/s07-elastic-states.png) <!-- .element style="display:block; margin-left:auto; margin-right:auto; width:94%" -->
 
-![](Module-iii-Theory/Lecture3-extracted/slide007_img1.jpg) <!-- .element style="width:58%;" -->
-
-</div>
-<div>
-
-![](Module-iii-Theory/Lecture3-extracted/slide007_img2.jpg)
-
-</div>
-</div>
-<p class="caption">Source: Taryn Lausch · State 0 · State 1 · State 2</p>
+<p class="caption">Load a spring and it stretches; unload it and it returns · Springs after Taryn Lausch</p>
 
 Note:
 Note that when the stress is removed in the last increment, the material popped back to its original shape and the strain returned to zero. We regard response of the elastic deformation as almost instantaneous.
@@ -164,7 +154,7 @@ Note that when the stress is removed in the last increment, the material popped 
 - Stiffness is an indicator of the tendency for an element to return to its original form with stress applied.
 - Strength measures how much stress can be applied to an element before it deforms permanently or fractures.
 
-$E= \frac{\sigma_n}{\epsilon_n}$
+$$E = \frac{\sigma_n}{\epsilon_n}$$
 
 </div>
 <div>
@@ -218,8 +208,6 @@ The ratio of stress to strain is the elastic modulus—stiffness, but the stress
 - Poisson’s ratio quantifies the amount that a material deforms in one direction relative to the amount it deforms in the perpendicular direction:
 - The minus sign in the equation for Poisson's ratio means either the lateral or longitudinal strain will be negative → they have opposite sign.
 
-Magali Billen, UC Davis
-
 - The range of expected values for Poisson's ratio for Earth materials is 0 to 0.5, with typical values of 0.15-0.35.
 - A value of 0.5 corresponds to a perfectly incompressible material (there is not internal compression, so the strain in two perpendicular directions exactly compensates for the applied strain).
 
@@ -227,6 +215,8 @@ Magali Billen, UC Davis
 <div>
 
 ![](Module-iii-Theory/Lecture3-extracted/slide010_img1.jpg) <!-- .element style="width:78%;" -->
+
+<p class="caption">Magali Billen, UC Davis</p>
 
 ![](Module-iii-Theory/Lecture3-extracted/slide010_img2.jpg) <!-- .element style="width:33%;" -->
 
@@ -311,9 +301,9 @@ Three equations, two constants. That is the whole of linear isotropic elasticity
 </div>
 <div>
 
-![](Module-iii-Theory/Lecture3-extracted/slide013_img1.jpg)
+![](Module-iii-Theory/Lecture3-restored/s14-vesuvius-xyz.jpeg)
 
-<p class="caption">Magali Billen, UC Davis</p>
+<p class="caption">The 305 m crater wall of Vesuvius · Magali Billen, UC Davis</p>
 
 </div>
 </div>
@@ -340,9 +330,9 @@ Today, it is regarded as one of the most dangerous volcanoes in the world becaus
 </div>
 <div>
 
-![](Module-iii-Theory/Lecture3-extracted/slide014_img1.jpg)
+![](Module-iii-Theory/Lecture3-restored/s14-vesuvius-xyz.jpeg)
 
-<p class="caption">Magali Billen, UC Davis · X · Y · Z</p>
+<p class="caption">The 305 m crater wall of Vesuvius · Magali Billen, UC Davis</p>
 
 </div>
 </div>
@@ -362,14 +352,14 @@ Today, it is regarded as one of the most dangerous volcanoes in the world becaus
 - Different levels of crystal symmetry: cubic, hexagonal, Tetragonal, orthorhombic, Monoclinic and Triclinic.
 - Shear modulus $\mu$ = $\frac{\sigma_s}{\gamma}$; bulk modulus $K$ = $\frac{E}{3(1-2\mu )}$
 
-$\sigma_{ij} = C_{ijkl} \cdot \epsilon_{kl}$
-
-A hexagonal prism
+$$\sigma_{ij} = C_{ijkl}\\,\epsilon_{kl}$$
 
 </div>
 <div>
 
-![](Module-iii-Theory/Lecture3-extracted/slide015_img1.jpg) <!-- .element style="width:40%;" -->
+![](Module-iii-Theory/Lecture3-restored/s15-hexagonal-prism.png) <!-- .element style="width:66%;" -->
+
+<p class="caption">Hexagonal symmetry: one of the crystal classes that thins the 81 components down</p>
 
 </div>
 </div>
@@ -386,19 +376,18 @@ A hexagonal prism
 - $\eta$ is the viscosity constant, and $\dot{e}$ is the elongation rate and $\dot{\gamma}$ is the shear strain rate. Unit of Pa s.
 - Linear (Newtonian) and non-linear (power-law) viscous rheology in stress–strain rate space.
 
-Wikipedia
-
-$\sigma_n=\eta \dot{e}$
-$\sigma_s=\eta \dot{\gamma}$
+$$\sigma_n = \eta\\,\dot{e} \qquad \sigma_s = \eta\\,\dot{\gamma}$$
 
 </div>
 <div>
 
 ![](Module-iii-Theory/Lecture3-extracted/slide016_img2.gif) <!-- .element style="width:75%;" -->
 
-![](Module-iii-Theory/Lecture3-extracted/slide016_img1.jpg) <!-- .element style="width:64%;" -->
+<p class="caption">Wikipedia</p>
 
-<p class="caption">Newtonian · Fossen, 2011 · Power-law</p>
+![](Module-iii-Theory/Lecture3-restored/s16-newtonian-powerlaw.png) <!-- .element style="width:78%;" -->
+
+<p class="caption">A power-law fluid has no single viscosity — the slope changes with strain rate · Fossen, 2011</p>
 
 </div>
 </div>
@@ -461,13 +450,7 @@ Press **&rarr;** to carry on with the lecture, **&darr;** to inspect.</small>
 - Next, we can find the strain rate in the fluid:
 - Based on flow law, we then have:
 
-$u=u0 (1-\frac{y}{h})$
-
-$\dot{\epsilon}=\frac{du}{dy}=-\frac{u0}{h}$
-
-Magali Billen, UC Davis
-
-$\sigma =\eta \dot{\epsilon}=-\frac{\eta u0}{h}$
+$$u = u_0\left(1-\frac{y}{h}\right) \qquad \dot{\epsilon} = \frac{du}{dy} = -\frac{u_0}{h} \qquad \sigma = \eta\\,\dot{\epsilon} = -\frac{\eta u_0}{h}$$
 
 - Couette flow can be used to approximate the flow in the mantle be dragged (basal drag) by a moving tectonic plate at the surface above. Its solution provides strain-rate and shear stress below pate.
 
@@ -496,7 +479,7 @@ $\sigma =\eta \dot{\epsilon}=-\frac{\eta u0}{h}$
 - One can work out the velocity profile in the inclined plane:
 - The strain-rate can be further derived from the velocity
 
-$u=\frac{\rho g\sin \alpha}{\eta}(h2-y2)$
+$$u = \frac{\rho g\sin\alpha}{\eta}\left(h^{2}-y^{2}\right)$$
 
 $$\dot{\epsilon}=\frac{du}{dy}=-\frac{\rho g\sin \alpha}{\eta}y$$
 
@@ -525,29 +508,14 @@ $$\dot{\epsilon}=\frac{du}{dy}=-\frac{\rho g\sin \alpha}{\eta}y$$
 - The Maxwell time describes the relative importance of elastic and viscous behavior:
 - For a typical time range larger than the Maxwell time, the material deforms mainly in a viscous way. For typical values for the mantle ($\eta \approx 10^{21}$ Pa s and $E \approx 10^{11}$ Pa), the Maxwell time is on the order of 1000 years, so on geological timescales, the mantle behaves as a viscous fluid.
 
-Elastic deformation
-
-$tM=\frac{\eta}{E}$
-
-</div>
-<div>
-
-<div class="cols">
-
-![](Module-iii-Theory/Lecture3-extracted/slide021_img2.jpg)
-
-
-![](Module-iii-Theory/Lecture3-extracted/slide021_img3.jpg)
-
-
-![](Module-iii-Theory/Lecture3-extracted/slide021_img1.jpg)
-
-</div>
-
-<p class="caption">Viscous deformation</p>
+$$t_M = \frac{\eta}{E}$$
 
 </div>
 </div>
+
+![](Module-iii-Theory/Lecture3-restored/s21-elastic-vs-viscous.png) <!-- .element style="display:block; margin-left:auto; margin-right:auto; width:96%" -->
+
+<p class="caption">Elastic strain follows the stress and is given back; viscous strain accumulates and is kept</p>
 
 Note:
 For a viscous material, consider that the stress is increased instantaneously, the response of the fluid is to start to flow at a proportional strain-rate. As time goes on the amount of strain in the fluid increases linearly. However, when the stress is returned to zero and the fluid stops moving(the strain-rate is zero), therefore the fluid can not flow back to its original position and instead there is permanent (no-recoverable) deformation. The fact the flow is not recovered does not mean it is not reversible. If the stress is reversed exactly the fluid can be returned to its original position.
@@ -624,72 +592,20 @@ Underworld3 split-node fault computation (Moresi).
 
 <!-- source: Lecture3_Rheology.pptx slide 24 · template: T3-text-and-image -->
 ## Combined Models (advanced)
-<div class="cols">
-<div>
+![](Module-iii-Theory/Lecture3-restored/s24-combined-models.png) <!-- .element style="display:block; margin-left:auto; margin-right:auto; width:88%" -->
 
-<div class="cols">
-
-![](Module-iii-Theory/Lecture3-extracted/slide024_img2.jpg)
-
-
-![](Module-iii-Theory/Lecture3-extracted/slide024_img4.jpg)
-
-</div>
-
-<div class="cols">
-
-![](Module-iii-Theory/Lecture3-extracted/slide024_img1.jpg)
-
-
-![](Module-iii-Theory/Lecture3-extracted/slide024_img5.jpg)
-
-</div>
-
-<div class="cols">
-
-![](Module-iii-Theory/Lecture3-extracted/slide024_img6.jpg)
-
-
-![](Module-iii-Theory/Lecture3-extracted/slide024_img3.jpg)
-
-
-![](Module-iii-Theory/Lecture3-extracted/slide024_img7.jpg)
-
-</div>
-
-</div>
-<div class="wide">
-
-Mechanical analog
-
-Strain history curves
-
-</div>
-</div>
+<p class="caption">Prandtl, Bingham and Maxwell — each a spring, a dashpot and a slider combined differently, and the strain history each produces</p>
 
 <--o-->
 
 <!-- source: Lecture3_Rheology.pptx slide 25 · template: T3-text-and-image -->
 ## Deformation Controlling Factors
-<div class="cols">
-<div>
-
-![](Module-iii-Theory/Lecture3-extracted/slide025_img1.jpg) <!-- .element style="width:71%;" -->
-
-![](Module-iii-Theory/Lecture3-extracted/slide025_img2.jpg) <!-- .element style="width:52%;" -->
-
-<p class="caption">Jaeger and Cook, 1979 (Wiley) · Brittle failure · Plastic flow · Fossen, 2011 · Marble</p>
-
-</div>
-<div class="wide">
-
 - An increase in temperature lowers the yield stress or weakens the rock.
 - Both marble and granite can sustain less differential stress when the temperature goes up. This is due to the activation of microscale crystal-plastic due to the temperature increase.
 
-Granite
+![](Module-iii-Theory/Lecture3-restored/s25-marble-granite.png) <!-- .element style="display:block; margin-left:auto; margin-right:auto; width:84%" -->
 
-</div>
-</div>
+<p class="caption">Marble (Fossen, 2011) and granite (Jaeger and Cook, 1979, Wiley): both weaken as they heat, and both cross from brittle failure to plastic flow</p>
 
 <--o-->
 
@@ -698,9 +614,9 @@ Granite
 <div class="cols">
 <div>
 
-![](Module-iii-Theory/Lecture3-extracted/slide026_img1.jpg) <!-- .element style="width:89%;" -->
+![](Module-iii-Theory/Lecture3-restored/s26-confining-pressure.png) <!-- .element style="max-height:560px;" -->
 
-<p class="caption">Marble · Jaeger and Cook, 1979 (Wiley) · Strain hardening · Strain softening</p>
+<p class="caption">Marble at confining pressures from 0 to 326 MPa: hardening at high pressure, softening at low · Jaeger and Cook, 1979 (Wiley)</p>
 
 </div>
 <div class="wide">
@@ -762,30 +678,12 @@ Pore fluid pressure reduces the effective stress by creating stress at grain con
 
 <!-- source: Lecture3_Rheology.pptx slide 29 · template: T3-text-and-image -->
 ## Effects of Foliation and Crystal Fabric
-<div class="cols">
-<div>
-
-<div class="cols">
-
-![](Module-iii-Theory/Lecture3-extracted/slide029_img1.jpg)
-
-
-![](Module-iii-Theory/Lecture3-extracted/slide029_img2.jpg)
-
-</div>
-
-<p class="caption">Fossen, 2011 · Marble</p>
-
-</div>
-<div class="wide">
-
 - Experiment 1: foliations in the Marble perpendicular and parallel to stress direction.
 - Experiment 2: different directions of olivine crystals.
 
-Olivine
+![](Module-iii-Theory/Lecture3-restored/s29-foliation-olivine.png) <!-- .element style="display:block; margin-left:auto; margin-right:auto; width:92%" -->
 
-</div>
-</div>
+<p class="caption">Marble with its foliation across the stress and along it, and olivine loaded on three different crystal directions · Fossen, 2011</p>
 
 Note:
 A weak foliation in marble makes foli- ation-parallel extension more difficult (it takes a higher differential stress to obtain the same amount of strain). Note that the effect decreases with increasing temperature. 
@@ -954,14 +852,14 @@ Press **&rarr;** to carry on with the lecture, **&darr;** to inspect.</small>
 - Low temperature favors brittle deformation (fractures).
 - Different materials have different strengths.
 
-Roderick Brown, U Glasgow
-
 </div>
 <div>
 
 ![](Module-iii-Theory/Lecture3-extracted/slide037_img2.jpg)
 
 ![](Module-iii-Theory/Lecture3-extracted/slide037_img1.jpg)
+
+<p class="caption">Mars Bar experiments · Roderick Brown, U Glasgow</p>
 
 </div>
 </div>
