@@ -35,6 +35,8 @@ import re
 import sys
 
 SKIP = ("#", "<", "-", "*", "!", "|", "Note:", "$$", "1.", "2.", "3.")
+STOPWORDS = {"and", "or", "thus", "so", "then", "hence", "where",
+             "but", "with", "i.e.", "e.g.", "solutions", "note"}
 # a credit names a source: a site, a year, or "Someone, Somewhere"
 CREDIT = re.compile(r"(wikipedia|usgs|www\.|https?:|\b\d{4}\b"
                     r"|,\s*[A-Z][\w.']*(\s+[A-Z][\w.']*)*\s*$)", re.I | re.M)
@@ -89,8 +91,19 @@ def orphans(block):
         if len(bare) > 34 and not (len(bare.split()) <= 12
                                    and not bare.endswith((".", "!", "?"))):
             continue
-        # a short line that is still a whole sentence is prose, not a label
-        if bare.endswith((".", ":", "?", "!")) and len(bare.split()) > 4:
+        # A LABEL is a short noun phrase. These are not:
+        #   "Assumptions:", "Two formulae:"  -- a lead-in to what follows
+        #   "and", "or", "thus"              -- a connective between equations
+        #   "We derived the Mohr circle..."  -- prose
+        # A hand-worked deck is full of all three, and reporting them buries
+        # the real damage. Module 3.1 produced twelve such false alarms.
+        if bare.endswith((".", ":", "?", "!")):
+            continue
+        if bare.lower() in STOPWORDS or len(bare.split()) > 5:
+            continue
+        # Bare maths on its own line: a SYMBOL is a diagram label, a RELATION
+        # is a step of a derivation the author chose not to centre.
+        if EQUATION.match(t):
             continue
         out.append(t)
     return out
