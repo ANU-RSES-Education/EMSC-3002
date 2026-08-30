@@ -113,7 +113,7 @@ Cleavage
 Coaxial deformation
 : Deformation in which the same material lines remain the principal strain axes throughout, so the strain ellipsoid keeps its orientation and only changes shape. Pure shear is the type example, and Anderson's theory of faulting quietly assumes it. Contrast non-coaxial deformation.
 
-  *Slides: [3.2 Strain and Strain Rate — Pure Shear and Simple Shear](/slideshows/Module-iii-lecture2-Theory-draft.reveal.html#/36/5)*
+  *Slides: [3.2 Strain and Strain Rate — Volume Change](/slideshows/Module-iii-lecture2-Theory-draft.reveal.html#/20)*
 
 Coefficient of friction ($\mu$)
 : The proportionality between the shear stress needed to slide a surface and the normal stress clamping it shut, about 0.6 for typical rocks. It sets the angle at which faults form through $\tan 2\theta = \mp 1/\mu$, giving roughly 30° between the fault and $\sigma_1$ — which is why fresh normal faults dip near 60° and thrusts near 30°.
@@ -752,6 +752,8 @@ Newtonian (linear) viscosity
 
 Non-coaxial deformation
 : Deformation in which the principal strain axes rotate relative to the material as strain accumulates, so the orientation of the finite strain ellipsoid depends on how much strain you have. Simple shear is the type example, and it is why shear-zone fabrics rotate progressively towards the shear plane.
+
+  *Slides: [3.2 Strain and Strain Rate — Pure Shear and Simple Shear](/slideshows/Module-iii-lecture2-Theory-draft.reveal.html#/22)*
 
 Normal fault
 : A dip-slip fault on which the hanging wall moves down relative to the footwall, so the reference surface is lengthened. Normal faults are how the brittle upper 10–15 km of crust accommodates extension; below that, extension is taken up on low-angle ductile shear zones.
