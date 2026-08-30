@@ -340,9 +340,9 @@ Positive is **dilation**, negative is **compaction**. Deformation that changes s
 </div>
 <div class="wide">
 
-- An outcrop in an exhumed section of the mantle within the Josephine Ophiolite in southern Oregon shows one pyroxene layer been offset by a fault / shear zone.
-- The offset between the pyroxene layer on either side of the fault is Δ𝑥 =5 cm and the width of the fault zone is 𝑦=0.5 cm.
-- Estimate the shear strain and shear angle associated with this structure.
+An outcrop in an exhumed section of mantle, in the Josephine Ophiolite of southern Oregon, shows a single pyroxene layer offset across a shear zone. The offset is $\Delta x = 5$ cm and the zone is $y = 0.5$ cm wide.
+
+**Estimate the shear strain, and the shear angle.**
 
 </div>
 </div>
@@ -366,8 +366,11 @@ To calculate the shear strain across a fault or shear zone, we need to first ide
 </div>
 <div class="wide">
 
-- The offset on either side of the fault zone is Δ𝑥 =5 cm and the width of the fault zone is 𝑦=0.5 cm.
-- The fault trace provides the relative lateral movement within the shear zone. The shear strain $\epsilon_s=\frac{5}{0.5}=10$. The shear angle is $\gamma = {\tan }^{-1}\left( 10 \right)∗\frac{180}{\pi}=84.3°$
+The fault trace gives the relative movement across the zone directly, so no marker is needed:
+
+$$\epsilon_s = \frac{\Delta x}{y} = \frac{5}{0.5} = 10 \qquad \gamma = \tan^{-1}(10) \times \frac{180}{\pi} = 84.3°$$
+
+A shear strain of 10 is enormous &mdash; the marker has been laid over to within six degrees of the shear plane.
 
 </div>
 </div>
@@ -434,13 +437,14 @@ $$\epsilon_{12} = \epsilon_{21} = \frac{1}{2}\left( \frac{\partial u_2}{\partial
 <div class="cols">
 <div class="wide">
 
-- We can describe the entire strain state with displacement of one direction relative to space in another direction:
+The whole strain state follows from one idea &mdash; displacement in one direction, differentiated with respect to position in another:
 $$\epsilon_{ij}=\frac{1}{2}\left[ \frac{{\partial u} _ {i}}{{\partial x} _ {j}}+\frac{{\partial u} _ {j}}{{\partial x} _ {i}} \right]$$
-- Where $u_i$ is the displacement in direction $i$; $i$ and $j$ can be any of 1, 2, 3, and the coordinates $x, y, z$ are then referred to as $x_1, x_2, x_3$.
-- Like the stress state, the full strain state of a body is described by three 3-component vectors ⇒ tensor.
+where $u_i$ is the displacement in direction $i$, and $i$ and $j$ each run over 1, 2, 3 &mdash; the coordinates $x, y, z$ written as $x_1, x_2, x_3$.
+
+Exactly as for stress, describing the full state takes three 3-component vectors, which is to say a **tensor**:
 $$\left[ \begin{matrix} \epsilon_{11} & \epsilon_{12} & \epsilon_{13} \cr \epsilon_{21} & \epsilon_{22} & \epsilon_{23} \cr \epsilon_{31} & \epsilon_{32} & \epsilon_{33} \end{matrix} \right]$$
 
-- It might contain volumetric, shear and normal components.
+It can carry volumetric, normal and shear components all at once.
 
 </div>
 <div>
@@ -457,10 +461,9 @@ $$\left[ \begin{matrix} \epsilon_{11} & \epsilon_{12} & \epsilon_{13} \cr \epsil
 <div class="cols">
 <div class="wide">
 
-- Like the stress tensor, the strain tensor can be diagonalised to get a form only containing principal strain, $e_1$, $e_2$ and $e_3$.
+Just as for stress, the strain tensor can be diagonalised, leaving only the principal strains $e_1$, $e_2$ and $e_3$:
 - $\left[ \begin{matrix} \epsilon_{11} & \epsilon_{12} & \epsilon_{13} \cr \epsilon_{21} & \epsilon_{22} & \epsilon_{23} \cr \epsilon_{31} & \epsilon_{32} & \epsilon_{33} \end{matrix} \right]$ becomes $\left[ \begin{matrix} e_1 & 0 & 0 \cr 0 & e_2 & 0 \cr 0 & 0 & e_3 \end{matrix} \right]$
-- The three principal strain can be used to form a strain ellipsoid. It represents the same state of strain regardless of our choice of coordinate system (axes and plane).
-- In 3D the shape of the strain ellipsoid usually require two strain ratios to define.
+Those three numbers define a **strain ellipsoid** &mdash; the same object whatever axes we happened to find it in. In three dimensions its *shape* takes two ratios to pin down, and plotting those two ratios against each other is the Flinn diagram.
 
 </div>
 <div>
@@ -517,9 +520,13 @@ $$\begin{matrix}
 <div class="cols">
 <div class="wide">
 
-- Volumetric strain of an object is given by $\Delta =(V-V0)/V0$, where $V0$ and $V$ are volumes of the object before and after the deformation, respectively.
-- Isotropic volume change (change in size only) and anisotropic volume change (change in both size and shape).
-- Coaxial deformation: the same material lines remain the principal strain axes throughout each increment, or principal axes of strain ellipsoid do not rotate through material. It is a type of anisotropic volume change.
+Volumetric strain compares the volume before and after:
+
+$$\Delta = \frac{V - V_0}{V_0}$$
+
+A volume change is **isotropic** if only the size changes, and **anisotropic** if the shape changes too.
+
+A deformation is **coaxial** when the same material lines stay principal through every increment &mdash; the axes of the strain ellipsoid do not rotate through the material. Pure shear is the standard example.
 
 </div>
 <div>
@@ -543,10 +550,13 @@ The flinn diagram summaries the different geometry of resulted deformation in on
 <div class="cols">
 <div class="wide">
 
-- Uniaxial strain is contraction or extension along one of the principal strain axes without any change in length along the other two. Such strain requires a reorganization, addition or removal of rock volume.
-- It is an anisotropic volume change but a coaxial deformation. Volume reduction creates uniaxial contraction (compaction) and volume increase creates uniaxial extension.
-- A best example is compaction of sediment progressively losing its porosity due to the loading. This forms part of the process of lithification (physical and chemical compaction).
-- Porosity $\phi$ decreases with depth as$\phi$(Z) = $\phi_0 {e}^{-CZ}$, where C is a constant, $\phi_0$ is initial porosity.
+**Uniaxial** strain shortens or extends along one principal axis while the other two keep their length. Something has to give, so it demands that rock volume be reorganised, added or removed: it is an anisotropic volume change, though still a coaxial one. Losing volume gives uniaxial contraction &mdash; **compaction**; gaining it gives uniaxial extension.
+
+The everyday example is sediment under its own overburden, losing porosity as it is buried. That is part of lithification, physical and chemical together, and porosity falls off with depth as
+
+$$\phi(z) = \phi_0\\,e^{-Cz}$$
+
+with $\phi_0$ the initial porosity and $C$ a constant.
 
 </div>
 <div>
@@ -571,9 +581,9 @@ When a layer of sediment is originally deposited, it contains an open framework 
 
 <p class="caption">Fossen, 2010</p>
 
-- Pure shear: a three-dimensional homogeneous flattening of a body. It is usually considered as a plane (2D) strain with no volume change.
-- Simple shear: parallel planes in a material remain parallel and maintain a constant distance, while translating relative to each other (internal rotation).
-- For non-coaxial deformations, the orientations of the principal strain axes are different for different amounts of strain, while for coaxial deformations they always point in the same directions (same orientation, different lengths).
+**Pure shear** is a homogeneous flattening &mdash; usually treated as a plane strain, with no volume change. **Simple shear** keeps parallel planes parallel and equally spaced while sliding them past one another, which carries an internal rotation with it.
+
+That rotation is the whole difference. Under a **coaxial** deformation the principal axes point the same way however much strain accumulates, and only their lengths change. Under a **non-coaxial** one they swing as the strain grows, so the answer depends on how far the deformation has gone.
 
 <--o-->
 
@@ -623,10 +633,13 @@ Strain-related fabric depend on the shape of the finite strain ellipsoid. Pancak
 <div class="cols">
 <div class="wide">
 
-- One of the most elegant and easiest method. The particles can be anything (e.g., quartz grains, garnet, pebbles etc).
-- The main assumption is that before deformation the spacing of these particles should be statistically isotropic i.e. the distance between two particles does not depend on the direction in which the distance is measured.
-- Procedure: trace the position of the particles neighbouring a chosen particle, and repeat for as many particles as possible.
-- Work successively on two perpendicular sections for three axes of the strain ellipsoid.
+The most elegant of the methods, and the easiest to do. The particles can be anything &mdash; quartz grains, garnet, pebbles. What it assumes is that *before* deformation their spacing was statistically **isotropic**: the distance between two particles did not depend on which direction you measured it in.
+
+The procedure:
+
+1. Pick a particle, and mark the position of each of its neighbours relative to it.
+2. Repeat for as many particles as you can, plotting every one on the same diagram.
+3. Do it again on a second, perpendicular section, to get all three axes of the ellipsoid.
 
 </div>
 <div>
@@ -692,8 +705,7 @@ Phi represents the angle between the long axis of the strain ellipse or sub-sphe
 </div>
 <div class="wide">
 
-- It is difficult or even impossible to predict strain from stress alone. Similarly, it is difficult or impossible to estimate stress from some strain ellipse alone.
-- Additional information such as boundary conditions, is useful to tell the true story.
+Neither one gives you the other. You cannot predict the strain from the stress alone, and you cannot read the stress off a strain ellipse alone. Something else is always needed &mdash; the boundary conditions, the rheology, how long it went on for.
 
 </div>
 </div>
@@ -742,10 +754,9 @@ $\left[ \begin{matrix} \epsilon_{11} & \epsilon_{12} & \epsilon_{13} \cr \epsilo
 </div>
 <div class="wide">
 
-- When an earthquake or explosion occurs, part of the energy released is as elastic waves that are transmitted through the earth.
-- The waves are then detected and recorded by seismograms, which measure, amplify and record the motion (displacement) of the ground.
+Some of the energy an earthquake or explosion releases travels off as elastic waves. A seismogram measures, amplifies and records what those waves do to the ground &mdash; which is a **displacement**.
 
-- The ground motion can be converted directly to strain by spatial derivatives and is dependent on the type of seismic wave that is propagating (usually $< 10^{-5}$).
+And strain is the spatial derivative of displacement, so the record converts straight into strain. How much depends on which wave is passing; it is usually below $10^{-5}$, which is why the rock springs back and the record stays elastic.
 
 </div>
 </div>
@@ -793,8 +804,9 @@ By the chain rule, with $y = ax+b$: &nbsp; $\frac{d}{dx}\sin(ax+b) = \cos(y)\cdo
 <!-- source: Lecture2_Strain_StrainRate.pptx slide 32 · template: T3-text-and-image -->
 ## Strain Rate
 
-- Strain rate ($\dot{\epsilon}$, units $\mathrm{s}^{-1}$) was defined in [Module 1.3 §7](Module-i-GlobalTectonics-3.reveal.html#/7), along with the $\sim 10^{-15}\ \mathrm{s}^{-1}$ of a plate boundary. It depends on the stress applied and on the strength of the material.
-- The useful way to read it is a **change of velocity over distance**: two blocks moving at $v_1$ and $v_2$ strain the ground between them.
+Strain rate ($\dot{\epsilon}$, units $\mathrm{s}^{-1}$) was defined in [Module 1.3 §7](Module-i-GlobalTectonics-3.reveal.html#/7), along with the $\sim 10^{-15}\ \mathrm{s}^{-1}$ typical of a plate boundary. It depends on the stress applied and on the strength of the material.
+
+The useful way to read it is as a **change of velocity over distance**: two blocks moving at $v_1$ and $v_2$ strain the ground between them, and the closer together they are, the harder that ground is worked.
 
 ![](Module-iii-Theory/Lecture2-restored/slide032.png) <!-- .element style="display:block; margin-left:auto; margin-right:auto; width:94%" -->
 
@@ -849,9 +861,9 @@ In fluid mechanics, the compressibility is a measure of the relative volume 
 </div>
 <div class="wide">
 
-- The map shows the second invariant as a proxy of the magnitude &mdash; the same map as [Module 1.1 §6.4](Module-i-GlobalTectonics-1.reveal.html#/6/4), now with the tensor behind it.
-- The regions of highest strain rate at the surface of the Earth are the plate boundaries.
-- A combined results of the applied stress and the strength of the material.
+The map contours the **second invariant** as a proxy for the magnitude &mdash; the same map as [Module 1.1 §6.4](Module-i-GlobalTectonics-1.reveal.html#/6/4), but now with the tensor behind it.
+
+The fastest-straining ground on Earth is the plate boundaries, and what puts it there is the combination of the stress applied and the strength of the material resisting it.
 
 </div>
 </div>
