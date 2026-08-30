@@ -522,29 +522,19 @@ For a viscous material, consider that the stress is increased instantaneously, t
 
 <--o-->
 
-<!-- source: Lecture3_Rheology.pptx slide 22 · template: T1-prose -->
+<!-- source: Lecture3_Rheology.pptx slide 22 · the stress-strain curve was drawn
+     with native PowerPoint shapes, so nothing was extracted and only its nine
+     labels survived. Rescreenshotted. -->
 ## Strain Hardening and Softening
-- Plastic material is still cohesive (holds together) after the yield point. Plastic deformation may occur without a further change in stress: perfect plastic.
-- Strain hardening means that an increase in stress is needed for further deformation because the rock becomes stronger and harder to deform.
-- Strain softening means that less stress is needed to keep the deformation going (creep process).
 
-
+A plastic material is still cohesive past its **yield point** &mdash; it holds together, and can go on deforming with no further increase in stress. That is *perfect* plastic behaviour, and it is the exception rather than the rule.
 
-Yield point
+![](Module-iii-Theory/Lecture3-restored/s22-hardening-softening.png) <!-- .element style="display:block; margin-left:auto; margin-right:auto; width:70%" -->
 
-Strain hardening
+Real rocks usually take one of the other two paths:
 
-Yield stress
-
-Perfect plastic
-
-Elastic
-
-Strain softening
-
-Plastic
-
-
+- **Strain hardening** &mdash; more stress is needed to keep going, because the rock has become stronger and harder to deform.
+- **Strain softening** &mdash; less stress is needed, and deformation runs away. This is the creep regime, and it is why shear zones localise.
 
 <--o-->
 
