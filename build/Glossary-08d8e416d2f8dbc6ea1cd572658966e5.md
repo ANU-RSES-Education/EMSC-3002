@@ -113,6 +113,8 @@ Cleavage
 Coaxial deformation
 : Deformation in which the same material lines remain the principal strain axes throughout, so the strain ellipsoid keeps its orientation and only changes shape. Pure shear is the type example, and Anderson's theory of faulting quietly assumes it. Contrast non-coaxial deformation.
 
+  *Slides: [3.2 Strain and Strain Rate — Pure Shear and Simple Shear](/slideshows/Module-iii-lecture2-Theory-draft.reveal.html#/36/5)*
+
 Coefficient of friction ($\mu$)
 : The proportionality between the shear stress needed to slide a surface and the normal stress clamping it shut, about 0.6 for typical rocks. It sets the angle at which faults form through $\tan 2\theta = \mp 1/\mu$, giving roughly 30° between the fault and $\sigma_1$ — which is why fresh normal faults dip near 60° and thrusts near 30°.
 
@@ -217,7 +219,7 @@ Diffusion creep
 Dilation (volumetric strain)
 : The fractional change in volume of a rock. Positive dilation means expansion (veining, fracturing); negative means volume loss, most commonly by compaction and pressure solution as porosity is squeezed out with burial.
 
-  *Slides: [5.5 Shear Zones — Dilation / Compaction zones](/slideshows/Module-v-lecture4-Shear-Zones.reveal.html#/40) · [3.2 Strain and Strain Rate — Volumetric Strain](/slideshows/Module-iii-lecture2-Theory-draft.reveal.html#/12)*
+  *Slides: [5.5 Shear Zones — Dilation / Compaction zones](/slideshows/Module-v-lecture4-Shear-Zones.reveal.html#/40) · [3.2 Strain and Strain Rate — Deformation](/slideshows/Module-iii-lecture2-Theory-draft.reveal.html#/4)*
 
 Dislocation creep
 : Plastic flow by the movement of line defects through crystal lattices as atomic bonds are successively rearranged, with no microfracturing. It dominates at moderate to high temperature and higher stress, produces strong crystallographic preferred orientations — which is why quartz c-axis fabrics record shear sense — and underlies most mylonitic microstructures.
@@ -1076,6 +1078,8 @@ Strain partitioning
 Strain softening
 : Behaviour in which less stress is needed to continue deformation once it has started, so deformation localises into narrow zones. High temperature, more fluid, lower strain rate and grain-size reduction all promote it — which is why shear zones and faults, once formed, keep being used.
 
+  *Slides: [3.3 Rheology — Strain Hardening and Softening](/slideshows/Module-iii-lecture3-Theory-draft.reveal.html#/19)*
+
 Strain tensor
 : The array built from the symmetric part of the displacement gradients. Diagonal terms are stretches along the axes and off-diagonal terms are shears; like stress it is symmetric and can be diagonalised. The simple form assumes small strain.
 
@@ -1133,7 +1137,7 @@ Subduction zone
 Sub-simple shear
 : The realistic case in which a shear zone combines simple shear with a pure-shear component, so the kinematic vorticity number lies between 0 and 1. The diagnostic is the instantaneous stretching axes: in sub-simple shear they are oblique to the walls at an angle other than 45° and stay fixed during steady deformation.
 
-  *Slides: [5.5 Shear Zones — Sub-Simple Shear](/slideshows/Module-v-lecture4-Shear-Zones.reveal.html#/46)*
+  *Slides: [5.5 Shear Zones — Sub-Simple Shear](/slideshows/Module-v-lecture4-Shear-Zones.reveal.html#/46) · [3.2 Strain and Strain Rate — Quantify Strain with Displacement](/slideshows/Module-iii-lecture2-Theory-draft.reveal.html#/16)*
 
 Supercontinent cycle
 : The long rhythm underneath the Wilson cycle: most of the continental crust gathers into a single mass and then disperses again, roughly every 500–700 million years. The assemblies usually named are **Nuna** (also called Columbia, ~1.8 Ga), **Rodinia** (~1.0 Ga), and **Gondwana** merging into **Pangea** (~0.3 Ga). Australia was inside all of them, which is why its assembly history is told against those names.
