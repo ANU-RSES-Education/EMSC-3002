@@ -119,8 +119,13 @@ def scan(path):
         h += 1
         for v, vb in enumerate(re.split(r"\n<--v-->\n", hblock)):
             o = orphans(vb)
-            if not o or "![" not in vb:
+            if not o:
                 continue
+            # A slide with labels and NO image is the worse case: the figure
+            # did not survive the conversion at all, leaving its labels behind
+            # to describe a picture that is not there. Requiring an image here
+            # was hiding exactly that.
+            has_figure = "![" in vb or "data-background" in vb
             m = re.search(r"^#{1,4} (.+)$", vb, re.M)
             title = re.sub(r"&#?\w+;", "", m.group(1)).strip() if m else "(untitled)"
             src = SOURCE.search(vb)
@@ -138,7 +143,13 @@ def scan(path):
             # caption; a relation is an equation that lost its $$.
             labels = [x for x in real
                       if not MATHY.match(x) and not EQUATION.match(x)]
-            if kind == "screenshot" and not labels:
+            # the deck's own title slide carries the university's name and
+            # no figure; that is not damage
+            if h == 0 and v == 0 and not has_figure:
+                continue
+            if not has_figure and labels:
+                kind = "figure missing"
+            elif kind == "screenshot" and not labels:
                 kind = "caption" if not real else "equation"
             elif kind == "screenshot" and real and not labels:
                 kind = "caption"

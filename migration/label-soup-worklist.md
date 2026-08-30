@@ -1,46 +1,43 @@
 # Label-soup worklist
 
-**All of Module 3 is clear** as of 2026-08-29 — 3.1, 3.2 and 3.3 all report
-zero. Regenerate for any deck with:
+Label soup in Module 3 is cleared. What is left is a DIFFERENT failure:
+figures drawn with native PowerPoint shapes, which the converter never
+extracted at all, because it only pulls out embedded pictures. The slide
+kept the diagram's text boxes and lost the diagram.
+
+Regenerate with:
 
 ```
 pixi run python tools/label-soup.py --table Lectures/*.reveal.md
 ```
 
-**The number that matters is the PowerPoint slide.** The `#/n` code is where
-the fix goes back in the reveal deck; the two do not match.
+
+## Figures that never converted — 4 in Module 3
+
+Screenshot the pptx slide; the labels listed are all that survived.
+
+| Deck | pptx slide | goes to | Slide title | What the diagram showed |
+|---|---:|---|---|---|
+| 3.2 | **16** | `#/15` | Quantify Strain with Displacement | `(Advanced)` · `= $\frac{u1(B)-u1(A)}{AB}$` · `Before stretching` · `AA’ = $u1(A)$` · `BB’ = $u1\left( B \right)$` |
+| 3.2 | **17** | `#/16` | Quantify Strain with Displacement | `$\Delta x$` · `$\phi$` · `$y$` · `Simple shear` · `Sub-simple shear` · `$x2$` · +10 |
+| 3.2 | **41** | `#/36/5` | Pure Shear and Simple Shear | `$x_2$` · `$x_2$` · `y` · `y` · `Before` · `Before` · +14 |
+| 3.3 | **22** | `#/19` | Strain Hardening and Softening | `` · `Yield point` · `Strain hardening` · `Yield stress` · `Perfect plastic` · `Elastic` · +3 |
+
+`3.2 #/36/5` sits after the deck's final Summary and is already flagged
+PARKED, so it may not be worth a screenshot until that slide has a home.
 
 
-## What was done
+## Across the repo
+
+Fifteen slides in all show this pattern; four are in Module 3. The rest
+are in Modules 4 and 5 and have not been looked at.
+
+
+## Module 3 label soup — done
 
 | Deck | pptx | What happened |
 |---|---|---|
-| 3.1 | 19, 31 | a sentence rejoined and an equation that had split into two inline spans |
-| 3.2 | 12, 15, 22, 23, 24, 29, 32 | figures replaced, strays cleared |
-| 3.2 | 13 | split into three — Longitudinal / Angular / Volumetric |
-| 3.2 | 9, 10 | checked clean; one caption reunited with its photo |
-| 3.3 | 7, 13, 14, 15, 16, 21, 24, 25, 26, 29 | figures replaced, strays cleared |
-| 3.3 | 11, 12 | pseudo-animation — parent slide plus a vertical child |
-| 3.3 | 28 | Griggs wet/dry quartz and Fossen pore pressure restored |
-| 3.3 | 23 | checked — extracted figure was already complete, no action |
-
-## Next, when wanted
-
-Module 4.4 reports 13 and Module 5 has its own; neither has been touched.
-
-
-## What the detector learned
-
-Two rounds of false alarms shaped it, and both are worth knowing:
-
-- It could not see inside `<p class="caption">`, where the converter had
-  swept loose text boxes joined by middots. Now mines captions carrying
-  three or more fragments — a damaged one has many, a written one has a
-  description and a credit.
-
-- Then it over-fired on Module 3.1, a heavily hand-worked deck, calling
-  `Assumptions:`, `and`, and whole sentences 'strays'. A label is now a
-  short noun phrase: no terminal punctuation, at most five words, not a
-  connective. Bare maths counts only if it is a SYMBOL — a relation is a
-  step of a derivation someone chose not to centre.
-
+| 3.1 | 19, 31 | a sentence rejoined, an equation un-split |
+| 3.2 | 12, 13, 15, 22, 23, 24, 29, 32 | figures replaced, strays cleared; 13 split into three |
+| 3.3 | 7, 11–16, 21, 24, 25, 26, 28, 29 | figures replaced, strays cleared; 11/12 made a build |
+| 3.3 | 23 | checked — already complete, no action |
