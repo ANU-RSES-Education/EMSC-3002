@@ -672,7 +672,7 @@ Phi represents the angle between the long axis of the strain ellipse or sub-sphe
 
 Neither one gives you the other. You cannot predict the strain from the stress alone, and you cannot read the stress off a strain ellipse alone. Something else is always needed &mdash; the boundary conditions, the rheology, how long it went on for.
 
-**Note:**
+Note:
 Deformed markers (a) such as strained pebbles or ooids give no information about the type of deformation.
 
 <--o-->
@@ -883,3 +883,78 @@ Note:
 - Concepts of uniaxial strain, volumetric change, pure and shear strain, incremental deformation and finite deformation
 - Methods to estimate strain in a rock (based on strain markers)
 - The concept of strain rate and how / why we measure them
+
+<--v-->
+
+## &#9209; Intentionally blank
+
+<small>Everything below this point is **parked for review** (2026-08-25) — a candidate
+for removal, merging or relocation, kept here so nothing is lost while we decide.
+Press **&rarr;** to carry on with the lecture, **&darr;** to inspect.</small>
+
+<--v-->
+
+<!-- source: Lecture2_Strain_StrainRate.pptx slide 39 · template: T3-text-and-image -->
+## Geometrical and Kinematic Analysis
+<div class="cols">
+<div class="wide">
+
+&nbsp;
+
+</div>
+<div>
+
+![](Module-iii-Theory/Lecture2-extracted/slide039_img1.png)
+
+</div>
+</div>
+
+<--v-->
+
+<!-- source: Lecture2_Strain_StrainRate.pptx slide 40 · template: T6-two-image -->
+## Progressive Deformation
+<div class="cols">
+<div>
+
+![](Module-iii-Theory/Lecture2-extracted/slide040_img1.jpg) <!-- .element style="width:74%;" -->
+
+</div>
+<div>
+
+![](Module-iii-Theory/Lecture2-extracted/slide040_img2.jpg) <!-- .element style="width:59%;" -->
+
+</div>
+</div>
+<p class="caption">Fossen, 2010</p>
+
+Note:
+The differences provide data on size and orientation of the incremental strain ellipsoid for this interval and describe this increment of the deformation history.
+
+
+<--v-->
+
+<!-- source: Lecture2_Strain_StrainRate.pptx slide 41 · both diagrams were drawn
+     with native PowerPoint shapes and never converted, leaving twenty labels
+     behind. Rescreenshotted 2026-08-31. -->
+## Pure Shear and Simple Shear
+
+The same two deformations as earlier in the deck, now with numbers on them.
+
+<div class="cols">
+<div>
+
+![](Module-iii-Theory/Lecture2-restored/s41-pure-shear.png)
+
+<p class="caption"><strong>Pure shear</strong> &mdash; shortened in $x_2$, stretched in $x_1$, and the axes never turn</p>
+
+</div>
+<div>
+
+![](Module-iii-Theory/Lecture2-restored/s41-simple-shear.png)
+
+<p class="caption"><strong>Simple shear</strong> &mdash; planes stay parallel and equally spaced, and slide past one another</p>
+
+</div>
+</div>
+
+Pure shear is **coaxial**: the same material lines stay principal throughout. Simple shear is not, and the asymmetry of its strain tensor &mdash; $\epsilon_{xy} = 0.5$ while $\epsilon_{yx} = 0$ &mdash; is exactly the rotation hiding inside it.

@@ -644,12 +644,12 @@ Joint spacing
 Kinematic indicator
 : Any asymmetric structure telling you which wall of a shear zone moved which way: S–C fabrics, mica fish, sigma- and delta-type porphyroclast tails, rotated boudins, deflected markers, asymmetric folds, quartz c-axis fabrics. The working rule is never to trust one alone — look for several, in a section cut parallel to the lineation and perpendicular to the foliation.
 
-  *Slides: [5.5 Shear Zones — Kinematic Indicators](/slideshows/Module-v-lecture4-Shear-Zones.reveal.html#/57)*
+  *Slides: [5.5 Shear Zones — Kinematic Indicators](/slideshows/Module-v-lecture4-Shear-Zones.reveal.html#/57) · [3.2 Strain and Strain Rate — Geometrical and Kinematic Analysis](/slideshows/Module-iii-lecture2-Theory-draft.reveal.html#/36/2)*
 
 Kinematic vorticity number ($W_k$)
 : A single number measuring how much internal rotation there is relative to how fast strain accumulates, placing a deformation on the spectrum from coaxial to non-coaxial. $W_k = 0$ is pure shear and $W_k = 1$ is simple shear; the paddle-wheel picture helps, with the wheel spinning faster as $W_k$ increases.
 
-  *Slides: [5.5 Shear Zones — Kinematic Indicators](/slideshows/Module-v-lecture4-Shear-Zones.reveal.html#/57)*
+  *Slides: [5.5 Shear Zones — Kinematic Indicators](/slideshows/Module-v-lecture4-Shear-Zones.reveal.html#/57) · [3.2 Strain and Strain Rate — Geometrical and Kinematic Analysis](/slideshows/Module-iii-lecture2-Theory-draft.reveal.html#/36/2)*
 
 Kinematics
 : The description of how rocks moved and distorted — velocities, displacements, fault slip, rotations and strain histories — without asking what forces caused it. It is the most tractable of the three analyses because you can measure it directly from geometry, GPS and offset markers.
@@ -898,7 +898,7 @@ Principal stresses ($\sigma_1 \ge \sigma_2 \ge \sigma_3$)
 Progressive deformation
 : The accumulation of strain through a sequence of increments, in which the finite strain at any moment is the integrated result. A given finite strain can be reached in an infinite number of ways, so the rock has effectively forgotten its path — which is why strain alone rarely tells you the stress history.
 
-  *Slides: [2.1 Structural Geology — Range of methods to approach structures](/slideshows/Module-ii-Lecture-1-Structural-Geology-And-Crustal-Deformation.reveal.html#/9)*
+  *Slides: [3.2 Strain and Strain Rate — Progressive Deformation](/slideshows/Module-iii-lecture2-Theory-draft.reveal.html#/36/3) · [2.1 Structural Geology — Range of methods to approach structures](/slideshows/Module-ii-Lecture-1-Structural-Geology-And-Crustal-Deformation.reveal.html#/9)*
 
 Pseudotachylyte
 : A dark, glassy fault rock formed by frictional melting during a single seismic slip event — "pseudo" plus tachylyte, a basaltic glass, and nothing to do with volcanism. It requires very fast, high-stress slip, and so is treasured as a fossil record of an ancient earthquake.
