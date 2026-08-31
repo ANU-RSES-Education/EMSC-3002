@@ -644,12 +644,12 @@ Joint spacing
 Kinematic indicator
 : Any asymmetric structure telling you which wall of a shear zone moved which way: S–C fabrics, mica fish, sigma- and delta-type porphyroclast tails, rotated boudins, deflected markers, asymmetric folds, quartz c-axis fabrics. The working rule is never to trust one alone — look for several, in a section cut parallel to the lineation and perpendicular to the foliation.
 
-  *Slides: [5.5 Shear Zones — Kinematic Indicators](/slideshows/Module-v-lecture4-Shear-Zones.reveal.html#/57) · [3.2 Strain and Strain Rate — Geometrical and Kinematic Analysis](/slideshows/Module-iii-lecture2-Theory-draft.reveal.html#/36/2)*
+  *Slides: [5.5 Shear Zones — Kinematic Indicators](/slideshows/Module-v-lecture4-Shear-Zones.reveal.html#/57) · [3.2 Strain and Strain Rate — Geometrical and Kinematic Analysis](/slideshows/Module-iii-lecture2-Theory-draft.reveal.html#/36/1)*
 
 Kinematic vorticity number ($W_k$)
 : A single number measuring how much internal rotation there is relative to how fast strain accumulates, placing a deformation on the spectrum from coaxial to non-coaxial. $W_k = 0$ is pure shear and $W_k = 1$ is simple shear; the paddle-wheel picture helps, with the wheel spinning faster as $W_k$ increases.
 
-  *Slides: [5.5 Shear Zones — Kinematic Indicators](/slideshows/Module-v-lecture4-Shear-Zones.reveal.html#/57) · [3.2 Strain and Strain Rate — Geometrical and Kinematic Analysis](/slideshows/Module-iii-lecture2-Theory-draft.reveal.html#/36/2)*
+  *Slides: [5.5 Shear Zones — Kinematic Indicators](/slideshows/Module-v-lecture4-Shear-Zones.reveal.html#/57) · [3.2 Strain and Strain Rate — Geometrical and Kinematic Analysis](/slideshows/Module-iii-lecture2-Theory-draft.reveal.html#/36/1)*
 
 Kinematics
 : The description of how rocks moved and distorted — velocities, displacements, fault slip, rotations and strain histories — without asking what forces caused it. It is the most tractable of the three analyses because you can measure it directly from geometry, GPS and offset markers.
@@ -820,7 +820,7 @@ Perfect plasticity
 Plastic deformation
 : Permanent change of shape without fracture, beginning only once the stress exceeds a yield point and then continuing at roughly constant stress. The mechanical analogue is a block sliding on a frictional surface: nothing happens until the threshold is passed, then it just goes.
 
-  *Slides: [3.3 Rheology — Plastic Deformation](/slideshows/Module-iii-lecture3-Theory-draft.reveal.html#/29/4) · [5.4 Structures Associated with Folding (2) — Lineations related to plastic deformation](/slideshows/Module-v-lecture3-Structures-Associated-with-Folding-2.reveal.html#/14) · [5.5 Shear Zones — Plastic Shear zones](/slideshows/Module-v-lecture4-Shear-Zones.reveal.html#/19)*
+  *Slides: [3.3 Rheology — Plastic Deformation](/slideshows/Module-iii-lecture3-Theory-draft.reveal.html#/29/2) · [5.4 Structures Associated with Folding (2) — Lineations related to plastic deformation](/slideshows/Module-v-lecture3-Structures-Associated-with-Folding-2.reveal.html#/14) · [5.5 Shear Zones — Plastic Shear zones](/slideshows/Module-v-lecture4-Shear-Zones.reveal.html#/19)*
 
 Plate boundary
 : The rigid plates move relative to one another without deforming, except in the very narrow accommodation zones at their edges known as plate boundaries. There are three main types — convergent, divergent and transform — each with its own kinematic rules and internal structure.
@@ -898,7 +898,7 @@ Principal stresses ($\sigma_1 \ge \sigma_2 \ge \sigma_3$)
 Progressive deformation
 : The accumulation of strain through a sequence of increments, in which the finite strain at any moment is the integrated result. A given finite strain can be reached in an infinite number of ways, so the rock has effectively forgotten its path — which is why strain alone rarely tells you the stress history.
 
-  *Slides: [3.2 Strain and Strain Rate — Progressive Deformation](/slideshows/Module-iii-lecture2-Theory-draft.reveal.html#/36/3) · [2.1 Structural Geology — Range of methods to approach structures](/slideshows/Module-ii-Lecture-1-Structural-Geology-And-Crustal-Deformation.reveal.html#/9)*
+  *Slides: [3.2 Strain and Strain Rate — Progressive Deformation](/slideshows/Module-iii-lecture2-Theory-draft.reveal.html#/36/2) · [2.1 Structural Geology — Range of methods to approach structures](/slideshows/Module-ii-Lecture-1-Structural-Geology-And-Crustal-Deformation.reveal.html#/9)*
 
 Pseudotachylyte
 : A dark, glassy fault rock formed by frictional melting during a single seismic slip event — "pseudo" plus tachylyte, a basaltic glass, and nothing to do with volcanism. It requires very fast, high-stress slip, and so is treasured as a fossil record of an ancient earthquake.
@@ -1014,7 +1014,7 @@ Shear modulus ($\mu$, $G$)
 Shear strain ($\gamma$)
 : A measure of how much angles have changed. In a shear zone it is simply offset divided by zone width, so 5 cm of offset across a 0.5 cm zone gives $\gamma = 10$.
 
-  *Slides: [3.3 Rheology — Real Estimated Shear Strain Rates](/slideshows/Module-iii-lecture3-Theory-draft.reveal.html#/29/3) · [3.2 Strain and Strain Rate — Angular Strain](/slideshows/Module-iii-lecture2-Theory-draft.reveal.html#/11)*
+  *Slides: [3.3 Rheology — Real Estimated Shear Strain Rates](/slideshows/Module-iii-lecture3-Theory-draft.reveal.html#/29/1) · [3.2 Strain and Strain Rate — Angular Strain](/slideshows/Module-iii-lecture2-Theory-draft.reveal.html#/11)*
 
 Shear stress ($\tau$, $\sigma_s$)
 : The component of traction acting along a plane — the part trying to slide one side past the other. For a uniaxial load, shear stress is greatest on planes at 45° to the load, which is why things tend to break obliquely rather than straight across.
