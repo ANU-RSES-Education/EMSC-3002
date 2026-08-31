@@ -170,10 +170,14 @@ Note that when the stress is removed in the last increment, the material popped 
 <div class="cols">
 <div class="wide">
 
-- The Young’s Modulus (E) quantifies the relationship between stress and strain occurring in the same orientation (no other stresses). It has the same units as stress (Pa). It shows the general form of a modulus.
-- The Young's modulus quantifies the ability of an object to resist deformation through the elastic strength arising from the crystal structure of the rock. Typical values are in the range of 10 MPa to 70 GPa.
-- Stiffness is an indicator of the tendency for an element to return to its original form with stress applied.
-- Strength measures how much stress can be applied to an element before it deforms permanently or fractures.
+**Young's modulus** $E$ relates a stress to the strain it produces *in the same direction*, with no other stresses acting. It has the units of stress, and it is the general form every modulus follows.
+
+What it measures is the rock's resistance to deformation &mdash; the elastic strength that comes from its crystal structure. Typical values run from 10 MPa to 70 GPa.
+
+Two words that are easy to confuse, and are not the same thing:
+
+- **Stiffness** &mdash; how strongly something tends back towards its original shape while the stress is on.
+- **Strength** &mdash; how much stress it takes before it deforms permanently, or breaks.
 
 $$E = \frac{\sigma_n}{\epsilon_n}$$
 
@@ -212,9 +216,12 @@ The ratio of stress to strain is the elastic modulus—stiffness, but the stress
 </div>
 <div class="wide">
 
-- Some minerals and rocks show linear elasticity – meaning one constant Young’s modulus (e.g., quartz, limestone, dolomite).
-- However, most elastic materials do not, implying no constant stress–strain relationship. Perfect elasticity: the material perfectly recovers to its original shape.
-- Hysteresis: the stress–strain curves during elastic loading and unloading differ.
+Some minerals and rocks are **linearly elastic**: one constant Young's modulus does for the whole range. Quartz, limestone and dolomite behave this way.
+
+Most do not. Without a constant stress&ndash;strain relationship the modulus itself depends on how hard you are pushing, and two further ideas are needed:
+
+- **Perfect elasticity** &mdash; the material recovers its original shape exactly.
+- **Hysteresis** &mdash; the loading and unloading curves are not the same, so energy is lost going round the loop.
 
 </div>
 </div>
@@ -226,11 +233,10 @@ The ratio of stress to strain is the elastic modulus—stiffness, but the stress
 <div class="cols">
 <div class="wide">
 
-- Poisson’s ratio quantifies the amount that a material deforms in one direction relative to the amount it deforms in the perpendicular direction:
-- The minus sign in the equation for Poisson's ratio means either the lateral or longitudinal strain will be negative → they have opposite sign.
+**Poisson's ratio** compares how much a material deforms in one direction with how much it deforms in the perpendicular one:
+The minus sign is doing real work: squeeze a material along one axis and it bulges along the others, so the lateral and longitudinal strains always have opposite sign.
 
-- The range of expected values for Poisson's ratio for Earth materials is 0 to 0.5, with typical values of 0.15-0.35.
-- A value of 0.5 corresponds to a perfectly incompressible material (there is not internal compression, so the strain in two perpendicular directions exactly compensates for the applied strain).
+For Earth materials $v$ runs from 0 to 0.5, and is typically 0.15&ndash;0.35. The upper limit is the interesting one: $v = 0.5$ means **perfectly incompressible**, with the strain in the two perpendicular directions exactly making up for the strain applied, so the volume never changes.
 
 </div>
 <div>
@@ -315,9 +321,9 @@ Three equations, two constants. That is the whole of linear isotropic elasticity
 <div class="cols">
 <div class="wide">
 
-- Mt. Vesuvius is the only volcano on European mainland to have erupted within the last hundred years.
-- The crater of Mt. Vesuvius has a wall of 305 meters high. Its andesitic in composition with density in the range of 2.4 – 2.8 g/cm<sup>3</sup>.
-- Question: how much has the rock been shortened at the base of the wall due to the weight of the rock above? Assuming the Young's modulus (40 GPa), Poisson's ratio (0.2) and an averaged density of 2.6 g/cm<sup>3</sup>.
+Vesuvius is the only volcano on mainland Europe to have erupted in the last hundred years. Its crater wall stands 305 m high, andesitic, with a density somewhere between 2.4 and 2.8 g/cm<sup>3</sup>.
+
+**How much has the rock at the base of that wall been shortened by the weight above it?** Take $E = 40$ GPa, $v = 0.2$, and an average density of 2.6 g/cm<sup>3</sup>.
 
 </div>
 <div>
@@ -339,14 +345,21 @@ Today, it is regarded as one of the most dangerous volcanoes in the world becaus
 <div class="cols">
 <div class="wide">
 
-- Question: how much shortening at the base of the wall? Assuming the Young's modulus (40 GPa), Poisson's ratio (0.2) and an averaged density of 2.6 g/cm<sup>3</sup>.
-- Solutions:
-- Lithostatic stress $\sigma_z$ = 𝜌(𝑧𝐴)𝑔/A = 𝜌z𝑔 = 2.6 $\times 10^3 \times 305 \times$ 9.8 = 7.8 MPa.
-- Since only air exists in Y direction, $\sigma_y$ = 0.
-- No-support in Y direction is compensated by the twice lithostatic stress in X direction, so we can assume $\sigma_x$ = 2 $\sigma_z$.
-- Recall the relation of  $\left( \sigma_{zz}-v\left( \sigma_{yy}+\sigma_{xx} \right) \right)=E \cdot \epsilon_{zz}$, plug in the numbers
-- $\epsilon_{zz} = \frac{7.8 \times 10^6-2 \times 7.8 \times 10^{6} \times 0.2}{40 \times 10^9} = 1.2 \times 10^{-4}$
-- Recall $\Delta z = \epsilon_{zz} \times Z = 1.2 \times 10^{-4} \times 305 = 0.035\ \mathrm{m}$
+The vertical stress at the base is just the weight of the column above, area cancelling out:
+
+$$\sigma_z = \frac{\rho (zA) g}{A} = \rho z g = 2.6\times10^3 \times 305 \times 9.8 = 7.8\ \mathrm{MPa}$$
+
+Now the two horizontal directions, and this is where the geometry enters. There is only air on the crater side, so $\sigma_y = 0$ &mdash; and with nothing supporting that direction, the other horizontal direction has to carry twice the lithostatic stress: $\sigma_x = 2\sigma_z$.
+
+Put those into the 3D elastic relation from earlier:
+
+$$\left( \sigma_{zz}-v\left( \sigma_{yy}+\sigma_{xx} \right) \right)=E \cdot \epsilon_{zz}
+\quad\Rightarrow\quad
+\epsilon_{zz} = \frac{7.8\times10^6 - 2 \times 7.8\times10^{6} \times 0.2}{40\times10^9} = 1.2\times10^{-4}$$
+
+$$\Delta z = \epsilon_{zz} \times z = 1.2\times10^{-4} \times 305 = 0.035\ \mathrm{m}$$
+
+Three and a half centimetres, under 300 m of rock. Elastic strains really are small.
 
 </div>
 <div>
@@ -365,13 +378,15 @@ Today, it is regarded as one of the most dangerous volcanoes in the world becaus
 <div class="cols">
 <div class="wide">
 
-- More general form of stress and strain relations:
-- The coefficients should be (rank 4; elastic) tensors because there is no particular reason to expect all the stress and strain directions to respond the same way.
-- A rank 4 tensor means the four subscripts can have values of 1, 2 and 3, indicating 81 separate components. But symmetry is helpful and usually we work with simplifications (21).
-- Isotropic and anisotropic cases:
-- Two Lamé parameters of $\lambda$and $\mu$ (E and v).
-- Different levels of crystal symmetry: cubic, hexagonal, Tetragonal, orthorhombic, Monoclinic and Triclinic.
-- Shear modulus $\mu$ = $\frac{\sigma_s}{\gamma}$; bulk modulus $K$ = $\frac{E}{3(1-2\mu )}$
+The general form of the stress&ndash;strain relation:
+The coefficients have to be a **rank-4 tensor**, because there is no reason to expect every combination of stress and strain direction to respond the same way. Four subscripts each running over 1, 2, 3 means 81 components &mdash; but symmetry cuts that down, usually to 21.
+
+How far it collapses depends on the material:
+
+- **Isotropic** &mdash; two constants suffice, the Lamé parameters $\lambda$ and $\mu$, equivalent to $E$ and $v$.
+- **Anisotropic** &mdash; how many you need depends on the crystal symmetry: cubic, hexagonal, tetragonal, orthorhombic, monoclinic, triclinic, in order of decreasing symmetry and increasing bookkeeping.
+
+Two more moduli follow from $E$ and $v$: the shear modulus $\mu = \sigma_s/\gamma$, and the bulk modulus $K = E/3(1-2\mu)$.
 
 $$\sigma_{ij} = C_{ijkl}\\,\epsilon_{kl}$$
 
@@ -392,10 +407,11 @@ $$\sigma_{ij} = C_{ijkl}\\,\epsilon_{kl}$$
 <div class="cols">
 <div class="wide">
 
-- The flow of liquids, like water, honey, oil, and magma, is described as viscous flow or viscous deformation. Heated rocks tend to flow and accumulate permanent deformation and behave like fluids over geological time.
-- Viscous deformation implies dependence of stress on strain rate: higher stress means faster flow or more rapid strain accumulation.
-- $\eta$ is the viscosity constant, and $\dot{e}$ is the elongation rate and $\dot{\gamma}$ is the shear strain rate. Unit of Pa s.
-- Linear (Newtonian) and non-linear (power-law) viscous rheology in stress–strain rate space.
+Water, honey, oil and magma all flow, and so does hot rock &mdash; given geological time it accumulates permanent deformation and behaves like a fluid.
+
+What separates viscous from elastic is *what* the stress depends on. Elastic stress depends on strain; **viscous stress depends on strain rate**. Push harder and it does not deform further, it deforms faster:
+
+where $\eta$ is the viscosity (units Pa s), $\dot{e}$ the elongation rate and $\dot{\gamma}$ the shear strain rate. Whether $\eta$ stays constant is the difference between **Newtonian** and **power-law** flow, plotted on the right.
 
 $$\sigma_n = \eta\\,\dot{e} \qquad \sigma_s = \eta\\,\dot{\gamma}$$
 
@@ -423,10 +439,12 @@ When pulling a stick out of a very viscous fluid like honey or tar, the slower y
 
 <!-- source: Lecture3_Rheology.pptx slide 17 · template: T1-prose -->
 ## Some Viscous Materials
-- The table on the right lists the viscosity of some common liquids at room temperature. Notice that the viscosity ranges over five orders of magnitude (0.001 to 100 Pa s) for these familiar liquids.
-- Viscosity is typically dependent on temperature and composition.
-- The viscosity of ice is typically in the range around $10^{13}$ Pa s at 0 °C to $10^{14}$ Pa s at −10 °C.
-- Mantle flow occurs at velocities of 1-20 cm/y, and typical values of viscosity in the mantle are $10^{18}$ to $10^{24}$ Pa s.
+Familiar liquids already span five orders of magnitude, from 0.001 to 100 Pa s, and viscosity depends strongly on temperature and composition. Then the range keeps going:
+
+- **ice** &mdash; around $10^{13}$ Pa s at 0 °C, rising to $10^{14}$ Pa s at &minus;10 °C
+- **the mantle** &mdash; $10^{18}$ to $10^{24}$ Pa s, flowing at 1&ndash;20 cm/yr
+
+Twenty-odd orders of magnitude separate water from the mantle, and the mantle still flows.
 
 <--v-->
 
@@ -449,12 +467,11 @@ Press **&rarr;** to carry on with the lecture, **&darr;** to inspect.</small>
 </div>
 <div class="wide">
 
-- Pitch Drop experiment at the University of Queensland, Australia.
-- Created in 1927 by UQ’s first Professor of Physics: Thomas Parnell.
-- Second custodian Prof. John Mainstone.
-- Current and third custodian Prof. Andrew White.
-- Only nine drops in 87 years.
-- More images and web cam at http://smp.uq.edu.au/content/pitch-drop-experiment .
+The longest-running laboratory experiment in the world, at the University of Queensland. Thomas Parnell, UQ's first Professor of Physics, set it up in 1927 to show students that pitch &mdash; which shatters like a solid under a hammer &mdash; is really a fluid.
+
+**Nine drops in 87 years.** Its second custodian, John Mainstone, watched it for 52 years and never saw one fall; Andrew White has it now.
+
+<small>Web cam and images: [smp.uq.edu.au/content/pitch-drop-experiment](http://smp.uq.edu.au/content/pitch-drop-experiment)</small>
 
 </div>
 </div>
@@ -494,11 +511,10 @@ $$u = u_0\left(1-\frac{y}{h}\right) \qquad \dot{\epsilon} = \frac{du}{dy} = -\fr
 <div class="cols">
 <div class="wide">
 
-- Considering a layer of flowing fluid with thickness, h, flowing down plane inclined at an angle 𝛼.
-- Fluid flow is purely driven by the gravity component parallel to the surface.
-- Boundary conditions: shear stress zero at top of the fluid (free surface) and velocity zero at base of fluid.
-- One can work out the velocity profile in the inclined plane:
-- The strain-rate can be further derived from the velocity
+A layer of fluid of thickness $h$ runs down a plane inclined at $\alpha$, driven purely by the component of gravity parallel to that surface.
+
+Two boundary conditions close the problem: shear stress is zero at the top, because it is a free surface, and velocity is zero at the base. Together they give the velocity profile:
+and differentiating it gives the strain rate:
 
 $$u = \frac{\rho g\sin\alpha}{\eta}\left(h^{2}-y^{2}\right)$$
 
@@ -611,8 +627,7 @@ Underworld3 split-node fault computation (Moresi).
 
 <!-- source: Lecture3_Rheology.pptx slide 25 · template: T3-text-and-image -->
 ## Deformation Controlling Factors
-- An increase in temperature lowers the yield stress or weakens the rock.
-- Both marble and granite can sustain less differential stress when the temperature goes up. This is due to the activation of microscale crystal-plastic due to the temperature increase.
+Raising the temperature lowers the yield stress: the rock weakens. Both marble and granite carry less differential stress as they heat, because temperature activates crystal-plastic mechanisms at the grain scale that were not available when cold.
 
 ![](Module-iii-Theory/Lecture3-restored/s25-marble-granite.png) <!-- .element style="display:block; margin-left:auto; margin-right:auto; width:84%" -->
 
@@ -632,9 +647,11 @@ Underworld3 split-node fault computation (Moresi).
 </div>
 <div class="wide">
 
-- At condition of high confining pressure, it is more difficult to open fractures, making the rock stronger. This leads to strain hardening compared to strain softening at low confining pressure condition (move arms in water compared to in air).
-- Also, the reduce of open fractures expels fluids outside of a rock, which further strengthen the material.
-- Increasing the confining pressure allows for larger strain to accumulate before failure and thus favors crystal-plastic deformation mechanisms (deeper depth of the Earth).
+Under high confining pressure a fracture is harder to open, so the rock is stronger &mdash; it strain-hardens, where at low confining pressure it would soften. The everyday version is moving your arms through water rather than through air.
+
+Closing those fractures also drives the fluid out, which strengthens the rock further.
+
+The consequence for depth: more confining pressure means more strain can accumulate before failure, which favours crystal-plastic mechanisms over brittle ones. That is why rock goes ductile as it gets deeper.
 
 </div>
 </div>
@@ -709,12 +726,13 @@ Stress–strain rate curves for dry olivine single crystals compressed in three 
 <div class="cols">
 <div class="wide">
 
-- Rocks and minerals react differently to stress and depend on crystallographic fabrics, temperature, presence of fluids, strain rate and pressure.
+Rocks and minerals respond differently to the same stress, depending on crystallographic fabric, temperature, fluids, strain rate and pressure. What matters for the lithosphere is that quartz and feldspar dominate the crust while olivine controls the upper mantle &mdash; and each stops being brittle at a different depth:
 
-- Quartz and feldspar are dominate minerals in the crust, and olivine controls the rheology of the upper mantle.
-- Quartz deforms by brittle mechanisms up to about 300–350 $°$𝐶, which for typical continental temperature gradients corresponds to crustal depths of around 10–12 km.
-- Feldspar deforms in a brittle manner up to 500 $°$𝐶 and depths of 20–30 km.
-- Olivine is brittle down to about 50 km depth.
+- **quartz** &mdash; brittle to about 300&ndash;350 °C, which on a typical continental geotherm is 10&ndash;12 km
+- **feldspar** &mdash; brittle to about 500 °C, or 20&ndash;30 km
+- **olivine** &mdash; brittle to about 50 km
+
+Three minerals, three transitions, stacked one above the other. That is why lithospheric strength is not a single curve.
 
 </div>
 <div>
@@ -746,8 +764,9 @@ While elastic theory may work well for very small strains in the upper crust, he
 </div>
 <div class="wide">
 
-- Brittle-plastic (ductile) transition: a zone located between the shallow elastic region and deeper viscous region where deformation occur through both mechanisms.
-- The brittle–plastic transition is generally gradual or recurring over a wide zone in the continental crust and reflect a combined effect of composition, temperature and confining pressure and presence of fluids.
+The **brittle&ndash;plastic** (ductile) transition is the zone between the shallow elastic region and the deeper viscous one, where both mechanisms operate at once.
+
+In continental crust it is rarely a sharp boundary. It is gradual, and it can recur &mdash; a wide zone whose position reflects composition, temperature, confining pressure and fluids all together, which is exactly the list of controls this lecture has been working through.
 
 </div>
 </div>
