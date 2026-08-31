@@ -750,6 +750,8 @@ Net slip
 Newtonian (linear) viscosity
 : The simple case where stress is directly proportional to strain rate, so viscosity is a constant independent of how hard you push. Water and honey are Newtonian; it is the assumption behind simple mantle-flow calculations, but only a first approximation for rock.
 
+  *Slides: [3.3 Rheology — Viscous Deformation](/slideshows/Module-iii-lecture3-Theory-draft.reveal.html#/14)*
+
 Non-coaxial deformation
 : Deformation in which the principal strain axes rotate relative to the material as strain accumulates, so the orientation of the finite strain ellipsoid depends on how much strain you have. Simple shear is the type example, and it is why shear-zone fabrics rotate progressively towards the shear plane.
 
@@ -813,6 +815,8 @@ Pencil cleavage
 Perfect plasticity
 : The idealisation in which deformation continues indefinitely at exactly the yield stress, with no further increase or decrease needed — the flat-topped stress–strain curve that strain hardening and softening deviate from.
 
+  *Slides: [3.3 Rheology — Linear and Non-linear Elasticity](/slideshows/Module-iii-lecture3-Theory-draft.reveal.html#/8)*
+
 Plastic deformation
 : Permanent change of shape without fracture, beginning only once the stress exceeds a yield point and then continuing at roughly constant stress. The mechanical analogue is a block sliding on a frictional surface: nothing happens until the threshold is passed, then it just goes.
 
@@ -868,6 +872,8 @@ Pore fluid pressure ($p_f$)
 
 Power-law creep
 : The real behaviour of rock at depth, where strain rate goes as stress to a power (typically 3–5 for olivine), so the effective viscosity drops as you push harder. This makes deformation self-focusing: fast-deforming regions weaken and take up even more of the strain, which is exactly why plate boundaries are narrow.
+
+  *Slides: [3.3 Rheology — Viscous Deformation](/slideshows/Module-iii-lecture3-Theory-draft.reveal.html#/14)*
 
 Pressure solution
 : Dissolution of minerals at grain contacts oriented at a high angle to $\sigma_1$, diffusion of the dissolved material along fluid films on grain boundaries, and reprecipitation in low-stress sites such as pressure shadows and veins — or removal from the rock entirely. It is the dominant foliation-forming process at low metamorphic grade, and it can account for very large shortening.
