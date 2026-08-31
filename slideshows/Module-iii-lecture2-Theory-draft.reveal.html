@@ -79,7 +79,7 @@ _**NB:** the course materials provided by the authors are open source under a cr
 <!-- Written 2026-08-27 from the Module 1.3 slides. The warning triangle in
      the title is deliberate: it marks the slide as awaiting review, and comes
      off once Louis is happy with it. -->
-## &#9888; Where we left off (Module 1.3)
+## Where we left off (Module 1.3)
 
 We have met the concept of strain before. In [Module 1.3](Module-i-GlobalTectonics-3.reveal.html#/6) we established that:
 
@@ -89,7 +89,6 @@ We have met the concept of strain before. In [Module 1.3](Module-i-GlobalTectoni
 
 *What this module adds:* the strain **tensor**, its principal values and invariants, the **Flinn diagram**, and how strain is actually **measured** in a rock.
 
-<small><em>&#9888; Drafted for review &mdash; check the emphasis is where you want it, then take the triangle off.</em></small>
 
 <--o-->
 
@@ -236,9 +235,9 @@ Two things follow, and both matter in the field:
 ## Summary — stress behind us, strain ahead
 ![](Module-iii-Theory/Lecture2-restored/slide012.png) <!-- .element style="display:block; margin-left:auto; margin-right:auto; width:92%" -->
 
-- Stress
+#### Stress
 - Several methods to measure the stress: in situ in the shallow crust and >4-5 km depth based on focal mechanism
-- Strain
+####  Strain
 - Four types of deformation: translation, rotation, distortion and dilation. The first two are for rigid-body deformation and the latter two are for non-rigid body deformation.
 - Homogenous vs. heterogenous deformation.
 - Quantify strain.
@@ -356,15 +355,12 @@ To calculate the shear strain across a fault or shear zone, we need to first ide
 
 <!-- source: Lecture2_Strain_StrainRate.pptx slide 15 · template: T3-text-and-image -->
 ## Example: Quantify Strain in a Rock
-<div class="cols">
-<div>
+
 
 ![](Module-iii-Theory/Lecture2-restored/slide015.png)
 
 <p class="caption">Magali Billen, UC Davis</p>
 
-</div>
-<div class="wide">
 
 The fault trace gives the relative movement across the zone directly, so no marker is needed:
 
@@ -372,8 +368,6 @@ $$\epsilon_s = \frac{\Delta x}{y} = \frac{5}{0.5} = 10 \qquad \gamma = \tan^{-1}
 
 A shear strain of 10 is enormous &mdash; the marker has been laid over to within six degrees of the shear plane.
 
-</div>
-</div>
 
 Note:
 The key to quantify strain is to find the right geometry describing the deformation.
@@ -422,7 +416,7 @@ The subscript 1 marks the single direction involved.
 
 The same argument in two dimensions, shearing a rectangle rather than stretching a beam.
 
-![](Module-iii-Theory/Lecture2-restored/s17-shear-derivation.png) <!-- .element style="display:block; margin-left:auto; margin-right:auto; width:92%" -->
+![](Module-iii-Theory/Lecture2-restored/s17-shear-derivation.png) <!-- .element style="display:block; margin-left:auto; margin-right:auto; width:80%" -->
 
 In **simple shear** only one pair of sides tilts; in **sub-simple shear** both do, by different amounts. The same series expansion gives $\epsilon_{12} = \partial u_1/\partial x_2$, and the same argument with the axes swapped gives $\epsilon_{21} = \partial u_2/\partial x_1$. The strain tensor takes the average of the two, which is what makes it symmetric:
 
@@ -489,14 +483,15 @@ A strain ellipsoid has three lines X,Y and Z that are special. They represent 
 <div class="cols">
 <div class="wide">
 
-- Several quantities to define the normal strain
+Several quantities to define the normal strain
 - Elongation ($\epsilon$) of a line
 - $\epsilon = \frac{l-l_0}{l_0}$
 - Stretching of a line
 - $s=\frac{l}{l_0}$, thus $s = 1 + \epsilon$
 - Quadratic elongation $\lambda = s^2$
-- In general, principal strain uses the stretching factors $S_1$, $S_2$, $S_3$, which sometimes are also denoted as X, Y or Z. With this, X=Y=Z=1 means no deformation.
-- The notations for principal strain below are telling the same story:
+
+In general, principal strain uses the stretching factors $S_1$, $S_2$, $S_3$, which sometimes are also denoted as X, Y or Z. With this, X=Y=Z=1 means no deformation.
+- The notations for principal strain below tell the same story:
 $$\begin{matrix}
  X = S_1 = e_1 = 1 + \epsilon_1 = \sqrt{\lambda_1} \cr
  Y = S_2 = e_2 = 1 + \epsilon_2 = \sqrt{\lambda_2} \cr
@@ -617,8 +612,10 @@ Strain-related fabric depend on the shape of the finite strain ellipsoid. Pancak
 
 <!-- source: Lecture2_Strain_StrainRate.pptx slide 25 · template: T1-prose -->
 ## Methods for Strain Measurements
-- To decipher strain from deformed rocks, we target at strain markers – objects reflecting the distortion that has taken place: pebbles, mineral grains, ooids, pillows in pillow lavas, trilobites, worm burrows, xenoliths are good examples of strain markers.
-- Common methods to measure strain include:
+
+To decipher strain from deformed rocks, we target at strain markers – objects reflecting the distortion that has taken place: pebbles, mineral grains, ooids, pillows in pillow lavas, trilobites, worm burrows, xenoliths are good examples of strain markers.
+
+Common methods to measure strain include:
 - The Wellman method
 - The Breddin graph
 - The Fry method
@@ -673,7 +670,7 @@ After deformation the distance between two particles aligned with &1 increases w
 
 - More general case for initial condition of deformed rocks.
 - Strain intensity can be assessed by the shape of deformable sub-spherical objects.
-- By measuring the axial ratios of those ellipsoids in a final state (Rf) as a function of $\phi$, the true strain (Rs) = $\sqrt{(Rfmax/Rfmin)}$ for a lower-strain cases and $\sqrt{(Rfmax \cdot Rfmin)}$ for higher-strain cases.
+- By measuring the axial ratios of those ellipsoids in a final state (Rf) as a function of $\phi$, the true strain (Rs) = $\sqrt{(R_\textrm{fmax}/R_\textrm{fmin})}$ for a lower-strain cases and $\sqrt{(R_\textrm{fmax} \cdot R_\textrm{fmin})}$ for higher-strain cases.
 
 - EllipseFit program for finite strain analysis.
 
@@ -687,30 +684,16 @@ Phi represents the angle between the long axis of the strain ellipse or sub-sphe
 <--o-->
 
 <!-- source: Lecture2_Strain_StrainRate.pptx slide 28 · template: T3-text-and-image -->
-## Stress Vs. Strain
-<div class="cols">
-<div>
-
-<div class="cols">
+## Stress v. Strain
 
 ![](Module-iii-Theory/Lecture2-extracted/slide028_img1.jpg)
-
-
 ![](Module-iii-Theory/Lecture2-extracted/slide028_img2.jpg)
-
-</div>
 
 <p class="caption">Known stress, and known strain · Fossen, 2010</p>
 
-</div>
-<div class="wide">
-
 Neither one gives you the other. You cannot predict the strain from the stress alone, and you cannot read the stress off a strain ellipse alone. Something else is always needed &mdash; the boundary conditions, the rheology, how long it went on for.
 
-</div>
-</div>
-
-Note:
+**Note:**
 Deformed markers (a) such as strained pebbles or ooids give no information about the type of deformation.
 
 <--o-->
@@ -772,12 +755,12 @@ The east-west component of ground motion at the Berkeley station recorded by the
 <div class="cols">
 <div class="wide">
 
-- A seismic plane shear wave is travelling through a solid with displacement that can be locally approximated as:
+A seismic plane shear wave is travelling through a solid with displacement that can be locally approximated as:
 $$u_z = A\sin\left[2\pi f\left(t-\tfrac{x}{c}\right)\right]$$
 
-- where $A$ is the amplitude, $f$ the frequency and $c$ the wave speed. Estimate the maximum strain for a wave of $f = 2$ Hz, $c = 3.14$ km/s, $A = 1$ mm.
-- Solutions:
-- Strain is the spatial derivative of the displacement:
+where $A$ is the amplitude, $f$ the frequency and $c$ the wave speed. Estimate the maximum strain for a wave of $f = 2$ Hz, $c = 3.14$ km/s, $A = 1$ mm.
+
+**Solutions:** Strain is the spatial derivative of the displacement:
 $$\frac{\partial u_z}{\partial x}=\frac{-2\pi fA}{c} \cos [2\pi f(t-\frac{x}{c})]$$
 - The maximum occurs when cos[x] = -1 and thus
 $$\left( \frac{\partial u_z}{\partial x} \right)_{max}=\frac{2\pi fA}{c}$$
@@ -821,10 +804,11 @@ The strain rate at some point within the material measures the rate at which the
 
 <!-- source: Lecture2_Strain_StrainRate.pptx slide 33 · template: T1-prose -->
 ## Strain Rate
-- Q1: Calculate the strain rate if 50% strain is achieved in ~20 min (sandbox).
-- Q2: Estimate the strain rate of a fault of 500 km long moving 30 km in 1 m.y.?
+Q1: Calculate the strain rate if 50% strain is achieved in ~20 min (sandbox).
 
-- Solutions:
+Q2: Estimate the strain rate of a fault of 500 km long moving 30 km in 1 m.y.?
+
+Solutions:
 - $\dot{\epsilon} = 0.5/1200 = 4.2 \times 10^{-4}\ \mathrm{s}^{-1}$
 - $\epsilon = 30/500 = 0.06$, or 6%
 - $\dot{\epsilon} = 0.06 / 1\ \mathrm{m.y.} = 0.06 / (1 \times 10^{6}\ \mathrm{y}) = 6 \times 10^{-8}\ \mathrm{y}^{-1}$
@@ -837,11 +821,13 @@ Has a unit of reciprocal time.
 
 <!-- source: Lecture2_Strain_StrainRate.pptx slide 34 · template: T1-prose -->
 ## Strain Rate Tensor
-- Recall that the strain tensor expressed using displacement:
+Recall that the strain tensor expressed using displacement:
 $$\epsilon_{ij}=\frac{1}{2}\left[ \frac{{\partial u} _ {i}}{{\partial x} _ {j}}+\frac{{\partial u} _ {j}}{{\partial x} _ {i}} \right]$$
-- The strain rate tensor can then replace the displacement vector in the strain with velocity vector:
+
+The strain rate tensor can then replace the displacement vector in the strain with velocity vector:
 $$D_{ij}=\frac{1}{2}\left[ \frac{{\partial v} _ {i}}{{\partial x} _ {j}}+\frac{{\partial v} _ {j}}{{\partial x} _ {i}} \right] \quad \textrm{or} \quad \left[ \begin{matrix} D_{xx} & D_{xy} & D_{xz} \cr D_{yx} & D_{yy} & D_{yz} \cr D_{zx} & D_{zy} & D_{zz} \end{matrix} \right]$$
-- The strain rate tensor also has three principal strain rates direction where all shear values vanish. The diagonal sums to zero if the material is incompressible (i.e., zero trace, first invariant is zero). The second invariant is defined from the principal values and represents the magnitude.
+
+The strain rate tensor also has three principal strain rates direction where all shear values vanish. The diagonal sums to zero if the material is incompressible (i.e., zero trace, first invariant is zero). The second invariant is defined from the principal values and represents the magnitude.
 
 Where $u_i$ is the displacement in direction $i$; $i$ and $j$ can be any of 1, 2, 3, and the coordinates $x, y, z$ are then referred to as $x_1, x_2, x_3$.
 
@@ -879,14 +865,14 @@ Louis has shown this multiple times in the first part of this course.
 <div class="cols">
 <div class="wide">
 
-- How we measure strain rate (different scales):
+How we measure strain rate (different scales):
 - Total strain/geologic time span;
 - Geodesy (GPS) instruments;
 - Analog experiments;
 - Numerical modeling;
 - …
 
-- Importance of understanding the strain rate:
+Importance of understanding the strain rate:
 - Rates of tectonic processes (e.g., mountain building, volcanic uplifting; subduction)
 - Fault motion predictions (earthquakes hazards)
 - Control deformation mechanisms (material strength)
@@ -918,92 +904,6 @@ Note:
 - Concepts of uniaxial strain, volumetric change, pure and shear strain, incremental deformation and finite deformation
 - Methods to estimate strain in a rock (based on strain markers)
 - The concept of strain rate and how / why we measure them
-
-<--v-->
-
-## &#9209; Intentionally blank
-
-<small>Everything below this point is **parked for review** (2026-08-25) — a candidate
-for removal, merging or relocation, kept here so nothing is lost while we decide.
-Press **&rarr;** to carry on with the lecture, **&darr;** to inspect.</small>
-
-<--v-->
-
-<!-- source: Lecture2_Strain_StrainRate.pptx slide 38 · template: T0-title-or-other -->
-
-<small><em>&#9209; PARKED &mdash; empty slide left by the pptx conversion</em></small>
-
-<--v-->
-
-<!-- source: Lecture2_Strain_StrainRate.pptx slide 39 · template: T3-text-and-image -->
-## Geometrical and Kinematic Analysis
-<div class="cols">
-<div class="wide">
-
-&nbsp;
-
-</div>
-<div>
-
-![](Module-iii-Theory/Lecture2-extracted/slide039_img1.png)
-
-</div>
-</div>
-
-<small><em>&#9209; PARKED &mdash; sits after the Summary, so students never reach it — real content needing a home earlier in the deck</em></small>
-
-<--v-->
-
-<!-- source: Lecture2_Strain_StrainRate.pptx slide 40 · template: T6-two-image -->
-## Progressive Deformation
-<div class="cols">
-<div>
-
-![](Module-iii-Theory/Lecture2-extracted/slide040_img1.jpg) <!-- .element style="width:74%;" -->
-
-</div>
-<div>
-
-![](Module-iii-Theory/Lecture2-extracted/slide040_img2.jpg) <!-- .element style="width:59%;" -->
-
-</div>
-</div>
-<p class="caption">Fossen, 2010</p>
-
-Note:
-The differences provide data on size and orientation of the incremental strain ellipsoid for this interval and describe this increment of the deformation history.
-
-<small><em>&#9209; PARKED &mdash; sits after the Summary — real content needing a home</em></small>
-
-<--v-->
-
-<!-- source: Lecture2_Strain_StrainRate.pptx slide 41 · both diagrams were drawn
-     with native PowerPoint shapes and never converted, leaving twenty labels
-     behind. Rescreenshotted 2026-08-31. -->
-## Pure Shear and Simple Shear
-
-The same two deformations as earlier in the deck, now with numbers on them.
-
-<div class="cols">
-<div>
-
-![](Module-iii-Theory/Lecture2-restored/s41-pure-shear.png)
-
-<p class="caption"><strong>Pure shear</strong> &mdash; shortened in $x_2$, stretched in $x_1$, and the axes never turn</p>
-
-</div>
-<div>
-
-![](Module-iii-Theory/Lecture2-restored/s41-simple-shear.png)
-
-<p class="caption"><strong>Simple shear</strong> &mdash; planes stay parallel and equally spaced, and slide past one another</p>
-
-</div>
-</div>
-
-Pure shear is **coaxial**: the same material lines stay principal throughout. Simple shear is not, and the asymmetry of its strain tensor &mdash; $\epsilon_{xy} = 0.5$ while $\epsilon_{yx} = 0$ &mdash; is exactly the rotation hiding inside it.
-
-<small><em>&#9209; PARKED &mdash; sits after the Summary, repeats the topic of slide 23, and its diagram labels were lost in conversion</em></small>
                     </textarea>
                 </section>
             </div>
