@@ -167,10 +167,10 @@ Assuming continental rocks have an average density $\rho$ of $2.7\times 10^3$ kg
  - where $g$ gravitational acceleration (9.8 m/s<sup>2</sup>); $z$ depth (1 km); A contact area.
  - Then, stress = G/A = $\rho z g$ = 2.7 $\times 10^3 \times 9.8 \times 1000 \approx$ 26.5 MPa
 
-<--o-->
+<--v-->
 
 <!-- source: Lecture1_Stress.pptx slide 10 · template: T4-full-figure (bullets deduplicated against previous slide) -->
-## Stress Inside the Earth
+## Stress Inside the Earth: Reaching Those Pressures in the Lab
 
 Stress = = G/A = $\rho z g$ = 2.7 $\times 10^3 \times 9.8 \times 1000 \approx$ 26.5 MPa
 
@@ -307,7 +307,7 @@ Assuming this is a 2D problem, let us compute the forces acting across a fault o
 <--v-->
 
 <!-- source: Lecture1_Stress.pptx slide 16 · template: T3-text-and-image (fault diagram restored; pptx slide 15, a progressive-reveal duplicate, folded in) -->
-## Example: Computing Traction Vector
+## Example: Computing Traction Vector — Worked
 <div class="cols">
 <div class="wide">
 
@@ -387,7 +387,7 @@ The diagram above is found in Kaliakin, V. N. (2017). Stresses, Strains, and Ela
 </small>
 
 <--v-->
-## Principal Stresses
+## Principal Stresses: Finding Them by Diagonalisation
 
 The orientation and relative size of the principal stresses is the single most useful description of the stress state in tectonics. Finding these directions is a standard property of tensor quantities — diagonalisation:
 
@@ -995,7 +995,7 @@ Let us work through an example to see how we use this criterion
 <--v-->
 
 <!-- source: Lecture1_Stress.pptx slide 33 · template: T1-prose -->
-## Example: Will the Fault Fail?
+## Example: Will the Fault Fail? — Worked
 
 <center>
 
@@ -1301,10 +1301,10 @@ The figures here show a study to measure the local stress field in an Open Pit M
 Samples of the core and have a good understanding of some physical parameters, including some useful moduli. Then they model the shape of the borehole breakout to produce a maximum and minimum horizontal stress that gives the best fit. 
 They collected the data from 38 boreholes and average them to get the final stress direction. The overall trend of the principal stress orientation at Olympic Dam is presented on the Australian stress map and indicates a reasonable comparison with other proximal measurements (Figure 7).
 
-<--o-->
+<--v-->
 
 <!-- source: Lecture1_Stress.pptx slide 41 · template: T3-text-and-image -->
-## How We Measure Stress
+## How We Measure Stress: Overcoring and Geological Structure
 <div class="cols">
 <div class="wide">
 
@@ -1331,10 +1331,10 @@ They collected the data from 38 boreholes and average them to get the final stre
 Note:
 Overcoring is another method used in a borehole setting. The main idea behind it is to isolate partially or wholly a rock sample from the stress field in the surrounding rock mass and monitor its re-equilibrium deformation response. It involves installing strain-measuring instruments bonded in a small-diameter pilot borehole drilled at the base of the large drill hole. The instrument is then overcored using a larger coring bit to effectively relieves the stress acting on the hollow rock cylinder. The induced strains are measured by the strain cell before, during, and after overcoring. The strain difference are used to back-calculate the stresses acting on the rock cylinder prior to overcoring assuming continuous, homogeneous, isotropic, and linear-elastic rock behaviour. This needs the knowledge of the elastic properties of the rock (Young's modulus and Poisson's ratio), usually determined by biaxial pressure tests on the overcored rock cylinder on-site.
 
-<--o-->
+<--v-->
 
 <!-- source: Lecture1_Stress.pptx slide 42 · template: T3-text-and-image -->
-## How We Measure Stress
+## How We Measure Stress: Hydraulic Fracturing
 <div class="cols">
 <div class="wide">
 
