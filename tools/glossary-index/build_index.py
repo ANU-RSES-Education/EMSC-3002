@@ -21,9 +21,12 @@ DECKS = [
     ("Module-ii-Lecture-2-Contractional_Regimes", "2.2 Contractional Regimes"),
     ("Module-ii-Lecture-3-Extensional_Regimes", "2.3 Extensional Regimes"),
     ("Module-ii-Lecture-4-Strike-Slip-Transtention-Transpression", "2.4 Strike-Slip, Transtension & Transpression"),
-    ("Module-iii-lecture1-Theory-draft", "3.1 Stress"),
-    ("Module-iii-lecture2-Theory-draft", "3.2 Strain and Strain Rate"),
-    ("Module-iii-lecture3-Theory-draft", "3.3 Rheology"),
+    ("Module-iii-lecture1-Theory", "3.1 Stress"),
+    ("Module-iii-lecture2-Theory", "3.2 Strain and Strain Rate"),
+    ("Module-iii-lecture3-Theory", "3.3 Rheology"),
+    # Module 4 still points at the -draft decks. The book serves the image
+    # decks for now, but those carry no text to index, so the glossary is the
+    # only searchable route into this module's content.
     ("Module-iv-lecture4-Brittle-deformation-draft", "4.1 Brittle Deformation"),
     ("Module-iv-lecture5-Joints-Faults-draft", "4.2 Joints and Faults"),
     ("Module-iv-lecture6-Faults-Fault-Zones-draft", "4.3 Faults and Fault Zones"),

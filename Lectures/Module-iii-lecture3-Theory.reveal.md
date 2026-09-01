@@ -1,167 +1,864 @@
 ---
-title: Theory 3
+title: Theory 3 (draft — reveal conversion)
 separator: '<--o-->'
 verticalSeparator: '<--v-->'
 revealOptions:
     transition: 'fade'
     slideNumber: true
-    width:  1200
+    width: 1200
     height: 800
-    margin: 0.07 # Factor of the display size that should remain empty around the content (7% typically)
+    margin: 0.07
 ---
 
+<!-- DO NOT REGENERATE: converted from Lecture3_Rheology.pptx (2026-07), then hand-edited.
+     This markdown is now the source of truth; re-running the pptx converter
+     would overwrite that work. See tools/pptx2reveal/README.md. -->
+
+<!-- source: Lecture3_Rheology.pptx slide 1 · template: T-title -->
 # EMSC 3002
 
 ## Module3.3 - Rheology
 
   - Louis Moresi (convenor)
-  - Romain Beucher (lecturer)
-  - **Chengxin Jiang** (lecturer)
+  - Chengxin Jiang (lecturer)
+  - Romain Beucher (former lecturer)
   - Stephen Cox (curriculum advisor)
 
 Australian National University
-
-_**NB:** the course materials provided by the authors are open source under a creative commons licence. 
-We acknowledge the contribution of the community in providing other materials and we endeavour to 
-provide the correct attribution and citation. Please contact louis.moresi@anu.edu.au for updates and 
-corrections._
 
 <small>Reading these on your own? Press **O** for the overview, and **&darr;** as well as **&rarr;** &mdash; some slides sit below this one. <a href="../lecture-1-introduction/#navigating-the-slides" target="_blank" rel="noopener">How to navigate the slides</a></small>
 
 <--o-->
 
+<!-- source: Lecture3_Rheology.pptx slide 2 · template: T-resources -->
 ## Resources
 
-1. **Fossen, H, 2011.** *Structural Geology.* Cambridge University Press, 2nd Edition. [E-learning modules](https://folk.uib.no/nglhe/module6/Chapt6module.html)
-1. **van der Pluijm, B.A. and Marshak, S., 2003.** *Earth Structure: an introduction to structural geology and tectonics.* W. W. Norton & Company, Ltd.
-1. **Davis, G.H. and Reynolds, S.J., 1996.** *Structural Geology of Rocks and Regions.* 2nd Edition, John Wiley & Sons. 
-1. **Park, R.G., 1995.** *Foundations of Structural Geology.* Blackie & Sons Ltd. 
+1. Fossen, H, 2011. Structural Geology. Cambridge University Press, 2nd Edition. E-learning modules.
+1. van der Pluijm, B.A. and Marshak, S., 2003. Earth Structure: an introduction to structural geology and tectonics. W. W. Norton & Company, Ltd.
+1. Davis, G.H. and Reynolds, S.J., 1996. Structural Geology of Rocks and Regions. 2nd Edition, John Wiley & Sons.
+1. Park, R.G., 1995. Foundations of Structural Geology. Blackie & Sons Ltd.
 
 <--o-->
 
+<!-- ILOs transcribed from the pptx's slide-3 image, which was carried as a
+     full-bleed background: not searchable, not linkable, unreadable on a
+     phone. Two spellings corrected on the way in ("rhelology", "phyiscal"). -->
 ## What you will learn in this module
 
-What you will learn in this module:
+- The concept of **rheology**
+- The idealised forms of deformation: **elastic** and **viscous**
+- The two parameters that fix elastic behaviour: **Young's modulus** and **Poisson's ratio**
+- **Viscosity**, and several types of flow
+- The main physical factors that control which deformation happens
+- Some **deformation mechanisms**
 
+<--o-->
+<!-- Written 2026-08-27 from the Module 1.3 slides. The warning triangle in
+     the title is deliberate: it marks the slide as awaiting review, and comes
+     off once Louis is happy with it. -->
+## Where we left off (Module 1.3)
+
+Rheology is not new. In [Module 1.3 §8](Module-i-GlobalTectonics-3.reveal.html#/8) we established that:
+
+- **rheology** is how a material flows in response to stress, split three ways: elastic, viscous, plastic
+- **elastic** deformation is recoverable, and follows Hooke's law &mdash; [§8.1](Module-i-GlobalTectonics-3.reveal.html#/8/1)
+- **viscous** flow is what honey does, and what the UQ pitch drop does very slowly &mdash; [§8.2](Module-i-GlobalTectonics-3.reveal.html#/8/2)
+- where the crust stops breaking and starts flowing: the **brittle&ndash;ductile transition** &mdash; [§9](Module-i-GlobalTectonics-3.reveal.html#/9)
+
+*What this module adds:* the constitutive laws and the **numbers** &mdash; Young's modulus, Poisson's ratio, the elastic tensor, real viscosities, the Maxwell time, and what decides which mechanism wins.
+
+
+<--o-->
+
+<!-- source: Lecture3_Rheology.pptx slide 4 · template: T5-figure-focus -->
+## Rheology
+
+<div class="cols">
+<div>
+
+![](Module-iii-Theory/Lecture3-extracted/slide004_img1.jpg)
+
+<p class="caption">Rock, and ice &middot; both of them flow</p>
+
+</div>
+<div class="wide">
+
+The study of how materials deform and flow under stress &mdash; solids, fluids and gases alike. [Module 1.3 §8](Module-i-GlobalTectonics-3.reveal.html#/8) introduced it, and split behaviour three ways.
+
+Two things decide what a rock does: its own **physical properties**, and the **conditions** it is deforming under.
+
+- **Recoverable** &mdash; the material returns to its initial shape once the stress is removed. Elastic deformation leaves *no record* in the rock.
+- **Irrecoverable** &mdash; it stays deformed:
+  - **viscous** flow (mostly fluids)
+  - **plastic** deformation (mostly solids)
+  - **brittle** failure (it breaks)
+
+</div>
+</div>
+
+Note:
+When strong layers are extended, the layers start to thin at points of weakness (a process known in engineering as necking). When it develops to an extreme end, the thin regions can separate, leaving a structure that looks like a string of sausages in cross-section. During this process, the void space due to the separation will be filled up through the flow of rocks. This indicates a combined process of brittle and ductile deformation. This behavior mostly due to the different rheological properties of the different layers. 
+Ice in glaciers flows similarly to a viscous fluid, which is one of the main reasons for the loss of glaciers in the Antarctic and Arctic. But the many fractures at the surface of glaciers tell us that some physical conditions might also play a role on the deformation (temperature). Southeast Greenland. 
+It is not only water that flows, but also oil, syrup, asphalt, ice, glass and rocks. The flow of oil and syrup can be studied over time spans of minutes, while it takes days, months or years to study the flow of ice.
+Elastic deformation is the dominant form of deformation at shallow depths in the crust and lithosphere because both the temperature and pressure are low. However the crust and lithosphere are also brittle and when the stress is big enough, failure by fracture or frictional sliding also occurs (bending at the subduction zones; deep earthquakes down to 500-600 km depth). 
+Viscous and plastic deformation typically occur deeper and at higher pressures and temperatures than elastic deformation. In between the shallow elastic region and deeper viscous region there is a region that deforms through both mechanisms (both mechanisms accommodate roughly equal amounts of deformation). This region is referred to as the brittle-ductile transition. 
+While elastic theory may work well for very small strains in the upper crust, heated rocks tend to flow and accumulate permanent deformation, and sometimes very large permanent strains. In this context it is useful to consider how fluids respond to stress.
+
+<--o-->
+
+<!-- source: Lecture3_Rheology.pptx slide 6 · template: T3-text-and-image -->
+## Response of Materials to Stress
+<div class="cols">
+<div>
+
+![](Module-iii-Theory/Lecture3-extracted/slide006_img1.jpg)
+
+
+</div>
+<div class="wide">
+
+- Rock A has relatively little deformation when undergoing large amounts of stress, before undergoing plastic deformation, and finally brittlely failing.
+- Rock B only elastically deforms before brittlely failing.
+- Rock C undergoes significant plastic deformation before finally failing brittlely.
+
+</div>
+</div>
+
+Note:
+Distinguish plastic deformation and viscous deformation
+
+<--o-->
+
+<!-- source: Lecture3_Rheology.pptx slide 7 · template: T6-two-image -->
+## Elastic Deformation
+
+Recoverable, and therefore invisible in the rock record &mdash; the point made in [Module 1.3 §8.1](Module-i-GlobalTectonics-3.reveal.html#/8/1). It is recoverable because it *stretches* atomic bonds rather than breaking them, and a linearly elastic material shows a straight-line relationship between stress and strain: Hooke's law.
+
+![](Module-iii-Theory/Lecture3-restored/s07-elastic-states.png) <!-- .element style="display:block; margin-left:auto; margin-right:auto; width:94%" -->
+
+<p class="caption">Load a spring and it stretches; unload it and it returns &middot; Springs after Taryn Lausch</p>
+
+A spring needs **one** parameter to describe it &mdash; its spring constant. A rock needs **at least two**: Young's modulus and Poisson's ratio. That is where this module goes next, and it is the whole reason the elastic tensor gets complicated.
+
+Note:
+Note that when the stress is removed in the last increment, the material popped back to its original shape and the strain returned to zero. We regard response of the elastic deformation as almost instantaneous.
+
+
+<--o-->
+
+<!-- source: Lecture3_Rheology.pptx slide 8 · template: T3-text-and-image -->
+## Young’s Modulus
+<div class="cols">
+<div class="wide">
+
+**Young's modulus** $E$ relates a stress to the strain it produces *in the same direction*, with no other stresses acting. It has the units of stress, and it is the general form every modulus follows.
+
+What it measures is the rock's resistance to deformation &mdash; the elastic strength that comes from its crystal structure. Typical values run from 10 MPa to 70 GPa.
+
+Two words that are easy to confuse, and are not the same thing:
+
+- **Stiffness** &mdash; how strongly something tends back towards its original shape while the stress is on.
+- **Strength** &mdash; how much stress it takes before it deforms permanently, or breaks.
+
+$$E = \frac{\sigma_n}{\epsilon_n}$$
+
+</div>
+<div>
+
+![](Module-iii-Theory/Lecture3-extracted/slide008_img1.jpg) <!-- .element style="width:78%;" -->
+
+![](Module-iii-Theory/Lecture3-extracted/slide008_img2.jpg) <!-- .element style="width:75%;" -->
+
+<p class="caption">Magali Billen, UC Davis · Fossen, 2011</p>
+
+</div>
+</div>
+
+Note:
+Although Young's modulus is named after the 19th-century British scientist Thomas Young, the concept was developed in 1727 by Leonhard Euler, somewhat 80 years before Thomas Young’s related paper in 1807. The first use of the concept of Young's modulus in experiments was by Giordano Riccati in 1782—predating Young by 25 years. History problem or people did not realize that. 
+
+The bulk modulus (K)  and shear modulus (G).
+
+For Earth materials, Young's modulus is measured in the laboratory by taking small cylinders of rock, compressing them in a vice-like apparatus with a known force, and then measuring the change in length. The stress and strain are determined (knowing the area of the top and bottom of the cylinder and its length) and then Young's modulus is calculated. It is measured under a uniaxial stress-state, meaning no stress acting on the sides of the cylinder. 
+
+The ratio of stress to strain is the elastic modulus—stiffness, but the stress, and only the stress, defines the strength of the material.
+
+<--o-->
+
+<!-- source: Lecture3_Rheology.pptx slide 9 · template: T3-text-and-image -->
+## Linear and Non-linear Elasticity
+<div class="cols">
+<div>
+
+![](Module-iii-Theory/Lecture3-extracted/slide009_img1.jpg)
+
+<p class="caption">Fossen, 2011</p>
+
+</div>
+<div class="wide">
+
+Some minerals and rocks are **linearly elastic**: one constant Young's modulus does for the whole range. Quartz, limestone and dolomite behave this way.
+
+Most do not. Without a constant stress&ndash;strain relationship the modulus itself depends on how hard you are pushing, and two further ideas are needed:
+
+- **Perfect elasticity** &mdash; the material recovers its original shape exactly.
+- **Hysteresis** &mdash; the loading and unloading curves are not the same, so energy is lost going round the loop.
+
+</div>
+</div>
+
+<--o-->
+
+<!-- source: Lecture3_Rheology.pptx slide 10 · template: T3-text-and-image -->
+## Poisson’s Ratio
+<div class="cols">
+<div class="wide">
+
+**Poisson's ratio** compares how much a material deforms in one direction with how much it deforms in the perpendicular one:
+The minus sign is doing real work: squeeze a material along one axis and it bulges along the others, so the lateral and longitudinal strains always have opposite sign.
+
+For Earth materials $v$ runs from 0 to 0.5, and is typically 0.15&ndash;0.35. The upper limit is the interesting one: $v = 0.5$ means **perfectly incompressible**, with the strain in the two perpendicular directions exactly making up for the strain applied, so the volume never changes.
+
+</div>
+<div>
+
+![](Module-iii-Theory/Lecture3-extracted/slide010_img1.jpg) <!-- .element style="width:78%;" -->
+
+<p class="caption">Magali Billen, UC Davis</p>
+
+![](Module-iii-Theory/Lecture3-extracted/slide010_img2.jpg) <!-- .element style="width:33%;" -->
+
+</div>
+</div>
+
+Note:
+How to get the ratio of 0.5
+
+<--o-->
+
+<!-- source: Lecture3_Rheology.pptx slides 11 and 12 · the pptx built one slide
+     up in two steps, so it is a parent and a vertical child here. Figure
+     rescreenshotted; its labels had come loose into the body text, and the
+     E = sigma/epsilon "image" was that equation as a picture. -->
+## Elastic Deformation in 3D
+
+<div class="cols">
+<div>
+
+![](Module-iii-Theory/Lecture3-restored/elastic-3d.png)
+
+</div>
+<div class="wide">
+
+- Take only the normal (linear) components of stress and strain.
+- **Poisson's ratio** $v$ says that in an elastic solid, a stress applied in one direction also strains the material in the two perpendicular ones. **Young's modulus** $E$ relates a normal stress to the strain along its own axis:
+
+$$E = \frac{\sigma_n}{\epsilon_n}$$
+
+So the strain along $z$ has three contributions: the stress acting along $z$, and the sideways response to the stresses along $x$ and $y$.
+
+$$\epsilon_{zz}' = -v \epsilon_{xx} = -v \frac{\sigma_{xx}}{E} \qquad \epsilon_{zz}'' = -v \epsilon_{yy} = -v \frac{\sigma_{yy}}{E}$$
+
+$$\sigma_{zz} = E \left( \epsilon_{zz} - \epsilon_{zz}' - \epsilon_{zz}'' \right)$$
+
+</div>
+</div>
+
+Note:
+the subscript 𝑥𝑥 indicates a strain or stress in the x direction acting perpendicular to a plane whose normal direction is also in the x direction. You will typically see stress components expressed using either the numbers 1, 2, or 3 or the letters x, y, and z to refer to the orientations of the planes and the forces. It is necessary to know the orientation of the three directions to interpret the orientations of the stresses.
+For a linear isotropic material subjected only to compressive (i.e. normal) forces, the deformation of a material in the direction of one axis will produce a deformation of the material along the other axis in three dimensions. Thus it is possible to generalize Hooke's Law (for compressive forces) into three dimensions:
+
+<--v-->
+
+## Elastic Deformation in 3D: the General Form
+
+<div class="cols">
+<div>
+
+![](Module-iii-Theory/Lecture3-restored/elastic-3d.png)
+
+</div>
+<div class="wide">
+
+Substitute the two sideways contributions back in, and the primes disappear:
+
+$$\left( \sigma_{zz} - v \left( \sigma_{yy}+\sigma_{xx} \right) \right) = E \epsilon_{zz}$$
+
+Nothing singled out $z$, so the same argument gives $x$ and $y$:
+
+$$\left( \sigma_{xx} - v \left( \sigma_{yy}+\sigma_{zz} \right) \right) = E \epsilon_{xx}$$
+
+$$\left( \sigma_{yy} - v \left( \sigma_{xx}+\sigma_{zz} \right) \right) = E \epsilon_{yy}$$
+
+Three equations, two constants. That is the whole of linear isotropic elasticity.
+
+</div>
+</div>
+
+<--o-->
+
+<!-- source: Lecture3_Rheology.pptx slide 13 · template: T3-text-and-image -->
+## Example: Calculate Strain Using Stress
+<div class="cols">
+<div class="wide">
+
+Vesuvius is the only volcano on mainland Europe to have erupted in the last hundred years. Its crater wall stands 305 m high, andesitic, with a density somewhere between 2.4 and 2.8 g/cm<sup>3</sup>.
+
+**How much has the rock at the base of that wall been shortened by the weight above it?** Take $E = 40$ GPa, $v = 0.2$, and an average density of 2.6 g/cm<sup>3</sup>.
+
+</div>
+<div>
+
+![](Module-iii-Theory/Lecture3-restored/s14-vesuvius-xyz.jpeg)
+
+<p class="caption">The 305 m crater wall of Vesuvius · Magali Billen, UC Davis</p>
+
+</div>
+</div>
+
+Note:
+Today, it is regarded as one of the most dangerous volcanoes in the world because of the population of 3,000,000 people living near enough to be affected by an eruption, with 600,000 in the danger zone. Vesuvius consists of a large cone partially encircled by the steep rim of a summit caldera caused by the collapse of an earlier and originally much higher structure.
+
+<--o-->
+
+<!-- source: Lecture3_Rheology.pptx slide 14 · template: T3-text-and-image -->
+## Strain Calculations
+<div class="cols">
+<div class="wide">
+
+The vertical stress at the base is just the weight of the column above, area cancelling out:
+
+$$\sigma_z = \frac{\rho (zA) g}{A} = \rho z g = 2.6\times10^3 \times 305 \times 9.8 = 7.8\ \mathrm{MPa}$$
+
+Now the two horizontal directions, and this is where the geometry enters. There is only air on the crater side, so $\sigma_y = 0$ &mdash; and with nothing supporting that direction, the other horizontal direction has to carry twice the lithostatic stress: $\sigma_x = 2\sigma_z$.
+
+Put those into the 3D elastic relation from earlier:
+
+$$\left( \sigma_{zz}-v\left( \sigma_{yy}+\sigma_{xx} \right) \right)=E \cdot \epsilon_{zz}
+\quad\Rightarrow\quad
+\epsilon_{zz} = \frac{7.8\times10^6 - 2 \times 7.8\times10^{6} \times 0.2}{40\times10^9} = 1.2\times10^{-4}$$
+
+$$\Delta z = \epsilon_{zz} \times z = 1.2\times10^{-4} \times 305 = 0.035\ \mathrm{m}$$
+
+Three and a half centimetres, under 300 m of rock. Elastic strains really are small.
+
+</div>
+<div>
+
+![](Module-iii-Theory/Lecture3-restored/s14-vesuvius-xyz.jpeg)
+
+<p class="caption">The 305 m crater wall of Vesuvius · Magali Billen, UC Davis</p>
+
+</div>
+</div>
+
+<--o-->
+
+<!-- source: Lecture3_Rheology.pptx slide 15 · template: T3-text-and-image -->
+## Elastic Tensor
+<div class="cols">
+<div class="wide">
+
+The general form of the stress&ndash;strain relation:
+The coefficients have to be a **rank-4 tensor**, because there is no reason to expect every combination of stress and strain direction to respond the same way. Four subscripts each running over 1, 2, 3 means 81 components &mdash; but symmetry cuts that down, usually to 21.
+
+How far it collapses depends on the material:
+
+- **Isotropic** &mdash; two constants suffice, the Lamé parameters $\lambda$ and $\mu$, equivalent to $E$ and $v$.
+- **Anisotropic** &mdash; how many you need depends on the crystal symmetry: cubic, hexagonal, tetragonal, orthorhombic, monoclinic, triclinic, in order of decreasing symmetry and increasing bookkeeping.
+
+Two more moduli follow from $E$ and $v$: the shear modulus $\mu = \sigma_s/\gamma$, and the bulk modulus $K = E/3(1-2\mu)$.
+
+$$\sigma_{ij} = C_{ijkl}\\,\epsilon_{kl}$$
+
+</div>
+<div>
+
+![](Module-iii-Theory/Lecture3-restored/s15-hexagonal-prism.png) <!-- .element style="width:66%;" -->
+
+<p class="caption">Hexagonal symmetry: one of the crystal classes that thins the 81 components down</p>
+
+</div>
+</div>
+
+<--o-->
+
+<!-- source: Lecture3_Rheology.pptx slide 16 · template: T3-text-and-image -->
+## Viscous Deformation
+<div class="cols">
+<div class="wide">
+
+Water, honey, oil and magma all flow, and so does hot rock &mdash; given geological time it accumulates permanent deformation and behaves like a fluid.
+
+What separates viscous from elastic is *what* the stress depends on. Elastic stress depends on strain; **viscous stress depends on strain rate**. Push harder and it does not deform further, it deforms faster:
+
+where $\eta$ is the viscosity (units Pa s), $\dot{e}$ the elongation rate and $\dot{\gamma}$ the shear strain rate. Whether $\eta$ stays constant is the difference between **Newtonian** and **power-law** flow, plotted on the right.
+
+$$\sigma_n = \eta\\,\dot{e} \qquad \sigma_s = \eta\\,\dot{\gamma}$$
+
+</div>
+<div>
+
+![](Module-iii-Theory/Lecture3-extracted/slide016_img2.gif) <!-- .element style="width:75%;" -->
+
+<p class="caption">Wikipedia</p>
+
+![](Module-iii-Theory/Lecture3-restored/s16-newtonian-powerlaw.png) <!-- .element style="width:78%;" -->
+
+<p class="caption">A power-law fluid has no single viscosity — the slope changes with strain rate · Fossen, 2011</p>
+
+</div>
+</div>
+
+Note:
+Viscous deformation can therefore be said to be time-dependent deformation; strain is not instant but accumulates over time 
+Viscous deformation implies dependence of stress on strain rate: higher stress means faster flow or more rapid strain accumulation. 
+Viscosity is a measure of the resistance of a fluid to deform under shear stress. 
+When pulling a stick out of a very viscous fluid like honey or tar, the slower you pull the less stress is required, and the faster you pull, the more stress is needed.
+
+<--o-->
+
+<!-- source: Lecture3_Rheology.pptx slide 17 · template: T1-prose -->
+## Some Viscous Materials
+Familiar liquids already span five orders of magnitude, from 0.001 to 100 Pa s, and viscosity depends strongly on temperature and composition. Then the range keeps going:
+
+- **ice** &mdash; around $10^{13}$ Pa s at 0 °C, rising to $10^{14}$ Pa s at &minus;10 °C
+- **the mantle** &mdash; $10^{18}$ to $10^{24}$ Pa s, flowing at 1&ndash;20 cm/yr
+
+Twenty-odd orders of magnitude separate water from the mantle, and the mantle still flows.
+
+
+<--v-->
+
+<!-- source: Lecture3_Rheology.pptx slide 18 · template: T3-text-and-image -->
+## One Drip Per Decade!
+<div class="cols">
+<div>
+
+![](Module-iii-Theory/Lecture3-extracted/slide018_img1.jpeg)
+
+
+</div>
+<div class="wide">
+
+The longest-running laboratory experiment in the world, at the University of Queensland. Thomas Parnell, UQ's first Professor of Physics, set it up in 1927 to show students that pitch &mdash; which shatters like a solid under a hammer &mdash; is really a fluid.
+
+**Nine drops in 87 years.** Its second custodian, John Mainstone, watched it for 52 years and never saw one fall; Andrew White has it now.
+
+<small>Web cam and images: [smp.uq.edu.au/content/pitch-drop-experiment](http://smp.uq.edu.au/content/pitch-drop-experiment)</small>
+
+</div>
+</div>
+
+<--o-->
+
+<!-- source: Lecture3_Rheology.pptx slide 19 · template: T3-text-and-image -->
+## Couette Flow (advanced)
+<div class="cols">
+<div class="wide">
+
+- Couette flow is the flow of a viscous fluid in the space between two surfaces, but one of the boundaries is moving at a fixed velocity (shearing). The boundary condition gives:
+- Next, we can find the strain rate in the fluid:
+- Based on flow law, we then have:
+
+$$u = u_0\left(1-\frac{y}{h}\right) \qquad \dot{\epsilon} = \frac{du}{dy} = -\frac{u_0}{h} \qquad \sigma = \eta\\,\dot{\epsilon} = -\frac{\eta u_0}{h}$$
+
+- Couette flow can be used to approximate the flow in the mantle be dragged (basal drag) by a moving tectonic plate at the surface above. Its solution provides strain-rate and shear stress below pate.
+
+</div>
+<div>
+
+![](Module-iii-Theory/Lecture3-extracted/slide019_img1.jpg) <!-- .element style="width:89%;" -->
+
+![](Module-iii-Theory/Lecture3-extracted/slide019_img2.jpg) <!-- .element style="width:91%;" -->
+
+<p class="caption">Fossen, 2011</p>
+
+</div>
+</div>
+
+<--o-->
+
+<!-- source: Lecture3_Rheology.pptx slide 20 · template: T3-text-and-image -->
+## Flow Down An Inclined Plane (advanced)
+<div class="cols">
+<div class="wide">
+
+A layer of fluid of thickness $h$ runs down a plane inclined at $\alpha$, driven purely by the component of gravity parallel to that surface.
+
+Two boundary conditions close the problem: shear stress is zero at the top, because it is a free surface, and velocity is zero at the base. Together they give the velocity profile:
+and differentiating it gives the strain rate:
+
+$$u = \frac{\rho g\sin\alpha}{\eta}\left(h^{2}-y^{2}\right)$$
+
+$$\dot{\epsilon}=\frac{du}{dy}=-\frac{\rho g\sin \alpha}{\eta}y$$
+
+- Article by Magali Billen (UC Davis) on viscous flow.
+
+</div>
+<div>
+
+![](Module-iii-Theory/Lecture3-extracted/slide020_img1.jpg) <!-- .element style="width:84%;" -->
+
+![](Module-iii-Theory/Lecture3-extracted/slide020_img2.jpg) <!-- .element style="width:84%;" -->
+
+<p class="caption">Magali Billen, UC Davis</p>
+
+</div>
+</div>
+
+<--o-->
+
+<!-- source: Lecture3_Rheology.pptx slide 21 · template: T3-text-and-image -->
+## Elastic Vs. Viscous Deformation
+<div class="cols">
+<div class="wide">
+
+- Elastic and viscous materials show different history of strain given applied stress.
+- The Maxwell time describes the relative importance of elastic and viscous behavior:
+- For a typical time range larger than the Maxwell time, the material deforms mainly in a viscous way. For typical values for the mantle ($\eta \approx 10^{21}$ Pa s and $E \approx 10^{11}$ Pa), the Maxwell time is on the order of 1000 years, so on geological timescales, the mantle behaves as a viscous fluid.
+
+$$t_M = \frac{\eta}{E}$$
+
+</div>
+</div>
+
+![](Module-iii-Theory/Lecture3-restored/s21-elastic-vs-viscous.png) <!-- .element style="display:block; margin-left:auto; margin-right:auto; width:96%" -->
+
+<p class="caption">Elastic strain follows the stress and is given back; viscous strain accumulates and is kept</p>
+
+Note:
+For a viscous material, consider that the stress is increased instantaneously, the response of the fluid is to start to flow at a proportional strain-rate. As time goes on the amount of strain in the fluid increases linearly. However, when the stress is returned to zero and the fluid stops moving(the strain-rate is zero), therefore the fluid can not flow back to its original position and instead there is permanent (no-recoverable) deformation. The fact the flow is not recovered does not mean it is not reversible. If the stress is reversed exactly the fluid can be returned to its original position.
+
+<--o-->
+
+<!-- source: Lecture3_Rheology.pptx slide 22 · the stress-strain curve was drawn
+     with native PowerPoint shapes, so nothing was extracted and only its nine
+     labels survived. Rescreenshotted. -->
+## Strain Hardening and Softening
+
+A plastic material is still cohesive past its **yield point** &mdash; it holds together, and can go on deforming with no further increase in stress. That is *perfect* plastic behaviour, and it is the exception rather than the rule.
+
+![](Module-iii-Theory/Lecture3-restored/s22-hardening-softening.png) <!-- .element style="display:block; margin-left:auto; margin-right:auto; width:70%" -->
+
+Real rocks usually take one of the other two paths:
+
+- **Strain hardening** &mdash; more stress is needed to keep going, because the rock has become stronger and harder to deform.
+- **Strain softening** &mdash; less stress is needed, and deformation runs away. This is the creep regime, and it is why shear zones localise.
+
+<--v-->
+
+<!-- source: Lecture3_Rheology.pptx slide 35 · template: T3-text-and-image -->
+## Plastic Deformation
+<div class="cols">
+<div>
+
+![](Module-iii-Theory/Lecture3-extracted/slide035_img1.jpg)
+
+</div>
+<div class="wide">
+
+- Plastic deformation is the permanent change in shape or size of a body without fracture, accumulated over time by a sustained stress beyond the elastic limit (yield point) of the material.
+- Different expression in $\sigma -\epsilon$ and $\sigma -\dot{\epsilon}$ plots.
+- When the stress is removed after a history of elastic–plastic deformation only the plastic strain will remain.
+
+</div>
+</div>
+
+
+<--o-->
+
+<!-- source: Lecture3_Rheology.pptx slide 23 · template: T3-text-and-image -->
+## Deformation Analog
+<div class="cols">
+<div class="wide">
+
+- Three major types of deformation:
+- A spring system for elastic deformation;
+- A dashpot system for viscous deformation;
+- A block resting on a friction surface for plastic deformation.
+- Rocks and other natural materials are rheologically complex and generally do not behave as perfect elastic, viscous or plastic materials. It may therefore be useful to combine these three types of deformations to describe natural rock deformation.
+
+</div>
+<div>
+
+![](Module-iii-Theory/Lecture3-extracted/slide023_img1.jpg)
+
+</div>
+</div>
+
+Note:
+Elastic: Linear stress–strain relationship; Instant response to stress; Non-permanent strain 
+Viscous: Linear stress–strain rate relationship; Stress depends on strain rate; Delayed response to stress (the more time, the more strain) ;Permanent strain 
+Plastic: Deforms at constant stress once the yield stress is achieved; Constant stress regardless of strain rate; Permanent strain
+
+<--v-->
+
+## A Ladder of Interface Laws
+
+![Ladder](images/UW-FaultExamples/ladder.png) <!-- .element style="display:block; margin-left:auto; margin-right:auto; width:66%" -->
+
+The same fault, the same shear drive — five different constitutive laws on the interface: frictionless, viscous, Coulomb-weak, rate-and-state, and fully stuck. The slip profile and the stress it leaves behind are completely different in each case.
+
+*The rheology is the model.* Everything you predict about a fault follows from the law you assign to it.
+
+<small>
+
+Underworld3 split-node fault computation (Moresi).
+
+</small>
+
+<--v-->
+
+<!-- source: Lecture3_Rheology.pptx slide 36 · template: T3-text-and-image -->
+## Deformation in Idealised Conditions
+
+The same three analogues, with what each one actually does spelled out.
+<div class="cols">
+<div>
+
+![](Module-iii-Theory/Lecture3-extracted/slide036_img1.jpg)
+
+</div>
+<div class="wide">
+
+&nbsp;
+
+</div>
+</div>
+
+
+<--o-->
+
+<!-- source: Lecture3_Rheology.pptx slide 24 · template: T3-text-and-image -->
+## Combined Models (advanced)
+![](Module-iii-Theory/Lecture3-restored/s24-combined-models.png) <!-- .element style="display:block; margin-left:auto; margin-right:auto; width:88%" -->
+
+<p class="caption">Prandtl, Bingham and Maxwell — each a spring, a dashpot and a slider combined differently, and the strain history each produces</p>
+
+<--o-->
+
+<!-- source: Lecture3_Rheology.pptx slide 25 · template: T3-text-and-image -->
+## Deformation Controlling Factors
+Raising the temperature lowers the yield stress: the rock weakens. Both marble and granite carry less differential stress as they heat, because temperature activates crystal-plastic mechanisms at the grain scale that were not available when cold.
+
+![](Module-iii-Theory/Lecture3-restored/s25-marble-granite.png) <!-- .element style="display:block; margin-left:auto; margin-right:auto; width:84%" -->
+
+<p class="caption">Marble (Fossen, 2011) and granite (Jaeger and Cook, 1979, Wiley): both weaken as they heat, and both cross from brittle failure to plastic flow</p>
+
+<--o-->
+
+<!-- source: Lecture3_Rheology.pptx slide 26 · template: T3-text-and-image -->
+## Effect of Confining Pressure
+<div class="cols">
+<div>
+
+![](Module-iii-Theory/Lecture3-restored/s26-confining-pressure.png) <!-- .element style="max-height:560px;" -->
+
+<p class="caption">Marble at confining pressures from 0 to 326 MPa: hardening at high pressure, softening at low · Jaeger and Cook, 1979 (Wiley)</p>
+
+</div>
+<div class="wide">
+
+Under high confining pressure a fracture is harder to open, so the rock is stronger &mdash; it strain-hardens, where at low confining pressure it would soften. The everyday version is moving your arms through water rather than through air.
+
+Closing those fractures also drives the fluid out, which strengthens the rock further.
+
+The consequence for depth: more confining pressure means more strain can accumulate before failure, which favours crystal-plastic mechanisms over brittle ones. That is why rock goes ductile as it gets deeper.
+
+</div>
+</div>
+
+<--o-->
+
+<!-- source: Lecture3_Rheology.pptx slide 27 · template: T6-two-image -->
+## Effect of Strain Rate
+<div class="cols">
+<div class="wide">
+
+Strain rate raises the flow stress: deform a rock faster and it behaves as a stronger rock. This is why laboratory stresses look so high &mdash; the strain rates a lab can reach are enormously faster than nature's, so far more stress has to be applied to get anywhere.
+
+It also means **less plastic strain accumulates**, because the rock is more likely to fracture before it has flowed very far.
+
+Read the other way round, this is why parts of the Earth behave viscously at all: not because the rock is weak, but because the strain rates are so low.
+
+</div>
+<div>
+
+![](Module-iii-Theory/Lecture3-extracted/slide027_img1.jpg) <!-- .element style="width:78%;" -->
+
+<p class="caption">Marble at 5 kbars and 500 °C, deformed at different rates &middot; Fossen, 2011</p>
+
+![](Module-iii-Theory/Lecture3-extracted/slide027_img2.jpg) <!-- .element style="width:16%;" -->
+
+</div>
+</div>
+
+<--v-->
+
+<!-- source: Lecture3_Rheology.pptx slide 34 · template: T3-text-and-image -->
+## Real Estimated Shear Strain Rates
+<div class="cols">
+<div>
+
+![](Module-iii-Theory/Lecture3-extracted/slide034_img1.jpg)
+
+<p class="caption">Fagereng and Biggs, 2019</p>
+
+</div>
+<div class="wide">
+
+&nbsp;
+
+</div>
+</div>
+
+
+<--o-->
+
+<!-- source: Lecture3_Rheology.pptx slide 28 · the Griggs graph had lost every
+     axis label and both curve labels into the body text; rescreenshotted. -->
+## Presence of Fluids
+
+- Fluid weakens rock: it lowers the yield stress and encourages crystal-plastic deformation, mostly by raising the **pore fluid pressure** and so lowering the effective confining pressure.
+- Fluid *composition* matters too, not only how much of it there is.
+
+<div class="cols">
+<div class="wide">
+
+![](Module-iii-Theory/Lecture3-restored/fluids-griggs.png)
+
+<p class="caption">Wet quartz yields at roughly a quarter of the stress dry quartz needs, at the same temperature &middot; Griggs, <em>GJI</em>, 1967</p>
+
+</div>
+<div>
+
+![](Module-iii-Theory/Lecture3-restored/fluids-porepressure.png)
+
+<p class="caption">Why: pore fluid carries part of the load, so less of it presses across the grain contacts &middot; Fossen, 2011</p>
+
+</div>
+</div>
+
+Note:
+Pore fluid pressure reduces the effective stress by creating stress at grain contacts in porous rocks.
+<--o-->
+
+<!-- source: Lecture3_Rheology.pptx slide 29 · template: T3-text-and-image -->
+## Effects of Foliation and Crystal Fabric
+- Experiment 1: foliations in the Marble perpendicular and parallel to stress direction.
+- Experiment 2: different directions of olivine crystals.
+
+![](Module-iii-Theory/Lecture3-restored/s29-foliation-olivine.png) <!-- .element style="display:block; margin-left:auto; margin-right:auto; width:92%" -->
+
+<p class="caption">Marble with its foliation across the stress and along it, and olivine loaded on three different crystal directions · Fossen, 2011</p>
+
+Note:
+A weak foliation in marble makes foli- ation-parallel extension more difficult (it takes a higher differential stress to obtain the same amount of strain). Note that the effect decreases with increasing temperature. 
+Stress–strain rate curves for dry olivine single crystals compressed in three different crystallographic directions. At any strain rate, deformation is easier for crystals shortened in the [110] direction, due to the lower strength of the (010)[100] slip system
+
+<--v-->
+
+<!-- source: Lecture3_Rheology.pptx slide 37 · template: T3-text-and-image -->
+## Recap — what controls the deformation
+
+Pulling together the last five slides &mdash; temperature, confining pressure, strain rate, fluids and fabric.
+<div class="cols">
+<div class="wide">
+
+- Increasing the temperature, increasing the amount of fluid, lowering the strain rate and, in plastically deforming rocks, reducing the grain size all tend to cause strain weakening.
+
+- Experiments on Mars Bar:
+- High temperature favors ductile deformation (folding).
+- Low temperature favors brittle deformation (fractures).
+- Different materials have different strengths.
+
+</div>
+<div>
+
+![](Module-iii-Theory/Lecture3-extracted/slide037_img2.jpg)
+
+![](Module-iii-Theory/Lecture3-extracted/slide037_img1.jpg)
+
+<p class="caption">Mars Bar experiments · Roderick Brown, U Glasgow</p>
+
+</div>
+</div>
+
+
+<--o-->
+
+<!-- source: Lecture3_Rheology.pptx slide 30 · template: T3-text-and-image -->
+## Rheology of the Lithosphere: Three Minerals, Three Depths
+
+[Module 1.3 §9](Module-i-GlobalTectonics-3.reveal.html#/9) already walks through the deformation map and the brittle&ndash;ductile transition. What is added here are the **mineral-specific depths** &mdash; which phase gives way first, and where.
+<div class="cols">
+<div class="wide">
+
+Rocks and minerals respond differently to the same stress, depending on crystallographic fabric, temperature, fluids, strain rate and pressure. What matters for the lithosphere is that quartz and feldspar dominate the crust while olivine controls the upper mantle &mdash; and each stops being brittle at a different depth:
+
+- **quartz** &mdash; brittle to about 300&ndash;350 °C, which on a typical continental geotherm is 10&ndash;12 km
+- **feldspar** &mdash; brittle to about 500 °C, or 20&ndash;30 km
+- **olivine** &mdash; brittle to about 50 km
+
+Three minerals, three transitions, stacked one above the other. That is why lithospheric strength is not a single curve.
+
+</div>
+<div>
+
+![](Module-iii-Theory/Lecture3-extracted/slide030_img1.jpg) <!-- .element style="width:69%;" -->
+
+<p class="caption">Fossen, 2011</p>
+
+</div>
+</div>
+
+Note:
+Elastic deformation is the dominant form of deformation at shallow depths in the crust and lithosphere because both the temperature and pressure are low. However the crust and lithosphere are also brittle and when the stress is big enough, failure by fracture or frictional sliding also occurs (bending at the subduction zones; deep earthquakes down to 500-600 km depth). 
+Viscous and plastic deformation typically occur deeper and at higher pressures and temperatures than elastic deformation. In between the shallow elastic region and deeper viscous region there is a region that deforms through both mechanisms (both mechanisms accommodate roughly equal amounts of deformation). This region is referred to as the brittle-ductile transition. 
+While elastic theory may work well for very small strains in the upper crust, heated rocks tend to flow and accumulate permanent deformation, and sometimes very large permanent strains. In this context it is useful to consider how fluids respond to stress.
+
+
+<--o-->
+
+<!-- source: Lecture3_Rheology.pptx slide 31 · template: T3-text-and-image -->
+## Rheology of the Lithosphere: the Brittle&ndash;Plastic Transition
+<div class="cols">
+<div>
+
+![](Module-iii-Theory/Lecture3-extracted/slide031_img1.jpg)
+
+<p class="caption">Fossen, 2011</p>
+
+</div>
+<div class="wide">
+
+The **brittle&ndash;plastic** (ductile) transition is the zone between the shallow elastic region and the deeper viscous one, where both mechanisms operate at once.
+
+In continental crust it is rarely a sharp boundary. It is gradual, and it can recur &mdash; a wide zone whose position reflects composition, temperature, confining pressure and fluids all together, which is exactly the list of controls this lecture has been working through.
+
+</div>
+</div>
+
+Note:
+The crust is not monomineralic, but it is generally assumed that there is enough quartz in the continental crust to control its rheology. This means that even if feldspar is still brittle at 15–20 km, quartz is sufficiently represented and distributed that the crust is predominantly deforming plastically even at 10–12 km. However, if the stronger mineral feldspar becomes rheolo- gically dominant at some depth, the flow law for feldspar becomes important (Figure 6.19a). In the olivine-domin- ated mantle, olivine is even stronger and defines a new intercept with the brittle strength curve. Hence, varying mineralogical composition through the lithosphere can lead to several layers of alternating brittle and plastic rheol- ogies, known as rheologic stratification 
+
+
+Elastic deformation is the dominant form of deformation at shallow depths in the crust and lithosphere because both the temperature and pressure are low. However the crust and lithosphere are also brittle and when the stress is big enough, failure by fracture or frictional sliding also occurs (bending at the subduction zones; deep earthquakes down to 500-600 km depth). 
+Viscous and plastic deformation typically occur deeper and at higher pressures and temperatures than elastic deformation.
+
+
+<--o-->
+
+<!-- source: Lecture3_Rheology.pptx slide 32 · template: T1-prose -->
+## Summary
 - The concept of rheology
-- Idealized form of deformation: elastic and viscous
-- Two important parameters for elastic deformation: Young's Modulus and Poisson's ratio
+- Idealised form of deformation: elastic and viscous
+- Two important parameters for elastic deformation:
+- Young's Modulus and Poisson's ratio
 - Viscosity to describe viscous deformation and several types of flows
+- Plastic deformation and yield strength
 - Main physical factors controlling the deformation
-- Some deformation mechanisms
+- Rheology of the lithosphere
 
-<--o-->
 
-<!-- .slide: data-background="Module-iii-Theory/Figures-Theory3/slide1.jpg" -->
-
-<--o-->
-
-<!-- .slide: data-background="Module-iii-Theory/Figures-Theory3/slide2.jpg" -->
-
-<--o-->
-
-<!-- .slide: data-background="Module-iii-Theory/Figures-Theory3/slide3.jpg" -->
-
-<--o-->
-
-<!-- .slide: data-background="Module-iii-Theory/Figures-Theory3/slide4.jpg" -->
-
-<--o-->
-
-<!-- .slide: data-background="Module-iii-Theory/Figures-Theory3/slide5.jpg" -->
-
-<--o-->
-
-<!-- .slide: data-background="Module-iii-Theory/Figures-Theory3/slide6.jpg" -->
-
-<--o-->
-
-<!-- .slide: data-background="Module-iii-Theory/Figures-Theory3/slide7.jpg" -->
-
-<--o-->
-
-<!-- .slide: data-background="Module-iii-Theory/Figures-Theory3/slide8.jpg" -->
-
-<--o-->
-
-<!-- .slide: data-background="Module-iii-Theory/Figures-Theory3/slide9.jpg" -->
-
-<--o-->
-
-<!-- .slide: data-background="Module-iii-Theory/Figures-Theory3/slide10.jpg" -->
-
-<--o-->
-
-<!-- .slide: data-background="Module-iii-Theory/Figures-Theory3/slide11.jpg" -->
-
-<--o-->
-
-<!-- .slide: data-background="Module-iii-Theory/Figures-Theory3/slide12.jpg" -->
-
-<--o-->
-
-<!-- .slide: data-background="Module-iii-Theory/Figures-Theory3/slide13.jpg" -->
-
-<--o-->
-
-<!-- .slide: data-background="Module-iii-Theory/Figures-Theory3/slide14.jpg" -->
-
-<--o-->
-
-<!-- .slide: data-background="Module-iii-Theory/Figures-Theory3/slide15.jpg" -->
-
-<--o-->
-
-<!-- .slide: data-background="Module-iii-Theory/Figures-Theory3/slide16.jpg" -->
-
-<--o-->
-
-<!-- .slide: data-background="Module-iii-Theory/Figures-Theory3/slide17.jpg" -->
-
-<--o-->
-
-<!-- .slide: data-background="Module-iii-Theory/Figures-Theory3/slide18.jpg" -->
-
-<--o-->
-
-<!-- .slide: data-background="Module-iii-Theory/Figures-Theory3/slide19.jpg" -->
-
-<--o-->
-
-<!-- .slide: data-background="Module-iii-Theory/Figures-Theory3/slide20.jpg" -->
-
-<--o-->
-
-<!-- .slide: data-background="Module-iii-Theory/Figures-Theory3/slide21.jpg" -->
-
-<--o-->
-
-<!-- .slide: data-background="Module-iii-Theory/Figures-Theory3/slide22.jpg" -->
-
-<--o-->
-
-<!-- .slide: data-background="Module-iii-Theory/Figures-Theory3/slide23.jpg" -->
-
-<--o-->
-
-<!-- .slide: data-background="Module-iii-Theory/Figures-Theory3/slide24.jpg" -->
-
-<--o-->
-
-<!-- .slide: data-background="Module-iii-Theory/Figures-Theory3/slide25.jpg" -->
-
-<--o-->
-
-<!-- .slide: data-background="Module-iii-Theory/Figures-Theory3/slide26.jpg" -->
-
-<--o-->
-
-<!-- .slide: data-background="Module-iii-Theory/Figures-Theory3/slide27.jpg" -->
-
-<--o-->
-
-<!-- .slide: data-background="Module-iii-Theory/Figures-Theory3/slide28.jpg" -->
-
-<--o-->
-
-<!-- .slide: data-background="Module-iii-Theory/Figures-Theory3/slide29.jpg" -->

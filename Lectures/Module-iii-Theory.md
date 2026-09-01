@@ -10,27 +10,27 @@ The slides have been converted from the original PowerPoint to the same html / j
 
 The first part of this module introduces the concept of stress, stress tensor, the derivation and application of Mohr circle and the methods to measure stress inside the Earth.
 
-<iframe src="../slideshows/Module-iii-lecture1-Theory-draft.reveal.html" title="Slideshow" width=100%, height=470, allowfullscreen></iframe>
+<iframe src="../slideshows/Module-iii-lecture1-Theory.reveal.html" title="Slideshow" width=100%, height=470, allowfullscreen></iframe>
 
-<a href="/slideshows/Module-iii-lecture1-Theory-draft.reveal.html" target="_blank" rel="noopener">Open the slides in a new tab</a> &nbsp;·&nbsp; <a href="/slideshows/Module-iii-lecture1-Theory-draft.reveal.html?print-pdf" target="_blank" rel="noopener">Build your own PDF</a>
+<a href="/slideshows/Module-iii-lecture1-Theory.reveal.html" target="_blank" rel="noopener">Open the slides in a new tab</a> &nbsp;·&nbsp; <a href="/slideshows/Module-iii-lecture1-Theory.reveal.html?print-pdf" target="_blank" rel="noopener">Build your own PDF</a>
 
 
 ### Strain and Strain Rate
 
 The next part of the module covers the topic of strain and strain rate, their tensor expression and introduces the strain classification and general methods for strain analysis.
 
-<iframe src="../slideshows/Module-iii-lecture2-Theory-draft.reveal.html" title="Slideshow" width=100%, height=470, allowfullscreen></iframe>
+<iframe src="../slideshows/Module-iii-lecture2-Theory.reveal.html" title="Slideshow" width=100%, height=470, allowfullscreen></iframe>
 
-<a href="/slideshows/Module-iii-lecture2-Theory-draft.reveal.html" target="_blank" rel="noopener">Open the slides in a new tab</a> &nbsp;·&nbsp; <a href="/slideshows/Module-iii-lecture2-Theory-draft.reveal.html?print-pdf" target="_blank" rel="noopener">Build your own PDF</a>
+<a href="/slideshows/Module-iii-lecture2-Theory.reveal.html" target="_blank" rel="noopener">Open the slides in a new tab</a> &nbsp;·&nbsp; <a href="/slideshows/Module-iii-lecture2-Theory.reveal.html?print-pdf" target="_blank" rel="noopener">Build your own PDF</a>
 
 
 ### Rheology
 
 The last part of the module explores the relationship between stress and strain, i.e. the rheological property of rock materials.
 
-<iframe src="../slideshows/Module-iii-lecture3-Theory-draft.reveal.html" title="Slideshow" width=100%, height=470, allowfullscreen></iframe>
+<iframe src="../slideshows/Module-iii-lecture3-Theory.reveal.html" title="Slideshow" width=100%, height=470, allowfullscreen></iframe>
 
-<a href="/slideshows/Module-iii-lecture3-Theory-draft.reveal.html" target="_blank" rel="noopener">Open the slides in a new tab</a> &nbsp;·&nbsp; <a href="/slideshows/Module-iii-lecture3-Theory-draft.reveal.html?print-pdf" target="_blank" rel="noopener">Build your own PDF</a>
+<a href="/slideshows/Module-iii-lecture3-Theory.reveal.html" target="_blank" rel="noopener">Open the slides in a new tab</a> &nbsp;·&nbsp; <a href="/slideshows/Module-iii-lecture3-Theory.reveal.html?print-pdf" target="_blank" rel="noopener">Build your own PDF</a>
 
 
 ## Resources

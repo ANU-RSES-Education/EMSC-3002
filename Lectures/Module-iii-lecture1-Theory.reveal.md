@@ -1,214 +1,1474 @@
 ---
-title: Theory 1
+title: Theory 1 (draft — reveal conversion)
 separator: '<--o-->'
 verticalSeparator: '<--v-->'
 revealOptions:
     transition: 'fade'
     slideNumber: true
-    width:  1200
+    width: 1200
     height: 800
-    margin: 0.07 # Factor of the display size that should remain empty around the content (7% typically)
+    margin: 0.07
 ---
 
+<!-- DO NOT REGENERATE: converted from Lecture1_Stress.pptx (2026-07), then hand-edited.
+     This markdown is now the source of truth; re-running the pptx converter
+     would overwrite that work. See tools/pptx2reveal/README.md. -->
+
+<!-- source: Lecture1_Stress.pptx slide 1 · template: T-title -->
 # EMSC 3002
 
 ## Module3.1 - Stress
 
   - Louis Moresi (convenor)
-  - Romain Beucher (lecturer)
-  - **Chengxin Jiang** (lecturer)
+  - Chengxin Jiang (lecturer)
+  - Romain Beucher (former lecturer)
   - Stephen Cox (curriculum advisor)
 
 Australian National University
 
-_**NB:** the course materials provided by the authors are open source under a creative commons licence. 
-We acknowledge the contribution of the community in providing other materials and we endeavour to 
-provide the correct attribution and citation. Please contact louis.moresi@anu.edu.au for updates and 
-corrections._
+_**NB:** the course materials provided by the authors are open source under a creative commons licence. We acknowledge the contribution of the community in providing other materials and we endeavour to provide the correct attribution and citation. Please contact louis.moresi@anu.edu.au for updates and corrections._
 
 <small>Reading these on your own? Press **O** for the overview, and **&darr;** as well as **&rarr;** &mdash; some slides sit below this one. <a href="../lecture-1-introduction/#navigating-the-slides" target="_blank" rel="noopener">How to navigate the slides</a></small>
 
 <--o-->
 
+<!-- source: Lecture1_Stress.pptx slide 2 · template: T-resources -->
 ## Resources
 
-1. **Fossen, H, 2011.** *Structural Geology.* Cambridge University Press, 2nd Edition. [E-learning modules](https://folk.uib.no/nglhe/module4/Chapt4module.html)
-1. **van der Pluijm, B.A. and Marshak, S., 2003.** *Earth Structure: an introduction to structural geology and tectonics.* W. W. Norton & Company, Ltd.
-1. **Davis, G.H. and Reynolds, S.J., 1996.** *Structural Geology of Rocks and Regions.* 2nd Edition, John Wiley & Sons. 
-1. **Park, R.G., 1995.** *Foundations of Structural Geology.* Blackie & Sons Ltd. 
+1. Fossen, H, 2011. Structural Geology. Cambridge University Press, 2nd Edition. E-learning modules.
+1. van der Pluijm, B.A. and Marshak, S., 2003. Earth Structure: an introduction to structural geology and tectonics. W. W. Norton & Company, Ltd.
+1. Davis, G.H. and Reynolds, S.J., 1996. Structural Geology of Rocks and Regions. 2nd Edition, John Wiley & Sons.
+1. Park, R.G., 1995. Foundations of Structural Geology. Blackie & Sons Ltd.
 
 <--o-->
 
+<!-- ILO placeholder — not in the pptx; fill in -->
 ## What you will learn in this module
 
-What you will learn about stress.
-
-- The general concept of force and stress
-- Express the stress state in 2D and 3D
-- Computing traction vector along a plane using stress tensor
-- Derivation and usage of the Mohr circle
-- How we measure stress inside the Earth
+- Build on general concepts of force / stress
+- Express the stress state in 2D / 3D
+- Compute traction on a plane
+- Derivation and use of the Mohr Circle
+- How we measure stresses in the Earth
 
 <--o-->
 
-<!-- .slide: data-background="Module-iii-Theory/Figures-Theory1/slide1.jpg" -->
+<!-- source: Lecture1_Stress.pptx slides 3-4 · template: T4-full-figure (screenshot of the original slide) -->
+<!-- .slide: data-background="Module-iii-Theory/faults-and-folds.jpg" data-background-size="contain" data-background-color="#ffffff" -->
 
 <--o-->
 
-<!-- .slide: data-background="Module-iii-Theory/Figures-Theory1/slide2.jpg" -->
+<!-- source: Lecture1_Stress.pptx slide 5 · template: T3-text-and-image -->
+## Deformation and Stress
+<div class="cols">
+<div class="wide">
+
+- Structural geology is concerned with the permanent deformation that produces structures such as folds and faults in rocks.
+- If a rock fails by fracturing and loses cohesion, it is brittle.
+- If the rock deforms without losing cohesion and retains intricate shapes when forces stop acting, the rock displays a permanent strain and is ductile.
+- All results of applied stress → Dynamic analysis.
+
+<small>*↩ You first met stress, strain & rheology in [Module 1.3 — Stress, Strain & Strength](Module-i-GlobalTectonics-3.reveal.html).*</small>
+
+</div>
+<div>
+
+![](Module-iii-Theory/Lecture1-extracted/slide005_img1.jpg)
+
+<p class="caption">Source: Prof. Jean-Pierre Bug (JPB), ETH</p>
+
+</div>
+</div>
 
 <--o-->
 
-<!-- .slide: data-background="Module-iii-Theory/Figures-Theory1/slide3.jpg" -->
+<!-- source: Lecture1_Stress.pptx slide 6 · template: T3-text-and-image -->
+## Importance of Knowing Stress State
+
+- Predicting when, where and how a failure happens (with detailed knowledge of other physical properties, such as composition, temperature etc).
+- Geotechnical engineering, e.g., building tunnels and highways
+- Earthquake hazards …
+
+<div class="cols">
+<div>
+
+![](Module-iii-Theory/Lecture1-extracted/slide006_img1.jpg) <!-- .element style="max-height:380px;" -->
+
+<p class="caption">ANU Tunnel</p>
+
+</div>
+<div>
+
+![](Module-iii-Theory/Lecture1-extracted/slide006_img2.jpg) <!-- .element style="max-height:380px;" -->
+
+<p class="caption">Image: Prof. M. S. Paterson</p>
+
+</div>
+</div>
 
 <--o-->
 
-<!-- .slide: data-background="Module-iii-Theory/Figures-Theory1/slide4.jpg" -->
+<!-- source: Lecture1_Stress.pptx slide 7 · template: T3-text-and-image (apples replaced by authored figure) -->
+## Body and Surface Forces
+<div class="cols">
+<div>
+
+![](Module-iii-Theory/Lecture1-extracted/slide007_img3.jpeg) <!-- .element style="width:89%;" -->
+
+![](Module-iii-Theory/body_force_surface_force_apples.png)
+
+</div>
+<div class="wide">
+
+- Body force: a force that acts throughout the volume of a body, e.g., gravity force, electro-magnetic force etc.
+- Surface force: acts across an internal or external surface element in a material body.
+
+</div>
+</div>
 
 <--o-->
 
-<!-- .slide: data-background="Module-iii-Theory/Figures-Theory1/slide5.jpg" -->
+<!-- source: Lecture1_Stress.pptx slide 8 · template: T3-text-and-image -->
+## Stress
+<div class="cols">
+<div class="wide">
 
-<--o-->
-<!-- .slide: data-background="Module-iii-Theory/Figures-Theory1/slide6.jpg" -->
+- Stress arises from a force applied to a given area
+- Stress = Force/Area (N/m<sup>2</sup> = Pa)
+- Mechanical properties of a material are expressed in terms of the three independent, physical dimensions, length [L], mass [M], and time [T].
 
-<--o-->
+- Other useful stress units:
+- 1 Pa = 1 N/m<sup>2</sup> = 1 kg/(ms<sup>2</sup>)
+- 1 bar = 10<sup>5</sup> Pa = 0.1 MPa ≈ 1 atmosphere
+- 1 kbar = 1000 bar = 10<sup>8</sup> Pa = 100 MPa = 0.1 GPa
 
-<!-- .slide: data-background="Module-iii-Theory/Figures-Theory1/slide7.jpg" -->
+</div>
+<div>
 
-<--o-->
+![](Module-iii-Theory/Lecture1-extracted/slide008_img1.jpg)
 
-<!-- .slide: data-background="Module-iii-Theory/Figures-Theory1/slide8.jpg" -->
+<p class="caption">Davis and Reynolds, 2011</p>
 
-<--o-->
+![](Module-iii-Theory/stress-sign-convention.png) <!-- .element style="max-height:260px;" -->
 
-<!-- .slide: data-background="Module-iii-Theory/Figures-Theory1/slide9.jpg" -->
-
-<--o-->
-
-<!-- .slide: data-background="Module-iii-Theory/Figures-Theory1/slide10.jpg" -->
-
-<--o-->
-
-<!-- .slide: data-background="Module-iii-Theory/Figures-Theory1/slide11.jpg" -->
-
-<--o-->
-
-<!-- .slide: data-background="Module-iii-Theory/Figures-Theory1/slide12.jpg" -->
+</div>
+</div>
 
 <--o-->
 
-<!-- .slide: data-background="Module-iii-Theory/Figures-Theory1/slide13.jpg" -->
+<!-- source: Lecture1_Stress.pptx slide 9 · template: T1-prose -->
+## Stress Inside the Earth
+
+We know Stress = Force/Area (N / m<sup>2</sup>  $\equiv$ Pa)
+
+Assuming continental rocks have an average density $\rho$ of $2.7\times 10^3$ kg/m$^3$, estimate the pressure/stress at 1 km depth.
+
+ - Gravity Force G = $mg$= $\rho V g$ = $\rho (zA)g$
+ - where $g$ gravitational acceleration (9.8 m/s<sup>2</sup>); $z$ depth (1 km); A contact area.
+ - Then, stress = G/A = $\rho z g$ = 2.7 $\times 10^3 \times 9.8 \times 1000 \approx$ 26.5 MPa
+
+<--v-->
+
+<!-- source: Lecture1_Stress.pptx slide 10 · template: T4-full-figure (bullets deduplicated against previous slide) -->
+## Stress Inside the Earth: Reaching Those Pressures in the Lab
+
+Stress = = G/A = $\rho z g$ = 2.7 $\times 10^3 \times 9.8 \times 1000 \approx$ 26.5 MPa
+
+<div class="cols">
+<div class="wide">
+
+![](Module-iii-Theory/Lecture1-extracted/slide010_img1.jpg) <!-- .element style="max-height:420px;" -->
+
+<p class="caption">Fossen, 2010</p>
+
+</div>
+<div>
+
+![](Module-iii-Theory/Lecture1-extracted/slide010_img3.jpg) <!-- .element style="max-height:420px;" -->
+
+<p class="caption">D-DIA</p>
+
+</div>
+<div>
+
+![](Module-iii-Theory/Lecture1-extracted/slide010_img2.jpg) <!-- .element style="max-height:420px;" -->
+
+<p class="caption">Diamond-anvil cell</p>
+
+</div>
+</div>
 
 <--o-->
 
-<!-- .slide: data-background="Module-iii-Theory/Figures-Theory1/slide14.jpg" -->
+<!-- source: Lecture1_Stress.pptx slide 11 · template: T3-text-and-image -->
+## Stress State in 2D
+
+- Like force, stress is also a vector quantity → magnitude and direction.
+- An oblique force (F) acting on a small area may be resolved into a normal stress ($\sigma_n$) and a shear stress ($\sigma_s$).
+- Shear stress and normal stress vary as a function of plane orientation.
+- Stress ellipse (including its orientation) describes everything about 2D stress state
+
+<div class="cols">
+<div>
+
+![](Module-iii-Theory/Lecture1-extracted/slide011_img1.jpg) <!-- .element style="max-height:380px;" -->
+
+<p class="caption">Fossen, 2010</p>
+
+</div>
+<div>
+
+![](Module-iii-Theory/Lecture1-extracted/slide011_img2.jpg) <!-- .element style="max-height:380px;" -->
+
+<p class="caption">Two-dimensional illustration of stress at a point · Fossen, 2010</p>
+
+</div>
+</div>
 
 <--o-->
 
-<!-- .slide: data-background="Module-iii-Theory/Figures-Theory1/slide15.jpg" -->
+<!-- source: Lecture1_Stress.pptx slide 12 · template: T3-text-and-image -->
+## Stress State in 3D
+<div class="cols">
+<div class="wide">
+
+We need three orthogonal surfaces to describe a complete state of force at any point (for a continuous medium). The complete stress state is described by three 3-component vectors ⇒ tensor.
+
+$$
+\boldsymbol{\sigma} = \left[ \begin{matrix} \sigma_{xx} & \sigma_{xy} & \sigma_{xz} \cr \sigma_{yx} & \sigma_{yy} & \sigma_{yz} \cr \sigma_{zx} & \sigma_{zy} & \sigma_{zz} \end{matrix} \right] =\left[ \begin{matrix} \vec{T}_x \cr \vec{T}_y \cr \vec{T}_z \end{matrix} \right]
+$$
+
+The stress tensor is symmetric as no net rotation from shear stresses. It now becomes: 
+ 
+$$\left[ \begin{matrix} \sigma_{xx} & \sigma_{xy} & \sigma_{xz} \cr \sigma_{xy} & \sigma_{yy} & \sigma_{yz} \cr \sigma_{xz} & \sigma_{yz} & \sigma_{zz} \end{matrix} \right]$$
+
+</div>
+<div>
+
+![](Module-iii-Theory/vector-in-3d.png) <!-- .element style="max-height:280px;" -->
+
+![](Module-iii-Theory/Lecture1-extracted/slide012_img1.jpg) <!-- .element style="max-height:340px;" -->
+
+<p class="caption">The stress components acting on the faces of a small cube · Fossen, 2010</p>
+
+</div>
+</div>
 
 <--o-->
 
-<!-- .slide: data-background="Module-iii-Theory/Figures-Theory1/slide16.jpg" -->
+<!-- source: Lecture1_Stress.pptx slide 13 · template: T3-text-and-image -->
+## Stress on a Plane via Stress Tensor
+<div class="cols">
+<div class="wide">
+
+The stress tensor describes the most general case.
+
+$$\boldsymbol{\sigma} = \left[ \begin{matrix} \sigma_{xx} & \sigma_{xy} & \sigma_{xz} \cr \sigma_{yx} & \sigma_{yy} & \sigma_{yz} \cr \sigma_{zx} & \sigma_{zy} & \sigma_{zz} \end{matrix} \right]  = \left[ \begin{matrix} \vec{T}_x \cr \vec{T}_y \cr \vec{T}_z \end{matrix} \right]$$
+
+If we cut out a plane through a material that is under stress, then there is a traction vector (a force) on this plane that results from the unbalanced stresses.
+
+The traction can be computed using the stress tensor ($\vec{n}$ is the unit vector normal to the plane):
+ 
+$$\vec{T} _ i = \sum _ {j} \sigma_{ij} \\, n_j = \boldsymbol{\sigma} \cdot \vec{n}$$
+
+The stress components acting on the faces of a small cube
+
+</div>
+<div>
+
+![](Module-iii-Theory/Lecture1-extracted/slide013_img1.jpg)
+
+<p class="caption">$\vec{n}$ · Fossen, 2010</p>
+
+</div>
+</div>
 
 <--o-->
 
-<!-- .slide: data-background="Module-iii-Theory/Figures-Theory1/slide17.jpg" -->
+<!-- source: Lecture1_Stress.pptx slide 14 · template: T3-text-and-image (fault diagram restored from original slide) -->
+## Example: Computing Traction Vector
+<div class="cols">
+<div class="wide">
+
+Suppose we are given the components of the stress tensor:
+
+$$\boldsymbol{\sigma} = \left[ \begin{matrix} \sigma_{xx} & \sigma_{xy} \cr \sigma_{yx} & \sigma_{yy} \end{matrix} \right] = \left[ \begin{matrix} -40 & -10 \cr -10 & -60 \end{matrix} \right] \textrm{MPa}$$
+
+Assuming this is a 2D problem, let us compute the forces acting across a fault oriented at 45º from the east direction.
+
+</div>
+<div>
+
+![](Module-iii-Theory/fault-45-example.png) <!-- .element style="max-height:560px;" -->
+
+</div>
+</div>
+
+<--v-->
+
+<!-- source: Lecture1_Stress.pptx slide 16 · template: T3-text-and-image (fault diagram restored; pptx slide 15, a progressive-reveal duplicate, folded in) -->
+## Example: Computing Traction Vector — Worked
+<div class="cols">
+<div class="wide">
+
+$$\boldsymbol{\sigma} = \left[ \begin{matrix} \sigma_{xx} & \sigma_{xy} \cr \sigma_{yx} & \sigma_{yy} \end{matrix} \right] = \left[ \begin{matrix} -40 & -10 \cr -10 & -60 \end{matrix} \right] \textrm{ MPa }$$
+
+For a fault oriented at 45º from the east direction, ${\vec{n}} = \left[ 1/\surd{2} \\;\\; 1/\surd{2} \right] \approx [ 0.7 \\;\\; 0.7]$ 
+
+The formula to find the traction vector is $\vec{T}_i=\sigma \cdot \vec{n}$
+
+Perform matrix multiplication:
+
+$$\vec{T}=\left[ \begin{matrix} -40 & -10 \cr -10 & -60 \end{matrix} \right]\left[ \begin{matrix} 0.7 \cr 0.7 \end{matrix} \right] = \left[ \begin{matrix} -35 \cr -49 \end{matrix} \right] \textrm{MPa}$$
+
+Projecting the vector along the fault plane to find the normal component $\vec{T} \cdot \vec{n}$ (-58.8 MPa) and shear component $\vec{T}\cdot\vec{f}$ (9.8 MPa).
+
+</div>
+<div>
+
+![](Module-iii-Theory/fault-45-example.png) <!-- .element style="max-height:560px;" -->
+
+</div>
+</div>
+
+<--v-->
+
+## What the Fault Actually Feels
+
+![FaultFrame](images/UW-FaultExamples/fault-frame.gif) <!-- .element style="display:block; margin-left:auto; margin-right:auto; width:82%" -->
+
+The worked example above, done at every orientation at once. A small fault is turned through a fixed stress field, and at each angle we resolve the traction $\vec T = \boldsymbol{\sigma}\cdot\hat n$ onto the fault's **own** axes — the push *across* it, $\sigma_n$, and the drag *along* it, $\tau$.
+
+A fault has no opinion about north. Those two numbers are all it knows about the entire tensor. Everything else in $\boldsymbol{\sigma}$ describes planes this fault does not occupy.
+
+Watch where $\tau$ passes through zero: at those two orientations the traction is purely a push, along the normal. Nothing was assumed — the sweep *found* the principal directions.
+
+<small>
+
+Underworld3 split-node fault computation (Moresi). Each point is a separate welded-fault solve; the same 25 solves drive the Mohr construction later in this lecture.
+
+</small>
+
+<--v-->
+
+<!-- source: Lecture1_Stress.pptx slide 14 · matrix-multiplication review, split onto a vertical slide -->
+
+## Aside — Review of matrix multiplication.
+
+The special case of dot product of two vectors:
+
+$$ A = [ 1 \quad 5 ], \quad B = [2 \quad 3], \qquad A \cdot B = 1 \times 2 + 5 \times 3 = 17 $$
+
+or 
+
+$$ \left[\begin{matrix} 1 &   5 \end{matrix} \right] \cdot
+   \left[ \begin{matrix} 2 \cr 3 \end{matrix} \right]  = \left[ 17 \right] $$
+
+![](Module-iii-Theory/Lecture1-extracted/slide014_img1.png) <!-- .element style="max-height:420px;" -->
+
+<p class="caption">Wikipedia</p>
+
 
 <--o-->
+## Principal Stresses
 
-<!-- .slide: data-background="Module-iii-Theory/Figures-Theory1/slide18.jpg" -->
-
-<--o-->
-
-<!-- .slide: data-background="Module-iii-Theory/Figures-Theory1/slide19.jpg" -->
-
-<--o-->
-
-<!-- .slide: data-background="Module-iii-Theory/Figures-Theory1/slide20.jpg" -->
-
-<--o-->
-
-<!-- .slide: data-background="Module-iii-Theory/Figures-Theory1/slide21.jpg" -->
-
-<--o-->
-
-<!-- .slide: data-background="Module-iii-Theory/Figures-Theory1/slide22.jpg" -->
-
-<--o-->
-
-<!-- .slide: data-background="Module-iii-Theory/Figures-Theory1/slide23.jpg" -->
-
-<--o-->
-
-<!-- .slide: data-background="Module-iii-Theory/Figures-Theory1/slide24.jpg" -->
-
-<--o-->
-
-<!-- .slide: data-background="Module-iii-Theory/Figures-Theory1/slide25.jpg" -->
-
-<--o-->
-
-<!-- .slide: data-background="Module-iii-Theory/Figures-Theory1/slide26.jpg" -->
-
-<--o-->
-
-<!-- .slide: data-background="Module-iii-Theory/Figures-Theory1/slide27.jpg" -->
-
-<--o-->
-
-<!-- .slide: data-background="Module-iii-Theory/Figures-Theory1/slide28.jpg" -->
-
-<--o-->
-
-<!-- .slide: data-background="Module-iii-Theory/Figures-Theory1/slide29.jpg" -->
-
-<--o-->
-
-<!-- .slide: data-background="Module-iii-Theory/Figures-Theory1/slide30.jpg" -->
-
-<--o-->
-
-<!-- .slide: data-background="Module-iii-Theory/Figures-Theory1/slide31.jpg" -->
-
-<--o-->
-
-<!-- .slide: data-background="Module-iii-Theory/Figures-Theory1/slide32.jpg" -->
-
-<--o-->
-
-<!-- .slide: data-background="Module-iii-Theory/Figures-Theory1/slide33.jpg" -->
-
-<--o-->
-
-## HOW WE MEASURE STRESS
-***Hydraulic fracturing*** is frequently applied to petroleum reservoirs to increase the near-well permeability and it means increasing the fluid pressure until the rock fractures. It relies on the theory that pore fluid pressure reduces the effective stress, which is the stress at grain contacts in porous rocks.
+At any point in a stressed material there is one special set of three, mutually perpendicular directions in which all the shear stresses vanish and only pushes (or pulls) remain. These are the **principal directions**, and the corresponding stresses — $\sigma_1 \ge \sigma_2 \ge \sigma_3$ — are the **principal stresses**.
 
 <center>
-<iframe width="800" height="500" src="https://www.youtube.com/embed/T_yfPcX1gG4?start=0" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+![Principal Stresses](images/GlobalTectonics/KaliakinCh4-PrincipalStresses.jpg) 
+
 </center>
 
-<--o-->
+<small>
 
-<!-- .slide: data-background="Module-iii-Theory/Figures-Theory1/slide35.jpg" -->
+The diagram above is found in Kaliakin, V. N. (2017). Stresses, Strains, and Elastic Response of Soils. In Soil Mechanics (pp. 131–203). Elsevier. https://doi.org/10.1016/B978-0-12-804491-9.00004-5
 
-<--o-->
+</small>
 
-<!-- .slide: data-background="Module-iii-Theory/Figures-Theory1/slide36.jpg" -->
+<--v-->
+## Principal Stresses: Finding Them by Diagonalisation
 
-<--o-->
+The orientation and relative size of the principal stresses is the single most useful description of the stress state in tectonics. Finding these directions is a standard property of tensor quantities — diagonalisation:
 
-<!-- .slide: data-background="Module-iii-Theory/Figures-Theory1/slide37.jpg" -->
-
-<--o-->
-
-<!-- .slide: data-background="Module-iii-Theory/Figures-Theory1/slide38.jpg" -->
+$$\left[ \begin{matrix} \sigma_{xx} & \sigma_{xy} & \sigma_{xz} \cr \sigma_{xy} & \sigma_{yy} & \sigma_{yz} \cr \sigma_{xz} & \sigma_{yz} & \sigma_{zz} \end{matrix} \right] \quad \Rightarrow \quad \left[ \begin{matrix} \sigma_1 & 0 & 0 \cr 0 & \sigma_2 & 0 \cr 0 & 0 & \sigma_3 \end{matrix} \right]$$
 
 <--o-->
 
-<!-- .slide: data-background="Module-iii-Theory/Figures-Theory1/slide39.jpg" -->
+<!-- source: Lecture1_Stress.pptx slide 18 · template: T1-prose -->
+## Deviatoric Stress and Mean Stress
+
+Stress has a volumetric component (pressure) that is independent of the orientation and a deviatoric component (the shear stresses) that is changes with viewpoint. Mathematically, 
+
+$$\left[ \begin{matrix} \sigma_{11} & \sigma_{12} & \sigma_{13} \cr \sigma_{21} & \sigma_{22} & \sigma_{23} \cr \sigma_{31} & \sigma_{32} & \sigma_{33} \end{matrix} \right]  = 
+ \left[ \begin{matrix} \sigma_m & 0 & 0 \cr 0 & \sigma_m & 0 \cr 0 & 0 & \sigma_m \end{matrix} \right]   +   \left[ \begin{matrix} \sigma_{11}-\sigma_m & \sigma_{12} & \sigma_{13} \cr \sigma_{21} & \sigma_{22}-\sigma_m & \sigma_{23} \cr \sigma_{31} & \sigma_{32} & \sigma_{33}-\sigma_m \end{matrix} \right]$$
+
+- total stress = mean stress + deviatoric stress, or $\boldsymbol{\sigma} = p \\, \mathbf{I} + \boldsymbol{\tau}$ &nbsp; <small>(bold face marks a tensor, as the arrow marks a vector)</small>
+- $\sigma_m = (\sigma_{11} + \sigma_{22} + \sigma_{33})/3$ is the mean stress or hydrostatic stress and is usually the *pressure*. 
+
+In reality, the deviatoric (anisotropic) part is what actually causes distortion.
 
 <--o-->
 
-<!-- .slide: data-background="Module-iii-Theory/Figures-Theory1/slide40.jpg" -->
+<!-- source: Lecture1_Stress.pptx slide 19 · template: T3-text-and-image -->
+## Scalar, Vector & Tensor
+<div class="cols">
+<div class="wide">
+
+
+- Scalar: a quantity with magnitude only (i.e. a real number, such as for mass, temperature, time).
+
+- Vector: a geometrical object with magnitude and one direction (e.g. force, velocity, acceleration).
+
+- Tensor (second-order): a mathematical structure with magnitude and two directions (two vectors), one (a unit vector) specifying a plane of action (e.g. permeability, strain, stress).
+
+**Advanced:** Scalar is regarded as a zero-order tensor; vector as first-order tensor. Gradient of a scalar field is a vector field; divergence of a vector field is a scalar field.
+
+Right: a temperature field is a scalar (above); its *gradient* field is a vector (below).
+
+</div>
+<div>
+
+![](Module-iii-Theory/Lecture1-extracted/slide019_img2.png) <!-- .element style="width:82%;" -->
+
+![](Module-iii-Theory/Lecture1-extracted/slide019_img1.png) <!-- .element style="width:82%;" -->
+
+</div>
+</div>
+
+<--o-->
+
+<!-- source: Lecture1_Stress.pptx slide 20 · template: T1-prose (reframed around the two representations the lecture has already built) -->
+## Invariants of the Tensor
+
+We already have the same stress state written **two** ways: as $\sigma_{xx}, \sigma_{yy}, \sigma_{xy}$ in map coordinates, and as $\sigma_1, \sigma_3$ with a direction. Every number is different. Both are right.
+
+So nothing about the *stress* changed between them — only the axes we chose to describe it in. An **invariant** is a number you can build out of the components that comes out the same whichever description you started from.
+
+There are not many, and you can count them. In 2D a symmetric tensor holds 3 independent numbers; choosing a frame costs 1 angle; so exactly $3 - 1 = 2$ numbers can survive. In 3D, $6 - 3 = 3$ — which is why there are three principal invariants and not four.
+
+<--v-->
+
+## Invariants, Measured
+
+![Invariants](images/UW-FaultExamples/invariants.gif) <!-- .element style="display:block; margin-left:auto; margin-right:auto; width:84%" -->
+
+The stress field is held fixed and the *observer* is turned. All four components churn; the mean stress and the radius do not move.
+
+Those flat green lines are the whole idea. $\sigma_m$ holds to 1 part in $10^5$ and $R$ to 0.4% across 24 independent solves — measured, not imposed.
+
+<small>
+
+Underworld3 split-node fault computation (Moresi). The matrix in the rotating frame is assembled from measured probe tractions; a confining pressure of 2.5 is added, so $\sigma_m$ is something other than zero.
+
+</small>
+
+<--v-->
+
+## Invariants: A Worked Example
+
+Take the state from the traction example earlier in this lecture, and diagonalise it. The principal stresses are $\sigma_m \pm R$:
+
+$$\sigma_{1,3} = -50 \pm \sqrt{\left(\tfrac{-40-(-60)}{2}\right)^{2} + (-10)^{2}} = -50 \pm 10\sqrt{2}$$
+
+$$\underset{\textrm{map coordinates}}{\underbrace{\left[ \begin{matrix} -40 & -10 \cr -10 & -60 \end{matrix} \right]}} \qquad \longrightarrow \qquad \underset{\textrm{principal axes, at } 157.5° \textrm{ and } 67.5°}{\underbrace{\left[ \begin{matrix} -35.86 & 0 \cr 0 & -64.14 \end{matrix} \right]}} \textrm{ MPa}$$
+
+Not one entry survives the change. Now form the trace and the determinant of each:
+
+| | map coordinates | principal axes |
+|---|---|---|
+| trace | $-40 - 60 = \mathbf{-100}$ | $-35.86 - 64.14 = \mathbf{-100}$ |
+| determinant | $(-40)(-60) - (-10)^2 = \mathbf{2300}$ | $(-35.86)(-64.14) - 0 = \mathbf{2300}$ |
+
+<--v-->
+
+## What the Shear Was Doing
+
+$$\det\boldsymbol{\sigma} = \sigma_{xx}\sigma_{yy} - \sigma_{xy}^{2}$$
+
+In map coordinates the diagonal product is $2400$ and the shear term takes $100$ back off it. In the principal frame there is no shear at all — and the diagonal product has *already* fallen to exactly $2300$.
+
+The off-diagonal entry is not extra information about the rock. It is the bookkeeping that holds the answer still while the axes move. Rotate the frame and the diagonal and the shear trade against each other, by exactly the amount that keeps the trace and the determinant fixed.
+
+Everything else follows from those two: mean stress $\sigma_m = -50$ MPa, radius $R = 10\sqrt{2} = 14.14$ MPa — the centre and the radius of this state's Mohr circle, and you can read them off either matrix.
+
+<small>
+
+Tension positive here, matching the worked example above, so both principal stresses are compressive. The invariants do not care: flip the whole tensor to the geological convention and the trace changes sign while the determinant does not move at all.
+
+</small>
+
+<--v-->
+
+## The Principal Invariants
+
+$$I_1 = \sigma_1 + \sigma_2 + \sigma_3, \qquad I_2 = \sigma_1\sigma_2 + \sigma_1\sigma_3 + \sigma_2\sigma_3, \qquad I_3 = \sigma_1\sigma_2\sigma_3$$
+
+They look like they need the principal stresses, but they do not: $I_1 = \sigma_{xx}+\sigma_{yy}+\sigma_{zz}$ and $I_3 = \det\boldsymbol{\sigma}$ in *any* frame. That is the point of them.
+
+The "main" invariants are the same information, repackaged as sums of powers:
+
+$$J_1 = I_1, \qquad J_2 = I_1^2 - 2 I_2, \qquad J_3 = I_1^3 - 3 I_1 I_2 + 3 I_3$$
+
+- $I_1/3$ is the **mean stress** — the part of the state with no direction at all.
+- The second invariant of the *deviatoric* part measures how far the state is from hydrostatic. It is what is contoured on the world strain-rate map, and (as $R$) it is the radius of the Mohr circle.
+
+<--v-->
+
+## Why It Has To Be This Way
+
+A rock either breaks or it does not. That outcome cannot depend on which way we drew our axes — so **any scalar prediction must be a function of invariants alone.** This is a real constraint on what a law is allowed to look like, not a convenience:
+
+- Coulomb failure is a relation between the mean stress and the radius: $R = \sigma_m \sin\phi + C\cos\phi$. Both invariants, no orientation.
+- Viscosity in a flow law depends on the second invariant of the strain rate, never on $\dot\varepsilon_{xy}$ alone.
+- The dissipation $\boldsymbol{\sigma} : \dot{\boldsymbol{\varepsilon}}$ is a scalar: the rate of working cannot depend on the observer either.
+
+And the principal directions themselves are not a lucky accident. We said early in this lecture that $\boldsymbol{\sigma}$ is symmetric, because an element carrying unequal shears would spin up without limit. A symmetric tensor is exactly the kind that has real eigenvalues and perpendicular eigenvectors — so the principal frame exists *because* of that symmetry.
+
+Note:
+Louis — the question that came up in class was whether invariance is the
+same thing as a conservation law. It is worth being careful here rather
+than saying it on a slide.
+
+Strictly, no. Noether connects a symmetry of the SYSTEM to a conserved
+quantity; relabelling our axes is a symmetry of the DESCRIPTION, and what
+that buys is covariance — the requirement that a law be writable in
+invariants — not a conserved quantity.
+
+But there is a genuine joint, and it is the one on this slide. The
+symmetry of the stress tensor is the balance of angular momentum. That
+symmetry is what makes the eigenvalues real and the eigenvectors
+orthogonal, so it is what guarantees the principal frame exists at all,
+and with it the count of 6 - 3 = 3 invariants in three dimensions.
+
+<--o-->
+
+<!-- source: Lecture1_Stress.pptx slide 22 · template: T3-text-and-image -->
+## Recap — the stress tensor so far
+
+- Stress = Force/Area (N/m<sup>2</sup> = Pa)
+- Stress state in 2D/3D
+- Principal stress (eigenvalues/eigenvectors)
+- Calculate traction/stress along a surface given a stress matrix: $\vec{T}_i=\boldsymbol{\sigma} \cdot \vec{n}$
+- Invariants: the numbers that do not depend on the frame — and so the only ones a failure or flow law may be built from
+
+![](Module-iii-Theory/stress-tensor-summary.png) <!-- .element style="max-height:480px;" -->
+
+
+<--o-->
+
+<!-- source: Lecture1_Stress.pptx slide 25 · template: T3-text-and-image -->
+## Deriving (Some) Stress Relationships
+<div class="cols">
+<div>
+
+![](Module-iii-Theory/Lecture1-extracted/slide025_img1.jpg) <!-- .element style="width:50%;" -->
+
+<p class="caption">Fossen, 2010 </p>
+
+</div>
+<div class="wide">
+
+How normal / shear stress vary with the orientation of a planar cut.
+
+Starting with uniaxial compression and knowing that:
+  - Stress = Force/Area
+  - Trigonometric function resolve components of forces onto the plane
+
+$\sigma_{n} = \frac{F_{n}}{A_{2}}=\frac{F\cos\theta}{A_{2}}= \frac{F\cos^2\theta}{A_{1}}$
+
+$\sigma_n = \sigma \cos^2\theta = \sigma (\cos 2\theta + 1)/2$
+
+$\sigma_{s} = \frac{F_{s}}{A_{2}}=\frac{F\sin\theta}{A_{2}}=\frac{F\sin\theta \cos \theta}{A_{1}}$
+
+$\sigma_{s} = \sigma \sin \theta \cos \theta = (\sigma/2) \sin 2\theta$
+
+</div>
+</div>
+
+<!--
+Note:
+Ellipsoid is useful in some case if you want to know the traction vector directly. But in more occasions, we want to know both the normal and shear stress acting along a surface. 
+For uniaxial compression, we only have the normal force applied along the main axis of the cylinder. You can regard the resulted stress as sigma 1. We derive the trigonometric expressions for the normal and shear stress here. 
+A force vector F acting on a surface can be decomposed into a normal (Fn) and a shear (Fs) component by simple vector addition. The stress vector s cannot be decomposed in this way, because it depends on the area across which the force acts. 
+Recall some trigonometric functions for a right-angled triangle [opposite/hypotenuse/adjacent].  
+Before we put the normal and shear stress together, let’s look at how they vary with the theta angle individually.
+-->
+
+<--o-->
+
+<!-- source: Lecture1_Stress.pptx slide 26 · template: T3-text-and-image -->
+## Stress State at An Internal Surface
+
+Shear and normal stress show different patterns of change as a function of the orientation of the plane.
+
+Stress and force behave differently. Note that the shear stress is at its maximum at 45º to the surface while maximum normal force is obtained parallel to the surface.
+
+![](Module-iii-Theory/internal-surface-stress.png) <!-- .element style="max-height:520px;" -->
+
+<--o-->
+
+<!-- source: Lecture1_Stress.pptx slide 27 · template: T3-text-and-image -->
+## Deriving the Mohr Circle
+<div class="cols">
+<div class="wide">
+
+Two formulae:
+
+$\sigma_n =  \sigma (\cos 2\theta + 1)/2 \\;\\;$
+and 
+$\\; \\; \sigma_s = \frac{\sigma \sin 2\theta}{2}$
+
+We want to see how $\sigma_{n}$ and $\sigma_{s}$ each vary as we change $\theta$.
+
+$\cos 2\theta = 2(\sigma_n - \sigma/2)/\sigma \\;\\;$
+and 
+$ \\;\\; \sin 2\theta = 2\sigma_s/\sigma$
+
+But, $\cos^2 \phi + \sin^2\phi = 1$ for any $\phi$ so
+
+$$(\sigma_n - \sigma/2)^2 + \sigma_s^2 = \sigma^2/4$$
+
+This looks like the equation of a circle in x-y coordinate system (**$x^2 + y^2 = r^2$**)
+
+The center has a coordinate of ($\frac{\sigma}{2}$, 0) and a radius of $\sigma/2$.
+This was first derived by Karl Culmann (1821-1881) in 19th century.
+
+</div>
+<div>
+
+![](Module-iii-Theory/Lecture1-extracted/slide027_img1.jpg) <!-- .element style="width:75%;" -->
+
+</div>
+</div>
+
+Note:
+Published a book on graphical methods in engineering in 1865.
+
+Double-Angle Identities & Pythagoras
+
+$$\sin 2\theta = 2 \sin\theta \cos\theta$$
+$$\cos 2\theta = \cos^2\theta - \sin^2\theta = 2\cos^2\theta - 1$$
+$$\cos^2\theta + \sin^2\theta = 1$$
+
+<--o-->
+
+<!-- source: Lecture1_Stress.pptx slide 28 · template: T3-text-and-image -->
+## The Mohr Circle
+<div class="cols">
+<div class="wide">
+
+German civil engineer, Christian Otto Mohr (1835-1918) expand into both 2D and 3D stresses and developed a *failure criterion*.
+
+The Mohr circle describes the normal and shear stress acting on planes of all possible orientations through a point in the rock.
+
+$$\left[ \sigma_{n} - \frac{1}{2}\left( \sigma_1 + \sigma_3\right)\right]^2 + \sigma_s^2 = 
+   \left[ \frac{1}{2}\left(\sigma_1 - \sigma_3\right) \right]^2
+$$ 
+
+The center has a coordinate of ($\frac{\sigma_1+\sigma_3}{2}$, 0) and a radius of $\frac{\sigma_1-\sigma_3}{2}$. Differential stress is $\sigma_1-\sigma_3$ and is important in fracture mechanics.
+
+</div>
+<div>
+
+
+![](Module-iii-Theory/Lecture1-extracted/slide028_img2.jpeg) <!-- .element style="width:20%;" -->
+
+![](Module-iii-Theory/Lecture1-extracted/slide028_img3.jpg)
+
+![](Module-iii-Theory/Lecture1-extracted/slide028_img1.jpg)
+
+<p class="caption">Christian Otto Mohr · Fossen, 2010</p>
+
+</div>
+</div>
+
+Note:
+Mohr builds upon Karl’s previous work and expand into 2D and 3D. There are complex derivation processed involved into 3D stresses. But a simple to work it out is to look at the three orthogonal principal plane. Here is the formula for the plane along the sigma 1 and sigma 3. If you convert the mathematically language into graphical view, you will get the typical Mohr circle, which looks like pretty much the one we have derived. Along this x axis, you have the sigma 1 and sigma 3, so the intermediate sigma 2 is lying between the two points.
+
+<--o-->
+
+<!-- source: Lecture1_Stress.pptx slide 29 · template: T3-text-and-image -->
+## Mohr Circle & the Angle ⍬
+
+Note the angle is $2\theta$ in the Mohr circle space compared to $\theta$ in the real space.
+During derivation, we define the angle as plane dipping angle in the uniaxial case, but essentially this $\theta$ represents the angle between minimum principal stress direction and that plane.
+
+$$\sigma_n = \sigma (\cos 2\theta + 1)/2 \qquad \sigma_s = \frac{\sigma \sin 2\theta}{2}$$
+
+![](Module-iii-Theory/mohr-circle-2theta.png) <!-- .element style="max-height:480px;" -->
+
+<--v-->
+
+## The Mohr Circle, Measured
+
+![MohrBuild](images/UW-FaultExamples/mohr-circle-build-A.gif) <!-- .element style="display:block; margin-left:auto; margin-right:auto; width:66%" -->
+
+A numerical experiment: a welded fault is rotated through every orientation in a fixed stress field, and the (normal, shear) traction it measures is plotted. The points trace out the Mohr circle — and the traction snaps to the fault normal exactly at the principal orientations.
+
+The circle is not a construction trick: it is what a stress *probe* actually measures as its orientation sweeps. Watch the $2\theta$ rule happen — and watch the principal axes appear on the model, found by the sweep rather than assumed.
+
+<small>
+
+Underworld3 split-node fault computation (Moresi). Fitted radius 1.411 vs the analytic $\sqrt{2}$.
+
+</small>
+
+<--v-->
+
+## A different field, a different circle
+
+![MohrBuildAB](images/UW-FaultExamples/mohr-circle-build-AB.gif) <!-- .element style="display:block; margin-left:auto; margin-right:auto; width:47%" -->
+
+The identical experiment run in two *different* stress states, sweeping together. Below is pure shear with the compression axis at $60°$: the probe finds the principal directions at exactly $60°$ and $150°$, but the circle it builds is smaller, and turned.
+
+Same probe, same construction, same $2\theta$ rule. Different circle.
+
+<--v-->
+
+## Same construction, different state
+
+![MohrTwo](images/UW-FaultExamples/mohr-two-circles.png) <!-- .element style="display:block; margin-left:auto; margin-right:auto; width:44%" -->
+
+Both sweeps on one stress plane. The $2\theta$ construction is a property of *the method*; the radius and the orientation are properties of *the stress state*.
+
+Read backwards, that is the whole point of the diagram: measure a few tractions in the field, and the circle tells you the state that produced them.
+
+<small>
+
+Underworld3 split-node fault computation (Moresi). Measured radii $1.41 = \sqrt{2}$ and $0.80$; each probe on the plot is a separate solve.
+
+</small>
+
+<--o-->
+
+<!-- source: Lecture1_Stress.pptx slide 30 · template: T6-two-image -->
+## Some 3D Stress States in Mohr Circle
+
+![](Module-iii-Theory/Lecture1-extracted/slide030_img1.jpg) <!-- .element style="max-height:430px;" -->
+
+<div class="cols">
+<div>
+
+![](Module-iii-Theory/Lecture1-extracted/slide030_img2.jpg) <!-- .element style="max-height:230px;" -->
+
+</div>
+<div>
+The largest circle contains $\sigma_1$ and $\sigma_3$.
+
+Three circles for general cases, but could be only one in special case.
+
+What does a hydrostatic stress looks like?
+
+</div>
+</div>
+
+<p class="caption">Fossen, 2010</p>
+
+Note:
+You can also derive the similar formula along the other two principal planes, along sigma1 and sigma2 and sigma2 and sigma 3. All of them will be represented in a circle. So putting them together, you can described the more general 3D case, called triaxial state of stress.
+
+<--o-->
+
+<!-- source: Lecture1_Stress.pptx slide 31 · template: T3-text-and-image -->
+## The Coulomb-mohr Failure Criterion
+<div class="cols">
+<div class="wide">
+
+A fracture criterion describes the critical condition at which a rock fractures.
+
+The Coulomb-Mohr failure criterion describes a linear relationship between the shear stress and normal stress to initiate a shear fracture.
+
+$$\sigma_{s} = C + \sigma_{n}\tan\phi = C + \sigma_{n}\mu$$
+
+
+They form two straight lines on the Mohr circle diagram:
+- C is the cohesive strength
+- $\phi$ is the angle of internal friction
+- $\mu$ is the coefficient of friction 
+- (usually $0.4 \lt \mu \lt 0.7$   )
+
+
+</div>
+<div>
+
+![](Module-iii-Theory/Lecture1-extracted/slide031_img1.jpg) <!-- .element style="width:92%;" -->
+
+</div>
+</div>
+
+Note:
+The main application of the Mohr circle or diagram is to predict failure. One of the most popular criteria is the Coulomb-Mohr failure criteria. The critera describes the critical conditions at which a rock fractures. 
+This criteria builds upon the theory firstly derived by the French physicist Charles Augustin de Coulomb in the 17th century. Mohr later developed a more generalized form in 19th century.
+
+<--v-->
+
+## The Envelope, Measured
+
+![MohrFriction](images/UW-FaultExamples/mohr-friction-build.gif) <!-- .element style="display:block; margin-left:auto; margin-right:auto; width:50%" -->
+
+Give the rotating fault Coulomb friction and repeat the experiment: probes that stay **stuck** reproduce the circle, but faults that **slide** pin themselves to the failure envelope — the yield line truncates the circle.
+
+![MohrCohesion](images/UW-FaultExamples/mohr-cohesion.png) <!-- .element style="display:block; margin-left:auto; margin-right:auto; width:35%" -->
+
+With cohesion added, the strength declines through mild tension and vanishes at $\sigma_n = -C/\mu$.
+
+<small>
+
+Underworld3 split-node fault computation (Moresi).
+
+</small>
+
+<--v-->
+
+## The "experiment" from Module 1.3
+
+![CaliforniaCurved](images/UW-FaultExamples/california-curved.png) <!-- .element style="display:block; margin-left:auto; margin-right:auto; width:56%" -->
+
+At the end of [Module 1.3](Module-i-GlobalTectonics-3.reveal.html) we let this schematic San Andreas — one continuous trace with a restraining bend — slip right-laterally, while its neighbours (Garlock, the ECSZ strands, a San Jacinto analogue) stayed welded and simply *felt* the event. The map is the change each point experiences; the panels read that change on each neighbour's own plane.
+
+What exactly is that quantity on the colour bar? That is the next slide — and the numbers that follow are all from this experiment.
+
+<small>
+
+Underworld3 split-node fault computation (Moresi).
+
+</small>
+
+<--v-->
+
+## The Coulomb Failure Function
+
+![CFF](images/UW-FaultExamples/cff-explained.png) <!-- .element style="display:block; margin-left:auto; margin-right:auto; width:66%" -->
+
+A fault fails when its stress point reaches the envelope — so measure **how far it still has to go**:
+
+$$\mathrm{CFF} = \tau - (C + \mu' \sigma)$$
+
+That is the **vertical** gap between the point and the failure line: negative below it, zero on it. Vertical, because both terms are shear stresses *on the same plane* — it is the shear the fault carries, minus the shear it can hold.
+
+$$\Delta \mathrm{CFF} = \Delta \tau - \mu' \Delta \sigma$$
+
+**Positive: the gap closed**, and the fault was brought nearer to failure. **Negative: it was pushed away**, into what is called a *stress shadow*.
+
+Note:
+If someone asks why the gap is measured vertically rather than
+perpendicular to the envelope — a fair question, since "distance to a
+line" usually means the perpendicular one.
+
+Two answers. The short one: CFF is DEFINED as the vertical gap, and the
+perpendicular distance is just CFF cos(phi), i.e. CFF / sqrt(1 + mu'^2).
+With mu' = 0.4 that is a factor of 0.93. Since mu' is held fixed, the two
+differ by a constant, so they always agree on sign and on ranking. No
+conclusion in this lecture would change.
+
+The better one: the perpendicular distance is not a physical quantity at
+all. It mixes the sigma and tau axes, so it depends on how the two are
+scaled against each other on the page — stretch the sigma axis and the
+perpendicular distance changes, while the vertical gap does not. The
+vertical gap compares a shear stress with a shear strength, both on the
+same plane and in the same units, and it answers a question you can pose
+without a diagram: how much more shear stress does this plane need
+before it slips?
+
+<--v-->
+
+## Two terms: they may fight
+
+The measured San Jacinto case on the right of that figure is a good one to look at, because the two terms pull in **opposite** directions:
+
+- $\Delta \tau = -0.60$ — the San Andreas slip reduces shear on the plane — *away* from failure
+- $-\mu' \Delta \sigma = +0.12$ — it also *unclamped* the plane, moving it *towards* failure
+
+The shear term wins, so the net is $-0.49$: this fault is "safer" than it was. But you cannot tell that from either term alone, and the sign of the answer is not obvious before you compute it.
+
+$\mu'$ is an **effective** friction: it bundles the real friction together with how the pore fluid responds to the squeeze. Values near $0.4$ are common.
+
+<--v-->
+
+## What ΔCFF does *not* tell you
+
+Three things to keep straight before reading any of the numbers that follow:
+
+- It is a **change**, not a state. It says nothing about how close the fault already was. A large positive change on a fault that was nowhere near failing triggers nothing.
+- It is **defined only for a stated plane and slip direction**. "Was this fault loaded?" has no answer until you say *which* fault, facing *which* way — as the next slides show, the answer can flip sign with orientation.
+- The values that matter in practice are **small**. Earthquakes drop of order $1$–$10$ MPa, but triggering is observed for changes as small as $\sim 0.01$ MPa — because faults are already sitting close to failure.
+
+
+![CaliforniaCurved](images/UW-FaultExamples/california-curved.png) <!-- .element style="display:block; margin-left:auto; margin-right:auto; width:30%" -->
+
+<small>
+The experiment where all three warnings are valid — the sign of the answer flips fault by fault.
+</small>
+
+*That last point is worth remembering: these are nudges to an existing system of faults not new breaks in intact rock.*
+
+
+
+
+<--v-->
+
+## What failure does to its surroundings
+
+![MohrFailureField](images/UW-FaultExamples/mohr-failure-field.gif) <!-- .element style="display:block; margin-left:auto; margin-right:auto; width:72%" -->
+
+The same rotating Coulomb fault, with the stress field around it now shown. While the fault is **stuck** it is invisible: it carries the full stress and the field stays uniform. The moment it **slides**, it can no longer hold that shear — and the field reorganises around it, with lobes at the tips and the principal axes swinging to meet the weakened surface.
+
+Failure is not just a point moving on a diagram. It rewrites the stress in the rock around it — which is why one earthquake changes the prospects of its neighbours.
+
+<small>
+
+Underworld3 split-node fault computation (Moresi). Colour is the change in the *local* Mohr radius $\Delta\tau_{max}$; ticks show the most-compressive principal direction. Quasi-static, incompressible — the same mathematics as elasticity at $\nu = 1/2$.
+
+</small>
+
+<--v-->
+
+## Reading a real stress field: southern California
+
+![CaliforniaClocks](images/UW-FaultExamples/california-clocks.gif) <!-- .element style="display:block; margin-left:auto; margin-right:auto; width:78%" -->
+
+The schematic San Andreas of [Module 1.3](Module-i-GlobalTectonics-3.reveal.html), instrumented. A small welded gauge sits at each neighbouring fault zone and is rotated through every orientation — so each site builds its *own* Mohr circle, twice: before the San Andreas slips (grey) and after (red).
+
+Before the earthquake all three circles are the **same**: one regional stress, felt everywhere. Afterwards they are not, and $\Delta$CFF is the visible motion of each circle toward or away from the envelope.
+
+<--v-->
+
+## It depends which way your fault faces
+
+The measured swing in $\Delta$CFF across orientations, and the value at each fault's *actual* mapped strike:
+
+| Site | $\Delta$CFF range | at its own strike |
+|---|---|---|
+| Garlock | $-0.66$ to $+0.41$ | $+0.09$ |
+| ECSZ | $-0.01$ to $+0.14$ | $+0.05$ |
+| San Jacinto | $-0.50$ to $+0.59$ | $-0.49$ |
+
+At Garlock and San Jacinto the *same* earthquake either loads you or relaxes you — a swing of about $1.1$ — depending on nothing but the orientation of your fault. The range alone therefore says almost nothing; only the strike the fault actually has picks a number out of it.
+
+And the two nearly identical ranges resolve completely differently: the San Jacinto, which lies along the Pacific side of the master fault and shares its strike, is pushed hard *away* from failure ($-0.49$), while the Garlock is barely touched ($+0.09$).
+
+This is why aftershock forecasting needs the **receiver geometry**, not just the source: "was this fault brought closer to failure?" has no answer until you say which fault.
+
+<--v-->
+
+## Now run it backwards
+
+![SAFLoaded](images/UW-FaultExamples/saf-loaded.gif) <!-- .element style="display:block; margin-left:auto; margin-right:auto; width:64%" -->
+
+Let a *neighbour* slip instead, and read the San Andreas. The animation winds the source's stress drop up from zero — and because the mechanics are linear, every frame is an exact solution for a partial drop, not a fade between two pictures.
+
+Both events reach the master fault, and they do **opposite** things:
+
+- the **San Jacinto** slips right-laterally and **relaxes** the master fault ($-0.29$), most strongly on the stretch alongside itself, southeast of the bend;
+- the **Garlock** — which resolves *left*-laterally from the kinematics alone, the sense the real Garlock has — **loads** it ($+0.39$), and because the Garlock abuts the bend, that loading lands squarely on the bend.
+
+Each event peaks on the stretch of fault beside its own source — so it is the Garlock, not the San Jacinto, that reaches the **restraining bend**. Geometry decides not only where the mountains go, but which neighbour the fault is most sensitive to, and where.
+
+<small>
+
+Underworld3 (Moresi). The San Andreas is welded in every state, so it acts as a stress probe along its whole length — three solves, no sweep needed. Shear resolved on the *local* tangent at each node, since the trace is curved; the far end of the trace anchors each solve's pressure constant.
+
+</small>
+
+<small>
+
+Underworld3 split-node fault computation (Moresi). $\mu' = 0.4$; the confining pressure $P_0 = 1$ and cohesion $C = 0.75$ place the envelope and do **not** enter $\Delta$CFF (both are constants under differencing). 50 solves; a far-field gauge removes each solve's pressure constant.
+
+</small>
+
+<--o-->
+
+<!-- source: Lecture1_Stress.pptx slide 32 · template: T1-prose -->
+## Example: Will the Fault Fail?
+- The sketch shows a portion of a normal fault extends to a depth of 5 km. Direct stress measurements at such depth indicates the stress condition on this fault plane: a normal stress ($\sigma_n$) of 300 MPa and a shear stress ($\sigma_s$) of 120 MPa.
+- Question: assuming the rock materials have a coefficient of friction of 0.6, use the Coulomb-Mohr failure criteria to determine if the fault should fail.
+
+<center>
+
+![](Module-iii-Theory/fault-fail-example.png) <!-- .element style="max-height:375px;" -->
+
+</center>
+
+Let us work through an example to see how we use this criterion
+
+<--v-->
+
+<!-- source: Lecture1_Stress.pptx slide 33 · template: T1-prose -->
+## Example: Will the Fault Fail? — Worked
+
+<center>
+
+![](Module-iii-Theory/fault-fail-example.png) <!-- .element style="max-height:300px;" -->
+
+</center>
+
+Example:
+
+To predict the fault will fail or not, we just need to compare the actual shear stress along the fault plane with the critical shear stress from the failure criteria.
+
+- Recall the Coulomb-Mohr failure criteria: $\sigma_{s\text{-}fail} = C + \sigma_n \tan \phi$
+- $\sigma_{s\text{-}fail} = 0.6 \times 300 + C = 180 \textrm{ MPa} + C$.
+
+Since the cohesive strength $C$ is *always* positive, $\sigma_{s\text{-}fail}$ will be always larger than the actual shear stress, so it will not fail.
+
+<--o-->
+
+<!-- source: Lecture1_Stress.pptx slide 34 · template: T3-text-and-image -->
+## Anderson’s Theory of Faulting (1905)
+<center>
+
+![](Module-iii-Theory/Lecture1-extracted/slide034_img1.jpg) <!-- .element style="max-height:330px;" -->
+
+</center>
+
+<p class="caption">Fossen, 2010</p>
+
+Assume no shear stress at the Earth’s surface, so one of the principal stresses must be vertical. This implies that the other two are horizontal ($\sigma_v = \sigma_1$: normal-fault regime; $\sigma_v = \sigma_2$: strike-slip fault regime; $\sigma_v = \sigma_3$: thrust-fault regime).
+
+Assumptions: 
+ 1. coaxial deformational regimes (no rotation); 
+ 2. the deforming rocks must be isotropic.
+
+Stereonets show fields of compression and tension.
+
+Note:
+Since we are discussing the Mohr circle and the failing criteria, let’s revisit Anderson’s theory of faulting, which describes the various stress condition with the focal mechanism. We briefly touched on this topic in the first module. 
+
+<--o-->
+
+<!-- source: Lecture1_Stress.pptx slide 35 · template: T3-text-and-image -->
+## Implication to Normal/reverse Faulting
+
+<center>
+<div class="cols">
+<div>
+
+![](Module-iii-Theory/Lecture1-extracted/slide035_img1.jpg) <!-- .element style="max-height:330px;" -->
+
+</div>
+<div>
+
+![](Module-iii-Theory/Lecture1-extracted/slide035_img2.jpg) <!-- .element style="max-height:300px;" -->
+
+</div>
+</div>
+
+</center>
+
+<p class="caption">Fossen, 2011</p>
+
+Based on the Coulomb-Mohr failure criteria, Anderson’s theory of faulting predicts a conjugate fault system for different stress conditions.
+
+The theory also predicts that normal and reverse faults dip at *roughly* 60º and 30º, respectively. In other words, one can use the dipping angle to infer stress directions. 
+As long as you know the fault has not rotated since it formed !
+
+<--v-->
+
+## Where 60° and 30° Come From
+
+![AndersonAngle](Module-iii-Theory/anderson-fault-angle.png) <!-- .element style="display:block; margin-left:auto; margin-right:auto; width:92%" -->
+
+The angles are not measured, they are **predicted** — by the failure criterion we have just built.
+
+A rock fails at the orientation where its Mohr circle *first touches* the envelope. The radius drawn to a point of tangency is perpendicular to the envelope, and the envelope's slope is $\tan\phi$ — so that radius sits at $90° + \phi$ from $\sigma_1$. Mohr angles are doubled, so
+
+$$2\theta = 90° + \phi \qquad \Longrightarrow \qquad \theta = 45° + \tfrac{\phi}{2}$$
+
+with $\theta$ measured to the fault's **normal**, as it has been all lecture. The fault *plane* is therefore at $45° - \phi/2$ to $\sigma_1$. The circle touches in **two** places, which is why faults come in conjugate pairs, straddling $\sigma_1$ with $90° - \phi$ between them.
+
+<--v-->
+
+## The Numbers, and the "Roughly"
+
+$$\mu = \tan\phi \qquad \phi = 30° \quad \Rightarrow \quad \mu = 0.58 \quad \Rightarrow \quad \textrm{fault at } 45° - 15° = 30° \textrm{ to } \sigma_1$$
+
+Anderson's rule then follows from **where $\sigma_1$ points**, which is set by the free surface:
+
+| Regime | $\sigma_1$ | Fault plane | Dip |
+|---|---|---|---|
+| Normal | vertical | $30°$ from vertical | $60°$ |
+| Thrust / reverse | horizontal | $30°$ from horizontal | $30°$ |
+| Strike-slip | horizontal ($\sigma_2$ vertical) | striking $30°$ from $\sigma_1$ | $90°$ |
+
+So the "roughly" on the previous slide is not vagueness in the theory — it is the spread in $\mu$. Rock friction runs about $0.4$ to $0.85$, i.e. $\phi \approx 22°$ to $40°$, which puts normal faults anywhere from $56°$ to $65°$ and thrusts from $25°$ to $34°$.
+
+A fault dipping at $45°$ would be the one that feels the **most** shear stress. It is not the one that forms, because friction has to be beaten as well as shear supplied — and $\phi > 0$ always tips the balance towards a steeper plane than $45°$.
+
+<--o-->
+
+<!-- source: Lecture1_Stress.pptx slide 36 · template: T6-two-image -->
+## Stress Effects from Free Surface
+<div class="cols">
+<div>
+
+![](Module-iii-Theory/Lecture1-extracted/slide036_img1.jpg)
+
+![](Module-iii-Theory/Lecture1-extracted/slide036_img2.jpg)
+
+<p class="caption">Fossen, 2010</p>
+
+</div>
+
+<div>
+
+One of the principal stresses will always be perpendicular to the free surface of the Earth, because the shear stress is zero along any free surface. Thus, a non-planar surface causes the orientation of the stresses to rotate as shown on the figure. Note that these deviations occur near the surface only. 
+
+The fault is weaker than the surrounding rock and can support lower shear stresses than its surroundings. The situation is similar to that where an open surface exists, e.g. the free surface of the Earth.
+
+**Topography does the same thing.** It creates local stresses that bend the regional pattern, and that has to be allowed for in geoengineering &mdash; tunnelling, most obviously. Weak faults and fracture zones, weathering, and contacts between rocks of contrasting physical properties all distort the stress field locally in the same way.
+
+</div>
+</div>
+
+<--o-->
+<!-- Figure: underworld3 docs/advanced/figures/fault-examples/california_trajectories.py -->
+## Stress trajectories
+<div class="cols">
+<div>
+
+![Trajectories](images/UW-FaultExamples/california-trajectories.png) <!-- .element style="width:100%" -->
+
+</div>
+<div>
+
+A **stress trajectory** is a curve everywhere tangent to one principal direction — the map-scale version of the crosses. Two orthogonal families fill the plane.
+
+Far from the fault they are straight and parallel, at $45°$ to the plate-boundary shear: that is what simple shear gives.
+
+Near the fault they are not. A slipping surface carries **no shear**, so the principal directions must swing to meet it — most visibly through the restraining bend.
+
+Blue is the **most compressive** direction, red the **most extensional**. Trajectories stop at the San Andreas because it is slipping and the field is discontinuous across it; the neighbours are welded, so they run past.
+
+<small>
+
+Underworld3 (Moresi); same geometry as the $\Delta$CFF figures. Crosses have equal arms: orientation, not magnitude.
+
+</small>
+
+</div>
+</div>
+<--o-->
+
+<!-- source: Lecture1_Stress.pptx slide 37 · template: T3-text-and-image -->
+## Lithostatic and Hydrostatic Stress
+<div class="cols">
+<div class="wide">
+
+- Two reference states of stress (isotropic).
+- Lithostatic stress/pressure: isotropic pressure at depth in the Earth arising from the overlying rock column.
+- Hydrostatic stress: Isotropic component of the stress; strictly, the pressure at the base of a water column.
+- Pore fluid pressure reduces the effective stress by creating stress at grain contacts in porous rocks.
+- $\hat{\sigma} = \sigma_v - p_f$
+- where $\hat{\sigma}$ is effective stress, $\sigma_v$ is vertical stress and $p_f$ is fluid pressure.
+
+</div>
+<div>
+
+![](Module-iii-Theory/Lecture1-extracted/slide037_img1.jpg)
+
+<p class="caption">Fossen, 2010</p>
+
+</div>
+</div>
+
+Note:
+I want to talk about a few more concept before we explore how to measure the stress inside of the Earth: lithostatic stress and hydrostatic stress. I mentioned them in some of the slides without definition. 
+When we normally talk about pressure, we are talking about pressure in a gas (air pressure) or a liquid (the pressure at the bottom of the ocean). In this special case there are no shear stresses, only normal stresses. Over long periods of time the deep interior of the planet behaves as a fluid, so just like in the ocean we can think about the pressure at a point inside the earth.
+This lithostatic pressure can be regarded as a reference stress-state (average point of view), in which other tectonic forces are added. The normal stresses in the horizontal directions will normally not be equal to the lithostatic stress. 
+Hydrostatic stress is another term often used, it also represents the isotropic component of the stress and representing the stress at the base of a water column.
+
+<--v-->
+
+## Depth-Dependent Strength on One Fault
+
+![MohrGraded](images/UW-FaultExamples/mohr-graded.png) <!-- .element style="display:block; margin-left:auto; margin-right:auto; width:50%" -->
+
+Under a hydrostatic (depth-increasing) load, a single fault is not one point in the Mohr plane — every depth along it feels a different confining stress, so the fault becomes a depth-coloured *streak* spanning a family of Mohr circles.
+
+Shallow parts and deep parts of the same fault can be in quite different positions relative to failure.
+
+<small>
+
+Underworld3 split-node fault computation (Moresi).
+
+</small>
+
+<--o-->
+
+<!-- source: Lecture1_Stress.pptx slide 38 · template: T3-text-and-image -->
+## Pore Pressure
+<div class="cols">
+<div>
+
+![](Module-iii-Theory/Lecture1-extracted/slide038_img1.jpg) <!-- .element style="width:93%;" -->
+
+<p class="caption">
+Effect of $P_f$ <br>
+Figure: Roderick Brown, U Glasgow 
+</p>
+
+
+</div>
+<div class="wide">
+
+If the Mohr circle intersects the envelope of the Mohr-Coulomb failure criterion, then the rock should fail. The orientation of the failure plane is given by a normal direction with angle $\theta$ to the $\sigma_1$ axis.
+
+If the Mohr circle does not intersect the Mohr-Coulomb failure criterion, then the rock should not fail. Increasing the fluid pressure moves the circle to the left (reduces effective normal stress) and so can lead to failure.
+
+</div>
+</div>
+
+<--o-->
+
+<!-- source: Lecture1_Stress.pptx slide 39 · template: T3-text-and-image -->
+## Recap — Mohr, failure and Anderson
+<div class="cols">
+<div class="wide">
+
+We derived the Mohr circle for a uniaxial compression case and 
+general form of Mohr circle for biaxial compression / triaxial
+by extension of the ideas.
+
+$$(\sigma_n - \sigma/2)^2 + \sigma_s^2 = \sigma^2/4$$
+
+$$\left[ \sigma_{n} - \frac{1}{2}\left( \sigma_1 + \sigma_3\right)\right]^2 + \sigma_s^2 = 
+   \left[ \frac{1}{2}\left(\sigma_1 - \sigma_3\right) \right]^2
+$$ 
+
+The Coulomb-Mohr failure criterion:
+
+$$\sigma_{s}=C+\sigma_{n}\tan \phi = C+\sigma_{n}\mu$$
+
+
+Anderson’s theory of faulting: concept & assumptions.
+
+Concepts of lithostatic stress/pressure and hydrostatic stress, 
+  and the effect of pore fluid pressure.
+
+</div>
+<div>
+
+![](Module-iii-Theory/uniaxial-biaxial-blocks.png)
+
+![](Module-iii-Theory/Lecture1-extracted/slide039_img1.jpg) <!-- .element style="width:90%;" -->
+
+
+</div>
+</div>
+
+Note:
+There are also other failure criteria and will be introduced when we discuss the brittle deformation after the mid-term break. 
+Anderson’s theory of faulting shows three different kinds of faults arising from three different stress-states. The stress state is described by the maximum, intermediate and minimum magnitude principal stresses. You should be faimilar with the stress condition for each fault type and know the assumptions, thus limitation behind this theory. 
+Two important reference stress state of lithostatic stress and hydrostatic stress. Stress is purely due to the overburden, which is continental rock and water column for them respectively.
+
+<--o-->
+
+<!-- source: Lecture1_Stress.pptx slide 40 · template: T3-text-and-image -->
+## How We Measure Stress
+<div class="cols">
+<div>
+
+<div class="cols">
+
+![](Module-iii-Theory/Lecture1-extracted/slide040_img1.jpg)
+A 3D image of the borehole and cross-section
+<br>
+![](Module-iii-Theory/Lecture1-extracted/slide040_img2.jpg)
+
+</div>
+
+<p class="caption">$\sigma_H$ · $\sigma_h$</p>
+
+</div>
+<div class="wide">
+
+A series of methods to collect in situ stress data at the very shallow crust.
+
+- Borehole breakout:
+- Zones of failure of the wall of a well that give the borehole an irregular and typically elongated shape.
+- The spalling of fragments from the wellbore occurs preferentially parallel to the minimum horizontal stress ($\sigma_h$).
+- Requires numerical modelling.
+
+<small>
+From: "[The Use of Borehole Breakout for Geotechnical Investigation of an Open Pit Mine by Fowler and Weir, 2008](https://papers.acg.uwa.edu.au/p/808_61_Fowler/)".
+</small>
+</div>
+</div>
+
+Note:
+The figures here show a study to measure the local stress field in an Open Pit Mine with the Olympic dam deposit. They use acoustic televiewer borehole images (ATV) to construct the 3D image of the borehole. 
+Samples of the core and have a good understanding of some physical parameters, including some useful moduli. Then they model the shape of the borehole breakout to produce a maximum and minimum horizontal stress that gives the best fit. 
+They collected the data from 38 boreholes and average them to get the final stress direction. The overall trend of the principal stress orientation at Olympic Dam is presented on the Australian stress map and indicates a reasonable comparison with other proximal measurements (Figure 7).
+
+<--v-->
+
+<!-- source: Lecture1_Stress.pptx slide 41 · template: T3-text-and-image -->
+## How We Measure Stress: Overcoring and Geological Structure
+<div class="cols">
+<div class="wide">
+
+- Overcoring:
+- A strain relaxation method where a sample (core or block) is extracted from a rock unit, measured, and then released so that it can freely expand. The change in shape that occurs reflects the compressive stresses that have been released, but also depends on the rock’s elasticity.
+- Geological structure:
+- The orientation and pattern of recent fault scarps, fold traces, tensile fractures and volcanic vent alignments all indicate the orientation of the principal stresses.
+- An example of active vertical fractures on the surface of Holocene lava flows in southeast Iceland indicate the orientation of $\sigma_h$.
+
+</div>
+<div>
+
+![](Module-iii-Theory/Lecture1-extracted/slide041_img3.jpg) <!-- .element style="width:34%;" -->
+
+![](Module-iii-Theory/Lecture1-extracted/slide041_img1.jpg)
+
+![](Module-iii-Theory/Lecture1-extracted/slide041_img2.jpg)
+
+<p class="caption">Fossen, 2010 · overcored specimen</p>
+
+</div>
+</div>
+
+Note:
+Overcoring is another method used in a borehole setting. The main idea behind it is to isolate partially or wholly a rock sample from the stress field in the surrounding rock mass and monitor its re-equilibrium deformation response. It involves installing strain-measuring instruments bonded in a small-diameter pilot borehole drilled at the base of the large drill hole. The instrument is then overcored using a larger coring bit to effectively relieves the stress acting on the hollow rock cylinder. The induced strains are measured by the strain cell before, during, and after overcoring. The strain difference are used to back-calculate the stresses acting on the rock cylinder prior to overcoring assuming continuous, homogeneous, isotropic, and linear-elastic rock behaviour. This needs the knowledge of the elastic properties of the rock (Young's modulus and Poisson's ratio), usually determined by biaxial pressure tests on the overcored rock cylinder on-site.
+
+<--v-->
+
+<!-- source: Lecture1_Stress.pptx slide 42 · template: T3-text-and-image -->
+## How We Measure Stress: Hydraulic Fracturing
+<div class="cols">
+<div class="wide">
+
+Hydraulic fracturing:
+
+- The technique is frequently applied to petroleum reservoirs to increase the near-well permeability. It is important in geothermal "heat-mining" to create efficient flow paths. It is also a requirement in "smart-mining" by dissolution *in situ*.
+
+- Relies on the theory that pore fluid pressure reduces the effective stress by increasing the stress at grain contacts in porous rocks.
+
+![](Module-iii-Theory/Lecture1-extracted/slide042_img1.jpg) <!-- .element style="max-height:300px;" -->
+
+<p class="caption">National Geographic Society</p>
+
+</div>
+<div>
+
+<iframe width="520" height="330" src="https://www.youtube.com/embed/T_yfPcX1gG4?start=0" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+<p class="caption">The hydraulic fracturing process</p>
+
+</div>
+</div>
+
+Note:
+In this case the interval of the wellbore that is to be fractured is sealed off and pressure is pumped up until tensile fractures form. The pressure that is just enough to keep the fracture(s) open equals sh in the formation. Knowing the tensile strength of the rock, it is possible to calculate sH. Furthermore, the vertical stress is assumed to be a principal stress and equal to rgz. Petroleum engineers use knowledge of the stress field to plan hydrofracturing of reservoir units to take advantage of the predicted direction of fracture propagation.
+
+<--o-->
+
+<!-- source: Lecture1_Stress.pptx slide 43 · template: T3-text-and-image -->
+## Injection Induced (?) Earthquakes
+<div class="cols">
+<div class="wide">
+
+Myths and misconceptions about induced earthquakes (USGS link).
+
+- Figure shows the M3.0+ earthquakes /year in the central and eastern United States, 1973–2020.
+- The long-term rate of approximately 25 earthquakes per year increased sharply starting around 2009.
+- $\gt$ 58 earthquakes since 2009 each year; >100 earthquakes since 2013.
+- The rate peaked in 2015 with 1010 M3+ earthquakes.
+- 130 M3+ earthquakes in 2019.
+
+</div>
+<div>
+
+![](Module-iii-Theory/Lecture1-extracted/slide043_img1.jpg)
+
+</div>
+</div>
+
+<--o-->
+
+<!-- source: Lecture1_Stress.pptx slide 44 · template: T3-text-and-image -->
+## Stress Estimates from Focal Mechanism
+
+- The indirect method for stress estimation at depth below 4–5 km;
+- The estimation is made with the assumption of Anderson’s theory of faulting;
+- In many cases, the P- and T-axes do not necessarily parallel principal stress axes.
+- Combining focal mechanisms of faults of different orientation helps reduce this biased assumption.
+
+![](Module-iii-Theory/focal-mechanism-stress.png) <!-- .element style="max-height:420px;" -->
+
+<--o-->
+
+<!-- source: Lecture1_Stress.pptx slide 45 · template: T3-text-and-image -->
+## Stress Estimates in South California
+
+- Using 179,000 earthquake focal mechanisms between 1981-2010 (Fig. a);
+- Best resolved at regions of high seismicity rates (fault zones) and sufficient data;
+- Orientations of $\sigma_{Hmax}$ on the image of strain rate (Holt et al. 2010; Fig. b).
+- The trend of $\sigma_{Hmax}$ exhibits significant regional and local spatial heterogeneities.
+
+![](Module-iii-Theory/socal-stress-strainrate.jpg) <!-- .element style="max-height:430px;" -->
+
+Note:
+The location of LA, the SAF a right-lateral strike-slip fault, which is the plate boundary between Pacific and North-American plate. The fault can be well illustrated by the seismicity, indicating a very active state. The strain rate (plotted as the 2nd invariant -> indicating the shear) tells the same thing.
+
+<--o-->
+
+<!-- source: Lecture1_Stress.pptx slide 46 · template: T3-text-and-image -->
+## Global Stress Map
+<div class="cols">
+<div>
+
+![](Module-iii-Theory/Lecture1-extracted/slide046_img1.jpg)
+
+<p class="caption">Fossen, 2010</p>
+
+</div>
+<div class="wide">
+
+- The World Stress Map Project is based on stress measurements from around the world from (1) earthquake focal mechanisms, (2) bore-hole breakouts and drilling-induced fractures, (3) in situ stress measurements (e.g., hydraulic fracturing) and (4) neotectonic geologic structural data (from fault-slip analysis and volcanic vent alignments).
+
+- The correlation between the orientation of $\sigma_H$ and plate motion is obvious in many places, but with many deviations that tell us that the current stress field is influenced by many different mechanisms and sources of stress.
+
+</div>
+</div>
+
+Note:
+The data are ranked according to reliability. Focal mechanism data completely dominate the data set, particularly the deeper (4–20 km) portion of the data, and are most frequent where earthquakes are common, i.e. along plate boundaries. At shallower levels there is a dominance of data from breakouts, hydrofractures and overcoring. 
+The figure shows that there are large areas of little or no stress information, onshore as well as offshore. The correlation between the orientation of sH and plate motion is also obvious many places, but with many deviations that tell us that the current stress field is influenced by many different mechanisms and sources of stress. Regardless, tectonic processes at plate margins are thought to have a significant influence on the regional stress pattern
+
+<--o-->
+
+<!-- source: Lecture1_Stress.pptx slide 47 · template: T3-text-and-image -->
+## Major Tectonic Forces
+<div class="cols">
+<div>
+
+![](Module-iii-Theory/Lecture1-extracted/slide047_img1.jpg)
+
+<p class="caption">Fossen, 2010</p>
+
+</div>
+<div class="wide">
+
+- The maximum stress axis in continental plates is expected to be horizontal except for the upper part of rift zones (continental rift not shown), passive margins and elevated parts of orogenic belts.
+- Slab pull is the gravitational pull exerted by the sinking slab on the rest of the plate.
+- Ridge push is simply the push from the topographically high oceanic ridge that marks divergent plate boundaries.
+- Basal drag is the frictional resistance or shear force acting at the base of the lithosphere.
+
+</div>
+</div>
+
+Note:
+In the subduction zone, the slab pull is the major thing. Louis gave a detailed overview on subduction zone stresses (W2-1), so you can revisit that materials to refresh the mind. But for the oceanic crust, there will be regions of extentional and compressional stress. Faulting happens during the bending zone of the outmost shell. Carry fluids to the deep Earth.
+
+<--o-->
+
+<!-- source: Lecture1_Stress.pptx slide 48 · template: T1-prose -->
+## Summary
+- Stress = Force/Area (N/m<sup>2</sup> or Pa).
+- Pressure gradient approximate 27 MPa / km, at least in the shallow crust.
+- Concept of normal and shear stress, stress tensor, principal stress, mean stress, deviatoric stress.
+- Derivation of the Mohr circle /diagram → reflect the normal and shear stress variation as a function of plane orientation.
+- Use the Coulomb-Mohr failure criteria to predict when rock fails.
+- Anderson’s theory of faulting: classification of tectonic stress.
+- How can we get information about the stress field near the surface? Some kilometers down? Even deeper down?

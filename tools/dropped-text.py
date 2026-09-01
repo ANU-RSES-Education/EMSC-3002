@@ -20,7 +20,7 @@ deliberately rewritten reports as missing words even though nothing was
 lost. Read the hits, do not act on the count: in Module 3 four of six were
 real drops and two were rewrites.
 
-Run:  pixi run python tools/dropped-text.py Lectures/Module-iii-*-draft.reveal.md
+Run:  pixi run python tools/dropped-text.py Lectures/Module-iii-lecture*-Theory.reveal.md
 """
 import pathlib
 import re

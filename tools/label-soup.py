@@ -27,7 +27,7 @@ Each hit reports the SOURCE pptx and slide number, taken from the converter's
 own provenance comment, because the fix starts in PowerPoint and hunting for
 the matching original is most of the work.
 
-Run:  pixi run python tools/label-soup.py Lectures/Module-iii-*-draft.reveal.md
+Run:  pixi run python tools/label-soup.py Lectures/Module-iii-lecture*-Theory.reveal.md
       pixi run python tools/label-soup.py --table Lectures/*.reveal.md
 """
 import pathlib

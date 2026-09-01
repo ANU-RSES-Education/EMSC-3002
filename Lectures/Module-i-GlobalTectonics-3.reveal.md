@@ -31,11 +31,11 @@ _**NB:** the course materials provided by the authors are open source under a cr
 
 This section introduces the concepts you will need for Module 2: what stress is, why its *orientation* matters, and how the principal stresses control which faults form and which faults slip. We keep things intuitive and discursive here, with a few simple numbers to anchor the ideas.
 
-The quantitative machinery — tensors, the Mohr circle, the failure criteria — comes later, in [Module 3](Module-iii-lecture1-Theory-draft.reveal.html), once you have seen the variety of structures in the Earth and have a reason to want the details.
+The quantitative machinery — tensors, the Mohr circle, the failure criteria — comes later, in [Module 3](Module-iii-lecture1-Theory.reveal.html), once you have seen the variety of structures in the Earth and have a reason to want the details.
 
 <small>
 
-**→ Full treatment in Module 3:** [Stress](Module-iii-lecture1-Theory-draft.reveal.html) · [Strain & strain-rate](Module-iii-lecture2-Theory-draft.reveal.html) · [Rheology](Module-iii-lecture3-Theory-draft.reveal.html)
+**→ Full treatment in Module 3:** [Stress](Module-iii-lecture1-Theory.reveal.html) · [Strain & strain-rate](Module-iii-lecture2-Theory.reveal.html) · [Rheology](Module-iii-lecture3-Theory.reveal.html)
 
 </small>
 
@@ -136,7 +136,7 @@ Some comparisons to calibrate your intuition:
 
 <small>
 
-→ A worked version of this calculation opens the [Module 3 stress lecture](Module-iii-lecture1-Theory-draft.reveal.html).
+→ A worked version of this calculation opens the [Module 3 stress lecture](Module-iii-lecture1-Theory.reveal.html).
 
 </small>
 
@@ -176,7 +176,7 @@ At any point in a stressed material there is one special set of three, mutually 
 
 </center>
 
-The orientation and relative size of the principal stresses is the single most useful description of the stress state in tectonics — it is the main tool we will use in Module 2. Finding these directions in general takes some machinery that we develop in [the theory module](Module-iii-lecture1-Theory-draft.reveal.html).
+The orientation and relative size of the principal stresses is the single most useful description of the stress state in tectonics — it is the main tool we will use in Module 2. Finding these directions in general takes some machinery that we develop in [the theory module](Module-iii-lecture1-Theory.reveal.html).
 
 <small>
 
@@ -276,7 +276,7 @@ The stress field is fixed — only the plane rotates. Watch the force the plane 
 
 Two orientations are special: the plane feels *no* drag at all, only a push. Those are the **principal directions**, and the sweep finds them for itself — they are not put in by hand.
 
-*That circle has a name, and it will do a great deal of work for us in [Module 3](Module-iii-lecture1-Theory-draft.reveal.html).*
+*That circle has a name, and it will do a great deal of work for us in [Module 3](Module-iii-lecture1-Theory.reveal.html).*
 
 <--v-->
 
@@ -308,7 +308,7 @@ Slip on the master fault then transfers stress to its neighbours — some loaded
 
 <small>
 
-Underworld3 computation (Moresi). In [Module 3](Module-iii-lecture1-Theory-draft.reveal.html) we put a rotating stress gauge at each of those neighbouring faults and measure what the earthquake actually did to them.
+Underworld3 computation (Moresi). In [Module 3](Module-iii-lecture1-Theory.reveal.html) we put a rotating stress gauge at each of those neighbouring faults and measure what the earthquake actually did to them.
 
 </small>
 
@@ -356,7 +356,7 @@ $$
 
 Like stress, strain has orientation as well as magnitude — the same diagram we used for stress orientations describes the tendency of an (isotropic) material to deform in response. And, like stress, there are principal strain directions.
 
-The formal treatment (the strain tensor and its properties) is developed in [Module 3](Module-iii-lecture2-Theory-draft.reveal.html) — for Module 2 the geometric idea is what matters.
+The formal treatment (the strain tensor and its properties) is developed in [Module 3](Module-iii-lecture2-Theory.reveal.html) — for Module 2 the geometric idea is what matters.
 
 <--o-->
 
@@ -376,7 +376,7 @@ These are the numbers that make geology patient: at $10^{-15}\\;\textrm{s}^{-1}$
 
 <small>
 
-The strain-rate tensor, velocity gradients and vorticity are developed in [Module 3](Module-iii-lecture2-Theory-draft.reveal.html).
+The strain-rate tensor, velocity gradients and vorticity are developed in [Module 3](Module-iii-lecture2-Theory.reveal.html).
 
 </small>
 
@@ -460,7 +460,7 @@ Rocks with multiple faults in them can start to look like granular materials in 
 
 <small>
 
-The constitutive laws behind these behaviours (elastic moduli, power-law creep, plastic yield) are developed in [Module 3](Module-iii-lecture3-Theory-draft.reveal.html).
+The constitutive laws behind these behaviours (elastic moduli, power-law creep, plastic yield) are developed in [Module 3](Module-iii-lecture3-Theory.reveal.html).
 
 </small>
 
