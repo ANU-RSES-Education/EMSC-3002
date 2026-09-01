@@ -327,7 +327,7 @@ Fault zone
 Finite strain
 : The total, integrated deformation recorded by a rock — the difference between its original and final shape, and what you actually measure in the field. Because it is the end product of what may be a long history, finite strain can hide the path taken to get there; that is why we also want incremental strain.
 
-  *Slides: [4.3 Faults and Fault Zones — Slip Distribution by Finite Faulting](/slideshows/Module-iv-lecture6-Faults-Fault-Zones-draft.reveal.html#/66) · [2.1 Structural Geology — The Workflow of Tectonics and Structural Geology](/slideshows/Module-ii-Lecture-1-Structural-Geology-And-Crustal-Deformation.reveal.html#/12)*
+  *Slides: [4.3 Faults and Fault Zones — Slip Distribution by Finite Faulting](/slideshows/Module-iv-lecture6-Faults-Fault-Zones-draft.reveal.html#/66) · [2.1 Structural Geology — The Workflow of Tectonics and Structural Geology](/slideshows/Module-ii-Lecture-1-Structural-Geology-And-Crustal-Deformation.reveal.html#/12) · [3.2 Strain and Strain Rate — Progressive Deformation](/slideshows/Module-iii-lecture2-Theory-draft.reveal.html#/36/2)*
 
 Flexural slip and flexural flow
 : Two buckling mechanisms that keep layer thickness constant, with zero strain at the hinge increasing down the limbs. Flexural slip is discrete slip on bedding planes, exactly like bending a pile of paper, and leaves slickenlines on bedding surfaces; flexural flow is the same kinematics with the slip smeared into distributed ductile shear within weak layers.
@@ -586,7 +586,7 @@ Imbricate fan (imbrication zone)
 Incremental strain
 : A small individual increment of deformation, which added together over time produce the finite strain. Teasing out increments — from overprinting fabrics, cross-cutting relationships, syn-kinematic minerals — is how you unravel the sequence of events rather than just its sum.
 
-  *Slides: [2.1 Structural Geology — The Workflow of Tectonics and Structural Geology](/slideshows/Module-ii-Lecture-1-Structural-Geology-And-Crustal-Deformation.reveal.html#/12)*
+  *Slides: [2.1 Structural Geology — The Workflow of Tectonics and Structural Geology](/slideshows/Module-ii-Lecture-1-Structural-Geology-And-Crustal-Deformation.reveal.html#/12) · [3.2 Strain and Strain Rate — Progressive Deformation](/slideshows/Module-iii-lecture2-Theory-draft.reveal.html#/36/2)*
 
 Indentor
 : A rigid or strong block driven into a weaker deforming region, as India is into Asia. The resulting pattern depends on what confines the soft material, and a strong block on one side with an open boundary on the other produces asymmetric lateral escape.
