@@ -211,7 +211,7 @@ Two things follow, and both matter in the field:
 <--o-->
 
 <!-- source: Lecture2_Strain_StrainRate.pptx slide 12 · template: T3-text-and-image -->
-## Summary — stress behind us, strain ahead
+## Recap — stress behind us, strain ahead
 ![](Module-iii-Theory/Lecture2-restored/slide012.png) <!-- .element style="display:block; margin-left:auto; margin-right:auto; width:92%" -->
 
 #### Stress
@@ -757,7 +757,7 @@ Geometry alone leaves the sense of movement ambiguous. Layer rotation *near* the
 <--o-->
 
 <!-- source: Lecture2_Strain_StrainRate.pptx slide 29 · template: T3-text-and-image -->
-## Summary — strain, measured from displacement
+## Recap — strain, measured from displacement
 <div class="cols">
 <div class="wide">
 

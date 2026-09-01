@@ -544,7 +544,7 @@ and with it the count of 6 - 3 = 3 invariants in three dimensions.
 <--o-->
 
 <!-- source: Lecture1_Stress.pptx slide 22 · template: T3-text-and-image -->
-## Summary 
+## Recap — the stress tensor so far
 
 - Stress = Force/Area (N/m<sup>2</sup> = Pa)
 - Stress state in 2D/3D
@@ -1222,7 +1222,7 @@ If the Mohr circle does not intersect the Mohr-Coulomb failure criterion, then t
 <--o-->
 
 <!-- source: Lecture1_Stress.pptx slide 39 · template: T3-text-and-image -->
-## Summary
+## Recap — Mohr, failure and Anderson
 <div class="cols">
 <div class="wide">
 

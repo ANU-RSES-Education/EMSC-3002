@@ -760,7 +760,7 @@ Stress–strain rate curves for dry olivine single crystals compressed in three 
 <--v-->
 
 <!-- source: Lecture3_Rheology.pptx slide 37 · template: T3-text-and-image -->
-## Summary of Deformation Controlling Factors
+## Recap — what controls the deformation
 
 Pulling together the last five slides &mdash; temperature, confining pressure, strain rate, fluids and fabric.
 <div class="cols">
