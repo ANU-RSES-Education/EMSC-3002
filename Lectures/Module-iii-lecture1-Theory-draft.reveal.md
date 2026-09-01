@@ -1114,7 +1114,9 @@ A fault dipping at $45°$ would be the one that feels the **most** shear stress.
 
 One of the principal stresses will always be perpendicular to the free surface of the Earth, because the shear stress is zero along any free surface. Thus, a non-planar surface causes the orientation of the stresses to rotate as shown on the figure. Note that these deviations occur near the surface only. 
 
-The fault is weaker than the surrounding rock and can support lower shear stresses than its surroundings. The situation is similar to that where an open surface exists, e.g. the free surface of the Earth
+The fault is weaker than the surrounding rock and can support lower shear stresses than its surroundings. The situation is similar to that where an open surface exists, e.g. the free surface of the Earth.
+
+**Topography does the same thing.** It creates local stresses that bend the regional pattern, and that has to be allowed for in geoengineering &mdash; tunnelling, most obviously. Weak faults and fracture zones, weathering, and contacts between rocks of contrasting physical properties all distort the stress field locally in the same way.
 
 </div>
 </div>
