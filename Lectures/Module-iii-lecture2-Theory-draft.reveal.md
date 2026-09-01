@@ -328,12 +328,11 @@ An outcrop in an exhumed section of mantle, in the Josephine Ophiolite of southe
 Note:
 To calculate the shear strain across a fault or shear zone, we need to first identify a feature that has been offset by the fault or shear zone. Note the brunton for scale. The photo below shows an outcrop in an exhumed section of the mantle within the Josephine Ophiolite in southern Oregon. An ophiolite is a section of oceanic plate preserving all or part of the crust, and sometimes includes the top of the mantle section of the plate. This mantle section is made up of a mix of olivine (weathered, so they appear light brown) and pyroxenes (weathered, so they appear dark reddish-brown or black). The pyroxenes sometime appear in distinct layers that can be traced for tens of meters. The photo shows where one of these pyroxene layers has been offset by a fault or localize shear zone.
 
-<div style="position:absolute;bottom:0;left:0;right:0;font-size:0.40em;color:#8a2b2b;background:rgba(255,255,255,0.88);border-top:1px solid #d8c4c4;padding:0.25em 0.4em;text-align:left;">&#9873; <strong>RETITLE</strong> &mdash; same title as the next slide but a different example &mdash; distinguish them</div>
 
 <--o-->
 
 <!-- source: Lecture2_Strain_StrainRate.pptx slide 15 · template: T3-text-and-image -->
-## Example: Quantify Strain in a Rock
+## Example: Quantify Strain in a Rock — Worked
 
 
 ![](Module-iii-Theory/Lecture2-restored/slide015.png)
@@ -559,6 +558,67 @@ When a layer of sediment is originally deposited, it contains an open framework 
 
 That rotation is the whole difference. Under a **coaxial** deformation the principal axes point the same way however much strain accumulates, and only their lengths change. Under a **non-coaxial** one they swing as the strain grows, so the answer depends on how far the deformation has gone.
 
+<--v-->
+
+<!-- source: Lecture2_Strain_StrainRate.pptx slide 41 · both diagrams were drawn
+     with native PowerPoint shapes and never converted, leaving twenty labels
+     behind. Rescreenshotted 2026-08-31. -->
+## Pure Shear and Simple Shear — With Numbers
+
+The same two deformations, now with numbers on them.
+
+<div class="cols">
+<div>
+
+![](Module-iii-Theory/Lecture2-restored/s41-pure-shear.png)
+
+<p class="caption"><strong>Pure shear</strong> &mdash; shortened in $x_2$, stretched in $x_1$, and the axes never turn</p>
+
+</div>
+<div>
+
+![](Module-iii-Theory/Lecture2-restored/s41-simple-shear.png)
+
+<p class="caption"><strong>Simple shear</strong> &mdash; planes stay parallel and equally spaced, and slide past one another</p>
+
+</div>
+</div>
+
+Pure shear is **coaxial**: the same material lines stay principal throughout. Simple shear is not, and the asymmetry of its strain tensor &mdash; $\epsilon_{xy} = 0.5$ while $\epsilon_{yx} = 0$ &mdash; is exactly the rotation hiding inside it.
+
+<--v-->
+
+<!-- source: Lecture2_Strain_StrainRate.pptx slide 40 · template: T6-two-image -->
+## Progressive Deformation
+<div class="cols">
+<div>
+
+![](Module-iii-Theory/Lecture2-extracted/slide040_img1.jpg) <!-- .element style="width:74%;" -->
+
+</div>
+<div>
+
+![](Module-iii-Theory/Lecture2-extracted/slide040_img2.jpg) <!-- .element style="width:59%;" -->
+
+</div>
+</div>
+<p class="caption">Fossen, 2010</p>
+
+The gap between any two adjacent states of a continuous deformation is a small interval of the whole. That gives two quantities that are easy to confuse:
+
+- **Finite strain** &mdash; the result of the entire deformation history, the total.
+- **Incremental strain** &mdash; one portion of that history, an infinitesimal slice of it.
+
+<small>
+
+**Flow parameters** (advanced). *Velocity field*: the particle velocity at any instant of the deformation history. *Flow apophyses*: imaginary lines separating domains of particle paths. *Instantaneous stretching axes*: the three perpendicular principal strain axes. *Vorticity*: how fast a particle rotates in a soft medium as it deforms.
+
+</small>
+
+Note:
+The differences provide data on size and orientation of the incremental strain ellipsoid for this interval and describe this increment of the deformation history.
+
+
 <--o-->
 
 <!-- source: Lecture2_Strain_StrainRate.pptx slide 24 · template: T3-text-and-image -->
@@ -674,6 +734,25 @@ Neither one gives you the other. You cannot predict the strain from the stress a
 
 Note:
 Deformed markers (a) such as strained pebbles or ooids give no information about the type of deformation.
+
+<--v-->
+
+<!-- source: Lecture2_Strain_StrainRate.pptx slide 39 · template: T3-text-and-image -->
+## Geometrical and Kinematic Analysis
+
+Geometry alone leaves the sense of movement ambiguous. Layer rotation *near* the fault is the extra information that settles it &mdash; drag one way means a normal fault, the other way a reverse one.
+<div class="cols">
+<div class="wide">
+
+&nbsp;
+
+</div>
+<div>
+
+![](Module-iii-Theory/Lecture2-extracted/slide039_img1.png)
+
+</div>
+</div>
 
 <--o-->
 
@@ -884,81 +963,3 @@ Note:
 - Methods to estimate strain in a rock (based on strain markers)
 - The concept of strain rate and how / why we measure them
 
-
-<--v-->
-
-<!-- source: Lecture2_Strain_StrainRate.pptx slide 39 · template: T3-text-and-image -->
-## Geometrical and Kinematic Analysis
-<div class="cols">
-<div class="wide">
-
-&nbsp;
-
-</div>
-<div>
-
-![](Module-iii-Theory/Lecture2-extracted/slide039_img1.png)
-
-</div>
-</div>
-
-<--v-->
-
-<!-- source: Lecture2_Strain_StrainRate.pptx slide 40 · template: T6-two-image -->
-## Progressive Deformation
-<div class="cols">
-<div>
-
-![](Module-iii-Theory/Lecture2-extracted/slide040_img1.jpg) <!-- .element style="width:74%;" -->
-
-</div>
-<div>
-
-![](Module-iii-Theory/Lecture2-extracted/slide040_img2.jpg) <!-- .element style="width:59%;" -->
-
-</div>
-</div>
-<p class="caption">Fossen, 2010</p>
-
-The gap between any two adjacent states of a continuous deformation is a small interval of the whole. That gives two quantities that are easy to confuse:
-
-- **Finite strain** &mdash; the result of the entire deformation history, the total.
-- **Incremental strain** &mdash; one portion of that history, an infinitesimal slice of it.
-
-<small>
-
-**Flow parameters** (advanced). *Velocity field*: the particle velocity at any instant of the deformation history. *Flow apophyses*: imaginary lines separating domains of particle paths. *Instantaneous stretching axes*: the three perpendicular principal strain axes. *Vorticity*: how fast a particle rotates in a soft medium as it deforms.
-
-</small>
-
-Note:
-The differences provide data on size and orientation of the incremental strain ellipsoid for this interval and describe this increment of the deformation history.
-
-
-<--v-->
-
-<!-- source: Lecture2_Strain_StrainRate.pptx slide 41 · both diagrams were drawn
-     with native PowerPoint shapes and never converted, leaving twenty labels
-     behind. Rescreenshotted 2026-08-31. -->
-## Pure Shear and Simple Shear
-
-The same two deformations as earlier in the deck, now with numbers on them.
-
-<div class="cols">
-<div>
-
-![](Module-iii-Theory/Lecture2-restored/s41-pure-shear.png)
-
-<p class="caption"><strong>Pure shear</strong> &mdash; shortened in $x_2$, stretched in $x_1$, and the axes never turn</p>
-
-</div>
-<div>
-
-![](Module-iii-Theory/Lecture2-restored/s41-simple-shear.png)
-
-<p class="caption"><strong>Simple shear</strong> &mdash; planes stay parallel and equally spaced, and slide past one another</p>
-
-</div>
-</div>
-
-Pure shear is **coaxial**: the same material lines stay principal throughout. Simple shear is not, and the asymmetry of its strain tensor &mdash; $\epsilon_{xy} = 0.5$ while $\epsilon_{yx} = 0$ &mdash; is exactly the rotation hiding inside it.

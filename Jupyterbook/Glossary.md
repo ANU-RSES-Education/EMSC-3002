@@ -244,12 +244,12 @@ Domino (bookshelf) faulting
 Ductile deformation
 : Deformation without loss of cohesion, in which rock changes shape smoothly and retains intricate geometries when the forces stop — folds rather than fractures. It is favoured by high temperature, high confining pressure, the presence of fluids and slow strain rates.
 
-  *Slides: [5.5 Shear Zones — Ductile shear zones](/slideshows/Module-v-lecture4-Shear-Zones.reveal.html#/29) · [1.3 Stress, Strain and Strength — The Brittle-Ductile Transition](/slideshows/Module-i-GlobalTectonics-3.reveal.html#/9) · [3.3 Rheology — &#9888; Where we left off (Module 1.3)](/slideshows/Module-iii-lecture3-Theory-draft.reveal.html#/3)*
+  *Slides: [5.5 Shear Zones — Ductile shear zones](/slideshows/Module-v-lecture4-Shear-Zones.reveal.html#/29) · [1.3 Stress, Strain and Strength — The Brittle-Ductile Transition](/slideshows/Module-i-GlobalTectonics-3.reveal.html#/9) · [3.3 Rheology — Where we left off (Module 1.3)](/slideshows/Module-iii-lecture3-Theory-draft.reveal.html#/3)*
 
 Ductile shear zone
 : A shear zone in which passive markers can be traced continuously through the zone with no visible discontinuities at the scale of observation. Note the careful distinction: "ductile" describes the style of deformation and is scale-dependent, whereas "plastic" describes the mechanism — so a ductile zone can still work by brittle mechanisms at the grain scale.
 
-  *Slides: [5.5 Shear Zones — Ductile shear zones](/slideshows/Module-v-lecture4-Shear-Zones.reveal.html#/29) · [1.3 Stress, Strain and Strength — The Brittle-Ductile Transition](/slideshows/Module-i-GlobalTectonics-3.reveal.html#/9) · [3.3 Rheology — &#9888; Where we left off (Module 1.3)](/slideshows/Module-iii-lecture3-Theory-draft.reveal.html#/3)*
+  *Slides: [5.5 Shear Zones — Ductile shear zones](/slideshows/Module-v-lecture4-Shear-Zones.reveal.html#/29) · [1.3 Stress, Strain and Strength — The Brittle-Ductile Transition](/slideshows/Module-i-GlobalTectonics-3.reveal.html#/9) · [3.3 Rheology — Where we left off (Module 1.3)](/slideshows/Module-iii-lecture3-Theory-draft.reveal.html#/3)*
 
 Duplex
 : A stack of horses confined between an overlying roof thrust and an underlying floor thrust, formed when a propagating flat thrust sticks and successive ramps cut up in front of it. Duplexes are one of the main ways a thrust belt thickens itself without any single fault taking up all the shortening.
@@ -327,7 +327,7 @@ Fault zone
 Finite strain
 : The total, integrated deformation recorded by a rock — the difference between its original and final shape, and what you actually measure in the field. Because it is the end product of what may be a long history, finite strain can hide the path taken to get there; that is why we also want incremental strain.
 
-  *Slides: [4.3 Faults and Fault Zones — Slip Distribution by Finite Faulting](/slideshows/Module-iv-lecture6-Faults-Fault-Zones-draft.reveal.html#/66) · [2.1 Structural Geology — The Workflow of Tectonics and Structural Geology](/slideshows/Module-ii-Lecture-1-Structural-Geology-And-Crustal-Deformation.reveal.html#/12) · [3.2 Strain and Strain Rate — Progressive Deformation](/slideshows/Module-iii-lecture2-Theory-draft.reveal.html#/36/2)*
+  *Slides: [4.3 Faults and Fault Zones — Slip Distribution by Finite Faulting](/slideshows/Module-iv-lecture6-Faults-Fault-Zones-draft.reveal.html#/66) · [2.1 Structural Geology — The Workflow of Tectonics and Structural Geology](/slideshows/Module-ii-Lecture-1-Structural-Geology-And-Crustal-Deformation.reveal.html#/12) · [3.2 Strain and Strain Rate — Progressive Deformation](/slideshows/Module-iii-lecture2-Theory-draft.reveal.html#/22/2)*
 
 Flexural slip and flexural flow
 : Two buckling mechanisms that keep layer thickness constant, with zero strain at the hinge increasing down the limbs. Flexural slip is discrete slip on bedding planes, exactly like bending a pile of paper, and leaves slickenlines on bedding surfaces; flexural flow is the same kinematics with the slip smeared into distributed ductile shear within weak layers.
@@ -586,7 +586,7 @@ Imbricate fan (imbrication zone)
 Incremental strain
 : A small individual increment of deformation, which added together over time produce the finite strain. Teasing out increments — from overprinting fabrics, cross-cutting relationships, syn-kinematic minerals — is how you unravel the sequence of events rather than just its sum.
 
-  *Slides: [2.1 Structural Geology — The Workflow of Tectonics and Structural Geology](/slideshows/Module-ii-Lecture-1-Structural-Geology-And-Crustal-Deformation.reveal.html#/12) · [3.2 Strain and Strain Rate — Progressive Deformation](/slideshows/Module-iii-lecture2-Theory-draft.reveal.html#/36/2)*
+  *Slides: [2.1 Structural Geology — The Workflow of Tectonics and Structural Geology](/slideshows/Module-ii-Lecture-1-Structural-Geology-And-Crustal-Deformation.reveal.html#/12) · [3.2 Strain and Strain Rate — Progressive Deformation](/slideshows/Module-iii-lecture2-Theory-draft.reveal.html#/22/2)*
 
 Indentor
 : A rigid or strong block driven into a weaker deforming region, as India is into Asia. The resulting pattern depends on what confines the soft material, and a strong block on one side with an open boundary on the other produces asymmetric lateral escape.
@@ -644,12 +644,12 @@ Joint spacing
 Kinematic indicator
 : Any asymmetric structure telling you which wall of a shear zone moved which way: S–C fabrics, mica fish, sigma- and delta-type porphyroclast tails, rotated boudins, deflected markers, asymmetric folds, quartz c-axis fabrics. The working rule is never to trust one alone — look for several, in a section cut parallel to the lineation and perpendicular to the foliation.
 
-  *Slides: [5.5 Shear Zones — Kinematic Indicators](/slideshows/Module-v-lecture4-Shear-Zones.reveal.html#/57) · [3.2 Strain and Strain Rate — Geometrical and Kinematic Analysis](/slideshows/Module-iii-lecture2-Theory-draft.reveal.html#/36/1)*
+  *Slides: [5.5 Shear Zones — Kinematic Indicators](/slideshows/Module-v-lecture4-Shear-Zones.reveal.html#/57) · [3.2 Strain and Strain Rate — Geometrical and Kinematic Analysis](/slideshows/Module-iii-lecture2-Theory-draft.reveal.html#/27/1)*
 
 Kinematic vorticity number ($W_k$)
 : A single number measuring how much internal rotation there is relative to how fast strain accumulates, placing a deformation on the spectrum from coaxial to non-coaxial. $W_k = 0$ is pure shear and $W_k = 1$ is simple shear; the paddle-wheel picture helps, with the wheel spinning faster as $W_k$ increases.
 
-  *Slides: [5.5 Shear Zones — Kinematic Indicators](/slideshows/Module-v-lecture4-Shear-Zones.reveal.html#/57) · [3.2 Strain and Strain Rate — Geometrical and Kinematic Analysis](/slideshows/Module-iii-lecture2-Theory-draft.reveal.html#/36/1)*
+  *Slides: [5.5 Shear Zones — Kinematic Indicators](/slideshows/Module-v-lecture4-Shear-Zones.reveal.html#/57) · [3.2 Strain and Strain Rate — Geometrical and Kinematic Analysis](/slideshows/Module-iii-lecture2-Theory-draft.reveal.html#/27/1)*
 
 Kinematics
 : The description of how rocks moved and distorted — velocities, displacements, fault slip, rotations and strain histories — without asking what forces caused it. It is the most tractable of the three analyses because you can measure it directly from geometry, GPS and offset markers.
@@ -664,7 +664,7 @@ Lineation
 Lithosphere
 : A rheological domain describing the upper layer of the Earth with the most plate-like characteristics. Oceanic lithosphere reaches at most about 100–150 km thick, whereas cratonic continental lithosphere can exceed 200 km — a thick/thin contrast that controls where heat, magmatism and deformation localise.
 
-  *Slides: [3.3 Rheology — Rheology of the Lithosphere](/slideshows/Module-iii-lecture3-Theory-draft.reveal.html#/27) · [1.1 Global Deformation Patterns — Thickness of the Lithosphere](/slideshows/Module-i-GlobalTectonics-1.reveal.html#/5) · [1.1a The Australian Plate — Datasets: lithospheric thickness (LAB)](/slideshows/Module-i-GlobalTectonics-1a.reveal.html#/10)*
+  *Slides: [1.1 Global Deformation Patterns — Thickness of the Lithosphere](/slideshows/Module-i-GlobalTectonics-1.reveal.html#/5) · [3.3 Rheology — Rheology of the Lithosphere: Three Minerals, Three Depths](/slideshows/Module-iii-lecture3-Theory-draft.reveal.html#/27) · [1.1a The Australian Plate — Datasets: lithospheric thickness (LAB)](/slideshows/Module-i-GlobalTectonics-1a.reveal.html#/10)*
 
 Lithosphere–asthenosphere boundary (LAB)
 : The base of the mechanically strong plate, mapped with seismology and, in Australia, with AusLAMP magnetotellurics. It is a strength boundary rather than a compositional one, which is why different techniques can disagree about exactly where it lies.
@@ -703,7 +703,7 @@ Metamorphic core complex
 Mineral lineation
 : A linear alignment of minerals or mineral aggregates produced by rigid rotation of elongate grains, by growth of new elongate minerals in a preferred direction, or by dissolution and reprecipitation. Rotation usually deforms the grains and rarely achieves perfect parallelism, whereas syntectonic growth can — that is how you tell the two apart.
 
-  *Slides: [2.1 Structural Geology — Who needs Structural Geology?](/slideshows/Module-ii-Lecture-1-Structural-Geology-And-Crustal-Deformation.reveal.html#/20) · [3.3 Rheology — Rheology of the Lithosphere](/slideshows/Module-iii-lecture3-Theory-draft.reveal.html#/27) · [5.4 Structures Associated with Folding (2) — Penetrative lineations](/slideshows/Module-v-lecture3-Structures-Associated-with-Folding-2.reveal.html#/18)*
+  *Slides: [2.1 Structural Geology — Who needs Structural Geology?](/slideshows/Module-ii-Lecture-1-Structural-Geology-And-Crustal-Deformation.reveal.html#/20) · [3.3 Rheology — Rheology of the Lithosphere: Three Minerals, Three Depths](/slideshows/Module-iii-lecture3-Theory-draft.reveal.html#/27) · [5.4 Structures Associated with Folding (2) — Penetrative lineations](/slideshows/Module-v-lecture3-Structures-Associated-with-Folding-2.reveal.html#/18)*
 
 Mode I, II and III fractures
 : The three crack-tip displacement modes: Mode I opens (walls move apart perpendicular to the surface), Mode II slides in-plane, Mode III tears out of plane. They are defined by infinitesimal displacements right at the crack tip, not by the metres of offset you can measure on a fault. Because Mode I cracks open normal to $\sigma_3$, joints and veins are good palaeostress indicators.
@@ -820,7 +820,7 @@ Perfect plasticity
 Plastic deformation
 : Permanent change of shape without fracture, beginning only once the stress exceeds a yield point and then continuing at roughly constant stress. The mechanical analogue is a block sliding on a frictional surface: nothing happens until the threshold is passed, then it just goes.
 
-  *Slides: [3.3 Rheology — Plastic Deformation](/slideshows/Module-iii-lecture3-Theory-draft.reveal.html#/29/2) · [5.4 Structures Associated with Folding (2) — Lineations related to plastic deformation](/slideshows/Module-v-lecture3-Structures-Associated-with-Folding-2.reveal.html#/14) · [5.5 Shear Zones — Plastic Shear zones](/slideshows/Module-v-lecture4-Shear-Zones.reveal.html#/19)*
+  *Slides: [3.3 Rheology — Plastic Deformation](/slideshows/Module-iii-lecture3-Theory-draft.reveal.html#/19/1) · [5.4 Structures Associated with Folding (2) — Lineations related to plastic deformation](/slideshows/Module-v-lecture3-Structures-Associated-with-Folding-2.reveal.html#/14) · [5.5 Shear Zones — Plastic Shear zones](/slideshows/Module-v-lecture4-Shear-Zones.reveal.html#/19)*
 
 Plate boundary
 : The rigid plates move relative to one another without deforming, except in the very narrow accommodation zones at their edges known as plate boundaries. There are three main types — convergent, divergent and transform — each with its own kinematic rules and internal structure.
@@ -898,7 +898,7 @@ Principal stresses ($\sigma_1 \ge \sigma_2 \ge \sigma_3$)
 Progressive deformation
 : The accumulation of strain through a sequence of increments, in which the finite strain at any moment is the integrated result. A given finite strain can be reached in an infinite number of ways, so the rock has effectively forgotten its path — which is why strain alone rarely tells you the stress history.
 
-  *Slides: [3.2 Strain and Strain Rate — Progressive Deformation](/slideshows/Module-iii-lecture2-Theory-draft.reveal.html#/36/2) · [2.1 Structural Geology — Range of methods to approach structures](/slideshows/Module-ii-Lecture-1-Structural-Geology-And-Crustal-Deformation.reveal.html#/9)*
+  *Slides: [3.2 Strain and Strain Rate — Progressive Deformation](/slideshows/Module-iii-lecture2-Theory-draft.reveal.html#/22/2) · [2.1 Structural Geology — Range of methods to approach structures](/slideshows/Module-ii-Lecture-1-Structural-Geology-And-Crustal-Deformation.reveal.html#/9)*
 
 Pseudotachylyte
 : A dark, glassy fault rock formed by frictional melting during a single seismic slip event — "pseudo" plus tachylyte, a basaltic glass, and nothing to do with volcanism. It requires very fast, high-stress slip, and so is treasured as a fossil record of an ancient earthquake.
@@ -1014,7 +1014,7 @@ Shear modulus ($\mu$, $G$)
 Shear strain ($\gamma$)
 : A measure of how much angles have changed. In a shear zone it is simply offset divided by zone width, so 5 cm of offset across a 0.5 cm zone gives $\gamma = 10$.
 
-  *Slides: [3.3 Rheology — Real Estimated Shear Strain Rates](/slideshows/Module-iii-lecture3-Theory-draft.reveal.html#/29/1) · [3.2 Strain and Strain Rate — Angular Strain](/slideshows/Module-iii-lecture2-Theory-draft.reveal.html#/11)*
+  *Slides: [3.3 Rheology — Real Estimated Shear Strain Rates](/slideshows/Module-iii-lecture3-Theory-draft.reveal.html#/24/1) · [3.2 Strain and Strain Rate — Angular Strain](/slideshows/Module-iii-lecture2-Theory-draft.reveal.html#/11)*
 
 Shear stress ($\tau$, $\sigma_s$)
 : The component of traction acting along a plane — the part trying to slide one side past the other. For a uniaxial load, shear stress is greatest on planes at 45° to the load, which is why things tend to break obliquely rather than straight across.

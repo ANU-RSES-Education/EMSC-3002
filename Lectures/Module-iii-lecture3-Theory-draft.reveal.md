@@ -56,7 +56,7 @@ Australian National University
 <!-- Written 2026-08-27 from the Module 1.3 slides. The warning triangle in
      the title is deliberate: it marks the slide as awaiting review, and comes
      off once Louis is happy with it. -->
-## &#9888; Where we left off (Module 1.3)
+## Where we left off (Module 1.3)
 
 Rheology is not new. In [Module 1.3 §8](Module-i-GlobalTectonics-3.reveal.html#/8) we established that:
 
@@ -67,7 +67,6 @@ Rheology is not new. In [Module 1.3 §8](Module-i-GlobalTectonics-3.reveal.html#
 
 *What this module adds:* the constitutive laws and the **numbers** &mdash; Young's modulus, Poisson's ratio, the elastic tensor, real viscosities, the Maxwell time, and what decides which mechanism wins.
 
-<small><em>&#9888; Drafted for review &mdash; check the emphasis is where you want it, then take the triangle off.</em></small>
 
 <--o-->
 
@@ -547,6 +546,26 @@ Real rocks usually take one of the other two paths:
 - **Strain hardening** &mdash; more stress is needed to keep going, because the rock has become stronger and harder to deform.
 - **Strain softening** &mdash; less stress is needed, and deformation runs away. This is the creep regime, and it is why shear zones localise.
 
+<--v-->
+
+<!-- source: Lecture3_Rheology.pptx slide 35 · template: T3-text-and-image -->
+## Plastic Deformation
+<div class="cols">
+<div>
+
+![](Module-iii-Theory/Lecture3-extracted/slide035_img1.jpg)
+
+</div>
+<div class="wide">
+
+- Plastic deformation is the permanent change in shape or size of a body without fracture, accumulated over time by a sustained stress beyond the elastic limit (yield point) of the material.
+- Different expression in $\sigma -\epsilon$ and $\sigma -\dot{\epsilon}$ plots.
+- When the stress is removed after a history of elastic–plastic deformation only the plastic strain will remain.
+
+</div>
+</div>
+
+
 <--o-->
 
 <!-- source: Lecture3_Rheology.pptx slide 23 · template: T3-text-and-image -->
@@ -588,6 +607,26 @@ The same fault, the same shear drive — five different constitutive laws on the
 Underworld3 split-node fault computation (Moresi).
 
 </small>
+
+<--v-->
+
+<!-- source: Lecture3_Rheology.pptx slide 36 · template: T3-text-and-image -->
+## Deformation in Idealised Conditions
+
+The same three analogues, with what each one actually does spelled out.
+<div class="cols">
+<div>
+
+![](Module-iii-Theory/Lecture3-extracted/slide036_img1.jpg)
+
+</div>
+<div class="wide">
+
+&nbsp;
+
+</div>
+</div>
+
 
 <--o-->
 
@@ -655,6 +694,26 @@ Read the other way round, this is why parts of the Earth behave viscously at all
 </div>
 </div>
 
+<--v-->
+
+<!-- source: Lecture3_Rheology.pptx slide 34 · template: T3-text-and-image -->
+## Real Estimated Shear Strain Rates
+<div class="cols">
+<div>
+
+![](Module-iii-Theory/Lecture3-extracted/slide034_img1.jpg)
+
+<p class="caption">Fagereng and Biggs, 2019</p>
+
+</div>
+<div class="wide">
+
+&nbsp;
+
+</div>
+</div>
+
+
 <--o-->
 
 <!-- source: Lecture3_Rheology.pptx slide 28 · the Griggs graph had lost every
@@ -698,10 +757,39 @@ Note:
 A weak foliation in marble makes foli- ation-parallel extension more difficult (it takes a higher differential stress to obtain the same amount of strain). Note that the effect decreases with increasing temperature. 
 Stress–strain rate curves for dry olivine single crystals compressed in three different crystallographic directions. At any strain rate, deformation is easier for crystals shortened in the [110] direction, due to the lower strength of the (010)[100] slip system
 
+<--v-->
+
+<!-- source: Lecture3_Rheology.pptx slide 37 · template: T3-text-and-image -->
+## Summary of Deformation Controlling Factors
+
+Pulling together the last five slides &mdash; temperature, confining pressure, strain rate, fluids and fabric.
+<div class="cols">
+<div class="wide">
+
+- Increasing the temperature, increasing the amount of fluid, lowering the strain rate and, in plastically deforming rocks, reducing the grain size all tend to cause strain weakening.
+
+- Experiments on Mars Bar:
+- High temperature favors ductile deformation (folding).
+- Low temperature favors brittle deformation (fractures).
+- Different materials have different strengths.
+
+</div>
+<div>
+
+![](Module-iii-Theory/Lecture3-extracted/slide037_img2.jpg)
+
+![](Module-iii-Theory/Lecture3-extracted/slide037_img1.jpg)
+
+<p class="caption">Mars Bar experiments · Roderick Brown, U Glasgow</p>
+
+</div>
+</div>
+
+
 <--o-->
 
 <!-- source: Lecture3_Rheology.pptx slide 30 · template: T3-text-and-image -->
-## Rheology of the Lithosphere
+## Rheology of the Lithosphere: Three Minerals, Three Depths
 
 [Module 1.3 §9](Module-i-GlobalTectonics-3.reveal.html#/9) already walks through the deformation map and the brittle&ndash;ductile transition. What is added here are the **mineral-specific depths** &mdash; which phase gives way first, and where.
 <div class="cols">
@@ -734,7 +822,7 @@ While elastic theory may work well for very small strains in the upper crust, he
 <--o-->
 
 <!-- source: Lecture3_Rheology.pptx slide 31 · template: T3-text-and-image -->
-## Rheology of the Lithosphere
+## Rheology of the Lithosphere: the Brittle&ndash;Plastic Transition
 <div class="cols">
 <div>
 
@@ -759,7 +847,6 @@ The crust is not monomineralic, but it is generally assumed that there is enough
 Elastic deformation is the dominant form of deformation at shallow depths in the crust and lithosphere because both the temperature and pressure are low. However the crust and lithosphere are also brittle and when the stress is big enough, failure by fracture or frictional sliding also occurs (bending at the subduction zones; deep earthquakes down to 500-600 km depth). 
 Viscous and plastic deformation typically occur deeper and at higher pressures and temperatures than elastic deformation.
 
-<div style="position:absolute;bottom:0;left:0;right:0;font-size:0.40em;color:#8a2b2b;background:rgba(255,255,255,0.88);border-top:1px solid #d8c4c4;padding:0.25em 0.4em;text-align:left;">&#9873; <strong>RETITLE</strong> &mdash; same title as the previous slide but different content (the brittle-plastic transition) &mdash; distinguish them</div>
 
 <--o-->
 
@@ -774,89 +861,4 @@ Viscous and plastic deformation typically occur deeper and at higher pressures a
 - Main physical factors controlling the deformation
 - Rheology of the lithosphere
 
-
-
-<--v-->
-
-<!-- source: Lecture3_Rheology.pptx slide 34 · template: T3-text-and-image -->
-## Real Estimated Shear Strain Rates
-<div class="cols">
-<div>
-
-![](Module-iii-Theory/Lecture3-extracted/slide034_img1.jpg)
-
-<p class="caption">Fagereng and Biggs, 2019</p>
-
-</div>
-<div class="wide">
-
-&nbsp;
-
-</div>
-</div>
-
-
-<--v-->
-
-<!-- source: Lecture3_Rheology.pptx slide 35 · template: T3-text-and-image -->
-## Plastic Deformation
-<div class="cols">
-<div>
-
-![](Module-iii-Theory/Lecture3-extracted/slide035_img1.jpg)
-
-</div>
-<div class="wide">
-
-- Plastic deformation is the permanent change in shape or size of a body without fracture, accumulated over time by a sustained stress beyond the elastic limit (yield point) of the material.
-- Different expression in $\sigma -\epsilon$ and $\sigma -\dot{\epsilon}$ plots.
-- When the stress is removed after a history of elastic–plastic deformation only the plastic strain will remain.
-
-</div>
-</div>
-
-
-<--v-->
-
-<!-- source: Lecture3_Rheology.pptx slide 36 · template: T3-text-and-image -->
-## Deformation in Idealised Conditions
-<div class="cols">
-<div>
-
-![](Module-iii-Theory/Lecture3-extracted/slide036_img1.jpg)
-
-</div>
-<div class="wide">
-
-&nbsp;
-
-</div>
-</div>
-
-
-<--v-->
-
-<!-- source: Lecture3_Rheology.pptx slide 37 · template: T3-text-and-image -->
-## Summary of Deformation Controlling Factors
-<div class="cols">
-<div class="wide">
-
-- Increasing the temperature, increasing the amount of fluid, lowering the strain rate and, in plastically deforming rocks, reducing the grain size all tend to cause strain weakening.
-
-- Experiments on Mars Bar:
-- High temperature favors ductile deformation (folding).
-- Low temperature favors brittle deformation (fractures).
-- Different materials have different strengths.
-
-</div>
-<div>
-
-![](Module-iii-Theory/Lecture3-extracted/slide037_img2.jpg)
-
-![](Module-iii-Theory/Lecture3-extracted/slide037_img1.jpg)
-
-<p class="caption">Mars Bar experiments · Roderick Brown, U Glasgow</p>
-
-</div>
-</div>
 
