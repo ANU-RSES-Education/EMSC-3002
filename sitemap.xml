@@ -41,6 +41,9 @@
     <loc>http://localhost:3000/crosssection</loc>
   </url>
   <url>
+    <loc>http://localhost:3000/australianplatepresentation</loc>
+  </url>
+  <url>
     <loc>http://localhost:3000/project-ideas</loc>
   </url>
   <url>
