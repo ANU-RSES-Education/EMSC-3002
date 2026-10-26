@@ -1,0 +1,555 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Presentation marking sheet</title>
+<!--
+  Rubric marking sheet for live presentations.
+
+  Self-contained on purpose: no fonts, scripts or styles are fetched, so it works
+  on lecture-theatre wifi or opened straight from disk. Marks are kept in this
+  browser's localStorage only — nothing is sent anywhere. Use "Export CSV" to get
+  them out.
+
+  The built-in rubric is a verbatim copy of AustralianPlatePresentation.csv (a
+  Canvas rubric export). To mark against a different rubric, load any Canvas
+  rubric-export CSV with the "Load rubric CSV" button, or paste a new export
+  into the <script id="builtin-rubric"> block below.
+-->
+<style>
+:root {
+  --bg: #ffffff; --surface: #f3f4f5; --border: #cfd4da; --text: #1d2125; --muted: #5d6670;
+  --accent: #2b7a3d; --accent-bg: #e6f2e8; --warn: #a86400; --bad: #c0392b; --input: #ffffff;
+  color-scheme: light dark;
+}
+@media (prefers-color-scheme: dark) {
+  :root {
+    --bg: #16191c; --surface: #22262a; --border: #3a4046; --text: #e7eaed; --muted: #9aa4ae;
+    --accent: #4caf6a; --accent-bg: #1f3a27; --warn: #e0a040; --bad: #ef6b5b; --input: #1b1f22;
+  }
+}
+* { box-sizing: border-box; }
+body { margin: 0; background: var(--bg); color: var(--text);
+  font: 15px/1.45 system-ui, -apple-system, "Segoe UI", Roboto, sans-serif; }
+button, input, textarea { font: inherit; color: inherit; }
+button { cursor: pointer; border: 1px solid var(--border); background: var(--surface);
+  border-radius: 6px; padding: .35em .8em; }
+button:hover { border-color: var(--muted); }
+button.primary { background: var(--accent); border-color: var(--accent); color: #fff; font-weight: 600; }
+input[type=text], input[type=number], textarea { background: var(--input); border: 1px solid var(--border);
+  border-radius: 6px; padding: .35em .5em; }
+textarea { width: 100%; resize: vertical; }
+main { padding: 0 16px 48px; max-width: 1400px; margin: 0 auto; }
+
+/* sticky bar: title, timer, score */
+header { position: sticky; top: 0; z-index: 2; background: var(--bg); border-bottom: 1px solid var(--border);
+  display: flex; flex-wrap: wrap; gap: 12px 24px; align-items: center; justify-content: space-between;
+  padding: 10px 16px; }
+header h1 { font-size: 1.15rem; margin: 0; }
+header .sub { color: var(--muted); font-size: .85rem; }
+.timer { display: flex; align-items: center; gap: 8px; }
+.clock { font-variant-numeric: tabular-nums; font-size: 1.6rem; font-weight: 700; min-width: 4.2ch; text-align: right; }
+.clock.warn { color: var(--warn); }
+.clock.over { color: var(--bad); }
+.timer input { width: 4em; }
+.score { display: flex; align-items: stretch; border-radius: 8px; overflow: hidden; border: 1px solid var(--border); }
+.score span { padding: 8px 12px; background: var(--surface); font-weight: 600; }
+.score output { padding: 8px 14px; background: var(--accent); color: #fff; font-weight: 700; font-size: 1.15rem;
+  font-variant-numeric: tabular-nums; }
+
+.presenter { display: flex; flex-wrap: wrap; gap: 12px 20px; align-items: end; margin: 16px 0 12px; }
+.presenter label { display: flex; flex-direction: column; gap: 4px; font-size: .85rem; color: var(--muted); }
+.presenter input[type=text] { width: 18em; max-width: 100%; color: var(--text); }
+.progress { color: var(--muted); font-size: .9rem; }
+.banner { border: 1px solid var(--warn); color: var(--warn); border-radius: 6px; padding: 8px 12px; margin: 12px 0; }
+.banner[hidden] { display: none; }
+
+/* the rubric grid, laid out like the Canvas "traditional" view */
+table.rubric { width: 100%; border-collapse: collapse; border: 1px solid var(--border); }
+table.rubric thead th { background: var(--surface); text-align: left; padding: 10px 12px; border-bottom: 1px solid var(--border); }
+table.rubric th[scope=row] { width: 17%; vertical-align: top; text-align: left; padding: 12px; font-weight: 600; }
+.c-num { display: block; color: var(--muted); font-size: .75rem; font-weight: 400; text-transform: uppercase; letter-spacing: .04em; }
+.c-desc { display: block; color: var(--muted); font-size: .85rem; font-weight: 400; margin-top: 6px; }
+tr.crit > td, tr.crit > th { border-top: 1px solid var(--border); }
+tr.crit > td:nth-child(2) { padding: 0; border-left: 1px solid var(--border); border-right: 1px solid var(--border); }
+.ratings { display: grid; grid-template-columns: repeat(var(--n), 1fr); height: 100%; }
+.rating { display: flex; flex-direction: column; gap: 6px; text-align: left; border: 0; border-radius: 0;
+  border-left: 1px solid var(--border); background: transparent; padding: 10px 12px; min-height: 100%; }
+.rating:first-child { border-left: 0; }
+.rating:hover { background: var(--surface); }
+.rating[aria-pressed=true] { background: var(--accent-bg); box-shadow: inset 0 0 0 2px var(--accent); }
+.r-name { font-weight: 700; text-align: center; }
+.r-desc { font-size: .85rem; flex: 1; }
+.r-pts { font-weight: 700; text-align: right; }
+td.points { width: 7.5em; text-align: center; vertical-align: middle; padding: 8px; white-space: nowrap; }
+td.points input { width: 4.2em; text-align: right; }
+td.points input.invalid { border-color: var(--bad); }
+.of { color: var(--muted); margin-left: 2px; }
+tr.comment-row td { padding: 0 12px 12px; }
+tr.comment-row textarea { font-size: .9rem; }
+body.compact .r-desc, body.compact .c-desc { display: none; }
+
+.overall { margin-top: 16px; }
+.overall label { font-weight: 600; display: block; margin-bottom: 4px; }
+.actions { display: flex; flex-wrap: wrap; gap: 10px; align-items: center; margin: 14px 0 8px; }
+.status { color: var(--accent); font-weight: 600; min-height: 1.4em; }
+.status.error { color: var(--bad); }
+
+section.session { margin-top: 32px; border-top: 1px solid var(--border); padding-top: 12px; }
+section.session h2 { font-size: 1.05rem; margin: 0 0 8px; }
+.table-wrap { overflow-x: auto; }
+table.marked { border-collapse: collapse; min-width: 100%; font-size: .9rem; }
+table.marked th, table.marked td { border-bottom: 1px solid var(--border); padding: 6px 10px; text-align: left; white-space: nowrap; }
+table.marked td.num, table.marked th.num { text-align: right; font-variant-numeric: tabular-nums; }
+table.marked tr.incomplete td.total::after { content: " *"; color: var(--warn); }
+.empty { color: var(--muted); }
+.tools { display: flex; flex-wrap: wrap; gap: 10px; margin-top: 12px; align-items: center; }
+.small { font-size: .8rem; color: var(--muted); }
+.visually-hidden { position: absolute; width: 1px; height: 1px; overflow: hidden; clip: rect(0 0 0 0); }
+
+@media (max-width: 760px) {
+  table.rubric, table.rubric tbody, table.rubric tr, table.rubric th, table.rubric td { display: block; width: auto; }
+  table.rubric thead { display: none; }
+  table.rubric th[scope=row] { width: auto; }
+  tr.crit > td:nth-child(2) { border: 0; border-top: 1px solid var(--border); }
+  .ratings { grid-template-columns: 1fr; }
+  .rating { border-left: 0; border-top: 1px solid var(--border); }
+  .rating:first-child { border-top: 0; }
+  td.points { width: auto; text-align: left; }
+  header { padding: 8px 16px; gap: 8px 16px; }
+  header h1 { font-size: 1rem; }
+  header .sub { display: none; }
+  .clock { font-size: 1.3rem; }
+  .score span, .score output { padding: 5px 10px; }
+}
+@media print {
+  header { position: static; }
+  .timer, .actions, section.session, .tools, #descriptors-toggle { display: none !important; }
+  .rating[aria-pressed=true] { box-shadow: inset 0 0 0 2px #000; }
+}
+</style>
+</head>
+<body>
+<header>
+  <div>
+    <h1 id="rubric-title">Marking sheet</h1>
+    <span class="sub">Marking sheet · marks stay in this browser until you export them</span>
+  </div>
+  <div class="timer" role="group" aria-label="Presentation timer">
+    <span class="clock" id="clock" aria-live="off">8:00</span>
+    <button type="button" id="timer-toggle">Start</button>
+    <button type="button" id="timer-reset">Reset</button>
+    <label class="small">slot <input type="number" id="timer-minutes" min="1" max="120" step="1" value="8"> min</label>
+  </div>
+  <div class="score" aria-live="polite">
+    <span>Score</span><output id="total">0 / 0</output>
+  </div>
+</header>
+
+<main>
+  <div class="banner" id="storage-banner" hidden>This browser is not letting the page save (private window or blocked site data). Marks will be lost on reload, so export the CSV before closing.</div>
+  <div class="banner" id="rubric-banner" hidden></div>
+
+  <div class="presenter">
+    <label>Presenter <input type="text" id="student" autocomplete="off"></label>
+    <label>Topic <input type="text" id="topic" autocomplete="off"></label>
+    <span class="progress" id="progress"></span>
+    <label class="small" id="descriptors-toggle" style="flex-direction:row;align-items:center;gap:6px">
+      <input type="checkbox" id="show-descriptors" checked> Show descriptors
+    </label>
+  </div>
+  <div class="banner" id="editing-banner" hidden></div>
+
+  <table class="rubric">
+    <thead><tr><th>Criteria</th><th>Ratings</th><th>Points</th></tr></thead>
+    <tbody id="rubric-body"></tbody>
+  </table>
+
+  <div class="overall">
+    <label for="overall">Overall comment</label>
+    <textarea id="overall" rows="3"></textarea>
+  </div>
+
+  <div class="actions">
+    <button type="button" class="primary" id="commit">Save &amp; next presenter</button>
+    <button type="button" id="copy-feedback">Copy feedback</button>
+    <button type="button" id="clear-sheet">Clear sheet</button>
+    <span class="status" id="status" role="status"></span>
+  </div>
+
+  <section class="session">
+    <h2 id="session-heading">Marked this session</h2>
+    <div class="table-wrap"><table class="marked" id="marked"></table></div>
+    <div class="tools">
+      <button type="button" id="export">Export CSV</button>
+      <button type="button" id="clear-session">Clear session…</button>
+      <span style="flex:1"></span>
+      <label class="small"><span>Mark against another rubric:</span>
+        <input type="file" id="rubric-file" accept=".csv,text/csv"></label>
+      <button type="button" id="builtin" hidden>Back to built-in rubric</button>
+    </div>
+    <p class="small">The rubric is read from a Canvas rubric export (Rubrics → ⋯ → Export). Rows marked * have criteria left unmarked.</p>
+  </section>
+</main>
+
+<script type="text/csv" id="builtin-rubric">
+"Rubric Name","Criteria Name","Criteria Description","Criteria Enable Range","Rating Name","Rating Description","Rating Points","Rating Name","Rating Description","Rating Points","Rating Name","Rating Description","Rating Points","Rating Name","Rating Description","Rating Points","Rating Name","Rating Description","Rating Points"
+"Australian Plate Structure & Evolution Presentation","Application of Course Concepts to Australian Plate Evolution","Applies theoretical concepts from lectures to understand and explain specific aspects of Australian Plate structure and evolution","","Exceeds","Applies course concepts effectively to the Australian Plate context. Uses appropriate examples (which may include modern tectonics, other plate settings, or direct Australian examples) to explain relevant concepts. Demonstrates clear understanding of how theoretical frameworks help interpret Australian Plate structure and evolution.","25.0","Mastery","Applies course concepts well to the Australian context with reasonable examples. Shows good understanding of how theoretical frameworks relate to Australian Plate evolution. May rely more heavily on either modern or historical examples but makes solid connections.","20.0","Sufficient","Makes basic application of course concepts to the topic with some relevant examples. Shows adequate understanding of connections between theory and Australian Plate context, though may lack depth or clarity in some areas.","15.0","Below","Makes weak or superficial connections between course concepts and geological settings. Struggles to demonstrate how theoretical frameworks apply to or illuminate the topic. Limited ability to show relevance to Australian Plate evolution or context. Connections between theory and examples are unclear or poorly developed.","10.0","No Evidence","Not addressed or contains significant misunderstandings of course concepts and their application to geological contexts.","0.0"
+"Australian Plate Structure & Evolution Presentation","Background Research & Integration","Background research beyond lectures, synthesis with course content","","Exceeds","Conducts thorough background research from appropriate sources. Successfully integrates research findings with lecture material to provide enriched understanding. Demonstrates ability to connect additional sources with course content into coherent narrative.","20.0","Mastery","Conducts good background research from suitable sources. Integrates research findings reasonably well with lecture material. Shows ability to synthesize additional material with course content, though may lack some depth.","16.0","Sufficient","Conducts adequate background research. Makes basic integration of research with lecture material, though synthesis may be uneven. Shows some ability to connect additional sources with course content.","12.0","Below","Weak integration of research with lecture material - tends to list facts or information rather than synthesizing into coherent understanding. Limited background research beyond lectures or relies on poor quality sources. Struggles to connect additional material meaningfully with course content.","8.0","No Evidence","Not addressed or contains significant misunderstandings of research integration and synthesis.","0.0"
+"Australian Plate Structure & Evolution Presentation","Communication & Pedagogy","Ability to explain complex topics simply, clear teaching to peers","","Exceeds","Communicates complex topics with clarity and effectiveness. Structures presentation logically to build understanding progressively. Successfully simplifies difficult concepts while maintaining scientific accuracy and engaging peer interest.","20.0","Mastery","Communicates complex topics clearly with good structure. Simplifies difficult concepts reasonably well while maintaining accuracy. Engages peers with logical progression of ideas.","16.0","Sufficient","Communicates the topic adequately with basic structure. Makes some effort to simplify complex material, though clarity may be uneven. Generally understandable to peer audience.","12.0","Below","Unclear explanations that are difficult to follow. Poor structure makes it challenging to understand the progression of ideas. Struggles to simplify complex material for peer audience - may use excessive jargon or fail to break down difficult concepts into accessible components.","8.0","No Evidence","Not addressed or demonstrates significant inability to communicate effectively.","0.0"
+"Australian Plate Structure & Evolution Presentation","Demonstrated Understanding","Through written summary, presenter notes, and Q&A responses","","Exceeds","Written materials demonstrate comprehensive understanding with clear explanations. Handles questions well, showing strong background knowledge and ability to discuss related concepts. Evidence of genuine comprehension rather than memorization.","15.0","Mastery","Written materials show good understanding with clear explanations. Responds to questions reasonably well, demonstrating adequate background knowledge. Shows understanding beyond surface level in most areas.","12.0","Sufficient","Written materials show basic understanding. Answers straightforward questions adequately, though may struggle with more complex queries. Demonstrates acceptable grasp of core concepts.","9.0","Below","Difficulty answering basic questions about the topic, showing limited background knowledge. Tends to repeat information from slides rather than demonstrating deeper understanding. Written summary and presenter notes lack depth or clarity. Struggles to discuss concepts beyond what is explicitly presented.","6.0","No Evidence","Not addressed or demonstrates significant lack of understanding of the topic.","0.0"
+"Australian Plate Structure & Evolution Presentation","Integration of Personal Lab/Field Experience","Integrates their own laboratory, mapping, or field work experience to provide unique insights and authentic connections to the topic","","Exceeds","Effectively integrates personal laboratory, mapping, or field work experience to provide unique insights. Makes authentic connections between their own hands-on work and the presentation topic. Uses personal experience to enhance understanding rather than just reference it.","10.0","Mastery","Integrates personal lab/field experience well with good connections to the topic. Provides some unique insights based on own work. Shows reasonable ability to use personal experience to enhance understanding.","8.0","Sufficient","Makes basic connections between personal lab/field experience and the topic. Provides some personal perspective, though integration may be limited. Shows adequate effort to relate own work to the presentation.","6.0","Below","Makes weak or superficial connections between personal lab/field experience and the topic. Tends to list activities or observations without providing insights or meaningful integration. Fails to demonstrate how personal experience enhances understanding of the topic.","4.0","No Evidence","Not addressed or fails to incorporate personal lab/field experience.","0.0"
+"Australian Plate Structure & Evolution Presentation","Technical Quality","Proper referencing, figure citations, slide structure, presenter notes","","Exceeds","All figures and data properly cited with complete references. Slide structure is clear and professional. Presenter notes are detailed and informative. References formatted correctly and complete.","10.0","Mastery","Most figures and data properly cited with good references. Slide structure is clear and logical. Presenter notes are adequate and helpful. Minor issues with citation format or completeness.","8.0","Sufficient","Basic citation of figures and data with acceptable references. Slide structure is functional though may lack polish. Presenter notes provide basic information. Some inconsistencies in technical execution.","6.0","Below","Missing or incomplete references for sources and figures. Poor slide structure makes presentation difficult to follow. Presenter notes are inadequate or missing, making slides hard to understand independently. Inconsistent or incorrect citation format.","4.0","No Evidence","Not addressed or demonstrates significant failure to meet technical standards.","0.0"
+</script>
+<script>
+(() => {
+  'use strict';
+  const $ = (s) => document.querySelector(s);
+  const el = (tag, props = {}, ...kids) => {
+    const n = document.createElement(tag);
+    for (const [k, v] of Object.entries(props)) {
+      if (k === 'class') n.className = v;
+      else if (k === 'text') n.textContent = v;
+      else if (k.startsWith('on')) n.addEventListener(k.slice(2), v);
+      else if (v !== false && v != null) n.setAttribute(k, v === true ? '' : v);
+    }
+    for (const kid of kids) if (kid != null) n.append(kid);
+    return n;
+  };
+  const fmt = (x) => (x == null ? '—' : String(Math.round(x * 100) / 100));
+
+  // ---- storage: every access guarded, the page must work without it --------
+  const PREFIX = 'rubric-marker/';
+  const store = {
+    get(k) { try { const v = localStorage.getItem(PREFIX + k); return v == null ? null : JSON.parse(v); } catch { return null; } },
+    set(k, v) { try { localStorage.setItem(PREFIX + k, JSON.stringify(v)); return true; } catch { return false; } },
+    del(k) { try { localStorage.removeItem(PREFIX + k); } catch { /* nothing to do */ } },
+  };
+  if (!store.set('probe', 1)) $('#storage-banner').hidden = false;
+
+  // ---- Canvas rubric CSV ----------------------------------------------------
+  function parseCSV(text) {
+    const rows = []; let row = [], f = '', q = false;
+    for (let i = 0; i < text.length; i++) {
+      const c = text[i];
+      if (q) {
+        if (c === '"') { if (text[i + 1] === '"') { f += '"'; i++; } else q = false; }
+        else f += c;
+      } else if (c === '"') q = true;
+      else if (c === ',') { row.push(f); f = ''; }
+      else if (c === '\n' || c === '\r') {
+        if (c === '\r' && text[i + 1] === '\n') i++;
+        row.push(f); rows.push(row); row = []; f = '';
+      } else f += c;
+    }
+    if (f !== '' || row.length) { row.push(f); rows.push(row); }
+    return rows.filter((r) => r.some((x) => x.trim() !== ''));
+  }
+  // Canvas exports can carry entities escaped several times over (Q&amp;amp;amp;A)
+  const scratch = document.createElement('textarea');
+  function decode(s) {
+    for (let i = 0; i < 5; i++) { scratch.innerHTML = s; if (scratch.value === s) break; s = scratch.value; }
+    return s.trim();
+  }
+  function rubricFromCSV(text) {
+    const rows = parseCSV(text.replace(/^﻿/, ''));
+    const head = (rows[0] || []).map((h) => h.trim().toLowerCase());
+    if (head[0] !== 'rubric name' || head[1] !== 'criteria name') {
+      throw new Error('This does not look like a Canvas rubric export: the first columns should be "Rubric Name, Criteria Name".');
+    }
+    let first = head.indexOf('rating name'); if (first < 0) first = 4;
+    const shifted = [];
+    const criteria = rows.slice(1).map((r) => {
+      const c = { name: decode(r[1] || ''), desc: decode(r[2] || ''), ratings: [] };
+      let suspect = false;
+      for (let i = first; i < r.length; i += 3) {
+        const name = decode(r[i] || ''), desc = decode(r[i + 1] || ''), pts = parseFloat(r[i + 2]);
+        if (!name && !desc && Number.isNaN(pts)) continue;
+        // a comma that was not quoted shifts every later field: descriptors turn
+        // up as rating names and point values as descriptors
+        if (Number.isNaN(pts) || /^\d+(\.\d+)?$/.test(desc) || name.length > 60) suspect = true;
+        c.ratings.push({ name, desc, points: Number.isNaN(pts) ? 0 : pts });
+      }
+      if (suspect) shifted.push(c.name);
+      c.max = Math.max(0, ...c.ratings.map((x) => x.points));
+      return c;
+    }).filter((c) => c.name && c.ratings.length);
+    if (!criteria.length) throw new Error('No criteria with ratings were found in that file.');
+    return { title: decode(rows[1][0] || 'Rubric'), criteria, shifted };
+  }
+
+  // ---- state ----------------------------------------------------------------
+  let rubric, key, current, session;
+  const maxTotal = () => rubric.criteria.reduce((a, c) => a + c.max, 0);
+  const totalOf = (rec) => rec.points.reduce((a, p) => a + (p ?? 0), 0);
+  const unmarked = (rec) => rec.points.filter((p) => p == null).length;
+  const levelOf = (ci, p) => (p == null ? null : rubric.criteria[ci].ratings.find((r) => r.points === p) ?? null);
+  const blank = () => ({
+    student: '', topic: '', overall: '', editing: null,
+    points: rubric.criteria.map(() => null), comments: rubric.criteria.map(() => ''),
+  });
+  const hasContent = (rec) => rec.student.trim() || rec.topic.trim() || rec.overall.trim()
+    || rec.points.some((p) => p != null) || rec.comments.some((c) => c.trim());
+  const fits = (rec) => rec && Array.isArray(rec.points) && rec.points.length === rubric.criteria.length;
+  function save() { store.set(key, { current, session }); }
+
+  function useRubric(r) {
+    rubric = r;
+    key = 'marks/' + r.title + '/' + r.criteria.map((c) => c.name).join('|');
+    const saved = store.get(key) || {};
+    current = fits(saved.current) ? saved.current : blank();
+    session = Array.isArray(saved.session) ? saved.session.filter(fits) : [];
+    document.title = r.title + ' · marking sheet';
+    $('#rubric-title').textContent = r.title;
+    const banner = $('#rubric-banner');
+    banner.hidden = !r.shifted.length;
+    banner.textContent = r.shifted.length
+      ? 'These criteria look column-shifted, usually from an unquoted comma in the CSV: '
+        + r.shifted.join('; ') + '. Check their descriptors and points before marking.'
+      : '';
+    buildGrid();
+    syncAll();
+  }
+
+  // ---- the grid -------------------------------------------------------------
+  function buildGrid() {
+    const body = $('#rubric-body');
+    body.replaceChildren();
+    rubric.criteria.forEach((c, ci) => {
+      const ratings = el('div', { class: 'ratings', style: `--n:${c.ratings.length}` });
+      c.ratings.forEach((r, ri) => ratings.append(el('button', {
+        type: 'button', class: 'rating', 'aria-pressed': 'false', 'data-ci': ci, 'data-ri': ri,
+        onclick: () => pick(ci, ri),
+      }, el('span', { class: 'r-name', text: r.name }), el('span', { class: 'r-desc', text: r.desc }),
+         el('span', { class: 'r-pts', text: fmt(r.points) + ' pts' }))));
+      const input = el('input', {
+        type: 'number', class: 'pts', min: 0, max: c.max, step: 'any', inputmode: 'decimal',
+        placeholder: '--', 'data-ci': ci, 'aria-label': `Points for ${c.name}`,
+        oninput: (e) => setPoints(ci, e.target.value, false),
+        onchange: (e) => setPoints(ci, e.target.value, true),
+      });
+      body.append(
+        el('tr', { class: 'crit' },
+          el('th', { scope: 'row' }, el('span', { class: 'c-num', text: 'Criterion ' + (ci + 1) }),
+            el('span', { text: c.name }), el('span', { class: 'c-desc', text: c.desc })),
+          el('td', {}, ratings),
+          el('td', { class: 'points' }, input, el('span', { class: 'of', text: '/' + fmt(c.max) }))),
+        el('tr', { class: 'comment-row' }, el('td', { colspan: 3 }, el('textarea', {
+          rows: 1, class: 'comment', 'data-ci': ci, placeholder: 'Comment (optional)',
+          'aria-label': `Comment on ${c.name}`,
+          oninput: (e) => { current.comments[ci] = e.target.value; save(); },
+        }))));
+    });
+  }
+
+  function pick(ci, ri) {
+    const p = rubric.criteria[ci].ratings[ri].points;
+    current.points[ci] = current.points[ci] === p ? null : p;   // clicking the chosen rating again clears it
+    save(); syncAll();
+  }
+  function setPoints(ci, raw, final) {
+    const c = rubric.criteria[ci];
+    let p = raw === '' ? null : parseFloat(raw);
+    if (Number.isNaN(p)) p = null;
+    if (final && p != null) p = Math.min(c.max, Math.max(0, p));
+    current.points[ci] = p;
+    save(); syncAll();
+  }
+
+  function syncAll() {
+    const typing = document.activeElement;
+    rubric.criteria.forEach((c, ci) => {
+      const p = current.points[ci], level = levelOf(ci, p);
+      document.querySelectorAll(`.rating[data-ci="${ci}"]`).forEach((b) => {
+        b.setAttribute('aria-pressed', String(level === c.ratings[+b.dataset.ri]));
+      });
+      const input = document.querySelector(`input.pts[data-ci="${ci}"]`);
+      if (input !== typing) input.value = p ?? '';
+      input.classList.toggle('invalid', p != null && (p < 0 || p > c.max));
+      const ta = document.querySelector(`textarea.comment[data-ci="${ci}"]`);
+      if (ta !== typing) ta.value = current.comments[ci];
+    });
+    for (const id of ['student', 'topic', 'overall']) if ($('#' + id) !== typing) $('#' + id).value = current[id];
+    $('#total').textContent = `${fmt(totalOf(current))} / ${fmt(maxTotal())}`;
+    const n = rubric.criteria.length;
+    $('#progress').textContent = `${n - unmarked(current)} of ${n} criteria marked`;
+    const editing = session.find((s) => s.id === current.editing);
+    $('#editing-banner').hidden = !editing;
+    $('#editing-banner').textContent = editing ? `Editing the saved marks for ${editing.student}.` : '';
+    $('#commit').textContent = editing ? 'Update & next presenter' : 'Save & next presenter';
+    renderSession();
+  }
+
+  for (const id of ['student', 'topic', 'overall']) {
+    $('#' + id).addEventListener('input', (e) => { current[id] = e.target.value; save(); syncAll(); });
+  }
+
+  // ---- status line ----------------------------------------------------------
+  let statusTimer;
+  function say(msg, error = false) {
+    const s = $('#status');
+    s.textContent = msg; s.classList.toggle('error', error);
+    clearTimeout(statusTimer); statusTimer = setTimeout(() => { s.textContent = ''; }, 6000);
+  }
+
+  // ---- save / edit / clear --------------------------------------------------
+  $('#commit').addEventListener('click', () => {
+    if (!current.student.trim()) { $('#student').focus(); say('Enter the presenter’s name first.', true); return; }
+    const gaps = unmarked(current);
+    if (gaps && !confirm(`${gaps} criteri${gaps === 1 ? 'on has' : 'a have'} no mark yet. Save anyway?`)) return;
+    const rec = {
+      ...current, id: current.editing ?? Date.now().toString(36),
+      points: [...current.points], comments: [...current.comments], savedAt: new Date().toISOString(),
+    };
+    delete rec.editing;
+    const i = session.findIndex((s) => s.id === rec.id);
+    if (i >= 0) session[i] = rec; else session.push(rec);
+    current = blank(); save(); syncAll(); timer.reset();
+    say(`Saved ${rec.student}: ${fmt(totalOf(rec))} / ${fmt(maxTotal())}`);
+    $('#student').focus();
+  });
+  $('#clear-sheet').addEventListener('click', () => {
+    if (hasContent(current) && !confirm('Clear this sheet? Marks already saved to the session are not affected.')) return;
+    current = blank(); save(); syncAll();
+  });
+  function edit(id) {
+    if (hasContent(current) && current.editing !== id
+        && !confirm('The sheet has unsaved marks. Discard them and open this presenter?')) return;
+    const rec = session.find((s) => s.id === id);
+    current = { ...rec, points: [...rec.points], comments: [...rec.comments], editing: id };
+    save(); syncAll(); window.scrollTo({ top: 0, behavior: 'smooth' });
+  }
+  function remove(id) {
+    const rec = session.find((s) => s.id === id);
+    if (!confirm(`Delete the saved marks for ${rec.student}?`)) return;
+    session = session.filter((s) => s.id !== id);
+    if (current.editing === id) current.editing = null;
+    save(); syncAll();
+  }
+  $('#clear-session').addEventListener('click', () => {
+    if (!session.length) return;
+    if (!confirm(`Delete all ${session.length} saved presenters? Export the CSV first if you need them.`)) return;
+    session = []; current.editing = null; save(); syncAll();
+  });
+
+  function renderSession() {
+    const t = $('#marked');
+    $('#session-heading').textContent = `Marked this session (${session.length})`;
+    if (!session.length) {
+      t.replaceChildren(el('tbody', {}, el('tr', {}, el('td', { class: 'empty', text: 'Nobody saved yet.' }))));
+      return;
+    }
+    const head = el('tr', {}, el('th', { text: 'Presenter' }), el('th', { text: 'Topic' }),
+      ...rubric.criteria.map((c, ci) => el('th', { class: 'num', title: c.name, text: `C${ci + 1} /${fmt(c.max)}` })),
+      el('th', { class: 'num', text: 'Total' }), el('th', { text: '' }));
+    const rows = session.map((s) => el('tr', { class: unmarked(s) ? 'incomplete' : '' },
+      el('td', { text: s.student }), el('td', { text: s.topic }),
+      ...s.points.map((p) => el('td', { class: 'num', text: fmt(p) })),
+      el('td', { class: 'num total', text: `${fmt(totalOf(s))} / ${fmt(maxTotal())}` }),
+      el('td', {}, el('button', { type: 'button', text: 'Edit', onclick: () => edit(s.id) }), ' ',
+        el('button', { type: 'button', text: 'Delete', onclick: () => remove(s.id) }))));
+    t.replaceChildren(el('thead', {}, head), el('tbody', {}, ...rows));
+  }
+
+  // ---- feedback text and CSV export -----------------------------------------
+  function feedbackText(rec) {
+    const lines = [rubric.title, `Presenter: ${rec.student}${rec.topic ? ' (' + rec.topic + ')' : ''}`,
+      `Score: ${fmt(totalOf(rec))} / ${fmt(maxTotal())}`, ''];
+    rubric.criteria.forEach((c, ci) => {
+      const p = rec.points[ci], level = levelOf(ci, p);
+      lines.push(`${c.name}: ${level ? level.name + ', ' : ''}${fmt(p)} / ${fmt(c.max)}`);
+      if (rec.comments[ci].trim()) lines.push('  ' + rec.comments[ci].trim());
+    });
+    if (rec.overall.trim()) lines.push('', 'Overall: ' + rec.overall.trim());
+    return lines.join('\n');
+  }
+  async function copy(text) {
+    try { await navigator.clipboard.writeText(text); return true; } catch { /* fall through */ }
+    const ta = el('textarea', { class: 'visually-hidden' }); ta.value = text; document.body.append(ta);
+    ta.select(); let ok = false; try { ok = document.execCommand('copy'); } catch { ok = false; }
+    ta.remove(); return ok;
+  }
+  $('#copy-feedback').addEventListener('click', async () => {
+    if (!hasContent(current)) { say('Nothing on the sheet to copy.', true); return; }
+    const ok = await copy(feedbackText(current));
+    say(ok ? 'Feedback copied: paste it into the LMS comment box.' : 'Copy failed in this browser.', !ok);
+  });
+
+  const cell = (v) => '"' + String(v ?? '').replace(/"/g, '""') + '"';
+  $('#export').addEventListener('click', () => {
+    if (!session.length) { say('No saved presenters to export.', true); return; }
+    if (hasContent(current) && !current.editing) say('Note: the sheet on screen is not saved, so it is not in the export.', true);
+    const head = ['Presenter', 'Topic', ...rubric.criteria.map((c) => `${c.name} (/${fmt(c.max)})`),
+      `Total (/${fmt(maxTotal())})`, 'Overall comment', ...rubric.criteria.map((c) => `${c.name}: comment`), 'Saved'];
+    const rows = session.map((s) => [s.student, s.topic, ...s.points.map((p) => (p == null ? '' : p)),
+      totalOf(s), s.overall, ...s.comments, s.savedAt]);
+    const csv = '﻿' + [head, ...rows].map((r) => r.map(cell).join(',')).join('\r\n');
+    const a = el('a', {
+      href: URL.createObjectURL(new Blob([csv], { type: 'text/csv;charset=utf-8' })),
+      download: `${rubric.title.replace(/[^\w-]+/g, '_')}_marks_${new Date().toISOString().slice(0, 10)}.csv`,
+    });
+    document.body.append(a); a.click(); a.remove();
+    setTimeout(() => URL.revokeObjectURL(a.href), 1000);
+  });
+
+  // ---- timer: counts down the slot, amber for the last two minutes, red after --
+  const timer = (() => {
+    let limit = 8 * 60e3, startedAt = null, elapsed = 0, tick = null;
+    const clock = $('#clock'), toggle = $('#timer-toggle'), minutes = $('#timer-minutes');
+    const now = () => elapsed + (startedAt == null ? 0 : Date.now() - startedAt);
+    function draw() {
+      const left = limit - now(), s = Math.round(Math.abs(left) / 1000);
+      clock.textContent = (left < 0 ? '+' : '') + Math.floor(s / 60) + ':' + String(s % 60).padStart(2, '0');
+      clock.classList.toggle('warn', left >= 0 && left <= 120e3);
+      clock.classList.toggle('over', left < 0);
+    }
+    function start() { startedAt = Date.now(); tick = setInterval(draw, 250); toggle.textContent = 'Pause'; }
+    function pause() { elapsed = now(); startedAt = null; clearInterval(tick); toggle.textContent = 'Start'; draw(); }
+    function reset() { if (startedAt != null) pause(); elapsed = 0; draw(); }
+    toggle.addEventListener('click', () => (startedAt == null ? start() : pause()));
+    $('#timer-reset').addEventListener('click', reset);
+    minutes.addEventListener('change', () => {
+      const m = Math.min(120, Math.max(1, parseFloat(minutes.value) || 8));
+      minutes.value = m; limit = m * 60e3; store.set('minutes', m); draw();
+    });
+    const savedMinutes = store.get('minutes');
+    if (savedMinutes) { minutes.value = savedMinutes; limit = savedMinutes * 60e3; }
+    draw();
+    return { reset };
+  })();
+
+  // ---- descriptors toggle ---------------------------------------------------
+  const showDesc = $('#show-descriptors');
+  showDesc.checked = store.get('descriptors') !== false;
+  document.body.classList.toggle('compact', !showDesc.checked);
+  showDesc.addEventListener('change', () => {
+    document.body.classList.toggle('compact', !showDesc.checked);
+    store.set('descriptors', showDesc.checked);
+  });
+
+  // ---- choosing a rubric ----------------------------------------------------
+  const builtin = rubricFromCSV($('#builtin-rubric').textContent.trim());
+  $('#rubric-file').addEventListener('change', async (e) => {
+    const file = e.target.files[0]; if (!file) return;
+    try {
+      const text = await file.text();
+      const r = rubricFromCSV(text);
+      store.set('custom-rubric', text);
+      useRubric(r); $('#builtin').hidden = false;
+      say(`Loaded "${r.title}" (${r.criteria.length} criteria).`);
+    } catch (err) { say(err.message, true); }
+    e.target.value = '';
+  });
+  $('#builtin').addEventListener('click', () => {
+    store.del('custom-rubric'); useRubric(builtin); $('#builtin').hidden = true;
+  });
+
+  let start = builtin;
+  const custom = store.get('custom-rubric');
+  if (custom) { try { start = rubricFromCSV(custom); $('#builtin').hidden = false; } catch { store.del('custom-rubric'); } }
+  useRubric(start);
+})();
+</script>
+</body>
+</html>

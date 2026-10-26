@@ -63,3 +63,9 @@ measured approximately just by pouring the material into a pile and seeing the s
 ## Exercise 8, Balancing and Restoring Cross sections
 
 [Exercise 8 Worksheet](Exercises/CrossSection)
+
+## Assessed presentation: Structure & Evolution of the Australian Plate
+
+Choose a topic on the structure and evolution of the Australian Plate and give an 8-minute presentation (including questions) to the class, with a written summary of about 500 words. The page below has the brief and the full marking rubric.
+
+[Presentation brief and rubric](Exercises/AustralianPlatePresentation)

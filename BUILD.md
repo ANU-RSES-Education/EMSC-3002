@@ -12,6 +12,7 @@ its config lives untouched under `Jupyterbook/_config.yml` / `_toc.yml`).
 | Book pages | `mystmd` (Jupyter Book 2 engine) | `myst.yml` (repo root) + `Jupyterbook/`, `Lectures/*.md`, `Notebooks/` | `_build/html/` |
 | Slide decks | `mkslides` (reveal.js 5) | `Lectures/*.reveal.md` + `Lectures/mkslides.yml` + `Lectures/css/anu.css` | `_build/html/slideshows/` |
 | Lecture PDFs | copied | `Lectures/static_pdfs/PDFs/` | `_build/html/PDFs/` |
+| Rubrics + marking sheet | copied | `Jupyterbook/Exercises/Rubrics/` | `_build/html/rubrics/` |
 
 Everything is orchestrated by `build.sh`; the toolchain is managed by **pixi**
 (`pixi.toml` — mystmd from conda-forge, mkslides from PyPI, plus python-pptx /

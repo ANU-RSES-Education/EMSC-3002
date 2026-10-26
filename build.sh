@@ -43,4 +43,9 @@ if [ -d Lectures/static_pdfs/PDFs ]; then
   cp -R Lectures/static_pdfs/PDFs/. "$OUT/PDFs/" || true
 fi
 
+# Rubrics (markdown, Canvas CSV, marking sheet) at a stable /rubrics/ URL: the
+# marking sheet is opened in the lecture room, so it should not move between builds.
+mkdir -p "$OUT/rubrics"
+cp -R Jupyterbook/Exercises/Rubrics/. "$OUT/rubrics/"
+
 echo "==> Done. Site at: $OUT"

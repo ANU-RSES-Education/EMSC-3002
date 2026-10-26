@@ -31,6 +31,7 @@ project:
             - file: Jupyterbook/Exercises/StereographicProjections.md
             - file: Jupyterbook/Exercises/StereonetBrittle.md
             - file: Jupyterbook/Exercises/CrossSection.md
+            - file: Jupyterbook/Exercises/AustralianPlatePresentation.md
         - file: Jupyterbook/Project_Ideas.md
 
     - title: Lecture Notes
