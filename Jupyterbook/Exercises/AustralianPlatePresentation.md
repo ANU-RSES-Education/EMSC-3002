@@ -39,7 +39,7 @@ This rubric is an example: adapt the criteria, weights and descriptors to suit y
 
  - <a href="/rubrics/AustralianPlatePresentation.md">Markdown</a>, the table above, to paste into a course page.
  - <a href="/rubrics/AustralianPlatePresentation.csv">CSV</a> in the Canvas rubric format: import it under *Rubrics → Import* in Canvas.
- - An interactive <a href="/rubrics/marking.html">marking sheet</a> for marking talks as they are given. It has a slot timer, a per-presenter score sheet and a CSV export of the marks. It loads any Canvas rubric export, and it keeps marks in your browser only.
+ - A printable <a href="/rubrics/AustralianPlatePresentation-marking-sheet.pdf">marking sheet</a> (PDF, one A4 page per presenter) for marking the talks as they are given. `tools/rubric-sheet/make_sheet.py` in the [course repository](https://github.com/ANU-RSES-Education/EMSC-3002) makes the same sheet from any Canvas rubric export, with one pre-named page per student if you give it a class list.
 
 ::::
 
